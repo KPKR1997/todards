@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Boy's hand blown off in France student protest violence",
-          "image": "https://images.pexels.com/photos/9610165/pexels-photo-9610165.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Student's hand blown off during France protests amid school dispute",
+          "image": "https://images.unsplash.com/photo-1617699746668-3642fd0658a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RnJhbmNlJTIwc3R1ZGVudCUyMHByb3Rlc3R8ZW58MXwwfHx8MTc5MTIzMjc0OHww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Lens, France",
           "time": "Oct 06, 2026",
-          "content": "A 15-year-old boy's hand was blown off during a confrontation between police and demonstrators near a school in France, according to officials. The incident occurred in the northern city of Lens on Monday morning, as student protests continue across the country. At least 190 students have been injured since the protests began, with 5,000 people arrested, including 85% minors. The recent wave of protests began in late September, with students complaining about a lack of teachers and staff, overcrowded classrooms, and run-down buildings.",
+          "content": "A 15-year-old boy's hand was blown off during a confrontation between police and demonstrators near a school in France, an official said. The \"very serious incident\" occurred in the northern city of Lens on Monday morning, with the student's life not in danger. The incident happened amid student protests over school conditions and staffing, which have led to clashes with police. At least 190 students have been injured since the protests began, with over 5,000 people arrested, mostly minors. The government has set up a consultation platform for students to share their experiences, aiming to resolve most problematic situations by October 16.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "US Defence Department Stops Using Anthropic's AI Tools Over National Security Concerns",
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTExODA3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "Ukraine's President Zelensky Condemns Russian Attack on Turkish Vessel in Black Sea",
+          "image": "https://images.pexels.com/photos/13312744/pexels-photo-13312744.png?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Romania",
           "time": "Oct 06, 2026",
-          "content": "The US Department of Defence has ceased using Anthropic's AI tools, a supply chain risk on national security grounds, despite initially designating the company as a risk in February. The Pentagon had been using Anthropic's Claude model for research, analysis, and intelligence gathering, but has now removed all use of the tool. The move follows a dispute over safety guardrails and concerns about mass surveillance and autonomous weapons. The Pentagon has since signed contracts with other tech companies, including Google and OpenAI.",
+          "content": "Ukraine's President Volodymyr Zelensky condemned a \"horrific\" Russian attack on a Turkish-owned vessel carrying corn in the Black Sea, killing the captain and leaving another sailor unaccounted for. Eleven crew members from Azerbaijan and India were rescued. Romania's interior ministry confirmed the attack, with two people killed. Zelensky urged countries to \"help\" restore global food security, as Russia's attacks on Ukrainian infrastructure continue. The strike follows Russia's intensification of strikes across Ukraine in response to Zelensky's comments on attacking Russian oil refineries. The conflict has raised concerns about global food security and potential escalation.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "US Bombers Relocated from UK Base Amid Unspecified Iran-Linked Threat",
-          "image": "https://images.unsplash.com/photo-1651026007147-89d5df776975?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Qi0xJTIwYm9tYmVyfGVufDF8MHx8fDE3OTEyMzI5OTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
+          "title": "US Defence Department halts use of Anthropic's AI tools over national security concerns",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTExODA3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
           "time": "Oct 06, 2026",
-          "content": "US bombers stationed in the UK were relocated to their American bases after an unspecified new threat, officials said. The move comes after the British government arrested several individuals in connection with an alleged Iranian plot to target the airbase. President Trump confirmed the threat, saying \"there were some threats, and rather than tempting the enemy, we'll capture the enemy and beat the enemy.\" Vice President JD Vance described the move as \"out of an abundance of caution\" and tied it to potential threats from Iran. The US Secretary of State downplayed the removal, saying it was part of regular rotations.",
+          "content": "The US Department of Defence has ceased using Anthropic's AI tools, including the Claude model, after designating the company a supply chain risk on national security grounds in February. The Pentagon had initially ordered the phase-out by late August, but the delay was attributed to the model's deep integration into the Maven Smart System, operated by Palantir. The move comes amid a legal battle between Anthropic and the government over the designation. The Pentagon has since signed contracts with other major tech companies, including Google and OpenAI.",
           "theme": "#F7ECEE"
         }
       ]
