@@ -1,0 +1,389 @@
+/* Todards Global Layout & Paper Theme Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.02) 1px, transparent 0);
+  background-size: 24px 24px;
+  overflow-x: hidden;
+}
+
+/* App Header Bar - Tall Navbar with Logo Top-Left, Cursive Caption Center, About Link Right */
+.site-header {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 3.5rem;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(246, 244, 239, 0.95);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.brand-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.brand-title {
+  font-family: var(--font-serif);
+  font-size: 2.3rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #111111;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Soft Cursive Caption Banner in Navbar Center */
+.top-cursive-caption {
+  text-align: center;
+  max-width: 820px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.caption-line-1,
+.caption-line-2 {
+  font-family: var(--font-cursive);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #4a4a4a;
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+}
+
+.caption-line-2 {
+  margin-top: 0.2rem;
+  color: #666666;
+  font-size: 1.22rem;
+}
+
+/* Header Action Nav Links */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-link-btn {
+  padding: 0.55rem 1.2rem;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #111111;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-block;
+}
+
+.nav-link-btn:hover {
+  background-color: #111111;
+  color: #ffffff;
+  border-color: #111111;
+}
+
+/* Single-Row Body Section for Search Bar + Issue (Left) + Date (Right) - ALL ON SAME LEVEL */
+.search-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1540px;
+  margin: 0 auto;
+  padding: 1.5rem 3.5rem 0.5rem;
+  gap: 1.5rem;
+}
+
+.search-bar-container {
+  flex: 1;
+  max-width: 460px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.65rem 2.75rem 0.65rem 1.25rem;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+  font-size: 0.92rem;
+  color: var(--text-primary);
+  outline: none;
+  transition: all 0.2s ease;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.search-input:focus {
+  border-color: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+.search-icon {
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.meta-issue-green,
+.meta-date-violet {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #777777;
+  letter-spacing: 0.12em;
+  font-family: var(--font-sans);
+  white-space: nowrap;
+}
+
+/* Main Content Area */
+.app-container {
+  max-width: 1540px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.5rem 2.5rem 5rem;
+  flex: 1;
+}
+
+/* Section Stack Grid */
+.sections-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 3.5rem;
+  align-items: start;
+  margin-bottom: 4rem;
+}
+
+/* Page Footer */
+.site-footer {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--border-light);
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.footer-copyright {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-left: 0.85rem;
+  padding-left: 0.85rem;
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+  letter-spacing: 0.02em;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-line {
+  width: 40px;
+  height: 1px;
+  background-color: var(--text-muted);
+  display: inline-block;
+}
+
+/* Floating Action Button for Live JSON Modal/Drawer */
+.btn-json-editor {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  z-index: 90;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.65rem 1.1rem;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 30px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  transition: all 0.25s ease;
+}
+
+.btn-json-editor:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.35);
+  background-color: #000000;
+}
+
+/* About Todards Page Section View (Pixel-perfect to reference design image) */
+.about-page-container {
+  width: 100%;
+  max-width: 860px;
+  margin: 2.5rem auto 5rem;
+  padding: 0 1.5rem;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.about-card-paper {
+  background-color: var(--bg-paper);
+  border-radius: 24px;
+  padding: 4rem 4.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.03);
+}
+
+.about-header-eyebrow span {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: #666666;
+}
+
+.about-accent-line {
+  width: 38px;
+  height: 2px;
+  background-color: #d69e2e;
+  margin-top: 0.6rem;
+  margin-bottom: 2.2rem;
+}
+
+.about-main-title {
+  font-family: var(--font-serif);
+  font-size: 3.4rem;
+  font-weight: 500;
+  line-height: 1.12;
+  color: #111111;
+  margin-bottom: 2.5rem;
+  letter-spacing: -0.01em;
+}
+
+.about-body-content p {
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: #333333;
+  margin-bottom: 1.8rem;
+  font-weight: 400;
+}
+
+.about-highlight-quote {
+  font-size: 1.16rem;
+  color: #111111;
+  font-weight: 500;
+  margin-top: 2.2rem;
+}
+
+.about-footer-brand {
+  margin-top: 4.5rem;
+}
+
+.about-footer-line {
+  width: 44px;
+  height: 2px;
+  background-color: #d69e2e;
+  margin-bottom: 1.25rem;
+}
+
+.about-footer-logo {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+  color: #111111;
+}
+
+.about-footer-tagline {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-top: 0.25rem;
+}
+
+/* Responsive Mobile & Tablet Breakpoints */
+@media (max-width: 768px) {
+  .site-header {
+    padding: 1rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .top-cursive-caption {
+    display: none;
+  }
+
+  .body-search-section {
+    padding: 1.25rem 1.25rem 0.25rem;
+  }
+
+  .pub-meta-bar {
+    padding: 0.75rem 1.25rem 0.25rem;
+  }
+
+  .about-card-paper {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .about-main-title {
+    font-size: 2.4rem;
+  }
+
+  .brand-title {
+    font-size: 1.8rem;
+  }
+
+  .app-container {
+    padding: 0.5rem 0.85rem 4rem;
+  }
+
+  .sections-grid {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}

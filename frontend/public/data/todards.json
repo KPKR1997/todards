@@ -1,0 +1,237 @@
+{
+  "publication": {
+    "brand": "Todards.",
+    "subtitle": "The global today cards",
+    "issue": "Issue No. 7",
+    "tagline": "THREE STORIES A DAY",
+    "heroTitle": "A clearer world in three cards",
+    "heroDescription": "Essential science and technology news, simplified.",
+    "publishedAt": "05 October 2026",
+    "footerLeft": "Journalism Automated",
+    "footerRight": "Simple news. Deeper understanding."
+  },
+  "sections": [
+    {
+      "id": "people",
+      "title": "People & Politics",
+      "eyebrow": "PEOPLE & POLITICS",
+      "description": "Important developments in governments, societies and the people shaping the world.",
+      "accent": "#7A3E48",
+      "tint": "#F7ECEE",
+      "cards": [
+        {
+          "id": "pp-1",
+          "title": "US Removes B-1 Bombers from RAF Fairford Amid Security Concerns",
+          "image": "https://images.pexels.com/photos/33347014/pexels-photo-33347014.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Gloucestershire",
+          "time": "Oct 06, 2026",
+          "content": "The US has withdrawn its bombers from RAF Fairford, a military base in Gloucestershire, following a major incident last week. The Pentagon confirmed the removal of about a dozen B-1s, citing new threats and a desire to protect the strategic asset. The move is said to be a military decision, taken at an operational level, and communicated to British counterparts. The UK government has assured the public that the base is safe, with Defence Secretary Wes Streeting stating that tested approaches will be used to defend the base. The US Secretary of State has also expressed confidence in the security of all US bases, including RAF Fairford.",
+          "theme": "#F7ECEE"
+        },
+        {
+          "id": "pp-2",
+          "title": "French boy's hand blown off in police-demonstrator clash in Lens",
+          "image": "https://images.pexels.com/photos/14885783/pexels-photo-14885783.png?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Lens, France",
+          "time": "Oct 06, 2026",
+          "content": "A 15-year-old boy's hand was blown off during a confrontation between police and demonstrators near a school in France, prompting an official investigation. The incident occurred in the northern city of Lens on Monday morning, with around 500 schools partially or totally closed across the country amid student protests over school conditions and staffing. At least 190 students have been injured since the protests began, with one student suffering a double jaw fracture after being struck by a tear gas grenade. The French government has launched an investigation into the incident and plans to set up a consultation platform for students to share their experiences.",
+          "theme": "#F7ECEE"
+        },
+        {
+          "id": "pp-3",
+          "title": "London knife attack kills one, injures two; family of five murdered in Walkden arson",
+          "image": "https://images.unsplash.com/photo-1637016887843-c6d136c06d74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UG9saWNlfGVufDF8MHx8fDE3OTEyMjc4ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Leeds, England",
+          "time": "Oct 06, 2026",
+          "content": "A violent knife attack in west London left one person dead and two others injured. In a separate incident, a family of five was murdered in an arson attack at their home in Walkden. A public inquiry found that violent content and weapons sales remained online despite being reported. In another incident, a tree surgeon was rescued by firefighters in Leicestershire. The England and Wales Cricket Board will consider funding a women's Test in the West Indies to aid England's Ashes preparations. Motorists are struggling with soaring diesel costs, and a father is awaiting confirmation of a half-marathon record.",
+          "theme": "#F7ECEE"
+        }
+      ]
+    },
+    {
+      "id": "science and technology",
+      "title": "Science and technology",
+      "eyebrow": "SCIENCE & TECHNOLOGY",
+      "description": "Discover breakthroughs in science, space, computing and emerging technology.",
+      "accent": "#2E4B7C",
+      "tint": "#EBF2FA",
+      "cards": [
+        {
+          "id": "st-1",
+          "title": "Nvidia Acquires Groq Assets Without Stockholder Vote, Lawsuit Claims",
+          "image": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTExODA3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Delaware",
+          "time": "Oct 05, 2026",
+          "content": "A lawsuit filed by former Groq engineers Joshua Rubin and Benjamin Serebrin alleges that Nvidia's $20 billion deal to acquire assets from Groq \"squeezed out\" stockholders. The deal, announced in December, offered a \"lowball\" price to stockholders, according to the lawsuit. Groq's board of directors allegedly sold the company to Nvidia without a stockholder vote, prioritizing a licensing agreement and employee stock options. The deal resulted in the transfer of approximately 150 to 200 Groq engineers to Nvidia, with CEO Jensen Huang stating the agreement would expand Nvidia's AI capabilities.",
+          "theme": "#EBF2FA"
+        },
+        {
+          "id": "st-2",
+          "title": "Stock futures stable; Strait of Hormuz crisis and AI wearables concerns weigh",
+          "image": "https://images.unsplash.com/photo-1651341050677-24dba59ce0fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c3RvY2slMjBtYXJrZXR8ZW58MXwwfHx8MTc5MTIwNzcyMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 05, 2026",
+          "content": "Stock futures are little changed following a mixed week on Wall Street, with oil tankers in the Middle East being hit in recent days as Iran refuses to budge on its conditions for reopening the Strait of Hormuz, casting doubt on the global oil trade's recovery. Meanwhile, investors should be cautious of privacy concerns surrounding artificial intelligence-powered wearables, as major technology companies have bet on these devices to make their mark on the consumer hardware space.",
+          "theme": "#EBF2FA"
+        },
+        {
+          "id": "t-3",
+          "title": "Microsoft CEO Prioritizes AI Deployment Within Enterprises",
+          "image": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUl8ZW58MXwwfHx8MTc5MTIwMDMwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Seattle, USA",
+          "time": "Oct 05, 2026",
+          "content": "Microsoft CEO Satya Nadella emphasized the importance of \"diffusion inside the enterprise\" to adapt to the AI age, highlighting the need for AI tools to be widely deployed. Microsoft is trying to magnify its role in the AI boom, but faces challenges as Nvidia dominates in AI chips and Google's Gemini-powered services are popular. Nadella's AI strategy is centered around Copilot, but the company's sluggishness in keeping up with rapid changes has cost GitHub market share. Microsoft is now shifting to consumption-based pricing, with usage-based billing for Copilot Cowork, a new product. Nadella aims to empower nontechnical knowledge workers and has been downplaying the importance of world-beating models in isolation.",
+          "theme": "#EBF2FA"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health & wellness",
+      "eyebrow": "HEALTH & WELLNESS",
+      "description": "Medical research, public health and discoveries that affect everyday wellbeing.",
+      "accent": "#2F7668",
+      "tint": "#E8F5F1",
+      "cards": [
+        {
+          "id": "hw-1",
+          "title": "US and German Scientists Win Nobel Prize for Optogenetics Breakthrough",
+          "image": "https://images.unsplash.com/photo-1617791160536-598cf32026fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YnJhaW58ZW58MXwwfHx8MTc5MTIwNDA3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
+          "time": "Oct 05, 2026",
+          "content": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded the Nobel Prize in Physiology or Medicine for their pioneering work in optogenetics. Their research has revealed how to switch on and off neural circuits, laying the foundation for a new era in neuroscience. The Nobel Committee praised their work, saying it has fundamentally altered our understanding of the brain and is helping to solve one of humanity's great mysteries. The trio's discovery has already led to important insights into psychiatric and neurological disorders, and has the potential to restore sight in people with visual impairment.",
+          "theme": "#E8F5F1"
+        },
+        {
+          "id": "hw-2",
+          "title": "Neck strain rises with screen time, experts warn",
+          "image": "https://images.pexels.com/photos/12903349/pexels-photo-12903349.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London",
+          "time": "Oct 05, 2026",
+          "content": "The modern world can be challenging for necks, with millions spending hours with heads bent over laptops and smartphones. This can increase the load on necks by up to 60 pounds, leading to strain and discomfort. As we age, natural changes can cause neck problems, and technology's impact on posture adds to the strain. Neck pain can be mitigated through simple exercises, such as looking to the side and gently lengthening the neck. Good posture, regular movement, and breaks from screens can also help.",
+          "theme": "#E8F5F1"
+        },
+        {
+          "id": "hw-3",
+          "title": "Wales sees one-third of men die prematurely, urging health plan",
+          "image": "https://images.pexels.com/photos/17428267/pexels-photo-17428267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Cardiff, Wales",
+          "time": "Oct 05, 2026",
+          "content": "A report from men's charity Movember highlights alarming statistics on men's health in Wales, where a third of men die before their 75th birthday. Ben Lidgey's personal experience, which began with a minor testicular injury, led to a cancer diagnosis and later, mental health concerns. The report urges the Welsh government to develop a dedicated plan for men's health, citing high rates of premature mortality due to preventable conditions. The Welsh economy faces annual costs of £1.4 billion from the top five causes of male premature death. Experts emphasize the importance of addressing men's reluctance to seek help for both physical and mental health issues.",
+          "theme": "#E8F5F1"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "eyebrow": "EARTH & ENVIRONMENT",
+      "description": "Climate, oceans, ecosystems and the changing planet around us.",
+      "accent": "#28705D",
+      "tint": "#E7F4EF",
+      "cards": [
+        {
+          "id": "env-1",
+          "title": "Coral restoration projects show promising signs of recovery",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=82",
+          "place": "Cairns, Australia",
+          "time": "Sep 21, 2026",
+          "content": "Marine scientists are testing new methods to restore coral reefs damaged by warming oceans and other environmental pressures. Some projects are combining coral breeding with carefully selected resilient colonies to improve the chances of recovery.",
+          "theme": "#E7F4EF"
+        },
+        {
+          "id": "env-2",
+          "title": "Underwater sensors reveal previously unknown whale migration patterns",
+          "image": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1200&q=82",
+          "place": "Reykjavik, Iceland",
+          "time": "Sep 19, 2026",
+          "content": "Networks of underwater microphones are helping scientists track whale movements across remote parts of the ocean. The recordings can reveal migration routes and important feeding areas without researchers having to follow the animals directly.",
+          "theme": "#E7F4EF"
+        },
+        {
+          "id": "env-3",
+          "title": "Floating solar farms expand renewable energy production",
+          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=82",
+          "place": "Singapore",
+          "time": "Sep 17, 2026",
+          "content": "Floating solar installations are becoming an increasingly attractive option for regions where land is limited. Panels installed on reservoirs and other water bodies can generate electricity while reducing pressure on valuable land resources.",
+          "theme": "#E7F4EF"
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "title": "Entertainment",
+      "eyebrow": "SPORTS & ENTERTAINMENT",
+      "description": "Stories from film, music, sports, culture and the world of entertainment.",
+      "accent": "#704A83",
+      "tint": "#F3ECF7",
+      "cards": [
+        {
+          "id": "ent-1",
+          "title": "Global film festivals spotlight a new generation of filmmakers",
+          "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=82",
+          "place": "Toronto, Canada",
+          "time": "Sep 21, 2026",
+          "content": "Film festivals around the world are giving greater attention to emerging directors and independent productions. Organisers say new filmmakers are experimenting with storytelling techniques and technologies while exploring social and cultural themes.",
+          "theme": "#F3ECF7"
+        },
+        {
+          "id": "ent-2",
+          "title": "New stadium technology changes how fans experience live sports",
+          "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1200&q=82",
+          "place": "London, UK",
+          "time": "Sep 19, 2026",
+          "content": "Sports venues are adopting larger digital displays, real-time statistics and connected services to create more interactive experiences for spectators. The technology is also helping teams analyse matches and improve stadium operations.",
+          "theme": "#F3ECF7"
+        },
+        {
+          "id": "ent-3",
+          "title": "Music platforms experiment with new ways for artists to reach audiences",
+          "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=82",
+          "place": "Los Angeles, USA",
+          "time": "Sep 18, 2026",
+          "content": "Music platforms are experimenting with new discovery tools, personalised recommendations and direct connections between artists and listeners. The changes are reshaping how new musicians build audiences and release their work.",
+          "theme": "#F3ECF7"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "title": "economy",
+      "eyebrow": "ECONOMY & BUSINESS",
+      "description": "Markets, businesses, trade and economic changes shaping the global economy.",
+      "accent": "#8A6A24",
+      "tint": "#F7F1DE",
+      "cards": [
+        {
+          "id": "eb-1",
+          "title": "Global manufacturers increase investment in clean energy infrastructure",
+          "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=82",
+          "place": "Frankfurt, Germany",
+          "time": "Sep 21, 2026",
+          "content": "Manufacturing companies are increasing spending on renewable electricity, energy-efficient equipment and cleaner production systems. Businesses are looking to reduce operating costs while preparing for stricter environmental requirements and changing energy markets.",
+          "theme": "#F7F1DE"
+        },
+        {
+          "id": "eb-2",
+          "title": "Global trade adjusts as companies rethink supply chains",
+          "image": "https://images.unsplash.com/photo-1586528116493-da8b5f7c9f65?auto=format&fit=crop&w=1200&q=82",
+          "place": "Singapore",
+          "time": "Sep 19, 2026",
+          "content": "Companies are continuing to redesign supply chains in response to changing trade policies, transportation costs and geopolitical risks. Many businesses are looking for ways to diversify suppliers and make production networks more resilient.",
+          "theme": "#F7F1DE"
+        },
+        {
+          "id": "eb-3",
+          "title": "Small businesses increasingly adopt artificial intelligence tools",
+          "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
+          "place": "Bengaluru, India",
+          "time": "Sep 17, 2026",
+          "content": "Small businesses are adopting AI tools for customer support, marketing, document processing and data analysis. Lower-cost AI services are making technologies that were previously available mainly to large companies more accessible to smaller firms.",
+          "theme": "#F7F1DE"
+        }
+      ]
+    }
+  ]
+}

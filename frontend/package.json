@@ -1,0 +1,14 @@
+{
+  "name": "todards-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx -y vite --host",
+    "build": "npx -y vite build",
+    "preview": "npx -y vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
+}

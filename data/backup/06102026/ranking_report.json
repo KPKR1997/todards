@@ -1,0 +1,137 @@
+[
+    {
+        "rank": 1,
+        "id": "pp-22",
+        "category": "people",
+        "title": "No 10 insists RAF Fairford is safe after US withdraws bombers",
+        "score": {
+            "base_score": 15.3,
+            "event_multiplier": 1.25,
+            "severity_multiplier": 1.2,
+            "freshness_multiplier": 1.05,
+            "source_multiplier": 1.0,
+            "final_score": 24.1
+        },
+        "analysis": {
+            "everyday_impact": 20,
+            "dont_miss": 0,
+            "human_consequence": 10,
+            "economic_impact": 0,
+            "political_significance": 80,
+            "health_significance": 0,
+            "scientific_significance": 0,
+            "entertainment_significance": 0,
+            "remarkability": 0,
+            "global_reach": 60,
+            "urgency": 80,
+            "severity_tier": 4,
+            "events": {
+                "major_disaster": false,
+                "mass_casualties": false,
+                "pandemic": false,
+                "election": false,
+                "major_political_change": true,
+                "major_economic_event": false,
+                "major_award": false,
+                "celebrity_death": false,
+                "record_breaking": false,
+                "unprecedented_event": false,
+                "major_scientific_discovery": false,
+                "major_technology_event": false
+            },
+            "reason": "This article matters because it highlights a significant political development, the withdrawal of US bombers from RAF Fairford, which could have major implications for global security and international relations."
+        },
+        "source_count": 1,
+        "cluster_size": 1
+    },
+    {
+        "rank": 2,
+        "id": "pp-27",
+        "category": "people",
+        "title": "Teenager's hand blown off during confrontation between France school protesters and police",
+        "score": {
+            "base_score": 9.5,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.1,
+            "freshness_multiplier": 1.05,
+            "source_multiplier": 1.0,
+            "final_score": 10.97
+        },
+        "analysis": {
+            "everyday_impact": 0,
+            "dont_miss": 0,
+            "human_consequence": 50,
+            "economic_impact": 0,
+            "political_significance": 20,
+            "health_significance": 0,
+            "scientific_significance": 0,
+            "entertainment_significance": 0,
+            "remarkability": 0,
+            "global_reach": 0,
+            "urgency": 0,
+            "severity_tier": 3,
+            "events": {
+                "major_disaster": false,
+                "mass_casualties": false,
+                "pandemic": false,
+                "election": false,
+                "major_political_change": false,
+                "major_economic_event": false,
+                "major_award": false,
+                "celebrity_death": false,
+                "record_breaking": false,
+                "unprecedented_event": false,
+                "major_scientific_discovery": false,
+                "major_technology_event": false
+            },
+            "reason": "This article matters because it highlights a concerning situation in France where a 15-year-old boy's hand was blown off during a confrontation between police and student protesters, revealing the escalating tensions and potential harm to students in the midst of a national movement."
+        },
+        "source_count": 1,
+        "cluster_size": 1
+    },
+    {
+        "rank": 3,
+        "id": "pp-13",
+        "category": "people",
+        "title": "UK",
+        "score": {
+            "base_score": 7.7,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.05,
+            "freshness_multiplier": 1.05,
+            "source_multiplier": 1.0,
+            "final_score": 8.49
+        },
+        "analysis": {
+            "everyday_impact": 10,
+            "dont_miss": 0,
+            "human_consequence": 20,
+            "economic_impact": 5,
+            "political_significance": 0,
+            "health_significance": 15,
+            "scientific_significance": 0,
+            "entertainment_significance": 5,
+            "remarkability": 10,
+            "global_reach": 5,
+            "urgency": 0,
+            "severity_tier": 2,
+            "events": {
+                "major_disaster": false,
+                "mass_casualties": false,
+                "pandemic": false,
+                "election": false,
+                "major_political_change": false,
+                "major_economic_event": false,
+                "major_award": false,
+                "celebrity_death": false,
+                "record_breaking": false,
+                "unprecedented_event": false,
+                "major_scientific_discovery": false,
+                "major_technology_event": false
+            },
+            "reason": "This article matters because it reports on a series of human-interest stories, including a tragic murder and an accident involving a lorry, which can have a significant impact on everyday life. It also touches on issues like economic concerns and healthcare, making it a relevant and important read."
+        },
+        "source_count": 1,
+        "cluster_size": 1
+    }
+]

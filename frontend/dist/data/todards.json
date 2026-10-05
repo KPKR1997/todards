@@ -1,0 +1,126 @@
+{
+  "publication": {
+    "brand": "Todards.",
+    "subtitle": "The global today cards",
+    "issue": "Issue No. 248",
+    "tagline": "THREE STORIES A DAY",
+    "heroTitle": "A clearer world in three cards",
+    "heroDescription": "Essential science and technology news, simplified.",
+    "publishedAt": "21 September 2026",
+    "footerLeft": "Journalism Automated",
+    "footerRight": "Simple news. Deeper understanding."
+  },
+  "sections": [
+    {
+      "id": "space-science",
+      "title": "Space & Exploration",
+      "eyebrow": "SCIENCE & TECHNOLOGY",
+      "description": "Deep space missions and cosmic discovery.",
+      "accent": "#2e4b7c",
+      "tint": "#ebf2fa",
+      "cards": [
+        {
+          "id": "space-1",
+          "title": "Jupiter's moon Europa shows strongest signs yet of subsurface ocean",
+          "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=1200&q=82",
+          "place": "Cape Canaveral, USA",
+          "time": "Sep 21, 2026",
+          "content": "New data from NASA's Europa Clipper suggests a thicker, more dynamic ocean beneath the ice, raising hopes for habitability.",
+          "theme": "#ebf2fa"
+        },
+        {
+          "id": "space-2",
+          "title": "James Webb Space Telescope detects organic molecules in distant exoplanet atmosphere",
+          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=82",
+          "place": "Baltimore, USA",
+          "time": "Sep 20, 2026",
+          "content": "Spectroscopic analysis reveals complex carbon structures in the habitable zone of K2-18b.",
+          "theme": "#ebf2fa"
+        },
+        {
+          "id": "space-3",
+          "title": "Lunar base architecture unveils sustainable water recycling systems",
+          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?auto=format&fit=crop&w=1200&q=82",
+          "place": "Tokyo, Japan",
+          "time": "Sep 19, 2026",
+          "content": "Engineers demonstrate closed-loop life support capable of sustaining crewed missions on the Moon.",
+          "theme": "#ebf2fa"
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Artificial Intelligence",
+      "eyebrow": "TECHNOLOGY",
+      "description": "Frontier models, robotics, and scientific computation.",
+      "accent": "#8c3b2b",
+      "tint": "#faebe9",
+      "cards": [
+        {
+          "id": "tech-1",
+          "title": "Next-generation AI models show major leap in scientific reasoning",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1200&q=82",
+          "place": "San Francisco, USA",
+          "time": "Sep 21, 2026",
+          "content": "New benchmarks indicate significant improvements in how AI handles complex scientific and mathematical problems.",
+          "theme": "#faebe9"
+        },
+        {
+          "id": "tech-2",
+          "title": "Quantum algorithms achieve breakthrough in molecular simulation",
+          "image": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=1200&q=82",
+          "place": "Zurich, Switzerland",
+          "time": "Sep 20, 2026",
+          "content": "Researchers simulate complex protein folding key to novel therapeutic drug discovery in record time.",
+          "theme": "#faebe9"
+        },
+        {
+          "id": "tech-3",
+          "title": "Energy-efficient neuromorphic chips deployed in autonomous drones",
+          "image": "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&w=1200&q=82",
+          "place": "Munich, Germany",
+          "time": "Sep 18, 2026",
+          "content": "Brain-inspired silicon cuts edge AI computing power consumption by 85% during real-time flight.",
+          "theme": "#faebe9"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Ocean & Climate",
+      "eyebrow": "SCIENCE & RESEARCH",
+      "description": "Global ecology and marine conservation initiatives.",
+      "accent": "#1f6b63",
+      "tint": "#e6f4f2",
+      "cards": [
+        {
+          "id": "env-1",
+          "title": "Coral reefs show signs of resilience under new conservation methods",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=82",
+          "place": "Cairns, Australia",
+          "time": "Sep 21, 2026",
+          "content": "A global study finds that targeted interventions can help reefs recover faster than previously thought.",
+          "theme": "#e6f4f2"
+        },
+        {
+          "id": "env-2",
+          "title": "Deep sea acoustic arrays map unknown whale migration routes",
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=82",
+          "place": "Reykjavik, Iceland",
+          "time": "Sep 19, 2026",
+          "content": "Hydrophone networks reveal marine species navigating uncharted underwater mountain ridges.",
+          "theme": "#e6f4f2"
+        },
+        {
+          "id": "env-3",
+          "title": "Floating solar farms transform coastal clean energy generation",
+          "image": "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=1200&q=82",
+          "place": "Singapore",
+          "time": "Sep 17, 2026",
+          "content": "Offshore photovoltaic platforms withstand ocean swells while powering thousands of island homes.",
+          "theme": "#e6f4f2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "publication": {
+    "brand": "Todards.",
+    "subtitle": "The global today cards",
+    "issue": "Issue No. 248",
+    "tagline": "THREE STORIES A DAY",
+    "heroTitle": "A clearer world in three cards",
+    "heroDescription": "Essential science and technology news, simplified.",
+    "publishedAt": "21 September 2026",
+    "footerLeft": "Journalism Automated",
+    "footerRight": "Simple news. Deeper understanding."
+  },
+  "sections": [
+    {
+      "id": "people",
+      "title": "People & Politics",
+      "eyebrow": "PEOPLE & POLITICS",
+      "description": "Important developments in governments, societies and the people shaping the world.",
+      "accent": "#7A3E48",
+      "tint": "#F7ECEE",
+      "cards": [
+        {
+          "id": "pp-1",
+          "title": "World leaders gather for talks on a new international climate agreement",
+          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "place": "New York, USA",
+          "time": "Sep 21, 2026",
+          "content": "Representatives from several countries are meeting to discuss stronger cooperation on climate policy, energy security and emissions reduction. Negotiators are trying to find common ground between developed and developing economies. The talks are expected to focus on financing, technology sharing and national climate targets.",
+          "theme": "#F7ECEE"
+        },
+        {
+          "id": "pp-2",
+          "title": "Cities expand public transport as urban populations continue to grow",
+          "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1200&q=82",
+          "place": "London, UK",
+          "time": "Sep 20, 2026",
+          "content": "Major cities are investing in rail networks, buses and cycling infrastructure as governments look for ways to reduce congestion and improve access to jobs. Urban planners say reliable public transport can also reduce pollution and make growing cities easier to navigate.",
+          "theme": "#F7ECEE"
+        },
+        {
+          "id": "pp-3",
+          "title": "Young voters become increasingly influential in national elections",
+          "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1200&q=82",
+          "place": "Berlin, Germany",
+          "time": "Sep 18, 2026",
+          "content": "Younger voters are becoming an increasingly important political group in several countries. Issues such as housing, education, employment and climate policy are influencing how younger generations approach elections and public policy.",
+          "theme": "#F7ECEE"
+        }
+      ]
+    },
+    {
+      "id": "science and technology",
+      "title": "Science and technology",
+      "eyebrow": "SCIENCE & TECHNOLOGY",
+      "description": "Discover breakthroughs in science, space, computing and emerging technology.",
+      "accent": "#2E4B7C",
+      "tint": "#EBF2FA",
+      "cards": [
+        {
+          "id": "st-1",
+          "title": "Europa Clipper sends new data about Jupiter's icy moon",
+          "image": "https://images.unsplash.com/photo-1614728894747-a83421e2b9c9?auto=format&fit=crop&w=1200&q=82",
+          "place": "Pasadena, USA",
+          "time": "Sep 21, 2026",
+          "content": "NASA's Europa Clipper mission is collecting new measurements of Jupiter's icy moon Europa. Scientists are studying the moon's frozen surface and the ocean believed to exist underneath it. The observations could help researchers understand whether Europa has environments capable of supporting life.",
+          "theme": "#EBF2FA"
+        },
+        {
+          "id": "st-2",
+          "title": "James Webb Telescope reveals new details about a distant exoplanet",
+          "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=82",
+          "place": "Baltimore, USA",
+          "time": "Sep 20, 2026",
+          "content": "Astronomers are using the James Webb Space Telescope to analyse the atmosphere of a planet located far beyond our Solar System. By studying how starlight passes through the atmosphere, researchers can identify gases and learn more about the planet's environment.",
+          "theme": "#EBF2FA"
+        },
+        {
+          "id": "t-3",
+          "title": "Robots prepare for a larger role in future lunar exploration",
+          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=82",
+          "place": "Houston, USA",
+          "time": "Sep 19, 2026",
+          "content": "Space agencies are developing autonomous robots that could explore lunar terrain, transport equipment and prepare sites before astronauts arrive. Greater use of robotics could reduce the risks and costs associated with future long-duration missions to the Moon.",
+          "theme": "#EBF2FA"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health & wellness",
+      "eyebrow": "HEALTH & WELLNESS",
+      "description": "Medical research, public health and discoveries that affect everyday wellbeing.",
+      "accent": "#2F7668",
+      "tint": "#E8F5F1",
+      "cards": [
+        {
+          "id": "hw-1",
+          "title": "WHO meeting puts stronger focus on global One Health cooperation",
+          "image": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1200&q=82",
+          "place": "Lisbon, Portugal",
+          "time": "Sep 22, 2026",
+          "content": "Health experts and international organisations are strengthening cooperation around One Health, an approach that recognises the links between human health, animals and the environment. Discussions are focusing on scientific evidence, country-level implementation and investment in health systems.",
+          "theme": "#E8F5F1"
+        },
+        {
+          "id": "hw-2",
+          "title": "Researchers identify new clues about how sleep affects memory",
+          "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=1200&q=82",
+          "place": "Boston, USA",
+          "time": "Sep 20, 2026",
+          "content": "Scientists studying sleep and memory have found further evidence that the brain remains active while we sleep. The research could improve understanding of how memories are processed and why adequate sleep is important for cognitive function.",
+          "theme": "#E8F5F1"
+        },
+        {
+          "id": "hw-3",
+          "title": "New research improves understanding of antibiotic resistance",
+          "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=82",
+          "place": "Cambridge, UK",
+          "time": "Sep 18, 2026",
+          "content": "Researchers are studying how bacteria develop resistance to antibiotics and how those changes spread. Understanding these mechanisms could help scientists develop better treatments and strategies for preventing drug-resistant infections.",
+          "theme": "#E8F5F1"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "eyebrow": "EARTH & ENVIRONMENT",
+      "description": "Climate, oceans, ecosystems and the changing planet around us.",
+      "accent": "#28705D",
+      "tint": "#E7F4EF",
+      "cards": [
+        {
+          "id": "env-1",
+          "title": "Coral restoration projects show promising signs of recovery",
+          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=82",
+          "place": "Cairns, Australia",
+          "time": "Sep 21, 2026",
+          "content": "Marine scientists are testing new methods to restore coral reefs damaged by warming oceans and other environmental pressures. Some projects are combining coral breeding with carefully selected resilient colonies to improve the chances of recovery.",
+          "theme": "#E7F4EF"
+        },
+        {
+          "id": "env-2",
+          "title": "Underwater sensors reveal previously unknown whale migration patterns",
+          "image": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1200&q=82",
+          "place": "Reykjavik, Iceland",
+          "time": "Sep 19, 2026",
+          "content": "Networks of underwater microphones are helping scientists track whale movements across remote parts of the ocean. The recordings can reveal migration routes and important feeding areas without researchers having to follow the animals directly.",
+          "theme": "#E7F4EF"
+        },
+        {
+          "id": "env-3",
+          "title": "Floating solar farms expand renewable energy production",
+          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=82",
+          "place": "Singapore",
+          "time": "Sep 17, 2026",
+          "content": "Floating solar installations are becoming an increasingly attractive option for regions where land is limited. Panels installed on reservoirs and other water bodies can generate electricity while reducing pressure on valuable land resources.",
+          "theme": "#E7F4EF"
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "title": "Entertainment",
+      "eyebrow": "SPORTS & ENTERTAINMENT",
+      "description": "Stories from film, music, sports, culture and the world of entertainment.",
+      "accent": "#704A83",
+      "tint": "#F3ECF7",
+      "cards": [
+        {
+          "id": "ent-1",
+          "title": "Global film festivals spotlight a new generation of filmmakers",
+          "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=82",
+          "place": "Toronto, Canada",
+          "time": "Sep 21, 2026",
+          "content": "Film festivals around the world are giving greater attention to emerging directors and independent productions. Organisers say new filmmakers are experimenting with storytelling techniques and technologies while exploring social and cultural themes.",
+          "theme": "#F3ECF7"
+        },
+        {
+          "id": "ent-2",
+          "title": "New stadium technology changes how fans experience live sports",
+          "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1200&q=82",
+          "place": "London, UK",
+          "time": "Sep 19, 2026",
+          "content": "Sports venues are adopting larger digital displays, real-time statistics and connected services to create more interactive experiences for spectators. The technology is also helping teams analyse matches and improve stadium operations.",
+          "theme": "#F3ECF7"
+        },
+        {
+          "id": "ent-3",
+          "title": "Music platforms experiment with new ways for artists to reach audiences",
+          "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=82",
+          "place": "Los Angeles, USA",
+          "time": "Sep 18, 2026",
+          "content": "Music platforms are experimenting with new discovery tools, personalised recommendations and direct connections between artists and listeners. The changes are reshaping how new musicians build audiences and release their work.",
+          "theme": "#F3ECF7"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "title": "economy",
+      "eyebrow": "ECONOMY & BUSINESS",
+      "description": "Markets, businesses, trade and economic changes shaping the global economy.",
+      "accent": "#8A6A24",
+      "tint": "#F7F1DE",
+      "cards": [
+        {
+          "id": "eb-1",
+          "title": "Global manufacturers increase investment in clean energy infrastructure",
+          "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=82",
+          "place": "Frankfurt, Germany",
+          "time": "Sep 21, 2026",
+          "content": "Manufacturing companies are increasing spending on renewable electricity, energy-efficient equipment and cleaner production systems. Businesses are looking to reduce operating costs while preparing for stricter environmental requirements and changing energy markets.",
+          "theme": "#F7F1DE"
+        },
+        {
+          "id": "eb-2",
+          "title": "Global trade adjusts as companies rethink supply chains",
+          "image": "https://images.unsplash.com/photo-1586528116493-da8b5f7c9f65?auto=format&fit=crop&w=1200&q=82",
+          "place": "Singapore",
+          "time": "Sep 19, 2026",
+          "content": "Companies are continuing to redesign supply chains in response to changing trade policies, transportation costs and geopolitical risks. Many businesses are looking for ways to diversify suppliers and make production networks more resilient.",
+          "theme": "#F7F1DE"
+        },
+        {
+          "id": "eb-3",
+          "title": "Small businesses increasingly adopt artificial intelligence tools",
+          "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
+          "place": "Bengaluru, India",
+          "time": "Sep 17, 2026",
+          "content": "Small businesses are adopting AI tools for customer support, marketing, document processing and data analysis. Lower-cost AI services are making technologies that were previously available mainly to large companies more accessible to smaller firms.",
+          "theme": "#F7F1DE"
+        }
+      ]
+    }
+  ]
+}
