@@ -1,1 +1,54 @@
-[]
+[
+    {
+        "id": "health-1",
+        "source": "British Broadcasting Company",
+        "category": "health",
+        "title": "'My treatment was a miracle,' says stroke patient as new 24-hour service rolled out",
+        "date": "2026-10-05 23:00",
+        "content": "When Gemma O'Hara woke up in the night with \"intense pain\" in her neck, sickness and vertigo she knew something was \"not right\".\nThe 40-year-old, who had just come back from holiday, had suffered a brain stem stroke.\nGemma was able to have a thrombectomy, which removes blood clots and restores blood flow to the brain, a procedure she has said is a \"miracle treatment\" that has enabled her to recover well.\nNorthern Ireland's regional thrombectomy service, which had only been available between 08:00 and 17:00 is now operating 24 hours a day, seven days a week after a £5m investment through Stormont's Programme for Government (PfG) Elective Care funding.\nGemma, from Ballymena in County Antrim, said the expansion is \"amazing\" because of the difference the treatment made to her recovery.\n\"You have to get treated so fast. You can't let time go past when it's to do with your brain,\" she said.\n\"If I didn't get it in time I wouldn't be the way I am now.\"\nThe mother-of three had the stroke in September 2025 and said that, while her symptoms were not classic stroke symptoms, she knew she needed medical help.\nBy the time she arrived at the Antrim Area Hospital, she had numbness, could not walk or talk and felt \"locked in my body\".\nShe was scanned and given thrombolysis - clot-busting medication - before being transferred to the Royal Victoria Hospital in Belfast for a thrombectomy.\nGemma said that within minutes of having her procedure she was \"sitting up, back to myself again\" and waiting for her family to arrive.\n\"It's a miracle treatment because I was so unwell and for something that can happen fairly quickly like that, and to recover so well, it's amazing,\" she said.\nShe said having a stroke was \"so unexpected\".\n\"I was always working, going to the gym and trying to look after myself.\n\"So for everybody that was a big shock for me to have a stroke because they always thought I would have been the fittest one.\"\nGemma said one of her \"biggest fears\" had been the possibly of having another stroke during the night, when thrombectomy was previously unavailable.\nShe said the 24/7 service gives her \"peace of mind\" that she would be able to receive treatment if it happened again.\nThe expanded service, which began on 14 September, means the time of day or night a stroke occurs is no longer a barrier to accessing treatment.\nDr Patricia Gordon, stroke consultant at Belfast Health Trust, said about 10% of patients who have a stroke have a large clot that can be removed through a thrombectomy.\nShe said the procedure increases a patient's chances of making a good recovery by more than 50% and reduces the risk of death by almost 20%.",
+        "url": "https://www.bbc.com/news/articles/crp3g5n5pd1go",
+        "rank": 3,
+        "ranking_score": 43.62,
+        "ranking_reason": "This article matters because it highlights a significant improvement in healthcare services, specifically in the treatment of stroke patients, which can have a profound impact on people's lives.",
+        "ranking": {
+            "rank": 3,
+            "score": 43.62,
+            "base_score": 38.5,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.1,
+            "freshness_multiplier": 1.03,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 80,
+                "dont_miss": 0,
+                "human_consequence": 90,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 90,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 90,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "This article matters because it highlights a significant improvement in healthcare services, specifically in the treatment of stroke patients, which can have a profound impact on people's lives."
+            }
+        }
+    }
+]
