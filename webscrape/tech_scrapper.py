@@ -787,32 +787,32 @@ class TechDataScrapper:
         # CNN
         # ====================================================
 
-        CNNTech = CNNTechScraper(
-            url="https://edition.cnn.com/technology",
-            domain="https://edition.cnn.com"
-        )
+        # CNNTech = CNNTechScraper(
+        #     url="https://edition.cnn.com/technology",
+        #     domain="https://edition.cnn.com"
+        # )
 
-        CNN_links = CNNTech.get_section_links()
+        # CNN_links = CNNTech.get_section_links()
 
-        print(
-            f"CNN links found: {len(CNN_links)}"
-        )
+        # print(
+        #     f"CNN links found: {len(CNN_links)}"
+        # )
 
-        CNN_data = CNNTech.scrape_content(
-            CNN_links
-        )
+        # CNN_data = CNNTech.scrape_content(
+        #     CNN_links
+        # )
 
-        for article in CNN_data:
+        # for article in CNN_data:
 
-            tech_data.append({
-                "id": f"st-{len(tech_data) + 1}",
-                "source": "CNN",
-                "category": self.category,
-                "title": article["title"],
-                "date": article["date"],
-                "content": article["content"],
-                "url": article["url"]
-            })
+        #     tech_data.append({
+        #         "id": f"st-{len(tech_data) + 1}",
+        #         "source": "CNN",
+        #         "category": self.category,
+        #         "title": article["title"],
+        #         "date": article["date"],
+        #         "content": article["content"],
+        #         "url": article["url"]
+        #     })
 
 
         # ====================================================

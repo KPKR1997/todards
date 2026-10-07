@@ -6,7 +6,8 @@ from backend.processing.process_pipeline import MainProcessPipeline
 from webscrape.health_scrape import HealthDataScrapper
 from webscrape.tech_scrapper import TechDataScrapper
 from webscrape.politics import PoliticsDataScrapper
-from backend.post_processing.deduplication import ArticleDuplicateRemover
+from webscrape.environment_scrapper import EnvironmentDataScrapper
+from backend.post_processing.article_deduplication import ArticleDuplicateRemover
 from backend.post_processing.ranking.ranker import NewsRanker
 
 
@@ -61,6 +62,20 @@ if __name__ == "__main__":
 
     politics_data_path = (
         f"data/people_data/{politics_filename}"
+    )
+
+    print("\n========== ENVIRONMENT SCRAPER ==========\n")
+
+    environment_scrapper = EnvironmentDataScrapper()
+    environment_scrapper.scrape_environment_data()
+
+    environment_filename = (
+        datetime.now().strftime("%d%m%Y")
+        + "_environment_data.json"
+    )
+
+    environment_data_path = (
+        f"data/environment_data/{environment_filename}"
     )
 
 

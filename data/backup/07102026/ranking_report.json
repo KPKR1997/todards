@@ -1,0 +1,137 @@
+[
+    {
+        "rank": 1,
+        "id": "pp-26",
+        "category": "people",
+        "title": "Many Nepalis swept away in the floods aren't officially dead, leaving families in limbo",
+        "score": {
+            "base_score": 34.9,
+            "event_multiplier": 1.4,
+            "severity_multiplier": 1.1,
+            "freshness_multiplier": 1.05,
+            "source_multiplier": 1.0,
+            "final_score": 56.43
+        },
+        "analysis": {
+            "everyday_impact": 30,
+            "dont_miss": 10,
+            "human_consequence": 70,
+            "economic_impact": 60,
+            "political_significance": 40,
+            "health_significance": 20,
+            "scientific_significance": 0,
+            "entertainment_significance": 0,
+            "remarkability": 50,
+            "global_reach": 80,
+            "urgency": 90,
+            "severity_tier": 3,
+            "events": {
+                "major_disaster": true,
+                "mass_casualties": true,
+                "pandemic": false,
+                "election": false,
+                "major_political_change": false,
+                "major_economic_event": false,
+                "major_award": false,
+                "celebrity_death": false,
+                "record_breaking": false,
+                "unprecedented_event": false,
+                "major_scientific_discovery": false,
+                "major_technology_event": false
+            },
+            "reason": "This article matters because it highlights the devastating consequences of the flood in Nepal, including the bureaucratic hurdles faced by families trying to access compensation and death certificates. The article's focus on the human cost of the disaster makes it a significant event that requires attention."
+        },
+        "source_count": 1,
+        "cluster_size": 1
+    },
+    {
+        "rank": 2,
+        "id": "pp-46",
+        "category": "people",
+        "title": "US resident arrested in connection with deadly British Columbia school shooting",
+        "score": {
+            "base_score": 26.1,
+            "event_multiplier": 1.4,
+            "severity_multiplier": 1.2,
+            "freshness_multiplier": 1.05,
+            "source_multiplier": 1.0,
+            "final_score": 46.04
+        },
+        "analysis": {
+            "everyday_impact": 20,
+            "dont_miss": 0,
+            "human_consequence": 80,
+            "economic_impact": 0,
+            "political_significance": 60,
+            "health_significance": 0,
+            "scientific_significance": 0,
+            "entertainment_significance": 0,
+            "remarkability": 80,
+            "global_reach": 30,
+            "urgency": 90,
+            "severity_tier": 4,
+            "events": {
+                "major_disaster": false,
+                "mass_casualties": true,
+                "pandemic": false,
+                "election": false,
+                "major_political_change": false,
+                "major_economic_event": false,
+                "major_award": false,
+                "celebrity_death": false,
+                "record_breaking": false,
+                "unprecedented_event": false,
+                "major_scientific_discovery": false,
+                "major_technology_event": false
+            },
+            "reason": "The article reports on a deadly school shooting in British Columbia, Canada, with a significant number of casualties. The suspect, Jessie Van Rootselaar, died during the attack, while the arrested individual, James Cody Bryant, is accused of encouraging the shooter. The article highlights the severity of the incident, the impact on the community, and the legal consequences for the accused."
+        },
+        "source_count": 1,
+        "cluster_size": 1
+    },
+    {
+        "rank": 3,
+        "id": "pp-25",
+        "category": "people",
+        "title": "Tear gas in Paris and Marseille as school protests grow across France",
+        "score": {
+            "base_score": 38.9,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.1,
+            "freshness_multiplier": 1.05,
+            "source_multiplier": 1.0,
+            "final_score": 44.93
+        },
+        "analysis": {
+            "everyday_impact": 80,
+            "dont_miss": 0,
+            "human_consequence": 90,
+            "economic_impact": 0,
+            "political_significance": 70,
+            "health_significance": 0,
+            "scientific_significance": 0,
+            "entertainment_significance": 0,
+            "remarkability": 0,
+            "global_reach": 80,
+            "urgency": 90,
+            "severity_tier": 3,
+            "events": {
+                "major_disaster": false,
+                "mass_casualties": false,
+                "pandemic": false,
+                "election": false,
+                "major_political_change": false,
+                "major_economic_event": false,
+                "major_award": false,
+                "celebrity_death": false,
+                "record_breaking": false,
+                "unprecedented_event": false,
+                "major_scientific_discovery": false,
+                "major_technology_event": false
+            },
+            "reason": "The French school protests are a significant event that matters because they have major human consequences, with hundreds of thousands of students and staff affected. The protests also have significant political implications, with the government accused of using excessive force and the opposition calling for greater investment in education."
+        },
+        "source_count": 1,
+        "cluster_size": 2
+    }
+]

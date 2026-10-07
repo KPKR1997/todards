@@ -55,6 +55,7 @@ class ArticleDuplicateRemover:
             "health_data",
             "tech_data",
             "people_data",
+            "environment_data"
         ]
 
         today = datetime.now().date()

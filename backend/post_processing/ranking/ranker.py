@@ -97,6 +97,7 @@ class NewsRanker:
             "health_data",
             "tech_data",
             "people_data",
+            "environment_data",
         ]
 
         print(

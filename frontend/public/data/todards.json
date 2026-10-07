@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "US Midterm Elections Set for November 3, Control of Congress at Stake",
-          "image": "https://images.unsplash.com/photo-1540908390241-82158ab62887?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cG9saXRpY2FsJTIwcGFydHl8ZW58MXwwfHx8MTc5MTI1MDM4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
-          "time": "Oct 06, 2026",
-          "content": "As the US midterm elections approach on November 3, voters will elect members of Congress, potentially impacting the remainder of President Donald Trump's presidency. The outcome will determine which party controls Congress and the ease of implementing presidential plans. The elections will also measure voter satisfaction with the president's performance. Key issues include the economy, inflation, immigration, and AI regulation. Both parties are vying for control, with Democrats seeking to challenge Trump's trade tariffs and Republicans defending the border. The election's outcome will shape legislation and potentially hinder or enable the president's plans.",
+          "title": "Nepal Families Struggle for Death Certificates After China-Nepal Flood",
+          "image": "https://images.pexels.com/photos/19363720/pexels-photo-19363720.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Kathmandu, Nepal",
+          "time": "Oct 07, 2026",
+          "content": "At the Pashupatinath temple, families are honoring loved ones who perished in the China-Nepal border flood, with many still missing. The government has ended rescue operations, and families are struggling to obtain death certificates, affecting compensation and inheritance. The law requires a 12-year waiting period before a missing person is presumed dead, with no provision for disasters like this flood. The legal hurdles come as Nepal faces a steep reconstruction bill, estimated at £3.6bn. The government is trying to find a solution, while the prime minister's office says it is \"aware of the difficulties\" the law may cause families.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "US Supreme Court hears climate change case involving Boulder's lawsuit against fossil fuel companies",
-          "image": "https://images.pexels.com/photos/17843099/pexels-photo-17843099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Colorado",
-          "time": "Oct 06, 2026",
-          "content": "The US Supreme Court heard oral arguments in a landmark case involving a Colorado city's lawsuit against two fossil fuel companies for climate change impacts. The city, Boulder, seeks billions of dollars to mitigate the costs of fires, floods, and public health impacts. Conservative justices, including Justice Brett Kavanaugh, expressed concerns about states wading into federal issues, citing past precedents. The court's decision, expected next year, may have significant implications for climate change litigation.",
+          "title": "US Resident Arrested in Deadly School Shooting in British Columbia",
+          "image": "https://images.pexels.com/photos/14189248/pexels-photo-14189248.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Tumbler Ridge, British Columbia",
+          "time": "Oct 07, 2026",
+          "content": "A 30-year-old US resident, James Cody Bryant, has been arrested in connection with a deadly school shooting in Tumbler Ridge, British Columbia, for allegedly encouraging the suspect, Jessie Van Rootselaar, 18. Bryant, charged with conspiracy to murder, had been in contact with Van Rootselaar, providing advice and technical support, and even agreed to livestream the attack. The shooting killed eight people, including six children, and Van Rootselaar died by self-inflicted gunshot. Bryant faces up to life in prison if found guilty. The shooting occurred at Van Rootselaar's home and at a secondary school in Tumbler Ridge.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "US Defence Department halts use of Anthropic's AI tools over national security concerns",
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTExODA3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
-          "time": "Oct 06, 2026",
-          "content": "The US Department of Defence has ceased using Anthropic's AI tools, including the Claude model, after designating the company a supply chain risk on national security grounds in February. The Pentagon had initially ordered the phase-out by late August, but the delay was attributed to the model's deep integration into the Maven Smart System, operated by Palantir. The move comes amid a legal battle between Anthropic and the government over the designation. The Pentagon has since signed contracts with other major tech companies, including Google and OpenAI.",
+          "title": "France sees widespread school protests, 1,015 injured",
+          "image": "https://images.unsplash.com/photo-1511898634545-c01af8a54dd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cHJvdGVzdGVyc3xlbnwxfDB8fHwxNzkxMzQ0Mzg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Paris, France",
+          "time": "Oct 07, 2026",
+          "content": "Hundreds of thousands of people, including high-school pupils, parents, university students, and unions, protested across France, calling for better resources for schools and less police repression. Protesters marched from the Place de la République in Paris, with clashes reported in Lyon, Paris, and Marseille. According to the government, 215 students, 85 staff, and 715 police officers were injured. Prime Minister Sébastien Lecornu condemned the violence, and Education Minister Édouard Geffray appealed for dialogue. The protests have been ongoing since mid-September, with students demanding better conditions in schools.",
           "theme": "#F7ECEE"
         }
       ]
@@ -58,11 +58,11 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Nvidia Acquires Groq Assets Without Stockholder Vote, Lawsuit Claims",
-          "image": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTExODA3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Delaware",
-          "time": "Oct 05, 2026",
-          "content": "A lawsuit filed by former Groq engineers Joshua Rubin and Benjamin Serebrin alleges that Nvidia's $20 billion deal to acquire assets from Groq \"squeezed out\" stockholders. The deal, announced in December, offered a \"lowball\" price to stockholders, according to the lawsuit. Groq's board of directors allegedly sold the company to Nvidia without a stockholder vote, prioritizing a licensing agreement and employee stock options. The deal resulted in the transfer of approximately 150 to 200 Groq engineers to Nvidia, with CEO Jensen Huang stating the agreement would expand Nvidia's AI capabilities.",
+          "title": "US-led sanctions exhaust Iran's oil reserves, nuclear program remains intact",
+          "image": "https://images.pexels.com/photos/27362253/pexels-photo-27362253.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Iran",
+          "time": "Oct 06, 2026",
+          "content": "The US-led blockade and sanctions against Iran have been effective, with Iran's remaining oil for sale nearly exhausted and crude production cut in half. Despite a dire economic situation, Iran shows no signs of folding, refusing to compromise on its nuclear program and negotiations on Strait of Hormuz transit. The regime has developed sophisticated networks to evade sanctions, and some analysts believe it may be receiving funds from unknown sources. The US has incurred significant costs in maintaining the blockade, and Iran may be waiting out the Trump administration, potentially outlasting the United States' willingness to stay the course.",
           "theme": "#EBF2FA"
         },
         {
@@ -95,11 +95,11 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Northern Ireland's thrombectomy service expands to 24/7 operation",
-          "image": "https://images.unsplash.com/photo-1606166187734-a4cb74079037?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c3Ryb2tlJTIwcGF0aWVudHxlbnwxfDB8fHwxNzkxMjUwMzU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Belfast, UK",
+          "title": "Northern Ireland's Thrombectomy Service Expands to 24/7 Operations",
+          "image": "https://images.unsplash.com/photo-1563233987-35f9d4b9a861?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8dGhyb21iZWN0b215JTIwcHJvY2VkdXJlfGVufDF8MHx8fDE3OTEyNzU0ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Belfast, Northern Ireland",
           "time": "Oct 06, 2026",
-          "content": "Gemma O'Hara, 40, suffered a brain stem stroke after waking up with intense pain, sickness, and vertigo. She received a thrombectomy, a \"miracle treatment\" that restored blood flow to her brain and enabled her to recover well. Following her experience, Northern Ireland's regional thrombectomy service expanded to operate 24/7, thanks to a £5m investment. This allows patients to receive treatment at any time, not just between 8am and 5pm. The expanded service is a significant improvement, as Dr. Patricia Gordon, a stroke consultant, notes that thrombectomy increases recovery chances by over 50% and reduces the risk of death by almost 20%.",
+          "content": "Gemma O'Hara, a 40-year-old mother of three, suffered a brain stem stroke after returning from holiday, but was able to receive a thrombectomy procedure, which removed blood clots and restored blood flow to her brain. The procedure, a \"miracle treatment,\" allowed her to recover well. Northern Ireland's regional thrombectomy service has expanded to operate 24 hours a day, seven days a week, thanks to a £5m investment, allowing patients like Gemma to receive timely treatment. This increased availability has reduced the risk of death by almost 20% and increases a patient's chances of making a good recovery by more than 50%.",
           "theme": "#E8F5F1"
         },
         {
