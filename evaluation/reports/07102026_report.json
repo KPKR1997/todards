@@ -1,0 +1,97 @@
+{
+    "date": "07102026",
+    "timestamp": "2026-10-07T19:03:50.868409",
+    "duration_seconds": 1252.08,
+    "stages_duration_seconds": {
+        "scrape": 435.18,
+        "guardrails": 105.39,
+        "deduplication": 11.08,
+        "category_validation": 127.91,
+        "ranking": 475.02,
+        "processing": 97.48,
+        "assembly": 0.01
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 8,
+            "Tech": 17,
+            "People": 38,
+            "Environment": 3,
+            "Economy": 10
+        },
+        "total_scraped": 76,
+        "guardrail_passed": 76,
+        "guardrail_rejected": 0,
+        "dedup_removed": 19,
+        "category_reassignments": 7,
+        "final_articles": 3,
+        "final_categories": 3
+    },
+    "guardrail_rejections": [],
+    "deduplication": {
+        "total_checked": 153,
+        "duplicate_pairs_found": 28,
+        "duplicates_removed": 19
+    },
+    "category_validation": {
+        "total_checked": 63,
+        "reassigned_count": 7,
+        "reassignments": [
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "to": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on financial markets, stock futures, and economic issues, with only a few mentions of technology and none specifically related to science."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "to": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Jim Cramer's investment advice and analysis of artificial intelligence-related stocks, making it more relevant to the economy and business category."
+            },
+            {
+                "title": "Visually impaired people fear smart glasses backlash",
+                "from": "science and technology",
+                "to": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the experiences and concerns of visually impaired people, rather than the technology itself."
+            },
+            {
+                "title": "India's first bank rate hike since 2023 signals growing inflation concerns",
+                "from": "people",
+                "to": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the Reserve Bank of India's interest rate hike and its impact on the economy, consumer spending, and borrowing costs."
+            },
+            {
+                "title": "A beautiful Himalayan bird is changing its voice due to human activity, research shows",
+                "from": "people",
+                "to": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the impact of human activity on the Himalayan monal's habitat and communication, making it a clear fit for the 'earth and environment' category."
+            },
+            {
+                "title": "Pornhub returns to Australia but only for adults with Apple devices",
+                "from": "people",
+                "to": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the business and economic implications of Apple's age-verification process and its impact on the online pornography industry."
+            },
+            {
+                "title": "Rainmakers: The drones used to seed clouds",
+                "from": "economy and business",
+                "to": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on cloud-seeding technology and its applications, making 'science and technology' the most accurate category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 139,
+        "total_failures": 0,
+        "total_time_seconds": 232.94,
+        "avg_response_time": 1.68
+    }
+}

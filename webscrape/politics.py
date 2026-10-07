@@ -5,7 +5,168 @@ import requests
 
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
+
+
+# ============================================================
+# DATETIME HELPERS
+# ============================================================
+
+def get_24_hour_window():
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=24)
+
+    return now, cutoff
+
+
+def parse_datetime(value):
+    """
+    Convert a datetime string into timezone-aware UTC datetime.
+    """
+
+    if not value:
+        return None
+
+    value = value.strip()
+
+    # ISO datetime
+    try:
+        value = value.replace("Z", "+00:00")
+
+        parsed = datetime.fromisoformat(value)
+
+        if parsed.tzinfo is None:
+            parsed = parsed.replace(
+                tzinfo=timezone.utc
+            )
+
+        return parsed.astimezone(timezone.utc)
+
+    except ValueError:
+        pass
+
+    # Common datetime formats
+    formats = [
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d %H:%M",
+        "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%dT%H:%M",
+        "%b %d, %Y",
+        "%B %d, %Y",
+    ]
+
+    for fmt in formats:
+
+        try:
+
+            parsed = datetime.strptime(
+                value,
+                fmt
+            )
+
+            return parsed.replace(
+                tzinfo=timezone.utc
+            )
+
+        except ValueError:
+            continue
+
+    return None
+
+
+def is_within_last_24_hours(published_time):
+
+    if not published_time:
+        return False
+
+    now, cutoff = get_24_hour_window()
+
+    return cutoff <= published_time <= now
+
+
+def get_jsonld_datetime(soup, keys):
+    """
+    Extract datePublished/dateModified from JSON-LD.
+    """
+
+    scripts = soup.find_all(
+        "script",
+        type="application/ld+json"
+    )
+
+    for script in scripts:
+
+        if not script.string:
+            continue
+
+        try:
+            data = json.loads(
+                script.string
+            )
+
+        except json.JSONDecodeError:
+            continue
+
+        if isinstance(data, list):
+            data_list = data
+
+        else:
+            data_list = [data]
+
+        for item in data_list:
+
+            if not isinstance(item, dict):
+                continue
+
+            # Sometimes JSON-LD contains @graph
+            graph = item.get("@graph")
+
+            if isinstance(graph, list):
+                candidates = graph
+
+            else:
+                candidates = [item]
+
+            for candidate in candidates:
+
+                if not isinstance(candidate, dict):
+                    continue
+
+                for key in keys:
+
+                    value = candidate.get(key)
+
+                    if value:
+
+                        parsed = parse_datetime(
+                            value
+                        )
+
+                        if parsed:
+                            return parsed
+
+    return None
+
+
+def get_html_datetime(soup):
+
+    time_tag = soup.find(
+        "time",
+        attrs={
+            "datetime": True
+        }
+    )
+
+    if time_tag:
+
+        return parse_datetime(
+            time_tag.get(
+                "datetime",
+                ""
+            )
+        )
+
+    return None
 
 
 # ============================================================
@@ -26,20 +187,24 @@ class BBCPoliticsScraper:
                 "Chrome/153.0.0.0 Safari/537.36"
             ),
             "Accept": (
-                "text/html,application/xhtml+xml,application/xml;"
-                "q=0.9,image/avif,image/webp,*/*;q=0.8"
+                "text/html,application/xhtml+xml,"
+                "application/xml;q=0.9,image/avif,"
+                "image/webp,*/*;q=0.8"
             ),
             "Accept-Language": "en-US,en;q=0.9",
             "Referer": self.url
         }
 
         self.session = requests.Session()
-        self.session.headers.update(self.headers)
 
+        self.session.headers.update(
+            self.headers
+        )
 
     def get_section_links(self):
 
         try:
+
             response = self.session.get(
                 self.url,
                 timeout=30
@@ -49,10 +214,11 @@ class BBCPoliticsScraper:
 
         except requests.RequestException as e:
 
-            print(f"BBC section failed: {e}")
+            print(
+                f"BBC section failed: {e}"
+            )
 
             return []
-
 
         soup = BeautifulSoup(
             response.text,
@@ -61,32 +227,31 @@ class BBCPoliticsScraper:
 
         links = []
 
-
         # BBC article links
         articles = soup.find_all(
             "a",
             href=True
         )
 
-
         for article in articles:
 
-            href = article.get("href")
+            href = article.get(
+                "href"
+            )
 
             if not href:
                 continue
 
-
             # Keep BBC news article URLs
-            if not href.startswith("/news/"):
+            if not href.startswith(
+                "/news/"
+            ):
                 continue
-
 
             full_url = urljoin(
                 self.domain,
                 href
             )
-
 
             if full_url not in links:
 
@@ -94,14 +259,11 @@ class BBCPoliticsScraper:
                     full_url
                 )
 
-
         return links
-
 
     def scrape_content(self, links):
 
         articles = []
-
 
         for link in links:
 
@@ -124,18 +286,46 @@ class BBCPoliticsScraper:
 
                 continue
 
-
             soup = BeautifulSoup(
                 response.text,
                 "html.parser"
             )
 
+            # ------------------------------------------------
+            # DATETIME
+            # ------------------------------------------------
+
+            published_time = get_jsonld_datetime(
+                soup,
+                [
+                    "datePublished",
+                    "dateModified"
+                ]
+            )
+
+            if not published_time:
+
+                published_time = get_html_datetime(
+                    soup
+                )
+
+            if not published_time:
+
+                continue
+
+            if not is_within_last_24_hours(
+                published_time
+            ):
+
+                continue
 
             # ------------------------------------------------
             # TITLE
             # ------------------------------------------------
 
-            headline = soup.find("h1")
+            headline = soup.find(
+                "h1"
+            )
 
             title = ""
 
@@ -146,7 +336,6 @@ class BBCPoliticsScraper:
                     strip=True
                 )
 
-
             # ------------------------------------------------
             # CONTENT
             # ------------------------------------------------
@@ -155,29 +344,23 @@ class BBCPoliticsScraper:
                 "p"
             )
 
-
             content = " ".join(
-
                 p.get_text(
                     " ",
                     strip=True
                 )
-
                 for p in paragraphs
-
                 if p.get_text(
                     " ",
                     strip=True
                 )
             )
 
-
             content = re.sub(
                 r"\s+",
                 " ",
                 content
             ).strip()
-
 
             if not content:
 
@@ -187,12 +370,11 @@ class BBCPoliticsScraper:
 
                 continue
 
-
             articles.append({
 
                 "title": title,
 
-                "date": datetime.now().strftime(
+                "date": published_time.strftime(
                     "%Y-%m-%d %H:%M"
                 ),
 
@@ -201,7 +383,6 @@ class BBCPoliticsScraper:
                 "url": link
 
             })
-
 
         return articles
 
@@ -224,16 +405,19 @@ class CNNPoliticsScraper:
                 "Chrome/153.0.0.0 Safari/537.36"
             ),
             "Accept": (
-                "text/html,application/xhtml+xml,application/xml;"
-                "q=0.9,image/avif,image/webp,*/*;q=0.8"
+                "text/html,application/xhtml+xml,"
+                "application/xml;q=0.9,image/avif,"
+                "image/webp,*/*;q=0.8"
             ),
             "Accept-Language": "en-US,en;q=0.9",
             "Referer": self.url
         }
 
         self.session = requests.Session()
-        self.session.headers.update(self.headers)
 
+        self.session.headers.update(
+            self.headers
+        )
 
     def get_section_links(self):
 
@@ -254,7 +438,6 @@ class CNNPoliticsScraper:
 
             return []
 
-
         soup = BeautifulSoup(
             response.text,
             "html.parser"
@@ -262,31 +445,28 @@ class CNNPoliticsScraper:
 
         links = []
 
-
         articles = soup.find_all(
             "a",
             href=True
         )
 
-
         for article in articles:
 
-            href = article.get("href")
+            href = article.get(
+                "href"
+            )
 
             if not href:
                 continue
-
 
             # CNN politics URLs
             if "/politics/" not in href:
                 continue
 
-
             full_url = urljoin(
                 self.domain,
                 href
             )
-
 
             if full_url not in links:
 
@@ -294,14 +474,11 @@ class CNNPoliticsScraper:
                     full_url
                 )
 
-
         return links
-
 
     def scrape_content(self, links):
 
         articles = []
-
 
         for link in links:
 
@@ -324,18 +501,69 @@ class CNNPoliticsScraper:
 
                 continue
 
-
             soup = BeautifulSoup(
                 response.text,
                 "html.parser"
             )
 
+            # ------------------------------------------------
+            # DATETIME
+            # ------------------------------------------------
+
+            published_time = get_jsonld_datetime(
+                soup,
+                [
+                    "datePublished",
+                    "dateModified"
+                ]
+            )
+
+            # CNN-specific fallback
+            if not published_time:
+
+                script = soup.find(
+                    "script",
+                    string=lambda x:
+                    x and
+                    "published_date_formatted" in x
+                )
+
+                if script and script.string:
+
+                    match = re.search(
+                        r'"published_date_formatted":"([^"]+)"',
+                        script.string
+                    )
+
+                    if match:
+
+                        published_time = parse_datetime(
+                            match.group(1)
+                        )
+
+            if not published_time:
+
+                published_time = get_html_datetime(
+                    soup
+                )
+
+            if not published_time:
+
+                continue
+
+            if not is_within_last_24_hours(
+                published_time
+            ):
+
+                continue
 
             # ------------------------------------------------
             # TITLE
             # ------------------------------------------------
 
-            headline = soup.find("h1")
+            headline = soup.find(
+                "h1"
+            )
 
             title = ""
 
@@ -346,7 +574,6 @@ class CNNPoliticsScraper:
                     strip=True
                 )
 
-
             # ------------------------------------------------
             # CONTENT
             # ------------------------------------------------
@@ -354,33 +581,27 @@ class CNNPoliticsScraper:
             paragraphs = soup.find_all(
                 "p",
                 class_=lambda value:
-                    value and
-                    "paragraph-elevate" in value
+                value and
+                "paragraph-elevate" in value
             )
 
-
             content = " ".join(
-
                 p.get_text(
                     " ",
                     strip=True
                 )
-
                 for p in paragraphs
-
                 if p.get_text(
                     " ",
                     strip=True
                 )
             )
 
-
             content = re.sub(
                 r"\s+",
                 " ",
                 content
             ).strip()
-
 
             if not content:
 
@@ -390,56 +611,19 @@ class CNNPoliticsScraper:
 
                 continue
 
-
-            # ------------------------------------------------
-            # DATE
-            # ------------------------------------------------
-
-            published_date = ""
-
-
-            script = soup.find(
-                "script",
-                string=lambda x:
-                    x and
-                    "published_date_formatted" in x
-            )
-
-
-            if script and script.string:
-
-                match = re.search(
-                    r'"published_date_formatted":"([^"]+)"',
-                    script.string
-                )
-
-
-                if match:
-
-                    published_date = (
-                        match.group(1)
-                    )
-
-
-            if not published_date:
-
-                published_date = datetime.now().strftime(
-                    "%Y-%m-%d %H:%M"
-                )
-
-
             articles.append({
 
                 "title": title,
 
-                "date": published_date,
+                "date": published_time.strftime(
+                    "%Y-%m-%d %H:%M"
+                ),
 
                 "content": content,
 
                 "url": link
 
             })
-
 
         return articles
 
@@ -462,16 +646,19 @@ class GuardianPoliticsScraper:
                 "Chrome/153.0.0.0 Safari/537.36"
             ),
             "Accept": (
-                "text/html,application/xhtml+xml,application/xml;"
-                "q=0.9,image/avif,image/webp,*/*;q=0.8"
+                "text/html,application/xhtml+xml,"
+                "application/xml;q=0.9,image/avif,"
+                "image/webp,*/*;q=0.8"
             ),
             "Accept-Language": "en-US,en;q=0.9",
             "Referer": self.url
         }
 
         self.session = requests.Session()
-        self.session.headers.update(self.headers)
 
+        self.session.headers.update(
+            self.headers
+        )
 
     def get_section_links(self):
 
@@ -492,7 +679,6 @@ class GuardianPoliticsScraper:
 
             return []
 
-
         soup = BeautifulSoup(
             response.text,
             "html.parser"
@@ -500,32 +686,29 @@ class GuardianPoliticsScraper:
 
         links = []
 
-
         # Guardian article links
         articles = soup.find_all(
             "a",
             href=True
         )
 
-
         for article in articles:
 
-            href = article.get("href")
+            href = article.get(
+                "href"
+            )
 
             if not href:
                 continue
-
 
             # Guardian politics URLs
             if "/politics/" not in href:
                 continue
 
-
             full_url = urljoin(
                 self.domain,
                 href
             )
-
 
             if full_url not in links:
 
@@ -533,14 +716,11 @@ class GuardianPoliticsScraper:
                     full_url
                 )
 
-
         return links
-
 
     def scrape_content(self, links):
 
         articles = []
-
 
         for link in links:
 
@@ -563,18 +743,66 @@ class GuardianPoliticsScraper:
 
                 continue
 
-
             soup = BeautifulSoup(
                 response.text,
                 "html.parser"
             )
 
+            # ------------------------------------------------
+            # DATETIME
+            # ------------------------------------------------
+
+            published_time = get_jsonld_datetime(
+                soup,
+                [
+                    "datePublished",
+                    "dateModified"
+                ]
+            )
+
+            if not published_time:
+
+                published_time = get_html_datetime(
+                    soup
+                )
+
+            # Guardian meta fallback
+            if not published_time:
+
+                meta_tag = soup.find(
+                    "meta",
+                    attrs={
+                        "property":
+                        "article:published_time"
+                    }
+                )
+
+                if meta_tag:
+
+                    published_time = parse_datetime(
+                        meta_tag.get(
+                            "content",
+                            ""
+                        )
+                    )
+
+            if not published_time:
+
+                continue
+
+            if not is_within_last_24_hours(
+                published_time
+            ):
+
+                continue
 
             # ------------------------------------------------
             # TITLE
             # ------------------------------------------------
 
-            headline = soup.find("h1")
+            headline = soup.find(
+                "h1"
+            )
 
             title = ""
 
@@ -585,49 +813,42 @@ class GuardianPoliticsScraper:
                     strip=True
                 )
 
-
             # ------------------------------------------------
             # CONTENT
             # ------------------------------------------------
 
             article_body = soup.find(
                 "div",
-                {"id": "maincontent"}
+                {
+                    "id": "maincontent"
+                }
             )
-
 
             if not article_body:
 
                 article_body = soup
 
-
             paragraphs = article_body.find_all(
                 "p"
             )
 
-
             content = " ".join(
-
                 p.get_text(
                     " ",
                     strip=True
                 )
-
                 for p in paragraphs
-
                 if p.get_text(
                     " ",
                     strip=True
                 )
             )
 
-
             content = re.sub(
                 r"\s+",
                 " ",
                 content
             ).strip()
-
 
             if not content:
 
@@ -637,48 +858,19 @@ class GuardianPoliticsScraper:
 
                 continue
 
-
-            # ------------------------------------------------
-            # DATE
-            # ------------------------------------------------
-
-            published_date = ""
-
-
-            time_tag = soup.find(
-                "time"
-            )
-
-
-            if time_tag:
-
-                published_date = (
-                    time_tag.get(
-                        "datetime",
-                        ""
-                    )
-                )
-
-
-            if not published_date:
-
-                published_date = datetime.now().strftime(
-                    "%Y-%m-%d %H:%M"
-                )
-
-
             articles.append({
 
                 "title": title,
 
-                "date": published_date,
+                "date": published_time.strftime(
+                    "%Y-%m-%d %H:%M"
+                ),
 
                 "content": content,
 
                 "url": link
 
             })
-
 
         return articles
 
@@ -691,7 +883,9 @@ class PoliticsDataScrapper:
 
     def __init__(self):
 
-        self.output_dir = "data/people_data"
+        self.output_dir = (
+            "data/people_data"
+        )
 
         self.category = "people"
 
@@ -700,11 +894,9 @@ class PoliticsDataScrapper:
             exist_ok=True
         )
 
-
     def scrape_politics_data(self):
 
         people_data = []
-
 
         # ====================================================
         # BBC
@@ -715,24 +907,27 @@ class PoliticsDataScrapper:
             domain="https://www.bbc.com"
         )
 
-
-        BBC_links = BBC.get_section_links()
-
-        print(
-            f"BBC links found: {len(BBC_links)}"
+        BBC_links = (
+            BBC.get_section_links()
         )
 
+        print(
+            f"BBC links found: "
+            f"{len(BBC_links)}"
+        )
 
         BBC_data = BBC.scrape_content(
             BBC_links
         )
 
-
         for article in BBC_data:
 
             people_data.append({
 
-                "id": f"pp-{len(people_data) + 1}",
+                "id": (
+                    f"pp-"
+                    f"{len(people_data) + 1}"
+                ),
 
                 "source": "BBC",
 
@@ -748,7 +943,6 @@ class PoliticsDataScrapper:
 
             })
 
-
         # ====================================================
         # CNN
         # ====================================================
@@ -758,24 +952,27 @@ class PoliticsDataScrapper:
             domain="https://edition.cnn.com"
         )
 
-
-        CNN_links = CNN.get_section_links()
-
-        print(
-            f"CNN links found: {len(CNN_links)}"
+        CNN_links = (
+            CNN.get_section_links()
         )
 
+        print(
+            f"CNN links found: "
+            f"{len(CNN_links)}"
+        )
 
         CNN_data = CNN.scrape_content(
             CNN_links
         )
 
-
         for article in CNN_data:
 
             people_data.append({
 
-                "id": f"pp-{len(people_data) + 1}",
+                "id": (
+                    f"pp-"
+                    f"{len(people_data) + 1}"
+                ),
 
                 "source": "CNN",
 
@@ -791,35 +988,43 @@ class PoliticsDataScrapper:
 
             })
 
-
         # ====================================================
         # THE GUARDIAN
         # ====================================================
 
         Guardian = GuardianPoliticsScraper(
-            url="https://www.theguardian.com/international",
-            domain="https://www.theguardian.com"
+            url=(
+                "https://www.theguardian.com/"
+                "international"
+            ),
+            domain=(
+                "https://www.theguardian.com"
+            )
         )
 
-
-        Guardian_links = Guardian.get_section_links()
+        Guardian_links = (
+            Guardian.get_section_links()
+        )
 
         print(
             f"Guardian links found: "
             f"{len(Guardian_links)}"
         )
 
-
-        Guardian_data = Guardian.scrape_content(
-            Guardian_links
+        Guardian_data = (
+            Guardian.scrape_content(
+                Guardian_links
+            )
         )
-
 
         for article in Guardian_data:
 
             people_data.append({
 
-                "id": f"pp-{len(people_data) + 1}",
+                "id": (
+                    f"pp-"
+                    f"{len(people_data) + 1}"
+                ),
 
                 "source": "The Guardian",
 
@@ -835,7 +1040,6 @@ class PoliticsDataScrapper:
 
             })
 
-
         # ====================================================
         # SAVE JSON
         # ====================================================
@@ -845,12 +1049,10 @@ class PoliticsDataScrapper:
             + "_people_data.json"
         )
 
-
         output_path = os.path.join(
             self.output_dir,
             file_name
         )
-
 
         with open(
             output_path,
@@ -865,13 +1067,15 @@ class PoliticsDataScrapper:
                 indent=4
             )
 
-
         print(
-            f"\nSaved {len(people_data)} articles to:"
+            f"\nSaved "
+            f"{len(people_data)} "
+            f"articles to:"
         )
 
-        print(output_path)
-
+        print(
+            output_path
+        )
 
         return people_data
 

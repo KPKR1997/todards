@@ -1,1 +1,54 @@
-[]
+[
+    {
+        "id": "env-2",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "Climate damage cost up to 4 times higher as 1.5°C overshoot risks grow: Report",
+        "date": "2026-10-07T06:47:07.155Z",
+        "content": "Economic damages from carbon emissions could be up to four times higher than previously estimated, while global sea level rise is already locked in for centuries, according to a new report. The report, 10 New Insights in Climate Science 2026/2027 by Future Earth, The Earth League and the World Climate Research Programme (WCRP), also finds that 2025 was about 1.43°C warmer than the pre-industrial baseline, while human activities released a record 38.1 billion tonnes of CO2 from fossil fuels and cement production. The report draws on scientific evidence published between January 2025 and June 2026 and identifies 10 developments spanning physical climate change, water security, food systems, carbon economics, climate accountability, trade and geopolitics. It noted that the 2015 to 2025 period constituted the 11 warmest years on record, according to the World Meteorological Organization (WMO). Global atmospheric CO2 concentration reached approximately 425.6 parts per million (ppm) in 2025, 53 per cent above its pre-industrial level. The latest nationally determined contributions imply only a 12 per cent reduction in global emissions by 2035 from 2019 levels, compared with the approximately 55 per cent required for a pathway consistent with limiting warming to 1.5°C. “The evidence is unequivocal: 1.5°C is a limit that we cross at our own risk. Beyond it, the risks of cascading and potentially irreversible climate impacts increase, with every additional tenth of a degree making them more severe,” said Johan Rockström, director of the Potsdam Institute for Climate Impact Research, co-chair of The Earth League and a member of the report’s editorial board. The report said ocean heat content reached a record for the ninth consecutive year in 2025, with about one third of the global ocean ranking among its three warmest states on record. More than 90 per cent of the excess heat accumulated in the Earth system is absorbed by oceans, while heat takes about 25 years to penetrate from the surface to depths of 2,000 metres. This means part of the warming associated with the current energy imbalance is already committed. The rate of global mean sea level rise has doubled over the past 30 years. The report estimates that emissions through 2050 under a continuation of current climate policies could lock in an additional 300 millimetres of global mean sea level rise by 2300. Extending that policy trajectory to 2090 raises the commitment to 800 millimetres. A stringent mitigation pathway consistent with the Paris Agreement could avoid around 600 millimetres of that 800 millimetres.",
+        "url": "https://www.downtoearth.org.in/climate-change/climate-damage-cost-up-to-4-times-higher-as-15c-overshoot-risks-grow-report",
+        "rank": 1,
+        "ranking_score": 107.74,
+        "ranking_reason": "This article matters because it highlights the devastating consequences of climate change, including economic damages and sea level rise, and the urgent need for action to mitigate these impacts. The report's findings underscore the importance of reducing greenhouse gas emissions to limit global warming to 1.5°C.",
+        "ranking": {
+            "rank": 1,
+            "score": 107.74,
+            "base_score": 67.05,
+            "event_multiplier": 1.3,
+            "severity_multiplier": 1.2,
+            "freshness_multiplier": 1.03,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 80,
+                "dont_miss": 0,
+                "human_consequence": 90,
+                "economic_impact": 95,
+                "political_significance": 80,
+                "health_significance": 85,
+                "scientific_significance": 95,
+                "entertainment_significance": 0,
+                "remarkability": 95,
+                "global_reach": 100,
+                "urgency": 95,
+                "severity_tier": 4,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": true,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": false
+                },
+                "reason": "This article matters because it highlights the devastating consequences of climate change, including economic damages and sea level rise, and the urgent need for action to mitigate these impacts. The report's findings underscore the importance of reducing greenhouse gas emissions to limit global warming to 1.5°C."
+            }
+        }
+    }
+]

@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 7",
+    "issue": "Issue No. 13",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "05 October 2026",
+    "publishedAt": "07 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "US Removes B-1 Bombers from RAF Fairford Amid Security Concerns",
-          "image": "https://images.pexels.com/photos/33347014/pexels-photo-33347014.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Gloucestershire",
-          "time": "Oct 06, 2026",
-          "content": "The US has withdrawn its bombers from RAF Fairford, a military base in Gloucestershire, following a major incident last week. The Pentagon confirmed the removal of about a dozen B-1s, citing new threats and a desire to protect the strategic asset. The move is said to be a military decision, taken at an operational level, and communicated to British counterparts. The UK government has assured the public that the base is safe, with Defence Secretary Wes Streeting stating that tested approaches will be used to defend the base. The US Secretary of State has also expressed confidence in the security of all US bases, including RAF Fairford.",
+          "title": "At least 20 killed in Ukraine strikes, Pryluky residential building destroyed",
+          "image": "https://images.unsplash.com/photo-1704971143833-250c9efb7c9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VWtyYWluaWFuJTIwYXBhcnRtZW50JTIwYnVpbGRpbmclMjBydWJibGV8ZW58MXwwfHx8MTc5MTM4MDAxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Ukraine",
+          "time": "Oct 07, 2026",
+          "content": "At least 20 people died in overnight strikes across central and eastern Ukraine, with a residential building in Pryluky destroyed as a",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "French boy's hand blown off in police-demonstrator clash in Lens",
-          "image": "https://images.pexels.com/photos/14885783/pexels-photo-14885783.png?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Lens, France",
-          "time": "Oct 06, 2026",
-          "content": "A 15-year-old boy's hand was blown off during a confrontation between police and demonstrators near a school in France, prompting an official investigation. The incident occurred in the northern city of Lens on Monday morning, with around 500 schools partially or totally closed across the country amid student protests over school conditions and staffing. At least 190 students have been injured since the protests began, with one student suffering a double jaw fracture after being struck by a tear gas grenade. The French government has launched an investigation into the incident and plans to set up a consultation platform for students to share their experiences.",
+          "title": "FBI Probes Anti-ICE Protesters in California, Sparking Whistleblower Complaint",
+          "image": "https://images.unsplash.com/photo-1511898634545-c01af8a54dd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8cHJvdGVzdCUyMHJhbGx5fGVufDF8MHx8fDE3OTEzNDg2NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Los Angeles, USA",
+          "time": "Oct 07, 2026",
+          "content": "The FBI opened preliminary investigations targeting anti-Immigration and Customs Enforcement protesters in Southern California, sparking a whistleblower complaint alleging violations of law and agency policy. The investigations were launched in early 2025 following demands from President Donald Trump and other administration officials. The complaint, filed by former FBI intelligence official Jill Fields, alleges that the FBI investigated and surveilled protesters without evidence of a crime, violating First Amendment protections. The Justice Department and White House have maintained that violence and obstruction of law enforcement are not protected by the First Amendment.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "London knife attack kills one, injures two; family of five murdered in Walkden arson",
-          "image": "https://images.unsplash.com/photo-1637016887843-c6d136c06d74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UG9saWNlfGVufDF8MHx8fDE3OTEyMjc4ODd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Leeds, England",
-          "time": "Oct 06, 2026",
-          "content": "A violent knife attack in west London left one person dead and two others injured. In a separate incident, a family of five was murdered in an arson attack at their home in Walkden. A public inquiry found that violent content and weapons sales remained online despite being reported. In another incident, a tree surgeon was rescued by firefighters in Leicestershire. The England and Wales Cricket Board will consider funding a women's Test in the West Indies to aid England's Ashes preparations. Motorists are struggling with soaring diesel costs, and a father is awaiting confirmation of a half-marathon record.",
+          "title": "France sees widespread school protests, 1,015 injured",
+          "image": "https://images.unsplash.com/photo-1569098644584-210bcd375b59?auto=format&fit=crop&w=1080&q=80",
+          "place": "Paris, France",
+          "time": "Oct 07, 2026",
+          "content": "Hundreds of thousands of people, including high-school pupils, parents, university students, and unions, protested across France, calling for better resources for schools and less police repression. Protesters marched from the Place de la République in Paris, with clashes reported in Lyon, Paris, and Marseille. According to the government, 215 students, 85 staff, and 715 police officers were injured. Prime Minister Sébastien Lecornu condemned the violence, and Education Minister Édouard Geffray appealed for dialogue. The protests have been ongoing since mid-September, with students demanding better conditions in schools.",
           "theme": "#F7ECEE"
         }
       ]
@@ -58,11 +58,11 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Nvidia Acquires Groq Assets Without Stockholder Vote, Lawsuit Claims",
+          "title": "AMD and Intel CPUs gain traction in AI market, fueled by long-running AI agents",
           "image": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTExODA3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Delaware",
-          "time": "Oct 05, 2026",
-          "content": "A lawsuit filed by former Groq engineers Joshua Rubin and Benjamin Serebrin alleges that Nvidia's $20 billion deal to acquire assets from Groq \"squeezed out\" stockholders. The deal, announced in December, offered a \"lowball\" price to stockholders, according to the lawsuit. Groq's board of directors allegedly sold the company to Nvidia without a stockholder vote, prioritizing a licensing agreement and employee stock options. The deal resulted in the transfer of approximately 150 to 200 Groq engineers to Nvidia, with CEO Jensen Huang stating the agreement would expand Nvidia's AI capabilities.",
+          "place": "**Bengaluru, India**",
+          "time": "Oct 07, 2026",
+          "content": "Advanced Micro Devices (AMD) and Intel are experiencing a resurgence in fortunes as their central processing units (CPUs) gain prominence in the artificial intelligence (AI) market. The companies' chips specialize in powering long-running AI agents that can work for hours on their own. AMD's growing strength in both CPUs and graphics processing units (GPUs) has pushed the company into the trillion-dollar market cap club. The CPU market is expected to reach $220 billion in sales by 2030, with AMD expecting to take more than half of the market. Intel is also seeing a surge in demand, with AMD's CPUs being favored by hyperscalers and cloud providers.",
           "theme": "#EBF2FA"
         },
         {
@@ -77,7 +77,7 @@
         {
           "id": "t-3",
           "title": "Microsoft CEO Prioritizes AI Deployment Within Enterprises",
-          "image": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUl8ZW58MXwwfHx8MTc5MTIwMDMwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1080&q=80",
           "place": "Seattle, USA",
           "time": "Oct 05, 2026",
           "content": "Microsoft CEO Satya Nadella emphasized the importance of \"diffusion inside the enterprise\" to adapt to the AI age, highlighting the need for AI tools to be widely deployed. Microsoft is trying to magnify its role in the AI boom, but faces challenges as Nvidia dominates in AI chips and Google's Gemini-powered services are popular. Nadella's AI strategy is centered around Copilot, but the company's sluggishness in keeping up with rapid changes has cost GitHub market share. Microsoft is now shifting to consumption-based pricing, with usage-based billing for Copilot Cowork, a new product. Nadella aims to empower nontechnical knowledge workers and has been downplaying the importance of world-beating models in isolation.",
@@ -95,20 +95,20 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "US and German Scientists Win Nobel Prize for Optogenetics Breakthrough",
-          "image": "https://images.unsplash.com/photo-1617791160536-598cf32026fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YnJhaW58ZW58MXwwfHx8MTc5MTIwNDA3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
-          "time": "Oct 05, 2026",
-          "content": "US psychiatrist and neurologist Karl Deisseroth and his German colleagues Peter Hegemann and Georg Nagel have been awarded the Nobel Prize in Physiology or Medicine for their pioneering work in optogenetics. Their research has revealed how to switch on and off neural circuits, laying the foundation for a new era in neuroscience. The Nobel Committee praised their work, saying it has fundamentally altered our understanding of the brain and is helping to solve one of humanity's great mysteries. The trio's discovery has already led to important insights into psychiatric and neurological disorders, and has the potential to restore sight in people with visual impairment.",
+          "title": "Pennsylvania Reports 1,000 Measles Cases, 5 Deaths, Amid Outbreak",
+          "image": "https://images.unsplash.com/photo-1583324113900-5de25534bb2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8bWVhc2xlcyUyMG91dGJyZWFrfGVufDF8MHx8fDE3OTEzNzAyNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Central Pennsylvania",
+          "time": "Oct 07, 2026",
+          "content": "In the United States, a measles outbreak has been reported in Pennsylvania, with nearly 1,000 cases and five deaths. The outbreak is particularly severe in Lancaster County, where the Amish community is vulnerable to the disease. The Central Pennsylvania Clinic is at the forefront of the response, providing care to patients and raising awareness about the importance of vaccination. Clinic leaders, including Dr. Katherine Mascia, emphasize the need for consistent messaging and building trust with the community to increase vaccination rates.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-2",
-          "title": "Neck strain rises with screen time, experts warn",
-          "image": "https://images.pexels.com/photos/12903349/pexels-photo-12903349.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London",
-          "time": "Oct 05, 2026",
-          "content": "The modern world can be challenging for necks, with millions spending hours with heads bent over laptops and smartphones. This can increase the load on necks by up to 60 pounds, leading to strain and discomfort. As we age, natural changes can cause neck problems, and technology's impact on posture adds to the strain. Neck pain can be mitigated through simple exercises, such as looking to the side and gently lengthening the neck. Good posture, regular movement, and breaks from screens can also help.",
+          "title": "Kenya confirms first-ever Ebola case, patient dies in Nairobi",
+          "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWVkaWNhbCUyMGZhY2lsaXR5fGVufDF8MHx8fDE3OTEzNTU0OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Nairobi, Kenya",
+          "time": "Oct 07, 2026",
+          "content": "Kenya has confirmed its first-ever Ebola case, a Kenyan citizen who died days after arriving in Nairobi. The patient, who had been living in the Democratic Republic of Congo, died despite being treated in several hospitals. The country has since stepped up surveillance at airports and border crossings. Over 4,000 people have died from Ebola in DR Congo this year, with the current outbreak caused by the Bundibugyo species. The virus spreads through contact with infected bodily fluids, and Kenya has introduced tighter checks at airports and border posts.",
           "theme": "#E8F5F1"
         },
         {
@@ -132,29 +132,29 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Coral restoration projects show promising signs of recovery",
-          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=82",
-          "place": "Cairns, Australia",
-          "time": "Sep 21, 2026",
-          "content": "Marine scientists are testing new methods to restore coral reefs damaged by warming oceans and other environmental pressures. Some projects are combining coral breeding with carefully selected resilient colonies to improve the chances of recovery.",
+          "title": "Report Warns Carbon Emissions' Economic Damages Four Times Higher Than Estimated",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "Global",
+          "time": "Oct 07, 2026",
+          "content": "A new report from Future Earth, The Earth League, and the World Climate Research Programme warns that economic damages from carbon emissions could be four times higher than previously estimated. The report, 10 New Insights in Climate Science 2026/2027, finds that 2025 was 1.43°C warmer than the pre-industrial baseline, with global sea level rise already locked in for centuries. The report highlights the urgent need for climate action, as the rate of global mean sea level rise has doubled over the past 30 years, and estimates that emissions through 2050 could lock in an additional 300 millimetres of sea level rise by 2300.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-2",
-          "title": "Underwater sensors reveal previously unknown whale migration patterns",
-          "image": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1200&q=82",
-          "place": "Reykjavik, Iceland",
-          "time": "Sep 19, 2026",
-          "content": "Networks of underwater microphones are helping scientists track whale movements across remote parts of the ocean. The recordings can reveal migration routes and important feeding areas without researchers having to follow the animals directly.",
+          "title": "Report: Economic Damages Quadrupled, Sea Level Rise Locked In for Centuries",
+          "image": "https://images.pexels.com/photos/12292621/pexels-photo-12292621.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Geneva, Switzerland",
+          "time": "Oct 07, 2026",
+          "content": "A new report by Future Earth, The Earth League, and the World Climate Research Programme warns that economic damages from carbon emissions could be four times higher than previously estimated, while global sea level rise is already locked in for centuries. The report finds that 2025 was the 11th warmest year on record, with human activities releasing a record 38.1 billion tonnes of CO2. The report highlights the risks of crossing the 1.5°C threshold, with Johan Rockström stating that \"the evidence is unequivocal: 1.5°C is a limit that we cross at our own risk.\" The report also estimates that continued climate policies could lock in an additional 600-800 millimetres of global mean sea level rise by 2300.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-3",
-          "title": "Floating solar farms expand renewable energy production",
-          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=82",
-          "place": "Singapore",
-          "time": "Sep 17, 2026",
-          "content": "Floating solar installations are becoming an increasingly attractive option for regions where land is limited. Panels installed on reservoirs and other water bodies can generate electricity while reducing pressure on valuable land resources.",
+          "title": "Northern India faces mixed weather, rain and snow expected in some areas",
+          "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGVsaGklMjBjaXR5fGVufDF8MHx8fDE3OTEzNjg1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Delhi",
+          "time": "Oct 07, 2026",
+          "content": "Northern India is expected to experience a mixed bag of weather conditions, with rain and snowfall forecasted in some areas. Delhi and nearby plains are expected to continue facing heat and humidity, with temperatures potentially dropping by 2-4 degrees Celsius in the coming days. Jammu and Kashmir, Himachal Pradesh, and Uttarakhand may receive rain, while higher mountain areas could see light snowfall. Nagaland, Manipur, Mizoram, and Tripura are forecasted to receive heavy rain, with a yellow alert issued by the weather department. Thunderstorms, lightning, and strong winds may also affect several states, while Pilani recorded the country's highest temperature at 40.1 degrees Celsius.",
           "theme": "#E7F4EF"
         }
       ]
@@ -206,29 +206,29 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Global manufacturers increase investment in clean energy infrastructure",
-          "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=82",
-          "place": "Frankfurt, Germany",
-          "time": "Sep 21, 2026",
-          "content": "Manufacturing companies are increasing spending on renewable electricity, energy-efficient equipment and cleaner production systems. Businesses are looking to reduce operating costs while preparing for stricter environmental requirements and changing energy markets.",
+          "title": "Paramount Skydance acquires Warner Bros Discovery in $110bn merger.",
+          "image": "https://images.unsplash.com/photo-1534253893894-10d024888e49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SG9sbHl3b29kfGVufDF8MHx8fDE3OTEzNjg2MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Los Angeles, USA",
+          "time": "Oct 07, 2026",
+          "content": "Paramount Skydance has acquired Warner Bros Discovery in a $110bn merger, reshaping Hollywood and the media landscape. The deal brings together iconic franchises like Harry Potter, Game of Thrones, and The Lord of the Rings, as well as existing Paramount hits. The merged entity, Skydance Corporation, will be led by David Ellison and co-CEO Ynon Kreiz, with a focus on cost efficiencies and streaming operations. The deal has received approval from competition authorities and includes a commitment to maintain editorial independence at CNN and CBS. The merger aims to produce \"real, robust movies\" and create economic activity, with guardrails in place to prevent AI-generated films.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-2",
-          "title": "Global trade adjusts as companies rethink supply chains",
-          "image": "https://images.unsplash.com/photo-1586528116493-da8b5f7c9f65?auto=format&fit=crop&w=1200&q=82",
-          "place": "Singapore",
-          "time": "Sep 19, 2026",
-          "content": "Companies are continuing to redesign supply chains in response to changing trade policies, transportation costs and geopolitical risks. Many businesses are looking for ways to diversify suppliers and make production networks more resilient.",
+          "title": "Paramount Skydance and Warner Bros Discovery Complete $110bn Merger",
+          "image": "https://images.pexels.com/photos/36148684/pexels-photo-36148684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Los Angeles, USA",
+          "time": "Oct 07, 2026",
+          "content": "The $110bn merger between Paramount Skydance and Warner Bros Discovery has completed, forming Skydance, an entertainment behemoth. The deal brings together franchises like Harry Potter and Game of Thrones, as well as HBO Max and Paramount+ streaming platforms. The merged company carries $80bn in debt and targets $6bn in annual cost savings. Analysts predict price increases for subscribers, with 156 movies to be released annually for five years. The merger may lead to fewer films in cinemas, with the potential for job losses and a shift towards streaming. A news editorial independence board has been established to address concerns over journalistic freedom at CNN and CBS.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-3",
-          "title": "Small businesses increasingly adopt artificial intelligence tools",
-          "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
-          "place": "Bengaluru, India",
-          "time": "Sep 17, 2026",
-          "content": "Small businesses are adopting AI tools for customer support, marketing, document processing and data analysis. Lower-cost AI services are making technologies that were previously available mainly to large companies more accessible to smaller firms.",
+          "title": "Jaguar Unveils £130,000 Electric Car, Type 01, with 1000 HP and 320-Mile Range",
+          "image": "https://images.unsplash.com/photo-1616128417743-c3a6992a65e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SmFndWFyfGVufDF8MHx8fDE3OTEzNjg2Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 07, 2026",
+          "content": "Jaguar has unveiled its new electric car, the Type 01, two years after its rebranding sparked a backlash. The car, with a price tag of £130,000 in the UK, features 1000 horsepower and a range of up to 320 miles. The unveiling was met with mixed reactions, with some praising the design while others criticized it as \"polarizing\". Jaguar's decision to go all-electric is a gamble, given the decline of EV popularity in the US. The company faces an uphill battle, but its new strategy aims to reinvent the brand as a luxury electric marque. The future of Jaguar hangs in the balance, with some experts viewing this as a last throw of the dice.",
           "theme": "#F7F1DE"
         }
       ]

@@ -1,24 +1,20 @@
-import ollama
-import json
-import requests
-from datetime import datetime
+import logging
+from typing import Optional, List
+from backend.core.ollama_client import OllamaClient
+from backend.core.schemas import ContentTypeResponse
+from config.settings import OLLAMA_BASE_URL, OLLAMA_MODEL
+
+logger = logging.getLogger("todards.classifier")
 
 
 class LlmContentClasifier:
-    def __init__(self, base_url, model):
-        self.base_url = base_url
-        self.model = model
+    def __init__(self, base_url=None, model=None, client: Optional[OllamaClient] = None):
+        self.base_url = base_url or OLLAMA_BASE_URL
+        self.model = model or OLLAMA_MODEL
+        self.client = client or OllamaClient(base_url=self.base_url, model=self.model)
 
-    def classify_content(self, content):
-        response = requests.post(
-            f"{self.base_url}/api/chat",
-            json ={
-                "model": self.model,
-                "messages" : [
-                    {
-                        "role": "system",
-                        "content": 
-                        f"""
+    def classify_content(self, content: str) -> List[str]:
+        prompt = f"""
 
                         You are an expert news editor. Classify the provided content into exactly ONE category:
 
@@ -55,18 +51,20 @@ class LlmContentClasifier:
 
                         {content}
                         """
-                    }
-                ],
-                "stream": False
-            },
-            timeout=120
-        )
 
-        response.raise_for_status()
+        try:
+            res = self.client.generate(prompt=prompt, response_model=ContentTypeResponse, role="system")
+            if res and res.content_type:
+                return [res.content_type.upper()]
+        except Exception as e:
+            logger.warning(f"Structured content classification failed: {e}. Falling back to raw response.")
 
-        data = response.json()
-   
-        result = data["message"]["content"].split()
-        return result
-
-    
+        try:
+            raw = self.client.generate_raw(prompt=prompt, role="system")
+            words = raw.strip().upper().split()
+            if "ARTICLE" in words:
+                return ["ARTICLE"]
+            return ["NEWS"]
+        except Exception as e:
+            logger.error(f"Content classification failed: {e}")
+            return ["NEWS"]

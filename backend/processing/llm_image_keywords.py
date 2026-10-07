@@ -1,23 +1,24 @@
-import ollama
-import json
-import requests
-from datetime import datetime
+import logging
+from typing import Optional, List
+from backend.core.ollama_client import OllamaClient
+from backend.core.schemas import ImageKeywordsResponse
+from config.settings import OLLAMA_BASE_URL, OLLAMA_MODEL
+
+logger = logging.getLogger("todards.image_keywords")
 
 
 class LlmImageKeywordsGenerator:
-    def __init__(self, base_url, model):
-        self.base_url = base_url
-        self.model = model
+    def __init__(self, base_url=None, model=None, client: Optional[OllamaClient] = None):
+        self.base_url = base_url or OLLAMA_BASE_URL
+        self.model = model or OLLAMA_MODEL
+        self.client = client or OllamaClient(base_url=self.base_url, model=self.model)
 
-    def generate_keywords(self, content):
-        response = requests.post(
-                    f"{self.base_url}/api/chat",
-                    json ={
-                        "model": self.model,
-                        "messages" : [
-                            {
-                                "role": "system",
-                                "content": f"""
+    def generate_keywords(self, content: str) -> str:
+        """
+        Generate exactly 3 image-search keywords.
+        Returns a comma-separated string for backward compatibility with .split(',').
+        """
+        prompt = f"""
         
                                 You are an image-search keyword generator for a news and article website.
 
@@ -64,17 +65,26 @@ class LlmImageKeywordsGenerator:
                                 {content}
 
                                 """
-                            }
-                        ],
-                        "stream": False
-                    },
-                    timeout=120
-                )
-        
-        response.raise_for_status()
-        data = response.json()
-        result = data["message"]["content"]
-        return result
 
+        try:
+            res = self.client.generate(prompt=prompt, response_model=ImageKeywordsResponse, role="system")
+            if res and res.keywords:
+                clean_kws = [k.strip() for k in res.keywords if k.strip()]
+                if clean_kws:
+                    return ", ".join(clean_kws[:3])
+        except Exception as e:
+            logger.warning(f"Structured image keyword extraction failed: {e}. Falling back to raw response.")
 
-    
+        try:
+            raw = self.client.generate_raw(prompt=prompt, role="system")
+            cleaned = raw.strip().replace("\n", ", ")
+            return cleaned
+        except Exception as e:
+            logger.error(f"Image keyword generation failed: {e}")
+            return "news, technology, global"
+
+    def generate_keywords_list(self, content: str) -> List[str]:
+        """Convenience method returning a validated list of keyword strings."""
+        result_str = self.generate_keywords(content)
+        parts = [p.strip() for p in result_str.split(",") if p.strip()]
+        return parts[:3]

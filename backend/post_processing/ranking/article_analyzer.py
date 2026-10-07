@@ -1,5 +1,12 @@
 import json
-import requests
+import logging
+from typing import Optional, Dict, Any
+
+from backend.core.ollama_client import OllamaClient
+from backend.core.schemas import ArticleAnalysisResponse
+from config.settings import OLLAMA_BASE_URL, OLLAMA_MODEL
+
+logger = logging.getLogger("todards.analyzer")
 
 
 class ArticleAnalyzer:
@@ -12,15 +19,21 @@ class ArticleAnalyzer:
 
     def __init__(
         self,
-        url="http://localhost:11434",
-        model="llama3:latest",
+        url=None,
+        model=None,
         timeout=120,
+        client: Optional[OllamaClient] = None,
     ):
-        self.url = url.rstrip("/")
-        self.model = model
+        self.url = (url or OLLAMA_BASE_URL).rstrip("/")
+        self.model = model or OLLAMA_MODEL
         self.timeout = timeout
+        self.client = client or OllamaClient(
+            base_url=self.url,
+            model=self.model,
+            timeout=self.timeout,
+        )
 
-    def _build_prompt(self, article):
+    def _build_prompt(self, article: Dict[str, Any]) -> str:
         title = article.get("title", "")
         content = article.get("content", "")
         category = article.get("category", "")
@@ -110,81 +123,84 @@ Severity tier:
 
 The "reason" must be a short explanation of why this article matters.
 """
-
         return prompt
 
-    def _extract_json(self, text):
-
+    def _extract_json(self, text: str) -> dict:
         text = text.strip()
 
-        # Remove markdown code fences if Ollama adds them.
         if text.startswith("```"):
             lines = text.splitlines()
-
             if lines:
                 lines = lines[1:]
-
             if lines and lines[-1].strip().startswith("```"):
                 lines = lines[:-1]
-
             text = "\n".join(lines).strip()
 
-        # Find JSON object if there is extra text.
         start = text.find("{")
         end = text.rfind("}")
 
         if start == -1 or end == -1:
-            raise ValueError(
-                "No JSON object found in Ollama response."
-            )
+            raise ValueError("No JSON object found in Ollama response.")
 
         text = text[start:end + 1]
-
         return json.loads(text)
 
-    def analyze(self, article):
-
+    def analyze(self, article: Dict[str, Any]) -> dict:
         prompt = self._build_prompt(article)
 
-        payload = {
-            "model": self.model,
-            "messages": [
-                {
-                    "role": "user",
-                    "content": prompt,
-                }
-            ],
-            "stream": False,
-            "format": "json",
-        }
-
-        response = requests.post(
-            f"{self.url}/api/chat",
-            json=payload,
-            timeout=self.timeout,
-        )
-
-        response.raise_for_status()
-
-        result = response.json()
-
-        content = (
-            result
-            .get("message", {})
-            .get("content", "")
-        )
-
-        if not content:
-            raise ValueError(
-                "Empty response received from Ollama."
+        try:
+            res = self.client.generate(
+                prompt=prompt,
+                response_model=ArticleAnalysisResponse,
+                role="user",
+            )
+            return res.model_dump()
+        except Exception as e:
+            logger.warning(
+                f"Structured article analysis failed: {e}. Falling back to raw response."
             )
 
-        analysis = self._extract_json(content)
+        try:
+            raw = self.client.generate_raw(prompt=prompt, role="user")
+            parsed = self._extract_json(raw)
+            return self._validate(parsed)
+        except Exception as e:
+            logger.error(f"Article analysis failed completely: {e}")
+            # Return baseline fallback dict
+            return self._default_analysis()
 
-        return self._validate(analysis)
+    def _default_analysis(self) -> dict:
+        return {
+            "everyday_impact": 0,
+            "dont_miss": 0,
+            "human_consequence": 0,
+            "economic_impact": 0,
+            "political_significance": 0,
+            "health_significance": 0,
+            "scientific_significance": 0,
+            "entertainment_significance": 0,
+            "remarkability": 0,
+            "global_reach": 0,
+            "urgency": 0,
+            "severity_tier": 1,
+            "events": {
+                "major_disaster": False,
+                "mass_casualties": False,
+                "pandemic": False,
+                "election": False,
+                "major_political_change": False,
+                "major_economic_event": False,
+                "major_award": False,
+                "celebrity_death": False,
+                "record_breaking": False,
+                "unprecedented_event": False,
+                "major_scientific_discovery": False,
+                "major_technology_event": False,
+            },
+            "reason": "Default fallback analysis due to LLM error.",
+        }
 
-    def _validate(self, analysis):
-
+    def _validate(self, analysis: dict) -> dict:
         score_fields = [
             "everyday_impact",
             "dont_miss",
@@ -200,32 +216,20 @@ The "reason" must be a short explanation of why this article matters.
         ]
 
         for field in score_fields:
-
             value = analysis.get(field, 0)
-
             try:
                 value = int(value)
             except (ValueError, TypeError):
                 value = 0
-
             value = max(0, min(100, value))
-
             analysis[field] = value
 
         try:
-            tier = int(
-                analysis.get(
-                    "severity_tier",
-                    1,
-                )
-            )
+            tier = int(analysis.get("severity_tier", 1))
         except (ValueError, TypeError):
             tier = 1
 
-        analysis["severity_tier"] = max(
-            1,
-            min(5, tier),
-        )
+        analysis["severity_tier"] = max(1, min(5, tier))
 
         default_events = {
             "major_disaster": False,
@@ -243,23 +247,17 @@ The "reason" must be a short explanation of why this article matters.
         }
 
         events = analysis.get("events", {})
-
         if not isinstance(events, dict):
             events = {}
 
         for key, default in default_events.items():
-
-            events[key] = bool(
-                events.get(key, default)
-            )
+            events[key] = bool(events.get(key, default))
 
         analysis["events"] = events
 
         reason = analysis.get("reason", "")
-
         if not isinstance(reason, str):
             reason = str(reason)
-
         analysis["reason"] = reason.strip()
 
         return analysis

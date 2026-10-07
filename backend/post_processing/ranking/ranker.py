@@ -14,6 +14,7 @@ from backend.post_processing.ranking.ranking_rules import (
 from backend.post_processing.ranking.story_clusterer import (
     StoryClusterer,
 )
+from config.settings import ALL_DATA_FOLDERS
 
 
 class NewsRanker:
@@ -93,12 +94,7 @@ class NewsRanker:
 
         self.records = []
 
-        folders = [
-            "health_data",
-            "tech_data",
-            "people_data",
-            "environment_data",
-        ]
+        folders = ALL_DATA_FOLDERS
 
         print(
             "\n========== LOADING TODAY'S ARTICLES =========="
@@ -466,11 +462,7 @@ class NewsRanker:
             "\n========== BACKING UP RAW DATA =========="
         )
 
-        folders = [
-            "health_data",
-            "tech_data",
-            "people_data",
-        ]
+        folders = ALL_DATA_FOLDERS
 
         backed_up = []
 
@@ -623,11 +615,7 @@ class NewsRanker:
         # Find today's files.
         # -----------------------------------------------------
 
-        folders = [
-            "health_data",
-            "tech_data",
-            "people_data",
-        ]
+        folders = ALL_DATA_FOLDERS
 
         updated_count = 0
 

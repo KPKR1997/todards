@@ -1,76 +1,50 @@
-import json
-import requests
+import logging
+from typing import Optional
+from backend.core.ollama_client import OllamaClient
+from backend.core.schemas import HeadlineResponse
+from config.settings import OLLAMA_BASE_URL, OLLAMA_MODEL
+
+logger = logging.getLogger("todards.headline")
 
 
 class LlmHeadlineEditor:
 
-    def __init__(self, base_url, model):
-        self.base_url = base_url
-        self.model = model
+    def __init__(self, base_url=None, model=None, client: Optional[OllamaClient] = None):
+        self.base_url = base_url or OLLAMA_BASE_URL
+        self.model = model or OLLAMA_MODEL
+        self.client = client or OllamaClient(base_url=self.base_url, model=self.model)
 
-    def _chat(self, system_prompt):
+    def _chat(self, system_prompt: str) -> str:
         """
         Send a request to Ollama and return the generated headline.
-
-        Uses structured JSON output so the model cannot easily add
-        explanations, comments, or extra text.
+        Uses Pydantic structured output with fallback.
         """
-
-        response = requests.post(
-            f"{self.base_url}/api/chat",
-            json={
-                "model": self.model,
-                "messages": [
-                    {
-                        "role": "system",
-                        "content": system_prompt
-                    }
-                ],
-                "stream": False,
-                "format": {
-                    "type": "object",
-                    "properties": {
-                        "headline": {
-                            "type": "string"
-                        }
-                    },
-                    "required": ["headline"]
-                }
-            },
-            timeout=120
-        )
-
-        response.raise_for_status()
-
-        data = response.json()
-
-        content = data["message"]["content"]
-
-        # Ollama returns the structured response as JSON text
         try:
-            result = json.loads(content)
-            headline = result["headline"]
-        except (json.JSONDecodeError, KeyError, TypeError):
-            # Fallback if the model ignores structured output
-            headline = content
+            res = self.client.generate(prompt=system_prompt, response_model=HeadlineResponse, role="system")
+            if res and res.headline:
+                return self._clean_headline(res.headline)
+        except Exception as e:
+            logger.warning(f"Structured headline generation failed: {e}. Falling back to raw response.")
 
-        return self._clean_headline(headline)
+        try:
+            raw = self.client.generate_raw(prompt=system_prompt, role="system")
+            return self._clean_headline(raw)
+        except Exception as e:
+            logger.error(f"Headline generation failed: {e}")
+            raise
 
-    def _clean_headline(self, headline):
+    def _clean_headline(self, headline: str) -> str:
         """
         Final programmatic cleanup.
-
-        This is deliberately conservative. We don't want Python
-        rewriting the actual headline; we only remove obvious
-        LLM formatting/commentary mistakes.
+        Deliberately conservative. Removes code fences and quotes.
         """
-
         if not headline:
             return ""
 
         headline = headline.strip()
 
-        # Remove markdown code fences if the model somehow produces them
+        # Remove markdown code fences if produced
+        headline = headline.replace("```json", "")
         headline = headline.replace("```text", "")
         headline = headline.replace("```", "")
         headline = headline.strip()
@@ -85,15 +59,10 @@ class LlmHeadlineEditor:
 
         return headline
 
-    def write_headline(self, content, remarks):
+    def write_headline(self, content: str, remarks: str) -> str:
         """
         Generate the initial headline.
-
-        IMPORTANT:
-        The method signature remains exactly the same so main.py
-        does not need to change.
         """
-
         system_prompt = f"""
 You are a professional news headline writer for Todards,
 a concise global news publication.
@@ -196,17 +165,12 @@ NEWS ARTICLE:
 
 {content}
 """
-
         return self._chat(system_prompt)
 
-    def validate_headline(self, content, headline):
+    def validate_headline(self, content: str, headline: str) -> str:
         """
         Fine-tune an existing headline.
-
-        The method signature remains unchanged so main.py
-        requires no modification.
         """
-
         system_prompt = f"""
 You are a professional news headline editor for Todards.
 
@@ -320,5 +284,4 @@ EXISTING HEADLINE:
 
 {headline}
 """
-
         return self._chat(system_prompt)
