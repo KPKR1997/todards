@@ -1,134 +1,76 @@
 {
     "date": "08102026",
-    "timestamp": "2026-10-09T00:23:35.726284",
-    "duration_seconds": 5668.87,
+    "timestamp": "2026-10-09T00:27:03.210702",
+    "duration_seconds": 3814.13,
     "stages_duration_seconds": {
-        "scrape": 1420.25,
-        "guardrails": 774.63,
-        "deduplication": 13.33,
-        "category_validation": 185.83,
-        "ranking": 1543.72,
-        "processing": 1731.08,
+        "scrape": 825.66,
+        "guardrails": 1486.93,
+        "deduplication": 14.04,
+        "category_validation": 156.36,
+        "ranking": 10.91,
+        "processing": 1320.17,
         "assembly": 0.01
     },
     "volume": {
         "scraped_by_category": {
             "Health": 9,
             "Tech": 27,
-            "People": 38,
+            "People": 37,
             "Environment": 5,
             "Economy": 7,
-            "Entertainment": 14
+            "Entertainment": 15
         },
         "total_scraped": 100,
-        "guardrail_passed": 100,
-        "guardrail_rejected": 0,
-        "dedup_removed": 16,
+        "guardrail_passed": 81,
+        "guardrail_rejected": 1,
+        "dedup_removed": 3,
         "category_reassignments": 0,
-        "final_articles": 18,
+        "final_articles": 17,
         "final_categories": 6
     },
-    "guardrail_rejections": [],
+    "guardrail_rejections": [
+        {
+            "id": "pp-16",
+            "source": "BBC",
+            "category": "people",
+            "title": "Why Zimbabwe tycoon 'Sir Wicknell' was loved and hated in Africa",
+            "date": "2026-10-07 23:29",
+            "content": "Wicknell Chivayo, the Zimbabwean tycoon who died in a helicopter crash along with his wife Lucy Muteke last week, divided opinion in life and continues to do so in death. He called himself \"Sir Wicknell\", a nod to the embellishment that epitomised his lifestyle - and a nickname some used for the 45-year-old who packed enough controversy into his short life to last several lifetimes. He was relentlessly self-documenting, building much of his public persona on social media, where he posed with piles of cash and announced the cars and money he gave to people whom he considered deserving. Chivayo delighted in displaying his access to heads of state across Africa and showing off his possessions, conducting video tours of his fleet of expensive cars, mainly Rolls-Royces, with vanity plates, watches and a vast collection of designer shoes. His admirers saw a fabulously wealthy man sharing his good fortune. His detractors recoiled at the ostentatious displays, questioned the origins of his money and his political connections, and saw his lifestyle as a stark illustration of inequality. But Chivayo remained tone-deaf to such criticism. As his fortunes rose, he became ever more unapologetic about flaunting his wealth in a country where nearly half the population lives below the international poverty line, according to the World Bank. \"He gave to those few on an island of wealth in a sea of poverty,\" Pedzisai Ruhanya, director of the Zimbabwe Democracy Institute think-tank, told the BBC, explaining how his donations were mainly to influential people. He dismissed Chivayo's generosity as grandstanding for the ruling Zanu-PF party - an attempt to ensure the support of key politicians and even church leaders. Nonetheless, there has been an outpouring of grief, especially from recipients of his largesse, and tributes from politicians, religious leaders and business figures. Among the mourners gathered at the Chivayos' opulent home in the capital, Harare, ahead of their burial on Thursday, was Cleopas Mukungunugwa, a young and prominent Zanu-PF social media influencer and recipient of two luxury cars from Sir Wicknell. Standing outside the mansion, where a massive poster of the couple is displayed, he told local media that he was devastated by his patron's death , explaining how \"Sir Wicknell\" often dictated what he should write in his posts. \"He was criticised by many on social media and our goal was to bolster his reputation as a philanthropist,\" he said. Chivayo dropped out of high school aged 15 because his family could no longer afford the fees after his father died when he was 10. His first job was as a wages clerk for a bus company. From there, he moved into his first independent hustle - selling mobile phones and dealing in foreign currency, often on the black market at the height of the country's hyperinflation crisis. In 2005, he was sentenced to five years in prison for money laundering involving 837,000 South African rand (then worth $137,500, £72,000). He served three years at Chikurubi Maximum Prison after two years were suspended. Details of his career following his release are murky, but he went into the energy business, becoming what one state-run newspaper described as a \"tenderpreneur\" -making money by getting government contracts. He headed the firm Intratrek Zimbabwe, which partnered with Chinese electrical giant CHiNT Electric. This was at a time when legislation required all companies in the country to cede economic control to black Zimbabweans, under a policy known as indigenisation. In 2014, Intratrek was selected to build a 100MW solar power station in the southern town of Gwanda. A contract worth more than $170m was signed the following year. It became one of the biggest controversies of Chivayo's business career. Zimbabwe Power Company, the state-owned utility that awarded the contract, sought to terminate it when Intratrek failed to deliver, but the courts ultimately ruled that the agreement remained valid. A parliamentary inquiry later described Intratrek as a \"briefcase company\" being used as a front to attract investment. Chivayo acknowledged that Intratrek lacked expertise in solar construction, describing it as the local partner while CHiNT provided the technical muscle. Intratrek received an advance of more than $5m for the Gwanda solar plant, but it remains unbuilt to this day. Just weeks before Chivayo's death, Intratrek received a government notice to proceed with the project and was given 24 months to complete it. As the accusations flew, the businessman just smiled and sweet-talked his way through the maelstrom - even winning over President Emmerson Mnangagwa, who was initially unimpressed by him when he first came to power. In 2018, Mnangagwa cited Gwanda as a lesson in the dangers of doing business with \"fly-by-night briefcase businessmen\", adding ominously that \"Chikurubi is not full\". The state-run Herald newspaper reported that the warning was directed at Chivayo. Yet within a few years, that relationship transformed into a bromance. In one of several photographs capturing the remarkable informality between them, Chivayo lounges, almost lying, on a sofa beside Mnangagwa, apparently entirely at ease in the president's company. His access was not confined to Zanu-PF - he also posted photographs with opposition figures, including the late Morgan Tsvangirai and Nelson Chamisa. But he became a conspicuous presence around Mnangagwa, speaking glowingly of the president and making no secret of his support for Zanu-PF. He faced allegations over the procurement of materials for the 2023 elections, in which Mnangagwa was voted in for a second term. Investigations alleged that South African supplier Ren-Form grossly inflated prices and subsequently paid hundreds of millions of rand to a company linked to him. Chivayo denied wrongdoing, and Zimbabwe's anti-corruption commission later said it had found no evidence linking him to procurement fraud. Ren-Form denied any wrongdoing. In April, he offered the country's 360 legislators $10,000 each, prompting accusations that he wanted to influence an impending vote on a controversial constitutional amendment to extend what would have been Mnangagwa's final five-year term by two years to 2030. He was forced to withdraw the offer following a backlash and denied it was intended to influence the vote. When the legislation was signed into law several months later, Zanu-PF posted a video clip of him with the caption : \"Billionaire Sir Wicknell Chivayo celebrates… singing '2030 Ndeya Emmerson Baba!' while cruising at 51,000 feet aboard his Gulfstream G550\". Access to power became part of Chivayo's social-media persona. In June, Eswatini's King Mswati III granted him citizenship of the southern African kingdom and a diplomatic passport - photographs and videos showed him kneeling before the monarch . He had an impressive camera roll, with snaps of him posing with other African presidents such as Nigeria's Bola Tinubu , Tanzania's Samia Suluhu Hassan , Malawi's Peter Mutharika , Mozambique's Daniel Chapo , Zambia's Hakainde Hichilema and he was part of the delegation that met South Africa's Cyril Ramaphosa when he visited Mnangagwa's farm earlier this year. Some relationships extended beyond formal meetings. In August, Chivayo and his wife attended the engagement of Kenyan President William Ruto's daughter Charlene at the president's family home. Afterwards, Ruto personally drove the couple to their waiting helicopter. Chivayo filmed the journey from the passenger seat . True to form, he gloated: \"Being driven by the president of the republic. God is the greatest.\" Ruto wrote on X following the death : \"I will remember him for his friendship, his energy, and his deep conviction in the possibilities of our continent.\" But in Kenya the Zimbabwean businessman was viewed with great suspicion because of his closeness to Ruto - something expressed loudly on social media since his death. Many of the comments are not printable but as Kenyan blogger Cyprian Nyakundi put it , listing some of the controversies surrounding Chivayo: \"As a Kenyan, I distance myself completely from President Ruto's glowing tribute to Wicknell Chivayo. Those condolences and that 'dear friend' language are his own, not mine, as a Kenyan.\" One commentator on X said his death had \"united Africans in celebration\" . \"When a man's passing brings more relief than sorrow, the reaction itself tells a powerful story. It is time for those in power to reflect and reevaluate!\" At home there has also been pushback against those who say speaking ill of the dead is un-African - as the topic of the tycoon's death is the trending topic in Zimbabwe these days. At a shopping centre in Harare over the weekend, Christabel Moyo voiced what many have been saying. \"What is African - getting rich from inflated state contracts and using that money to support Zanu-PF?\" the 42-year-old accountant asked. \"He was busy doling out cars and cash to the rich while the Zimbabwean public health system is collapsing.\" The extraordinary gifting spree for which he will be remembered began around 2023. Musicians, sports and business figures, politicians and religious leaders were among the beneficiaries of cars and cash in what some might see as a blatant attempt to buy support for the ruling party. He started with relatively modest Toyota Aquas, but the gifts soon became dramatically more expensive. Top musician Jah Prayzah, who is close to Zanu-PF was given three luxury cars, along with about $400,000, over three years. The musician postponed his wedding - scheduled to take place last weekend - because of the helicopter crash, saying: \"Wicknell was more than a friend to us.\" Another key recipient was Bishop Nehemiah Mutendi, head of the Zion Christian Church that is fiercely loyal to Zanu-PF. The cleric received millions in cash donations and four luxury cars. Chivayo regularly attended the Johane Masowe weChishanu African apostolic church, one of the biggest in Zimbabwe, whose followers can often be seen worshipping outdoors wearing white robes. It also received scores of cars, buses and cash from the businessman as he pushed the influential sect closer to the ruling party, taking along Mnangagwa as guest of honour to a massive church gathering in August. But not everyone accepted Chivayo's largesse. Eunor Guti, widow of Zimbabwe Assemblies of God Africa founder Archbishop Ezekiel Guti, declined a luxury vehicle and $250,000 in cash. In 2024, veteran musician and government critic Thomas Mapfumo, who is based in the US, rejected Chivayo's offer of a luxury car and house, saying he could not be \"bribed\" and later describing his money as \"dirty\". However, this year, he did accept $1m to perform at Jah Prayzah's wedding and Chivayo's birthday party in November. Some long-time admirers of Mapfumo, who arrived in Harare on the eve of the helicopter crash, accused him on social media of compromising his principles, though this was denied by the 81-year-old musician. Chivayo's generosity was not confined to individuals - he also donated 20 ambulances to Zimbabwe's failing public health system and gave buses and other assistance to schools. Those close to him say his philanthropy was not always performed for an audience. Prominent lawyer Wilson Manase said following the tycoon's death that when he had fallen seriously ill in Dubai, Chivayo flew over to visit him. In an interview with state broadcaster ZBC, the lawyer, who was promised a car in Chivayo's last tweet, described him as \"pure hearted\" and deeply religious. The tycoon had two young children with his first wife Sonja Madzikanda, from whom he split in 2024 and was still embroiled in a messy court case over the divorce settlement. He was also keen not to forget his roots. On the day he died, he had visited his rural home in Gandami, south-east of Harare, where he was building a $1m eight-bedroom mansion to be officially opened in November for his birthday. He boasted it would bring \"Borrowdale Brooke to Gandami\" - a reference to one of Harare's most exclusive residential estates. He had also pledged $500,000 to improve the local primary and secondary schools and a clinic. Chivayo's death leaves Zanu-PF without one of its most colourful campaigners. But he also leaves behind unanswered questions - with many of his countrymen continuing to wonder how exactly he rose from such humble beginnings to becoming a multi-millionaire with the means to dole out such extravagant gifts. Ish Mafundikwa is a freelance journalist based in Harare Go to BBCAfrica.com for more news from the African continent. Follow us on Twitter @BBCAfrica , on Facebook at BBC Africa or on Instagram at bbcafrica Fixtures, results and scorecards from Afghanistan's \"home\" series against Bangladesh and Zimbabwe, and a tri-series featuring all three teams, in the UAE. England avoid defending champions Australia and world number one-ranked side India in the group-stage draw for the 2027 ICC Cricket World Cup. Chivayo was known for his lavish lifestyle, close ties to African presidents and lucrative government contracts. Results and scorecards from Australia's brief tour of Zimbabwe, featuring three ODIs. Results and scorecards from the Twenty20 tri-series between South Africa, Zimbabwe and hosts Namibia, and the Namibia-South Africa ODI series which follows. Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+            "url": "https://www.bbc.com/news/articles/c3x2wlplnelxo",
+            "guardrail_flags": [],
+            "guardrail_reason": "The article's tone is more celebratory than critical, and it presents Wicknell Chivayo's controversial actions and political connections in a somewhat positive light."
+        }
+    ],
     "deduplication": {
-        "total_checked": 195,
-        "duplicate_pairs_found": 18,
-        "duplicates_removed": 16
+        "total_checked": 146,
+        "duplicate_pairs_found": 3,
+        "duplicates_removed": 3
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 84,
-        "rejected_count": 12,
+        "total_checked": 48,
+        "rejected_count": 2,
         "rejected_articles": [
             {
-                "title": "U.S. suspends Microsoft, Adobe from green-card labor program in foreign worker crackdown",
-                "from": "science and technology",
+                "title": "Margaret Hamilton, whose software helped land Apollo astronauts on the moon, has died",
+                "from": "health",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses the impact of foreign worker policies on American workers, including a specific mention of Microsoft CEO Satya Nadella, which falls under the 'people' category."
-            },
-            {
-                "title": "Trump bought up to $25 million in Meta and millions in SpaceX debt in August",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on Trump's financial transactions, including investments in SpaceX and Meta, which are relevant to the economy and business category."
-            },
-            {
-                "title": "5 Things to Know",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses financial news, stock markets, and corporate developments, making it more relevant to the 'economy and business' category than the current 'science and technology' category."
-            },
-            {
-                "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article discusses the potential IPO of Anthropic, an artificial intelligence company, and its valuation, which is a business and economic topic."
-            },
-            {
-                "title": "",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article discusses the impact of rising borrowing costs on the stock market, with a focus on AI-related companies and their ability to secure attractive borrowing terms, making it more relevant to the 'economy and business' category."
-            },
-            {
-                "title": "Viral US TikToker praises South West takeaways",
-                "from": "science and technology",
-                "detected_category": "entertainment",
-                "confidence": 0.8,
-                "reason": "The article is primarily focused on a TikToker's review and experiences with food and beverages, which is more relevant to the entertainment category than science and technology."
-            },
-            {
-                "title": "Chinese runner dropped by sponsor after riding bike during marathon",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article's focus on a fitness influencer's actions and the consequences of her actions is primarily a human-interest story, making it more relevant to the 'people' category than 'science and technology'."
+                "confidence": 1.0,
+                "reason": "The article is primarily about a person, Margaret Hamilton, and her contributions to space travel, rather than being directly related to health."
             },
             {
                 "title": "Millions of bedbugs crawl out of mattresses and walls in huge outbreak",
                 "from": "people",
                 "detected_category": "health",
-                "confidence": 0.9,
-                "reason": "The article discusses bedbug infestations, which is a public health issue, and provides information on identification, treatment, and prevention methods."
-            },
-            {
-                "title": "'Come all the way' back to EU, French finance minister tells UK",
-                "from": "economy and business",
-                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the possibility of the UK rejoining the EU, with a focus on the UK's Prime Minister Andy Burnham's comments and the French Finance Minister's response, which is more relevant to the 'people' category than 'economy and business'."
-            },
-            {
-                "title": "The wildlife winners set to appear on your banknotes revealed",
-                "from": "economy and business",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about the decision made by the Bank of England, which is a government institution, to replace notable figures from history with wildlife on banknotes, making it relevant to the 'people' category."
-            },
-            {
-                "title": "Skydance's David Ellison tells CNBC combined company is 'positioned to win in every single vertical'",
-                "from": "entertainment",
-                "detected_category": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the business and financial implications of the merger between Paramount and Warner Bros., including the company's debt, cost savings, and plans for the combined streaming services."
-            },
-            {
-                "title": "Actor Simon Pegg reveals ADHD diagnosis: 'It's just who I am'",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on Simon Pegg's personal life, revealing his ADHD diagnosis, which is a human-interest story and falls under the 'people' category."
+                "reason": "The article discusses an infestation of bedbugs, which is a public health issue, and provides information on how to identify and treat the problem."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 184,
-        "total_failures": 4,
-        "total_time_seconds": 712.31,
-        "avg_response_time": 3.87
+        "total_calls": 130,
+        "total_failures": 5,
+        "total_time_seconds": 1124.02,
+        "avg_response_time": 8.65
     }
 }
