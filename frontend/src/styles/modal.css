@@ -255,23 +255,58 @@
 
 @media (max-width: 600px) {
 
-  /* Modal backdrop */
   .modal-overlay {
-    padding: 0;
-    align-items: flex-end;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* Modal container */
   .modal-content-card {
     width: 100%;
     max-width: 100%;
-    max-height: 92vh;
-    border-radius: 5px;
-    border-left: none;
-    border-right: none;
-    border-bottom: none;
+    max-height: 90vh;
+    border-radius: 20px;
   }
 
+  .modal-hero-image-wrapper {
+    height: 220px;
+  }
+
+  .modal-close-btn {
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 32px;
+    height: 32px;
+  }
+
+  .modal-pill {
+    left: 0.75rem;
+    bottom: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.58rem;
+    letter-spacing: 0.06em;
+  }
+
+  .modal-article-body {
+    padding: 1.25rem 1rem 1.75rem;
+  }
+
+  .modal-location-time {
+    font-size: 0.72rem;
+    line-height: 1.4;
+  }
+
+  .modal-title {
+    font-size: 1.65rem;
+    line-height: 1.18;
+    margin-bottom: 1rem;
+  }
+
+  .modal-body-text {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+}
   /* Close button */
   .modal-close-btn {
     top: 0.75rem;
@@ -364,7 +399,7 @@
     padding: 0.55rem 1rem;
     font-size: 0.85rem;
   }
-}
+
 
 
 /* =========================================================
