@@ -1,97 +1,133 @@
 {
     "date": "07102026",
-    "timestamp": "2026-10-07T19:03:50.868409",
-    "duration_seconds": 1252.08,
+    "timestamp": "2026-10-08T00:19:55.026691",
+    "duration_seconds": 1865.86,
     "stages_duration_seconds": {
-        "scrape": 435.18,
-        "guardrails": 105.39,
-        "deduplication": 11.08,
-        "category_validation": 127.91,
-        "ranking": 475.02,
-        "processing": 97.48,
+        "scrape": 807.89,
+        "guardrails": 122.69,
+        "deduplication": 12.54,
+        "category_validation": 171.73,
+        "ranking": 116.52,
+        "processing": 634.45,
         "assembly": 0.01
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 8,
-            "Tech": 17,
-            "People": 38,
+            "Health": 7,
+            "Tech": 15,
+            "People": 41,
             "Environment": 3,
-            "Economy": 10
+            "Economy": 10,
+            "Entertainment": 0
         },
         "total_scraped": 76,
         "guardrail_passed": 76,
         "guardrail_rejected": 0,
-        "dedup_removed": 19,
-        "category_reassignments": 7,
-        "final_articles": 3,
-        "final_categories": 3
+        "dedup_removed": 20,
+        "category_reassignments": 12,
+        "final_articles": 15,
+        "final_categories": 5
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 153,
-        "duplicate_pairs_found": 28,
-        "duplicates_removed": 19
+        "total_checked": 158,
+        "duplicate_pairs_found": 26,
+        "duplicates_removed": 20
     },
     "category_validation": {
-        "total_checked": 63,
-        "reassigned_count": 7,
+        "total_checked": 68,
+        "reassigned_count": 12,
         "reassignments": [
+            {
+                "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
+                "from": "science and technology",
+                "to": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the financial and business aspects of SpaceX's purchase of Nvidia GPUs, discussing debt financing and credit spreads, rather than the scientific or technological aspects of the GPUs themselves."
+            },
             {
                 "title": "5 Things to Know",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on financial markets, stock futures, and economic issues, with only a few mentions of technology and none specifically related to science."
+                "reason": "The article primarily discusses business and economic news, including stock market trends, company deals, and government reports, with only a few mentions of science and technology."
+            },
+            {
+                "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
+                "from": "science and technology",
+                "to": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article discusses environmental impact assessments and the suspension of data center projects in Finland due to concerns about the environment, making 'earth and environment' a more accurate category than 'science and technology'."
             },
             {
                 "title": "",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on Jim Cramer's investment advice and analysis of artificial intelligence-related stocks, making it more relevant to the economy and business category."
+                "reason": "The article primarily discusses investing in artificial intelligence and related companies, with a focus on stock market analysis and investment strategies, making it most accurately categorized as economy and business."
             },
             {
-                "title": "Visually impaired people fear smart glasses backlash",
+                "title": "Ancient Egyptians sacrificed servants when kings died, forensic tests show",
                 "from": "science and technology",
                 "to": "people",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on the experiences and concerns of visually impaired people, rather than the technology itself."
+                "reason": "The article primarily discusses the discovery of human remains and the forensic examination of those remains, which falls under the category of 'people' rather than 'science and technology' as currently assigned."
             },
             {
                 "title": "India's first bank rate hike since 2023 signals growing inflation concerns",
                 "from": "people",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on the Reserve Bank of India's interest rate hike and its impact on the economy, consumer spending, and borrowing costs."
+                "reason": "The article primarily discusses the Reserve Bank of India's decision to raise its benchmark interest rate, impacting borrowing costs and inflation, making 'economy and business' the most accurate category."
+            },
+            {
+                "title": "World's largest penguin colony hit by 'alarming' decline in numbers",
+                "from": "people",
+                "to": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the decline of a penguin colony due to climate change and its effects on the environment."
             },
             {
                 "title": "A beautiful Himalayan bird is changing its voice due to human activity, research shows",
                 "from": "people",
                 "to": "earth and environment",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the impact of human activity on the Himalayan monal's habitat and communication, making it a clear fit for the 'earth and environment' category."
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the impact of human activity on the Himalayan monal bird's habitat and behavior, making 'earth and environment' a more accurate category."
+            },
+            {
+                "title": "Ten people linked to Kenya's first-ever Ebola case quarantined as screening concerns grow",
+                "from": "people",
+                "to": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the Ebola virus outbreak and public health measures in Kenya, with discussions about screening, quarantine, and disease transmission."
+            },
+            {
+                "title": "Badenoch says Tories would scrap inheritance tax on family homes",
+                "from": "people",
+                "to": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Kemi Badenoch's speech at the Conservative Party conference, discussing her plans for inheritance tax, economic policies, and spending commitments, making 'economy and business' the most relevant category."
             },
             {
                 "title": "Pornhub returns to Australia but only for adults with Apple devices",
                 "from": "people",
                 "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the business and economic implications of Apple's age-verification process and its impact on the online pornography industry."
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the business and economic aspects of Pornhub's return to Australia, including the impact of age verification laws and Apple's device-based age verification process."
             },
             {
                 "title": "Rainmakers: The drones used to seed clouds",
                 "from": "economy and business",
                 "to": "science and technology",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on cloud-seeding technology and its applications, making 'science and technology' the most accurate category."
+                "reason": "The article primarily discusses cloud-seeding technology, drones, and innovative approaches to weather modification, which falls under the 'science and technology' category."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 139,
+        "total_calls": 144,
         "total_failures": 0,
-        "total_time_seconds": 232.94,
-        "avg_response_time": 1.68
+        "total_time_seconds": 293.73,
+        "avg_response_time": 2.04
     }
 }

@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 13",
+    "issue": "Issue No. 15",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "07 October 2026",
+    "publishedAt": "08 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "At least 20 killed in Ukraine strikes, Pryluky residential building destroyed",
-          "image": "https://images.unsplash.com/photo-1704971143833-250c9efb7c9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VWtyYWluaWFuJTIwYXBhcnRtZW50JTIwYnVpbGRpbmclMjBydWJibGV8ZW58MXwwfHx8MTc5MTM4MDAxOXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Ukraine",
-          "time": "Oct 07, 2026",
-          "content": "At least 20 people died in overnight strikes across central and eastern Ukraine, with a residential building in Pryluky destroyed as a",
+          "title": "Israel Reconsiders Inquiry into Deadliest Security Failure After 64 Killed, 19 Kidnapped",
+          "image": "https://images.unsplash.com/photo-1533797387460-5bb8e7985b68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SXNyYWVsJTIwRGVmZW5zZSUyMEZvcmNlc3xlbnwxfDB8fHwxNzkxNDMwNDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Israel",
+          "time": "Oct 08, 2026",
+          "content": "Three years after the deadliest Israel security failure, questions persist about who should pay the price for the attacks that killed 64 people and kidnapped 19. The attacks, blamed on Hamas, were the deadliest Israel had suffered since its creation in 1948. Prime Minister Benjamin Netanyahu has rejected calls for a state inquiry, instead proposing a national commission of inquiry. Critics argue that Netanyahu's refusal to accept responsibility is part of the reason for the ongoing pain and divisions in Israel.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "FBI Probes Anti-ICE Protesters in California, Sparking Whistleblower Complaint",
-          "image": "https://images.unsplash.com/photo-1511898634545-c01af8a54dd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8cHJvdGVzdCUyMHJhbGx5fGVufDF8MHx8fDE3OTEzNDg2NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Los Angeles, USA",
-          "time": "Oct 07, 2026",
-          "content": "The FBI opened preliminary investigations targeting anti-Immigration and Customs Enforcement protesters in Southern California, sparking a whistleblower complaint alleging violations of law and agency policy. The investigations were launched in early 2025 following demands from President Donald Trump and other administration officials. The complaint, filed by former FBI intelligence official Jill Fields, alleges that the FBI investigated and surveilled protesters without evidence of a crime, violating First Amendment protections. The Justice Department and White House have maintained that violence and obstruction of law enforcement are not protected by the First Amendment.",
+          "title": "Israel's Deadliest Attack: Family of Victims Demands Accountability",
+          "image": "https://images.pexels.com/photos/20858982/pexels-photo-20858982.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Israel",
+          "time": "Oct 08, 2026",
+          "content": "Inbar Goldstein, whose brother and niece were killed in the 7 October 2023 attack on Israel's border with Gaza, demands accountability from the government. Three years on, there is still no independent state inquiry into the attack that killed 64 people and kidnapped 251 others. Prime Minister Benjamin Netanyahu blames his security chiefs for the failure, but critics question his own role in the security lapse. Netanyahu is running for re-election, despite the attack being the deadliest Israel had suffered since its creation in 1948. Calls for accountability are growing, with campaigners seeking a state commission of inquiry.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "France sees widespread school protests, 1,015 injured",
-          "image": "https://images.unsplash.com/photo-1569098644584-210bcd375b59?auto=format&fit=crop&w=1080&q=80",
-          "place": "Paris, France",
-          "time": "Oct 07, 2026",
-          "content": "Hundreds of thousands of people, including high-school pupils, parents, university students, and unions, protested across France, calling for better resources for schools and less police repression. Protesters marched from the Place de la République in Paris, with clashes reported in Lyon, Paris, and Marseille. According to the government, 215 students, 85 staff, and 715 police officers were injured. Prime Minister Sébastien Lecornu condemned the violence, and Education Minister Édouard Geffray appealed for dialogue. The protests have been ongoing since mid-September, with students demanding better conditions in schools.",
+          "title": "Sri Lanka's ex-first lady Shiranthi Rajapaksa arrested in charity fraud probe",
+          "image": "https://images.unsplash.com/photo-1740922255273-dc1cdf176c50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q29sb21ibyUyN3MlMjBMYWR5JTIwUmlkZ2V3YXklMjBDaGlsZHJlbiUyN3MlMjBIb3NwaXRhbHxlbnwxfDB8fHwxNzkxMzk4NzQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Colombo, Sri Lanka",
+          "time": "Oct 08, 2026",
+          "content": "Sri Lanka's former first lady Shiranthi Rajapaksa was arrested over allegations that a charity she is linked to misused donations raised for a children's hospital. The charity, Siriliya Saviya, allegedly collected 10 million rupees ($30,300) for a specialized scanner, but officials claim the scanner had already been donated by the Chinese government. Rajapaksa denied any wrongdoing and stated the money has not been misappropriated. Her husband, former President Mahinda Rajapaksa, is a key figure in the investigation, and his family has faced corruption allegations in the past. The development marks a significant moment in Sri Lanka's efforts to combat corruption.",
           "theme": "#F7ECEE"
         }
       ]
@@ -58,29 +58,29 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "AMD and Intel CPUs gain traction in AI market, fueled by long-running AI agents",
-          "image": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTExODA3NTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "**Bengaluru, India**",
-          "time": "Oct 07, 2026",
-          "content": "Advanced Micro Devices (AMD) and Intel are experiencing a resurgence in fortunes as their central processing units (CPUs) gain prominence in the artificial intelligence (AI) market. The companies' chips specialize in powering long-running AI agents that can work for hours on their own. AMD's growing strength in both CPUs and graphics processing units (GPUs) has pushed the company into the trillion-dollar market cap club. The CPU market is expected to reach $220 billion in sales by 2030, with AMD expecting to take more than half of the market. Intel is also seeing a surge in demand, with AMD's CPUs being favored by hyperscalers and cloud providers.",
+          "title": "IMF Warns of Global Economic Pressure from AI, Soaring Energy Costs, and Debt",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTEzNzAyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Singapore",
+          "time": "Oct 08, 2026",
+          "content": "The International Monetary Fund's head, Kristalina Georgieva, warned that artificial intelligence is adding pressure that threatens global economic growth, urging policymakers to address debt issues. AI is a key driver of countries' fortunes, but the triple forces of AI advancement, soaring energy costs, and record public debt are challenging growth. The IMF estimates AI could add 0.5% to annual world growth, but benefits are likely concentrated, increasing the risk of economic inequality. Inflation worries and ballooning public debt are also concerns, with interest rates set to climb higher.",
           "theme": "#EBF2FA"
         },
         {
           "id": "st-2",
-          "title": "Stock futures stable; Strait of Hormuz crisis and AI wearables concerns weigh",
-          "image": "https://images.unsplash.com/photo-1651341050677-24dba59ce0fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c3RvY2slMjBtYXJrZXR8ZW58MXwwfHx8MTc5MTIwNzcyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
-          "time": "Oct 05, 2026",
-          "content": "Stock futures are little changed following a mixed week on Wall Street, with oil tankers in the Middle East being hit in recent days as Iran refuses to budge on its conditions for reopening the Strait of Hormuz, casting doubt on the global oil trade's recovery. Meanwhile, investors should be cautious of privacy concerns surrounding artificial intelligence-powered wearables, as major technology companies have bet on these devices to make their mark on the consumer hardware space.",
+          "title": "Temasek Warns AI Trade Reversal Poses Biggest Risk to Markets",
+          "image": "https://images.pexels.com/photos/35638668/pexels-photo-35638668.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Singapore",
+          "time": "Oct 08, 2026",
+          "content": "The unwinding of the artificial intelligence trade poses the biggest risk to markets, according to Temasek's chief investment officer, Rohit Sipahimalani. He noted that roughly half the stocks in the Russell 3000 are at least 20% below their June highs, highlighting market resilience dependent on a small group of winners. A reversal in the AI trade could be triggered by safety concerns, tighter regulation, or signs of insufficient returns. Temasek remains bullish on AI, with about half of its exposure currently in publicly traded assets, which can be adjusted as the industry evolves. Sipahimalani warned that AI is a fast-changing environment that requires flexibility to pivot.",
           "theme": "#EBF2FA"
         },
         {
           "id": "t-3",
-          "title": "Microsoft CEO Prioritizes AI Deployment Within Enterprises",
-          "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1080&q=80",
-          "place": "Seattle, USA",
-          "time": "Oct 05, 2026",
-          "content": "Microsoft CEO Satya Nadella emphasized the importance of \"diffusion inside the enterprise\" to adapt to the AI age, highlighting the need for AI tools to be widely deployed. Microsoft is trying to magnify its role in the AI boom, but faces challenges as Nvidia dominates in AI chips and Google's Gemini-powered services are popular. Nadella's AI strategy is centered around Copilot, but the company's sluggishness in keeping up with rapid changes has cost GitHub market share. Microsoft is now shifting to consumption-based pricing, with usage-based billing for Copilot Cowork, a new product. Nadella aims to empower nontechnical knowledge workers and has been downplaying the importance of world-beating models in isolation.",
+          "title": "BitMEX CEO predicts AI boom will lead to crash, bailout, benefiting crypto",
+          "image": "https://images.unsplash.com/photo-1640161704729-cbe966a08476?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y3J5cHRvY3VycmVuY3l8ZW58MXwwfHx8MTc5MTM5ODYyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Singapore",
+          "time": "Oct 08, 2026",
+          "content": "Former BitMEX CEO Arthur Hayes predicts that the artificial intelligence boom will eventually lead to a crash and a bailout, benefiting crypto. He believes that the massive investment in AI data centers will ultimately result in overcapacity, setting the stage for a downturn. Hayes points to financial history, citing that every major technological rollout is overbuilt, followed by a crash and bailout. He sees bitcoin and other crypto as the asset that will perform best during the bailout, advising investors to be patient. The AI boom is expected to create an abundance of computing power, which Hayes' new project Flop aims to utilize for AI-agent payments.",
           "theme": "#EBF2FA"
         }
       ]
@@ -95,29 +95,29 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Pennsylvania Reports 1,000 Measles Cases, 5 Deaths, Amid Outbreak",
-          "image": "https://images.unsplash.com/photo-1583324113900-5de25534bb2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8bWVhc2xlcyUyMG91dGJyZWFrfGVufDF8MHx8fDE3OTEzNzAyNDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Central Pennsylvania",
-          "time": "Oct 07, 2026",
-          "content": "In the United States, a measles outbreak has been reported in Pennsylvania, with nearly 1,000 cases and five deaths. The outbreak is particularly severe in Lancaster County, where the Amish community is vulnerable to the disease. The Central Pennsylvania Clinic is at the forefront of the response, providing care to patients and raising awareness about the importance of vaccination. Clinic leaders, including Dr. Katherine Mascia, emphasize the need for consistent messaging and building trust with the community to increase vaccination rates.",
+          "title": "Russian lab technician dies from pneumonic plague in Siberia",
+          "image": "https://images.pexels.com/photos/3786248/pexels-photo-3786248.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Siberia",
+          "time": "Oct 08, 2026",
+          "content": "A Russian lab technician died at a plague research centre in Siberia, sparking concerns about pneumonic plague spread. The 28-year-old woman, Darya Shipilova, worked at the Anti-Plague Institute in Irkutsk region. Experts say the case is unlikely to lead to a global outbreak due to pneumonic plague's requirement for symptoms before transmission, making it easily contained. Antibiotics are widely available to treat the disease, and public health measures have identified and are monitoring contacts, with none showing symptoms. The World Health Organisation's initial risk assessment is moderate to low for Irkutsk and very low for the Russian Federation as a whole.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-2",
-          "title": "Kenya confirms first-ever Ebola case, patient dies in Nairobi",
-          "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWVkaWNhbCUyMGZhY2lsaXR5fGVufDF8MHx8fDE3OTEzNTU0OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Nairobi, Kenya",
-          "time": "Oct 07, 2026",
-          "content": "Kenya has confirmed its first-ever Ebola case, a Kenyan citizen who died days after arriving in Nairobi. The patient, who had been living in the Democratic Republic of Congo, died despite being treated in several hospitals. The country has since stepped up surveillance at airports and border crossings. Over 4,000 people have died from Ebola in DR Congo this year, with the current outbreak caused by the Bundibugyo species. The virus spreads through contact with infected bodily fluids, and Kenya has introduced tighter checks at airports and border posts.",
+          "title": "Study Finds Hang-Xiety Affects 18.3% of Students, Linked to Shyness",
+          "image": "https://images.pexels.com/photos/4584053/pexels-photo-4584053.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 08, 2026",
+          "content": "A hangover is not the only consequence of a night out drinking, as many people experience a phenomenon known as hang-xiety, characterized by excessive anxiety and dread. This phenomenon is real, affecting 18.3% of over 5,000 students surveyed, and research suggests that existing psychological characteristics, including shyness, play a significant role. As alcohol wears off, the nervous system can swing towards greater alertness and arousal, triggering anxiety. A study of 97 social drinkers found that shy drinkers experienced a spike in anxiety the following day, with highly anxious individuals reporting even higher levels. This hang-xiety can impact daily life, making it essential to understand and address this issue.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-3",
-          "title": "Wales sees one-third of men die prematurely, urging health plan",
-          "image": "https://images.pexels.com/photos/17428267/pexels-photo-17428267.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Cardiff, Wales",
-          "time": "Oct 05, 2026",
-          "content": "A report from men's charity Movember highlights alarming statistics on men's health in Wales, where a third of men die before their 75th birthday. Ben Lidgey's personal experience, which began with a minor testicular injury, led to a cancer diagnosis and later, mental health concerns. The report urges the Welsh government to develop a dedicated plan for men's health, citing high rates of premature mortality due to preventable conditions. The Welsh economy faces annual costs of £1.4 billion from the top five causes of male premature death. Experts emphasize the importance of addressing men's reluctance to seek help for both physical and mental health issues.",
+          "title": "Massive measles outbreak hits Pennsylvania, claims five lives",
+          "image": "https://images.unsplash.com/photo-1618615159724-118c1f47f7ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8bWVhc2xlcyUyMG91dGJyZWFrfGVufDF8MHx8fDE3OTEzOTg0Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Central Pennsylvania",
+          "time": "Oct 08, 2026",
+          "content": "In central Pennsylvania, a massive measles outbreak has caused significant pain and suffering, particularly among the Amish community. The outbreak, the worst in the US since the early 1990s, has resulted in over 1,000 cases and five deaths. The Central Pennsylvania Clinic, which serves patients with genetic disorders, is at the forefront of the response. Clinic leaders, including Dr. Katherine Mascia, are working to raise vaccination rates, provide accurate information, and build trust with the community. The clinic has hosted pop-up vaccination clinics, administered MMR vaccines, and made home visits to meet patients' needs.",
           "theme": "#E8F5F1"
         }
       ]
@@ -132,29 +132,29 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Report Warns Carbon Emissions' Economic Damages Four Times Higher Than Estimated",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "title": "Economic Damages from Carbon Emissions Reach Four Times Previous Estimates",
+          "image": "https://images.unsplash.com/photo-1599421852088-071e9d7917e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X2dsb2JhbCUyMHdhcm1pbmd8ZW58MXwwfHx8MTc5MTQzMDUxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Global",
-          "time": "Oct 07, 2026",
-          "content": "A new report from Future Earth, The Earth League, and the World Climate Research Programme warns that economic damages from carbon emissions could be four times higher than previously estimated. The report, 10 New Insights in Climate Science 2026/2027, finds that 2025 was 1.43°C warmer than the pre-industrial baseline, with global sea level rise already locked in for centuries. The report highlights the urgent need for climate action, as the rate of global mean sea level rise has doubled over the past 30 years, and estimates that emissions through 2050 could lock in an additional 300 millimetres of sea level rise by 2300.",
+          "time": "Oct 08, 2026",
+          "content": "Economic damages from carbon emissions could reach up to four times previous estimates, with global sea level rise locked in for centuries, according to a new report. The report finds 2025 was 1.43°C warmer than the pre-industrial baseline, with human activities releasing 38.1 billion tonnes of CO2. The report highlights the need for stringent mitigation pathways to limit warming to 1.5°C, warning that beyond this threshold, risks of cascading and irreversible climate impacts increase. The report also notes that ocean heat content reached a record for the ninth consecutive year, with over 90% of the excess heat absorbed by oceans.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-2",
-          "title": "Report: Economic Damages Quadrupled, Sea Level Rise Locked In for Centuries",
-          "image": "https://images.pexels.com/photos/12292621/pexels-photo-12292621.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Geneva, Switzerland",
-          "time": "Oct 07, 2026",
-          "content": "A new report by Future Earth, The Earth League, and the World Climate Research Programme warns that economic damages from carbon emissions could be four times higher than previously estimated, while global sea level rise is already locked in for centuries. The report finds that 2025 was the 11th warmest year on record, with human activities releasing a record 38.1 billion tonnes of CO2. The report highlights the risks of crossing the 1.5°C threshold, with Johan Rockström stating that \"the evidence is unequivocal: 1.5°C is a limit that we cross at our own risk.\" The report also estimates that continued climate policies could lock in an additional 600-800 millimetres of global mean sea level rise by 2300.",
+          "title": "New Zealand Report Warns of Rising Temperatures and Climate Change Devastation",
+          "image": "https://images.pexels.com/photos/39635033/pexels-photo-39635033.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "New Zealand",
+          "time": "Oct 08, 2026",
+          "content": "A new report by the Government of New Zealand highlights the devastating impact of climate change on the country. The report, Our Atmosphere and Climate 2026, reveals that human activities have increased carbon dioxide and other greenhouse gases, driving temperature rises across New Zealand. Temperatures have risen by 1.36 degrees Celsius since 1909, with 7 of the 10 warmest years occurring in the last decade. The report warns of increasing heatwaves, glacier melting, and sea-level rise, with projections showing warming reaching between 0.8 and 3.2 degrees Celsius by the end of the century.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-3",
-          "title": "Northern India faces mixed weather, rain and snow expected in some areas",
-          "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGVsaGklMjBjaXR5fGVufDF8MHx8fDE3OTEzNjg1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Delhi",
-          "time": "Oct 07, 2026",
-          "content": "Northern India is expected to experience a mixed bag of weather conditions, with rain and snowfall forecasted in some areas. Delhi and nearby plains are expected to continue facing heat and humidity, with temperatures potentially dropping by 2-4 degrees Celsius in the coming days. Jammu and Kashmir, Himachal Pradesh, and Uttarakhand may receive rain, while higher mountain areas could see light snowfall. Nagaland, Manipur, Mizoram, and Tripura are forecasted to receive heavy rain, with a yellow alert issued by the weather department. Thunderstorms, lightning, and strong winds may also affect several states, while Pilani recorded the country's highest temperature at 40.1 degrees Celsius.",
+          "title": "India Expects Rain, Snow, Heat, and Thunderstorms",
+          "image": "https://images.pexels.com/photos/9841946/pexels-photo-9841946.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "India",
+          "time": "Oct 08, 2026",
+          "content": "Northern hills are expected to experience rain and snowfall, while Delhi and nearby plains face heat and humidity, with temperatures potentially dropping by 2-4 degrees Celsius in the coming days. Jammu and Kashmir, Himachal Pradesh, and Uttarakhand may receive rain, with higher mountain areas potentially witnessing light snowfall. Nagaland, Manipur, Mizoram, and Tripura are forecast to receive heavy rain, with a yellow alert issued by the weather department. Several states may also face thunderstorms, lightning, and strong winds, with Pilani recording the country's highest temperature at 40.1 degrees Celsius.",
           "theme": "#E7F4EF"
         }
       ]
@@ -206,29 +206,29 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Paramount Skydance acquires Warner Bros Discovery in $110bn merger.",
-          "image": "https://images.unsplash.com/photo-1534253893894-10d024888e49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SG9sbHl3b29kfGVufDF8MHx8fDE3OTEzNjg2MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Los Angeles, USA",
-          "time": "Oct 07, 2026",
-          "content": "Paramount Skydance has acquired Warner Bros Discovery in a $110bn merger, reshaping Hollywood and the media landscape. The deal brings together iconic franchises like Harry Potter, Game of Thrones, and The Lord of the Rings, as well as existing Paramount hits. The merged entity, Skydance Corporation, will be led by David Ellison and co-CEO Ynon Kreiz, with a focus on cost efficiencies and streaming operations. The deal has received approval from competition authorities and includes a commitment to maintain editorial independence at CNN and CBS. The merger aims to produce \"real, robust movies\" and create economic activity, with guardrails in place to prevent AI-generated films.",
+          "title": "Japan Fair Trade Commission raids Asahi, Kirin, Suntory over beer price collusion allegations",
+          "image": "https://images.unsplash.com/photo-1671766546440-ff3b9fbf2997?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8SmFwYW5lc2UlMjBiZWVyfGVufDF8MHx8fDE3OTEzOTg5MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Japan",
+          "time": "Oct 08, 2026",
+          "content": "Japanese beer makers Asahi, Kirin, and Suntory Spirits have been raided by the Japan Fair Trade Commission over allegations they colluded to raise beer prices. The investigation centers on price hikes in April 2022 and October 2022, with all four companies citing rising raw material costs. Kirin and Suntory have confirmed their premises were searched, with Asahi also subject to investigation. The companies have pledged to cooperate fully with the JFTC. The raids follow a formal protest lodged by Japan with the US over military officials' actions.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-2",
-          "title": "Paramount Skydance and Warner Bros Discovery Complete $110bn Merger",
-          "image": "https://images.pexels.com/photos/36148684/pexels-photo-36148684.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Los Angeles, USA",
-          "time": "Oct 07, 2026",
-          "content": "The $110bn merger between Paramount Skydance and Warner Bros Discovery has completed, forming Skydance, an entertainment behemoth. The deal brings together franchises like Harry Potter and Game of Thrones, as well as HBO Max and Paramount+ streaming platforms. The merged company carries $80bn in debt and targets $6bn in annual cost savings. Analysts predict price increases for subscribers, with 156 movies to be released annually for five years. The merger may lead to fewer films in cinemas, with the potential for job losses and a shift towards streaming. A news editorial independence board has been established to address concerns over journalistic freedom at CNN and CBS.",
+          "title": "Jaguar Unveils Type 01, New Four-Door Electric Car",
+          "image": "https://images.unsplash.com/photo-1623513225319-cf8408c204be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8SmFndWFyJTIwbG9nb3xlbnwxfDB8fHwxNzkxMzk4OTU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 08, 2026",
+          "content": "Jaguar has unveiled its new electric car, Type 01, a four-door",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-3",
-          "title": "Jaguar Unveils £130,000 Electric Car, Type 01, with 1000 HP and 320-Mile Range",
-          "image": "https://images.unsplash.com/photo-1616128417743-c3a6992a65e7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SmFndWFyfGVufDF8MHx8fDE3OTEzNjg2Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 07, 2026",
-          "content": "Jaguar has unveiled its new electric car, the Type 01, two years after its rebranding sparked a backlash. The car, with a price tag of £130,000 in the UK, features 1000 horsepower and a range of up to 320 miles. The unveiling was met with mixed reactions, with some praising the design while others criticized it as \"polarizing\". Jaguar's decision to go all-electric is a gamble, given the decline of EV popularity in the US. The company faces an uphill battle, but its new strategy aims to reinvent the brand as a luxury electric marque. The future of Jaguar hangs in the balance, with some experts viewing this as a last throw of the dice.",
+          "title": "Weston Family Buys Boots for $8.9 Billion, Investing in Improved Experience",
+          "image": "https://images.pexels.com/photos/30629659/pexels-photo-30629659.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Nottingham, UK",
+          "time": "Oct 08, 2026",
+          "content": "Boots, the UK-based pharmacy and retail chain, has been sold to Canada's Weston family for $8.9 billion. The 177-year-old company, founded by John Boot in 1849, has expanded its business to sell health and beauty products, meal deals, and travel accessories. Despite challenges from rivals and changing shopping habits, Boots has performed well, generating £7.5 billion in sales in its most recent annual results. The Weston family plans to invest in the business, focusing on an improved shopping experience and expansion of healthcare services. The deal is set to be completed in early 2027.",
           "theme": "#F7F1DE"
         }
       ]
