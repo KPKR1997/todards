@@ -1,30 +1,30 @@
 {
     "date": "08102026",
-    "timestamp": "2026-10-08T14:24:42.828901",
-    "duration_seconds": 1789.54,
+    "timestamp": "2026-10-08T15:13:56.459012",
+    "duration_seconds": 1968.63,
     "stages_duration_seconds": {
-        "scrape": 602.94,
-        "guardrails": 108.44,
-        "deduplication": 8.49,
-        "category_validation": 171.15,
-        "ranking": 409.36,
-        "processing": 489.13,
+        "scrape": 865.94,
+        "guardrails": 107.26,
+        "deduplication": 8.81,
+        "category_validation": 169.59,
+        "ranking": 377.82,
+        "processing": 439.18,
         "assembly": 0.0
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 7,
+            "Health": 8,
             "Tech": 24,
-            "People": 38,
-            "Environment": 3,
+            "People": 37,
+            "Environment": 2,
             "Economy": 11,
-            "Entertainment": 9
+            "Entertainment": 10
         },
         "total_scraped": 92,
         "guardrail_passed": 92,
         "guardrail_rejected": 0,
-        "dedup_removed": 16,
-        "category_reassignments": 16,
+        "dedup_removed": 17,
+        "category_reassignments": 18,
         "final_articles": 18,
         "final_categories": 6
     },
@@ -32,130 +32,144 @@
     "deduplication": {
         "total_checked": 187,
         "duplicate_pairs_found": 20,
-        "duplicates_removed": 16
+        "duplicates_removed": 17
     },
     "category_validation": {
         "total_checked": 90,
-        "reassigned_count": 16,
+        "reassigned_count": 18,
         "reassignments": [
             {
                 "title": "Huawei doubles down on smartphones as EV sales slow",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on Huawei's business decisions, revenue, and market share, with discussions of smartphone and car sales, operating systems, and partnerships, making it more relevant to the economy and business category."
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Huawei's business decisions, market trends, and financial performance, with a focus on its smartphone and electric vehicle sales."
             },
             {
                 "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article focuses on the financial and business implications of the attack on Yandex's data center, including its impact on the company's services and infrastructure."
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the impact of the drone attack on Yandex's data center and its services, highlighting its economic significance and relation to Russia's infrastructure, which falls under the 'economy and business' category."
             },
             {
                 "title": "AI startup Manus raises $500 million in first funding round since Meta breakup",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the financial aspects of the AI startup Manus, including its funding round and valuation, making 'economy and business' the most accurate category."
+                "confidence": 0.8,
+                "reason": "The article focuses on the financial aspects of Manus, an AI startup, including its funding round, valuation, and potential IPO, making 'economy and business' the most accurate category."
             },
             {
                 "title": "Elon Musk blames Indian 'oligarchs' for stalling Starlink launch",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the business and economic aspects of SpaceX's Starlink satellite internet service, including the company's struggles with regulatory frameworks and market dominance."
+                "reason": "The article primarily focuses on the business and market dynamics of satellite internet services, specifically the competition between Starlink and Indian telecom companies."
             },
             {
                 "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article focuses on the potential IPO of Anthropic, an artificial intelligence company, and its valuation, making it a financial news story that belongs in the 'economy and business' category."
+                "confidence": 1.0,
+                "reason": "The article is primarily about the potential IPO of Anthropic, a company in the artificial intelligence space, and the financial risks and valuations associated with it."
             },
             {
                 "title": "",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the impact of rising borrowing costs on the stock market and different sectors, with a focus on artificial intelligence-related companies."
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the impact of rising borrowing costs on the stock market and the economy, with a focus on the bond market and artificial intelligence businesses."
             },
             {
                 "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on the financial and business aspects of SpaceX's $40 billion Nvidia GPU purchase, including the talks with Apollo Capital Management and the bond market."
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the financial and business aspects of SpaceX's $40 billion Nvidia GPU purchase, including debt financing and market trends."
             },
             {
                 "title": "5 Things to Know",
                 "from": "science and technology",
                 "to": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses stock markets, trading, and economic data, with only a few mentions of science and technology-related topics, such as AI and artificial intelligence bots."
+            },
+            {
+                "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
+                "from": "science and technology",
+                "to": "earth and environment",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on financial news, including stock market trends, economic data, and business partnerships, with little to no scientific or technological content."
+                "reason": "The article primarily focuses on environmental impact assessments, data center projects, and Finland's landscape, which are all related to the earth and environment category."
             },
             {
                 "title": "Ancient Egyptians sacrificed servants when kings died, forensic tests show",
                 "from": "science and technology",
                 "to": "people",
-                "confidence": 0.9,
-                "reason": "The article focuses on the discovery of human sacrifice and the examination of human remains, which is more related to the study of human behavior and culture, making it a fit for the 'people' category."
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the discovery of ancient human sacrifice practices and the forensic methods used to identify the victims, which falls under the 'people' category."
             },
             {
                 "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses fuel prices, the cost of living, and economic impacts, making 'economy and business' the most fitting category."
+                "confidence": 0.8,
+                "reason": "The article primarily discusses fuel prices, their impact on the economy, and government initiatives to regulate them, making 'economy and business' the most relevant category."
             },
             {
                 "title": "Chinese runner dropped by sponsor after riding bike during marathon",
                 "from": "science and technology",
                 "to": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the personal actions and consequences of the Chinese fitness influencer, Sun Yuanyuan, making it more relevant to the 'people' category."
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on a Chinese fitness influencer's actions and consequences, making 'people' the most relevant category."
             },
             {
                 "title": "Xbox bets on Gears of War in battle of gaming giants",
                 "from": "science and technology",
                 "to": "entertainment",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on video games, including Xbox, Gears of War, and E-Day, making it more suitable for the entertainment category."
+                "reason": "The article is primarily about video games, specifically the Gears of War series, and does not fit into any of the other categories."
             },
             {
                 "title": "How toxic haze is causing Singapore’s landmarks to disappear",
                 "from": "people",
                 "to": "earth and environment",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on natural disasters, wildfires, and environmental issues such as toxic haze, floods, and wildfires in South East Asia, making 'earth and environment' the most relevant category."
+                "reason": "The article primarily focuses on natural disasters, wildfires, and environmental issues, such as toxic haze, floods, and flash floods, which are all related to the 'earth and environment' category."
+            },
+            {
+                "title": "Watch: The extreme motorsport where women keep winning",
+                "from": "people",
+                "to": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article's main topic is the extreme motorsport of Top Fuel drag racing and its female competitors, with a focus on their achievements and the sport's uniqueness."
             },
             {
                 "title": "UK bluefin tuna comeback shows nature can recover, says WWF",
                 "from": "people",
-                "to": "earth and environment",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the conservation and recovery of bluefin tuna and other wildlife species, as well as the overall decline of monitored wildlife populations globally, making it more closely related to the 'earth and environment' category."
-            },
-            {
-                "title": "Moment Nasa scientist Margaret Hamilton receives presidential medal of honour",
-                "from": "people",
                 "to": "science and technology",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on NASA's Apollo missions, software engineering, and technological advancements, making it a clear fit for the 'science and technology' category."
+                "reason": "The article primarily focuses on the recovery of bluefin tuna and other species, highlighting conservation efforts and the importance of management plans, which falls under the category of science and technology."
             },
             {
-                "title": "Xbox bets on Gears of War in battle of gaming giants",
+                "title": "BBC to cut raft of Radio 4 programmes including You and Yours",
                 "from": "entertainment",
                 "to": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the BBC's financial situation, job cuts, and cost-saving measures, making it more relevant to the 'economy and business' category than 'entertainment'."
+            },
+            {
+                "title": "'I won Gladiators - now I'd love to become one'",
+                "from": "entertainment",
+                "to": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the business strategy and financial implications of Xbox's decision to keep Gears of War exclusive to their console, making 'economy and business' the most fitting category."
+                "reason": "The article focuses on Josh McDonald's personal story, including his experiences on Gladiators, his motivations, and his relationships, making it a people-focused piece."
             }
         ]
     },
     "llm_performance": {
         "total_calls": 182,
         "total_failures": 0,
-        "total_time_seconds": 279.07,
-        "avg_response_time": 1.53
+        "total_time_seconds": 276.31,
+        "avg_response_time": 1.52
     }
 }

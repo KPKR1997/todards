@@ -53,14 +53,14 @@
 /* Second Card Behind (Index 1) - Peeking slightly at top */
 .stack-card.layer-middle {
   z-index: 5;
-  transform: translateY(-12px) scale(0.98);
+  transform: translateY(-22px) scale(0.98);
   opacity: 0.96;
 }
 
 /* Third Card Behind (Index 2) - Peeking further at top */
 .stack-card.layer-back {
   z-index: 1;
-  transform: translateY(-24px) scale(0.96);
+  transform: translateY(-44px) scale(0.96);
   opacity: 0.92;
 }
 
@@ -276,39 +276,288 @@
   background-color: rgba(0, 0, 0, 0.4);
 }
 
-/* Mobile Stack Deck Breakpoint */
-@media (max-width: 480px) {
+/* =========================================================
+   RESPONSIVE CARD STACK
+   TABLET + MOBILE
+   ========================================================= */
+
+/* -------------------------
+   TABLET
+   481px - 1024px
+   ------------------------- */
+
+@media (min-width: 481px) and (max-width: 1024px) {
+
+  .section-stack-container {
+    width: 100%;
+  }
+
   .card-stack-deck {
-    max-width: 100%;
-    height: 500px;
-    padding-top: 50px;
+    width: 100%;
+    max-width: 360px;
+    height: 510px;
+    padding-top: 35px;
   }
 
   .stack-card {
     top: 50px;
-    height: 430px;
+    height: 450px;
     padding: 0.75rem;
   }
 
+  /* Image */
   .card-image-wrapper {
-    height: 195px;
+    height: 205px;
+  }
+
+  .card-image-overlay {
+    padding: 0.75rem 0.9rem;
+  }
+
+  /* Category */
+  .category-pill {
+    padding: 0.3rem 0.65rem;
+    font-size: 0.56rem;
+  }
+
+  .card-date {
+    font-size: 0.72rem;
+  }
+
+  /* Card content */
+  .card-content-body {
+    padding: 1.15rem 0.45rem 0.45rem;
   }
 
   .card-title {
-    font-size: 1.15rem;
-    margin-bottom: 0.4rem;
+    font-size: 1.1rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
   }
 
   .card-snippet {
+    font-size: 0.84rem;
+    line-height: 1.45;
+    margin-bottom: 0.8rem;
+    -webkit-line-clamp: 3;
+  }
+
+  .card-footer-action {
     font-size: 0.82rem;
-    -webkit-line-clamp: 2;
+  }
+
+  /* Stack spacing */
+  .card-stack-deck:hover .stack-card.layer-top {
+    transform: translate(-18px, 18px) scale(1);
   }
 
   .card-stack-deck:hover .stack-card.layer-middle {
-    transform: translateY(-22px) translateX(12px) scale(0.98) rotate(0deg);
+    transform: translate(8px, -8px) scale(0.98);
   }
 
   .card-stack-deck:hover .stack-card.layer-back {
-    transform: translateY(-44px) translateX(22px) scale(0.96) rotate(0deg);
+    transform: translate(28px, -28px) scale(0.96);
+  }
+
+  /* Pagination */
+  .stack-dots {
+    margin-top: 0.85rem;
+    gap: 0.45rem;
+  }
+
+  .stack-dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .stack-dot.active {
+    width: 21px;
+  }
+}
+
+
+/* -------------------------
+   MOBILE
+   481px and below
+   ------------------------- */
+
+@media (max-width: 480px) {
+
+  .section-stack-container {
+    width: 100%;
+  }
+
+  .card-stack-deck {
+    width: 100%;
+    max-width: 100%;
+    height: 515px;
+    padding-top: 30px;
+  }
+
+  .stack-card {
+    top: 40px;
+    height: 440px;
+    padding: 0.65rem;
+    border-width: 1.5px;
+    border-radius: var(--card-radius);
+  }
+
+  /* Image */
+  .card-image-wrapper {
+    height: 195px;
+    border-radius: var(--card-img-radius);
+  }
+
+  .card-image-overlay {
+    padding: 0.7rem 0.8rem;
+  }
+
+  /* Category */
+  .category-pill {
+    padding: 0.25rem 0.55rem;
+    font-size: 0.54rem;
+    letter-spacing: 0.06em;
+  }
+
+  .card-date {
+    font-size: 0.68rem;
+  }
+
+  /* Title shown on cards behind */
+  .card-image-title-overlay {
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+
+  /* Front card content */
+  .card-content-body {
+    padding: 1rem 0.35rem 0.35rem;
+  }
+
+  .card-title {
+    font-size: 1.08rem;
+    line-height: 1.22;
+    margin-bottom: 0.45rem;
+
+    -webkit-line-clamp: 3;
+  }
+
+  .card-snippet {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-bottom: 0.7rem;
+
+    -webkit-line-clamp: 2;
+  }
+
+  .card-footer-action {
+    font-size: 0.78rem;
+    gap: 0.3rem;
+  }
+
+  .arrow-icon {
+    width: 13px;
+    height: 13px;
+  }
+
+  /* Stack hover */
+  .card-stack-deck:hover .stack-card.layer-top {
+    transform: translate(-10px, 10px) scale(1);
+  }
+
+  .card-stack-deck:hover .stack-card.layer-middle {
+    transform: translate(8px, -16px) scale(0.98);
+  }
+
+  .card-stack-deck:hover .stack-card.layer-back {
+    transform: translate(16px, -32px) scale(0.96);
+  }
+
+  /* Pagination */
+  .stack-dots {
+    margin-top: 0.7rem;
+    gap: 0.4rem;
+  }
+
+  .stack-dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .stack-dot.active {
+    width: 20px;
+  }
+}
+
+
+/* -------------------------
+   SMALL PHONES
+   380px and below
+   ------------------------- */
+
+@media (max-width: 380px) {
+
+  .card-stack-deck {
+    height: 500px;
+    padding-top: 25px;
+  }
+
+  .stack-card {
+    top: 35px;
+    height: 425px;
+    padding: 0.6rem;
+  }
+
+  .card-image-wrapper {
+    height: 180px;
+  }
+
+  .card-image-overlay {
+    padding: 0.6rem 0.7rem;
+  }
+
+  .category-pill {
+    padding: 0.22rem 0.5rem;
+    font-size: 0.5rem;
+  }
+
+  .card-date {
+    font-size: 0.64rem;
+  }
+
+  .card-content-body {
+    padding: 0.9rem 0.3rem 0.3rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .card-snippet {
+    font-size: 0.76rem;
+    line-height: 1.35;
+    -webkit-line-clamp: 2;
+  }
+
+  .card-footer-action {
+    font-size: 0.74rem;
+  }
+
+  .arrow-icon {
+    width: 12px;
+    height: 12px;
+  }
+
+  .card-stack-deck:hover .stack-card.layer-top {
+    transform: translate(-6px, 6px) scale(1);
+  }
+
+  .card-stack-deck:hover .stack-card.layer-middle {
+    transform: translate(6px, -12px) scale(0.98);
+  }
+
+  .card-stack-deck:hover .stack-card.layer-back {
+    transform: translate(12px, -24px) scale(0.96);
   }
 }

@@ -87,7 +87,7 @@
 .modal-meta-row {
   display: flex;
   flex-direction:column;
-  align-items: left;
+  align-items: flex-start;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
@@ -246,4 +246,184 @@
   border-radius: 6px;
   font-weight: 500;
   cursor: pointer;
+}
+
+
+/* =========================================================
+   MOBILE RESPONSIVE STYLES
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  /* Modal backdrop */
+  .modal-overlay {
+    padding: 0;
+    align-items: flex-end;
+  }
+
+  /* Modal container */
+  .modal-content-card {
+    width: 100%;
+    max-width: 100%;
+    max-height: 92vh;
+    border-radius: 5px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+
+  /* Close button */
+  .modal-close-btn {
+    top: 0.75rem;
+    right: 0.75rem;
+    width: 32px;
+    height: 32px;
+    font-size: 0.9rem;
+    position:  sticky;
+  }
+
+  /* Hero image */
+  .modal-hero-image-wrapper {
+    height: 220px;
+    padding-top: 0%;
+  }
+
+  /* Category pill */
+  .modal-pill {
+    left: 0.75rem;
+    bottom: 0.75rem;
+
+    max-width: calc(100% - 1.5rem);
+
+    padding: 0.25rem 0.6rem;
+    border-radius: 16px;
+
+    font-size: 0.58rem;
+    letter-spacing: 0.06em;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  /* Article content */
+  .modal-article-body {
+    padding: 1.25rem 1rem 1.75rem;
+  }
+
+  /* Location / date */
+  .modal-location-time {
+    font-size: 0.72rem;
+    line-height: 1.4;
+  }
+
+  /* Article title */
+  .modal-title {
+    font-size: 1.65rem;
+    line-height: 1.18;
+    margin-bottom: 1rem;
+  }
+
+  /* Article body */
+  .modal-body-text {
+    font-size: 0.95rem;
+    line-height: 1.65;
+  }
+
+  /* Drawer */
+  .json-drawer-panel {
+    max-width: 100%;
+  }
+
+  .drawer-header {
+    padding: 1rem;
+  }
+
+  .drawer-title {
+    font-size: 1rem;
+  }
+
+  .drawer-body {
+    padding: 1rem;
+    gap: 0.75rem;
+  }
+
+  .json-textarea {
+    min-height: 300px;
+    padding: 0.75rem;
+    font-size: 0.78rem;
+  }
+
+  .drawer-footer {
+    padding: 1rem;
+    gap: 0.75rem;
+  }
+
+  .btn-drawer-apply,
+  .btn-drawer-cancel {
+    padding: 0.55rem 1rem;
+    font-size: 0.85rem;
+  }
+}
+
+
+/* =========================================================
+   SMALL PHONES
+   ========================================================= */
+
+@media (max-width: 400px) {
+
+  .modal-content-card {
+    max-height: 94vh;
+    border-radius: 18px 18px 0 0;
+  }
+
+  .modal-hero-image-wrapper {
+    height: 190px;
+  }
+
+  .modal-close-btn {
+    width: 30px;
+    height: 30px;
+    top: 0.6rem;
+    right: 0.6rem;
+  }
+
+  .modal-pill {
+    left: 0.65rem;
+    bottom: 0.65rem;
+    padding: 0.22rem 0.5rem;
+    font-size: 0.55rem;
+  }
+
+  .modal-article-body {
+    padding: 1rem 0.85rem 1.5rem;
+  }
+
+  .modal-location-time {
+    font-size: 0.68rem;
+  }
+
+  .modal-title {
+    font-size: 1.45rem;
+    line-height: 1.18;
+    margin-bottom: 0.9rem;
+  }
+
+  .modal-body-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+
+  .drawer-header {
+    padding: 0.85rem;
+  }
+
+  .drawer-body {
+    padding: 0.85rem;
+  }
+
+  .drawer-footer {
+    padding: 0.85rem;
+  }
 }

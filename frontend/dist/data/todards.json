@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 20",
+    "issue": "Issue No. 21",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Gaza Ceasefire Fails to Stem Deadly Israeli Attacks, Death Toll Reaches 74,000",
-          "image": "https://images.unsplash.com/photo-1702024284454-630967911461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8R2F6YSUyMGNvbmZsaWN0fGVufDF8MHx8fDE3OTE0NDkzODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Gaza",
+          "title": "Democrats lead in Ohio, Iowa Senate races amid Trump unpopularity",
+          "image": "https://images.pexels.com/photos/7016975/pexels-photo-7016975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Ohio",
           "time": "Oct 08, 2026",
-          "content": "In Gaza, a 31-year-old mother of five, Fida al-Toutah, was killed in Israeli attacks since the start of the ceasefire on 10 October last year. She is among more than 1,400 people killed in Israeli attacks. Over 300 children have been killed since the start of the ceasefire, including 14-year-old Ismail al-Bardawil, who was shot dead while fishing with his brothers. The ceasefire has not led to significant changes on the ground, with Israeli forces continuing to launch strikes in Gaza almost daily. The total death toll from Israeli attacks since the start of the war in Gaza three years ago now stands at more than 74,000.",
+          "content": "Widespread dissatisfaction with President Trump's handling of the presidency has opened up a prime Senate pickup opportunity for Democrats in Ohio and Iowa. In Ohio, Democratic former Sen. Sherrod Brown holds a 6-point lead over Jon Husted, a Republican former lieutenant governor, while in Iowa, the Senate race is a razor-thin contest. The poll finds that likely voters in both states mostly disapprove of Trump's handling of the presidency, say his policies have increased the cost of living, and are financially worse off than two years ago. Democrats are favored to win the governor's race in both states.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "UK Consulate in East Jerusalem to Mostly Close, Diplomats to Leave",
-          "image": "https://images.unsplash.com/photo-1706814567827-c204d90a40c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QnJpdGlzaCUyMGZsYWd8ZW58MXwwfHx8MTc5MTQ0OTQwMnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Jerusalem, Israel",
+          "title": "US Senate Passes Bill to Increase Cancer Research Funding",
+          "image": "https://images.unsplash.com/photo-1595210382266-2d0077c1f541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q3JpY2tldCUyMGNhcHRhaW58ZW58MXwwfHx8MTc5MTQ1MjQxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "India",
           "time": "Oct 08, 2026",
-          "content": "The British consulate in occupied East Jerusalem will mostly close, with 20 diplomats, including the consul general, leaving Israel. The UK insists the building will remain open as a",
+          "content": "]=",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "Zimbabwean Tycoon Wicknell Chivayo Dies in Helicopter Crash",
-          "image": "https://images.pexels.com/photos/10550104/pexels-photo-10550104.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Harare, Zimbabwe",
+          "title": "Elderly Woman Evicted from Madrid Home Dies Amid Nationwide Housing Crisis",
+          "image": "https://images.pexels.com/photos/15502071/pexels-photo-15502071.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Madrid, Spain",
           "time": "Oct 08, 2026",
-          "content": "Zimbabwean tycoon Wicknell Chivayo, who died in a helicopter crash, was a controversial figure known for his lavish lifestyle, close ties to African presidents, and lucrative government contracts. He was criticized for his lack of transparency and use of black market money. Chivayo was also known for his generosity, giving away cars and cash to influential people, including politicians and musicians. He was a supporter of Zimbabwe's ruling party, Zanu-PF, and had a close relationship with President Emmerson Mnangagwa. Chivayo's death has sparked mixed reactions, with some praising his philanthropy and others criticizing his business practices.",
+          "content": "An elderly woman, Maricarmen Abascal, 87, who was forcibly evicted from her apartment in Madrid, Spain, has died. Her situation became a symbol of Spain's housing crisis, sparking nationwide protests and a political row that led to early elections. Abascal's eviction, which occurred on September 23, was met with widespread outrage and support from the public and celebrities. The government's attempt to push through urgent housing measures failed, prompting Prime Minister Pedro Sánchez to call snap elections. Her death has sparked a collective gasp and minute of silence at the Madrid square where protesters have camped demanding affordable housing.",
           "theme": "#F7ECEE"
         }
       ]
@@ -58,29 +58,29 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Kagan and Soai Win Nobel Prize in Chemistry for Asymmetry Breakthrough",
-          "image": "https://images.unsplash.com/photo-1745237497721-5e6c13a171ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bW9sZWN1bGFyJTIwc3RydWN0dXJlfGVufDF8MHx8fDE3OTE0NDkzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Stockholm, Sweden",
+          "title": "Bluefin Tuna Return to UK Waters After International Efforts",
+          "image": "https://images.pexels.com/photos/7863403/pexels-photo-7863403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
           "time": "Oct 08, 2026",
-          "content": "Henri B. Kagan and Kenso Soai have won the 2026 Nobel Prize in chemistry for designing revolutionary experiments that replicated chemical asymmetry, solving a century-old mystery. Their work on chirality, or mirror image forms, allowed them to produce a greater excess of one molecule variant, crucial for pharmaceutical manufacturing. The Nobel committee praised their achievement, saying it provided fundamental new tools and awakened interest in the chemistry of life's origins. The duo shares the 12 million Swedish kronor ($1.2 million) prize, the third award announced this week, following the medicine and physics prizes.",
+          "content": "Bluefin tuna have returned in huge numbers off the British coast after almost disappearing from UK waters, according to a major new report from WWF. The report highlights conservation successes, including a 73% decline in monitored wildlife populations globally since 1970. The return of bluefin tuna is attributed to concerted international efforts, including reduced catch quotas and protected spawning grounds. The report highlights other species recoveries, such as an increase in wild tigers and green sea turtles, but notes that overall, nature remains in",
           "theme": "#EBF2FA"
         },
         {
           "id": "st-2",
-          "title": "Ancient Hunters in Tennessee Valley Carried Tools Based on Local Stone Deposits",
-          "image": "https://images.unsplash.com/photo-1632821405254-a8166e7c201d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8cHJlaGlzdG9yaWMlMjB0b29sc3xlbnwxfDB8fHwxNzkxNDQ5MzM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Tennessee River Valley",
+          "title": "Pioneering Software Engineer Margaret Hamilton Dies at 90",
+          "image": "https://images.unsplash.com/photo-1636614484105-6b199a1fbdca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TkFTQSUyMGxvZ298ZW58MXwwfHx8MTc5MTQ1MjM0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Cambridge, USA",
           "time": "Oct 08, 2026",
-          "content": "An analysis of 500 spear points suggests that Ice Age hunters in the Tennessee River Valley decided which tools to carry by knowing local stone deposits. Clovis groups, living there around 13,200 years ago, were more likely to resharpen spearheads, while Cumberland groups, following later, inherited their predecessors' knowledge of chert deposits. This study, published in the Journal of Archaeological Method and Theory, compares tools left behind by these groups to investigate how they adapted to unfamiliar terrain. The findings provide insight into the daily lives and resource management of mobile hunter-gatherers, mirroring modern-day challenges in space exploration.",
+          "content": "Margaret Hamilton, a pioneering software engineer, has died at 90. She led a team of 100 engineers at MIT to design the software for NASA's Apollo missions, helping to land astronauts on the moon. Hamilton's work ensured mission success, including during the Apollo 11 mission, and she popularized the field of software engineering. She was honored with the Presidential Medal of Freedom in 2016 and received NASA's Exceptional Space Act Award in 2003. Her legacy will be honored at Draper Laboratory, where she worked, and her contributions to science and space travel will be remembered.",
           "theme": "#EBF2FA"
         },
         {
           "id": "t-3",
-          "title": "Pioneering Software Engineer Margaret Hamilton Dies at 90",
-          "image": "https://images.pexels.com/photos/4212740/pexels-photo-4212740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Cambridge, Massachusetts",
+          "title": "Tennessee River Valley Hunters Inherited Stone Deposit Knowledge",
+          "image": "https://images.pexels.com/photos/31137184/pexels-photo-31137184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Tennessee River Valley, USA",
           "time": "Oct 08, 2026",
-          "content": "Margaret Hamilton, the pioneering software engineer who helped land NASA's Apollo astronauts on the moon, has died at 90. She led a team of 100 engineers at MIT, designing software for NASA's Apollo missions. Hamilton is credited with establishing the field of software engineering and popularizing the term. She received the Presidential Medal of Freedom in 2016 and the Exceptional Space Act Award in 2003. Her work ensured the success of the Apollo 11 mission, among others, by overriding an errant attempt to swap the flight computer's primary processing. Hamilton's legacy will be honored at the Charles Stark Draper Laboratory, where she left an",
+          "content": "An analysis of 500 spear points suggests that Ice Age hunters in the Tennessee River Valley inherited knowledge of stone deposits to decide which tools were worth carrying. Hunters like the Clovis and Cumberland groups, who lived 13,200 years ago, would often leave behind usable stone spearheads, conserving resources and adapting to new environments. This study, published in the Journal of Archaeological Method and Theory, compares the tools left behind by these groups to investigate how knowledge of local resources influenced their decisions. The findings provide insights into the daily lives and resource management strategies of early hunter-gatherers.",
           "theme": "#EBF2FA"
         }
       ]
@@ -95,29 +95,29 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Pennsylvania Clinic Sees 1,000 Measles Cases Since April, Urges Vaccination",
-          "image": "https://images.unsplash.com/photo-1576765608622-067973a79f53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWVhc2xlcyUyMHN5bXB0b21zfGVufDF8MHx8fDE3OTE0NDkyMzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Central Pennsylvania Clinic",
+          "title": "Pennsylvania sees over 1,000 measles cases since April",
+          "image": "https://images.pexels.com/photos/4345678/pexels-photo-4345678.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Pennsylvania, USA",
           "time": "Oct 08, 2026",
-          "content": "In a measles outbreak in central Pennsylvania, the Central Pennsylvania Clinic is seeing unprecedented cases, with over 1,000 reported since April. The clinic serves vulnerable patients with genetic disorders and has seen a significant increase in hospital admissions and ICU stays. Despite challenges, the clinic has built trust with the Amish and broader Plain community, hosting pop-up vaccination clinics and providing culturally competent care. Vaccination rates are crucial, with the MMR vaccine 97% effective against measles. The clinic's focus is on raising vaccination rates and addressing the community's unique needs, amid the devastating impact of the outbreak.",
+          "content": "A massive measles outbreak in central Pennsylvania has caused significant pain and suffering to families, with over 1,000 cases reported since April. The Central Pennsylvania Clinic, a nonprofit serving children and adults with genetic disorders, is at the forefront of the response. The clinic's staff is focused on keeping patients safe and healthy, relying on trust built over years to provide accurate information and consistent messaging. Vaccination rates are critical, with the MMR vaccine being extremely effective. The clinic has hosted pop-up vaccination clinics, with nearly 200 events and thousands of doses administered since spring. Home visits and vaccinations are also increasing, with staff prioritizing patient care and safety.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-2",
-          "title": "WHO Reports Rare Pneumonic Plague Case at Russian Lab",
-          "image": "https://images.unsplash.com/photo-1706639449579-b28503bf026d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8cGxhZ3VlJTIwYmFjdGVyaWF8ZW58MXwwfHx8MTc5MTQ0OTI2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Irkutsk, Russia",
+          "title": "Nigerian Paediatrician Elected as UICC President-Elect",
+          "image": "https://images.unsplash.com/photo-1672655412906-8e10ba6ee373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q2FuY2VyJTIwdHJlYXRtZW50JTIwaW4lMjBBZnJpY2F8ZW58MXwwfHx8MTc5MTQ1MjI4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Hong Kong",
           "time": "Oct 08, 2026",
-          "content": "The World Health Organization reported a rare case of pneumonic plague at a Russian institute, causing global concern. A 28-year-old worker died, and hundreds of co-workers were isolated. The WHO Director-General said they have few clear answers about the incident, citing a lack of timely and transparent information sharing. The risk to the general public appears to be low, but the WHO conducts an initial assessment of risk based on an understanding that the Russian lab worker's case could be pneumonic plague, which can spread from person to person.",
+          "content": "Dr Zainab Shinkafi-Bagudu, a Nigerian paediatrician, was elected as the president-elect of the Union for International Cancer Control (UICC), the first African to lead the organisation. She takes up the role as cancer cases and deaths are projected to rise sharply, with the greatest increases expected in poorer countries. Bagudu aims to reorient global cancer policy towards countries with limited cancer services and bridge the gap between countries with limited cancer services and the research, technology and treatments being developed elsewhere.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-3",
-          "title": "US President Schedules Call with Putin Over Plague Research Death",
-          "image": "https://images.pexels.com/photos/33984560/pexels-photo-33984560.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "WHO Reports Death of Plague Researcher Darya Shipilova at Russian Institute",
+          "image": "https://images.pexels.com/photos/12944806/pexels-photo-12944806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Irkutsk, Russia",
           "time": "Oct 08, 2026",
-          "content": "US President Donald Trump says he has a call set up with Vladimir Putin about the death of a lab worker at a plague research centre in Siberia. The worker, 28-year-old Darya Shipilova, died after falling ill a couple of days earlier. Russian officials are investigating the suspected pneumonic plague case, with over 200 people placed under observation. The World Health Organization has called for transparency from Russia, and the US has issued a formal diplomatic message requesting additional information. Mongolia and Lithuania have also taken precautionary measures to prevent potential risks.",
+          "content": "The World Health Organization (WHO) reported the death of a 28-year-old worker at a Russian institute that researched plague, sparking global concern. The worker, Darya Shipilova, died on October 2 from pneumonia of unknown origin. The WHO has few clear answers about the incident and is seeking more information from the Russian government. Currently, over 200 people who had contact with Shipilova are in quarantine or under close follow-up. The risk to the general public appears to be low, but WHO is continuing to monitor the situation.",
           "theme": "#E8F5F1"
         }
       ]
@@ -132,20 +132,20 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "WWF Report: Global Wildlife Decline, India Sees Conservation Success",
-          "image": "https://images.unsplash.com/photo-1500614922032-b6dd337b1313?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8SW5kaWFuJTIwd2lsZGxpZmV8ZW58MXwwfHx8MTc5MTQ0OTQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "WWF Report Reveals Global Wildlife Decline, India Sees Species Growth",
+          "image": "https://images.unsplash.com/photo-1698035886391-2a909d77b237?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8SW5kaWFuJTIwd2lsZGxpZmV8ZW58MXwwfHx8MTc5MTQ0OTQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "India",
           "time": "Oct 08, 2026",
-          "content": "The World Wide Fund for Nature (WWF) released its Living Planet Report 2026, which found a 73 per cent decline in the average size of monitored wildlife populations between 1970 and 2022. India, however, recorded gains in the numbers of several major species, including tigers, greater one-horned rhinoceroses, and Asiatic lions. The report highlighted successful conservation efforts in India, but also warned that important challenges remained, including human-wildlife conflict and poaching. The report emphasized the need for a comprehensive approach to conservation, citing habitat loss and degradation as the most frequently reported threats to wildlife populations.",
+          "content": "A new report by the World Wide Fund for Nature (WWF) found a 73% decline in monitored wildlife populations globally between 1970 and 2022, with habitat loss and degradation being the most frequently reported threats. However, India has recorded gains in the numbers of several major species, including tigers, greater one-horned rhinoceroses, Asiatic lions, and common leopards. The country's conservation efforts have been successful, with population increases among several species. The report highlights the importance of conservation measures, noting that declines in biodiversity cannot be reversed by conservation efforts alone.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-2",
-          "title": "Heavy rain and snow hit northern India, with alerts issued for several states.",
-          "image": "https://images.unsplash.com/photo-1544705357-9b6144a78295?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8JTQwSGltYWxheWFuJTIwcGVha3N8ZW58MXwwfHx8MTc5MTQ0OTUwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Heavy rain and snow hit northern India, thunderstorms warned",
+          "image": "https://images.unsplash.com/photo-1533130061792-64b345e4a833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8bW91bnRhaW4lMjBwZWFrfGVufDF8MHx8fDE3OTE0NTI1MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "India",
           "time": "Oct 08, 2026",
-          "content": "Heavy rain hit Uttarakhand, Himachal Pradesh, and Jammu and Kashmir, while snowfall is expected across higher Himalayan peaks amid strong winds. Heavy rainfall alerts were issued for Kerala, Tamil Nadu, West Bengal, and Sikkim, with thunderstorms, lightning, and gusty winds posing a threat. In Delhi-NCR, cooler mornings and nights were seen, but daytime temperatures remained high, with isolated thunderstorms and showers possible. Thunderstorms, lightning, and strong winds were predicted for Punjab, Haryana, and western Uttar Pradesh, prompting cautionary alerts. The southwest monsoon withdrawal advanced across India, signaling a shift to cooler conditions.",
+          "content": "Heavy rain and snowfall hit several Indian regions, including Uttarakhand, Himachal Pradesh, and Jammu and Kashmir, as strong winds swept across higher Himalayan peaks. Meanwhile, Kerala, Tamil Nadu, West Bengal, and Sikkim were placed under heavy rainfall alerts due to thunderstorms, lightning, and gusty winds. Delhi-NCR experienced cooler mornings and nights, but daytime temperatures remained high, with isolated thunderstorms and showers possible. Punjab, Haryana, and western Uttar Pradesh were warned of thunderstorms, lightning, and strong winds. The southwest monsoon withdrawal progressed across India, signaling changing weather patterns and the gradual arrival of cooler conditions.",
           "theme": "#E7F4EF"
         },
         {
@@ -169,29 +169,29 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Play explores men's mental health through boxing in Belfast",
-          "image": "https://images.unsplash.com/photo-1583473848882-f9a5bc7fd2ee?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZmlnaHRlciUyN3MlMjBnbG92ZXN8ZW58MXwwfHx8MTc5MTQ0OTYxNHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Belfast, Ireland",
+          "title": "Disney+ to air Super Bowl, Monday Night Football games to US subscribers",
+          "image": "https://images.unsplash.com/photo-1508863702330-2eece3ea08cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8QW1lcmljYW4lMjBmb290YmFsbHxlbnwxfDB8fHwxNzkxNDQ5NjQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
           "time": "Oct 08, 2026",
-          "content": "A new play, The Corner Man, explores men's mental health through the world of boxing. The story follows Liam Casey, a boxer forced to confront life outside the ring after years of dedication. Writer and producer Cathal J Ferris, who grew up in Belfast, drew inspiration from his own experience of boxing and conversations with fighters. The play highlights the struggle to find purpose and identity after leaving the ring, as well as the importance of talking about mental health. The story is set in Belfast, with the boxing community playing a key role in shaping the narrative.",
+          "content": "{Disney has announced that its streaming service Disney+ will air the 2027 Super Bowl, as well as two Monday Night Football games, to all subscribers in the U.S. The game will also air on ESPN and ABC, with ad spots already sold out, the earliest sellout in Super Bowl history. This is part of Disney's efforts to expand its live sports streaming offerings, following the launch of a standalone ESPN streaming service and the addition of Formula E to Disney+. Other streamers, such as YouTube and Netflix, are also investing in live sports to bolster their portfolios.}",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-2",
-          "title": "Disney+ to Air 2027 Super Bowl and Monday Night Football",
-          "image": "https://images.unsplash.com/photo-1662338571362-5ad7a300074a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8RGlzbmV5JTIwbG9nb3xlbnwxfDB8fHwxNzkxNDQ5NjM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
+          "title": "Beverley Knight's Musical Sylvia Aims to Inspire Empowerment and Change",
+          "image": "https://images.unsplash.com/photo-1581952449676-b59f9fc1b746?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8c3VmZnJhZ2V0dGV8ZW58MXwwfHx8MTc5MTQ0OTY1OHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Birmingham Hippodrome",
           "time": "Oct 08, 2026",
-          "content": ">Disney has announced that its streaming service Disney+ will air the 2027 Super Bowl, along with two Monday Night Football games, making it available to all Disney+ subscribers in the US. This is the first time ESPN will produce the Super Bowl, which will also air on ESPN and ABC. The game has already sold out its ad spots, the earliest sellout in Super Bowl history. This move is part of Disney's efforts to expand its live sports streaming offerings, following the launch of a standalone ESPN streaming service and the acquisition of Formula E.",
+          "content": "Singer Beverley Knight hopes audiences watching her latest musical, Sylvia, will leave feeling empowered and believing their voices can make a difference. The musical tells the story of suffragette Sylvia Pankhurst and her family's rift caused by the fight for women's voting rights. Knight, who plays Emmeline Pankhurst, wants audiences to leave with a sense of empowerment and a connection to the story, which explores the suffragette movement from 1903 to 1928. The show features a mix of music genres, including R&B, funk, soul, garage, gospel, and house, and aims to inspire audiences to use their voices to effect change.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-3",
-          "title": "Singer Beverley Knight Urges Sylvia Audiences to Feel Empowered",
-          "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bXVzaWNhbHxlbnwxfDB8fHwxNzkxNDQ5NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Birmingham, UK",
+          "title": "New Play Explores Men's Mental Health through Boxing",
+          "image": "https://images.pexels.com/photos/8745178/pexels-photo-8745178.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Belfast",
           "time": "Oct 08, 2026",
-          "content": "Singer Beverley Knight, who plays Emmeline Pankhurst in the musical Sylvia, hopes audiences will leave feeling",
+          "content": "A new play, The Corner Man, explores men's mental health through the world of boxing, delving into the struggles of identity and purpose faced by athletes when their sport comes to an end. The play follows a boxer forced to confront life outside the ring after years of dedication. Writer and producer Cathal J Ferris draws from his own experience and conversations with fighters to examine the difficulties men have talking about their mental health and the importance of support networks.",
           "theme": "#F3ECF7"
         }
       ]
@@ -206,20 +206,20 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Alberta to Hold Referendum on Independence from Canada",
-          "image": "https://images.unsplash.com/photo-1599861807502-0341592902f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QWxiZXJ0YSUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzkxNDQ5NTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Alberta to Hold Independence Referendum on October 19",
+          "image": "https://images.pexels.com/photos/39968137/pexels-photo-39968137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Alberta, Canada",
           "time": "Oct 08, 2026",
-          "content": "Alberta will hold a referendum on October 19, allowing residents to vote on whether to stay in Canada or move forward with a formal binding referendum on independence. Keith Wilson, an Alberta independence supporter, believes the province's unique economy would be richer as an independent country. However, opponents, including Premier Danielle Smith, predict a more sober outcome, citing potential transition costs of C$400bn, lost investments, and trade due to political upheaval. The debate centers on Alberta's wealth, with some arguing it would keep more of its oil and gas revenue, while others warn of the risks and uncertainties of independence.",
+          "content": "The Canadian province of Alberta will hold a referendum on October 19, allowing residents to vote on independence. Keith Wilson, an independence supporter, believes the province's unique economy, rich in oil and gas, would thrive independently. However, opponents, including Premier Danielle Smith, predict significant costs and uncertainty, with estimates ranging from C$50bn to C$400bn. A report warns of a long and costly to-do list, including setting up agencies, developing a constitution, and negotiating national security. Opinion polling indicates around 20% to 25% of Albertans plan to vote in favour of independence.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-2",
-          "title": "Royal Mail to Cut 2,500 Office Jobs by 2027 for Efficiency Gains",
-          "image": "https://images.unsplash.com/photo-1709214122943-317e42bd7108?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cG9zdCUyMG9mZmljZXxlbnwxfDB8fHwxNzkxNDQ5NTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "UK",
+          "title": "Royal Mail to cut 2,500 head office roles by end-2027",
+          "image": "https://images.unsplash.com/photo-1758795680241-ba9cd3fa2cc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8X3JveWFsJTIwbWFpbCUyMGxvZ298ZW58MXwwfHx8MTc5MTQ1MjU3NXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
           "time": "Oct 08, 2026",
-          "content": "Royal Mail plans to cut 2,500 head office and supporting roles by the end of 2027, aiming to improve efficiency and reduce duplication. The 2% workforce reduction will be achieved through voluntary redundancies and employee choices, with frontline postal workers unaffected. The company says the cuts will make it more efficient, but unions argue it's further evidence of a demoralizing and failing institution. Royal Mail has been struggling to meet delivery targets and faces criticism over slow letter deliveries, with an ongoing improvement plan and investments of £500m over five years.",
+          "content": "Royal Mail plans to cut 2,500 head office and supporting roles by end-2027, representing 2% of its 131,000-strong workforce. The cuts aim to improve efficiency, with voluntary redundancies and people choosing to leave the company. The plan is in formal consultation with unions, despite concerns from the Communication Workers Union that the cuts will worsen the company's poor performance and delivery targets. The company has struggled to meet delivery targets and faces criticism from politicians and the public over slow letter deliveries.",
           "theme": "#F7F1DE"
         },
         {
