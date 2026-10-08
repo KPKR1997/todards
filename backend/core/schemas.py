@@ -18,9 +18,14 @@ class SummaryResponse(BaseModel):
     """Structured output from the summarization LLM."""
     summary: str = Field(
         ...,
-        description="Concise factual summary paragraph, 100-120 words"
+        min_length=1,
+        description=(
+            "The final news summary as plain text. "
+            "Return only the summary paragraph itself. "
+            "Do not include JSON, braces, field names, labels, "
+            "markdown, quotation marks, or introductory text."
+        )
     )
-
 
 # ============================================================
 # PLACE FINDER

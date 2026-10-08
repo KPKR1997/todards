@@ -1,175 +1,168 @@
 {
     "date": "08102026",
-    "timestamp": "2026-10-08T15:13:56.459012",
-    "duration_seconds": 1968.63,
+    "timestamp": "2026-10-08T17:45:05.586739",
+    "duration_seconds": 1747.61,
     "stages_duration_seconds": {
-        "scrape": 865.94,
-        "guardrails": 107.26,
-        "deduplication": 8.81,
-        "category_validation": 169.59,
-        "ranking": 377.82,
-        "processing": 439.18,
-        "assembly": 0.0
+        "scrape": 608.18,
+        "guardrails": 101.17,
+        "deduplication": 18.53,
+        "category_validation": 158.5,
+        "ranking": 346.68,
+        "processing": 514.52,
+        "assembly": 0.01
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 8,
-            "Tech": 24,
-            "People": 37,
-            "Environment": 2,
-            "Economy": 11,
-            "Entertainment": 10
+            "Health": 7,
+            "Tech": 22,
+            "People": 38,
+            "Environment": 4,
+            "Economy": 8,
+            "Entertainment": 14
         },
-        "total_scraped": 92,
-        "guardrail_passed": 92,
+        "total_scraped": 93,
+        "guardrail_passed": 93,
         "guardrail_rejected": 0,
-        "dedup_removed": 17,
-        "category_reassignments": 18,
+        "dedup_removed": 18,
+        "category_reassignments": 17,
         "final_articles": 18,
         "final_categories": 6
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 187,
-        "duplicate_pairs_found": 20,
-        "duplicates_removed": 17
+        "total_checked": 188,
+        "duplicate_pairs_found": 23,
+        "duplicates_removed": 18
     },
     "category_validation": {
-        "total_checked": 90,
-        "reassigned_count": 18,
+        "total_checked": 89,
+        "reassigned_count": 17,
         "reassignments": [
-            {
-                "title": "Huawei doubles down on smartphones as EV sales slow",
-                "from": "science and technology",
-                "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses Huawei's business decisions, market trends, and financial performance, with a focus on its smartphone and electric vehicle sales."
-            },
             {
                 "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on the impact of the drone attack on Yandex's data center and its services, highlighting its economic significance and relation to Russia's infrastructure, which falls under the 'economy and business' category."
+                "reason": "The article primarily focuses on the economic impact of the drone attack on Yandex, a Russian internet giant, and the subsequent effects on its services and infrastructure."
             },
             {
                 "title": "AI startup Manus raises $500 million in first funding round since Meta breakup",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article focuses on the financial aspects of Manus, an AI startup, including its funding round, valuation, and potential IPO, making 'economy and business' the most accurate category."
+                "reason": "The article primarily discusses the financial aspects of the AI startup Manus, including its funding round, valuation, and potential public listing."
             },
             {
                 "title": "Elon Musk blames Indian 'oligarchs' for stalling Starlink launch",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the business and market dynamics of satellite internet services, specifically the competition between Starlink and Indian telecom companies."
+                "reason": "The article focuses on the business and market dynamics of satellite internet services, specifically the competition between SpaceX and Indian telecom operators, making 'economy and business' a more accurate category."
             },
             {
                 "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 1.0,
-                "reason": "The article is primarily about the potential IPO of Anthropic, a company in the artificial intelligence space, and the financial risks and valuations associated with it."
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the financial aspects of Anthropic's potential IPO, discussing valuation, revenue, and potential risks, making 'economy and business' a more accurate category."
             },
             {
                 "title": "",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses the impact of rising borrowing costs on the stock market and the economy, with a focus on the bond market and artificial intelligence businesses."
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the impact of rising borrowing costs on the stock market and various industries, making 'economy and business' the most relevant category."
             },
             {
                 "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on the financial and business aspects of SpaceX's $40 billion Nvidia GPU purchase, including debt financing and market trends."
+                "reason": "The article focuses on the financing and debt aspects of SpaceX's $40 billion Nvidia GPU purchase, making it more relevant to the economy and business category."
             },
             {
                 "title": "5 Things to Know",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses stock markets, trading, and economic data, with only a few mentions of science and technology-related topics, such as AI and artificial intelligence bots."
-            },
-            {
-                "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
-                "from": "science and technology",
-                "to": "earth and environment",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on environmental impact assessments, data center projects, and Finland's landscape, which are all related to the earth and environment category."
+                "reason": "The article primarily discusses economic and business-related topics, including stock market trends, business deals, and financial news, with only a few passing references to science and technology."
             },
             {
                 "title": "Ancient Egyptians sacrificed servants when kings died, forensic tests show",
                 "from": "science and technology",
                 "to": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses the discovery of ancient human sacrifice practices and the forensic methods used to identify the victims, which falls under the 'people' category."
+                "reason": "The article primarily focuses on the discovery and analysis of ancient human remains, which falls under the category of 'people'"
+            },
+            {
+                "title": "Asos hackers took more personal details than first revealed, BBC finds",
+                "from": "science and technology",
+                "to": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a data breach and its potential impact on customers, which falls under the category of economy and business, specifically corporate finance and cybersecurity."
             },
             {
                 "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses fuel prices, their impact on the economy, and government initiatives to regulate them, making 'economy and business' the most relevant category."
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the impact of fuel prices and the government's Fuel Finder scheme on the economy and consumer spending."
             },
             {
                 "title": "Chinese runner dropped by sponsor after riding bike during marathon",
                 "from": "science and technology",
                 "to": "people",
                 "confidence": 1.0,
-                "reason": "The article primarily focuses on a Chinese fitness influencer's actions and consequences, making 'people' the most relevant category."
-            },
-            {
-                "title": "Xbox bets on Gears of War in battle of gaming giants",
-                "from": "science and technology",
-                "to": "entertainment",
-                "confidence": 0.9,
-                "reason": "The article is primarily about video games, specifically the Gears of War series, and does not fit into any of the other categories."
+                "reason": "The article primarily focuses on a human-interest story about a fitness influencer's controversy and apology, with no significant scientific or technological aspects."
             },
             {
                 "title": "How toxic haze is causing Singapore’s landmarks to disappear",
                 "from": "people",
                 "to": "earth and environment",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on natural disasters, wildfires, and environmental issues, such as toxic haze, floods, and flash floods, which are all related to the 'earth and environment' category."
+                "confidence": 0.9,
+                "reason": "The article primarily discusses natural disasters and environmental issues, such as wildfires, floods, and haze, which is a clear indication that it belongs in the 'earth and environment' category."
+            },
+            {
+                "title": "Residents airlifted to safety after flooding in central Chile",
+                "from": "people",
+                "to": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the severe flooding in central Chile, its causes, and its effects, making it a strong candidate for the 'earth and environment' category."
             },
             {
                 "title": "Watch: The extreme motorsport where women keep winning",
                 "from": "people",
                 "to": "entertainment",
                 "confidence": 0.8,
-                "reason": "The article's main topic is the extreme motorsport of Top Fuel drag racing and its female competitors, with a focus on their achievements and the sport's uniqueness."
+                "reason": "The article's main focus is on a documentary about Top Fuel drag racing and features mentions of music and celebrities, making 'entertainment' a more fitting category than 'people'"
             },
             {
-                "title": "UK bluefin tuna comeback shows nature can recover, says WWF",
-                "from": "people",
-                "to": "science and technology",
+                "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+                "from": "economy and business",
+                "to": "earth and environment",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the recovery of bluefin tuna and other species, highlighting conservation efforts and the importance of management plans, which falls under the category of science and technology."
+                "reason": "The article discusses the attack on Russia's infrastructure, including data centers and oil refineries, which is a topic of global concern for the environment and geopolitics."
+            },
+            {
+                "title": "Actor Simon Pegg reveals ADHD diagnosis: 'It's just who I am'",
+                "from": "entertainment",
+                "to": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Simon Pegg's personal life, including his diagnosis with ADHD, making it more relevant to the 'people' category."
             },
             {
                 "title": "BBC to cut raft of Radio 4 programmes including You and Yours",
                 "from": "entertainment",
                 "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the BBC's financial situation, job cuts, and cost-saving measures, making it more relevant to the 'economy and business' category than 'entertainment'."
-            },
-            {
-                "title": "'I won Gladiators - now I'd love to become one'",
-                "from": "entertainment",
-                "to": "people",
                 "confidence": 0.8,
-                "reason": "The article focuses on Josh McDonald's personal story, including his experiences on Gladiators, his motivations, and his relationships, making it a people-focused piece."
+                "reason": "The article primarily focuses on the financial and business aspects of the BBC's restructuring and job cuts, making 'economy and business' a more accurate category than 'entertainment'."
             }
         ]
     },
     "llm_performance": {
         "total_calls": 182,
         "total_failures": 0,
-        "total_time_seconds": 276.31,
-        "avg_response_time": 1.52
+        "total_time_seconds": 258.83,
+        "avg_response_time": 1.42
     }
 }

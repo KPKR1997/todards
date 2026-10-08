@@ -64,6 +64,8 @@ from webscrape.environment_scrapper import EnvironmentDataScrapper
 from webscrape.economy_scrapper import EconomicsDataScrapper
 from webscrape.entertainment_scrapper import EntertainmentDataScrapper
 
+from notifications.send_report_email import send_daily_report
+
 logger = setup_logger("todards")
 
 
@@ -389,6 +391,9 @@ def main():
         f"Issue #{issue_number} published successfully! ({len(combined_output)} articles in {metrics.to_dict()['duration_seconds']}s)"
     )
     print(f"\nEvaluation Report: {report_paths['markdown']}")
+
+    email_result = send_daily_report()
+    logger.info(email_result)
 
 
 if __name__ == "__main__":

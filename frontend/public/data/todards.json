@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 21",
+    "issue": "Issue No. 24",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Democrats lead in Ohio, Iowa Senate races amid Trump unpopularity",
-          "image": "https://images.pexels.com/photos/7016975/pexels-photo-7016975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Ohio",
+          "title": "Russian Bombing Kills 33 in Ukraine's Kramatorsk",
+          "image": "https://images.unsplash.com/photo-1560418750-173783cf0dc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VWtyYWluaWFuJTIwY2l0eXxlbnwxfDB8fHwxNzkxNDYxNDA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kramatorsk, Ukraine",
           "time": "Oct 08, 2026",
-          "content": "Widespread dissatisfaction with President Trump's handling of the presidency has opened up a prime Senate pickup opportunity for Democrats in Ohio and Iowa. In Ohio, Democratic former Sen. Sherrod Brown holds a 6-point lead over Jon Husted, a Republican former lieutenant governor, while in Iowa, the Senate race is a razor-thin contest. The poll finds that likely voters in both states mostly disapprove of Trump's handling of the presidency, say his policies have increased the cost of living, and are financially worse off than two years ago. Democrats are favored to win the governor's race in both states.",
+          "content": "A Russian glide bomb attack in the Ukrainian city of Kramatorsk has killed at least 33 people and wounded 18 with rescue officials accusing Russia of targeting civilian buses to kill as many people as possible. The attack comes amid a surge in Russian attacks across Ukraine resulting in a sharp increase in civilian casualties. The bombing has caused a fire on two buses which were carrying passengers and has prompted an appeal from Donetsk regional head Vadym Filashkin for people to move to safer regions of Ukraine. The attack is part of Russia's ongoing efforts to capture the Donbas region of Ukraine which has been heavily impacted by the war.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "US Senate Passes Bill to Increase Cancer Research Funding",
-          "image": "https://images.unsplash.com/photo-1595210382266-2d0077c1f541?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q3JpY2tldCUyMGNhcHRhaW58ZW58MXwwfHx8MTc5MTQ1MjQxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "India",
+          "title": "Tennessee Suspends Executions After Botched Death Row Inmate Execution",
+          "image": "https://images.unsplash.com/photo-1543536833-6d65fcc64f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UHJpc29uJTIwYmFyc3xlbnwxfDB8fHwxNzkxNDYxNDQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Tennessee, USA",
           "time": "Oct 08, 2026",
-          "content": "]=",
+          "content": "Tennessee's criminal justice system is in uncharted territory after the botched execution of death row inmate Christa Pike who is now walking and talking again. Governor Bill Lee has ordered an independent investigation and suspended all executions for the rest of the year. Pike's lawyers are seeking to have her death sentence commuted to life in prison without parole while the state is considering alternative execution methods. The fate of Pike who has been on death row for 30 years for murdering Colleen Slemmer lies in a mysterious grey area with experts predicting a long delay while the issue is studied. The state's investigation and Pike's medical condition could complicate any future execution attempts while her lawyers argue that a lethal injection would be unconstitutional. The development has thrust Tennessee's criminal justice system into uncharted territory with Pike's fate hanging in the balance.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "Elderly Woman Evicted from Madrid Home Dies Amid Nationwide Housing Crisis",
-          "image": "https://images.pexels.com/photos/15502071/pexels-photo-15502071.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Spanish Woman Dies at 87 After Forcible Eviction Amid Housing Crisis",
+          "image": "https://images.pexels.com/photos/16619340/pexels-photo-16619340.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Madrid, Spain",
           "time": "Oct 08, 2026",
-          "content": "An elderly woman, Maricarmen Abascal, 87, who was forcibly evicted from her apartment in Madrid, Spain, has died. Her situation became a symbol of Spain's housing crisis, sparking nationwide protests and a political row that led to early elections. Abascal's eviction, which occurred on September 23, was met with widespread outrage and support from the public and celebrities. The government's attempt to push through urgent housing measures failed, prompting Prime Minister Pedro Sánchez to call snap elections. Her death has sparked a collective gasp and minute of silence at the Madrid square where protesters have camped demanding affordable housing.",
+          "content": "A Spanish woman Maricarmen Abascal who was forcibly evicted from her apartment amid Spain's housing crisis protests has died at the age of 87. Abascal's eviction which occurred in September sparked widespread protests and led to Prime Minister Pedro Sánchez calling early elections. The company that owned the apartment had offered to reduce the rent but Abascal was unable to sign the agreement due to her poor health. Her death has sparked further outrage with protesters in Madrid's Puerta del Sol square demanding more affordable housing and calling for the government to take action. Abascal's situation has become a symbol of Spain's housing crisis with rental costs in Madrid having soared by over 100% in the last decade.",
           "theme": "#F7ECEE"
         }
       ]
@@ -58,29 +58,29 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Bluefin Tuna Return to UK Waters After International Efforts",
-          "image": "https://images.pexels.com/photos/7863403/pexels-photo-7863403.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "UK",
+          "title": "OpenAI's Teen ChatGPT Falls Short on Safety Features",
+          "image": "https://images.pexels.com/photos/17771090/pexels-photo-17771090.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "San Francisco, USA",
           "time": "Oct 08, 2026",
-          "content": "Bluefin tuna have returned in huge numbers off the British coast after almost disappearing from UK waters, according to a major new report from WWF. The report highlights conservation successes, including a 73% decline in monitored wildlife populations globally since 1970. The return of bluefin tuna is attributed to concerted international efforts, including reduced catch quotas and protected spawning grounds. The report highlights other species recoveries, such as an increase in wild tigers and green sea turtles, but notes that overall, nature remains in",
+          "content": "OpenAI's ChatGPT for Teens designed to promote healthier AI use has been found to fall short on safety features posing an",
           "theme": "#EBF2FA"
         },
         {
           "id": "st-2",
-          "title": "Pioneering Software Engineer Margaret Hamilton Dies at 90",
-          "image": "https://images.unsplash.com/photo-1636614484105-6b199a1fbdca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TkFTQSUyMGxvZ298ZW58MXwwfHx8MTc5MTQ1MjM0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Cambridge, USA",
+          "title": "Microsoft Unveils Surface Laptop Ultra with AI Chip and Magnetic Port",
+          "image": "https://images.pexels.com/photos/15822009/pexels-photo-15822009.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "San Francisco, USA",
           "time": "Oct 08, 2026",
-          "content": "Margaret Hamilton, a pioneering software engineer, has died at 90. She led a team of 100 engineers at MIT to design the software for NASA's Apollo missions, helping to land astronauts on the moon. Hamilton's work ensured mission success, including during the Apollo 11 mission, and she popularized the field of software engineering. She was honored with the Presidential Medal of Freedom in 2016 and received NASA's Exceptional Space Act Award in 2003. Her legacy will be honored at Draper Laboratory, where she worked, and her contributions to science and space travel will be remembered.",
+          "content": "Microsoft has launched its new Surface Laptop Ultra priced at $2599 which features an Nvidia AI chip and a magnetic USB-C port. The laptop will be available for preorder starting October 16. The device allows users to run AI workloads locally without relying on the cloud and Microsoft is also introducing a version of Meta's popular Muse AI agent for Windows. The laptop has a 15-inch display weighs 4.4 pounds and can contain up to 128 gigabytes of unified memory offering up to one petaflop of computing power.",
           "theme": "#EBF2FA"
         },
         {
           "id": "t-3",
-          "title": "Tennessee River Valley Hunters Inherited Stone Deposit Knowledge",
-          "image": "https://images.pexels.com/photos/31137184/pexels-photo-31137184.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Tennessee River Valley, USA",
+          "title": "Tennessee Valley Hunters Chose Tools Based on Stone Deposits",
+          "image": "https://images.unsplash.com/photo-1723988432628-a36cf89224d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8cHJlaGlzdG9yaWMlMjB0b29sfGVufDF8MHx8fDE3OTE0NjEzODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Tennessee River Valley",
           "time": "Oct 08, 2026",
-          "content": "An analysis of 500 spear points suggests that Ice Age hunters in the Tennessee River Valley inherited knowledge of stone deposits to decide which tools were worth carrying. Hunters like the Clovis and Cumberland groups, who lived 13,200 years ago, would often leave behind usable stone spearheads, conserving resources and adapting to new environments. This study, published in the Journal of Archaeological Method and Theory, compares the tools left behind by these groups to investigate how knowledge of local resources influenced their decisions. The findings provide insights into the daily lives and resource management strategies of early hunter-gatherers.",
+          "content": "An analysis of nearly 500 ancient spear points suggests that Ice Age hunters in the Tennessee River Valley decided which tools to carry based on their knowledge of stone deposits. Researchers Shane Miller and Jesse Tune found that Clovis hunters who lived around 13200 years ago were more likely to resharpen their spearheads than the later Cumberland groups who inherited their predecessors' knowledge of resources. This study provides insight into the decisions made by mobile hunter-gatherers who had to balance what they needed versus what they could carry and how they adapted to unfamiliar terrain. The researchers' findings are published in the Journal of Archaeological Method and Theory.",
           "theme": "#EBF2FA"
         }
       ]
@@ -95,29 +95,29 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Pennsylvania sees over 1,000 measles cases since April",
-          "image": "https://images.pexels.com/photos/4345678/pexels-photo-4345678.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Pennsylvania, USA",
+          "title": "TikTok trend prompts toilet paper shortage",
+          "image": "https://images.pexels.com/photos/4612122/pexels-photo-4612122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Brazil",
           "time": "Oct 08, 2026",
-          "content": "A massive measles outbreak in central Pennsylvania has caused significant pain and suffering to families, with over 1,000 cases reported since April. The Central Pennsylvania Clinic, a nonprofit serving children and adults with genetic disorders, is at the forefront of the response. The clinic's staff is focused on keeping patients safe and healthy, relying on trust built over years to provide accurate information and consistent messaging. Vaccination rates are critical, with the MMR vaccine being extremely effective. The clinic has hosted pop-up vaccination clinics, with nearly 200 events and thousands of doses administered since spring. Home visits and vaccinations are also increasing, with staff prioritizing patient care and safety.",
+          "content": "A popular TikTok trend known as",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-2",
-          "title": "Nigerian Paediatrician Elected as UICC President-Elect",
-          "image": "https://images.unsplash.com/photo-1672655412906-8e10ba6ee373?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q2FuY2VyJTIwdHJlYXRtZW50JTIwaW4lMjBBZnJpY2F8ZW58MXwwfHx8MTc5MTQ1MjI4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Hong Kong",
+          "title": "NASA's Perseverance Rover Finds Ancient Lake Bed on Mars",
+          "image": "https://images.unsplash.com/photo-1720962158919-6c5f5f99630d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y2lyY2FkaWFuJTIwcmh5dGhtfGVufDF8MHx8fDE3OTE0NjEyNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New Jersey, USA",
           "time": "Oct 08, 2026",
-          "content": "Dr Zainab Shinkafi-Bagudu, a Nigerian paediatrician, was elected as the president-elect of the Union for International Cancer Control (UICC), the first African to lead the organisation. She takes up the role as cancer cases and deaths are projected to rise sharply, with the greatest increases expected in poorer countries. Bagudu aims to reorient global cancer policy towards countries with limited cancer services and bridge the gap between countries with limited cancer services and the research, technology and treatments being developed elsewhere.",
+          "content": "text",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-3",
-          "title": "WHO Reports Death of Plague Researcher Darya Shipilova at Russian Institute",
-          "image": "https://images.pexels.com/photos/12944806/pexels-photo-12944806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "WHO investigates Russian plague worker's death amid global concern",
+          "image": "https://images.unsplash.com/photo-1570967108132-88d78b6b83eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTF8fHBuZXVtb25pYyUyMHBsYWd1ZXxlbnwxfDB8fHwxNzkxNDYxMjkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Irkutsk, Russia",
           "time": "Oct 08, 2026",
-          "content": "The World Health Organization (WHO) reported the death of a 28-year-old worker at a Russian institute that researched plague, sparking global concern. The worker, Darya Shipilova, died on October 2 from pneumonia of unknown origin. The WHO has few clear answers about the incident and is seeking more information from the Russian government. Currently, over 200 people who had contact with Shipilova are in quarantine or under close follow-up. The risk to the general public appears to be low, but WHO is continuing to monitor the situation.",
+          "content": "The World Health Organization is investigating the recent death of a worker at a Russian institute that researches plague amid global concern about a rare form of the disease. The 28-year-old worker Darya Shipilova died on October 2 after being hospitalized for pneumonia of unknown origin. The Russian government has quarantined hundreds of co-workers and close contacts while local media reports suggest another worker may have pneumonia. The WHO has requested further information from Russia but has not received it leaving it unclear what caused the worker's death and whether there are any potential public health risks.",
           "theme": "#E8F5F1"
         }
       ]
@@ -132,20 +132,20 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "WWF Report Reveals Global Wildlife Decline, India Sees Species Growth",
-          "image": "https://images.unsplash.com/photo-1698035886391-2a909d77b237?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8SW5kaWFuJTIwd2lsZGxpZmV8ZW58MXwwfHx8MTc5MTQ0OTQ2MXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "India",
+          "title": "Maharashtra directs water cut to ease drought crisis",
+          "image": "https://images.unsplash.com/photo-1641118593381-ded30a11d4e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZHJvdWdodHxlbnwxfDB8fHwxNzkxNDYxNTAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Maharashtra",
           "time": "Oct 08, 2026",
-          "content": "A new report by the World Wide Fund for Nature (WWF) found a 73% decline in monitored wildlife populations globally between 1970 and 2022, with habitat loss and degradation being the most frequently reported threats. However, India has recorded gains in the numbers of several major species, including tigers, greater one-horned rhinoceroses, Asiatic lions, and common leopards. The country's conservation efforts have been successful, with population increases among several species. The report highlights the importance of conservation measures, noting that declines in biodiversity cannot be reversed by conservation efforts alone.",
+          "content": "Maharashtra home to nearly 74% of drought-hit talukas has directed local bodies to implement a 10% water cut from October 16 and prepare dam-wise and usage-wise water plans until August 31 2027. The move comes as the state faces a severe water crisis due to one of the driest monsoons in years. Despite having policies to promote treated wastewater reuse urban local bodies still face funding treatment capacity and implementation guidance gaps leading to only 57% of the state's sewage being treated and 17% of wastewater being reused resulting in pollution of rivers lakes and drains.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-2",
-          "title": "Heavy rain and snow hit northern India, thunderstorms warned",
-          "image": "https://images.unsplash.com/photo-1533130061792-64b345e4a833?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8bW91bnRhaW4lMjBwZWFrfGVufDF8MHx8fDE3OTE0NTI1MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "India Defies Global Trend, Sees Increase in Major Wildlife Species",
+          "image": "https://images.pexels.com/photos/11996336/pexels-photo-11996336.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "India",
           "time": "Oct 08, 2026",
-          "content": "Heavy rain and snowfall hit several Indian regions, including Uttarakhand, Himachal Pradesh, and Jammu and Kashmir, as strong winds swept across higher Himalayan peaks. Meanwhile, Kerala, Tamil Nadu, West Bengal, and Sikkim were placed under heavy rainfall alerts due to thunderstorms, lightning, and gusty winds. Delhi-NCR experienced cooler mornings and nights, but daytime temperatures remained high, with isolated thunderstorms and showers possible. Punjab, Haryana, and western Uttar Pradesh were warned of thunderstorms, lightning, and strong winds. The southwest monsoon withdrawal progressed across India, signaling changing weather patterns and the gradual arrival of cooler conditions.",
+          "content": "India has bucked the global trend of declining wildlife populations with numbers of several major species increasing according to a new report by the World Wide Fund for Nature (WWF). The report produced with the Zoological Society of London found a 73% decline in the average size of monitored wildlife populations worldwide between 1970 and 2022 citing habitat loss and degradation overexploitation climate change pollution invasive species and disease as the main threats. However India has seen gains in the numbers of tigers greater one-horned rhinoceroses Asiatic lions and other species with successful conservation efforts credited to substantial government funding scientific planning and technology use. The report highlights India's conservation achievements as a message of hope and demonstrates the potential effectiveness of conservation measures.",
           "theme": "#E7F4EF"
         },
         {
@@ -169,29 +169,29 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Disney+ to air Super Bowl, Monday Night Football games to US subscribers",
-          "image": "https://images.unsplash.com/photo-1508863702330-2eece3ea08cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8QW1lcmljYW4lMjBmb290YmFsbHxlbnwxfDB8fHwxNzkxNDQ5NjQxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Disney+ to Stream Super Bowl and Monday Night Football",
+          "image": "https://images.unsplash.com/photo-1717548381519-10ee59c67150?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RVNQTiUyMGxvZ298ZW58MXwwfHx8MTc5MTQ2MTY0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "United States",
           "time": "Oct 08, 2026",
-          "content": "{Disney has announced that its streaming service Disney+ will air the 2027 Super Bowl, as well as two Monday Night Football games, to all subscribers in the U.S. The game will also air on ESPN and ABC, with ad spots already sold out, the earliest sellout in Super Bowl history. This is part of Disney's efforts to expand its live sports streaming offerings, following the launch of a standalone ESPN streaming service and the addition of Formula E to Disney+. Other streamers, such as YouTube and Netflix, are also investing in live sports to bolster their portfolios.}",
+          "content": "Disney announced that its streaming service Disney+ will air the upcoming Super Bowl in February as well as two Monday Night Football games leading up to the event. The 2027 championship game and the Monday Night Football games will be available to all Disney+ subscribers in the US. The announcement is part of Disney's efforts to expand its live sports streaming offerings following the launch of a standalone ESPN streaming service last year. The media company has already sold out ad spots for the game the earliest sellout in Super Bowl history and is looking to bolster its portfolio with live sports content.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-2",
-          "title": "Beverley Knight's Musical Sylvia Aims to Inspire Empowerment and Change",
-          "image": "https://images.unsplash.com/photo-1581952449676-b59f9fc1b746?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8c3VmZnJhZ2V0dGV8ZW58MXwwfHx8MTc5MTQ0OTY1OHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Birmingham Hippodrome",
+          "title": "Aphrodite's Evolution in Art: Ancient Goddess's Complex History Explored",
+          "image": "https://images.unsplash.com/photo-1607816419949-d2b16c25287d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8R3JlZWslMjBnb2RkZXNzfGVufDF8MHx8fDE3OTE0NjE2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Oxford, UK",
           "time": "Oct 08, 2026",
-          "content": "Singer Beverley Knight hopes audiences watching her latest musical, Sylvia, will leave feeling empowered and believing their voices can make a difference. The musical tells the story of suffragette Sylvia Pankhurst and her family's rift caused by the fight for women's voting rights. Knight, who plays Emmeline Pankhurst, wants audiences to leave with a sense of empowerment and a connection to the story, which explores the suffragette movement from 1903 to 1928. The show features a mix of music genres, including R&B, funk, soul, garage, gospel, and house, and aims to inspire audiences to use their voices to effect change.",
+          "content": "An exhibition at Oxford's Ashmolean Museum is exploring the history of Aphrodite the ancient Greek goddess of love and beauty and how she became one of the most controversial figures in the history of art. The exhibition examines how Aphrodite evolved into a lightning rod of cultural controversy with her nudity being a topic of debate for centuries. The first completely nude artwork of a woman in Ancient Greece Praxiteles's Aphrodite of Knidos is credited with changing everything as it presented a different kind of nudity showcasing a shy and vulnerable goddess which would later lead to heated debate and objectification of the female form in art.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-3",
-          "title": "New Play Explores Men's Mental Health through Boxing",
-          "image": "https://images.pexels.com/photos/8745178/pexels-photo-8745178.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Belfast",
+          "title": "Beverley Knight stars in 'Sylvia' musical at Birmingham Hippodrome",
+          "image": "https://images.pexels.com/photos/12081663/pexels-photo-12081663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Birmingham, UK",
           "time": "Oct 08, 2026",
-          "content": "A new play, The Corner Man, explores men's mental health through the world of boxing, delving into the struggles of identity and purpose faced by athletes when their sport comes to an end. The play follows a boxer forced to confront life outside the ring after years of dedication. Writer and producer Cathal J Ferris draws from his own experience and conversations with fighters to examine the difficulties men have talking about their mental health and the importance of support networks.",
+          "content": "Beverley Knight a soul singer from Wolverhampton stars in the musical 'Sylvia' at the Birmingham Hippodrome. Knight plays Emmeline Pankhurst the mother of suffragette Sylvia Pankhurst and hopes the show will leave audiences feeling empowered and inspired to use their voices to make a difference. The musical tells the story of the Pankhurst family's fight for women's voting rights and features a range of music styles including R&B funk and gospel. Knight who is a 'history nerd' believes the show is a 'huge part of British history' and wants audiences to leave feeling inspired and motivated to take action.",
           "theme": "#F3ECF7"
         }
       ]
@@ -206,11 +206,11 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Alberta to Hold Independence Referendum on October 19",
-          "image": "https://images.pexels.com/photos/39968137/pexels-photo-39968137.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Alberta, Canada",
+          "title": "Tui River Cruises faces backlash over changed itineraries",
+          "image": "https://images.unsplash.com/photo-1657034054454-86adb5a51768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8cml2ZXIlMjBjcnVpc2V8ZW58MXwwfHx8MTc5MTQ2MTU4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Budapest",
           "time": "Oct 08, 2026",
-          "content": "The Canadian province of Alberta will hold a referendum on October 19, allowing residents to vote on independence. Keith Wilson, an independence supporter, believes the province's unique economy, rich in oil and gas, would thrive independently. However, opponents, including Premier Danielle Smith, predict significant costs and uncertainty, with estimates ranging from C$50bn to C$400bn. A report warns of a long and costly to-do list, including setting up agencies, developing a constitution, and negotiating national security. Opinion polling indicates around 20% to 25% of Albertans plan to vote in favour of independence.",
+          "content": "Tui River Cruises has faced backlash from passengers who paid thousands of pounds for European river cruises only to have their itineraries changed to involve hours spent on coach trips instead. Several passengers including Richard Pearson Sue Crosby and David Mallon have told the BBC they believe they should get a refund but Tui has offered none. The company apologized blaming low water levels on the Danube and stated that customers continued their holidays on amended itineraries under its standard booking conditions. Passengers claim the experience was not what they expected with hours spent on coach trips and limited scenic sailing. Some have even begun seeking refunds through the small claims court.",
           "theme": "#F7F1DE"
         },
         {
