@@ -52,6 +52,7 @@ class OllamaClient:
         max_retries: int = OLLAMA_MAX_RETRIES,
         retry_delay: int = OLLAMA_RETRY_DELAY,
         metrics_collector=None,
+        options: Optional[dict] = None,
     ):
         self.base_url = (base_url or OLLAMA_BASE_URL).rstrip("/")
         self.model = model or OLLAMA_MODEL
@@ -59,6 +60,7 @@ class OllamaClient:
         self.max_retries = max_retries
         self.retry_delay = retry_delay
         self.metrics = metrics_collector
+        self.options = options or {}
 
         # Track LLM call statistics
         self.total_calls = 0
@@ -143,7 +145,7 @@ class OllamaClient:
                 }
             ],
             "stream": False,
-            "format": json_schema,
+            "options": self.options,
         }
 
         last_error = None
@@ -321,10 +323,10 @@ class OllamaClient:
             except json.JSONDecodeError:
                 pass
 
-        raise ValueError(
-            f"Could not extract valid JSON from response: "
-            f"{text[:200]}..."
-        )
+        # raise ValueError(
+        #     f"Could not extract valid JSON from response: "
+        #     f"{text[:200]}..."
+        # )
 
     def get_stats(self) -> dict:
         """Return LLM call statistics."""

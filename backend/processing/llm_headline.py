@@ -139,6 +139,13 @@ Use these principles:
 - Remove clickbait, sensational, emotional, or teaser language.
 - Keep the final headline natural and concise.
 - The final headline MUST contain 14 words or fewer.
+- Use simple, direct English.
+- Prefer common verbs such as "plans", "holds", "votes", "starts",
+  "reports", "approves", "rejects", "cuts", or "raises".
+- Avoid formal phrases such as "set to", "amid", "sparks",
+  "faces", "overhaul", "move ahead with", and "significant".
+- Maximum 12 words.
+- Write a headline that an ordinary reader can understand immediately.
 
 Do not rewrite a good headline just to make it different.
 

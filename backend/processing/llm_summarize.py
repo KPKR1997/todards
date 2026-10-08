@@ -22,9 +22,11 @@ class LlmSummarizer:
         self.model = model or OLLAMA_MODEL
         self.client = client or OllamaClient(
             base_url=self.base_url,
-            model=self.model
+            model=self.model,
+            options={
+                "num_predict": 300,
+            }
         )
-
     def _clean_summary(self, summary: str) -> str:
         """
         Clean accidental formatting returned by the LLM.
@@ -144,23 +146,18 @@ Summarize the news article below in ONE natural paragraph.
 
 The summary must:
 
-- Be 100–120 words.
-- Clearly explain the main development.
-- Start with the most important information.
-- Explain what happened and where.
-- Mention important people, organizations, numbers, dates,
-  or impacts when relevant.
-- Use simple, everyday English.
-- Avoid complicated vocabulary and unnecessary jargon.
-- Include important health, safety, or security consequences
-  when they are supported by the article.
-- Include necessary context when it helps the reader understand
-  why the development matters.
-- Expand important abbreviations on first use.
-- Include only information supported by the article.
-- Do not invent facts or conclusions.
-- Remove minor details, repetition, and unnecessary background.
-- Keep the tone neutral, factual, and professional.
+- Use short, direct sentences.
+- Prefer common everyday words over formal or academic language.
+- Avoid phrases such as "amid", "underscores", "significant test",
+  "economic implications", "move ahead with", "sparked debate",
+  "faces uncertainty", and similar formal wording when simpler
+  alternatives are available.
+- Keep most sentences under 20 words.
+- Explain one idea at a time.
+- Write as if explaining the news to an intelligent 15-year-old
+  who has no specialist knowledge.
+- Prefer active voice.
+- Do not make the writing sound like a newspaper editorial.
 
 If historical context is provided, use it only when it genuinely
 helps explain the current development.

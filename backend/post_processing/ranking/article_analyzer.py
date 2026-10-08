@@ -12,19 +12,24 @@ logger = logging.getLogger("todards.analyzer")
 
 class ArticleAnalyzer:
     """
-    Analyzes how important and publicly relevant a news article is.
+    Analyzes whether a news article deserves inclusion in Todards
+    and extracts structured public-interest signals.
+
+    The analyzer performs two separate tasks:
+
+    1. EDITORIAL GATE
+       Determines whether the article is genuinely worth publishing.
+
+    2. IMPORTANCE ANALYSIS
+       Scores the article across multiple public-interest dimensions.
 
     The LLM does NOT calculate the final ranking score.
 
-    Its job is to extract structured signals answering:
+    Ranking is handled by the ranking layer.
 
-        1. Does this matter to ordinary people?
-        2. Does this affect the public?
-        3. Does the public need to know about it?
-        4. Could people reasonably need to worry, prepare, or pay attention?
-        5. How broad and serious are the consequences?
-
-    Final ranking is handled by the ranking layer.
+    Important:
+        An article that is not editorially relevant should have
+        publishable=False and should be removed before ranking.
     """
 
     def __init__(
@@ -44,85 +49,247 @@ class ArticleAnalyzer:
             timeout=self.timeout,
         )
 
+    # ============================================================
+    # PROMPT
+    # ============================================================
+
     def _build_prompt(self, article: Dict[str, Any]) -> str:
+
         title = article.get("title", "")
         content = article.get("content", "")
         category = article.get("category", "")
 
         prompt = f"""
-You are the public-interest news editor for a global news service.
+You are the senior public-interest news editor for Todards,
+a global news service.
 
-Your task is NOT to determine whether an article is interesting,
-popular, viral, sensational, entertaining, or likely to receive clicks.
+Todards does NOT want to publish every piece of news.
 
-Your task is to determine whether an ordinary person genuinely
-NEEDS TO KNOW about this event.
+The goal is to identify a small number of genuinely meaningful
+stories that ordinary people should know about.
 
-The most important question is:
+Your task has TWO DISTINCT PARTS:
 
-"IF A PERSON READS ONLY A FEW NEWS STORIES TODAY,
-DOES THIS STORY DESERVE ONE OF THOSE LIMITED SLOTS?"
+PART 1:
+Determine whether this article is editorially worthy of inclusion
+in Todards.
 
-Evaluate the article from a PUBLIC-INTEREST perspective.
+PART 2:
+If it is worthy, evaluate its public importance and provide
+structured importance signals.
 
---------------------------------
-CORE PRINCIPLE
---------------------------------
+The LLM does NOT calculate the final ranking score.
 
-A story should receive a high importance score when:
+The ranking system will compare eligible stories later.
 
-- It affects people's daily lives.
-- It affects public safety or security.
-- It affects health or wellbeing.
-- It affects jobs, income, prices, economy, infrastructure, or services.
-- It represents a major political or governmental development.
-- It represents a major war, conflict, disaster, or geopolitical development.
-- People may need to change their behavior, plans, decisions, or expectations.
-- People should reasonably be aware of the development.
-- A large number of people are affected.
-- The consequences are serious, immediate, widespread, or long-lasting.
-- The event has major international consequences.
-- The event represents a genuinely extraordinary or historic development.
+============================================================
+PART 1 — EDITORIAL ELIGIBILITY
+============================================================
 
---------------------------------
-IMPORTANT DISTINCTIONS
---------------------------------
+First determine:
 
-Do NOT confuse:
+"Does this article contain meaningful information that the public
+would genuinely benefit from knowing?"
 
-POPULARITY
-with
-PUBLIC IMPORTANCE.
+Todards is NOT:
 
-Do NOT confuse:
+- a general news dump
+- a celebrity-news website
+- a press-release aggregator
+- a social-media trend aggregator
+- an entertainment gossip site
+- a clickbait website
 
-VIRALITY
-with
-PUBLIC CONSEQUENCE.
+A story should be publishable when it represents a meaningful
+development with real public consequence, significance,
+information value, or exceptional importance.
 
-Do NOT confuse:
+============================================================
+HARD PUBLISHABILITY TEST
+============================================================
 
-CELEBRITY INTEREST
-with
-PUBLIC NEED TO KNOW.
+Ask yourself:
 
-Do NOT give a high score merely because:
+"If Todards can publish only a small number of stories today,
+would removing this article make readers meaningfully less
+informed about important events?"
 
-- the headline is dramatic
-- the person is famous
-- many websites reported it
-- it is trending
-- it is controversial
-- it is entertaining
-- it is unusual
+If YES:
+    publishable = true
 
-A story can be interesting but still have LOW public importance.
+If NO:
+    publishable = false
 
---------------------------------
-THE PUBLIC-INTEREST TEST
---------------------------------
+Be selective.
 
-Ask these questions internally:
+Do NOT mark an article publishable merely because it is:
+
+- interesting
+- unusual
+- popular
+- trending
+- viral
+- controversial
+- entertaining
+- involving a famous person
+- widely reported
+- emotionally engaging
+- visually interesting
+- new
+- technically impressive
+
+============================================================
+GENERALLY REJECT THESE
+============================================================
+
+The following should normally be considered NOT publishable
+unless there is an exceptional wider consequence:
+
+1. Celebrity gossip
+
+2. Influencer activity
+
+3. Social-media trends
+
+4. Promotional content
+
+5. Advertising
+
+6. Product marketing
+
+7. Routine product announcements
+
+8. Routine corporate announcements
+
+9. Minor company updates
+
+10. Minor business deals with no broader consequence
+
+11. Routine earnings announcements without major implications
+
+12. Minor political statements with no meaningful consequence
+
+13. Politician comments that do not represent a meaningful
+    policy or political development
+
+14. Routine scientific publications
+
+15. Small or incremental research findings
+
+16. Minor technological updates
+
+17. Minor software releases
+
+18. Minor sports results
+
+19. Routine entertainment releases
+
+20. Minor awards
+
+21. Minor appointments
+
+22. Routine organizational announcements
+
+23. Rumors
+
+24. Speculation without meaningful evidence
+
+25. Clickbait
+
+26. Opinion presented as news
+
+27. Stories with no meaningful new information
+
+28. Repackaged coverage of an already-known event with no
+    significant development
+
+29. Very narrow local stories with no wider consequence
+
+30. Human-interest stories that do not have meaningful
+    public significance
+
+============================================================
+IMPORTANT EXCEPTIONS
+============================================================
+
+Do NOT automatically reject an article simply because it:
+
+- affects a relatively small group
+- is local
+- is about one company
+- is scientific
+- is technological
+- is political
+- is sports-related
+- is entertainment-related
+
+A seemingly narrow story can still be important if its
+consequences are significant.
+
+Examples:
+
+A local disaster affecting a community:
+    potentially publishable.
+
+A scientific discovery involving a small research team but
+with major future implications:
+    potentially publishable.
+
+A technology development from one company that changes
+an important industry:
+    potentially publishable.
+
+A major sports achievement with genuine historical significance:
+    potentially publishable.
+
+A major cultural event with substantial international significance:
+    potentially publishable.
+
+============================================================
+WHAT MAKES A STORY PUBLISHABLE?
+============================================================
+
+Strong positive signals include:
+
+- significant public consequence
+- public safety implications
+- major health consequences
+- major government decisions
+- major political changes
+- elections or major election developments
+- major geopolitical developments
+- wars or major conflict developments
+- major disasters
+- major environmental events
+- major economic developments
+- significant changes to prices, jobs or income
+- major financial instability
+- major technological developments
+- major scientific discoveries
+- major infrastructure developments
+- significant changes affecting public services
+- events requiring people to change behavior or plans
+- developments affecting large populations
+- developments with major international consequences
+- historically significant events
+- genuinely unprecedented developments
+
+============================================================
+PART 2 — PUBLIC INTEREST ANALYSIS
+============================================================
+
+If the article is publishable, evaluate its importance.
+
+If it is NOT publishable, still provide reasonable scores,
+but keep the scores conservative.
+
+Do NOT inflate scores merely because the article is interesting.
+
+============================================================
+PUBLIC-INTEREST QUESTIONS
+============================================================
+
+Consider:
 
 1. WHO is affected?
 
@@ -134,21 +301,34 @@ Ask these questions internally:
 
 5. DOES the public need to know this?
 
-6. Could people reasonably need to WORRY, PREPARE,
-   CHANGE A DECISION, or PAY ATTENTION because of it?
+6. Could people reasonably need to:
+
+   - worry
+   - prepare
+   - change a decision
+   - change plans
+   - change behavior
+   - pay attention
+
+   because of this development?
 
 7. How immediate is the consequence?
 
 8. How long-lasting could the consequence be?
 
-9. Is the consequence local, national, regional, or global?
+9. Is the consequence:
+
+   - local
+   - national
+   - regional
+   - global
 
 10. If this article disappeared from today's news,
-    would the public meaningfully lose important information?
+    would readers meaningfully lose important information?
 
---------------------------------
+============================================================
 SCORING
---------------------------------
+============================================================
 
 Use integers from 0 to 100.
 
@@ -159,11 +339,11 @@ public_impact:
 How strongly does this affect the public as a whole?
 
 public_need_to_know:
-How strongly does the public NEED to know this?
+How strongly does the public need to know this?
 
 public_concern:
-How strongly should an ordinary person reasonably
-pay attention, worry, prepare, or reconsider something?
+How strongly should an ordinary person reasonably pay attention,
+prepare, worry, or reconsider something?
 
 human_consequence:
 How serious are the consequences for human beings?
@@ -173,7 +353,7 @@ Impact on prices, jobs, income, businesses, markets,
 trade, financial stability, or economic conditions.
 
 political_significance:
-Importance of the political/governmental development.
+Importance of the political or governmental development.
 
 health_significance:
 Importance to public health or human wellbeing.
@@ -194,41 +374,48 @@ remarkability:
 How extraordinary, historic, unprecedented, or unusual
 is the event?
 
---------------------------------
+editorial_relevance:
+How strongly does this article deserve a place
+in Todards itself.
+
+This is NOT popularity.
+
+This is NOT click potential.
+
+This is NOT entertainment value.
+
+This is NOT how interesting the article is.
+
+It represents the strength of the article's editorial
+justification for publication.
+
+============================================================
 SEVERITY
---------------------------------
+============================================================
 
 severity_tier:
 
 1 = Minor / routine news
+
 2 = Notable but limited public importance
+
 3 = Significant public-interest story
+
 4 = Major national or international event
+
 5 = Exceptional event with enormous public consequences
 
---------------------------------
-NEGATIVE SIGNALS
---------------------------------
+IMPORTANT:
 
-Be conservative.
+Do not assign severity 4 or 5 merely because the headline
+sounds dramatic.
 
-A story should generally receive LOW public importance when:
+The article must contain evidence of genuinely major
+consequences.
 
-- It affects only a small group with no wider consequence.
-- It is primarily celebrity gossip.
-- It is primarily entertainment.
-- It is promotional content.
-- It is a routine corporate announcement.
-- It is a minor political statement with no meaningful consequence.
-- It is a routine scientific publication with limited immediate importance.
-- It is a minor sports result.
-- It is merely trending on social media.
-- It is speculation without meaningful evidence.
-- It repeats an already-known development without significant new information.
-
---------------------------------
+============================================================
 EVENT FLAGS
---------------------------------
+============================================================
 
 Set event flags to TRUE only when clearly supported by the article.
 
@@ -242,7 +429,7 @@ pandemic:
 Major infectious disease outbreak or pandemic-level development.
 
 election:
-Major election, election result, or election development.
+Major election, election result, or major election development.
 
 major_political_change:
 Major government, leadership, constitutional, policy,
@@ -269,9 +456,59 @@ Scientific discovery with substantial significance.
 major_technology_event:
 Major technological development with broad consequences.
 
---------------------------------
+============================================================
+EDITORIAL DECISION RULE
+============================================================
+
+You MUST explicitly decide:
+
+publishable = true
+OR
+publishable = false
+
+If publishable is false:
+
+editorial_relevance should generally be below 50.
+
+Provide a short rejection_reason.
+
+Examples:
+
+"Routine corporate announcement with no significant public consequence."
+
+"Minor sports result with no broader significance."
+
+"Celebrity activity with primarily entertainment value."
+
+"Routine scientific publication with limited public consequence."
+
+"Promotional product announcement rather than meaningful news."
+
+"Repetitive coverage containing no significant new development."
+
+If publishable is true:
+
+rejection_reason should be an empty string.
+
+============================================================
+IMPORTANT
+============================================================
+
+Do not reject a story merely because it is not globally important.
+
+Do not require millions of people to be directly affected.
+
+Consider significance, consequence, information value,
+urgency and potential impact together.
+
+However, be conservative.
+
+Todards would rather publish fewer genuinely important stories
+than fill its limited slots with mediocre or irrelevant news.
+
+============================================================
 ARTICLE
---------------------------------
+============================================================
 
 Category:
 {category}
@@ -282,15 +519,19 @@ TITLE:
 ARTICLE:
 {content}
 
---------------------------------
+============================================================
 OUTPUT
---------------------------------
+============================================================
 
 Return ONLY valid JSON.
 
 Return exactly this structure:
 
 {{
+    "editorial_relevance": 0,
+    "publishable": false,
+    "rejection_reason": "",
+
     "everyday_impact": 0,
     "public_impact": 0,
     "public_need_to_know": 0,
@@ -327,18 +568,36 @@ Return exactly this structure:
     "reason": ""
 }}
 
-The reason must be one short sentence explaining the
+The reason must be ONE short sentence explaining the
 PUBLIC CONSEQUENCE of the event.
 
+If publishable is false, the rejection_reason must explain
+why the article does not deserve inclusion.
+
 Do not explain why the article is interesting.
+
 Explain why the PUBLIC should or should not care.
 """
 
         return prompt
 
+    # ============================================================
+    # JSON EXTRACTION
+    # ============================================================
+
     def _extract_json(self, text: str) -> dict:
+        """
+        Extract JSON from an Ollama response.
+
+        Handles:
+        - raw JSON
+        - ```json ... ```
+        - surrounding explanatory text
+        """
+
         text = text.strip()
 
+        # Remove markdown code fences
         if text.startswith("```"):
             lines = text.splitlines()
 
@@ -362,10 +621,20 @@ Explain why the PUBLIC should or should not care.
 
         return json.loads(text)
 
+    # ============================================================
+    # ANALYZE
+    # ============================================================
+
     def analyze(self, article: Dict[str, Any]) -> dict:
+
         prompt = self._build_prompt(article)
 
+        # --------------------------------------------------------
+        # PRIMARY: STRUCTURED OUTPUT
+        # --------------------------------------------------------
+
         try:
+
             res = self.client.generate(
                 prompt=prompt,
                 response_model=ArticleAnalysisResponse,
@@ -375,12 +644,18 @@ Explain why the PUBLIC should or should not care.
             return self._validate(res.model_dump())
 
         except Exception as e:
+
             logger.warning(
                 f"Structured article analysis failed: {e}. "
                 f"Falling back to raw response."
             )
 
+        # --------------------------------------------------------
+        # FALLBACK: RAW JSON
+        # --------------------------------------------------------
+
         try:
+
             raw = self.client.generate_raw(
                 prompt=prompt,
                 role="user",
@@ -391,14 +666,27 @@ Explain why the PUBLIC should or should not care.
             return self._validate(parsed)
 
         except Exception as e:
+
             logger.error(
                 f"Article analysis failed completely: {e}"
             )
 
             return self._default_analysis()
 
+    # ============================================================
+    # DEFAULT ANALYSIS
+    # ============================================================
+
     def _default_analysis(self) -> dict:
+
         return {
+            "editorial_relevance": 0,
+            "publishable": False,
+            "rejection_reason": (
+                "Article analysis failed and therefore the article "
+                "is not eligible for ranking."
+            ),
+
             "everyday_impact": 0,
             "public_impact": 0,
             "public_need_to_know": 0,
@@ -433,13 +721,23 @@ Explain why the PUBLIC should or should not care.
             },
 
             "reason": (
-                "Default fallback analysis due to LLM error."
+                "Analysis failed, so the article was not considered "
+                "eligible for publication."
             ),
         }
 
+    # ============================================================
+    # VALIDATION
+    # ============================================================
+
     def _validate(self, analysis: dict) -> dict:
 
+        # --------------------------------------------------------
+        # SCORE FIELDS
+        # --------------------------------------------------------
+
         score_fields = [
+            "editorial_relevance",
             "everyday_impact",
             "public_impact",
             "public_need_to_know",
@@ -461,7 +759,9 @@ Explain why the PUBLIC should or should not care.
 
             try:
                 value = int(value)
+
             except (ValueError, TypeError):
+
                 value = 0
 
             analysis[field] = max(
@@ -469,20 +769,107 @@ Explain why the PUBLIC should or should not care.
                 min(100, value),
             )
 
+        # --------------------------------------------------------
+        # PUBLISHABLE
+        # --------------------------------------------------------
+
+        publishable = analysis.get(
+            "publishable",
+            False,
+        )
+
+        if isinstance(publishable, str):
+
+            publishable = (
+                publishable.strip().lower()
+                in {
+                    "true",
+                    "yes",
+                    "1",
+                    "publish",
+                    "publishable",
+                }
+            )
+
+        else:
+
+            publishable = bool(publishable)
+
+        analysis["publishable"] = publishable
+
+        # --------------------------------------------------------
+        # REJECTION REASON
+        # --------------------------------------------------------
+
+        rejection_reason = analysis.get(
+            "rejection_reason",
+            "",
+        )
+
+        if not isinstance(rejection_reason, str):
+            rejection_reason = str(rejection_reason)
+
+        analysis["rejection_reason"] = rejection_reason.strip()
+
+        # --------------------------------------------------------
+        # REASON
+        # --------------------------------------------------------
+
+        reason = analysis.get(
+            "reason",
+            "",
+        )
+
+        if not isinstance(reason, str):
+            reason = str(reason)
+
+        analysis["reason"] = reason.strip()
+
+        # --------------------------------------------------------
+        # SAFETY RULE
+        # --------------------------------------------------------
+        #
+        # If the model says publishable=False, make sure the
+        # editorial relevance does not contradict that decision.
+        #
+        # We do NOT automatically reject based on score because
+        # publishability is an editorial judgement.
+        # --------------------------------------------------------
+
+        if not analysis["publishable"]:
+
+            if not analysis["rejection_reason"]:
+
+                analysis["rejection_reason"] = (
+                    "The article does not have sufficient public "
+                    "significance for Todards."
+                )
+
+        # --------------------------------------------------------
+        # SEVERITY
+        # --------------------------------------------------------
+
         try:
+
             tier = int(
                 analysis.get(
                     "severity_tier",
                     1,
                 )
             )
+
         except (ValueError, TypeError):
+
             tier = 1
 
         analysis["severity_tier"] = max(
             1,
             min(5, tier),
         )
+
+        # --------------------------------------------------------
+        # EVENT FLAGS
+        # --------------------------------------------------------
 
         default_events = {
             "major_disaster": False,
@@ -499,23 +886,42 @@ Explain why the PUBLIC should or should not care.
             "major_technology_event": False,
         }
 
-        events = analysis.get("events", {})
+        events = analysis.get(
+            "events",
+            {},
+        )
 
         if not isinstance(events, dict):
             events = {}
 
         for key, default in default_events.items():
-            events[key] = bool(
-                events.get(key, default)
+
+            value = events.get(
+                key,
+                default,
             )
+
+            if isinstance(value, str):
+
+                value = (
+                    value.strip().lower()
+                    in {
+                        "true",
+                        "yes",
+                        "1",
+                    }
+                )
+
+            else:
+
+                value = bool(value)
+
+            events[key] = value
 
         analysis["events"] = events
 
-        reason = analysis.get("reason", "")
-
-        if not isinstance(reason, str):
-            reason = str(reason)
-
-        analysis["reason"] = reason.strip()
+        # --------------------------------------------------------
+        # FINAL NORMALIZATION
+        # --------------------------------------------------------
 
         return analysis

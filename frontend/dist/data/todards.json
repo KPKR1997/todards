@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 24",
+    "issue": "Issue No. 26",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "08 October 2026",
+    "publishedAt": "09 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Russian Bombing Kills 33 in Ukraine's Kramatorsk",
-          "image": "https://images.unsplash.com/photo-1560418750-173783cf0dc1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VWtyYWluaWFuJTIwY2l0eXxlbnwxfDB8fHwxNzkxNDYxNDA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Kramatorsk, Ukraine",
-          "time": "Oct 08, 2026",
-          "content": "A Russian glide bomb attack in the Ukrainian city of Kramatorsk has killed at least 33 people and wounded 18 with rescue officials accusing Russia of targeting civilian buses to kill as many people as possible. The attack comes amid a surge in Russian attacks across Ukraine resulting in a sharp increase in civilian casualties. The bombing has caused a fire on two buses which were carrying passengers and has prompted an appeal from Donetsk regional head Vadym Filashkin for people to move to safer regions of Ukraine. The attack is part of Russia's ongoing efforts to capture the Donbas region of Ukraine which has been heavily impacted by the war.",
+          "title": "Thames Valley Police Admits Warrants to Investigate Andrew Mountbatten-Windsor Were Unlawful",
+          "image": "https://images.unsplash.com/photo-1564676487888-8be98153b4a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cm95YWwlMjBmYW1pbHl8ZW58MXwwfHx8MTc5MTQ4NDcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Berkshire, UK",
+          "time": "Oct 09, 2026",
+          "content": "Thames Valley Police has admitted that the search warrants used to investigate Andrew Mountbatten-Windsor's homes were unlawful. The warrants were issued after he was arrested in February on suspicion of misconduct in public office. The police seized documents and electronic devices from his homes and now a judge will decide if they can keep the evidence.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "Tennessee Suspends Executions After Botched Death Row Inmate Execution",
-          "image": "https://images.unsplash.com/photo-1543536833-6d65fcc64f66?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UHJpc29uJTIwYmFyc3xlbnwxfDB8fHwxNzkxNDYxNDQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Tennessee, USA",
-          "time": "Oct 08, 2026",
-          "content": "Tennessee's criminal justice system is in uncharted territory after the botched execution of death row inmate Christa Pike who is now walking and talking again. Governor Bill Lee has ordered an independent investigation and suspended all executions for the rest of the year. Pike's lawyers are seeking to have her death sentence commuted to life in prison without parole while the state is considering alternative execution methods. The fate of Pike who has been on death row for 30 years for murdering Colleen Slemmer lies in a mysterious grey area with experts predicting a long delay while the issue is studied. The state's investigation and Pike's medical condition could complicate any future execution attempts while her lawyers argue that a lethal injection would be unconstitutional. The development has thrust Tennessee's criminal justice system into uncharted territory with Pike's fate hanging in the balance.",
+          "title": "Two Latvian men arrested at RAF Molesworth for trespass and security breach.",
+          "image": "https://images.pexels.com/photos/32670773/pexels-photo-32670773.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Cambridgeshire",
+          "time": "Oct 09, 2026",
+          "content": "Two Latvian men aged 36 and 32 were arrested at RAF Molesworth in Cambridgeshire after a fence was breached. The alert was raised when an abandoned vehicle was found near the base and searches revealed a small breach in the perimeter fence. The men were initially arrested for trespass and damage then further arrested under the National Security Act for allegedly entering the base for a purpose prejudicial to the UK. Counter-terror police are investigating but don't think it's connected to a recent incident at RAF Fairford.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "Spanish Woman Dies at 87 After Forcible Eviction Amid Housing Crisis",
-          "image": "https://images.pexels.com/photos/16619340/pexels-photo-16619340.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Madrid, Spain",
-          "time": "Oct 08, 2026",
-          "content": "A Spanish woman Maricarmen Abascal who was forcibly evicted from her apartment amid Spain's housing crisis protests has died at the age of 87. Abascal's eviction which occurred in September sparked widespread protests and led to Prime Minister Pedro Sánchez calling early elections. The company that owned the apartment had offered to reduce the rent but Abascal was unable to sign the agreement due to her poor health. Her death has sparked further outrage with protesters in Madrid's Puerta del Sol square demanding more affordable housing and calling for the government to take action. Abascal's situation has become a symbol of Spain's housing crisis with rental costs in Madrid having soared by over 100% in the last decade.",
+          "title": "Anne Carson Wins Nobel Prize in Literature",
+          "image": "https://images.pexels.com/photos/34923529/pexels-photo-34923529.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Iceland",
+          "time": "Oct 09, 2026",
+          "content": "Canadian poet Anne Carson has won this year's Nobel Prize in Literature. The 76-year-old is recognized for her unique writing style which often blends poetry fiction and scholarship. The Nobel Committee praised her bold and inventive work which playfully interacts with classical traditions to create new forms of contemporary literature. Carson was surprised but happy when she was told the news and is the first Canadian to win the prize. She has written many notable works including poetry collections and translations of ancient Greek plays. The Nobel Prize is considered the most prestigious award in global literature and comes with a prize of 12 million Swedish kronor.",
           "theme": "#F7ECEE"
         }
       ]
@@ -58,29 +58,29 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "OpenAI's Teen ChatGPT Falls Short on Safety Features",
-          "image": "https://images.pexels.com/photos/17771090/pexels-photo-17771090.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "San Francisco, USA",
-          "time": "Oct 08, 2026",
-          "content": "OpenAI's ChatGPT for Teens designed to promote healthier AI use has been found to fall short on safety features posing an",
+          "title": "UK MP Sues US Tech Firm xAI Over AI-Generated Sexualized Images",
+          "image": "https://images.unsplash.com/photo-1677442135751-15e514d909f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MjV8fEFJJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzkxNDYxMzU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York City",
+          "time": "Oct 09, 2026",
+          "content": "Jess Asato a UK MP is suing a US tech firm xAI over the creation of sexualized images of her using their AI chatbot tool Grok. She's seeking damages for the misuse of her private information and data protection breaches. xAI failed to show up at a New York City Council meeting to discuss regulating AI developers despite being subpoenaed. Asato says this shows the company's \"level of arrogance\" and believes that women are disproportionately affected by this type of AI-generated content.",
           "theme": "#EBF2FA"
         },
         {
           "id": "st-2",
-          "title": "Microsoft Unveils Surface Laptop Ultra with AI Chip and Magnetic Port",
-          "image": "https://images.pexels.com/photos/15822009/pexels-photo-15822009.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "San Francisco, USA",
-          "time": "Oct 08, 2026",
-          "content": "Microsoft has launched its new Surface Laptop Ultra priced at $2599 which features an Nvidia AI chip and a magnetic USB-C port. The laptop will be available for preorder starting October 16. The device allows users to run AI workloads locally without relying on the cloud and Microsoft is also introducing a version of Meta's popular Muse AI agent for Windows. The laptop has a 15-inch display weighs 4.4 pounds and can contain up to 128 gigabytes of unified memory offering up to one petaflop of computing power.",
+          "title": "Manus AI Agent Startup Raises $500 Million Despite Meta Hiccup",
+          "image": "https://images.unsplash.com/photo-1640441281085-9e2000f3d693?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8TWV0YSUyMGxvZ298ZW58MXwwfHx8MTc5MTQ3NDUwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Singapore",
+          "time": "Oct 09, 2026",
+          "content": "Manus an AI agent startup raised over $500 million in its first funding round since Meta dropped its acquisition plans. The round was led by private equity firm Boyu Capital and venture investor IDG Capital with follow-on investment from existing shareholders. This shows that investors aren't deterred by Beijing's order to block Meta's acquisition of Manus and suggests that the appetite for AI-agent startups remains strong.",
           "theme": "#EBF2FA"
         },
         {
           "id": "t-3",
-          "title": "Tennessee Valley Hunters Chose Tools Based on Stone Deposits",
-          "image": "https://images.unsplash.com/photo-1723988432628-a36cf89224d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8cHJlaGlzdG9yaWMlMjB0b29sfGVufDF8MHx8fDE3OTE0NjEzODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Tennessee River Valley",
-          "time": "Oct 08, 2026",
-          "content": "An analysis of nearly 500 ancient spear points suggests that Ice Age hunters in the Tennessee River Valley decided which tools to carry based on their knowledge of stone deposits. Researchers Shane Miller and Jesse Tune found that Clovis hunters who lived around 13200 years ago were more likely to resharpen their spearheads than the later Cumberland groups who inherited their predecessors' knowledge of resources. This study provides insight into the decisions made by mobile hunter-gatherers who had to balance what they needed versus what they could carry and how they adapted to unfamiliar terrain. The researchers' findings are published in the Journal of Archaeological Method and Theory.",
+          "title": "Amazon Launches New Tablets with Alexa, Priced $230 to $550",
+          "image": "https://images.pexels.com/photos/18313245/pexels-photo-18313245.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Amazon",
+          "time": "Oct 09, 2026",
+          "content": "Amazon has launched new tablets with Alexa priced between $230 and $550. The devices have improved speed artificial intelligence features and a higher-resolution display. Amazon is ditching its budget-friendly Fire lineup a significant shift in its devices strategy. The new tablets run Google's Android operating system unlike earlier models which used Amazon's own app store. The company hopes the pricier devices will encourage users to buy more products and services like movies and audiobooks from Amazon's webstore.",
           "theme": "#EBF2FA"
         }
       ]
@@ -95,29 +95,29 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "TikTok trend prompts toilet paper shortage",
-          "image": "https://images.pexels.com/photos/4612122/pexels-photo-4612122.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Brazil",
+          "title": "Nigerian Paediatrician Elected President-Elect of Union for International Cancer Control",
+          "image": "https://images.pexels.com/photos/6097985/pexels-photo-6097985.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Hong Kong",
           "time": "Oct 08, 2026",
-          "content": "A popular TikTok trend known as",
+          "content": "Dr. Zainab Shinkafi-Bagudu a Nigerian paediatrician has been elected president-elect of the Union for International Cancer Control. She's the first African to lead the organisation and will take office at a time when cancer cases and deaths are expected to rise sharply especially in poorer countries. Bagudu's goal is to use her position to bring attention to the lack of cancer care in low-income countries and to find ways to improve access to cancer services including screening diagnosis and treatment. She wants to focus on prevention and early diagnosis as well as developing new approaches to cancer financing.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-2",
-          "title": "NASA's Perseverance Rover Finds Ancient Lake Bed on Mars",
-          "image": "https://images.unsplash.com/photo-1720962158919-6c5f5f99630d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y2lyY2FkaWFuJTIwcmh5dGhtfGVufDF8MHx8fDE3OTE0NjEyNjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New Jersey, USA",
-          "time": "Oct 08, 2026",
-          "content": "text",
+          "title": "Margaret Hamilton, NASA Apollo Software Pioneer, Dies at 90",
+          "image": "https://images.pexels.com/photos/11479855/pexels-photo-11479855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Massachusetts, USA",
+          "time": "Oct 09, 2026",
+          "content": "Margaret Hamilton a pioneering software engineer has died at 90. She was the leader of a team that developed the software for NASA's Apollo missions which helped put astronauts on the moon. Hamilton's work also helped establish the field of software engineering.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-3",
-          "title": "WHO investigates Russian plague worker's death amid global concern",
-          "image": "https://images.unsplash.com/photo-1570967108132-88d78b6b83eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTF8fHBuZXVtb25pYyUyMHBsYWd1ZXxlbnwxfDB8fHwxNzkxNDYxMjkwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "WHO Investigates Death of Russian Lab Worker from Rare Plague",
+          "image": "https://images.unsplash.com/photo-1706643568151-eaf33acf783e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8WWVyc2luaWElMjBwZXN0aXN8ZW58MXwwfHx8MTc5MTM5ODM5OXww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Irkutsk, Russia",
-          "time": "Oct 08, 2026",
-          "content": "The World Health Organization is investigating the recent death of a worker at a Russian institute that researches plague amid global concern about a rare form of the disease. The 28-year-old worker Darya Shipilova died on October 2 after being hospitalized for pneumonia of unknown origin. The Russian government has quarantined hundreds of co-workers and close contacts while local media reports suggest another worker may have pneumonia. The WHO has requested further information from Russia but has not received it leaving it unclear what caused the worker's death and whether there are any potential public health risks.",
+          "time": "Oct 09, 2026",
+          "content": "The World Health Organization is trying to figure out what happened when a worker at a Russian lab died from a rare form of plague. The lab worker a 28-year-old woman was hospitalized and then died. Several hundred people who had contact with her are in quarantine. The WHO is concerned because the plague can spread from person to person. The organization is trying to get more information from Russia but has not received a response. The WHO has seen reports of a broken test tube in the lab but it's not clear if that's related to the worker's death.",
           "theme": "#E8F5F1"
         }
       ]
@@ -132,29 +132,29 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Maharashtra directs water cut to ease drought crisis",
-          "image": "https://images.unsplash.com/photo-1641118593381-ded30a11d4e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZHJvdWdodHxlbnwxfDB8fHwxNzkxNDYxNTAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Maharashtra",
-          "time": "Oct 08, 2026",
-          "content": "Maharashtra home to nearly 74% of drought-hit talukas has directed local bodies to implement a 10% water cut from October 16 and prepare dam-wise and usage-wise water plans until August 31 2027. The move comes as the state faces a severe water crisis due to one of the driest monsoons in years. Despite having policies to promote treated wastewater reuse urban local bodies still face funding treatment capacity and implementation guidance gaps leading to only 57% of the state's sewage being treated and 17% of wastewater being reused resulting in pollution of rivers lakes and drains.",
+          "title": "India's Monsoon Ends 13% Below Average, Drought Hits Major States",
+          "image": "https://images.unsplash.com/photo-1596787474386-791461ec4bba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8SW5kaWElMjdzJTIwZHJvdWdodHxlbnwxfDB8fHwxNzkxNDg0OTY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "India",
+          "time": "Oct 09, 2026",
+          "content": "India's southwest monsoon ended 13% below average but some regions are experiencing severe drought conditions. States like Maharashtra Karnataka Rajasthan Andhra Pradesh and Telangana have formally declared drought with many farmers facing crop losses income losses and mounting debt. Despite decades of investment in water conservation and drought-proofing India's farm economy remains vulnerable to rainfall shocks. The drought has already led to failed crops fodder shortages and cattle sales at distress prices with some farmers struggling to make ends meet.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-2",
-          "title": "India Defies Global Trend, Sees Increase in Major Wildlife Species",
-          "image": "https://images.pexels.com/photos/11996336/pexels-photo-11996336.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "India",
-          "time": "Oct 08, 2026",
-          "content": "India has bucked the global trend of declining wildlife populations with numbers of several major species increasing according to a new report by the World Wide Fund for Nature (WWF). The report produced with the Zoological Society of London found a 73% decline in the average size of monitored wildlife populations worldwide between 1970 and 2022 citing habitat loss and degradation overexploitation climate change pollution invasive species and disease as the main threats. However India has seen gains in the numbers of tigers greater one-horned rhinoceroses Asiatic lions and other species with successful conservation efforts credited to substantial government funding scientific planning and technology use. The report highlights India's conservation achievements as a message of hope and demonstrates the potential effectiveness of conservation measures.",
+          "title": "Heavy rain and strong winds hit northern India, snowfall expected in Himalayan peaks",
+          "image": "https://images.pexels.com/photos/32261655/pexels-photo-32261655.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Uttarakhand, India",
+          "time": "Oct 09, 2026",
+          "content": "Heavy rain hit Uttarakhand Himachal Pradesh and Jammu and Kashmir with strong winds while snowfall is expected in higher Himalayan peaks. In other parts of the country Kerala Tamil Nadu West Bengal and Sikkim are under heavy rainfall alerts with thunderstorms lightning and gusty winds possible. In Delhi-NCR mornings and nights are getting cooler but days are still hot with isolated thunderstorms and showers expected in some areas. Meanwhile Punjab Haryana and western Uttar Pradesh may see thunderstorms lightning and strong winds prompting weather authorities to issue cautionary alerts.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-3",
-          "title": "India Expects Rain, Snow, Heat, and Thunderstorms",
-          "image": "https://images.pexels.com/photos/9841946/pexels-photo-9841946.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "India",
-          "time": "Oct 08, 2026",
-          "content": "Northern hills are expected to experience rain and snowfall, while Delhi and nearby plains face heat and humidity, with temperatures potentially dropping by 2-4 degrees Celsius in the coming days. Jammu and Kashmir, Himachal Pradesh, and Uttarakhand may receive rain, with higher mountain areas potentially witnessing light snowfall. Nagaland, Manipur, Mizoram, and Tripura are forecast to receive heavy rain, with a yellow alert issued by the weather department. Several states may also face thunderstorms, lightning, and strong winds, with Pilani recording the country's highest temperature at 40.1 degrees Celsius.",
+          "title": "Maharashtra declared drought-hit after one of India's driest monsoons",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "Mumbai, India",
+          "time": "Oct 09, 2026",
+          "content": "Around 74% of Maharashtra a state in India was declared drought-hit after one of the driest monsoons in years. The government has directed local bodies to cut water usage by 10% from October 16 to conserve water. This comes amid concerns over limited water reserves which are linked to reduced rainfall. The state has also announced plans to reuse treated wastewater for various purposes such as gardening and industrial activities to manage water better.",
           "theme": "#E7F4EF"
         }
       ]
@@ -169,29 +169,29 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Disney+ to Stream Super Bowl and Monday Night Football",
-          "image": "https://images.unsplash.com/photo-1717548381519-10ee59c67150?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RVNQTiUyMGxvZ298ZW58MXwwfHx8MTc5MTQ2MTY0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
-          "time": "Oct 08, 2026",
-          "content": "Disney announced that its streaming service Disney+ will air the upcoming Super Bowl in February as well as two Monday Night Football games leading up to the event. The 2027 championship game and the Monday Night Football games will be available to all Disney+ subscribers in the US. The announcement is part of Disney's efforts to expand its live sports streaming offerings following the launch of a standalone ESPN streaming service last year. The media company has already sold out ad spots for the game the earliest sellout in Super Bowl history and is looking to bolster its portfolio with live sports content.",
+          "title": "BBC Announces Radio 4 Programme Cuts to Save £500m",
+          "image": "https://images.pexels.com/photos/30675763/pexels-photo-30675763.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 09, 2026",
+          "content": "The BBC has announced plans to cut several Radio 4 programmes including You and Yours Thinking Allowed Free Thinking and others in order to make £500m savings. The corporation will also reduce commissioning on Radio 5 Live and its podcasts. However the BBC is investing in new consumer and ideas-based programmes. Radio 4's flagship show In Our Time will expand and Start the Week and Farming Today will also grow in length. The BBC says it's \"reshaping\" its speech audio to build a strong future for trusted journalism and distinctive storytelling.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-2",
-          "title": "Aphrodite's Evolution in Art: Ancient Goddess's Complex History Explored",
-          "image": "https://images.unsplash.com/photo-1607816419949-d2b16c25287d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8R3JlZWslMjBnb2RkZXNzfGVufDF8MHx8fDE3OTE0NjE2Njl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Oxford, UK",
-          "time": "Oct 08, 2026",
-          "content": "An exhibition at Oxford's Ashmolean Museum is exploring the history of Aphrodite the ancient Greek goddess of love and beauty and how she became one of the most controversial figures in the history of art. The exhibition examines how Aphrodite evolved into a lightning rod of cultural controversy with her nudity being a topic of debate for centuries. The first completely nude artwork of a woman in Ancient Greece Praxiteles's Aphrodite of Knidos is credited with changing everything as it presented a different kind of nudity showcasing a shy and vulnerable goddess which would later lead to heated debate and objectification of the female form in art.",
+          "title": "New Play Explores Struggles of Retired Boxers with Mental Health",
+          "image": "https://images.pexels.com/photos/8744804/pexels-photo-8744804.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Belfast, Northern Ireland",
+          "time": "Oct 09, 2026",
+          "content": "A new play called The Corner Man explores the struggles men face when they stop doing something they're passionate about like boxing. The story follows a fighter who has to adjust to life outside the ring after years of dedication. The play also looks at how men talk about their mental health or don't and how having a support network can help. The writer and producer Cathal J Ferris drew inspiration from his own experience with boxing and conversations with fighters.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-3",
-          "title": "Beverley Knight stars in 'Sylvia' musical at Birmingham Hippodrome",
-          "image": "https://images.pexels.com/photos/12081663/pexels-photo-12081663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Birmingham, UK",
-          "time": "Oct 08, 2026",
-          "content": "Beverley Knight a soul singer from Wolverhampton stars in the musical 'Sylvia' at the Birmingham Hippodrome. Knight plays Emmeline Pankhurst the mother of suffragette Sylvia Pankhurst and hopes the show will leave audiences feeling empowered and inspired to use their voices to make a difference. The musical tells the story of the Pankhurst family's fight for women's voting rights and features a range of music styles including R&B funk and gospel. Knight who is a 'history nerd' believes the show is a 'huge part of British history' and wants audiences to leave feeling inspired and motivated to take action.",
+          "title": "Gaten Matarazzo Stars in London's West End Production of Rock Musical Rent",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Gaten_Matarazzo.jpg/500px-Gaten_Matarazzo.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "London, UK",
+          "time": "Oct 09, 2026",
+          "content": "Gaten Matarazzo who's best known for playing Dustin Henderson in Stranger Things is now starring in the rock musical Rent on London's West End. He's having a change of pace from filming the hit Netflix show which he says was intense with only 30 takes to get it right. Matarazzo who's been acting since he was a kid enjoys the schedule and routine of theatre work saying it's a welcome change from the unpredictability of filming. He's been doing Rent for a while now and says it's a great experience with certain songs feeling relevant to today's world.",
           "theme": "#F3ECF7"
         }
       ]
@@ -206,29 +206,29 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Tui River Cruises faces backlash over changed itineraries",
-          "image": "https://images.unsplash.com/photo-1657034054454-86adb5a51768?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8cml2ZXIlMjBjcnVpc2V8ZW58MXwwfHx8MTc5MTQ2MTU4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Budapest",
-          "time": "Oct 08, 2026",
-          "content": "Tui River Cruises has faced backlash from passengers who paid thousands of pounds for European river cruises only to have their itineraries changed to involve hours spent on coach trips instead. Several passengers including Richard Pearson Sue Crosby and David Mallon have told the BBC they believe they should get a refund but Tui has offered none. The company apologized blaming low water levels on the Danube and stated that customers continued their holidays on amended itineraries under its standard booking conditions. Passengers claim the experience was not what they expected with hours spent on coach trips and limited scenic sailing. Some have even begun seeking refunds through the small claims court.",
+          "title": "Alberta to Hold Referendum on Independence",
+          "image": "https://images.pexels.com/photos/11070296/pexels-photo-11070296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Alberta",
+          "time": "Oct 09, 2026",
+          "content": "Alberta a western Canadian province is set to hold a referendum on October 19 where residents will decide whether to stay in Canada or move ahead with a formal binding referendum on independence. The province's economy is unique with rich oil and gas reserves a strong agricultural sector and a young and skilled workforce. Proponents of independence argue that the province would be richer on its own with more money kept within its borders. However opponents predict a more sober outcome warning of significant costs including a potential hit to Alberta's GDP additional debt and reduced disposable income for residents.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-2",
-          "title": "Royal Mail to cut 2,500 head office roles by end-2027",
-          "image": "https://images.unsplash.com/photo-1758795680241-ba9cd3fa2cc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8X3JveWFsJTIwbWFpbCUyMGxvZ298ZW58MXwwfHx8MTc5MTQ1MjU3NXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 08, 2026",
-          "content": "Royal Mail plans to cut 2,500 head office and supporting roles by end-2027, representing 2% of its 131,000-strong workforce. The cuts aim to improve efficiency, with voluntary redundancies and people choosing to leave the company. The plan is in formal consultation with unions, despite concerns from the Communication Workers Union that the cuts will worsen the company's poor performance and delivery targets. The company has struggled to meet delivery targets and faces criticism from politicians and the public over slow letter deliveries.",
+          "title": "Tui River Cruises faces backlash over changed itineraries",
+          "image": "https://images.unsplash.com/photo-1504986760686-def829959a20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VHVpJTIwcml2ZXIlMjBjcnVpc2V8ZW58MXwwfHx8MTc5MTQ4NTI4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Budapest",
+          "time": "Oct 09, 2026",
+          "content": "Passengers who paid thousands of pounds for European river cruises with Tui are angry after their itineraries changed leaving them with hours spent on coach trips instead of sailing. Some have told the BBC they should get a refund but Tui has offered none. The company apologised blaming low water levels on the Danube and said customers continued their holidays on amended itineraries under standard booking conditions.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-3",
-          "title": "Weston Family Buys Boots for $8.9 Billion, Investing in Improved Experience",
-          "image": "https://images.pexels.com/photos/30629659/pexels-photo-30629659.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Nottingham, UK",
-          "time": "Oct 08, 2026",
-          "content": "Boots, the UK-based pharmacy and retail chain, has been sold to Canada's Weston family for $8.9 billion. The 177-year-old company, founded by John Boot in 1849, has expanded its business to sell health and beauty products, meal deals, and travel accessories. Despite challenges from rivals and changing shopping habits, Boots has performed well, generating £7.5 billion in sales in its most recent annual results. The Weston family plans to invest in the business, focusing on an improved shopping experience and expansion of healthcare services. The deal is set to be completed in early 2027.",
+          "title": "Chrysler Building gets $235 million renovation for Art Deco crown restoration",
+          "image": "https://images.unsplash.com/photo-1473743032878-e1cb0ef6dde9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q2hyeXNsZXIlMjBCdWlsZGluZ3xlbnwxfDB8fHwxNzkxNDg1MzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York, USA",
+          "time": "Oct 09, 2026",
+          "content": "The Chrysler Building in Manhattan is getting a major renovation. The building which is over 90 years old will have its Art Deco crown restored and its 77-storey façade restored. The renovation will cost $235 million and will include upgrading the building's systems and adding a new lounge on the 61st floor. The building's owner the Cooper Union college will use the money from the sale to offer full-tuition scholarships to its students.",
           "theme": "#F7F1DE"
         }
       ]

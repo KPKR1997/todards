@@ -129,6 +129,22 @@ class ArticleAnalysisResponse(BaseModel):
     severity_tier: int = Field(1, ge=1, le=5)
     events: EventFlags = Field(default_factory=EventFlags)
     reason: str = ""
+    editorial_relevance: int = Field(
+    0,
+    ge=0,
+    le=100,
+    description="How strongly this article deserves inclusion in Todards."
+    )
+
+    publishable: bool = Field(
+        False,
+        description="Whether this article should be eligible for Todards ranking."
+    )
+
+    rejection_reason: str = Field(
+        "",
+        description="Reason the article should be rejected, if applicable."
+    )
 
     @field_validator(
         "everyday_impact", "dont_miss", "human_consequence",

@@ -1,168 +1,134 @@
 {
     "date": "08102026",
-    "timestamp": "2026-10-08T17:45:05.586739",
-    "duration_seconds": 1747.61,
+    "timestamp": "2026-10-09T00:23:35.726284",
+    "duration_seconds": 5668.87,
     "stages_duration_seconds": {
-        "scrape": 608.18,
-        "guardrails": 101.17,
-        "deduplication": 18.53,
-        "category_validation": 158.5,
-        "ranking": 346.68,
-        "processing": 514.52,
+        "scrape": 1420.25,
+        "guardrails": 774.63,
+        "deduplication": 13.33,
+        "category_validation": 185.83,
+        "ranking": 1543.72,
+        "processing": 1731.08,
         "assembly": 0.01
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 7,
-            "Tech": 22,
+            "Health": 9,
+            "Tech": 27,
             "People": 38,
-            "Environment": 4,
-            "Economy": 8,
+            "Environment": 5,
+            "Economy": 7,
             "Entertainment": 14
         },
-        "total_scraped": 93,
-        "guardrail_passed": 93,
+        "total_scraped": 100,
+        "guardrail_passed": 100,
         "guardrail_rejected": 0,
-        "dedup_removed": 18,
-        "category_reassignments": 17,
+        "dedup_removed": 16,
+        "category_reassignments": 0,
         "final_articles": 18,
         "final_categories": 6
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 188,
-        "duplicate_pairs_found": 23,
-        "duplicates_removed": 18
+        "total_checked": 195,
+        "duplicate_pairs_found": 18,
+        "duplicates_removed": 16
     },
     "category_validation": {
-        "total_checked": 89,
-        "reassigned_count": 17,
-        "reassignments": [
+        "status": "completed",
+        "total_checked": 84,
+        "rejected_count": 12,
+        "rejected_articles": [
             {
-                "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+                "title": "U.S. suspends Microsoft, Adobe from green-card labor program in foreign worker crackdown",
                 "from": "science and technology",
-                "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the economic impact of the drone attack on Yandex, a Russian internet giant, and the subsequent effects on its services and infrastructure."
-            },
-            {
-                "title": "AI startup Manus raises $500 million in first funding round since Meta breakup",
-                "from": "science and technology",
-                "to": "economy and business",
+                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses the financial aspects of the AI startup Manus, including its funding round, valuation, and potential public listing."
+                "reason": "The article discusses the impact of foreign worker policies on American workers, including a specific mention of Microsoft CEO Satya Nadella, which falls under the 'people' category."
             },
             {
-                "title": "Elon Musk blames Indian 'oligarchs' for stalling Starlink launch",
+                "title": "Trump bought up to $25 million in Meta and millions in SpaceX debt in August",
                 "from": "science and technology",
-                "to": "economy and business",
+                "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article focuses on the business and market dynamics of satellite internet services, specifically the competition between SpaceX and Indian telecom operators, making 'economy and business' a more accurate category."
-            },
-            {
-                "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
-                "from": "science and technology",
-                "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the financial aspects of Anthropic's potential IPO, discussing valuation, revenue, and potential risks, making 'economy and business' a more accurate category."
-            },
-            {
-                "title": "",
-                "from": "science and technology",
-                "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the impact of rising borrowing costs on the stock market and various industries, making 'economy and business' the most relevant category."
-            },
-            {
-                "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
-                "from": "science and technology",
-                "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article focuses on the financing and debt aspects of SpaceX's $40 billion Nvidia GPU purchase, making it more relevant to the economy and business category."
+                "reason": "The article primarily focuses on Trump's financial transactions, including investments in SpaceX and Meta, which are relevant to the economy and business category."
             },
             {
                 "title": "5 Things to Know",
                 "from": "science and technology",
-                "to": "economy and business",
+                "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses economic and business-related topics, including stock market trends, business deals, and financial news, with only a few passing references to science and technology."
+                "reason": "The article primarily discusses financial news, stock markets, and corporate developments, making it more relevant to the 'economy and business' category than the current 'science and technology' category."
             },
             {
-                "title": "Ancient Egyptians sacrificed servants when kings died, forensic tests show",
+                "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
                 "from": "science and technology",
-                "to": "people",
+                "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the discovery and analysis of ancient human remains, which falls under the category of 'people'"
+                "reason": "The article discusses the potential IPO of Anthropic, an artificial intelligence company, and its valuation, which is a business and economic topic."
             },
             {
-                "title": "Asos hackers took more personal details than first revealed, BBC finds",
+                "title": "",
                 "from": "science and technology",
-                "to": "economy and business",
+                "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses a data breach and its potential impact on customers, which falls under the category of economy and business, specifically corporate finance and cybersecurity."
+                "reason": "The article discusses the impact of rising borrowing costs on the stock market, with a focus on AI-related companies and their ability to secure attractive borrowing terms, making it more relevant to the 'economy and business' category."
             },
             {
-                "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
+                "title": "Viral US TikToker praises South West takeaways",
                 "from": "science and technology",
-                "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the impact of fuel prices and the government's Fuel Finder scheme on the economy and consumer spending."
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article is primarily focused on a TikToker's review and experiences with food and beverages, which is more relevant to the entertainment category than science and technology."
             },
             {
                 "title": "Chinese runner dropped by sponsor after riding bike during marathon",
                 "from": "science and technology",
-                "to": "people",
-                "confidence": 1.0,
-                "reason": "The article primarily focuses on a human-interest story about a fitness influencer's controversy and apology, with no significant scientific or technological aspects."
-            },
-            {
-                "title": "How toxic haze is causing Singapore’s landmarks to disappear",
-                "from": "people",
-                "to": "earth and environment",
+                "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article primarily discusses natural disasters and environmental issues, such as wildfires, floods, and haze, which is a clear indication that it belongs in the 'earth and environment' category."
+                "reason": "The article's focus on a fitness influencer's actions and the consequences of her actions is primarily a human-interest story, making it more relevant to the 'people' category than 'science and technology'."
             },
             {
-                "title": "Residents airlifted to safety after flooding in central Chile",
+                "title": "Millions of bedbugs crawl out of mattresses and walls in huge outbreak",
                 "from": "people",
-                "to": "earth and environment",
+                "detected_category": "health",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on the severe flooding in central Chile, its causes, and its effects, making it a strong candidate for the 'earth and environment' category."
+                "reason": "The article discusses bedbug infestations, which is a public health issue, and provides information on identification, treatment, and prevention methods."
             },
             {
-                "title": "Watch: The extreme motorsport where women keep winning",
-                "from": "people",
-                "to": "entertainment",
-                "confidence": 0.8,
-                "reason": "The article's main focus is on a documentary about Top Fuel drag racing and features mentions of music and celebrities, making 'entertainment' a more fitting category than 'people'"
-            },
-            {
-                "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+                "title": "'Come all the way' back to EU, French finance minister tells UK",
                 "from": "economy and business",
-                "to": "earth and environment",
+                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the attack on Russia's infrastructure, including data centers and oil refineries, which is a topic of global concern for the environment and geopolitics."
+                "reason": "The article discusses the possibility of the UK rejoining the EU, with a focus on the UK's Prime Minister Andy Burnham's comments and the French Finance Minister's response, which is more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "The wildlife winners set to appear on your banknotes revealed",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the decision made by the Bank of England, which is a government institution, to replace notable figures from history with wildlife on banknotes, making it relevant to the 'people' category."
+            },
+            {
+                "title": "Skydance's David Ellison tells CNBC combined company is 'positioned to win in every single vertical'",
+                "from": "entertainment",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the business and financial implications of the merger between Paramount and Warner Bros., including the company's debt, cost savings, and plans for the combined streaming services."
             },
             {
                 "title": "Actor Simon Pegg reveals ADHD diagnosis: 'It's just who I am'",
                 "from": "entertainment",
-                "to": "people",
-                "confidence": 1.0,
-                "reason": "The article is primarily about Simon Pegg's personal life, including his diagnosis with ADHD, making it more relevant to the 'people' category."
-            },
-            {
-                "title": "BBC to cut raft of Radio 4 programmes including You and Yours",
-                "from": "entertainment",
-                "to": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on the financial and business aspects of the BBC's restructuring and job cuts, making 'economy and business' a more accurate category than 'entertainment'."
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Simon Pegg's personal life, revealing his ADHD diagnosis, which is a human-interest story and falls under the 'people' category."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 182,
-        "total_failures": 0,
-        "total_time_seconds": 258.83,
-        "avg_response_time": 1.42
+        "total_calls": 184,
+        "total_failures": 4,
+        "total_time_seconds": 712.31,
+        "avg_response_time": 3.87
     }
 }

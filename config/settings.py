@@ -55,7 +55,7 @@ ALL_DATA_FOLDERS = [
 
 OLLAMA_BASE_URL = "http://localhost:11434"
 OLLAMA_MODEL = "llama3:latest"
-OLLAMA_TIMEOUT = 120  # seconds
+OLLAMA_TIMEOUT = 600  # seconds
 OLLAMA_MAX_RETRIES = 2
 OLLAMA_RETRY_DELAY = 3  # seconds
 
