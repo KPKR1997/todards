@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 15",
+    "issue": "Issue No. 16",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,11 +21,11 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Israel Reconsiders Inquiry into Deadliest Security Failure After 64 Killed, 19 Kidnapped",
-          "image": "https://images.unsplash.com/photo-1533797387460-5bb8e7985b68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SXNyYWVsJTIwRGVmZW5zZSUyMEZvcmNlc3xlbnwxfDB8fHwxNzkxNDMwNDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Israel Commemorates Gaza War Anniversary, Calls for Inquiry into Security Failures",
+          "image": "https://images.pexels.com/photos/17654360/pexels-photo-17654360.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Israel",
           "time": "Oct 08, 2026",
-          "content": "Three years after the deadliest Israel security failure, questions persist about who should pay the price for the attacks that killed 64 people and kidnapped 19. The attacks, blamed on Hamas, were the deadliest Israel had suffered since its creation in 1948. Prime Minister Benjamin Netanyahu has rejected calls for a state inquiry, instead proposing a national commission of inquiry. Critics argue that Netanyahu's refusal to accept responsibility is part of the reason for the ongoing pain and divisions in Israel.",
+          "content": "Memorial events took place in Israel on the third anniversary of the devastating Hamas-led attack that sparked the war in Gaza. The attack killed over 1,200 people, with 251 taken hostage. Israeli Prime Minister Benjamin Netanyahu lit a memorial candle and called for an independent state inquiry into security failures. The war has killed over 74,200 people in Gaza, with violence continuing despite a ceasefire. Bereaved families and survivors gathered at memorial sites, with protests also held in Tel Aviv and abroad calling for accountability and an end to the conflict.",
           "theme": "#F7ECEE"
         },
         {
@@ -95,11 +95,11 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Russian lab technician dies from pneumonic plague in Siberia",
-          "image": "https://images.pexels.com/photos/3786248/pexels-photo-3786248.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Siberia",
+          "title": "Lancaster County sees 1,000 measles cases, five deaths",
+          "image": "https://images.unsplash.com/photo-1706204787288-538c79a2ccd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OHx8bWVhc2xlcyUyMG91dGJyZWFrfGVufDF8MHx8fDE3OTEzOTg0Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Pennsylvania, USA",
           "time": "Oct 08, 2026",
-          "content": "A Russian lab technician died at a plague research centre in Siberia, sparking concerns about pneumonic plague spread. The 28-year-old woman, Darya Shipilova, worked at the Anti-Plague Institute in Irkutsk region. Experts say the case is unlikely to lead to a global outbreak due to pneumonic plague's requirement for symptoms before transmission, making it easily contained. Antibiotics are widely available to treat the disease, and public health measures have identified and are monitoring contacts, with none showing symptoms. The World Health Organisation's initial risk assessment is moderate to low for Irkutsk and very low for the Russian Federation as a whole.",
+          "content": "/n Main Street in late September saw horse-and-buggy carriages and cars mix, with the weekly Sale Day market filling 10 acres. Amidst the bustle, a measles outbreak ravaged nearby Lancaster County, resulting in over 1,000 reported cases and five deaths. The Central Pennsylvania Clinic, which serves children and adults with genetic disorders, is particularly vulnerable to the severe effects of measles. The clinic's focus is on raising vaccination rates, with the MMR vaccine being extremely effective in preventing measles. Consistency in messaging and building trust with the community have been key to increasing vaccination coverage rates.",
           "theme": "#E8F5F1"
         },
         {
@@ -132,11 +132,11 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Economic Damages from Carbon Emissions Reach Four Times Previous Estimates",
-          "image": "https://images.unsplash.com/photo-1599421852088-071e9d7917e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X2dsb2JhbCUyMHdhcm1pbmd8ZW58MXwwfHx8MTc5MTQzMDUxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global",
+          "title": "Report: Carbon Emissions' Economic Damages Could Be Four Times Higher",
+          "image": "https://images.unsplash.com/photo-1770723963993-ebe8304ff8dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8X2dsb2JhbF93YXJtaW5nfGVufDF8MHx8fDE3OTE0MzI5MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Geneva, Switzerland",
           "time": "Oct 08, 2026",
-          "content": "Economic damages from carbon emissions could reach up to four times previous estimates, with global sea level rise locked in for centuries, according to a new report. The report finds 2025 was 1.43°C warmer than the pre-industrial baseline, with human activities releasing 38.1 billion tonnes of CO2. The report highlights the need for stringent mitigation pathways to limit warming to 1.5°C, warning that beyond this threshold, risks of cascading and irreversible climate impacts increase. The report also notes that ocean heat content reached a record for the ninth consecutive year, with over 90% of the excess heat absorbed by oceans.",
+          "content": "A new report by Future Earth, The Earth League, and the World Climate Research Programme reveals that economic damages from carbon emissions could be four times higher than previously estimated. The report also warns that global sea level rise is already locked in for centuries, with emissions through 2050 under current policies set to commit an additional 300 millimetres of rise by 2300. The study highlights the urgent need for stringent mitigation to avoid catastrophic impacts, with the Paris Agreement's goal of limiting warming to 1.5°C considered a critical threshold.",
           "theme": "#E7F4EF"
         },
         {

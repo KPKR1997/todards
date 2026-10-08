@@ -37,7 +37,7 @@ class LlmSummarizer:
                         The summary should:
 
                         Start with the most important development.
-                        Clearly explain what happened and where.
+                        Clearly explain what happened and where. Also don't use complecated vocabulary or jargons which are not understandable to a layman. Use simple words and phrases to ensure clarity.
                         Identify the key people, organizations, or groups involved when relevant.
                         Include important numbers, dates, locations, and measurable impacts.
                         Explain significant consequences or risks when mentioned in the article.

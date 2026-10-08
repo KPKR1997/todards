@@ -1,133 +1,161 @@
 {
     "date": "08102026",
-    "timestamp": "2026-10-08T09:06:05.956848",
-    "duration_seconds": 1559.91,
+    "timestamp": "2026-10-08T09:45:17.315986",
+    "duration_seconds": 1386.96,
     "stages_duration_seconds": {
-        "scrape": 663.64,
-        "guardrails": 97.97,
-        "deduplication": 18.56,
-        "category_validation": 146.34,
-        "ranking": 531.62,
-        "processing": 101.72,
+        "scrape": 499.56,
+        "guardrails": 97.51,
+        "deduplication": 13.87,
+        "category_validation": 151.21,
+        "ranking": 524.57,
+        "processing": 100.22,
         "assembly": 0.01
     },
     "volume": {
         "scraped_by_category": {
             "Health": 5,
             "Tech": 24,
-            "People": 39,
+            "People": 36,
             "Environment": 3,
             "Economy": 11,
             "Entertainment": 0
         },
-        "total_scraped": 82,
-        "guardrail_passed": 82,
+        "total_scraped": 79,
+        "guardrail_passed": 79,
         "guardrail_rejected": 0,
-        "dedup_removed": 49,
-        "category_reassignments": 12,
+        "dedup_removed": 16,
+        "category_reassignments": 16,
         "final_articles": 3,
-        "final_categories": 2
+        "final_categories": 3
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 217,
-        "duplicate_pairs_found": 56,
-        "duplicates_removed": 49
+        "total_checked": 183,
+        "duplicate_pairs_found": 19,
+        "duplicates_removed": 16
     },
     "category_validation": {
         "total_checked": 77,
-        "reassigned_count": 12,
+        "reassigned_count": 16,
         "reassignments": [
             {
                 "title": "Elon Musk blames Indian 'oligarchs' for stalling Starlink launch",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily discusses the business and market dynamics of satellite internet services, including the competition between SpaceX and Indian telecom operators."
+                "reason": "The article primarily focuses on the business and market dynamics of the satellite internet service Starlink, its competitors, and the regulatory environment in India, making 'economy and business' the most accurate category."
             },
             {
                 "title": "Anthropic will be 'most ridiculous IPO' of year, analyst says",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily discusses Anthropic's potential IPO, valuation, and financials, making it a strong fit for the 'economy and business' category."
+                "reason": "The article primarily discusses the potential IPO of Anthropic, an AI company, and its valuation, making it more relevant to the economy and business category."
             },
             {
                 "title": "",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily discusses the impact of rising borrowing costs on the stock market and the differences between traditional companies and AI-related businesses, making 'economy and business' the most suitable category."
+                "reason": "The article primarily focuses on the impact of rising borrowing costs on the stock market, highlighting the divide between AI-related companies and traditional corporations, making 'economy and business' a more accurate category."
             },
             {
                 "title": "Apollo, banks in talks to finance SpaceX's $40 billion Nvidia GPU purchase",
                 "from": "science and technology",
                 "to": "economy and business",
                 "confidence": 0.9,
-                "reason": "The article primarily discusses SpaceX's financial dealings, specifically the company's plans to purchase $40 billion worth of Nvidia GPUs and the financing talks with Apollo Capital Management and several banks."
+                "reason": "The article primarily discusses the financial and investment aspects of SpaceX's deal with Nvidia, including debt financing and bond sales, making 'economy and business' the most accurate category."
             },
             {
                 "title": "5 Things to Know",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on financial news, including stock markets, trade deficits, and economic issues, with only a few mentions of AI and technology"
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on economic and financial news, including stock market updates, trade deficits, and business deals, with only a few mentions of science and technology."
             },
             {
                 "title": "Google ordered to halt work on two data centers in ‘Texas of Europe’",
                 "from": "science and technology",
                 "to": "earth and environment",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on the environmental impact assessment and suspension of data center projects in Finland, highlighting the concerns about the environment and ecology, which is characteristic of the 'earth and environment' category."
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the environmental impact assessments and concerns related to Google's data center projects in Finland, which is a key aspect of the 'earth and environment' category."
+            },
+            {
+                "title": "Singapore's Temasek warns of the ‘biggest risk’ facing markets right now",
+                "from": "science and technology",
+                "to": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the potential risks and investment strategies related to the artificial intelligence market, which is an economic and business topic."
             },
             {
                 "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
                 "from": "science and technology",
                 "to": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses fuel prices, cost-saving measures, and their impact on households, making it more relevant to the economy and business category."
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on fuel prices and the government's Fuel Finder scheme, which is an economic and business-related topic."
             },
             {
                 "title": "Chinese runner dropped by sponsor after riding bike during marathon",
                 "from": "science and technology",
-                "to": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on a fitness influencer and their actions, rather than scientific or technological concepts."
+                "to": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article is primarily focused on the controversy and drama surrounding a fitness influencer's behavior during a marathon, making it more suitable for the entertainment category than science and technology."
             },
             {
                 "title": "Xbox bets on Gears of War in battle of gaming giants",
                 "from": "science and technology",
                 "to": "entertainment",
                 "confidence": 1.0,
-                "reason": "The article is primarily about video games and their business aspects, making it a clear fit for the 'entertainment' category."
+                "reason": "The article is primarily focused on a video game, its development, and its exclusive release on Xbox, which is a topic typically found in the entertainment category."
             },
             {
                 "title": "How toxic haze is causing Singapore’s landmarks to disappear",
                 "from": "people",
                 "to": "earth and environment",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the impact of wildfires, floods, and typhoons on various countries in South East Asia, with no prominent human interest or people-focused stories."
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on environmental issues, specifically the impact of wildfires and toxic haze on countries in South East Asia, making 'earth and environment' the most accurate category."
             },
             {
-                "title": "World's largest penguin colony hit by 'alarming' decline in numbers",
+                "title": "Trump to speak to Putin about plague lab worker's death in Russia",
                 "from": "people",
                 "to": "earth and environment",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the decline of chinstrap penguin colonies due to climate change, making it a clear fit for the 'earth and environment' category."
+                "reason": "The article primarily focuses on a potential public health risk and international response to a plague outbreak in Russia, which falls under the 'earth and environment' category."
+            },
+            {
+                "title": "Trump to speak to Putin about plague lab worker's death in Russia",
+                "from": "earth and environment",
+                "to": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on a reported death at a plague research centre in Siberia, the suspected disease being pneumonic plague, and the subsequent international response and efforts to contain the situation."
             },
             {
                 "title": "Rainmakers: The drones used to seed clouds",
                 "from": "economy and business",
                 "to": "science and technology",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the technological innovation of cloud-seeding using drones and the development of new seeding agents, making it a clear fit for the 'science and technology' category."
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on cloud-seeding technology, drones, and the use of silver iodide and other compounds to modify weather, which falls under the category of science and technology."
+            },
+            {
+                "title": "Singapore's Temasek warns of the ‘biggest risk’ facing markets right now",
+                "from": "economy and business",
+                "to": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the risk posed by the unwinding of the artificial intelligence trade, making 'science and technology' the most relevant category."
+            },
+            {
+                "title": "Chinese runner dropped by sponsor after riding bike during marathon",
+                "from": "entertainment",
+                "to": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal and professional impact on Sun Yuanyuan, a fitness influencer, rather than entertainment or sports."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 159,
+        "total_calls": 156,
         "total_failures": 0,
-        "total_time_seconds": 243.33,
-        "avg_response_time": 1.53
+        "total_time_seconds": 248.23,
+        "avg_response_time": 1.59
     }
 }

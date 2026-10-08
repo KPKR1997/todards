@@ -79,7 +79,7 @@ HEADLINE RULES:
 
 1. CLARITY FIRST
 The headline must allow a reader to understand what the article
-is about or what happened without reading the article.
+is about or what happened without reading the article. Priority to convey in very easy english without complicated vocabulary or jargons which are not understandable to a layman. Use simple words and phrases to ensure clarity.
 
 2. IDENTIFY THE CORE EVENT
 Focus on the most important development, event, finding,

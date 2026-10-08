@@ -1,3 +1,2 @@
-- Guardrails using Llama guard 4 and ShieldGemma 2
-
-- 
+- Chck article deduplication
+- Implement Guardrails using Llama Guard 4 and ShieldGemma 4
