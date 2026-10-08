@@ -753,8 +753,9 @@ class EntertainmentDataScrapper:
             CNBCEntertainment.get_section_links()
         )
         print(
-            f"CNBC links found: "
-            f"{len(CNBC_links)}"
+            f"CNBC links found: ",
+            f"{len(CNBC_links)}",
+            CNBC_links
         )
         CNBC_data = (
             CNBCEntertainment.scrape_content(
@@ -808,19 +809,21 @@ class EntertainmentDataScrapper:
             })
 
         #BBC Scrapper
-        BBCEntrtainment = BBCEntertainmentScraper(
+        BBCEntertainment = BBCEntertainmentScraper(
                     url="https://www.bbc.com/culture/entertainment-news",
                     domain="https://www.bbc.com",
                     title_class="h2"
                 )
-        BBCEntrtainment_links = (
-            BBCEntrtainment.get_section_links()
+        BBCEntertainment_links = (
+            BBCEntertainment.get_section_links()
         )
+        print(BBCEntertainment_links)
         BBC_data = (
-            BBCEntrtainment.scrape_content(
-                BBCEntrtainment_links
+            BBCEntertainment.scrape_content(
+                BBCEntertainment_links
             )
         )
+        print(BBC_data)
         for article in BBC_data:
             entertainment_data.append({
                 "id": (
@@ -843,7 +846,7 @@ class EntertainmentDataScrapper:
             datetime.now().strftime(
                 "%d%m%Y"
             )
-            + "_tech_data.json"
+            + "_entertainment_data.json"
         )
         output_path = os.path.join(
             self.output_dir,

@@ -72,6 +72,7 @@ class MainProcessPipeline:
             art_id = section.get("id", f"art_{idx}")
             category = section.get("category", "")
             title = section.get("title", "")
+            source = section.get("source", "")
 
             if progress_tracker:
                 progress_tracker.update_status(
@@ -150,6 +151,7 @@ class MainProcessPipeline:
                 "place": place,
                 "time": datetime.now().strftime("%b %d, %Y"),
                 "content": summarized_content,
+                "source": source,
             })
 
         return feed_data

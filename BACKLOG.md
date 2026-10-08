@@ -1,2 +1,2 @@
-- Chck article deduplication
+- Check article deduplication
 - Implement Guardrails using Llama Guard 4 and ShieldGemma 4

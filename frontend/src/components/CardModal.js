@@ -10,28 +10,34 @@ export function openArticleModal(card = {}, section = {}) {
     <button class="modal-close-btn" id="btn-modal-close" aria-label="Close modal">✕</button>
 
     <div class="modal-hero-image-wrapper">
-      <img src="${card.image || 'https://images.unsplash.com/photo-1518770660439-4636190af475'}" 
-           alt="${card.title}" 
-           class="modal-hero-image" />
+    <img
+      src="${card.image || 'https://images.unsplash.com/photo-1518770660439-4636190af475'}"
+      alt="${card.title}"
+      class="modal-hero-image"
+    />
+
+    <span
+      class="modal-pill"
+      style="${section.accent ? `background:${section.accent};` : ''}"
+    >
+      ${section.eyebrow || 'STORY'}
+    </span>
+  </div>
+
+  <div class="modal-article-body">
+    <div class="modal-meta-row">
+      <span class="modal-location-time">
+        ${card.place ? `${card.place} · ` : ''}${card.time || card.date || ''}
+      </span>
     </div>
 
-    <div class="modal-article-body">
-      <div class="modal-meta-row">
-        <span class="modal-pill" style="${section.accent ? `background:${section.accent};` : ''}">
-          ${section.eyebrow || 'STORY'}
-        </span>
-        <span class="modal-location-time">
-          ${card.place ? `${card.place} · ` : ''}${card.time || card.date || ''}
-        </span>
-      </div>
-
-      <h1 class="modal-title">${card.title || 'Untitled Story'}</h1>
+  <h1 class="modal-title">${card.title || 'Untitled Story'}</h1>
 
       <div class="modal-body-text">
         <p>${card.content || ''}</p>
         <br />
         <p style="color: var(--text-secondary); font-style: italic; font-size: 0.95rem;">
-          Published as part of the ${publicationBrandName()} daily editorial cards.
+          source: ${card.source}
         </p>
       </div>
     </div>

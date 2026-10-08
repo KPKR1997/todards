@@ -86,20 +86,27 @@
 
 .modal-meta-row {
   display: flex;
-  align-items: center;
+  flex-direction:column;
+  align-items: left;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
 .modal-pill {
-  padding: 0.35rem 0.85rem;
+  position: absolute;
+  left: 1.25rem;
+  bottom: 0.8rem;
+  display: inline-block;
+  width: fit-content;
+  padding: 0.3rem 0.75rem;
   background-color: #111111;
   color: #ffffff;
   border-radius: 20px;
-  font-size: 0.72rem;
+  font-size: 0.62rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  z-index: 2;
 }
 
 .modal-location-time {
@@ -109,7 +116,7 @@
 
 .modal-title {
   font-family: var(--font-serif);
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.2;
   color: #111111;
@@ -117,9 +124,10 @@
 }
 
 .modal-body-text {
-  font-size: 1.05rem;
+  font-size: 0.95rem;
   line-height: 1.7;
   color: #333333;
+  font-family: var(--font-serif);
 }
 
 /* Drawer for Live JSON Viewer / Editor */
