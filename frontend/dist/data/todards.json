@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 26",
+    "issue": "Issue No. 27",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Thames Valley Police Admits Warrantless Searches of Andrew Mountbatten-Windsor's Homes",
-          "image": "https://images.pexels.com/photos/14883691/pexels-photo-14883691.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Thames Valley",
+          "title": "Over 1400 killed in Gaza since October as Israeli strikes continue",
+          "image": "https://images.unsplash.com/photo-1660479643704-2acf8f98d8c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8R2F6YSUyMFN0cmlwfGVufDF8MHx8fDE3OTE1MTk1ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Jerusalem",
           "time": "Oct 09, 2026",
-          "content": "Thames Valley Police has admitted that the search warrants used to search Andrew Mountbatten-Windsor's homes in February were unlawful. The police seized items during the search which are still being held. A further hearing is set for 2027 to decide whether the police can use the seized items as evidence. Mountbatten-Windsor who denies wrongdoing was arrested on suspicion of misconduct in public office. He is challenging the warrants used in his arrest.",
+          "content": "More than 1400 people in Gaza have been killed in Israeli attacks since the ceasefire started last October. The ceasefire was meant to end the war but Israel has kept launching strikes in Gaza almost every day. The total death toll is now over 74000. Israel says it's targeting Hamas operatives but the Gaza health ministry's figures are considered reliable by the UN.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "Two Latvian men arrested at RAF base in Cambridgeshire",
-          "image": "https://images.pexels.com/photos/32670773/pexels-photo-32670773.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Cambridgeshire",
+          "title": "Three Sisters Drown Off Brighton Amid Rough Seas",
+          "image": "https://images.pexels.com/photos/37153111/pexels-photo-37153111.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Brighton, UK",
           "time": "Oct 09, 2026",
-          "content": "Two Latvian men 36 and 32 years old were arrested at an RAF base in Cambridgeshire after a fence was breached. An abandoned vehicle was found near the base leading to a search and the discovery of a small fence breach. The men were initially arrested for trespass and criminal damage and then further arrested under the National Security Act for allegedly entering the site for a purpose that could harm the UK. Counter-terrorism police are investigating but so far there's no link to a recent incident at another RAF base.",
+          "content": "Three sisters Jane Christina and Rebecca who were all living in London took their own lives by drowning in the sea off Brighton. The coroner said they were living very private lives after their mother's death in 2010. The sisters visited the area where their mother died before going to Brighton where they drowned in rough sea conditions. Their father said it was heartbreaking to lose all three of his daughters.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "Anne Carson Wins Nobel Prize in Literature at Age 76",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Anne_Carson%2C_poet%2C_at_the_2024_National_Book_Awards_finalist_reading_2_%28cropped%29.jpg/500px-Anne_Carson%2C_poet%2C_at_the_2024_National_Book_Awards_finalist_reading_2_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Iceland",
+          "title": "Former Ukrainian Officer Accuses Military Intelligence of Monaco Bomb Plot",
+          "image": "https://images.unsplash.com/photo-1655456946098-a50949bd9e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8VWtyYWluaWFuJTIwc2VjdXJpdHklMjBzZXJ2aWNlc3xlbnwxfDB8fHwxNzkxNTE5NzI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kyiv, Ukraine",
           "time": "Oct 09, 2026",
-          "content": "Canadian poet and essayist Anne Carson has won this year's Nobel Prize in Literature. She's 76 years old and has written many books that blend poetry fiction and scholarship. The Nobel Prize committee praised her work for being bold and creative and for mixing old and new ideas together in new ways. Carson was surprised but happy when she found out and said she's grateful for the honor.",
+          "content": "A former Ukrainian security officer Vitalii Zhykovych claims he believed a bomb attack in Monaco was ordered by senior members of Ukraine's military intelligence agency HUR. Zhykovych says he was a freelancer for the agency and had an agent Anastasia Berezovska who planted the bomb. He insists he did not send her to kill and did not kill her when her body was found with gunshot wounds. Zhykovych alleges that an active-duty intelligence officer from HUR Vladyslav Reut was behind the operation and communicated directly with Berezovska without Zhykovych's knowledge.",
           "theme": "#F7ECEE"
         }
       ]
@@ -58,29 +58,29 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "UK MP Jess Asato Sues xAI Over AI Chatbot's Sexualized Images",
-          "image": "https://images.pexels.com/photos/36781258/pexels-photo-36781258.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "New York, USA",
+          "title": "South Korea develops rover with shape-shifting wheels for moon exploration",
+          "image": "https://images.pexels.com/photos/8566532/pexels-photo-8566532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Seoul, South Korea",
           "time": "Oct 09, 2026",
-          "content": "A UK Member of Parliament Jess Asato has criticized a US tech firm xAI after it failed to show up at a New York City Council meeting to discuss regulating AI developers. Asato is suing xAI over sexualized images of her created by its AI chatbot tool Grok. She claims xAI misused her private information and breached data protection rules. The meeting held on October 5 was a rare committee meeting where all council members were present.",
+          "content": "Here is a summary of the news article\n\nSouth Korea is developing a rover with unique origami-inspired wheels that can change shape and adapt to the moon's surface. The wheels are made of flexible strips that interweave and can shrink to fit inside a lunar lander before expanding to navigate the moon's challenging terrain. The rover's developers hope to use it to explore the moon's lava tubes which could one day shelter human colonies. The team has tested the wheels in various environments including the moon's surface simulant and is now working on a self-driving rover using artificial intelligence.",
           "theme": "#EBF2FA"
         },
         {
           "id": "st-2",
-          "title": "Manus AI agent startup raises $500 million despite deal block",
-          "image": "https://images.unsplash.com/photo-1710993011875-38d2f3ecf0be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTh8fGdlbmVyYXRpdmUlMjBBSXxlbnwxfDB8fHwxNzkxNDg0NTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Singapore",
+          "title": "SpaceX buys wireless spectrum from Grain Management",
+          "image": "https://images.unsplash.com/photo-1711919600878-b5d9e77d3357?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U3BhY2VYJTIwbG9nb3xlbnwxfDB8fHwxNzkxNTE5NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
           "time": "Oct 09, 2026",
-          "content": "Manus an AI agent startup has raised over $500 million in its first funding round since Meta abandoned its acquisition of the company. This shows that investors are still confident in Manus despite the deal being blocked by Chinese authorities. The funding round was led by Boyu Capital and IDG Capital with existing investors Tencent HSG and ZhenFund also contributing. This means that Manus can continue to work on its AI agents which are designed to help users with tasks and provide information.",
+          "content": "SpaceX the company founded by Elon Musk has agreed to buy a big chunk of wireless spectrum from a company called Grain Management. This spectrum will help SpaceX's Starlink service offer better coverage in the US. Starlink is a way for people to get internet access using satellites in space. The deal is still pending approval from the Federal Communications Commission.",
           "theme": "#EBF2FA"
         },
         {
           "id": "t-3",
-          "title": "Amazon Unveils New Alexa Tablets with Improved Speed, Design",
-          "image": "https://images.unsplash.com/photo-1552846916-542ad196e4d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QW1hem9uJTIwQWxleGElMjB0YWJsZXR8ZW58MXwwfHx8MTc5MTQ4NDk2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "Nasdaq CEO Sees Tens of Billions in Locked Capital Unlocked with Tokenization",
+          "image": "https://images.unsplash.com/photo-1594277427579-48d09e82cef0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TmFzZGFxJTIwbG9nb3xlbnwxfDB8fHwxNzkxNTE5NTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Singapore",
           "time": "Oct 09, 2026",
-          "content": "Amazon has launched a new range of Alexa tablets priced between $230 and $550. The devices are more expensive than previous models but Amazon says they're worth it because of their improved speed performance and design. The new tablets run Google's Android operating system unlike previous models which used Amazon's own app store. The company is hoping to make more money from its devices business and is banking on the new tablets to be a hit.",
+          "content": "Nasdaq CEO Adena Friedman believes that tokenization could unlock tens of billions of dollars in capital tied up in assets used as collateral globally. Tokenizing assets like Treasurys equities and money market funds along with the flow of money could make collateral more liquid. This process which uses blockchain technology has gained institutional interest over the past year particularly since the passage of the Genius Act in the US. Friedman also thinks that artificial intelligence could help financial institutions manage the shift to a 24/7 market.",
           "theme": "#EBF2FA"
         }
       ]
@@ -95,29 +95,29 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Nigerian pediatrician heads international cancer control union",
-          "image": "https://images.pexels.com/photos/28318746/pexels-photo-28318746.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Hong Kong",
+          "title": "US Launches Vaccine Injury Study Program Amid Concerns Over Side Effects",
+          "image": "https://images.unsplash.com/photo-1626351545208-28c9080106ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8N3x8dmFjY2luZSUyMGluanVyaWVzfGVufDF8MHx8fDE3OTE1MTkyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
           "time": "Oct 09, 2026",
-          "content": "Dr Zainab Shinkafi-Bagudu a Nigerian paediatrician has been elected as the president-elect of the Union for International Cancer Control. She's the first African to lead the organization. Bagudu's election comes as cancer cases and deaths are projected to rise sharply with the greatest increases expected in poorer countries. She wants to focus on cancer care in low-income countries where health systems are already under pressure and to bridge the gap between these countries and the research technology and treatments being developed elsewhere.",
+          "content": "The US Department of Health and Human Services has launched a program to study and track vaccine injuries a long-standing priority for Secretary Robert F. Kennedy Jr. The program housed at the National Institutes of Health aims to understand who is vulnerable to vaccine injuries. Kennedy claims that federal scientists have ignored possible side effects including debunked theories linking immunizations to autism. This move has sparked concerns from public health advocates. The US Centers for Disease Control and Prevention says the risk of vaccines causing serious reactions injuries or death is very remote.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-2",
-          "title": "Russian lab worker dies from pneumonia, hundreds isolated",
-          "image": "https://images.pexels.com/photos/7230352/pexels-photo-7230352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Irkutsk, Russia",
+          "title": "Beauty influencer's complex skincare routine raises concerns over unrealistic claims",
+          "image": "https://images.unsplash.com/photo-1648203276014-20f97ba1f817?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8YmVhdXR5JTIwcm91dGluZXxlbnwxfDB8fHwxNzkxNDYxMjQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Brazil",
           "time": "Oct 09, 2026",
-          "content": "A worker at a Russian lab that studies plague has died and hundreds of others have been isolated. The World Health Organization is trying to figure out what happened and if it's a risk to the public. The lab worker 28-year-old Darya Shipilova died from pneumonia of unknown cause. The Russian government initially didn't report the incident but the WHO found out and is now asking for more information. The WHO says the risk to the public appears to be low but they're still trying to determine the cause of the worker's death.",
+          "content": "Greta Costioli a 29-year-old was once known for her \"glass skin\" on TikTok where she used a complex skincare routine with many products. She would apply seven layers of toner to achieve a smooth and pore-less complexion. This trend popularized by beauty influencers and celebrities has its roots in South Korean beauty culture. While some people may see positive results from these routines experts warn that they can be unrealistic and lead to skin problems like clogged pores irritation and breakouts.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-3",
-          "title": "WHO Investigates Death of Russian Lab Worker from Rare Plague",
-          "image": "https://images.unsplash.com/photo-1706643568151-eaf33acf783e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8WWVyc2luaWElMjBwZXN0aXN8ZW58MXwwfHx8MTc5MTM5ODM5OXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Irkutsk, Russia",
+          "title": "African pediatrician leads Union for International Cancer Control",
+          "image": "https://images.pexels.com/photos/6203464/pexels-photo-6203464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Hong Kong",
           "time": "Oct 09, 2026",
-          "content": "The World Health Organization is trying to figure out what happened when a worker at a Russian lab died from a rare form of plague. The lab worker a 28-year-old woman was hospitalized and then died. Several hundred people who had contact with her are in quarantine. The WHO is concerned because the plague can spread from person to person. The organization is trying to get more information from Russia but has not received a response. The WHO has seen reports of a broken test tube in the lab but it's not clear if that's related to the worker's death.",
+          "content": "Dr. Zainab Shinkafi-Bagudu a Nigerian pediatrician and cancer advocate has been elected president of the Union for International Cancer Control. She's the first African to lead the organization. Bagudu wants to focus on cancer care in low-income countries where cases and deaths are expected to rise sharply. She plans to use her position to bridge the gap between countries with limited cancer services and those with better resources. Bagudu wants to increase funding for cancer treatment and research improve access to diagnosis and treatment and reduce financial toxicity for patients. She also wants to prioritize prevention and focus on cancers that can be prevented or reduced through available interventions.",
           "theme": "#E8F5F1"
         }
       ]
@@ -132,29 +132,29 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "India's Monsoon Ends 13% Below Average Amid Worsening Drought Conditions",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
-          "place": "India",
+          "title": "Maharashtra Declared Drought-Hit, Orders 10% Water Cut Amid Wastewater Crisis",
+          "image": "https://images.pexels.com/photos/770224/pexels-photo-770224.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Mumbai, India",
           "time": "Oct 09, 2026",
-          "content": "India's southwest monsoon ended 13% below average but the situation on the ground is worse than the numbers suggest. In some states prolonged dry spells depleted soil moisture and crop losses have prompted drought declarations. Despite a relatively small national rainfall deficit severe drought conditions have emerged across parts of several states. Maharashtra Karnataka Rajasthan Andhra Pradesh and Telangana are among the worst-affected areas. Farmers are struggling with failed crops income losses and mounting debt while some are forced to sell cattle at distress prices due to fodder shortages. The government has declared drought in three states and many more are assessing their situation.",
+          "content": "Almost 74% of Maharashtra a state in India was declared drought-hit in September after a very dry monsoon season. To manage water supplies the state has ordered local authorities to reduce water use by 10% from October 16. The state is also encouraging the reuse of treated wastewater for non-drinking purposes like gardening and construction. Currently only 57% of the state's wastewater is treated and just 17% is reused which is a problem because untreated wastewater is polluting rivers and lakes.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-2",
-          "title": "Heavy Rain Hits Northern India, Snowfall Expected in Higher Himalayan Peaks",
-          "image": "https://images.pexels.com/photos/32261655/pexels-photo-32261655.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Uttarakhand, India",
+          "title": "India's species conservation efforts yield positive results globally.",
+          "image": "https://images.pexels.com/photos/35975451/pexels-photo-35975451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "India",
           "time": "Oct 09, 2026",
-          "content": "Heavy rain hit Uttarakhand Himachal Pradesh and Jammu and Kashmir with strong winds. Higher Himalayan peaks might see snowfall. Other areas got warnings for heavy rain thunderstorms lightning and strong winds. Delhi-NCR had cooler mornings and nights but hot days with possible thunderstorms and showers. Punjab Haryana and western Uttar Pradesh might see thunderstorms lightning and strong winds.",
+          "content": "Wildlife populations worldwide have decreased by 73% over the past 50 years but India has seen an increase in several major species. According to a report by the World Wide Fund for Nature and the Zoological Society of London India has made progress in conserving species like tigers greater one-horned rhinoceroses and Asiatic lions. The report also notes that freshwater wildlife populations have experienced the steepest decline at 85% while marine populations have declined by 59%. India's conservation efforts have been successful with populations of these species increasing.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-3",
-          "title": "Maharashtra declares 74% of talukas drought-hit due to dry monsoon season",
-          "image": "https://images.pexels.com/photos/4672037/pexels-photo-4672037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Mumbai, India",
+          "title": "Heavy Rain Hits North India, Snowfall Expected in Higher Himalayan Peaks",
+          "image": "https://images.pexels.com/photos/28111549/pexels-photo-28111549.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Uttarakhand, India",
           "time": "Oct 09, 2026",
-          "content": "Maharashtra a state in India has declared around 265 talukas or about 74% as drought-hit due to a very dry monsoon season. To manage water scarcity the government has ordered a 10% water cut starting October 16. The state is also focusing on reusing treated wastewater for non-potable purposes like irrigation and industry. Currently only 57% of the state's sewage is treated and 17% of wastewater is reused which contributes to pollution in rivers and lakes.",
+          "content": "Heavy rain hit Uttarakhand Himachal Pradesh and Jammu and Kashmir with strong winds and snowfall expected on higher Himalayan peaks. Other areas like Kerala Tamil Nadu West Bengal and Sikkim are under alert for heavy rainfall thunderstorms lightning and gusty winds. In Delhi-NCR mornings and nights are cooler but days are still hot with isolated thunderstorms and showers possible. Punjab Haryana and western Uttar Pradesh might see thunderstorms lightning and strong winds prompting cautionary alerts. Meanwhile the southwest monsoon withdrawal is moving across India signaling changing weather patterns and the arrival of cooler conditions.",
           "theme": "#E7F4EF"
         }
       ]
@@ -169,29 +169,29 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "BBC Cuts Shows to Save £500m and Shift Focus to Digital",
-          "image": "https://images.pexels.com/photos/30675763/pexels-photo-30675763.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
+          "title": "EbonyLife Place Opens in London, Showcasing African Cinema and Culture",
+          "image": "https://images.unsplash.com/photo-1787779325315-6a4c670b66f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QWZyaWNhbiUyMGRpYXNwb3JhfGVufDF8MHx8fDE3OTE1MjAxODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London",
           "time": "Oct 09, 2026",
-          "content": "The BBC is making changes to its Radio 4 programming to save £500m. The corporation will be cutting a number of shows including You and Yours Thinking Allowed and Free Thinking as well as reducing commissioning on its schedule and podcasts. However the BBC is also investing in new consumer and ideas programmes. The changes aim to focus investment on the BBC's digital platforms and reach more people beyond its own channels.",
+          "content": "A new cultural centre EbonyLife Place has opened in south-west London. It's a place where people can go to watch great movies learn about black and African cinema and enjoy food art and performances. The centre was founded by Mo Abudu a Nigerian media mogul and will show films from Nigeria and other African countries. It will also have masterclasses industry panels and live performances. The Mayor of London Lord Khan attended the opening and said that London is a great place for filming and that culture is important.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-2",
-          "title": "Play Explores Challenges Faced by Men in Retirement, Tackles Mental Health",
-          "image": "https://images.pexels.com/photos/2691313/pexels-photo-2691313.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Belfast, Northern Ireland",
+          "title": "BBC Announces Radio 4 Program Cuts to Save £500m",
+          "image": "https://images.unsplash.com/photo-1627667049477-ab537001a426?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8cmFkaW8lMjBzdHVkaW98ZW58MXwwfHx8MTc5MTQ3MDM1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
           "time": "Oct 09, 2026",
-          "content": "A new play called The Corner Man explores the challenges men face when they retire from their sport or job using the story of a former boxer as an example. The play's writer and producer Cathal J Ferris was inspired by his own experiences with boxing and conversations with former fighters. The story looks at how men can lose their sense of purpose and struggle to talk about their mental health. Ferris wants the play to show that it's okay for men to open up and seek support from each other as it's an important part of dealing with life's changes.",
+          "content": "The BBC has announced it will cut several Radio 4 programmes including You and Yours and Thinking Allowed to make £500m savings. The corporation will also reduce commissioning on Radio 5 Live and podcasts. Despite these cuts the BBC will invest in a new consumer programme and two new weekly shows exploring ideas and technology. Radio 4's flagship show In Our Time will expand in length while Start the Week and Farming Today will also grow.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-3",
-          "title": "Gaten Matarazzo stars in London's West End production of Rent.",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Gaten_Matarazzo.jpg/500px-Gaten_Matarazzo.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "London",
+          "title": "Wycombe Wanderers gets new anthem from indie-folk band Kingfishr",
+          "image": "https://images.pexels.com/photos/36451123/pexels-photo-36451123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Adams Park, England",
           "time": "Oct 09, 2026",
-          "content": "Gaten Matarazzo known for his role as Dustin Henderson in Stranger Things has started a new job on London's West End playing Mark in the rock musical Rent. He says that not having to worry about getting every take right on stage is a relief unlike filming TV shows where you can have up to 30 takes. Matarazzo has a lot of experience in stage shows having performed on Broadway as a child and enjoys the structured schedule that comes with it. He's currently playing Mark a struggling filmmaker in Rent which explores the lives of young artists and friends living in 1980s and 1990s New York during the HIV/AIDS crisis.",
+          "content": "A 16-year-old video game a music band and a football team unexpectedly came together. The indie-folk band Kingfishr wrote a song for Wycombe Wanderers a League One football team after adopting them in the video game Fifa 11. The song gained popularity on TikTok with over 190000 views and the band's lead singer Eddie Keogh attended a Wycombe Wanderers game was presented with a club shirt and even got to play the song over the stadium's speakers. The team and fans are excited about the new anthem and the band is welcome to return to the stadium anytime.",
           "theme": "#F3ECF7"
         }
       ]
@@ -206,29 +206,29 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Alberta to Hold Referendum on Independence or Staying in Canada",
-          "image": "https://images.unsplash.com/photo-1611437204174-15ccda5a330d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8d2VzdGVybiUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzkxNDg1MjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Alberta",
+          "title": "UK watchdog investigates surge in \"robo calls\" amid suspected recruitment scam",
+          "image": "https://images.unsplash.com/photo-1674544362969-a4269ef0ea69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8cm9ibyUyMGNhbGxzfGVufDF8MHx8fDE3OTE1MTk5OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "UK",
           "time": "Oct 09, 2026",
-          "content": "Alberta a western Canadian province is set to hold a referendum on October 19th giving residents two options stay in Canada or move ahead with a formal binding referendum on independence at a later date. The vote's outcome could be crucial with some arguing that Alberta's economy would thrive independently while others predict significant costs and uncertainty.",
+          "content": "The UK's data watchdog the Information Commission's Office is investigating a big increase in complaints about \"robo calls\" that are suspected to be part of a recruitment scam. These calls ask you to add the caller to WhatsApp and the ICO thinks millions of people are getting these calls. They advise people to ignore calls from numbers they don't recognize and to block and report suspicious calls. The calls usually come from a UK mobile number but the ICO thinks the calls are actually coming from abroad.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-2",
-          "title": "Tui Apologises for River Cruise Changes Due to Low Danube Water Levels",
-          "image": "https://images.pexels.com/photos/28965079/pexels-photo-28965079.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Vienna",
+          "title": "Asos Reports Data Breach, Hackers Access User Profiles",
+          "image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8b25saW5lJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc5MTUyMDA2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
           "time": "Oct 09, 2026",
-          "content": "Passengers who paid thousands of pounds for European river cruises with Tui were left angry after their itineraries changed involving hours spent on coach trips instead. Tui apologised blaming low water levels on the Danube and offered no refund. Passengers including Richard Pearson Sue Crosby and David Mallon described their disappointment feeling they were not getting the river cruise experience they booked. They spent a significant amount of time on coach trips and the scenery was missed.",
+          "content": "Asos told customers that hackers have detailed profiles of potentially millions of users. The hackers have names addresses phone numbers emails customer numbers and dates of birth. They also have search data like \"reclaimed vintage\" and \"Asos petite\". Asos said no bank details or passwords were stolen but customers are warned about potential impersonation scams. The company is still investigating the data breach and will contact customers if more information is needed.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-3",
-          "title": "Chrysler Building gets $235 million makeover with art deco restoration",
-          "image": "https://images.unsplash.com/photo-1473743032878-e1cb0ef6dde9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q2hyeXNsZXIlMjBCdWlsZGluZ3xlbnwxfDB8fHwxNzkxNDg1MzYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York",
+          "title": "Chrysler Building Gets $235 Million Makeover",
+          "image": "https://images.pexels.com/photos/34683721/pexels-photo-34683721.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "New York, USA",
           "time": "Oct 09, 2026",
-          "content": "The Chrysler Building a famous high-rise in Manhattan is getting a major makeover. The building's owner Cooper Union is selling the lease to developer Tishman Speyer which will spend $235 million to restore the building's art deco crown and facade. The renovation will also upgrade the building's mechanical systems and add a new lounge on the 61st floor.",
+          "content": "The Chrysler Building in Manhattan is getting a major makeover. The 77-storey skyscraper will have its Art Deco crown polished and its facade restored. The building's 61st floor which has giant eagle gargoyles will also get an upscale lounge. The renovation will cost $235 million and is being led by developer Tishman Speyer. The company plans to use most of the building for office space which is in high demand in the area.",
           "theme": "#F7F1DE"
         }
       ]
