@@ -60,533 +60,193 @@ class ArticleAnalyzer:
         category = article.get("category", "")
 
         prompt = f"""
-You are the senior public-interest news editor for Todards,
-a global news service.
+You are Todards' senior news editor.
 
-Todards does NOT want to publish every piece of news.
+TASK
+Decide whether this article deserves publication on Todards, then score
+its public importance.
 
-The goal is to identify a small number of genuinely meaningful
-stories that ordinary people should know about.
+EDITORIAL STANDARD
 
-Your task has TWO DISTINCT PARTS:
-
-PART 1:
-Determine whether this article is editorially worthy of inclusion
-in Todards.
-
-PART 2:
-If it is worthy, evaluate its public importance and provide
-structured importance signals.
-
-TODARDS EDITORIAL PRIORITY — STRICT RULES
-
-Todards is a global public-interest news digest. Its priority is to help ordinary readers, especially readers in India, understand major developments affecting the world and their lives.
+Todards publishes a small number of substantive stories that help ordinary
+people understand important developments.
 
 PRIORITIZE:
+- Major economic or financial developments affecting prices, jobs, trade,
+  markets or stability.
+- Major scientific, technological, climate or environmental developments.
+- Major wars, conflicts, disasters, terrorist attacks or public emergencies.
+- Major elections, government decisions, policies or geopolitical changes.
+- Major international developments with meaningful consequences for India.
+- Major developments affecting public health, safety, infrastructure or
+  essential services.
+- Historically significant or genuinely consequential events.
 
-1. Major global economic developments, including recession warnings, inflation, financial instability, trade restrictions and major market disruptions.
-2. Major climate reports, environmental changes, scientific discoveries and technological developments with meaningful consequences.
-3. G20 decisions, international agreements, geopolitical changes, wars and major diplomatic developments.
-4. International developments with clear implications for India, including effects on consumers, jobs, trade, technology, energy, security or public policy.
-5. Major terrorist attacks, disasters, conflicts and public emergencies with substantial consequences.
-6. Major government policies, elections and decisions that significantly affect people's lives.
+REJECT:
+- Personal tragedies, deaths, accidents, drownings or crimes without
+  wider public consequences.
+- Routine local incidents.
+- Celebrity/influencer/entertainment news without major significance.
+- Minor company, product, business or organizational announcements.
+- Routine scientific research or incremental technology updates.
+- Minor sports results or awards.
+- Rumors, speculation, clickbait or unsupported claims.
+- Repetitive coverage with no meaningful new development.
 
-GENERALLY REJECT:
+CONTENT FILTER
 
-1. Personal tragedies, individual deaths, suicides, drownings, accidents or crimes that have no substantial wider public consequence.
-2. Local incidents whose importance is primarily limited to the people directly involved or their immediate community.
-3. Human-interest stories that are emotionally compelling but offer little broader public-interest information.
-4. Routine celebrity or personal news, gossip, isolated incidents and minor local developments.
+Todards wants NEWS, not generic editorial content.
 
-IMPORTANT DISTINCTION:
+Normally reject:
+- "5 things you need to know..."
+- "10 things to watch..."
+- "Here's your Sunday..."
+- "Morning/Daily/Weekly briefing"
+- "What happened this week..."
+- "What to expect this week..."
+- "Things you missed..."
+- "Everything you need to know..."
+- "Top stories of the day/week"
+- Roundups, listicles or compilations of minor/unrelated stories.
+- Lifestyle, advice or generic informational articles.
+- Opinion/commentary without a significant new factual development.
+- Promotional, sponsored or branded content.
 
-A high death toll, emotional story, unusual incident or dramatic headline does not automatically make an article a high-priority story.
+CORE TEST
 
-An individual incident may qualify if it reveals a significant public-safety failure, a wider threat, a major policy issue or a broader pattern supported by evidence.
+The article should contain ONE identifiable news development, event,
+decision, discovery, report, risk or change.
 
-Do not reject an important story merely because it concerns another country. Global economic, scientific, climate, geopolitical and security developments can be highly relevant to Indian readers.
-
-For every article, judge its actual consequences, scale, wider relevance and information value. Do not infer wider significance that the article does not establish.
-
-When in doubt about an ordinary personal incident with no demonstrated wider consequence, set publishable=false.
-
-============================================================
-PART 1 — EDITORIAL ELIGIBILITY
-============================================================
-
-First determine:
-
-"Does this article contain meaningful information that the public
-would genuinely benefit from knowing?"
-
-Todards is NOT:
-
-- a general news dump
-- a celebrity-news website
-- a press-release aggregator
-- a social-media trend aggregator
-- an entertainment gossip site
-- a clickbait website
-
-A story should be publishable when it represents a meaningful
-development with real public consequence, significance,
-information value, or exceptional importance.
-
-============================================================
-HARD PUBLISHABILITY TEST
-============================================================
-
-Ask yourself:
-
-"If Todards can publish only a small number of stories today,
-would removing this article make readers meaningfully less
-informed about important events?"
-
-If YES:
-    publishable = true
+Ask:
+"Is there a specific consequential development being reported?"
 
 If NO:
     publishable = false
 
-Be selective.
+Do not infer importance from popularity, emotion, unusualness, headline
+drama, length, number of facts, or casualty count alone.
 
-Do NOT mark an article publishable merely because it is:
+A local or single-company story may qualify only when the article itself
+provides evidence of significant wider consequences.
 
-- interesting
-- unusual
-- popular
-- trending
-- viral
-- controversial
-- entertaining
-- involving a famous person
-- widely reported
-- emotionally engaging
-- visually interesting
-- new
-- technically impressive
+Do not reject a list/briefing-style headline automatically if the underlying
+article contains a genuinely major development. Judge the actual content.
 
-============================================================
-GENERALLY REJECT THESE
-============================================================
+EVIDENCE RULE
 
-The following should normally be considered NOT publishable
-unless there is an exceptional wider consequence:
+Use ONLY information supported by the title and article.
 
-1. Celebrity gossip
+Never:
+- invent facts
+- invent consequences
+- exaggerate scale
+- assume future impact
+- treat speculation as fact
 
-2. Influencer activity
+EVENT FLAGS must be TRUE only when explicitly supported by the article.
 
-3. Social-media trends
+EDITORIAL DECISION
 
-4. Promotional content
+If excluding this article would leave readers meaningfully less informed
+about an important development:
+    publishable = true
 
-5. Advertising
+Otherwise:
+    publishable = false
 
-6. Product marketing
+When uncertain, prefer rejecting ordinary, local, personal or generic
+content over filling Todards with mediocre stories.
 
-7. Routine product announcements
-
-8. Routine corporate announcements
-
-9. Minor company updates
-
-10. Minor business deals with no broader consequence
-
-11. Routine earnings announcements without major implications
-
-12. Minor political statements with no meaningful consequence
-
-13. Politician comments that do not represent a meaningful
-    policy or political development
-
-14. Routine scientific publications
-
-15. Small or incremental research findings
-
-16. Minor technological updates
-
-17. Minor software releases
-
-18. Minor sports results
-
-19. Routine entertainment releases
-
-20. Minor awards
-
-21. Minor appointments
-
-22. Routine organizational announcements
-
-23. Rumors
-
-24. Speculation without meaningful evidence
-
-25. Clickbait
-
-26. Opinion presented as news
-
-27. Stories with no meaningful new information
-
-28. Repackaged coverage of an already-known event with no
-    significant development
-
-29. Very narrow local stories with no wider consequence
-
-30. Human-interest stories that do not have meaningful
-    public significance
-
-============================================================
-IMPORTANT EXCEPTIONS
-============================================================
-
-Do NOT automatically reject an article simply because it:
-
-- affects a relatively small group
-- is local
-- is about one company
-- is scientific
-- is technological
-- is political
-- is sports-related
-- is entertainment-related
-
-A seemingly narrow story can still be important if its
-consequences are significant.
-
-Examples:
-
-
-A scientific discovery involving a small research team but
-with major future implications:
-    potentially publishable.
-
-A technology development from one company that changes
-an important industry:
-    potentially publishable.
-
-A major sports achievement with genuine historical significance:
-    potentially publishable.
-
-A major cultural event with substantial international significance:
-    potentially publishable.
-
-============================================================
-WHAT MAKES A STORY PUBLISHABLE?
-============================================================
-
-Strong positive signals include:
-
-- Significant consequences for public life, safety, health, or essential services.
-- Major government decisions, elections, and political or geopolitical developments.
-- Wars, major conflicts, terrorist attacks, and large-scale disasters.
-- Major economic and financial developments affecting prices, jobs, income, trade, or stability.
-- Important scientific, technological, environmental, or infrastructure developments.
-- Historically significant or unprecedented events with substantial national or international consequences.
-
-============================================================
-PART 2 — PUBLIC INTEREST ANALYSIS
-============================================================
-
-If the article is publishable, evaluate its importance.
-
-If it is NOT publishable, still provide reasonable scores,
-but keep the scores conservative.
-
-Do NOT inflate scores merely because the article is interesting.
-
-============================================================
-PUBLIC-INTEREST QUESTIONS
-============================================================
-
-Consider:
-
-1. WHO is affected?
-
-2. HOW MANY people are affected?
-
-3. HOW seriously are they affected?
-
-4. DOES this affect ordinary people's lives?
-
-5. DOES the public need to know this?
-
-6. Could people reasonably need to:
-
-   - worry
-   - prepare
-   - change a decision
-   - change plans
-   - change behavior
-   - pay attention
-
-   because of this development?
-
-7. How immediate is the consequence?
-
-8. How long-lasting could the consequence be?
-
-9. Is the consequence:
-
-   - local
-   - national
-   - regional
-   - global
-
-10. If this article disappeared from today's news,
-    would readers meaningfully lose important information?
-
-============================================================
 SCORING
-============================================================
 
-Use integers from 0 to 100.
+Use integers from 0-100.
+
+everyday_impact        = effect on ordinary people's lives
+public_impact          = overall public impact
+public_need_to_know    = how strongly people need this information
+public_concern         = how strongly people should pay attention/prepare
+human_consequence      = seriousness of human consequences
+economic_impact        = effect on prices, jobs, income, trade or markets
+political_significance = importance of political/government development
+health_significance    = public-health importance
+scientific_significance= scientific importance
+technology_significance= technological importance
+global_reach           = geographical scale
+urgency                = how quickly people need to know
+remarkability          = historical/unprecedented significance
+editorial_relevance    = overall justification for publication
+
+editorial_relevance is NOT popularity, virality or click potential.
+
+SEVERITY:
+1 = minor/routine
+2 = notable but limited
+3 = significant public-interest story
+4 = major national/international event
+5 = exceptional event with enormous consequences
+
+Use 4 or 5 only when the article provides clear evidence of major impact.
+
+CONSISTENCY
+
+If publishable = false:
+- editorial_relevance should normally be below 50
+- rejection_reason must briefly explain why it does not qualify
+
+If publishable = true:
+- rejection_reason must be ""
+- reason must state the main public consequence in one sentence
 
-everyday_impact:
-How strongly does this affect ordinary people's daily lives?
-
-public_impact:
-How strongly does this affect the public as a whole?
-
-public_need_to_know:
-How strongly does the public need to know this?
-
-public_concern:
-How strongly should an ordinary person reasonably pay attention,
-prepare, worry, or reconsider something?
-
-human_consequence:
-How serious are the consequences for human beings?
-
-economic_impact:
-Impact on prices, jobs, income, businesses, markets,
-trade, financial stability, or economic conditions.
-
-political_significance:
-Importance of the political or governmental development.
-
-health_significance:
-Importance to public health or human wellbeing.
-
-scientific_significance:
-Importance of the scientific discovery or development.
-
-technology_significance:
-Importance of the technological development.
-
-global_reach:
-Geographical scale of the consequences.
-
-urgency:
-How quickly does the public need to know about this?
-
-remarkability:
-How extraordinary, historic, unprecedented, or unusual
-is the event?
-
-editorial_relevance:
-How strongly does this article deserve a place
-in Todards itself.
-
-This is NOT popularity.
-
-This is NOT click potential.
-
-This is NOT entertainment value.
-
-This is NOT how interesting the article is.
-
-It represents the strength of the article's editorial
-justification for publication.
-
-============================================================
-SEVERITY
-============================================================
-
-severity_tier:
-
-1 = Minor / routine news
-
-2 = Notable but limited public importance
-
-3 = Significant public-interest story
-
-4 = Major national or international event
-
-5 = Exceptional event with enormous public consequences
-
-IMPORTANT:
-
-Do not assign severity 4 or 5 merely because the headline
-sounds dramatic.
-
-The article must contain evidence of genuinely major
-consequences.
-
-============================================================
-EVENT FLAGS
-============================================================
-
-Set event flags to TRUE only when clearly supported by the article.
-
-major_disaster:
-Major natural or human-caused disaster.
-
-mass_casualties:
-Large number of deaths or injuries.
-
-pandemic:
-Major infectious disease outbreak or pandemic-level development.
-
-election:
-Major election, election result, or major election development.
-
-major_political_change:
-Major government, leadership, constitutional, policy,
-or political-system change.
-
-major_economic_event:
-Major economic development with broad consequences.
-
-major_award:
-Major internationally significant award.
-
-celebrity_death:
-Death of a genuinely globally significant public figure.
-
-record_breaking:
-Genuinely significant record or first-of-its-kind achievement.
-
-unprecedented_event:
-Event that is genuinely extraordinary or historically unusual.
-
-major_scientific_discovery:
-Scientific discovery with substantial significance.
-
-major_technology_event:
-Major technological development with broad consequences.
-
-============================================================
-EDITORIAL DECISION RULE
-============================================================
-
-You MUST explicitly decide:
-
-publishable = true
-OR
-publishable = false
-
-If publishable is false:
-
-editorial_relevance should generally be below 50.
-
-Provide a short rejection_reason.
-
-Examples:
-
-"Routine corporate announcement with no significant public consequence."
-
-"Minor sports result with no broader significance."
-
-"Celebrity activity with primarily entertainment value."
-
-"Routine scientific publication with limited public consequence."
-
-"Promotional product announcement rather than meaningful news."
-
-"Repetitive coverage containing no significant new development."
-
-If publishable is true:
-
-rejection_reason should be an empty string.
-
-============================================================
-IMPORTANT
-============================================================
-
-Do not reject a story merely because it is not globally important.
-
-Do not require millions of people to be directly affected.
-
-Consider significance, consequence, information value,
-urgency and potential impact together.
-
-However, be conservative.
-
-Todards would rather publish fewer genuinely important stories
-than fill its limited slots with mediocre or irrelevant news.
-
-============================================================
 ARTICLE
-============================================================
 
-Category:
-{category}
+Category: {category}
 
-TITLE:
-{title}
+Title: {title}
 
-ARTICLE:
+Content:
 {content}
 
-============================================================
 OUTPUT
-============================================================
 
-Return ONLY valid JSON.
-
-Return exactly this structure:
+Return ONLY valid JSON. No markdown or explanation.
 
 {{
-    "editorial_relevance": 0,
-    "publishable": false,
-    "rejection_reason": "",
-
-    "everyday_impact": 0,
-    "public_impact": 0,
-    "public_need_to_know": 0,
-    "public_concern": 0,
-
-    "human_consequence": 0,
-    "economic_impact": 0,
-    "political_significance": 0,
-    "health_significance": 0,
-    "scientific_significance": 0,
-    "technology_significance": 0,
-
-    "global_reach": 0,
-    "urgency": 0,
-    "remarkability": 0,
-
-    "severity_tier": 1,
-
-    "events": {{
-        "major_disaster": false,
-        "mass_casualties": false,
-        "pandemic": false,
-        "election": false,
-        "major_political_change": false,
-        "major_economic_event": false,
-        "major_award": false,
-        "celebrity_death": false,
-        "record_breaking": false,
-        "unprecedented_event": false,
-        "major_scientific_discovery": false,
-        "major_technology_event": false
-    }},
-
-    "reason": ""
+  "editorial_relevance": 0,
+  "publishable": false,
+  "rejection_reason": "",
+  "everyday_impact": 0,
+  "public_impact": 0,
+  "public_need_to_know": 0,
+  "public_concern": 0,
+  "human_consequence": 0,
+  "economic_impact": 0,
+  "political_significance": 0,
+  "health_significance": 0,
+  "scientific_significance": 0,
+  "technology_significance": 0,
+  "global_reach": 0,
+  "urgency": 0,
+  "remarkability": 0,
+  "severity_tier": 1,
+  "events": {{
+    "major_disaster": false,
+    "mass_casualties": false,
+    "pandemic": false,
+    "election": false,
+    "major_political_change": false,
+    "major_economic_event": false,
+    "major_award": false,
+    "celebrity_death": false,
+    "record_breaking": false,
+    "unprecedented_event": false,
+    "major_scientific_discovery": false,
+    "major_technology_event": false
+  }},
+  "reason": ""
 }}
 
-The reason must be ONE short sentence explaining the
-PUBLIC CONSEQUENCE of the event.
-
-If publishable is false, the rejection_reason must explain
-why the article does not deserve inclusion.
-
-Do not explain why the article is interesting.
-
-Explain why the PUBLIC should or should not care.
+Every value must be supported by the article.
+Do not fabricate missing information.
 """
 
         return prompt

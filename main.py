@@ -64,6 +64,11 @@ from webscrape.environment_scrapper import EnvironmentDataScrapper
 from webscrape.economy_scrapper import EconomicsDataScrapper
 from webscrape.entertainment_scrapper import EntertainmentDataScrapper
 
+# Guardrails
+
+from backend.main_guardrails.article_guard import ArticleSafetyGuard
+from backend.main_guardrails.image_guard import ImageSafetyGuard
+
 from notifications.send_report_email import send_daily_report
 
 logger = setup_logger("todards")
@@ -190,6 +195,7 @@ def main():
     # ------------------------------------------------------------
     metrics.start_stage("guardrails")
     apply_guardrails(metrics, progress, data_paths, ollama_client)
+    ArticleSafetyGuard(ollama_client).run(data_paths)
     metrics.end_stage("guardrails")
 
     # ------------------------------------------------------------
@@ -290,6 +296,7 @@ def main():
                     stage_name=display_cat,
                 )
                 combined_output.extend(cat_output)
+                combined_output = ImageSafetyGuard().run(combined_output)
                 logger.info(f"Processed {len(cat_output)} articles for {display_cat}.")
             except Exception as e:
                 logger.error(f"Processing failed for category {display_cat}: {e}")
@@ -358,6 +365,7 @@ def main():
             existing_card["place"] = new_card["place"]
             existing_card["time"] = new_card["time"]
             existing_card["content"] = new_card["content"]
+            existing_card["source"] = new_card["source"]
 
         updated_sections_count += 1
 

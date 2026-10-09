@@ -122,7 +122,51 @@ CATEGORY DEFINITIONS:
   startups, finance, banking, inflation, interest rates,
   trade, employment, labor markets, central banks and economic policy.
 
+CONTENT TYPE FILTER
 
+Todards should publish substantive news, not generic editorial or content
+formats.
+
+REJECT articles that are primarily:
+
+- "5 things you need to know..."
+- "10 things to watch..."
+- "Here's your Sunday..."
+- "Your Monday/weekly briefing..."
+- "What happened this week..."
+- "What to expect this week..."
+- "Morning briefing" or "daily briefing"
+- "Weekend roundup" or "weekly roundup"
+- "Top stories of the day/week"
+- "Things you missed..."
+- "Everything you need to know..."
+- "What you need to know..."
+- "Explained" articles that contain no meaningful new development
+- Generic listicles or compilation articles
+- Opinion, analysis or commentary without a new factual development
+- Lifestyle, tips, advice or generic informational articles
+- Articles mainly summarizing several unrelated minor stories
+- Promotional, sponsored or branded content
+
+The article must contain a SPECIFIC NEWS DEVELOPMENT, EVENT, DECISION,
+DISCOVERY, REPORT, or CHANGE that is important enough to justify
+publication.
+
+A useful test:
+
+"Can I identify one specific consequential development being reported?"
+
+If NO:
+    publishable = false
+
+Do not publish an article merely because it contains many facts or
+summarizes several stories.
+
+IMPORTANT:
+A headline format alone is not sufficient reason to reject an article.
+If a list/roundup contains a genuinely major development, evaluate the
+underlying news. However, generic listicles, briefings and roundups should
+normally be rejected.
  
 
 CURRENT CATEGORY:
