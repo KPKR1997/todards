@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 30",
+    "issue": "Issue No. 31",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,30 +21,33 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Russian attack kills 30 in Ukraine's Kramatorsk, many wounded",
-          "image": "https://images.unsplash.com/photo-1588450248442-1c8357368dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8UnVzc2lhbiUyMGFybXl8ZW58MXwwfHx8MTc5MTUyODcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Kramatorsk, Ukraine",
+          "title": "Violent protests erupt in Johannesburg and Durban over immigration ruling.",
+          "image": "https://images.unsplash.com/photo-1622720110672-0049390839c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U291dGglMjBBZnJpY2FuJTIwcHJvdGVzdHN8ZW58MXwwfHx8MTc5MTU2MzMwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "South Africa",
           "time": "Oct 09, 2026",
-          "content": "At least 30 people were killed and 18 others wounded in a Russian glide bomb attack on two civilian buses in the eastern Ukrainian city of Kramatorsk. The buses were carrying passengers to nearby Slovyansk which is part of a \"fortress belt\" that Moscow is trying to seize. Ukrainian President Volodymyr Zelensky called the attack a \"horrific crime\" and vowed that Ukraine would respond. Russia has not commented on the attack which is the latest in a surge of Russian attacks across Ukraine that have caused a dramatic increase in civilian casualties.",
-          "theme": "#F7ECEE"
+          "content": "Violent protests broke out in South Africa's major cities Johannesburg and Durban as anti-immigration demonstrations turned violent. At least 24 vehicles were set ablaze and foreign-owned shops were looted. The violence was sparked by a court ruling allowing some migrants to apply for asylum and concerns over undocumented migration.",
+          "theme": "#F7ECEE",
+          "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Ukrainians Face Harsh Winter Amid Intensified Russian Attacks and Cold Weather",
-          "image": "https://images.unsplash.com/photo-1453306458620-5bbef13a5bca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8d2ludGVyfGVufDF8MHx8fDE3OTE1Mjg4MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Ukrainians prepare for tough winter amid Russian attacks and power cuts",
+          "image": "https://images.pexels.com/photos/16847951/pexels-photo-16847951.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Kyiv, Ukraine",
           "time": "Oct 09, 2026",
-          "content": "Ukrainians are worried about the coming winter as Russia's attacks on cities intensify. The combination of Russian drone and missile strikes and the cold weather is making life difficult. Many people like Mariia Shostak are leaving Ukraine to find a safer place to spend the winter especially families with young children. Some people are choosing to stay in Ukraine and find ways to survive like Olena Konoplia who moved to a rural community to escape the danger and chaos of Kyiv.",
-          "theme": "#F7ECEE"
+          "content": "As Russia's attacks on Ukraine's cities intensify Ukrainians are preparing for another tough winter. With Russian drone and missile strikes and prolonged power cuts many people are worried about the cold and the danger. Some like Mariia Shostak are already making plans to leave the capital Kyiv and move abroad to escape the war. Others like Olena Konoplia are choosing to move to the countryside where they can find peace and quiet. The authorities are trying to help by setting up emergency power plants and providing support for vulnerable citizens. But many Ukrainians are still struggling to make ends meet and some are even talking about leaving the country altogether.",
+          "theme": "#F7ECEE",
+          "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Trump Delays Iran Strikes Until After Midterm Elections",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/500px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Washington, USA",
+          "title": "Ukrainian Officer Claims Military Intelligence Authorized Monaco Bomb Attack",
+          "image": "https://images.unsplash.com/photo-1777824492916-37737786e595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8S3lpdiUyMGhlYWRxdWFydGVyc3xlbnwxfDB8fHwxNzkxNTYzNDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kyiv",
           "time": "Oct 09, 2026",
-          "content": "President Donald Trump has announced that he won't attack Iran again before the midterm elections suggesting that he's aware of the war's negative impact on his party's candidates. The war has caused high gasoline and diesel prices which are a major concern for many Americans. Trump's statement comes as Democrats are gaining ground in the polls and some Republicans are worried that the war will hurt their chances in November. Trump's blockade of Iran's oil exports has reduced the country's economy but Iran has continued to obstruct oil supplies causing prices to remain high. The war has been a major issue in the campaign with many voters blaming Trump's policies for the high prices.",
-          "theme": "#F7ECEE"
+          "content": "A former Ukrainian security officer Vitalii Zhykovych says he believed a bomb attack in Monaco that hurt a businessman and his family was authorized by senior members of Ukraine's military intelligence agency. The businessman Vadym Yermolayev and his family were badly hurt in the blast. Zhykovych claims he was a freelancer for Ukraine's SBU security service and had nothing to do with the attack. He says Anastasia Berezovska the woman who planted the bomb was his agent and that she was not fully trained. Zhykovych also claims that another HUR officer Vladyslav Reut was involved and that Reut had proposed the operation.",
+          "theme": "#F7ECEE",
+          "source": "BBC"
         }
       ]
     },
@@ -58,30 +61,33 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Nasdaq CEO Suggests Tokenization Could Unlock Global Financial System Assets",
-          "image": "https://images.unsplash.com/photo-1723095469034-c3cf31e32730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGlnaXRhbCUyMGFnZW50fGVufDF8MHx8fDE3OTE1Mjg1MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Singapore",
+          "title": "SpaceX Acquires Wireless Spectrum to Boost Starlink Services",
+          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U3BhY2VYfGVufDF8MHx8fDE3OTE1NjMxMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
           "time": "Oct 09, 2026",
-          "content": "Nasdaq CEO Adena Friedman says tokenization could free up a lot of money tied up in assets used as collateral across the global financial system. Tokenizing assets like stocks and bonds and the flow of money could make it easier to use these assets as collateral. This could be a big deal especially for retail investors who have long wanted to trade at any time of day. To make this happen financial institutions would need to update their systems and risk management processes to work 24/7. Artificial intelligence could help with this transition.",
-          "theme": "#EBF2FA"
+          "content": "SpaceX bought a large chunk of wireless spectrum from Grain Management a deal that still needs approval from the Federal Communications Commission. This move helps SpaceX's Starlink service expand in the US market allowing it to compete more directly with major phone companies like AT&T and Verizon. The deal caused those companies' stocks to drop while SpaceX's stock went up.",
+          "theme": "#EBF2FA",
+          "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "Federal Reserve Hints at Interest Rate Hike Before Year's End",
-          "image": "https://images.unsplash.com/photo-1672870153618-b369bcc8c55d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZmluYW5jaWFsJTIwbmV3c3xlbnwxfDB8fHwxNzkxNTI4NTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington",
+          "title": "University gets £3.67 million for Yorkshire robotics hub to boost industry",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "Bradford, UK",
           "time": "Oct 09, 2026",
-          "content": "The Federal Reserve says it might raise interest rates again before the end of the year but didn't give a specific date. Meanwhile PepsiCo beat expectations but its profits are down due to struggles in North America. The company's CEO will talk to CNBC about its plans. Trump said he's no longer interested in a deal with Iran which caused oil prices to rise. He also signed an order allowing truckers to use off-road diesel on highways without paying federal taxes.",
-          "theme": "#EBF2FA"
+          "content": "A university in West Yorkshire has received £3.67 million to help companies use robotics technology. The Yorkshire Robotics Hub will help over 300 manufacturers adopt robotics and automation aiming to bridge the \"automation gap\". The project will create new jobs as more businesses use robots to increase efficiency. The UK currently has fewer robots per manufacturing employee than the global average so this hub will help the country catch up. The project will benefit the university by allowing it to work with local companies and improve research.",
+          "theme": "#EBF2FA",
+          "source": "British Broadcasting Company"
         },
         {
           "id": "t-3",
-          "title": "Yandex Data Center Hit by Drone Strike in Western Russia",
-          "image": "https://images.unsplash.com/photo-1788691177743-e194dc48db20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UnVzc2lhbiUyMHNlYXJjaCUyMGVuZ2luZXxlbnwxfDB8fHwxNzkxNTI4NjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Ryazan, Russia",
+          "title": "Scientists Solve 180-Year-Old Mystery of Sun's Impact on Early Electrical Technology",
+          "image": "https://images.unsplash.com/photo-1573399054516-90665ecc44be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmludGFnZSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5MTU2MzI1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Exeter, UK",
           "time": "Oct 09, 2026",
-          "content": "Russian internet giant Yandex stopped working at one of its key data centers in western Russia after a drone strike. The attack caused a fire at the data center in Sasovo Ryazan and affected some of Yandex's services. The company said the data center is no longer operating and some services may be unavailable. Thankfully there were no casualties and emergency services are dealing with the aftermath.",
-          "theme": "#EBF2FA"
+          "content": "Scientists have solved a 180-year-old mystery about how the sun's weather affected early electrical technology. They found that a train that left Exeter 16 minutes late in the mid-1800s actually happened in 1848 not 1841 as previously thought. This changes our understanding of when the sun's weather first affected human technology. The researchers used a combination of historical records newspapers and scientific observations to figure out what happened. They found that the train delay was likely caused by a solar storm disrupting the electrical system which was a major problem for the telegraph networks of the time.",
+          "theme": "#EBF2FA",
+          "source": "SciTechDaily"
         }
       ]
     },
@@ -132,21 +138,23 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Wildlife populations decline globally, but India sees increases in major species",
-          "image": "https://images.pexels.com/photos/35652350/pexels-photo-35652350.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Bengaluru, India",
+          "title": "El Niño to become strongest on record, impacting 2.6 billion.",
+          "image": "https://images.unsplash.com/photo-1553912561-8b49f7afce1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c2VhJTIwc3VyZmFjZSUyMHRlbXBlcmF0dXJlfGVufDF8MHx8fDE3OTE1NjM1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Geneva, Switzerland",
           "time": "Oct 09, 2026",
-          "content": "Wildlife populations worldwide have declined by 73% over the past five decades but India has seen increases in many major species according to a new report by the World Wide Fund for Nature. The report found that habitat loss and degradation are the main threats to wildlife populations but India has made progress in conservation efforts with populations of tigers rhinoceroses and other species rising.",
-          "theme": "#E7F4EF"
+          "content": "The ongoing El Niño event is expected to become the strongest on record since 1950. Right now sea surface temperatures in the Pacific Ocean are at record levels and experts predict that the event will peak around December. This could lead to unusually high temperatures for 2.6 billion people worldwide droughts in some parts of the world and extreme rainfall in others. The World Meteorological Organization says there's a high chance that El Niño will continue into spring.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "Maharashtra Hit by Severe Drought, 74% of State Declared Drought-Hit",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
-          "place": "Mumbai, India",
+          "title": "Wayanad's Cool Climate Warming Up 1.9°C Above Average",
+          "image": "https://images.pexels.com/photos/32486141/pexels-photo-32486141.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Kerala, India",
           "time": "Oct 09, 2026",
-          "content": "Maharashtra a state in western India has been hit by a severe drought. Almost 74% of the state around 265 talukas have been declared drought-hit after a very dry monsoon season. To manage the situation the government has ordered a 10% water cut starting October 16. Additionally the state is promoting the reuse of treated wastewater for various purposes such as gardening and industrial use.",
-          "theme": "#E7F4EF"
+          "content": "Wayanad in Kerala India is known for its cool and rainy climate but new data shows it's warming up. The Hume Centre for Ecology and Wildlife Biology has been tracking weather patterns in the area since 2024 and what they're recording is worrying. The average temperature in Wayanad was 29.2°C in September 2026 which is 1.9°C above the average for the previous three years. The heat is also causing soil temperatures to rise and rainfall is becoming less reliable. This change is affecting the local agriculture forests and settlements which were all shaped by the district's cool and wet climate.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth"
         },
         {
           "id": "env-3",
@@ -206,21 +214,23 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Trump Calls for Gas Price Relief, Offers Waivers and State Tax Cuts",
-          "image": "https://images.unsplash.com/photo-1611807527279-f6ac568cd4f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Z2Fzb2xpbmUlMjBwcmljZXN8ZW58MXwwfHx8MTc5MTUyOTA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "Musk Accuses Ambani of Blocking Starlink Launch in India",
+          "image": "https://images.pexels.com/photos/36676751/pexels-photo-36676751.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "India",
           "time": "Oct 09, 2026",
-          "content": "US President Donald Trump has been trying to reduce gasoline and diesel prices which have more than doubled since the US-Israel conflict with Iran began in February. He has made several announcements including a waiver on the use of red dye diesel and has called on states to cut their taxes on gasoline. Some of his moves have had a small effect in lowering prices but analysts say the only way to bring prices down is to resolve the geopolitical tensions that are causing the high prices.",
-          "theme": "#F7F1DE"
+          "content": "Elon Musk the CEO of SpaceX is questioning whether Mukesh Ambani a billionaire in India is blocking his satellite internet company Starlink from launching in the country. Musk accused powerful business interests of trying to block Starlink's entry into India and specifically named Ambani whose Reliance conglomerate owns Jio India's biggest mobile network operator. India has rejected Musk's allegations saying its satellite communications rules are fair and non-discriminatory.",
+          "theme": "#F7F1DE",
+          "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Solar Roofs Gain Momentum After Tesla's Departure",
-          "image": "https://images.unsplash.com/photo-1707247111552-aaf74241058b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c29sYXIlMjB0aWxlfGVufDF8MHx8fDE3OTE1MjkxNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Colorado, USA",
+          "title": "US Gas Prices Nearly Double After Iran Conflict",
+          "image": "https://images.pexels.com/photos/28037408/pexels-photo-28037408.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
           "time": "Oct 09, 2026",
-          "content": "A US company Solar Service of Colorado is handling solar roof maintenance and inspections. Some people dislike the look of solar panels but an alternative is solar roofs where tiles house solar cells looking similar to regular tiles. This is important for historic buildings where appearance changes are limited. Tesla's decision to stop offering solar roofs sent shockwaves through the industry but some see it as an opportunity for other companies like Freesuns to expand to the US. Solar roofs require collaboration among roofers solar installers and electricians and have unique challenges like repair costs and energy efficiency.",
-          "theme": "#F7F1DE"
+          "content": "Gas prices in the US have more than doubled since the US-Israel conflict with Iran started in February affecting many people. Ahead of the midterm elections there are growing calls for President Donald Trump to do more to reduce prices. Trump has made some announcements to try to get costs down but it's unclear if they will work. The main issue is that global oil supplies have been restricted since the conflict in the Middle East causing prices to remain high. Some experts think that even if the conflict is resolved it could take four to six months for production to return to normal.",
+          "theme": "#F7F1DE",
+          "source": "BBC"
         },
         {
           "id": "eb-3",

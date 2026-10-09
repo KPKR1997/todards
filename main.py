@@ -296,11 +296,11 @@ def main():
                     stage_name=display_cat,
                 )
                 combined_output.extend(cat_output)
-                combined_output = ImageSafetyGuard().run(combined_output)
+                
                 logger.info(f"Processed {len(cat_output)} articles for {display_cat}.")
             except Exception as e:
                 logger.error(f"Processing failed for category {display_cat}: {e}")
-
+    # combined_output = ImageSafetyGuard().run(combined_output)
     # ------------------------------------------------------------
     # 7. CROSS-ARTICLE IMAGE DEDUPLICATION PASS
     # ------------------------------------------------------------
