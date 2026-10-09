@@ -145,6 +145,10 @@ class ArticleAnalysisResponse(BaseModel):
         "",
         description="Reason the article should be rejected, if applicable."
     )
+    public_impact: int = Field(0, ge=0, le=100)
+    public_need_to_know: int = Field(0, ge=0, le=100)
+    public_concern: int = Field(0, ge=0, le=100)
+    technology_significance: int = Field(0, ge=0, le=100)
 
     @field_validator(
         "everyday_impact", "dont_miss", "human_consequence",

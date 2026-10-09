@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 27",
+    "issue": "Issue No. 28",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,29 +21,29 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Over 1400 killed in Gaza since October as Israeli strikes continue",
-          "image": "https://images.unsplash.com/photo-1660479643704-2acf8f98d8c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8R2F6YSUyMFN0cmlwfGVufDF8MHx8fDE3OTE1MTk1ODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Jerusalem",
+          "title": "Russian attack kills 30 in Ukraine's Kramatorsk, many wounded",
+          "image": "https://images.unsplash.com/photo-1588450248442-1c8357368dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8UnVzc2lhbiUyMGFybXl8ZW58MXwwfHx8MTc5MTUyODcyNnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kramatorsk, Ukraine",
           "time": "Oct 09, 2026",
-          "content": "More than 1400 people in Gaza have been killed in Israeli attacks since the ceasefire started last October. The ceasefire was meant to end the war but Israel has kept launching strikes in Gaza almost every day. The total death toll is now over 74000. Israel says it's targeting Hamas operatives but the Gaza health ministry's figures are considered reliable by the UN.",
+          "content": "At least 30 people were killed and 18 others wounded in a Russian glide bomb attack on two civilian buses in the eastern Ukrainian city of Kramatorsk. The buses were carrying passengers to nearby Slovyansk which is part of a \"fortress belt\" that Moscow is trying to seize. Ukrainian President Volodymyr Zelensky called the attack a \"horrific crime\" and vowed that Ukraine would respond. Russia has not commented on the attack which is the latest in a surge of Russian attacks across Ukraine that have caused a dramatic increase in civilian casualties.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-2",
-          "title": "Three Sisters Drown Off Brighton Amid Rough Seas",
-          "image": "https://images.pexels.com/photos/37153111/pexels-photo-37153111.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Brighton, UK",
+          "title": "Ukrainians Face Harsh Winter Amid Intensified Russian Attacks and Cold Weather",
+          "image": "https://images.unsplash.com/photo-1453306458620-5bbef13a5bca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8d2ludGVyfGVufDF8MHx8fDE3OTE1Mjg4MDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kyiv, Ukraine",
           "time": "Oct 09, 2026",
-          "content": "Three sisters Jane Christina and Rebecca who were all living in London took their own lives by drowning in the sea off Brighton. The coroner said they were living very private lives after their mother's death in 2010. The sisters visited the area where their mother died before going to Brighton where they drowned in rough sea conditions. Their father said it was heartbreaking to lose all three of his daughters.",
+          "content": "Ukrainians are worried about the coming winter as Russia's attacks on cities intensify. The combination of Russian drone and missile strikes and the cold weather is making life difficult. Many people like Mariia Shostak are leaving Ukraine to find a safer place to spend the winter especially families with young children. Some people are choosing to stay in Ukraine and find ways to survive like Olena Konoplia who moved to a rural community to escape the danger and chaos of Kyiv.",
           "theme": "#F7ECEE"
         },
         {
           "id": "pp-3",
-          "title": "Former Ukrainian Officer Accuses Military Intelligence of Monaco Bomb Plot",
-          "image": "https://images.unsplash.com/photo-1655456946098-a50949bd9e59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8VWtyYWluaWFuJTIwc2VjdXJpdHklMjBzZXJ2aWNlc3xlbnwxfDB8fHwxNzkxNTE5NzI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Kyiv, Ukraine",
+          "title": "Trump Delays Iran Strikes Until After Midterm Elections",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/500px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Washington, USA",
           "time": "Oct 09, 2026",
-          "content": "A former Ukrainian security officer Vitalii Zhykovych claims he believed a bomb attack in Monaco was ordered by senior members of Ukraine's military intelligence agency HUR. Zhykovych says he was a freelancer for the agency and had an agent Anastasia Berezovska who planted the bomb. He insists he did not send her to kill and did not kill her when her body was found with gunshot wounds. Zhykovych alleges that an active-duty intelligence officer from HUR Vladyslav Reut was behind the operation and communicated directly with Berezovska without Zhykovych's knowledge.",
+          "content": "President Donald Trump has announced that he won't attack Iran again before the midterm elections suggesting that he's aware of the war's negative impact on his party's candidates. The war has caused high gasoline and diesel prices which are a major concern for many Americans. Trump's statement comes as Democrats are gaining ground in the polls and some Republicans are worried that the war will hurt their chances in November. Trump's blockade of Iran's oil exports has reduced the country's economy but Iran has continued to obstruct oil supplies causing prices to remain high. The war has been a major issue in the campaign with many voters blaming Trump's policies for the high prices.",
           "theme": "#F7ECEE"
         }
       ]
@@ -58,29 +58,29 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "South Korea develops rover with shape-shifting wheels for moon exploration",
-          "image": "https://images.pexels.com/photos/8566532/pexels-photo-8566532.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Seoul, South Korea",
+          "title": "Nasdaq CEO Suggests Tokenization Could Unlock Global Financial System Assets",
+          "image": "https://images.unsplash.com/photo-1723095469034-c3cf31e32730?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGlnaXRhbCUyMGFnZW50fGVufDF8MHx8fDE3OTE1Mjg1MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Singapore",
           "time": "Oct 09, 2026",
-          "content": "Here is a summary of the news article\n\nSouth Korea is developing a rover with unique origami-inspired wheels that can change shape and adapt to the moon's surface. The wheels are made of flexible strips that interweave and can shrink to fit inside a lunar lander before expanding to navigate the moon's challenging terrain. The rover's developers hope to use it to explore the moon's lava tubes which could one day shelter human colonies. The team has tested the wheels in various environments including the moon's surface simulant and is now working on a self-driving rover using artificial intelligence.",
+          "content": "Nasdaq CEO Adena Friedman says tokenization could free up a lot of money tied up in assets used as collateral across the global financial system. Tokenizing assets like stocks and bonds and the flow of money could make it easier to use these assets as collateral. This could be a big deal especially for retail investors who have long wanted to trade at any time of day. To make this happen financial institutions would need to update their systems and risk management processes to work 24/7. Artificial intelligence could help with this transition.",
           "theme": "#EBF2FA"
         },
         {
           "id": "st-2",
-          "title": "SpaceX buys wireless spectrum from Grain Management",
-          "image": "https://images.unsplash.com/photo-1711919600878-b5d9e77d3357?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U3BhY2VYJTIwbG9nb3xlbnwxfDB8fHwxNzkxNTE5NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
+          "title": "Federal Reserve Hints at Interest Rate Hike Before Year's End",
+          "image": "https://images.unsplash.com/photo-1672870153618-b369bcc8c55d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZmluYW5jaWFsJTIwbmV3c3xlbnwxfDB8fHwxNzkxNTI4NTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington",
           "time": "Oct 09, 2026",
-          "content": "SpaceX the company founded by Elon Musk has agreed to buy a big chunk of wireless spectrum from a company called Grain Management. This spectrum will help SpaceX's Starlink service offer better coverage in the US. Starlink is a way for people to get internet access using satellites in space. The deal is still pending approval from the Federal Communications Commission.",
+          "content": "The Federal Reserve says it might raise interest rates again before the end of the year but didn't give a specific date. Meanwhile PepsiCo beat expectations but its profits are down due to struggles in North America. The company's CEO will talk to CNBC about its plans. Trump said he's no longer interested in a deal with Iran which caused oil prices to rise. He also signed an order allowing truckers to use off-road diesel on highways without paying federal taxes.",
           "theme": "#EBF2FA"
         },
         {
           "id": "t-3",
-          "title": "Nasdaq CEO Sees Tens of Billions in Locked Capital Unlocked with Tokenization",
-          "image": "https://images.unsplash.com/photo-1594277427579-48d09e82cef0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TmFzZGFxJTIwbG9nb3xlbnwxfDB8fHwxNzkxNTE5NTI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Singapore",
+          "title": "Yandex Data Center Hit by Drone Strike in Western Russia",
+          "image": "https://images.unsplash.com/photo-1788691177743-e194dc48db20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UnVzc2lhbiUyMHNlYXJjaCUyMGVuZ2luZXxlbnwxfDB8fHwxNzkxNTI4NjU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Ryazan, Russia",
           "time": "Oct 09, 2026",
-          "content": "Nasdaq CEO Adena Friedman believes that tokenization could unlock tens of billions of dollars in capital tied up in assets used as collateral globally. Tokenizing assets like Treasurys equities and money market funds along with the flow of money could make collateral more liquid. This process which uses blockchain technology has gained institutional interest over the past year particularly since the passage of the Genius Act in the US. Friedman also thinks that artificial intelligence could help financial institutions manage the shift to a 24/7 market.",
+          "content": "Russian internet giant Yandex stopped working at one of its key data centers in western Russia after a drone strike. The attack caused a fire at the data center in Sasovo Ryazan and affected some of Yandex's services. The company said the data center is no longer operating and some services may be unavailable. Thankfully there were no casualties and emergency services are dealing with the aftermath.",
           "theme": "#EBF2FA"
         }
       ]
@@ -95,29 +95,29 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "US Launches Vaccine Injury Study Program Amid Concerns Over Side Effects",
-          "image": "https://images.unsplash.com/photo-1626351545208-28c9080106ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8N3x8dmFjY2luZSUyMGluanVyaWVzfGVufDF8MHx8fDE3OTE1MTkyMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "Nigerian Doctor Elected to Tackle Global Cancer Disparities",
+          "image": "https://images.pexels.com/photos/6097984/pexels-photo-6097984.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Hong Kong",
           "time": "Oct 09, 2026",
-          "content": "The US Department of Health and Human Services has launched a program to study and track vaccine injuries a long-standing priority for Secretary Robert F. Kennedy Jr. The program housed at the National Institutes of Health aims to understand who is vulnerable to vaccine injuries. Kennedy claims that federal scientists have ignored possible side effects including debunked theories linking immunizations to autism. This move has sparked concerns from public health advocates. The US Centers for Disease Control and Prevention says the risk of vaccines causing serious reactions injuries or death is very remote.",
+          "content": "Dr. Zainab Shinkafi-Bagudu a Nigerian paediatrician has been elected president of the Union for International Cancer Control. She's the first African to hold the role and will focus on bridging the gap in cancer care between rich and poor countries. Cancer cases and deaths are expected to rise sharply especially in poorer countries and Bagudu wants to reorient global cancer policy to address this issue. She plans to use her position to bring attention to the need for better cancer care and to mobilize resources to strengthen prevention diagnosis and treatment.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-2",
-          "title": "Beauty influencer's complex skincare routine raises concerns over unrealistic claims",
-          "image": "https://images.unsplash.com/photo-1648203276014-20f97ba1f817?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8YmVhdXR5JTIwcm91dGluZXxlbnwxfDB8fHwxNzkxNDYxMjQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Brazil",
+          "title": "Temperature Key to Natural Sleep Cycles, Study Suggests",
+          "image": "https://images.pexels.com/photos/8037024/pexels-photo-8037024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Tokyo, Japan",
           "time": "Oct 09, 2026",
-          "content": "Greta Costioli a 29-year-old was once known for her \"glass skin\" on TikTok where she used a complex skincare routine with many products. She would apply seven layers of toner to achieve a smooth and pore-less complexion. This trend popularized by beauty influencers and celebrities has its roots in South Korean beauty culture. While some people may see positive results from these routines experts warn that they can be unrealistic and lead to skin problems like clogged pores irritation and breakouts.",
+          "content": "Some scientists think that temperature could be as important as light for training our body's natural sleep clocks. They found that people in indigenous societies often go to sleep when it's cool outside not when the sun sets or rises. This suggests that temperature might be a cue for sleep just like light. Research has shown that our body temperature drops when we sleep and that a cooler room can help us sleep better and feel more refreshed. Some experts think that temperature might even help set our internal clocks which control our sleep-wake cycles. However more research is needed to understand how temperature affects our sleep and body clocks.",
           "theme": "#E8F5F1"
         },
         {
           "id": "hw-3",
-          "title": "African pediatrician leads Union for International Cancer Control",
-          "image": "https://images.pexels.com/photos/6203464/pexels-photo-6203464.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Hong Kong",
+          "title": "FDA to Continue Reviewing Abortion Pill's Safety into Next Year",
+          "image": "https://images.unsplash.com/photo-1628771065518-0d82f1938462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8bWVkaWNpbmV8ZW58MXwwfHx8MTc5MTUyODQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
           "time": "Oct 09, 2026",
-          "content": "Dr. Zainab Shinkafi-Bagudu a Nigerian pediatrician and cancer advocate has been elected president of the Union for International Cancer Control. She's the first African to lead the organization. Bagudu wants to focus on cancer care in low-income countries where cases and deaths are expected to rise sharply. She plans to use her position to bridge the gap between countries with limited cancer services and those with better resources. Bagudu wants to increase funding for cancer treatment and research improve access to diagnosis and treatment and reduce financial toxicity for patients. She also wants to prioritize prevention and focus on cancers that can be prevented or reduced through available interventions.",
+          "content": "The US Food and Drug Administration says it will continue reviewing the safety of a popular abortion pill into next year. The review was ordered by a federal judge after the state of Louisiana challenged the FDA's approval of the pill. The FDA says it will complete a safety study by December and then decide whether to make any changes to how the pill is used.",
           "theme": "#E8F5F1"
         }
       ]
@@ -132,29 +132,29 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Maharashtra Declared Drought-Hit, Orders 10% Water Cut Amid Wastewater Crisis",
-          "image": "https://images.pexels.com/photos/770224/pexels-photo-770224.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Mumbai, India",
+          "title": "Wildlife populations decline globally, but India sees increases in major species",
+          "image": "https://images.pexels.com/photos/35652350/pexels-photo-35652350.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Bengaluru, India",
           "time": "Oct 09, 2026",
-          "content": "Almost 74% of Maharashtra a state in India was declared drought-hit in September after a very dry monsoon season. To manage water supplies the state has ordered local authorities to reduce water use by 10% from October 16. The state is also encouraging the reuse of treated wastewater for non-drinking purposes like gardening and construction. Currently only 57% of the state's wastewater is treated and just 17% is reused which is a problem because untreated wastewater is polluting rivers and lakes.",
+          "content": "Wildlife populations worldwide have declined by 73% over the past five decades but India has seen increases in many major species according to a new report by the World Wide Fund for Nature. The report found that habitat loss and degradation are the main threats to wildlife populations but India has made progress in conservation efforts with populations of tigers rhinoceroses and other species rising.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-2",
-          "title": "India's species conservation efforts yield positive results globally.",
-          "image": "https://images.pexels.com/photos/35975451/pexels-photo-35975451.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "India",
+          "title": "Maharashtra Hit by Severe Drought, 74% of State Declared Drought-Hit",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "Mumbai, India",
           "time": "Oct 09, 2026",
-          "content": "Wildlife populations worldwide have decreased by 73% over the past 50 years but India has seen an increase in several major species. According to a report by the World Wide Fund for Nature and the Zoological Society of London India has made progress in conserving species like tigers greater one-horned rhinoceroses and Asiatic lions. The report also notes that freshwater wildlife populations have experienced the steepest decline at 85% while marine populations have declined by 59%. India's conservation efforts have been successful with populations of these species increasing.",
+          "content": "Maharashtra a state in western India has been hit by a severe drought. Almost 74% of the state around 265 talukas have been declared drought-hit after a very dry monsoon season. To manage the situation the government has ordered a 10% water cut starting October 16. Additionally the state is promoting the reuse of treated wastewater for various purposes such as gardening and industrial use.",
           "theme": "#E7F4EF"
         },
         {
           "id": "env-3",
-          "title": "Heavy Rain Hits North India, Snowfall Expected in Higher Himalayan Peaks",
-          "image": "https://images.pexels.com/photos/28111549/pexels-photo-28111549.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Uttarakhand, India",
+          "title": "UN Carbon Market Body Suspend Cookstove Project Credits",
+          "image": "https://images.pexels.com/photos/27798034/pexels-photo-27798034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Bonn, Germany",
           "time": "Oct 09, 2026",
-          "content": "Heavy rain hit Uttarakhand Himachal Pradesh and Jammu and Kashmir with strong winds and snowfall expected on higher Himalayan peaks. Other areas like Kerala Tamil Nadu West Bengal and Sikkim are under alert for heavy rainfall thunderstorms lightning and gusty winds. In Delhi-NCR mornings and nights are cooler but days are still hot with isolated thunderstorms and showers possible. Punjab Haryana and western Uttar Pradesh might see thunderstorms lightning and strong winds prompting cautionary alerts. Meanwhile the southwest monsoon withdrawal is moving across India signaling changing weather patterns and the arrival of cooler conditions.",
+          "content": "At least 130 civil society organizations are calling on the United Nations carbon market body to suspend credits linked to a cookstove project in Myanmar. The project which became the first to receive carbon credits under the Paris Agreement's new carbon market mechanism in February 2026 has raised concerns about the reliability of emissions reductions independent verification and human rights safeguards. The groups are questioning whether the project's environmental integrity can be verified citing concerns over monitoring and verification processes and are demanding an independent investigation.",
           "theme": "#E7F4EF"
         }
       ]
@@ -169,29 +169,29 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "EbonyLife Place Opens in London, Showcasing African Cinema and Culture",
-          "image": "https://images.unsplash.com/photo-1787779325315-6a4c670b66f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QWZyaWNhbiUyMGRpYXNwb3JhfGVufDF8MHx8fDE3OTE1MjAxODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London",
+          "title": "Ashmolean Museum Exhibition Explores Aphrodite's Evolution into Cultural Controversy",
+          "image": "https://images.pexels.com/photos/15070710/pexels-photo-15070710.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Oxford, UK",
           "time": "Oct 09, 2026",
-          "content": "A new cultural centre EbonyLife Place has opened in south-west London. It's a place where people can go to watch great movies learn about black and African cinema and enjoy food art and performances. The centre was founded by Mo Abudu a Nigerian media mogul and will show films from Nigeria and other African countries. It will also have masterclasses industry panels and live performances. The Mayor of London Lord Khan attended the opening and said that London is a great place for filming and that culture is important.",
+          "content": "Aphrodite the ancient Greek goddess of love and beauty has been a source of controversy for centuries. Her nudity has been a topic of debate and her artwork has been seen as objectifying the female body. A new exhibition at Oxford's Ashmolean Museum explores the history of Aphrodite showing how she evolved into a lightning rod of cultural controversy. The goddess has two versions of her origin story a mythological one and a historically accurate one and neither particularly marks her out as a troublemaker. She was initially a goddess of fertility love and procreation but later became associated with romantic love. The exhibition also looks at how Praxiteles's sculpture of Aphrodite the Aphrodite of Knidos changed everything by showing a fully nude female figure for the first time. This artwork was revolutionary and would go on to influence art for centuries to come.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-2",
-          "title": "BBC Announces Radio 4 Program Cuts to Save £500m",
-          "image": "https://images.unsplash.com/photo-1627667049477-ab537001a426?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8cmFkaW8lMjBzdHVkaW98ZW58MXwwfHx8MTc5MTQ3MDM1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
+          "title": "EbonyLife Place Opens in South-West London, Celebrating African Diaspora Stories",
+          "image": "https://images.pexels.com/photos/39970843/pexels-photo-39970843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London",
           "time": "Oct 09, 2026",
-          "content": "The BBC has announced it will cut several Radio 4 programmes including You and Yours and Thinking Allowed to make £500m savings. The corporation will also reduce commissioning on Radio 5 Live and podcasts. Despite these cuts the BBC will invest in a new consumer programme and two new weekly shows exploring ideas and technology. Radio 4's flagship show In Our Time will expand in length while Start the Week and Farming Today will also grow.",
+          "content": "A new cultural centre EbonyLife Place has opened in south-west London. It's a cinema and hub that showcases black and African movies music and art. The centre was founded by Nigerian media mogul Mo Abudu who wants to celebrate and share stories from the African diaspora. It has a cinema a bar a restaurant and a boutique and will host events like masterclasses and live performances.",
           "theme": "#F3ECF7"
         },
         {
           "id": "ent-3",
-          "title": "Wycombe Wanderers gets new anthem from indie-folk band Kingfishr",
-          "image": "https://images.pexels.com/photos/36451123/pexels-photo-36451123.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Adams Park, England",
+          "title": "The Music Man Project Honors Sir David Amess with Standing Ovation in NYC's Town Hall",
+          "image": "https://images.pexels.com/photos/14373406/pexels-photo-14373406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "New York",
           "time": "Oct 09, 2026",
-          "content": "A 16-year-old video game a music band and a football team unexpectedly came together. The indie-folk band Kingfishr wrote a song for Wycombe Wanderers a League One football team after adopting them in the video game Fifa 11. The song gained popularity on TikTok with over 190000 views and the band's lead singer Eddie Keogh attended a Wycombe Wanderers game was presented with a club shirt and even got to play the song over the stadium's speakers. The team and fans are excited about the new anthem and the band is welcome to return to the stadium anytime.",
+          "content": "A music group for people with learning disabilities The Music Man Project recently performed in New York's Town Hall a historic venue as a tribute to the late MP Sir David Amess. The group which was founded by Amess performed in front of a full house of almost 1500 people receiving a standing ovation. This performance was a fulfillment of Amess' dream before he was murdered in 2021. The group's founder David Stanley said the performance was a testament to what people with learning disabilities can achieve with support and high expectations.",
           "theme": "#F3ECF7"
         }
       ]
@@ -206,29 +206,29 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "UK watchdog investigates surge in \"robo calls\" amid suspected recruitment scam",
-          "image": "https://images.unsplash.com/photo-1674544362969-a4269ef0ea69?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8cm9ibyUyMGNhbGxzfGVufDF8MHx8fDE3OTE1MTk5OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "UK",
+          "title": "Trump Calls for Gas Price Relief, Offers Waivers and State Tax Cuts",
+          "image": "https://images.unsplash.com/photo-1611807527279-f6ac568cd4f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Z2Fzb2xpbmUlMjBwcmljZXN8ZW58MXwwfHx8MTc5MTUyOTA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
           "time": "Oct 09, 2026",
-          "content": "The UK's data watchdog the Information Commission's Office is investigating a big increase in complaints about \"robo calls\" that are suspected to be part of a recruitment scam. These calls ask you to add the caller to WhatsApp and the ICO thinks millions of people are getting these calls. They advise people to ignore calls from numbers they don't recognize and to block and report suspicious calls. The calls usually come from a UK mobile number but the ICO thinks the calls are actually coming from abroad.",
+          "content": "US President Donald Trump has been trying to reduce gasoline and diesel prices which have more than doubled since the US-Israel conflict with Iran began in February. He has made several announcements including a waiver on the use of red dye diesel and has called on states to cut their taxes on gasoline. Some of his moves have had a small effect in lowering prices but analysts say the only way to bring prices down is to resolve the geopolitical tensions that are causing the high prices.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-2",
-          "title": "Asos Reports Data Breach, Hackers Access User Profiles",
-          "image": "https://images.unsplash.com/photo-1633265486064-086b219458ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8b25saW5lJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc5MTUyMDA2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
+          "title": "Solar Roofs Gain Momentum After Tesla's Departure",
+          "image": "https://images.unsplash.com/photo-1707247111552-aaf74241058b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c29sYXIlMjB0aWxlfGVufDF8MHx8fDE3OTE1MjkxNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Colorado, USA",
           "time": "Oct 09, 2026",
-          "content": "Asos told customers that hackers have detailed profiles of potentially millions of users. The hackers have names addresses phone numbers emails customer numbers and dates of birth. They also have search data like \"reclaimed vintage\" and \"Asos petite\". Asos said no bank details or passwords were stolen but customers are warned about potential impersonation scams. The company is still investigating the data breach and will contact customers if more information is needed.",
+          "content": "A US company Solar Service of Colorado is handling solar roof maintenance and inspections. Some people dislike the look of solar panels but an alternative is solar roofs where tiles house solar cells looking similar to regular tiles. This is important for historic buildings where appearance changes are limited. Tesla's decision to stop offering solar roofs sent shockwaves through the industry but some see it as an opportunity for other companies like Freesuns to expand to the US. Solar roofs require collaboration among roofers solar installers and electricians and have unique challenges like repair costs and energy efficiency.",
           "theme": "#F7F1DE"
         },
         {
           "id": "eb-3",
-          "title": "Chrysler Building Gets $235 Million Makeover",
-          "image": "https://images.pexels.com/photos/34683721/pexels-photo-34683721.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "New York, USA",
+          "title": "Asos Warns of Data Breach Including Profiles and Search Histories",
+          "image": "https://images.pexels.com/photos/5474037/pexels-photo-5474037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
           "time": "Oct 09, 2026",
-          "content": "The Chrysler Building in Manhattan is getting a major makeover. The 77-storey skyscraper will have its Art Deco crown polished and its facade restored. The building's 61st floor which has giant eagle gargoyles will also get an upscale lounge. The renovation will cost $235 million and is being led by developer Tishman Speyer. The company plans to use most of the building for office space which is in high demand in the area.",
+          "content": "Asos told its customers that hackers have detailed profiles of potentially millions of users including names addresses phone numbers emails and dates of birth. The hackers also have access to customers' search histories on the website. The company says no bank details or passwords were stolen but customers are warned about potential impersonation scams. The hackers gained access to the data by stealing an Asos employee's login credentials and using them to download the customer data.",
           "theme": "#F7F1DE"
         }
       ]

@@ -1,141 +1,113 @@
 {
     "date": "09102026",
-    "timestamp": "2026-10-09T10:02:08.628371",
-    "duration_seconds": 4130.8,
+    "timestamp": "2026-10-09T12:33:42.123124",
+    "duration_seconds": 4493.84,
     "stages_duration_seconds": {
-        "scrape": 672.11,
-        "guardrails": 844.34,
-        "deduplication": 14.49,
-        "category_validation": 184.8,
-        "ranking": 1194.49,
-        "processing": 1220.53,
-        "assembly": 0.03
+        "scrape": 750.88,
+        "guardrails": 965.33,
+        "deduplication": 13.37,
+        "category_validation": 191.53,
+        "ranking": 1188.78,
+        "processing": 1383.93,
+        "assembly": 0.0
     },
     "volume": {
         "scraped_by_category": {
             "Health": 10,
-            "Tech": 27,
+            "Tech": 30,
             "People": 36,
             "Environment": 5,
-            "Economy": 9,
-            "Entertainment": 18
+            "Economy": 10,
+            "Entertainment": 17
         },
-        "total_scraped": 105,
-        "guardrail_passed": 105,
+        "total_scraped": 108,
+        "guardrail_passed": 108,
         "guardrail_rejected": 0,
-        "dedup_removed": 49,
+        "dedup_removed": 28,
         "category_reassignments": 0,
         "final_articles": 18,
         "final_categories": 6
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 246,
-        "duplicate_pairs_found": 61,
-        "duplicates_removed": 49
+        "total_checked": 222,
+        "duplicate_pairs_found": 43,
+        "duplicates_removed": 28
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 83,
-        "rejected_count": 13,
+        "total_checked": 81,
+        "rejected_count": 9,
         "rejected_articles": [
+            {
+                "title": "'I rage and I don't care': Why women are reclaiming their anger",
+                "from": "health",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article explores the emotional and societal aspects of women's anger, which is more related to the 'people' category than 'health'."
+            },
             {
                 "title": "",
                 "from": "science and technology",
                 "detected_category": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article discusses the impact of a specific AI-related market trend on stocks and the importance of diversification in investing, making it more relevant to the 'economy and business' category."
-            },
-            {
-                "title": "Trump bought up to $25 million in Meta and millions in SpaceX debt in August",
-                "from": "science and technology",
-                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article's focus on Trump's financial transactions and investments, including those in SpaceX, makes it more relevant to the 'people' category, which includes news about politicians and government actions."
-            },
-            {
-                "title": "5 Things to Know",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article discusses stock market news, corporate developments, and economic policy, making it more relevant to the 'economy and business' category than 'science and technology'."
-            },
-            {
-                "title": "'People use AI to avoid paying for school photos, but they don't realise the consequences'",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article's focus on parents' use of AI to avoid paying for school photos and the consequences for the photographers and schools makes it more relevant to the 'people' category than 'science and technology'."
+                "reason": "The article discusses AI stocks, revenue, and their impact on the market, making it more relevant to the economy and business category than the current 'science and technology' category."
             },
             {
                 "title": "Viral US TikToker praises South West takeaways",
                 "from": "science and technology",
                 "detected_category": "entertainment",
-                "confidence": 0.9,
-                "reason": "The article is primarily focused on a TikToker's review of food establishments, which falls under the 'entertainment' category, despite mentioning some scientific facts about food preferences."
-            },
-            {
-                "title": "Olivia Colman on viral Wicker memes: 'This has never happened to me before'",
-                "from": "people",
-                "detected_category": "entertainment",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses a film, its plot, and its impact on popular culture, making it more relevant to the 'entertainment' category."
-            },
-            {
-                "title": "Emotions run high at the round table as Celebrity Traitors banish two players",
-                "from": "people",
-                "detected_category": "entertainment",
                 "confidence": 0.8,
-                "reason": "The article is primarily about a TV show, Celebrity Traitors, and its contestants, rather than any 'people' category issues."
+                "reason": "The article is primarily about a TikToker's experience and review of food establishments in the South West, which falls under the entertainment category."
             },
             {
                 "title": "Millions of bedbugs crawl out of mattresses and walls in huge outbreak",
                 "from": "people",
                 "detected_category": "health",
                 "confidence": 0.8,
-                "reason": "The article discusses a pest control issue and the health implications of bedbug infestations, making it relevant to the 'health' category."
+                "reason": "The article discusses bedbug infestations, which is a health-related issue, and provides information on how to identify and treat the problem."
             },
             {
-                "title": "'Come all the way' back to EU, French finance minister tells UK",
+                "title": "'I don't know what my partner earns': How soon into dating should you reveal your salary?",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the French finance minister's invitation to the UK to rejoin the EU, which is a people-related issue."
+                "reason": "The article primarily discusses relationships and personal finance, which falls under the 'people' category, although it also touches on broader economic and business themes."
+            },
+            {
+                "title": "'Add me to WhatsApp' scam calls to be investigated",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a scam involving fake job listings, which is more related to people and social issues than the current category 'economy and business'."
             },
             {
                 "title": "Skydance's David Ellison tells CNBC combined company is 'positioned to win in every single vertical'",
                 "from": "entertainment",
                 "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses the merger of Paramount and Warner Bros., including the combined company's financial situation, cost savings, and debt, which are all relevant to the 'economy and business' category."
+                "confidence": 0.9,
+                "reason": "The article discusses the merger between Paramount and Warner Bros. Discovery, focusing on the combined company's financial prospects and strategic plans, making it more relevant to the 'economy and business' category."
             },
             {
                 "title": "Katie Price 'angry' when told of ex's rape claim",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on a celebrity, Katie Price, and her alleged involvement in a serious criminal case, making it more relevant to the 'people' category than 'entertainment'."
+                "reason": "The article is primarily focused on Katie Price, a celebrity, and her ex-husband's trial, which is a human-interest story and a major news event."
             },
             {
-                "title": "Actor Simon Pegg reveals ADHD diagnosis: 'It's just who I am'",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article primarily focuses on Simon Pegg's personal life, including his diagnosis and experiences with ADHD, making 'people' the most relevant category."
-            },
-            {
-                "title": "Suffragette role 'a gift' says Beverley Knight",
+                "title": "'Bold and inventive' Canadian poet Anne Carson wins Nobel Literature Prize",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the musical 'Sylvia the Musical' and its connection to the suffragette movement, which is a historical and cultural event, rather than an entertainment event."
+                "reason": "The article primarily focuses on the life, work, and awards of Canadian poet Anne Carson, which falls under the 'people' category."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 188,
+        "total_calls": 189,
         "total_failures": 3,
-        "total_time_seconds": 697.08,
-        "avg_response_time": 3.71
+        "total_time_seconds": 750.34,
+        "avg_response_time": 3.97
     }
 }

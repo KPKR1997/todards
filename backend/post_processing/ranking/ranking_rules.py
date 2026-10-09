@@ -7,12 +7,12 @@ class RankingRules:
     """
 
     WEIGHTS = {
-        "everyday_impact": 0.20,
-        "dont_miss": 0.20,
-        "human_consequence": 0.15,
-        "economic_impact": 0.10,
-        "political_significance": 0.10,
-        "health_significance": 0.10,
+        "everyday_impact": 0.50,
+        "dont_miss": 0.50,
+        "human_consequence": 0.25,
+        "economic_impact": 0.20,
+        "political_significance": 0.30,
+        "health_significance": 0.40,
         "scientific_significance": 0.05,
         "entertainment_significance": 0.03,
         "remarkability": 0.04,

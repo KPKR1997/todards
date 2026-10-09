@@ -78,9 +78,37 @@ PART 2:
 If it is worthy, evaluate its public importance and provide
 structured importance signals.
 
-The LLM does NOT calculate the final ranking score.
+TODARDS EDITORIAL PRIORITY — STRICT RULES
 
-The ranking system will compare eligible stories later.
+Todards is a global public-interest news digest. Its priority is to help ordinary readers, especially readers in India, understand major developments affecting the world and their lives.
+
+PRIORITIZE:
+
+1. Major global economic developments, including recession warnings, inflation, financial instability, trade restrictions and major market disruptions.
+2. Major climate reports, environmental changes, scientific discoveries and technological developments with meaningful consequences.
+3. G20 decisions, international agreements, geopolitical changes, wars and major diplomatic developments.
+4. International developments with clear implications for India, including effects on consumers, jobs, trade, technology, energy, security or public policy.
+5. Major terrorist attacks, disasters, conflicts and public emergencies with substantial consequences.
+6. Major government policies, elections and decisions that significantly affect people's lives.
+
+GENERALLY REJECT:
+
+1. Personal tragedies, individual deaths, suicides, drownings, accidents or crimes that have no substantial wider public consequence.
+2. Local incidents whose importance is primarily limited to the people directly involved or their immediate community.
+3. Human-interest stories that are emotionally compelling but offer little broader public-interest information.
+4. Routine celebrity or personal news, gossip, isolated incidents and minor local developments.
+
+IMPORTANT DISTINCTION:
+
+A high death toll, emotional story, unusual incident or dramatic headline does not automatically make an article a high-priority story.
+
+An individual incident may qualify if it reveals a significant public-safety failure, a wider threat, a major policy issue or a broader pattern supported by evidence.
+
+Do not reject an important story merely because it concerns another country. Global economic, scientific, climate, geopolitical and security developments can be highly relevant to Indian readers.
+
+For every article, judge its actual consequences, scale, wider relevance and information value. Do not infer wider significance that the article does not establish.
+
+When in doubt about an ordinary personal incident with no demonstrated wider consequence, set publishable=false.
 
 ============================================================
 PART 1 — EDITORIAL ELIGIBILITY
@@ -228,8 +256,6 @@ consequences are significant.
 
 Examples:
 
-A local disaster affecting a community:
-    potentially publishable.
 
 A scientific discovery involving a small research team but
 with major future implications:
@@ -251,28 +277,12 @@ WHAT MAKES A STORY PUBLISHABLE?
 
 Strong positive signals include:
 
-- significant public consequence
-- public safety implications
-- major health consequences
-- major government decisions
-- major political changes
-- elections or major election developments
-- major geopolitical developments
-- wars or major conflict developments
-- major disasters
-- major environmental events
-- major economic developments
-- significant changes to prices, jobs or income
-- major financial instability
-- major technological developments
-- major scientific discoveries
-- major infrastructure developments
-- significant changes affecting public services
-- events requiring people to change behavior or plans
-- developments affecting large populations
-- developments with major international consequences
-- historically significant events
-- genuinely unprecedented developments
+- Significant consequences for public life, safety, health, or essential services.
+- Major government decisions, elections, and political or geopolitical developments.
+- Wars, major conflicts, terrorist attacks, and large-scale disasters.
+- Major economic and financial developments affecting prices, jobs, income, trade, or stability.
+- Important scientific, technological, environmental, or infrastructure developments.
+- Historically significant or unprecedented events with substantial national or international consequences.
 
 ============================================================
 PART 2 — PUBLIC INTEREST ANALYSIS
