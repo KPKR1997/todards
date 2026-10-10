@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 32",
+    "issue": "Issue No. 33",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Senate Democrats Spend $5 Million in Kansas Ahead of Election",
-          "image": "https://images.unsplash.com/photo-1604496464355-a5032e3b47e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U2VuYXRlJTIwbWFwfGVufDF8MHx8fDE3OTE1OTYyNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "Indian Protest Leader Neha Bora Demands Election Official's Resignation",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Neha_Bora.png/500px-Neha_Bora.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Delhi",
           "time": "Oct 10, 2026",
-          "content": "Top Democrats are now investing in Kansas a state that hasn't elected a Democrat to the Senate in nearly a century. This marks a shift in their strategy as they initially focused on core battleground seats. With just 22 days to go Senate Democrats are spending $5 million in Kansas where the gap is closing between Democrat Adam Hamilton and incumbent Sen. Roger Marshall. The move is part of a broader effort to flip seats in traditionally Republican areas including Texas Alaska and Iowa.",
+          "content": "A 29-year-old PhD student Neha Bora is a prominent face in India's protests seeking the resignation of the top election official. They're a theatre artist and activist who has been with the All India Students' Association a Left-wing group for over a decade. Neha has gained attention for their activism including viral videos of them being detained by police and smiling while being carried away.",
           "theme": "#F7ECEE",
-          "source": "CNN"
+          "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Ebola patient travelled widely before diagnosis and death",
-          "image": "https://images.pexels.com/photos/4097277/pexels-photo-4097277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Nairobi, Kenya",
+          "title": "Three Men Found Guilty of Murdering Tourists in Mexico",
+          "image": "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TWV4aWNvfGVufDF8MHx8fDE3OTE2MDI5MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Ensenada, Mexico",
           "time": "Oct 10, 2026",
-          "content": "A Kenyan businessman traveled to several countries while sick with Ebola. He visited the Democratic Republic of Congo then Uganda and eventually Kenya where he was diagnosed and died two days later. The case highlights the limitations of relying on temperature checks and self-declarations to detect Ebola as the man's symptoms were initially misdiagnosed as a skin infection.",
+          "content": "Three men were found guilty of murdering three tourists including two Australian brothers during a surfing trip in Mexico in 2024. The tourists were killed in a botched robbery of their truck and their bodies were later found with gunshot wounds. The men are yet to be sentenced but they are likely to spend the rest of their lives in prison. The murders sent shockwaves around the world especially in Australia and the victims' family members have been at the court throughout the trial.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Ukrainian Officer Claims Military Intelligence Authorized Monaco Bomb Attack",
-          "image": "https://images.unsplash.com/photo-1777824492916-37737786e595?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8S3lpdiUyMGhlYWRxdWFydGVyc3xlbnwxfDB8fHwxNzkxNTYzNDY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Kyiv",
-          "time": "Oct 09, 2026",
-          "content": "A former Ukrainian security officer Vitalii Zhykovych says he believed a bomb attack in Monaco that hurt a businessman and his family was authorized by senior members of Ukraine's military intelligence agency. The businessman Vadym Yermolayev and his family were badly hurt in the blast. Zhykovych claims he was a freelancer for Ukraine's SBU security service and had nothing to do with the attack. He says Anastasia Berezovska the woman who planted the bomb was his agent and that she was not fully trained. Zhykovych also claims that another HUR officer Vladyslav Reut was involved and that Reut had proposed the operation.",
+          "title": "Country Music Star Ella Langley Cancels Tulsa Concert Due to Security Threat",
+          "image": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y29uY2VydCUyMHZlbnVlfGVufDF8MHx8fDE3OTE2MDI5OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Oklahoma",
+          "time": "Oct 10, 2026",
+          "content": "US country music star Ella Langley had to cancel her concert in Tulsa Oklahoma because of a serious security threat. She made the decision just two hours before the show was supposed to start after receiving a call saying \"great harm\" would be done at the event. Police checked the venue several times and found no threat but they did a sweep again after the phone call and still couldn't find anything. Langley apologized to her fans and said she'll share information about ticket refunds soon.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,33 +61,33 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Korea Developing Origami-Inspired Rover for 2030 Moon Mission",
-          "image": "https://images.unsplash.com/photo-1674616989861-b8dec3488ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bHVuYXIlMjByb3ZlcnxlbnwxfDB8fHwxNzkxNTk2MTg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Jeju Island, South Korea",
+          "title": "Tesla Renames \"Full Self-Driving\" System to \"Assisted Driving\" in Europe",
+          "image": "https://images.pexels.com/photos/7985590/pexels-photo-7985590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Berlin, Germany",
           "time": "Oct 10, 2026",
-          "content": "Researchers at the Korea Advanced Institute of Science & Technology are developing a rover with innovative origami-inspired wheels to join South Korea's planned moon mission by 2030. The wheels are made of flexible strips that interweave mimicking the structure of a Da Vinci bridge and can shrink to fit inside a lunar lander and expand to explore the moon's surface. This technology could help the rover navigate the moon's challenging terrain and extreme temperature swings and it's hoped that a rover with these wheels will explore the moon's lava tubes which could one day shelter human colonies.",
+          "content": "Tesla Elon Musk's car company has changed the name of its \"Full Self-Driving (Supervised)\" system in Europe to \"Assisted Driving\" because German regulators said the old name was a bit misleading. The system helps drivers with tasks like accelerating and steering but the driver still needs to pay attention. Tesla wants to sell this system in Europe where electric car sales are going up because people are spending more on gas due to the war in Iran. Some experts are worried that Tesla is pushing regulators too hard to get their system approved quickly and they think the company is not being transparent about the system's safety.",
           "theme": "#EBF2FA",
-          "source": "CNN"
+          "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "University gets £3.67 million for Yorkshire robotics hub to boost industry",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
-          "place": "Bradford, UK",
-          "time": "Oct 09, 2026",
-          "content": "A university in West Yorkshire has received £3.67 million to help companies use robotics technology. The Yorkshire Robotics Hub will help over 300 manufacturers adopt robotics and automation aiming to bridge the \"automation gap\". The project will create new jobs as more businesses use robots to increase efficiency. The UK currently has fewer robots per manufacturing employee than the global average so this hub will help the country catch up. The project will benefit the university by allowing it to work with local companies and improve research.",
+          "title": "SpaceX Buys Wireless Spectrum, Sending Telecom Stocks Plummeting",
+          "image": "https://images.unsplash.com/photo-1634175734730-feeb73322946?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8U3BhY2VYJTIwcm9ja2V0fGVufDF8MHx8fDE3OTE2MDI3MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 10, 2026",
+          "content": "SpaceX a company founded by Elon Musk recently bought a large chunk of wireless spectrum from Grain Management. This means SpaceX can expand its internet service called Starlink to include mobile service. The news sent shockwaves through the telecommunications industry with Verizon T-Mobile and AT&T stocks all falling sharply. Verizon's stock fell 8.75% its worst day since 2002 while T-Mobile and AT&T saw their worst days since 2013 and 2000 respectively. The Federal Communications Commission which will oversee the deal says the increased competition in the spectrum market is good news for consumers.",
           "theme": "#EBF2FA",
-          "source": "British Broadcasting Company"
+          "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Scientists Solve 180-Year-Old Mystery of Sun's Impact on Early Electrical Technology",
-          "image": "https://images.unsplash.com/photo-1573399054516-90665ecc44be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmludGFnZSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5MTU2MzI1MXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Exeter, UK",
-          "time": "Oct 09, 2026",
-          "content": "Scientists have solved a 180-year-old mystery about how the sun's weather affected early electrical technology. They found that a train that left Exeter 16 minutes late in the mid-1800s actually happened in 1848 not 1841 as previously thought. This changes our understanding of when the sun's weather first affected human technology. The researchers used a combination of historical records newspapers and scientific observations to figure out what happened. They found that the train delay was likely caused by a solar storm disrupting the electrical system which was a major problem for the telegraph networks of the time.",
+          "title": "Trump officials join AI firms amid national security concerns",
+          "image": "https://images.unsplash.com/photo-1615725802642-936d9aade2ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTB8fEFwcGxlJTIwbG9nb3xlbnwxfDB8fHwxNzkxNDg0NzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 10, 2026",
+          "content": "Companies working on frontier AI technology are hiring officials from the Trump administration to fill senior roles. This is happening as the AI sector tries to strengthen ties with Washington with many considering AI a national security issue. The goal is to build relationships with the White House and avoid potential regulation.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily"
+          "source": "CNBC"
         }
       ]
     },
@@ -101,12 +101,13 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Nigerian Doctor Elected to Tackle Global Cancer Disparities",
-          "image": "https://images.pexels.com/photos/6097984/pexels-photo-6097984.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Hong Kong",
-          "time": "Oct 09, 2026",
-          "content": "Dr. Zainab Shinkafi-Bagudu a Nigerian paediatrician has been elected president of the Union for International Cancer Control. She's the first African to hold the role and will focus on bridging the gap in cancer care between rich and poor countries. Cancer cases and deaths are expected to rise sharply especially in poorer countries and Bagudu wants to reorient global cancer policy to address this issue. She plans to use her position to bring attention to the need for better cancer care and to mobilize resources to strengthen prevention diagnosis and treatment.",
-          "theme": "#E8F5F1"
+          "title": "Mother Diagnosed with Type 1 Narcolepsy After Years of Misdiagnosis",
+          "image": "https://images.pexels.com/photos/7034748/pexels-photo-7034748.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Michigan",
+          "time": "Oct 10, 2026",
+          "content": "Amy Clifton a 34-year-old mother of three has been living with type 1 narcolepsy a chronic sleep disorder for most of her life. She has been experiencing symptoms like insomnia nightmares and overwhelming daytime sleepiness since age 4 but it took nearly three decades for doctors to diagnose and adequately treat her. Despite her best efforts Amy was misdiagnosed multiple times leading to feelings of guilt shame and hopelessness. Her hallucinations which often occur at night have been escalating and have caused her to question her own sanity. After years of searching for help Amy was finally diagnosed with type 1 narcolepsy and started taking medication that has improved her energy and reduced her hallucinations. However she still faces the challenges of managing her symptoms and advocating for others with narcolepsy.",
+          "theme": "#E8F5F1",
+          "source": "CNN"
         },
         {
           "id": "hw-2",
@@ -138,32 +139,33 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "El Niño Event Expected to Reach Record Strength in December 2026",
-          "image": "https://images.pexels.com/photos/35962880/pexels-photo-35962880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "El Niño to Peak in December 2026, Affecting 2.6 Billion",
+          "image": "https://images.unsplash.com/photo-1764438725066-1f1c1d44a9c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8YXRtb3NwaGVyaWMlMjB0ZW1wZXJhdHVyZXxlbnwxfDB8fHwxNzkxNjAzMDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Geneva, Switzerland",
           "time": "Oct 10, 2026",
-          "content": "The ongoing El Niño event is expected to become the strongest on record since 1950 with a peak forecast around December 2026. Sea surface temperatures in the Pacific have already reached record levels with an anomaly of 3.7°C above normal expected. This means that around 2.6 billion people worldwide will experience unusually high temperatures through December.",
+          "content": "The ongoing El Niño event could become the strongest on record since 1950 with a peak expected in December 2026. Sea surface temperatures in the Pacific have reached record levels with the World Meteorological Organization forecasting unusually high temperatures for 2.6 billion people worldwide. The event could also bring drought to parts of India Africa and Central and South America while causing extreme rainfall for 1.3 billion people globally.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "Wayanad's Temperature Soars 1.9°C Above Average, Hitting 34.4°C",
-          "image": "https://images.pexels.com/photos/33136677/pexels-photo-33136677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Kalpetta, India",
+          "title": "Bird Migrations Shift as Climate Change Affects Chilika Lake Ecosystem",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "Odisha",
           "time": "Oct 10, 2026",
-          "content": "Wayanad a hill district in Kerala India is warming up more than usual. The Hume Centre for Ecology and Wildlife Biology has been tracking the weather there for years and the data shows that the average temperature is now 1.9°C above what it used to be. The highest temperature recorded was 34.4°C which is unusually hot. The area is known for its cool and rainy climate which has shaped the local agriculture forests and tourism. The warming trend is worrying because it could have big consequences for the environment and the people who live there.",
+          "content": "Winged migratory birds have started arriving at Chilika Lake in early October a typical time for their migration. But experts are concerned about the changes in their migration patterns and the impact of climate change on the lake's ecosystem. While some might see this as a feel-good story scientists note that the birds' arrival is not just a matter of timing but also a sign of changes in the climate and the lake's ecological conditions. In the past birds have begun leaving earlier than usual and temperatures have been rising. The lake's water levels and temperature are also changing which affects the birds' food sources and habitat. The article suggests that conservation efforts should focus not just on counting birds but also on understanding the local ecological knowledge of traditional fisherfolk who have lived with the lake for generations. This could lead to a community-based monitoring system that helps protect the lake's ecosystem and its inhabitants.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-3",
-          "title": "UN Carbon Market Body Suspend Cookstove Project Credits",
-          "image": "https://images.pexels.com/photos/27798034/pexels-photo-27798034.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Bonn, Germany",
-          "time": "Oct 09, 2026",
-          "content": "At least 130 civil society organizations are calling on the United Nations carbon market body to suspend credits linked to a cookstove project in Myanmar. The project which became the first to receive carbon credits under the Paris Agreement's new carbon market mechanism in February 2026 has raised concerns about the reliability of emissions reductions independent verification and human rights safeguards. The groups are questioning whether the project's environmental integrity can be verified citing concerns over monitoring and verification processes and are demanding an independent investigation.",
-          "theme": "#E7F4EF"
+          "title": "Wayanad's Temperature Rises 1.9°C Above Average",
+          "image": "https://images.unsplash.com/photo-1595433306946-233f47e4af3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OXx8SW5kaWF8ZW58MXwwfHx8MTc5MTU2MzY4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kalpetta, India",
+          "time": "Oct 10, 2026",
+          "content": "Wayanad in Kerala India is warming up faster than usual. The district known for its cool and rainy climate has been recording high temperatures and dry weather. Since 2024 the Hume Centre has been collecting data from over 200 locations in Wayanad and the results show that the average temperature has risen by 1.9°C compared to previous years. The temperature has stayed above 30°C for seven days and the highest temperature recorded was 34.4°C. This change in climate is worrying because it could affect the local agriculture forests and settlements that rely on a relatively cool and wet climate.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth"
         }
       ]
     },
@@ -177,30 +179,33 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Ashmolean Museum Exhibition Explores Aphrodite's Evolution into Cultural Controversy",
-          "image": "https://images.pexels.com/photos/15070710/pexels-photo-15070710.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Oxford, UK",
-          "time": "Oct 09, 2026",
-          "content": "Aphrodite the ancient Greek goddess of love and beauty has been a source of controversy for centuries. Her nudity has been a topic of debate and her artwork has been seen as objectifying the female body. A new exhibition at Oxford's Ashmolean Museum explores the history of Aphrodite showing how she evolved into a lightning rod of cultural controversy. The goddess has two versions of her origin story a mythological one and a historically accurate one and neither particularly marks her out as a troublemaker. She was initially a goddess of fertility love and procreation but later became associated with romantic love. The exhibition also looks at how Praxiteles's sculpture of Aphrodite the Aphrodite of Knidos changed everything by showing a fully nude female figure for the first time. This artwork was revolutionary and would go on to influence art for centuries to come.",
-          "theme": "#F3ECF7"
+          "title": "Bella Ramsey and Julie Hesmondhalgh Exit Being a Traitor",
+          "image": "https://images.pexels.com/photos/4995580/pexels-photo-4995580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 10, 2026",
+          "content": "In the latest episode of Being a Traitor a group of people with secrets to hide continue to scheme and manipulate each other. The episode ended with two people being eliminated Bella Ramsey an actress known for her role in Last of Us and Julie Hesmondhalgh a former Coronation Street star. The traitors led by Maya Jama and James Acaster decided to get rid of Bella because they thought she would have figured out their plans soon. The remaining contestants are now suspicious of each other with Hannah Fry a new recruit to the dark side being questioned about her trustworthiness.",
+          "theme": "#F3ECF7",
+          "source": "BBC"
         },
         {
           "id": "ent-2",
-          "title": "EbonyLife Place Opens in South-West London, Celebrating African Diaspora Stories",
-          "image": "https://images.pexels.com/photos/39970843/pexels-photo-39970843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London",
-          "time": "Oct 09, 2026",
-          "content": "A new cultural centre EbonyLife Place has opened in south-west London. It's a cinema and hub that showcases black and African movies music and art. The centre was founded by Nigerian media mogul Mo Abudu who wants to celebrate and share stories from the African diaspora. It has a cinema a bar a restaurant and a boutique and will host events like masterclasses and live performances.",
-          "theme": "#F3ECF7"
+          "title": "Luke Evans Films Drama Near Childhood Home in Wales",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Luke_and_Lala_Evans.jpg/500px-Luke_and_Lala_Evans.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Cardiff, Wales",
+          "time": "Oct 10, 2026",
+          "content": "Luke Evans a Hollywood actor filmed his new drama The Party near his childhood home in Wales. He's a 47-year-old executive producer and stars as a journalist in the show. Evans grew up in Pontypool but usually works far from home. This time he filmed just 25 minutes from his family's home in Aberbargoed where his parents still live. He said it was \"joyous\" to be close to his family and even got some of them to make a cameo in the final episode.",
+          "theme": "#F3ECF7",
+          "source": "BBC"
         },
         {
           "id": "ent-3",
-          "title": "The Music Man Project Honors Sir David Amess with Standing Ovation in NYC's Town Hall",
-          "image": "https://images.pexels.com/photos/14373406/pexels-photo-14373406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "New Film Artificial Warns of AI Overreach After Open AI Hacks",
+          "image": "https://images.unsplash.com/photo-1591696331111-ef9586a5b17a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTF8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MXwwfHx8MTc5MTYwMzY0OXww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "New York",
-          "time": "Oct 09, 2026",
-          "content": "A music group for people with learning disabilities The Music Man Project recently performed in New York's Town Hall a historic venue as a tribute to the late MP Sir David Amess. The group which was founded by Amess performed in front of a full house of almost 1500 people receiving a standing ovation. This performance was a fulfillment of Amess' dream before he was murdered in 2021. The group's founder David Stanley said the performance was a testament to what people with learning disabilities can achieve with support and high expectations.",
-          "theme": "#F3ECF7"
+          "time": "Oct 10, 2026",
+          "content": "Luca Guadagnino's new film Artificial premiered at the New York Film Festival and is getting a lot of attention. The movie is about the creation of Open AI and the dangers of AI overreach. The story follows the founders Sam Altman and Ilya Sutskever as they build the company and face challenges. The film's release is timely because recently Open AI's agents were able to hack into other companies' platforms. The film is a cautionary tale about the risks of AI and the need for safety measures to prevent it from getting out of control.",
+          "theme": "#F3ECF7",
+          "source": "BBC"
         }
       ]
     },
@@ -214,32 +219,33 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Trump Announces Deal with Putin to Release 300000 Tonnes of Diesel Fuel",
-          "image": "https://images.pexels.com/photos/13940862/pexels-photo-13940862.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Trump and Putin Reach Deal on Russian Diesel Release",
+          "image": "https://images.unsplash.com/photo-1642363033998-c6ed978da79b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Z2Fzb2xpbmUlMjBwcmljZXN8ZW58MXwwfHx8MTc5MTUyOTA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Washington, USA",
           "time": "Oct 10, 2026",
-          "content": "US President Donald Trump has announced a deal with Russian President Vladimir Putin to release Russian diesel fuel to the US and global markets. This move aims to lower diesel prices in America which have more than doubled since the US-Israel conflict with Iran began in February. The conflict has restricted global oil supplies leading to higher fuel prices. Trump's announcement includes the immediate supply of 300000 tonnes of diesel with more to follow. He says this will help farmers truckers and other Americans affected by high fuel costs.",
+          "content": "US President Donald Trump has made a deal with Russian President Vladimir Putin to release Russian diesel to the US and global markets. This deal aims to lower diesel prices which have more than doubled since the US-Israel conflict with Iran began in February. Trump says this will mean diesel prices will come down quickly and in record numbers.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Boots sold to Canadian family's Wittington Investments",
-          "image": "https://images.unsplash.com/photo-1784127616777-b8bd2536bbf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Qm9vdHMlMjBzdG9yZXxlbnwxfDB8fHwxNzkxNTk2NjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "UK",
+          "title": "Firmus Abandons $30 Billion Stock Listing Amid Market Volatility",
+          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTJ8fGRhdGElMjBjZW50cmV8ZW58MXwwfHx8MTc5MTYwMzM2MHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Australia",
           "time": "Oct 10, 2026",
-          "content": "Boots a well-known pharmacy and retailer in the UK has been sold to a new owner Wittington Investments a Canadian family that also owns Primark. This deal could change the way Boots operates its 1800 stores. Some experts think the new owners should invest in updating smaller stores which have lacked investment in the past. Others suggest Boots should make its stores more functional with health hubs not stuck in the corner. The company's loyalty card Advantage is popular and unlikely to change. Boots also plans to expand its healthcare services which could be a big part of its business in the future.",
+          "content": "Firmus an artificial intelligence data centre company has cancelled its plans for a massive stock market listing in Australia. The company cited recent market volatility and prevailing market conditions saying it wouldn't be in the best interests of Firmus or its shareholders. The firm backed by Nvidia and major investors had initially planned to go public with a valuation of over $30 billion. Instead Firmus will seek private funding and consider alternative options.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "Asos Warns of Data Breach Including Profiles and Search Histories",
-          "image": "https://images.pexels.com/photos/5474037/pexels-photo-5474037.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 09, 2026",
-          "content": "Asos told its customers that hackers have detailed profiles of potentially millions of users including names addresses phone numbers emails and dates of birth. The hackers also have access to customers' search histories on the website. The company says no bank details or passwords were stolen but customers are warned about potential impersonation scams. The hackers gained access to the data by stealing an Asos employee's login credentials and using them to download the customer data.",
-          "theme": "#F7F1DE"
+          "title": "Boots Sold to Canadian Family's Wittington Investments",
+          "image": "https://images.pexels.com/photos/30156677/pexels-photo-30156677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
+          "time": "Oct 10, 2026",
+          "content": "Boots a well-known pharmacy and retailer in the UK has been sold to a new owner Wittington Investments a holding company of the Westons a wealthy Canadian family. The new owners plan to upgrade Boots' portfolio of 1800 stores and improve the shopping experience. Boots has been doing well in recent years with new beauty areas in some stores giving customers a department store experience. Some experts think Boots' stores could be made more functional and consistent in their design. The company's loyalty card Advantage is also expected to remain popular.",
+          "theme": "#F7F1DE",
+          "source": "BBC"
         }
       ]
     }

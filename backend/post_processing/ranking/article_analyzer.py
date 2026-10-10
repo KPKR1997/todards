@@ -60,157 +60,76 @@ class ArticleAnalyzer:
         category = article.get("category", "")
 
         prompt = f"""
-You are Todards' senior news editor.
+You are Todards' senior news editor. Evaluate whether an article deserves publication based on public importance, then score its significance.
 
-TASK
-Decide whether this article deserves publication on Todards, then score
-its public importance.
+## EDITORIAL MISSION
 
-EDITORIAL STANDARD
+Todards publishes a limited number of substantive news stories that help ordinary people understand important developments.
 
-Todards publishes a small number of substantive stories that help ordinary
-people understand important developments.
+**PRIORITIZE**
+- Major economic, financial, political, geopolitical or government developments.
+- Major scientific discoveries, space missions, technological breakthroughs and environmental developments.
+- Wars, major conflicts, disasters, terrorist attacks and public emergencies.
+- Developments affecting public health, safety, infrastructure or essential services.
+- International developments with meaningful consequences for India.
+- Major awards and historically significant events, including Nobel Prize announcements in Physics, Chemistry, Physiology or Medicine, Literature, Peace, and Economic Sciences.
+- Other major awards or discoveries when their significance is clearly established.
 
-PRIORITIZE:
-- Major economic or financial developments affecting prices, jobs, trade,
-  markets or stability.
-- Major scientific, technological, climate or environmental developments.
-- Major wars, conflicts, disasters, terrorist attacks or public emergencies.
-- Major elections, government decisions, policies or geopolitical changes.
-- Major international developments with meaningful consequences for India.
-- Major developments affecting public health, safety, infrastructure or
-  essential services.
-- Historically significant or genuinely consequential events.
+**REJECT**
+- Routine local incidents, personal tragedies and crimes without wider consequences.
+- Celebrity, entertainment, sports or organizational news without major public significance.
+- Minor company announcements, product launches and incremental research or technology updates.
+- Generic advice, lifestyle content, opinion pieces, promotional material, clickbait, unsupported speculation and roundups lacking a major factual development.
 
-REJECT:
-- Personal tragedies, deaths, accidents, drownings or crimes without
-  wider public consequences.
-- Routine local incidents.
-- Celebrity/influencer/entertainment news without major significance.
-- Minor company, product, business or organizational announcements.
-- Routine scientific research or incremental technology updates.
-- Minor sports results or awards.
-- Rumors, speculation, clickbait or unsupported claims.
-- Repetitive coverage with no meaningful new development.
+## DECISION RULES
 
-CONTENT FILTER
+1. Identify the specific news development reported in the article.
+2. Judge its actual public, scientific, economic, political, technological or historical importance—not popularity, emotional appeal, headline drama or length.
+3. Use only facts supported by the title and article. Never invent consequences, exaggerate significance or treat speculation as fact.
+4. Recognize established high-significance events. Nobel Prize announcements, major scientific discoveries, landmark government decisions and exceptional international events can qualify even when their immediate everyday impact is limited.
+5. Do not automatically accept or reject a story based on its category, award status, headline format or the presence of a famous person. Evaluate the actual development.
+6. Reject stories that provide no identifiable consequential development. A local or single-organization story qualifies only when its wider significance is supported by evidence.
+7. If publishable is false, editorial_relevance should normally be below 50, and rejection_reason must briefly explain the decision.
+8. If publishable is true, rejection_reason must be an empty string, and reason must state the principal significance in one sentence.
+9. Use integer scores from 0 to 100. Score each dimension independently according to the article's evidence. A high score in one dimension does not automatically justify high scores in others.
+10. Severity tiers: 1 = minor, 2 = notable but limited, 3 = significant public interest, 4 = major national/international event, 5 = exceptional event with enormous consequences. Reserve tiers 4–5 for evidence-supported significance.
 
-Todards wants NEWS, not generic editorial content.
+## SCORING DIMENSIONS
 
-Normally reject:
-- "5 things you need to know..."
-- "10 things to watch..."
-- "Here's your Sunday..."
-- "Morning/Daily/Weekly briefing"
-- "What happened this week..."
-- "What to expect this week..."
-- "Things you missed..."
-- "Everything you need to know..."
-- "Top stories of the day/week"
-- Roundups, listicles or compilations of minor/unrelated stories.
-- Lifestyle, advice or generic informational articles.
-- Opinion/commentary without a significant new factual development.
-- Promotional, sponsored or branded content.
+- everyday_impact: effect on ordinary people's lives
+- public_impact: overall public consequences
+- public_need_to_know: importance of public awareness
+- public_concern: need for attention or preparation
+- human_consequence: seriousness of human consequences
+- economic_impact: effects on prices, jobs, income, trade or markets
+- political_significance: importance of political or government developments
+- health_significance: public-health importance
+- scientific_significance: scientific importance
+- technology_significance: technological importance
+- global_reach: geographical scale
+- urgency: how quickly the information is needed
+- remarkability: historical, exceptional or unprecedented significance
+- editorial_relevance: overall justification for publication, not popularity or click potential
 
-CORE TEST
+## EVENT FLAGS
 
-The article should contain ONE identifiable news development, event,
-decision, discovery, report, risk or change.
+Set a flag to true only when supported by the article:
+major_disaster, mass_casualties, pandemic, election, major_political_change, major_economic_event, major_award, celebrity_death, record_breaking, unprecedented_event, major_scientific_discovery, major_technology_event.
 
-Ask:
-"Is there a specific consequential development being reported?"
+For major_award, recognize major internationally significant awards, explicitly including Nobel Prizes. Do not set major_scientific_discovery to true merely because an award is given; assess the discovery separately.
 
-If NO:
-    publishable = false
-
-Do not infer importance from popularity, emotion, unusualness, headline
-drama, length, number of facts, or casualty count alone.
-
-A local or single-company story may qualify only when the article itself
-provides evidence of significant wider consequences.
-
-Do not reject a list/briefing-style headline automatically if the underlying
-article contains a genuinely major development. Judge the actual content.
-
-EVIDENCE RULE
-
-Use ONLY information supported by the title and article.
-
-Never:
-- invent facts
-- invent consequences
-- exaggerate scale
-- assume future impact
-- treat speculation as fact
-
-EVENT FLAGS must be TRUE only when explicitly supported by the article.
-
-EDITORIAL DECISION
-
-If excluding this article would leave readers meaningfully less informed
-about an important development:
-    publishable = true
-
-Otherwise:
-    publishable = false
-
-When uncertain, prefer rejecting ordinary, local, personal or generic
-content over filling Todards with mediocre stories.
-
-SCORING
-
-Use integers from 0-100.
-
-everyday_impact        = effect on ordinary people's lives
-public_impact          = overall public impact
-public_need_to_know    = how strongly people need this information
-public_concern         = how strongly people should pay attention/prepare
-human_consequence      = seriousness of human consequences
-economic_impact        = effect on prices, jobs, income, trade or markets
-political_significance = importance of political/government development
-health_significance    = public-health importance
-scientific_significance= scientific importance
-technology_significance= technological importance
-global_reach           = geographical scale
-urgency                = how quickly people need to know
-remarkability          = historical/unprecedented significance
-editorial_relevance    = overall justification for publication
-
-editorial_relevance is NOT popularity, virality or click potential.
-
-SEVERITY:
-1 = minor/routine
-2 = notable but limited
-3 = significant public-interest story
-4 = major national/international event
-5 = exceptional event with enormous consequences
-
-Use 4 or 5 only when the article provides clear evidence of major impact.
-
-CONSISTENCY
-
-If publishable = false:
-- editorial_relevance should normally be below 50
-- rejection_reason must briefly explain why it does not qualify
-
-If publishable = true:
-- rejection_reason must be ""
-- reason must state the main public consequence in one sentence
-
-ARTICLE
+## ARTICLE
 
 Category: {category}
-
 Title: {title}
-
 Content:
 {content}
 
-OUTPUT
+## OUTPUT
 
-Return ONLY valid JSON. No markdown or explanation.
+Return only valid JSON matching this schema. Use the exact keys, correct data types, integer scores, boolean event flags, and no additional keys. Every value must be supported by the article.
 
-{{
+{
   "editorial_relevance": 0,
   "publishable": false,
   "rejection_reason": "",
@@ -228,7 +147,7 @@ Return ONLY valid JSON. No markdown or explanation.
   "urgency": 0,
   "remarkability": 0,
   "severity_tier": 1,
-  "events": {{
+  "events": {
     "major_disaster": false,
     "mass_casualties": false,
     "pandemic": false,
@@ -241,10 +160,9 @@ Return ONLY valid JSON. No markdown or explanation.
     "unprecedented_event": false,
     "major_scientific_discovery": false,
     "major_technology_event": false
-  }},
+  },
   "reason": ""
-}}
-
+}
 Every value must be supported by the article.
 Do not fabricate missing information.
 """
