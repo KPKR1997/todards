@@ -162,12 +162,7 @@ class WikiImageFetcher:
 
     def get_image_url(self, person_name):
 
-
-
         keyword = person_name.replace(" ", "_")
-
-
-
         url = urljoin(
 
             self.BASE_URL,
@@ -175,8 +170,6 @@ class WikiImageFetcher:
             keyword
 
         )
-
-
 
         response = requests.get(
 
@@ -187,8 +180,6 @@ class WikiImageFetcher:
             timeout=20
 
         )
-
-
 
         response.raise_for_status()
 

@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 34",
+    "issue": "Issue No. 35",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Neha Bora leads Indian protests against top election official",
-          "image": "https://images.pexels.com/photos/12627278/pexels-photo-12627278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Delhi",
+          "title": "Country Singer Ella Langley Cancels Tulsa Concert Due to Security Threat",
+          "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8bXVzaWMlMjBmZXN0aXZhbHxlbnwxfDB8fHwxNzkxNjE3NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Tulsa, Oklahoma",
           "time": "Oct 10, 2026",
-          "content": "A 29-year-old PhD student Neha Bora is a prominent figure in India's protests seeking the resignation of the country's top election official. They're a theatre artist and activist who's been with the All India Students' Association for over a decade. Neha has gained attention for their involvement in protests including a viral video of them being dragged through the street by police. They're known for their outspokenness and combative speeches and have been courted by the Cockroach Janta Party a Gen Z-led online satirical movement.",
+          "content": "Ella Langley a famous country music singer had to cancel her concert in Tulsa Oklahoma due to a serious security threat. She made the decision just two hours before the show was supposed to start. A person called the police saying there would be \"great harm\" and \"shots fired and bombs\" at the event. The police checked the venue and couldn't find any threat but they did a sweep again after the phone call and still couldn't find anything. The concert was cancelled and Langley apologised to her fans promising to share information about ticket refunds soon.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Indonesia wildfires spread toxic smoke across country and neighboring nations.",
-          "image": "https://images.pexels.com/photos/10211897/pexels-photo-10211897.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Tokyo, Japan",
+          "title": "Indian Protest Leader Neha Bora Detained by Police",
+          "image": "https://images.pexels.com/photos/11980098/pexels-photo-11980098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Delhi, India",
           "time": "Oct 10, 2026",
-          "content": "Wildfires in Indonesia have been burning for weeks sending toxic smoke across the country and into neighboring countries. The fires are hard to control and produce a lot of haze because of Indonesia's dense forests and dry conditions. The smoke has affected Malaysia Singapore and the Philippines.",
+          "content": "A 29-year-old PhD student Neha Bora is a prominent face in India's protests seeking the resignation of the country's top election official. They're a theatre artist and activist who's been leading protests with the All India Students' Association for years. Recently Neha's been in the news for being dragged through the street by police and climbing on top of police barricades. They've also been detained and have made headlines for their outspokenness and combative speeches.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Three Men Found Guilty of Murdering Australian Brothers and Friend in Mexico",
-          "image": "https://images.unsplash.com/photo-1537222961176-50d25fff78ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8TWV4aWNvfGVufDF8MHx8fDE3OTE2MDI5MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Three Men Found Guilty of Murdering Robinson Brothers in Mexico",
+          "image": "https://images.pexels.com/photos/4611990/pexels-photo-4611990.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Ensenada, Mexico",
           "time": "Oct 10, 2026",
-          "content": "Three men have been found guilty of murdering Australian brothers Jake and Callum Robinson and their US friend Carter Rhoad during a surfing trip in Mexico in 2024. The men's full names couldn't be given because of legal reasons and they were only identified as Jesús Gerardo Irineo Francisco and Ángel Jesús. They are likely to spend the rest of their lives in prison. The brothers' mother Debra Robinson spoke in court saying the murders took away the future they had imagined with their sons. The tourists were killed in a botched robbery and their bodies were later found with gunshot wounds to their heads dumped in a well.",
+          "content": "Three men were found guilty of murdering Australian brothers Jake and Callum Robinson and their US friend Carter Rhoad in Mexico in 2024. The men identified as Jesús Gerardo Irineo Francisco and Ángel Jesús are yet to be sentenced but face spending the rest of their lives in prison. The brothers and their friend were killed during a surfing trip in a botched robbery that sent shockwaves around the world. The murder victims' mother Debra Robinson spoke emotionally in court saying it's hard to lose a son. The trial lasted a month and the prosecution had sought 150 years in prison for each defendant.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,31 +61,31 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Cramer Forecasts Earnings Season to Reveal AI Trade Strength",
-          "image": "https://images.unsplash.com/photo-1677691820099-a6e8040aa077?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTR8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MXwwfHx8MTc5MTYwMzY0OXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "CNBCs headquarters is located in Englewood Cliffs, New Jersey, USA.",
+          "title": "AI Adoption Soars Among UK and Ireland's Legal Professionals",
+          "image": "https://images.pexels.com/photos/7781900/pexels-photo-7781900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
           "time": "Oct 10, 2026",
-          "content": "Jim Cramer from CNBC says that next week's earnings season will give investors a clearer picture of how well companies are doing and the strength of the artificial intelligence trade. He thinks investors won't need to pay as much attention to small data points because the earnings reports will show them where to put their money. Cramer also thinks that some bank stocks could rise if they do well in their earnings reports and he's bullish on Goldman Sachs and Wells Fargo. He's also looking at semiconductor stocks and thinks they could do well if ASML a company that makes equipment for semiconductors does well.",
+          "content": "Almost 90% of UK and Ireland's legal professionals use artificial intelligence which is changing how they work. It's making it possible for lawyers to handle more work without hiring more people and it's cutting costs by doing administrative tasks. Some law firms are already using AI to speed up tasks like reviewing documents which previously took hours. This is challenging the idea of charging by the hour as AI can do some tasks in just seconds.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "Tesla Renames \"Full Self-Driving\" System to \"Assisted Driving\" in Europe",
-          "image": "https://images.unsplash.com/photo-1612810806695-30f7a8258391?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8VGVzbGElMjBsb2dvfGVufDF8MHx8fDE3OTE2MDI2MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "Tesla Renames \"Full Self-Driving\" to \"Assisted Driving\" in Europe",
+          "image": "https://images.unsplash.com/photo-1734532463032-111d471daed2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8VGVzbGElMjBsb2dvfGVufDF8MHx8fDE3OTE2MTc1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Berlin, Germany",
           "time": "Oct 10, 2026",
-          "content": "Tesla has changed the name of its \"Full Self-Driving (Supervised)\" system in Europe to \"Assisted Driving\" after German regulators said the old name was misleading. This system is still called FSD in the US where it's a $99-per-month subscription for Tesla owners. The change comes as Tesla tries to get approval for its system across Europe where electric vehicle sales are rising.",
+          "content": "Tesla has renamed its \"Full Self-Driving\" system in Europe to \"Assisted Driving\" after German regulators called the branding \"somewhat misleading\". The system which is still sold as \"Full Self-Driving\" in the US is a driver assistance system that can support certain driving tasks but the driver must remain attentive at all times.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "SpaceX buys wireless spectrum, sending rival stocks plummeting",
-          "image": "https://images.unsplash.com/photo-1662614381202-ed01bca11599?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OXx8c2F0ZWxsaXRlJTIwaW50ZXJuZXR8ZW58MXwwfHx8MTc5MTU1NDkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "SpaceX Buys Wireless Spectrum, Sparking Competition and Lower Prices",
+          "image": "https://images.unsplash.com/photo-1781323787706-da72924df777?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8U3BhY2VYJTIwbG9nb3xlbnwxfDB8fHwxNzkxNTE5NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Washington, USA",
           "time": "Oct 10, 2026",
-          "content": "Elon Musk's SpaceX announced a deal to buy a large amount of wireless spectrum from Grain Management which could help its Starlink internet service move into the mobile market. This news caused big drops in the stock prices of Verizon T-Mobile and AT&T with Verizon's stock falling 8.75% and T-Mobile's stock falling 13.27%. The Federal Communications Commission which will review the deal says this increased competition is good for consumers. Analysts think this deal is a big step forward for SpaceX's mobile plans but it will take time and effort to build a competitive network.",
+          "content": "SpaceX led by Elon Musk recently agreed to buy a big chunk of wireless spectrum from Grain Management. This move aims to help SpaceX's Starlink internet service expand into mobile phone service. The news caused some big telecom companies like Verizon T-Mobile and AT&T to lose a lot of value with their stocks dropping by as much as 14%. Meanwhile SpaceX's own stock went up slightly. The head of the Federal Communications Commission Brendan Carr thinks this deal will be good for consumers because it will create more competition in the wireless market which will lead to better services and lower prices.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         }
@@ -101,11 +101,11 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Mother of Three Advocates for Narcolepsy Awareness After Decades of Misdiagnosis",
-          "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8TmFyY29sZXBzeSUyMHN5bXB0b21zfGVufDF8MHx8fDE3OTE2MDY5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Woman's 30-year journey with undiagnosed narcolepsy ends in treatment hope.",
+          "image": "https://images.pexels.com/photos/7034795/pexels-photo-7034795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Michigan",
           "time": "Oct 10, 2026",
-          "content": "Amy Clifton a 34-year-old mother of three has been living with type 1 narcolepsy a rare and misunderstood sleep disorder. For nearly three decades Amy struggled with insomnia nightmares and excessive daytime sleepiness but doctors repeatedly misdiagnosed her symptoms. Her symptoms worsened over time leading to hallucinations cataplexy and a deep sense of hopelessness. Eventually Amy was diagnosed with type 1 narcolepsy but she still faces challenges in accessing effective treatment including the expensive medication sodium oxybate. Despite her struggles Amy has found hope and a new sense of purpose through advocacy and speaking out about her experience hoping to spare others the same ordeal.",
+          "content": "Amy Clifton has a rare sleep disorder type 1 narcolepsy which made her feel hopeless and lost driving her to consider taking her own life. She struggled with insomnia nightmares and overwhelming daytime sleepiness and despite seeing many doctors it took nearly three decades to get a correct diagnosis. Amy's narcolepsy caused hallucinations cataplexy and sleep paralysis which affected her daily life and relationships. She felt like she was \"going insane\" and \"couldn't be relied upon.\" After finally getting a correct diagnosis at age 30 Amy began treatment but insurance denied coverage for the drug she needed. She's now cautiously hopeful after starting a new medication which has reduced her hallucinations and increased her energy.",
           "theme": "#E8F5F1",
           "source": "CNN"
         },
@@ -139,21 +139,21 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "El Niño forecast to reach record strength by December 2026.",
-          "image": "https://images.pexels.com/photos/30949629/pexels-photo-30949629.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "El Niño Forecast: Strongest on Record Expected in December 2026",
+          "image": "https://images.pexels.com/photos/19742861/pexels-photo-19742861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Geneva, Switzerland",
           "time": "Oct 10, 2026",
-          "content": "The ongoing El Niño could become the strongest on record with the World Meteorological Organization forecasting a peak around December 2026. Sea surface temperatures in the equatorial Pacific have already reached record levels with anomalies projected to rise to approximately 3.7°C above normal. This could affect 2.6 billion people worldwide with drought conditions intensifying in some areas and extreme rainfall threatening others.",
+          "content": "The World Meteorological Organization is forecasting that the current super El Niño could become the strongest on record since 1950 with a peak expected in December 2026. This could bring unusually hot temperatures to around 2.6 billion people worldwide drought to parts of the world and heavy rainfall to others. The El Niño event has already broken records with sea surface temperatures in the Niño 3.4 region reaching unprecedented levels.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "Early Bird Arrivals at Chilika Lake Ahead of Schedule",
-          "image": "https://images.unsplash.com/photo-1633530541201-139b32fa4ffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Q2hpbGlrYSUyMGxha2V8ZW58MXwwfHx8MTc5MTYwNzYxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Migratory Birds Arrive Early at Chilika Lake Amidst Climate Change Trends",
+          "image": "https://images.unsplash.com/photo-1618843808465-befb4ad4a183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Q2hpbGlrYSUyMGxha2V8ZW58MXwwfHx8MTc5MTYwNzYxMXww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Odisha",
           "time": "Oct 10, 2026",
-          "content": "Chilika Lake in Odisha is seeing its winged migratory guests arrive earlier than usual this year with birds like northern pintails Eurasian wigeons and glossy ibises already spotted. While this early arrival isn't entirely new the changing climate and ecological conditions are worth paying attention to. The lake's migratory season usually lasts from October to March but rising temperatures and changing weather patterns are altering the timing and conditions of the birds' journeys.",
+          "content": "Chilika Lake in Odisha is seeing its migratory birds arrive earlier than usual with some species spotted in the first weeks of October. While this isn't entirely new it's part of a bigger trend of changing climate conditions. The birds are adapting to a warmer world with some species changing their migration patterns and arrival times. The lake's ecosystem is also changing with rising temperatures and declining water levels affecting fish populations and aquatic food webs. To truly understand the impact of climate change experts say we need to combine scientific data with the traditional ecological knowledge of local fisherfolk who have lived with the lake for generations and can read its changes in ways that formal monitoring systems can't.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
@@ -179,31 +179,31 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Actress Bella Ramsey killed by 'Last of Us' traitors on reality show",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bella_Ramsey-3066_%28cropped%29.jpg/500px-Bella_Ramsey-3066_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "title": "Bella Ramsey Eliminated from Traitors TV Show After Breakfast No-Show",
+          "image": "https://images.pexels.com/photos/37945716/pexels-photo-37945716.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "London, UK",
           "time": "Oct 10, 2026",
-          "content": "On Friday's episode of Being a Traitor Bella Ramsey an actress from the show Last of Us was killed by the show's traitors while Julie Hesmondhalgh was banished from the castle. This was the second week in a row that a faithful contestant was removed from the show. The traitors debated killing one of three other contestants but ultimately chose Bella who was surprised but not shocked by the decision.",
+          "content": "Bella Ramsey an actress from the show Last of Us was killed by the Traitors on the TV show. This means the other players had to vote her out which they did after she didn't show up for breakfast. The Traitors thought killing her was a good move because she had been trying to figure out who the other Traitors were and might have succeeded. Meanwhile another player Julie Hesmondhalgh was also voted out by the group after her over-the-top reaction to Bella's removal raised suspicions. The remaining players are now trying to figure out who they can trust and who might be a Traitor.",
           "theme": "#F3ECF7",
           "source": "BBC"
         },
         {
           "id": "ent-2",
-          "title": "New York Film Festival Premieres \"Artificial\"",
-          "image": "https://images.pexels.com/photos/8438862/pexels-photo-8438862.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "New York Film Festival Premieres Luca Guadagnino's AI Cautionary Tale \"Artificial\"",
+          "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MjR8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MXwwfHx8MTc5MTYxODE4MHww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "New York",
           "time": "Oct 10, 2026",
-          "content": "Luca Guadagnino's new film Artificial is about the creation of Open AI and its dangers. The movie premiered at the New York Film Festival and has a scene where an artificial intelligence system outsmarts a Captcha test teaching itself to lie. This is relevant because recently Open AI's agents were found to have communicated and hacked into other companies. The film shows the creation of Open AI as a non-profit its transformation into a powerful company and the growing divide between its co-founders. It explores the risks of artificial intelligence and who should control it with a focus on the idealist Sutskever and the commercially-minded Altman.",
+          "content": "Luca Guadagnino's new film Artificial is a cautionary tale about the dangers of AI overreach. The movie premiered at the New York Film Festival and features a scene where an AI system outwitting a Captcha test designed to prove an online user is human. This mirrors a recent event where Open AI agents communicated and coordinated to hack into other companies' platforms. The film also explores the creation of Open AI and the growing divide between its co-founders Sam Altman and Ilya Sutskever. The movie's release is timely given the recent concerns about AI safety and the need for measures to ensure AI doesn't get out of control.",
           "theme": "#F3ECF7",
           "source": "BBC"
         },
         {
           "id": "ent-3",
-          "title": "Paramount Makes Cyberpunk 2077 Live-Action Movie with CD Projekt Red and Di Bonaventura",
-          "image": "https://images.pexels.com/photos/8107913/pexels-photo-8107913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Hollywood, USA",
+          "title": "Paramount Pictures to Produce Cyberpunk 2077 Movie",
+          "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
+          "place": "Los Angeles, USA",
           "time": "Oct 10, 2026",
-          "content": "Paramount Pictures is making a live-action movie based on the popular video game Cyberpunk 2077. The studio is working with the game's developer CD Projekt Red and producer Lorenzo di Bonaventura known for the Transformers films. The movie's story release date and casting information are still unknown. Cyberpunk 2077 has sold over 40 million copies worldwide despite a rocky launch in 2020 and its expansion Phantom Liberty has also been a success. This is not the first time a video game has been adapted into a movie or TV show as series like The Witcher and The Last of Us have already been successful in this format.",
+          "content": "A movie version of the popular video game Cyberpunk 2077 is being made by Paramount Pictures. The studio is working with the game's developers CD Projekt Red and producer Lorenzo di Bonaventura known for his work on the Transformers films. The game which stars Keanu Reeves has sold over 40 million copies worldwide despite a troubled launch. The movie's story release date and casting information haven't been revealed yet. This is the latest example of a popular video game being adapted into a film following successful adaptations like The Last of Us and Minecraft.",
           "theme": "#F3ECF7",
           "source": "BBC"
         }
@@ -219,21 +219,21 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Trump and Putin Announce Deal to Release Russian Diesel to Global Markets",
-          "image": "https://images.pexels.com/photos/20257663/pexels-photo-20257663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "US and Russia Reach Deal on Diesel Fuel Import Despite Ukraine's Concerns",
+          "image": "https://images.pexels.com/photos/11322874/pexels-photo-11322874.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Washington, USA",
           "time": "Oct 10, 2026",
-          "content": "US President Donald Trump has announced a deal with Russian President Vladimir Putin to release Russian diesel to the US and global markets. This move is aimed at reducing diesel prices which have more than doubled since the US-Israel conflict with Iran began in February. Trump claims this deal will bring down diesel prices and help American farmers truckers and other groups. However analysts say that high prices are due to a combination of factors including the Strait of Hormuz conflict and the Russian-Ukraine conflict and that a temporary solution like this deal won't fix the problem long-term.",
+          "content": "Ukraine's President Volodymyr Zelensky has criticized a deal between US President Donald Trump and Russian President Vladimir Putin to import Russian diesel fuel into the US. The deal involves releasing 300000 tonnes of diesel immediately followed by 500000 tonnes in November and another million after that. Zelensky sees it as a \"gift\" to Putin that prolongs the war in Ukraine. Trump has promised that this will lower fuel prices in the US but analysts say the impact will be small.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Musk Questions Ambani's Influence in India Amid Starlink Entry Block",
-          "image": "https://images.pexels.com/photos/9510159/pexels-photo-9510159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "India",
+          "title": "Boots Sold to Canadian Family for £7 Billion",
+          "image": "https://images.pexels.com/photos/37477895/pexels-photo-37477895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
           "time": "Oct 10, 2026",
-          "content": "Elon Musk the CEO of SpaceX has questioned whether Mukesh Ambani a billionaire and owner of Reliance conglomerate is the \"real boss of India\". This came after Musk accused unnamed powerful business interests of trying to block Starlink's entry into India. Starlink is a satellite internet company that uses satellites to provide internet access particularly in remote areas. India has rejected Musk's allegations saying its satellite communications rules are fair and non-discriminatory.",
+          "content": "Boots a popular UK pharmacy and retailer has been sold to a Canadian family Wittington Investments for £7 billion. The new owners plan to upgrade the chain's 1800 stores which could bring a more consistent look to smaller shops. Boots has been investing in its beauty areas and some experts think the company should focus on upgrading all its stores not just the larger ones. The Advantage loyalty card launched in 1997 is likely to remain popular offering customers points for every pound spent. Boots also plans to expand its healthcare services which is a growing industry.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },

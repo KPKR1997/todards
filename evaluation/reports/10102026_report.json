@@ -1,151 +1,165 @@
 {
     "date": "10102026",
-    "timestamp": "2026-10-10T10:25:07.094699",
-    "duration_seconds": 3101.44,
+    "timestamp": "2026-10-10T13:14:08.416034",
+    "duration_seconds": 3175.95,
     "stages_duration_seconds": {
-        "scrape": 743.39,
-        "guardrails": 846.54,
-        "deduplication": 35.09,
-        "category_validation": 215.27,
-        "ranking": 12.52,
-        "processing": 1248.6,
+        "scrape": 1166.73,
+        "guardrails": 785.55,
+        "deduplication": 9.32,
+        "category_validation": 227.2,
+        "ranking": 7.93,
+        "processing": 979.19,
         "assembly": 0.0
     },
     "volume": {
         "scraped_by_category": {
             "Health": 2,
-            "Tech": 22,
-            "People": 38,
-            "Environment": 5,
-            "Economy": 6,
-            "Entertainment": 13
+            "Tech": 19,
+            "People": 40,
+            "Environment": 3,
+            "Economy": 4,
+            "Entertainment": 11
         },
-        "total_scraped": 86,
-        "guardrail_passed": 86,
+        "total_scraped": 79,
+        "guardrail_passed": 79,
         "guardrail_rejected": 0,
-        "dedup_removed": 20,
+        "dedup_removed": 16,
         "category_reassignments": 0,
-        "final_articles": 16,
+        "final_articles": 14,
         "final_categories": 6
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 139,
-        "exact_duplicate_pairs": 9,
-        "semantic_duplicate_pairs": 23,
-        "duplicate_pairs_found": 32,
-        "duplicate_clusters": 13,
-        "duplicates_removed": 20
+        "total_checked": 132,
+        "exact_duplicate_pairs": 7,
+        "semantic_duplicate_pairs": 13,
+        "duplicate_pairs_found": 20,
+        "duplicate_clusters": 11,
+        "duplicates_removed": 16
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 66,
-        "rejected_count": 14,
+        "total_checked": 63,
+        "rejected_count": 16,
         "rejected_articles": [
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the impact of earnings season on the stock market, specifically the technology sector, and Jim Cramer's predictions for the week ahead, making it more relevant to the 'economy and business' category than 'science and technology'."
+            },
             {
                 "title": "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
                 "from": "science and technology",
                 "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article discusses the investment opportunities in data centers, a major real estate bet, and the risks associated with the AI industry, which is primarily an economic and business topic."
+                "confidence": 0.6,
+                "reason": "The article's primary focus is on the financial and economic aspects of data centers, but it also touches on their connection to AI and cloud computing, making it relevant to both categories."
             },
             {
                 "title": "5 Things to Know",
                 "from": "science and technology",
                 "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses OpenAI's revenue, stock market trends, and investor strategies, making 'economy and business' the most relevant category."
+                "reason": "The article primarily discusses the financial and business implications of OpenAI's revenue report, stock market trends, and the impact of margin investing on the economy."
             },
             {
                 "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
                 "from": "science and technology",
                 "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article discusses margin investing, its risks, and its connection to the stock market, making it more relevant to the economy and business category."
+                "reason": "The article primarily focuses on margin investing and its growth in the market, which is a financial and economic topic that falls under the 'economy and business' category."
+            },
+            {
+                "title": "OpenAI and Anthropic poach Trump officials as industry fights for Washington’s trust",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the hiring of Trump officials by AI companies, which falls under the 'people' category as it focuses on human interactions and government involvement in the tech industry."
             },
             {
                 "title": "Cadet leader posed as girl on Snapchat, court told",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article discusses a court case involving a cadet leader's alleged sexual offenses, which is a matter of human interest and social development, rather than a scientific or technological topic."
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a court case involving a cadet leader and allegations of sexual offenses, which falls under the 'people' category."
             },
             {
                 "title": "Prison officer and inmate jailed over Snapchat fling",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "Although the article is primarily about the consequences of a prisoner and a prison officer's relationship, it falls under the 'people' category due to its focus on human behavior and the impact of their actions on their lives and the prison system."
+                "reason": "Although the article does not fit directly into the 'science and technology' category, it is primarily about the misuse of technology (mobile phones) and the consequences that follow, which makes it relevant to the 'people' category."
             },
             {
                 "title": "Man sentenced over post threatening Lucy Connolly",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about a court case and a person's sentence, which is a social and human-interest story, rather than a scientific or technological development."
+                "confidence": 1.0,
+                "reason": "The article primarily discusses a court case and social issues, falling under the 'people' category."
             },
             {
-                "title": "'This has never happened before!' Olivia Colman on viral Wicker memes",
-                "from": "people",
-                "detected_category": "entertainment",
-                "confidence": 0.8,
-                "reason": "The article is primarily about the film 'Wicker' and its reception, featuring Olivia Colman and Alexander Skarsgård, which falls under the 'entertainment' category."
-            },
-            {
-                "title": "Tornado rips through Sicilian town and city",
+                "title": "Why is it so hard to put out Indonesian fires shrouding the region in toxic smog?",
                 "from": "people",
                 "detected_category": "earth and environment",
                 "confidence": 0.8,
-                "reason": "The article discusses a tornado in Sicily, which is a natural disaster related to the 'earth and environment' category."
+                "reason": "The article primarily discusses wildfires in Indonesia and their impact on the region's air quality, which is a clear environmental issue."
+            },
+            {
+                "title": "Questions remain over Ebola patient who travelled across three nations undetected",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article reports on the spread of Ebola and the lack of detection at multiple health facilities, highlighting the importance of health measures and contact tracing during outbreaks."
+            },
+            {
+                "title": "Powerful magnitude 7.7 earthquake hits Panama, damaging buildings",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses a natural disaster, a powerful earthquake, and its effects on the environment and people, making it more relevant to the 'earth and environment' category."
             },
             {
                 "title": "Crazy Rich Asians to return as TV show with original film's stars",
                 "from": "people",
                 "detected_category": "entertainment",
-                "confidence": 1.0,
-                "reason": "The article is primarily about the TV show adaptation of the film 'Crazy Rich Asians', with details on the cast and production, making it a clear fit for the 'entertainment' category."
+                "confidence": 0.9,
+                "reason": "The article is primarily about the adaptation of a film into a TV show, which falls under the 'entertainment' category."
             },
             {
                 "title": "Climate crisis also a crisis of the mind",
                 "from": "earth and environment",
-                "detected_category": "people",
+                "detected_category": "health",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses the psychological impact of climate change on people at different stages of life, which is a people-focused topic."
+                "reason": "The article discusses the psychological impact of climate change on individuals, families, and communities, which falls under the broader category of 'health'."
             },
             {
                 "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the story of Christian Bittar, a former Deutsche Bank trader, and his conviction being overturned, which falls under the 'people' category."
+                "reason": "The article primarily focuses on the personal story of Christian Bittar, a former Deutsche Bank trader, and the legal battle he faced, rather than purely an economic or business-related issue."
             },
             {
                 "title": "Hollywood actor Luke Evans on 'joyous' four months filming in rainy Wales",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article primarily focuses on the personal life and experiences of Hollywood actor Luke Evans, which falls under the category of people."
+                "confidence": 0.9,
+                "reason": "The article is primarily about Luke Evans' personal life and experiences, which is more relevant to the 'people' category than 'entertainment'."
             },
             {
                 "title": "Alison Hammond: 'I thought I was having heart attack on air'",
                 "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article is primarily about Alison Hammond's personal experience and health, which is more relevant to the 'people' category than 'entertainment'."
-            },
-            {
-                "title": "Music group fulfils late MP's Broadway dream",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about the late MP Sir David Amess and the charity Music Man Project, which is a people-focused story, rather than an entertainment-focused one."
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Alison Hammond's panic attack and her experience on This Morning, which is a health-related topic."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 152,
-        "total_failures": 6,
-        "total_time_seconds": 698.68,
-        "avg_response_time": 4.6
+        "total_calls": 142,
+        "total_failures": 10,
+        "total_time_seconds": 666.97,
+        "avg_response_time": 4.7
     }
 }
