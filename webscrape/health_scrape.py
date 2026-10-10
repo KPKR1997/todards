@@ -1022,9 +1022,9 @@ class HealthDataScrapper:
                     f"{self.category}-"
                     f"{len(health_data) + 1}"
                 ),
-                "source": (
-                    "British Broadcasting Company"
-                ),
+                "source": 
+                    "BBC"
+                ,
                 "category": self.category,
                 "title": article["title"],
                 "date": article["date"],
@@ -1065,9 +1065,9 @@ class HealthDataScrapper:
                     f"{self.category}-"
                     f"{len(health_data) + 1}"
                 ),
-                "source": (
+                "source": 
                     "World Health Organization"
-                ),
+                ,
                 "category": self.category,
                 "title": article["title"],
                 "date": article["date"],

@@ -1,0 +1,158 @@
+{
+    "date": "10102026",
+    "timestamp": "2026-10-10T07:13:40.843705",
+    "duration_seconds": 2569.43,
+    "stages_duration_seconds": {
+        "scrape": 576.93,
+        "guardrails": 792.77,
+        "deduplication": 11.13,
+        "category_validation": 173.65,
+        "ranking": 496.09,
+        "processing": 518.83,
+        "assembly": 0.0
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 0,
+            "Tech": 26,
+            "People": 41,
+            "Environment": 4,
+            "Economy": 7,
+            "Entertainment": 14
+        },
+        "total_scraped": 92,
+        "guardrail_passed": 92,
+        "guardrail_rejected": 0,
+        "dedup_removed": 27,
+        "category_reassignments": 0,
+        "final_articles": 7,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "deduplication": {
+        "total_checked": 151,
+        "exact_duplicate_pairs": 12,
+        "semantic_duplicate_pairs": 35,
+        "duplicate_pairs_found": 47,
+        "duplicate_clusters": 16,
+        "duplicates_removed": 27
+    },
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 71,
+        "rejected_count": 15,
+        "rejected_articles": [
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the stock market, corporate earnings, and the impact of interest rates on the market, which is more relevant to the 'economy and business' category than the 'science and technology' category."
+            },
+            {
+                "title": "Wall Street is pitching data centers as a major real estate bet. The risks are piling up",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the investment opportunities and risks associated with data centers, which is a topic more relevant to 'economy and business' than 'science and technology'."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article discusses the financial impact of AI and margin investing, as well as the performance of specific companies like Delta Air Lines and Chipotle Mexican Grill."
+            },
+            {
+                "title": "Living with Mom and trading on margin. The regular investor gets in on Wall Street's record stock borrowing binge",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article discusses the phenomenon of margin investing and its impact on the market, which is a topic that falls under the 'economy and business' category."
+            },
+            {
+                "title": "OpenAI and Anthropic poach Trump officials as industry fights for Washington’s trust",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personnel and leadership changes within AI companies, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Cadet leader posed as girl on Snapchat, court told",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article contains no scientific or technological developments, but rather focuses on a crime case involving a cadet leader and Snapchat."
+            },
+            {
+                "title": "Anthropic bans users from being 'cruel' to its AI systems",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the ethical implications of human interaction with AI systems, which falls under the 'people' category."
+            },
+            {
+                "title": "Prison officer and inmate jailed over Snapchat fling",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on a human-interest story, a scandal involving a prison officer and an inmate, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Man sentenced over post threatening Lucy Connolly",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on a court case and social issues, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Data centre raises noise and wildlife impact fears",
+                "from": "science and technology",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article discusses the potential environmental impact of the data centre, including noise and wildlife concerns, making it more relevant to the 'earth and environment' category."
+            },
+            {
+                "title": "'This has never happened before!' Olivia Colman on viral Wicker memes",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Olivia Colman's reaction to a viral meme campaign and various pop culture news, which is more relevant to the 'entertainment' category than the 'people' category."
+            },
+            {
+                "title": "Crazy Rich Asians to return as TV show with original film's stars",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the film adaptation of Crazy Rich Asians being turned into a TV show, which falls under the entertainment category."
+            },
+            {
+                "title": "Ex-Deutsche Bank trader jailed for rigging rates has conviction overturned",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial crisis, banking scandals, and the impact on individuals, making it more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "Hollywood actor Luke Evans on 'joyous' four months filming in rainy Wales",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses Luke Evans' personal life and family, which is more related to the 'people' category than the current 'entertainment' category, despite being about an actor."
+            },
+            {
+                "title": "Alison Hammond: 'I thought I was having heart attack on air'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Alison Hammond's personal experience and health, rather than an entertainment-related event or news story."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 163,
+        "total_failures": 6,
+        "total_time_seconds": 617.21,
+        "avg_response_time": 3.79
+    }
+}

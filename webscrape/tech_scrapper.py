@@ -2149,9 +2149,9 @@ class TechDataScrapper:
                     f"{self.category}-"
                     f"{len(tech_data) + 1}"
                 ),
-                "source": (
-                    "British Broadcasting Company"
-                ),
+                "source": 
+                    "BBC"
+                ,
                 "category": self.category,
                 "title": article["title"],
                 "date": article["date"],

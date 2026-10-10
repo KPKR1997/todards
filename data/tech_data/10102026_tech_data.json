@@ -1,0 +1,61 @@
+[
+    {
+        "id": "st-13",
+        "source": "CNN",
+        "category": "science and technology",
+        "title": "These origami-inspired rover wheels could help explore the moon’s lava tubes",
+        "date": "2026-10-10 01:06",
+        "content": "With South Korea preparing to send a lander to the moon by 2030, researchers are developing a rover with innovative origami-inspired wheels, which they hope will join the mission. “The wheels are made from multiple flexible strips that interweave,” PhD candidate Seong-bin Lee, of the Aerospace Robotics and Mechanisms Laboratory (ARML) at the Korea Advanced Institute of Science & Technology (KAIST), told CNN. He said he wanted to mimic the structure of a Da Vinci bridge, a self-supporting structure held together by gravity, geometry and friction. Combined with the foldability of origami, the result is a deployable, airless rover wheel. “The key point of origami is the feature of shape-changing ability,” Lee added. He and his team, in collaboration with the Unmanned Exploration Laboratory (UEL), a private space robotics company, have spent three years on the project, creating a wheel that can shrink to 9 inches in diameter, fit inside a lunar lander and expand to more than double that size once it reaches the moon. Dae-Young Lee, associate professor and director of the ARML at KAIST, supervised the project. He explained that conventional shape-changing mechanisms usually require more volume, mass, and complexity, and are less reliable — none of which is ideal for a rover in space. The origami system, he said, removes that complexity while achieving deployability. The wheels are made from a fire-resistant high-carbon steel that allows them to bend and flex more easily than conventional ones. This technology could help the rover explore the moon’s challenging surface while resisting its extreme temperature swings of more than 500° Fahrenheit. It’s hoped a rover with these origami-inspired wheels will explore the moon’s lava tubes, a system of underground tunnels formed by ancient volcanic activity. The tubes could one day shelter human colonies from cosmic radiation and extreme temperatures but are difficult to access due to steep slopes and drop-offs. The wheels have been tested in the caves and lava tubes of Jeju Island, South Korea. The team has also tested a smaller prototype in the lab in various environments, including lunar regolith (the moon’s dusty surface layer), extreme temperatures and mud. The next step is to build a rover that can think for itself. That work is being led by Yiseub Yun, who is working on his master’s degree at KAIST. He is using artificial intelligence to optimize the rover’s design and teach it how to move, drawing on reinforcement learning techniques — where AI learns through trial and error. “I think that adaptiveness of AI can help space exploration,” Yun said. His goal is to build a framework that can identify the optimal shape for a robot, and the ideal number of wheels, so it can more easily navigate the obstacles of the lunar landscape. Korea is becoming increasingly ambitious about space. In its 2027 budget plan, Seoul is seeking a record 1.65 trillion won (approximately $1.2 billion) for space development, a 47% increase over 2026. The effort is managed by the Korea Aerospace Administration (KASA), established in 2024, which has set a goal of turning the country into one of the world’s top five aerospace powers. The rover-wheel initiative is one of several projects at KAIST receiving funding from KASA, and it’s motivating students to push boundaries. “Since I was young, I got big inspiration from people that challenge themselves,” Seong-bin Lee said. “I admired those who challenge themselves, even despite knowing that it’s going to be a tough path. And I’m striving to be like them.”",
+        "url": "https://edition.cnn.com/science/korea-origami-inspired-rover-wheels-explore-moon-hnk-spc",
+        "rank": 1,
+        "ranking_score": 6.97,
+        "ranking_reason": "The article provides evidence of a major scientific discovery and a major technology event, as it presents a new, origami-inspired rover wheel design that could help explore the moon's lava tubes.",
+        "ranking": {
+            "rank": 1,
+            "score": 6.97,
+            "base_score": 5.5,
+            "event_multiplier": 1.15,
+            "severity_multiplier": 1.05,
+            "freshness_multiplier": 1.05,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 10,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 10,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": true
+                },
+                "reason": "The article provides evidence of a major scientific discovery and a major technology event, as it presents a new, origami-inspired rover wheel design that could help explore the moon's lava tubes.",
+                "editorial_relevance": 30,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 10,
+                "public_need_to_know": 10,
+                "public_concern": 5,
+                "technology_significance": 20
+            }
+        }
+    }
+]

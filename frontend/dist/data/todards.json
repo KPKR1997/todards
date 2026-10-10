@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 31",
+    "issue": "Issue No. 32",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "09 October 2026",
+    "publishedAt": "10 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,21 +21,21 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Violent protests erupt in Johannesburg and Durban over immigration ruling.",
-          "image": "https://images.unsplash.com/photo-1622720110672-0049390839c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U291dGglMjBBZnJpY2FuJTIwcHJvdGVzdHN8ZW58MXwwfHx8MTc5MTU2MzMwOXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "South Africa",
-          "time": "Oct 09, 2026",
-          "content": "Violent protests broke out in South Africa's major cities Johannesburg and Durban as anti-immigration demonstrations turned violent. At least 24 vehicles were set ablaze and foreign-owned shops were looted. The violence was sparked by a court ruling allowing some migrants to apply for asylum and concerns over undocumented migration.",
+          "title": "Senate Democrats Spend $5 Million in Kansas Ahead of Election",
+          "image": "https://images.unsplash.com/photo-1604496464355-a5032e3b47e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U2VuYXRlJTIwbWFwfGVufDF8MHx8fDE3OTE1OTYyNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 10, 2026",
+          "content": "Top Democrats are now investing in Kansas a state that hasn't elected a Democrat to the Senate in nearly a century. This marks a shift in their strategy as they initially focused on core battleground seats. With just 22 days to go Senate Democrats are spending $5 million in Kansas where the gap is closing between Democrat Adam Hamilton and incumbent Sen. Roger Marshall. The move is part of a broader effort to flip seats in traditionally Republican areas including Texas Alaska and Iowa.",
           "theme": "#F7ECEE",
-          "source": "BBC"
+          "source": "CNN"
         },
         {
           "id": "pp-2",
-          "title": "Ukrainians prepare for tough winter amid Russian attacks and power cuts",
-          "image": "https://images.pexels.com/photos/16847951/pexels-photo-16847951.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Kyiv, Ukraine",
-          "time": "Oct 09, 2026",
-          "content": "As Russia's attacks on Ukraine's cities intensify Ukrainians are preparing for another tough winter. With Russian drone and missile strikes and prolonged power cuts many people are worried about the cold and the danger. Some like Mariia Shostak are already making plans to leave the capital Kyiv and move abroad to escape the war. Others like Olena Konoplia are choosing to move to the countryside where they can find peace and quiet. The authorities are trying to help by setting up emergency power plants and providing support for vulnerable citizens. But many Ukrainians are still struggling to make ends meet and some are even talking about leaving the country altogether.",
+          "title": "Ebola patient travelled widely before diagnosis and death",
+          "image": "https://images.pexels.com/photos/4097277/pexels-photo-4097277.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Nairobi, Kenya",
+          "time": "Oct 10, 2026",
+          "content": "A Kenyan businessman traveled to several countries while sick with Ebola. He visited the Democratic Republic of Congo then Uganda and eventually Kenya where he was diagnosed and died two days later. The case highlights the limitations of relying on temperature checks and self-declarations to detect Ebola as the man's symptoms were initially misdiagnosed as a skin infection.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
@@ -61,13 +61,13 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "SpaceX Acquires Wireless Spectrum to Boost Starlink Services",
-          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U3BhY2VYfGVufDF8MHx8fDE3OTE1NjMxMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
-          "time": "Oct 09, 2026",
-          "content": "SpaceX bought a large chunk of wireless spectrum from Grain Management a deal that still needs approval from the Federal Communications Commission. This move helps SpaceX's Starlink service expand in the US market allowing it to compete more directly with major phone companies like AT&T and Verizon. The deal caused those companies' stocks to drop while SpaceX's stock went up.",
+          "title": "Korea Developing Origami-Inspired Rover for 2030 Moon Mission",
+          "image": "https://images.unsplash.com/photo-1674616989861-b8dec3488ad1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bHVuYXIlMjByb3ZlcnxlbnwxfDB8fHwxNzkxNTk2MTg2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Jeju Island, South Korea",
+          "time": "Oct 10, 2026",
+          "content": "Researchers at the Korea Advanced Institute of Science & Technology are developing a rover with innovative origami-inspired wheels to join South Korea's planned moon mission by 2030. The wheels are made of flexible strips that interweave mimicking the structure of a Da Vinci bridge and can shrink to fit inside a lunar lander and expand to explore the moon's surface. This technology could help the rover navigate the moon's challenging terrain and extreme temperature swings and it's hoped that a rover with these wheels will explore the moon's lava tubes which could one day shelter human colonies.",
           "theme": "#EBF2FA",
-          "source": "CNBC"
+          "source": "CNN"
         },
         {
           "id": "st-2",
@@ -138,21 +138,21 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "El Niño to become strongest on record, impacting 2.6 billion.",
-          "image": "https://images.unsplash.com/photo-1553912561-8b49f7afce1a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c2VhJTIwc3VyZmFjZSUyMHRlbXBlcmF0dXJlfGVufDF8MHx8fDE3OTE1NjM1NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "El Niño Event Expected to Reach Record Strength in December 2026",
+          "image": "https://images.pexels.com/photos/35962880/pexels-photo-35962880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Geneva, Switzerland",
-          "time": "Oct 09, 2026",
-          "content": "The ongoing El Niño event is expected to become the strongest on record since 1950. Right now sea surface temperatures in the Pacific Ocean are at record levels and experts predict that the event will peak around December. This could lead to unusually high temperatures for 2.6 billion people worldwide droughts in some parts of the world and extreme rainfall in others. The World Meteorological Organization says there's a high chance that El Niño will continue into spring.",
+          "time": "Oct 10, 2026",
+          "content": "The ongoing El Niño event is expected to become the strongest on record since 1950 with a peak forecast around December 2026. Sea surface temperatures in the Pacific have already reached record levels with an anomaly of 3.7°C above normal expected. This means that around 2.6 billion people worldwide will experience unusually high temperatures through December.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "Wayanad's Cool Climate Warming Up 1.9°C Above Average",
-          "image": "https://images.pexels.com/photos/32486141/pexels-photo-32486141.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Kerala, India",
-          "time": "Oct 09, 2026",
-          "content": "Wayanad in Kerala India is known for its cool and rainy climate but new data shows it's warming up. The Hume Centre for Ecology and Wildlife Biology has been tracking weather patterns in the area since 2024 and what they're recording is worrying. The average temperature in Wayanad was 29.2°C in September 2026 which is 1.9°C above the average for the previous three years. The heat is also causing soil temperatures to rise and rainfall is becoming less reliable. This change is affecting the local agriculture forests and settlements which were all shaped by the district's cool and wet climate.",
+          "title": "Wayanad's Temperature Soars 1.9°C Above Average, Hitting 34.4°C",
+          "image": "https://images.pexels.com/photos/33136677/pexels-photo-33136677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Kalpetta, India",
+          "time": "Oct 10, 2026",
+          "content": "Wayanad a hill district in Kerala India is warming up more than usual. The Hume Centre for Ecology and Wildlife Biology has been tracking the weather there for years and the data shows that the average temperature is now 1.9°C above what it used to be. The highest temperature recorded was 34.4°C which is unusually hot. The area is known for its cool and rainy climate which has shaped the local agriculture forests and tourism. The warming trend is worrying because it could have big consequences for the environment and the people who live there.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
@@ -214,21 +214,21 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Musk Accuses Ambani of Blocking Starlink Launch in India",
-          "image": "https://images.pexels.com/photos/36676751/pexels-photo-36676751.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "India",
-          "time": "Oct 09, 2026",
-          "content": "Elon Musk the CEO of SpaceX is questioning whether Mukesh Ambani a billionaire in India is blocking his satellite internet company Starlink from launching in the country. Musk accused powerful business interests of trying to block Starlink's entry into India and specifically named Ambani whose Reliance conglomerate owns Jio India's biggest mobile network operator. India has rejected Musk's allegations saying its satellite communications rules are fair and non-discriminatory.",
+          "title": "Trump Announces Deal with Putin to Release 300000 Tonnes of Diesel Fuel",
+          "image": "https://images.pexels.com/photos/13940862/pexels-photo-13940862.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Oct 10, 2026",
+          "content": "US President Donald Trump has announced a deal with Russian President Vladimir Putin to release Russian diesel fuel to the US and global markets. This move aims to lower diesel prices in America which have more than doubled since the US-Israel conflict with Iran began in February. The conflict has restricted global oil supplies leading to higher fuel prices. Trump's announcement includes the immediate supply of 300000 tonnes of diesel with more to follow. He says this will help farmers truckers and other Americans affected by high fuel costs.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "US Gas Prices Nearly Double After Iran Conflict",
-          "image": "https://images.pexels.com/photos/28037408/pexels-photo-28037408.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
-          "time": "Oct 09, 2026",
-          "content": "Gas prices in the US have more than doubled since the US-Israel conflict with Iran started in February affecting many people. Ahead of the midterm elections there are growing calls for President Donald Trump to do more to reduce prices. Trump has made some announcements to try to get costs down but it's unclear if they will work. The main issue is that global oil supplies have been restricted since the conflict in the Middle East causing prices to remain high. Some experts think that even if the conflict is resolved it could take four to six months for production to return to normal.",
+          "title": "Boots sold to Canadian family's Wittington Investments",
+          "image": "https://images.unsplash.com/photo-1784127616777-b8bd2536bbf8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Qm9vdHMlMjBzdG9yZXxlbnwxfDB8fHwxNzkxNTk2NjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "UK",
+          "time": "Oct 10, 2026",
+          "content": "Boots a well-known pharmacy and retailer in the UK has been sold to a new owner Wittington Investments a Canadian family that also owns Primark. This deal could change the way Boots operates its 1800 stores. Some experts think the new owners should invest in updating smaller stores which have lacked investment in the past. Others suggest Boots should make its stores more functional with health hubs not stuck in the corner. The company's loyalty card Advantage is popular and unlikely to change. Boots also plans to expand its healthcare services which could be a big part of its business in the future.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
