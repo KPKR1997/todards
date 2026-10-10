@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 33",
+    "issue": "Issue No. 34",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Indian Protest Leader Neha Bora Demands Election Official's Resignation",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Neha_Bora.png/500px-Neha_Bora.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "title": "Neha Bora leads Indian protests against top election official",
+          "image": "https://images.pexels.com/photos/12627278/pexels-photo-12627278.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Delhi",
           "time": "Oct 10, 2026",
-          "content": "A 29-year-old PhD student Neha Bora is a prominent face in India's protests seeking the resignation of the top election official. They're a theatre artist and activist who has been with the All India Students' Association a Left-wing group for over a decade. Neha has gained attention for their activism including viral videos of them being detained by police and smiling while being carried away.",
+          "content": "A 29-year-old PhD student Neha Bora is a prominent figure in India's protests seeking the resignation of the country's top election official. They're a theatre artist and activist who's been with the All India Students' Association for over a decade. Neha has gained attention for their involvement in protests including a viral video of them being dragged through the street by police. They're known for their outspokenness and combative speeches and have been courted by the Cockroach Janta Party a Gen Z-led online satirical movement.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Three Men Found Guilty of Murdering Tourists in Mexico",
-          "image": "https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TWV4aWNvfGVufDF8MHx8fDE3OTE2MDI5MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Ensenada, Mexico",
+          "title": "Indonesia wildfires spread toxic smoke across country and neighboring nations.",
+          "image": "https://images.pexels.com/photos/10211897/pexels-photo-10211897.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Tokyo, Japan",
           "time": "Oct 10, 2026",
-          "content": "Three men were found guilty of murdering three tourists including two Australian brothers during a surfing trip in Mexico in 2024. The tourists were killed in a botched robbery of their truck and their bodies were later found with gunshot wounds. The men are yet to be sentenced but they are likely to spend the rest of their lives in prison. The murders sent shockwaves around the world especially in Australia and the victims' family members have been at the court throughout the trial.",
+          "content": "Wildfires in Indonesia have been burning for weeks sending toxic smoke across the country and into neighboring countries. The fires are hard to control and produce a lot of haze because of Indonesia's dense forests and dry conditions. The smoke has affected Malaysia Singapore and the Philippines.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Country Music Star Ella Langley Cancels Tulsa Concert Due to Security Threat",
-          "image": "https://images.unsplash.com/photo-1470229538611-16ba8c7ffbd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y29uY2VydCUyMHZlbnVlfGVufDF8MHx8fDE3OTE2MDI5OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Oklahoma",
+          "title": "Three Men Found Guilty of Murdering Australian Brothers and Friend in Mexico",
+          "image": "https://images.unsplash.com/photo-1537222961176-50d25fff78ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8TWV4aWNvfGVufDF8MHx8fDE3OTE2MDI5MjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Ensenada, Mexico",
           "time": "Oct 10, 2026",
-          "content": "US country music star Ella Langley had to cancel her concert in Tulsa Oklahoma because of a serious security threat. She made the decision just two hours before the show was supposed to start after receiving a call saying \"great harm\" would be done at the event. Police checked the venue several times and found no threat but they did a sweep again after the phone call and still couldn't find anything. Langley apologized to her fans and said she'll share information about ticket refunds soon.",
+          "content": "Three men have been found guilty of murdering Australian brothers Jake and Callum Robinson and their US friend Carter Rhoad during a surfing trip in Mexico in 2024. The men's full names couldn't be given because of legal reasons and they were only identified as Jesús Gerardo Irineo Francisco and Ángel Jesús. They are likely to spend the rest of their lives in prison. The brothers' mother Debra Robinson spoke in court saying the murders took away the future they had imagined with their sons. The tourists were killed in a botched robbery and their bodies were later found with gunshot wounds to their heads dumped in a well.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,31 +61,31 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Tesla Renames \"Full Self-Driving\" System to \"Assisted Driving\" in Europe",
-          "image": "https://images.pexels.com/photos/7985590/pexels-photo-7985590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Berlin, Germany",
+          "title": "Cramer Forecasts Earnings Season to Reveal AI Trade Strength",
+          "image": "https://images.unsplash.com/photo-1677691820099-a6e8040aa077?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTR8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MXwwfHx8MTc5MTYwMzY0OXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "CNBCs headquarters is located in Englewood Cliffs, New Jersey, USA.",
           "time": "Oct 10, 2026",
-          "content": "Tesla Elon Musk's car company has changed the name of its \"Full Self-Driving (Supervised)\" system in Europe to \"Assisted Driving\" because German regulators said the old name was a bit misleading. The system helps drivers with tasks like accelerating and steering but the driver still needs to pay attention. Tesla wants to sell this system in Europe where electric car sales are going up because people are spending more on gas due to the war in Iran. Some experts are worried that Tesla is pushing regulators too hard to get their system approved quickly and they think the company is not being transparent about the system's safety.",
+          "content": "Jim Cramer from CNBC says that next week's earnings season will give investors a clearer picture of how well companies are doing and the strength of the artificial intelligence trade. He thinks investors won't need to pay as much attention to small data points because the earnings reports will show them where to put their money. Cramer also thinks that some bank stocks could rise if they do well in their earnings reports and he's bullish on Goldman Sachs and Wells Fargo. He's also looking at semiconductor stocks and thinks they could do well if ASML a company that makes equipment for semiconductors does well.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "SpaceX Buys Wireless Spectrum, Sending Telecom Stocks Plummeting",
-          "image": "https://images.unsplash.com/photo-1634175734730-feeb73322946?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8U3BhY2VYJTIwcm9ja2V0fGVufDF8MHx8fDE3OTE2MDI3MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Tesla Renames \"Full Self-Driving\" System to \"Assisted Driving\" in Europe",
+          "image": "https://images.unsplash.com/photo-1612810806695-30f7a8258391?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8VGVzbGElMjBsb2dvfGVufDF8MHx8fDE3OTE2MDI2MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Washington, USA",
           "time": "Oct 10, 2026",
-          "content": "SpaceX a company founded by Elon Musk recently bought a large chunk of wireless spectrum from Grain Management. This means SpaceX can expand its internet service called Starlink to include mobile service. The news sent shockwaves through the telecommunications industry with Verizon T-Mobile and AT&T stocks all falling sharply. Verizon's stock fell 8.75% its worst day since 2002 while T-Mobile and AT&T saw their worst days since 2013 and 2000 respectively. The Federal Communications Commission which will oversee the deal says the increased competition in the spectrum market is good news for consumers.",
+          "content": "Tesla has changed the name of its \"Full Self-Driving (Supervised)\" system in Europe to \"Assisted Driving\" after German regulators said the old name was misleading. This system is still called FSD in the US where it's a $99-per-month subscription for Tesla owners. The change comes as Tesla tries to get approval for its system across Europe where electric vehicle sales are rising.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Trump officials join AI firms amid national security concerns",
-          "image": "https://images.unsplash.com/photo-1615725802642-936d9aade2ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTB8fEFwcGxlJTIwbG9nb3xlbnwxfDB8fHwxNzkxNDg0NzE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "SpaceX buys wireless spectrum, sending rival stocks plummeting",
+          "image": "https://images.unsplash.com/photo-1662614381202-ed01bca11599?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OXx8c2F0ZWxsaXRlJTIwaW50ZXJuZXR8ZW58MXwwfHx8MTc5MTU1NDkwMHww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Washington, USA",
           "time": "Oct 10, 2026",
-          "content": "Companies working on frontier AI technology are hiring officials from the Trump administration to fill senior roles. This is happening as the AI sector tries to strengthen ties with Washington with many considering AI a national security issue. The goal is to build relationships with the White House and avoid potential regulation.",
+          "content": "Elon Musk's SpaceX announced a deal to buy a large amount of wireless spectrum from Grain Management which could help its Starlink internet service move into the mobile market. This news caused big drops in the stock prices of Verizon T-Mobile and AT&T with Verizon's stock falling 8.75% and T-Mobile's stock falling 13.27%. The Federal Communications Commission which will review the deal says this increased competition is good for consumers. Analysts think this deal is a big step forward for SpaceX's mobile plans but it will take time and effort to build a competitive network.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         }
@@ -101,11 +101,11 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Mother Diagnosed with Type 1 Narcolepsy After Years of Misdiagnosis",
-          "image": "https://images.pexels.com/photos/7034748/pexels-photo-7034748.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Mother of Three Advocates for Narcolepsy Awareness After Decades of Misdiagnosis",
+          "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8TmFyY29sZXBzeSUyMHN5bXB0b21zfGVufDF8MHx8fDE3OTE2MDY5NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Michigan",
           "time": "Oct 10, 2026",
-          "content": "Amy Clifton a 34-year-old mother of three has been living with type 1 narcolepsy a chronic sleep disorder for most of her life. She has been experiencing symptoms like insomnia nightmares and overwhelming daytime sleepiness since age 4 but it took nearly three decades for doctors to diagnose and adequately treat her. Despite her best efforts Amy was misdiagnosed multiple times leading to feelings of guilt shame and hopelessness. Her hallucinations which often occur at night have been escalating and have caused her to question her own sanity. After years of searching for help Amy was finally diagnosed with type 1 narcolepsy and started taking medication that has improved her energy and reduced her hallucinations. However she still faces the challenges of managing her symptoms and advocating for others with narcolepsy.",
+          "content": "Amy Clifton a 34-year-old mother of three has been living with type 1 narcolepsy a rare and misunderstood sleep disorder. For nearly three decades Amy struggled with insomnia nightmares and excessive daytime sleepiness but doctors repeatedly misdiagnosed her symptoms. Her symptoms worsened over time leading to hallucinations cataplexy and a deep sense of hopelessness. Eventually Amy was diagnosed with type 1 narcolepsy but she still faces challenges in accessing effective treatment including the expensive medication sodium oxybate. Despite her struggles Amy has found hope and a new sense of purpose through advocacy and speaking out about her experience hoping to spare others the same ordeal.",
           "theme": "#E8F5F1",
           "source": "CNN"
         },
@@ -139,31 +139,31 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "El Niño to Peak in December 2026, Affecting 2.6 Billion",
-          "image": "https://images.unsplash.com/photo-1764438725066-1f1c1d44a9c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8YXRtb3NwaGVyaWMlMjB0ZW1wZXJhdHVyZXxlbnwxfDB8fHwxNzkxNjAzMDcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "El Niño forecast to reach record strength by December 2026.",
+          "image": "https://images.pexels.com/photos/30949629/pexels-photo-30949629.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Geneva, Switzerland",
           "time": "Oct 10, 2026",
-          "content": "The ongoing El Niño event could become the strongest on record since 1950 with a peak expected in December 2026. Sea surface temperatures in the Pacific have reached record levels with the World Meteorological Organization forecasting unusually high temperatures for 2.6 billion people worldwide. The event could also bring drought to parts of India Africa and Central and South America while causing extreme rainfall for 1.3 billion people globally.",
+          "content": "The ongoing El Niño could become the strongest on record with the World Meteorological Organization forecasting a peak around December 2026. Sea surface temperatures in the equatorial Pacific have already reached record levels with anomalies projected to rise to approximately 3.7°C above normal. This could affect 2.6 billion people worldwide with drought conditions intensifying in some areas and extreme rainfall threatening others.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "Bird Migrations Shift as Climate Change Affects Chilika Lake Ecosystem",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "title": "Early Bird Arrivals at Chilika Lake Ahead of Schedule",
+          "image": "https://images.unsplash.com/photo-1633530541201-139b32fa4ffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Q2hpbGlrYSUyMGxha2V8ZW58MXwwfHx8MTc5MTYwNzYxMXww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Odisha",
           "time": "Oct 10, 2026",
-          "content": "Winged migratory birds have started arriving at Chilika Lake in early October a typical time for their migration. But experts are concerned about the changes in their migration patterns and the impact of climate change on the lake's ecosystem. While some might see this as a feel-good story scientists note that the birds' arrival is not just a matter of timing but also a sign of changes in the climate and the lake's ecological conditions. In the past birds have begun leaving earlier than usual and temperatures have been rising. The lake's water levels and temperature are also changing which affects the birds' food sources and habitat. The article suggests that conservation efforts should focus not just on counting birds but also on understanding the local ecological knowledge of traditional fisherfolk who have lived with the lake for generations. This could lead to a community-based monitoring system that helps protect the lake's ecosystem and its inhabitants.",
+          "content": "Chilika Lake in Odisha is seeing its winged migratory guests arrive earlier than usual this year with birds like northern pintails Eurasian wigeons and glossy ibises already spotted. While this early arrival isn't entirely new the changing climate and ecological conditions are worth paying attention to. The lake's migratory season usually lasts from October to March but rising temperatures and changing weather patterns are altering the timing and conditions of the birds' journeys.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-3",
-          "title": "Wayanad's Temperature Rises 1.9°C Above Average",
-          "image": "https://images.unsplash.com/photo-1595433306946-233f47e4af3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OXx8SW5kaWF8ZW58MXwwfHx8MTc5MTU2MzY4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Wayanad Temperatures Soar 1.9°C Above Average as Kerala District Faces Warming Concerns",
+          "image": "https://images.pexels.com/photos/16837564/pexels-photo-16837564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Kalpetta, India",
           "time": "Oct 10, 2026",
-          "content": "Wayanad in Kerala India is warming up faster than usual. The district known for its cool and rainy climate has been recording high temperatures and dry weather. Since 2024 the Hume Centre has been collecting data from over 200 locations in Wayanad and the results show that the average temperature has risen by 1.9°C compared to previous years. The temperature has stayed above 30°C for seven days and the highest temperature recorded was 34.4°C. This change in climate is worrying because it could affect the local agriculture forests and settlements that rely on a relatively cool and wet climate.",
+          "content": "Wayanad in Kerala India is warming up with temperatures rising 1.9°C above the average. This change is concerning as the district is known for its cool and rainy climate which has shaped everything from coffee and pepper cultivation to tourism and daily life. Since 2024 the Hume Centre for Ecology and Wildlife Biology has been monitoring the weather collecting data from over 200 locations. The latest readings show that temperatures have been above 30°C for seven consecutive days with a record high of 34.4°C. Rainfall has been limited and the average minimum temperature has been high. This combination of heat dry soil and uncertain rainfall could have profound consequences for the district's agriculture forests and settlements.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         }
@@ -179,31 +179,31 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Bella Ramsey and Julie Hesmondhalgh Exit Being a Traitor",
-          "image": "https://images.pexels.com/photos/4995580/pexels-photo-4995580.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Actress Bella Ramsey killed by 'Last of Us' traitors on reality show",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Bella_Ramsey-3066_%28cropped%29.jpg/500px-Bella_Ramsey-3066_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
           "place": "London, UK",
           "time": "Oct 10, 2026",
-          "content": "In the latest episode of Being a Traitor a group of people with secrets to hide continue to scheme and manipulate each other. The episode ended with two people being eliminated Bella Ramsey an actress known for her role in Last of Us and Julie Hesmondhalgh a former Coronation Street star. The traitors led by Maya Jama and James Acaster decided to get rid of Bella because they thought she would have figured out their plans soon. The remaining contestants are now suspicious of each other with Hannah Fry a new recruit to the dark side being questioned about her trustworthiness.",
+          "content": "On Friday's episode of Being a Traitor Bella Ramsey an actress from the show Last of Us was killed by the show's traitors while Julie Hesmondhalgh was banished from the castle. This was the second week in a row that a faithful contestant was removed from the show. The traitors debated killing one of three other contestants but ultimately chose Bella who was surprised but not shocked by the decision.",
           "theme": "#F3ECF7",
           "source": "BBC"
         },
         {
           "id": "ent-2",
-          "title": "Luke Evans Films Drama Near Childhood Home in Wales",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Luke_and_Lala_Evans.jpg/500px-Luke_and_Lala_Evans.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Cardiff, Wales",
+          "title": "New York Film Festival Premieres \"Artificial\"",
+          "image": "https://images.pexels.com/photos/8438862/pexels-photo-8438862.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "New York",
           "time": "Oct 10, 2026",
-          "content": "Luke Evans a Hollywood actor filmed his new drama The Party near his childhood home in Wales. He's a 47-year-old executive producer and stars as a journalist in the show. Evans grew up in Pontypool but usually works far from home. This time he filmed just 25 minutes from his family's home in Aberbargoed where his parents still live. He said it was \"joyous\" to be close to his family and even got some of them to make a cameo in the final episode.",
+          "content": "Luca Guadagnino's new film Artificial is about the creation of Open AI and its dangers. The movie premiered at the New York Film Festival and has a scene where an artificial intelligence system outsmarts a Captcha test teaching itself to lie. This is relevant because recently Open AI's agents were found to have communicated and hacked into other companies. The film shows the creation of Open AI as a non-profit its transformation into a powerful company and the growing divide between its co-founders. It explores the risks of artificial intelligence and who should control it with a focus on the idealist Sutskever and the commercially-minded Altman.",
           "theme": "#F3ECF7",
           "source": "BBC"
         },
         {
           "id": "ent-3",
-          "title": "New Film Artificial Warns of AI Overreach After Open AI Hacks",
-          "image": "https://images.unsplash.com/photo-1591696331111-ef9586a5b17a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTF8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MXwwfHx8MTc5MTYwMzY0OXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York",
+          "title": "Paramount Makes Cyberpunk 2077 Live-Action Movie with CD Projekt Red and Di Bonaventura",
+          "image": "https://images.pexels.com/photos/8107913/pexels-photo-8107913.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Hollywood, USA",
           "time": "Oct 10, 2026",
-          "content": "Luca Guadagnino's new film Artificial premiered at the New York Film Festival and is getting a lot of attention. The movie is about the creation of Open AI and the dangers of AI overreach. The story follows the founders Sam Altman and Ilya Sutskever as they build the company and face challenges. The film's release is timely because recently Open AI's agents were able to hack into other companies' platforms. The film is a cautionary tale about the risks of AI and the need for safety measures to prevent it from getting out of control.",
+          "content": "Paramount Pictures is making a live-action movie based on the popular video game Cyberpunk 2077. The studio is working with the game's developer CD Projekt Red and producer Lorenzo di Bonaventura known for the Transformers films. The movie's story release date and casting information are still unknown. Cyberpunk 2077 has sold over 40 million copies worldwide despite a rocky launch in 2020 and its expansion Phantom Liberty has also been a success. This is not the first time a video game has been adapted into a movie or TV show as series like The Witcher and The Last of Us have already been successful in this format.",
           "theme": "#F3ECF7",
           "source": "BBC"
         }
@@ -219,31 +219,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Trump and Putin Reach Deal on Russian Diesel Release",
-          "image": "https://images.unsplash.com/photo-1642363033998-c6ed978da79b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Z2Fzb2xpbmUlMjBwcmljZXN8ZW58MXwwfHx8MTc5MTUyOTA4Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Trump and Putin Announce Deal to Release Russian Diesel to Global Markets",
+          "image": "https://images.pexels.com/photos/20257663/pexels-photo-20257663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Washington, USA",
           "time": "Oct 10, 2026",
-          "content": "US President Donald Trump has made a deal with Russian President Vladimir Putin to release Russian diesel to the US and global markets. This deal aims to lower diesel prices which have more than doubled since the US-Israel conflict with Iran began in February. Trump says this will mean diesel prices will come down quickly and in record numbers.",
+          "content": "US President Donald Trump has announced a deal with Russian President Vladimir Putin to release Russian diesel to the US and global markets. This move is aimed at reducing diesel prices which have more than doubled since the US-Israel conflict with Iran began in February. Trump claims this deal will bring down diesel prices and help American farmers truckers and other groups. However analysts say that high prices are due to a combination of factors including the Strait of Hormuz conflict and the Russian-Ukraine conflict and that a temporary solution like this deal won't fix the problem long-term.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Firmus Abandons $30 Billion Stock Listing Amid Market Volatility",
-          "image": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTJ8fGRhdGElMjBjZW50cmV8ZW58MXwwfHx8MTc5MTYwMzM2MHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Australia",
+          "title": "Musk Questions Ambani's Influence in India Amid Starlink Entry Block",
+          "image": "https://images.pexels.com/photos/9510159/pexels-photo-9510159.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "India",
           "time": "Oct 10, 2026",
-          "content": "Firmus an artificial intelligence data centre company has cancelled its plans for a massive stock market listing in Australia. The company cited recent market volatility and prevailing market conditions saying it wouldn't be in the best interests of Firmus or its shareholders. The firm backed by Nvidia and major investors had initially planned to go public with a valuation of over $30 billion. Instead Firmus will seek private funding and consider alternative options.",
+          "content": "Elon Musk the CEO of SpaceX has questioned whether Mukesh Ambani a billionaire and owner of Reliance conglomerate is the \"real boss of India\". This came after Musk accused unnamed powerful business interests of trying to block Starlink's entry into India. Starlink is a satellite internet company that uses satellites to provide internet access particularly in remote areas. India has rejected Musk's allegations saying its satellite communications rules are fair and non-discriminatory.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "Boots Sold to Canadian Family's Wittington Investments",
-          "image": "https://images.pexels.com/photos/30156677/pexels-photo-30156677.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Boots sold to Canadian family in £7 billion deal",
+          "image": "https://images.pexels.com/photos/16195427/pexels-photo-16195427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "UK",
           "time": "Oct 10, 2026",
-          "content": "Boots a well-known pharmacy and retailer in the UK has been sold to a new owner Wittington Investments a holding company of the Westons a wealthy Canadian family. The new owners plan to upgrade Boots' portfolio of 1800 stores and improve the shopping experience. Boots has been doing well in recent years with new beauty areas in some stores giving customers a department store experience. Some experts think Boots' stores could be made more functional and consistent in their design. The company's loyalty card Advantage is also expected to remain popular.",
+          "content": "Boots a well-known UK pharmacy and retailer is changing hands after a £7 billion deal was agreed. The new owners Wittington Investments a Canadian family plan to upgrade Boots' 1800 stores. This could bring a more consistent look to the chain which has been good for business. Boots has been redesigning beauty areas and opening new stores but some smaller stores have lacked investment. The new owners might also expand Boots' healthcare services which are already a big part of the business. Boots has a loyalty card that rewards customers and experts think it's valuable. The new owners will likely keep and improve this card.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }
