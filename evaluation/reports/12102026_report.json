@@ -1,29 +1,29 @@
 {
     "date": "12102026",
-    "timestamp": "2026-10-12T10:13:10.705803",
-    "duration_seconds": 2621.92,
+    "timestamp": "2026-10-12T10:19:24.393361",
+    "duration_seconds": 2995.63,
     "stages_duration_seconds": {
-        "scrape": 735.74,
-        "guardrails": 912.17,
-        "deduplication": 9.53,
-        "category_validation": 124.93,
-        "ranking": 7.43,
-        "processing": 832.09,
-        "assembly": 0.01
+        "scrape": 730.67,
+        "guardrails": 917.46,
+        "deduplication": 8.83,
+        "category_validation": 115.69,
+        "ranking": 6.17,
+        "processing": 1216.77,
+        "assembly": 0.02
     },
     "volume": {
         "scraped_by_category": {
             "Health": 2,
-            "Tech": 8,
+            "Tech": 0,
             "People": 37,
             "Environment": 0,
             "Economy": 9,
             "Entertainment": 4
         },
-        "total_scraped": 60,
+        "total_scraped": 52,
         "guardrail_passed": 60,
         "guardrail_rejected": 0,
-        "dedup_removed": 15,
+        "dedup_removed": 22,
         "category_reassignments": 0,
         "final_articles": 10,
         "final_categories": 4
@@ -35,82 +35,68 @@
         "semantic_duplicate_pairs": 21,
         "duplicate_pairs_found": 29,
         "duplicate_clusters": 13,
-        "duplicates_removed": 15
+        "duplicates_removed": 22
     },
     "category_validation": {
         "status": "completed",
         "total_checked": 27,
-        "rejected_count": 9,
+        "rejected_count": 7,
         "rejected_articles": [
             {
                 "title": "Think you can’t live without a smartphone? Why a flip phone might be an upgrade",
                 "from": "health",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the impact of smartphone use on mental health and well-being, and the author's personal experience of reducing screen time, which is a topic relevant to the 'people' category."
+                "reason": "The article discusses the personal experience of an individual who gave up their smartphone and its impact on their social connections, mental health, and overall well-being."
             },
             {
                 "title": "Adventurer who lost leg says 'don't send me money'",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article discusses an individual's experience and warning about online scams, which falls under the 'people' category."
+                "confidence": 0.8,
+                "reason": "The article discusses an individual's personal experience and warnings about online scams, rather than a scientific or technological development."
             },
             {
                 "title": "Iconic Australian band Powderfinger announce first tour in 17 years",
                 "from": "people",
                 "detected_category": "entertainment",
                 "confidence": 0.9,
-                "reason": "The article is primarily about the music industry and the reunion of the Australian rock band Powderfinger, which is more relevant to the entertainment category than the 'people' category, despite some tangential connections to the people involved."
+                "reason": "The article is primarily about the reunion and upcoming tour of the Australian rock band Powderfinger, which falls under the 'entertainment' category."
             },
             {
                 "title": "Sacha Baron Cohen to star in Quentin Tarantino's West End play",
                 "from": "people",
                 "detected_category": "entertainment",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on Sacha Baron Cohen's upcoming play in London's West End, a topic that falls under the entertainment category."
+                "confidence": 0.9,
+                "reason": "The article is primarily about a play and its cast, which fits the entertainment category, although it does mention the people involved (Sacha Baron Cohen and Quentin Tarantino), but the focus is on the entertainment aspect."
             },
             {
                 "title": "Teen 'detached from reality' to cope with return of aggressive cancer",
                 "from": "people",
                 "detected_category": "health",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses Ethan Griffiths' experience with cancer, treatment, and relapse, which falls under the health category."
-            },
-            {
-                "title": "Citroen revives the 2CV for an electric age",
-                "from": "economy and business",
-                "detected_category": "science and technology",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses the electric vehicle's technology and its significance in the automotive industry, making it more relevant to the 'science and technology' category."
-            },
-            {
-                "title": "Ukraine strikes Yandex data centre in third attack on Russian tech giant",
-                "from": "economy and business",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article's primary focus is on the conflict between Ukraine and Russia, and the impact on the tech giant Yandex, which is more relevant to the 'people' category than 'economy and business' despite mentioning economic issues."
+                "confidence": 1.0,
+                "reason": "The article is primarily about a teenage boy's experience with lymphoma and his coping mechanisms, which makes it most relevant to the 'health' category."
             },
             {
                 "title": "Debt advice that may leave you owing even more money",
                 "from": "economy and business",
                 "detected_category": "health",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses debt advice and debt management, which falls under the 'health' category in the context of personal finance and financial well-being."
+                "confidence": 0.8,
+                "reason": "The article primarily discusses debt advice and debt management plans, which is a health-related topic as it affects people's financial well-being and mental health."
             },
             {
                 "title": "Roofing scammers con homeowners out of thousands of pounds",
                 "from": "economy and business",
-                "detected_category": "health",
+                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the impact of scams on homeowners and the vulnerability of elderly individuals, which is a health-related issue."
+                "reason": "The article reports on consumer scams and victims' experiences, which is more relevant to the 'people' category than 'economy and business', despite the financial implications."
             }
         ]
     },
     "llm_performance": {
         "total_calls": 87,
-        "total_failures": 4,
-        "total_time_seconds": 638.22,
-        "avg_response_time": 7.34
+        "total_failures": 3,
+        "total_time_seconds": 643.44,
+        "avg_response_time": 7.4
     }
 }

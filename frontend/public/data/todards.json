@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Security Forces Deployed in India's Capital as Protest Continues",
-          "image": "https://images.pexels.com/photos/18853472/pexels-photo-18853472.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Cockroach Janta Party Protests in Delhi Demanding Top Election Official's Resignation",
+          "image": "https://images.pexels.com/photos/12527082/pexels-photo-12527082.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Delhi, India",
           "time": "Oct 12, 2026",
-          "content": "Thousands of security personnel were deployed in India's capital as protests continued for a second day. The Cockroach Janta Party led by Abhijeet Dipke is seeking electoral reforms and the resignation of the Chief Election Commissioner Gyanesh Kumar. Dipke was arrested on Saturday but freed on Sunday vowing to continue the protest. Thousands of protesters were detained and released with many more prevented from reaching the protest site by police barricades and internet curbs. The protest is seeking to update electoral rolls nationwide and has been accused of favouring the ruling party.",
+          "content": "The Cockroach Janta Party led by Abhijeet Dipke is protesting in India's capital Delhi demanding the resignation of the top election official Gyanesh Kumar. Dipke was arrested and released saying the party won't back down or be intimidated. The protest has been ongoing for two days with thousands of security personnel deployed and roads barricaded. Police have detained and released many protesters and the internet has been curtailed in central Delhi. The party wants electoral reforms and accuses Kumar of manipulating voters' lists to favor Prime Minister Narendra Modi's party.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "One killed, 11 injured in second airport attack in Riyadh",
-          "image": "https://images.pexels.com/photos/35427894/pexels-photo-35427894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "One killed, 11 injured in Riyadh airport strike",
+          "image": "https://images.unsplash.com/photo-1721592873149-9823d9dc6b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YWlycG9ydCUyMHN0cmlrZXxlbnwxfDB8fHwxNzkxNzc5ODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Riyadh, Saudi Arabia",
           "time": "Oct 12, 2026",
-          "content": "One person has been killed and 11 others injured in a second attack on King Khalid International Airport in Riyadh Saudi Arabia. The attack comes a day after another strike on the same airport killed 13 people and injured 308 others. The Houthis in Yemen who are fighting against the Saudi-led coalition claimed responsibility for the attacks and said they targeted the airport with ballistic missiles cruise missiles and drones.",
+          "content": "One person has been killed and 11 others injured in a second strike on the international airport in Riyadh Saudi Arabia. A projectile hit King Khalid International Airport causing a fire in a passenger hall. The Houthis in Yemen claimed responsibility and warned airlines and passengers not to use Saudi Arabian airports and airspace.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Sudanese gold miners killed in air strikes, at least 72 civilians died",
-          "image": "https://images.pexels.com/photos/31137175/pexels-photo-31137175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "River Nile, Sudan",
+          "title": "Sudan: At Least 72 Civilians Killed in Air Strikes on Gold Miners",
+          "image": "https://images.pexels.com/photos/5339793/pexels-photo-5339793.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Sudan",
           "time": "Oct 12, 2026",
-          "content": "At least 72 civilians who were searching for gold in Sudan have been killed in air strikes. The strikes happened on Saturday at a popular mining site in Sudan's River Nile state. The jets targeted the miners who were not armed and destroyed their camps and equipment.",
+          "content": "At least 72 civilians who were searching for gold in Sudan's River Nile state were killed in air strikes on Saturday according to a regional rights group called Emergency Lawyers. The group says jets targeted the miners who were not armed and that the attack violates international humanitarian law and the right to life. The Sudanese government has not commented but Egypt has faced accusations of deadly strikes on gold prospectors in the past. The group believes the attack may be a war crime.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,31 +61,31 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "US software job postings rise, defying predictions AI would replace developers",
-          "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y29kaW5nfGVufDF8MHx8fDE3OTE3Nzk1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "US Job Postings for Software Developers Increase Despite AI Fears",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "Tokyo, Japan",
           "time": "Oct 12, 2026",
-          "content": "Software development job postings in the US have risen since February 2025 despite overall job postings falling. This challenges predictions that AI would replace developers. Some experts say AI-written code is now close to surpassing human-written code on GitHub but others point out that senior-level roles and experienced AI-oriented positions are seeing the biggest increase. Labor market researchers believe the profession is evolving rather than disappearing with companies recognizing that AI can handle some tasks but humans are still needed to oversee and refine products.",
+          "content": "The number of job postings for software developers in the US has increased since February 2025 even as overall job postings decreased. This is surprising as many thought AI would replace the need for software developers. Instead companies are producing more code than ever before and software developers who work with AI are in high demand. The increase is concentrated in senior-level roles and positions that involve AI which has led some to believe that the profession is evolving rather than disappearing.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "AI evaluators sought for advanced AI models",
-          "image": "https://images.unsplash.com/photo-1580982336957-29e605c705d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8RW1iZWRkZWQlMjBFdmFsdWF0aW9ufGVufDF8MHx8fDE3OTE3Nzk2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "AI Firms Partner with Nonprofits to Safeguard Advanced Models",
+          "image": "https://images.pexels.com/photos/8438933/pexels-photo-8438933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Washington, USA",
           "time": "Oct 12, 2026",
-          "content": "Independent evaluators mostly small organizations and nonprofits are being asked to help ensure the safety and accountability of advanced AI models developed by companies like Anthropic and OpenAI. These evaluators assess AI model capabilities and risks and flag instances where the technology behaves badly. However questions remain about how these evaluators will be funded what level of access they will have and what the reporting structure will look like. The AI industry is largely self-regulating with companies like Anthropic and OpenAI writing their own rules but some lawmakers and experts are pushing for government oversight and regulation to ensure true independence and accountability.",
+          "content": "Independent evaluators mostly small nonprofits and accounting firms are being asked by AI companies like Anthropic and OpenAI to help safeguard their advanced models and grow their businesses. This comes after a debate over whether they can safely develop and use their technology. Anthropic has pledged to embed independent evaluators in its company while OpenAI has already done so. However questions remain about how these third-party evaluators will be funded what level of access they will have and what the reporting structure will look like. Some experts say that without federal regulation the evaluators may be beholden to the AI companies for revenue which could lead to rubber-stamping of their findings.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Fast-food Chains, Supermarkets Use AI for Dynamic Pricing",
-          "image": "https://images.unsplash.com/photo-1759038391007-bedbbd0e9e5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c3VwZXJtYXJrZXQlMjBsb2dvfGVufDF8MHx8fDE3OTE3Nzk2Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Fast-food Chains, Supermarkets Use AI for Dynamic Pricing, Personalization",
+          "image": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c3VwZXJtYXJrZXR8ZW58MXwwfHx8MTc5MTc3OTY3OXww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Washington, USA",
           "time": "Oct 12, 2026",
-          "content": "Fast-food chains and supermarkets are using artificial intelligence to set prices potentially affecting what customers pay. McDonald's is accused of using AI to overcharge customers while grocery stores like Kroger are using AI to discount near-expired food. Supermarkets are also using digital price tags and facial recognition checkout to collect more data on customers. Experts warn that this could lead to more dynamic pricing where prices change rapidly in response to market conditions and individual customer behavior.",
+          "content": "Fast-food chains and supermarkets are using artificial intelligence to set prices and personalize customer experiences. McDonald's is accused of using AI to charge different customers different prices for the same menu items. Grocery stores like Kroger are using AI to mark down near-expired food and supermarkets are using digital labels to display prices. Some companies are even using facial recognition to allow customers to pay with just a glance. Experts warn that this could lead to more dynamic pricing which means prices changing rapidly in response to changing market conditions. This could make it harder for consumers to compare prices and understand why they're paying certain prices.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         }
@@ -101,11 +101,11 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "UK kids' cancer cases top 1900 each year, experts warn of hidden symptoms",
+          "title": "UK cancer deaths in children rise: parents urged to recognize clusters of symptoms",
           "image": "https://images.pexels.com/photos/8384663/pexels-photo-8384663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "London, UK",
           "time": "Oct 12, 2026",
-          "content": "Cancer is the top cause of death from disease among kids under 15 in the UK but many parents don't recognize the symptoms. Each year about 1900 kids under 14 are diagnosed with cancer. Amelia Carroll was diagnosed with leukaemia when she was 13. Her mum Gemma says she initially thought Amelia's tiredness and breathlessness were just from being unfit. But when Amelia started getting bruises Gemma knew something was wrong. Experts say it's key to look out for clusters of symptoms that persist or get worse.",
+          "content": "Cancer is the leading cause of death from disease among children under 15 in the UK. Despite this many parents don't recognize the symptoms. For example 13-year-old Amelia Carroll was diagnosed with leukemia after her mother noticed bruises and tiredness. These symptoms were initially put down to being unfit but Gemma Carroll knew something was wrong when her daughter started getting more bruises. Experts say it's key for parents to look out for clusters of symptoms rather than just one or two and to seek medical help if these symptoms persist or worsen.",
           "theme": "#E8F5F1",
           "source": "BBC"
         },
@@ -219,31 +219,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Chancellor Healey Faces Budget Dilemma Amid Middle East War Inflation",
-          "image": "https://images.pexels.com/photos/27287808/pexels-photo-27287808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Healey's First Budget Affected by US-Israel War-Driven Price Spike",
+          "image": "https://images.pexels.com/photos/7735690/pexels-photo-7735690.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "London, UK",
           "time": "Oct 12, 2026",
-          "content": "Chancellor John Healey is facing a big challenge as he prepares his first Budget thanks to a war in the Middle East driving up prices. The Institute for Fiscal Studies warns that Healey will have to choose between cutting spending raising taxes or a mix of both to balance the budget. Higher inflation could eat into public spending making it hard for Healey to make spending announcements without honouring them.",
+          "content": "Chancellor John Healey is preparing his first Budget but a price spike caused by the US-Israel war in Iran is making things tricky. The Institute for Fiscal Studies warns that higher-than-expected inflation could eat into planned spending on public services forcing Healey to choose between cuts tax rises or a mix of both. He's already said his Budget will focus on fiscal discipline to deliver economic resilience and give people \"breathing space\".",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Microsoft's Brad Smith Urges Global AI Safety Rules to Prevent Harm",
-          "image": "https://images.pexels.com/photos/8438933/pexels-photo-8438933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Microsoft Seeks Global AI Rules to Prevent Rogue Systems",
+          "image": "https://images.pexels.com/photos/16057187/pexels-photo-16057187.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "United Kingdom",
           "time": "Oct 12, 2026",
-          "content": "Microsoft's president Brad Smith says artificial intelligence needs global safety rules to prevent harm. He wants companies to have \"kill switches\" to stop AI if it gets out of control and for them to tell victims if their AI systems are breached. Smith also suggests independent government evaluators should vet new AI technology. He believes the UK is best placed to lead the way in creating these global rules because of its AI Security Institute.",
+          "content": "Microsoft President Brad Smith thinks AI needs global safety rules to prevent rogue AI systems. He wants companies to have \"emergency brakes\" to pause or slow down AI if it gets out of control. He also thinks firms should be required to report incidents and tell victims if their AI system is breached. Smith believes the UK is well-positioned to lead the way in setting these global rules and he thinks most people would agree that the UK is the leader in AI technology.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "Nebraska Rancher Struggles to Keep Afloat Amid Wildfire, Tariffs, and Fuel Costs",
-          "image": "https://images.pexels.com/photos/33975350/pexels-photo-33975350.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Nebraska rancher struggles with wildfire damage, Trump's beef policy backfires",
+          "image": "https://images.pexels.com/photos/31458843/pexels-photo-31458843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Nebraska, USA",
           "time": "Oct 12, 2026",
-          "content": "Nebraska rancher Yvette Mannon is struggling to keep her ranch afloat after a wildfire destroyed part of her land and a tractor and then the Trump administration's decision to import foreign beef tanked the cattle market. Many farmers and ranchers in the state are feeling the pinch of government policies tariffs and rising fuel costs leading some to reassess their political allegiances. Some Trump supporters like rancher Jake Wolfinger are unhappy with the president's intervention in the beef market while others like rancher Duane Kimball blame government regulations and rising costs for their struggles. As the midterms approach some farmers and ranchers may show their discontent at the polls.",
+          "content": "A Nebraska rancher Yvette Mannon is struggling to keep her ranch afloat after a wildfire destroyed parts of her property. With high steel prices and tariffs imposed by President Trump she's facing a huge bill to replace her fencing. Meanwhile the Trump administration's decision to import foreign beef has sent the cattle market tumbling leaving many farmers and ranchers feeling betrayed. The situation has left some Trump supporters in Nebraska reassessing their political allegiances with some even considering voting against him in the upcoming midterms.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }
