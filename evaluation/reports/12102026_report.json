@@ -1,102 +1,116 @@
 {
     "date": "12102026",
-    "timestamp": "2026-10-12T10:19:24.393361",
-    "duration_seconds": 2995.63,
+    "timestamp": "2026-10-12T12:33:18.405279",
+    "duration_seconds": 2219.5,
     "stages_duration_seconds": {
-        "scrape": 730.67,
-        "guardrails": 917.46,
-        "deduplication": 8.83,
-        "category_validation": 115.69,
-        "ranking": 6.17,
-        "processing": 1216.77,
-        "assembly": 0.02
+        "scrape": 526.2,
+        "guardrails": 553.98,
+        "deduplication": 8.86,
+        "category_validation": 132.43,
+        "ranking": 6.35,
+        "processing": 991.64,
+        "assembly": 0.0
     },
     "volume": {
         "scraped_by_category": {
             "Health": 2,
-            "Tech": 0,
-            "People": 37,
-            "Environment": 0,
+            "Tech": 7,
+            "People": 39,
+            "Environment": 3,
             "Economy": 9,
-            "Entertainment": 4
+            "Entertainment": 7
         },
-        "total_scraped": 52,
-        "guardrail_passed": 60,
+        "total_scraped": 67,
+        "guardrail_passed": 67,
         "guardrail_rejected": 0,
-        "dedup_removed": 22,
+        "dedup_removed": 19,
         "category_reassignments": 0,
-        "final_articles": 10,
-        "final_categories": 4
+        "final_articles": 15,
+        "final_categories": 6
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 129,
-        "exact_duplicate_pairs": 8,
-        "semantic_duplicate_pairs": 21,
-        "duplicate_pairs_found": 29,
-        "duplicate_clusters": 13,
-        "duplicates_removed": 22
+        "total_checked": 132,
+        "exact_duplicate_pairs": 7,
+        "semantic_duplicate_pairs": 19,
+        "duplicate_pairs_found": 26,
+        "duplicate_clusters": 12,
+        "duplicates_removed": 19
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 27,
-        "rejected_count": 7,
+        "total_checked": 48,
+        "rejected_count": 9,
         "rejected_articles": [
             {
-                "title": "Think you can’t live without a smartphone? Why a flip phone might be an upgrade",
-                "from": "health",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses the personal experience of an individual who gave up their smartphone and its impact on their social connections, mental health, and overall well-being."
-            },
-            {
-                "title": "Adventurer who lost leg says 'don't send me money'",
+                "title": "Police unit pulls plug on Palantir AI technology",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses an individual's personal experience and warnings about online scams, rather than a scientific or technological development."
+                "reason": "The article discusses the use of Palantir's AI technology by a police unit, which is a human-interest story and more relevant to the 'people' category."
+            },
+            {
+                "title": "Children cut down on social screen time for trial",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on a study involving teenagers and their social media use, which is more relevant to the 'people' category than 'science and technology', despite the scientific study aspect."
+            },
+            {
+                "title": "Buildings swept away as flash floods hit central Nepal",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a natural disaster (flash flood) and its effects, which is more relevant to the 'earth and environment' category than the current 'people' category."
             },
             {
                 "title": "Iconic Australian band Powderfinger announce first tour in 17 years",
                 "from": "people",
                 "detected_category": "entertainment",
                 "confidence": 0.9,
-                "reason": "The article is primarily about the reunion and upcoming tour of the Australian rock band Powderfinger, which falls under the 'entertainment' category."
+                "reason": "The article is primarily about the music tour and band Powderfinger, which falls under the entertainment category."
             },
             {
                 "title": "Sacha Baron Cohen to star in Quentin Tarantino's West End play",
                 "from": "people",
                 "detected_category": "entertainment",
                 "confidence": 0.9,
-                "reason": "The article is primarily about a play and its cast, which fits the entertainment category, although it does mention the people involved (Sacha Baron Cohen and Quentin Tarantino), but the focus is on the entertainment aspect."
+                "reason": "The article primarily focuses on Sacha Baron Cohen's role in Quentin Tarantino's West End play, which falls under the entertainment category."
             },
             {
-                "title": "Teen 'detached from reality' to cope with return of aggressive cancer",
-                "from": "people",
-                "detected_category": "health",
-                "confidence": 1.0,
-                "reason": "The article is primarily about a teenage boy's experience with lymphoma and his coping mechanisms, which makes it most relevant to the 'health' category."
-            },
-            {
-                "title": "Debt advice that may leave you owing even more money",
+                "title": "Zelensky backs Trump's 'energy ceasefire' but says Russia continues to hit power plants",
                 "from": "economy and business",
-                "detected_category": "health",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses debt advice and debt management plans, which is a health-related topic as it affects people's financial well-being and mental health."
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses the political and diplomatic efforts of the US and Ukrainian presidents, as well as the reactions of other world leaders, making it more relevant to the 'people' category than the 'economy and business' category."
             },
             {
-                "title": "Roofing scammers con homeowners out of thousands of pounds",
+                "title": "American ranchers wrestle with soaring costs - and their loyalty to Trump",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article reports on consumer scams and victims' experiences, which is more relevant to the 'people' category than 'economy and business', despite the financial implications."
+                "reason": "The article focuses on the impact of government policies and decisions on farmers and ranchers, which is a people-oriented topic."
+            },
+            {
+                "title": "Dolly Parton's niece wants to learn Welsh after singing with Bronwen Lewis",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Jada Star, a country singer, and her connection to Wales and the Welsh language, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Jonathan Ross's daughter Honey is learning Welsh and practising on her dog",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Jonathan Ross's daughter, Honey, and her personal life, making it more relevant to the 'people' category than 'entertainment'."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 87,
-        "total_failures": 3,
-        "total_time_seconds": 643.44,
-        "avg_response_time": 7.4
+        "total_calls": 115,
+        "total_failures": 1,
+        "total_time_seconds": 468.43,
+        "avg_response_time": 4.07
     }
 }

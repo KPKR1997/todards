@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 36",
+    "issue": "Issue No. 37",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Cockroach Janta Party Protests in Delhi Demanding Top Election Official's Resignation",
-          "image": "https://images.pexels.com/photos/12527082/pexels-photo-12527082.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Delhi, India",
+          "title": "Russia Interfered in 2016 Brexit Referendum, UK Prime Minister Claims",
+          "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cG9saXRpY3N8ZW58MXwwfHx8MTc5MTc4ODAwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
           "time": "Oct 12, 2026",
-          "content": "The Cockroach Janta Party led by Abhijeet Dipke is protesting in India's capital Delhi demanding the resignation of the top election official Gyanesh Kumar. Dipke was arrested and released saying the party won't back down or be intimidated. The protest has been ongoing for two days with thousands of security personnel deployed and roads barricaded. Police have detained and released many protesters and the internet has been curtailed in central Delhi. The party wants electoral reforms and accuses Kumar of manipulating voters' lists to favor Prime Minister Narendra Modi's party.",
+          "content": "Prime Minister Andy Burnham says Russia did interfere in the 2016 Brexit referendum and that similar activities are happening in France and Germany. He believes the UK hasn't been clear enough about Russian efforts to disrupt the political process. Burnham didn't provide details about the extent of Moscow's activity during the referendum.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "One killed, 11 injured in Riyadh airport strike",
-          "image": "https://images.unsplash.com/photo-1721592873149-9823d9dc6b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YWlycG9ydCUyMHN0cmlrZXxlbnwxfDB8fHwxNzkxNzc5ODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Riyadh, Saudi Arabia",
+          "title": "Australian Engineer Robert Pether Freed from Iraqi Prison After Five Years",
+          "image": "https://images.pexels.com/photos/18797730/pexels-photo-18797730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Ireland",
           "time": "Oct 12, 2026",
-          "content": "One person has been killed and 11 others injured in a second strike on the international airport in Riyadh Saudi Arabia. A projectile hit King Khalid International Airport causing a fire in a passenger hall. The Houthis in Yemen claimed responsibility and warned airlines and passengers not to use Saudi Arabian airports and airspace.",
+          "content": "Australian engineer Robert Pether has been released from an Iraqi prison after five years following a long campaign by the Australian and Irish governments. Pether 51 was arrested in 2021 and held without charge for almost six months before being convicted of fraud and sentenced to five years in prison. The UN has ruled that his detention was illegal and an international court has found his employer was not responsible for the dispute that led to his arrest. Pether is now on his way to be reunited with his family in Ireland.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Sudan: At Least 72 Civilians Killed in Air Strikes on Gold Miners",
-          "image": "https://images.pexels.com/photos/5339793/pexels-photo-5339793.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Sudan",
+          "title": "Riyadh Airport hit again: One killed, 11 hurt in fresh attack",
+          "image": "https://images.pexels.com/photos/35118089/pexels-photo-35118089.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Riyadh, Saudi Arabia",
           "time": "Oct 12, 2026",
-          "content": "At least 72 civilians who were searching for gold in Sudan's River Nile state were killed in air strikes on Saturday according to a regional rights group called Emergency Lawyers. The group says jets targeted the miners who were not armed and that the attack violates international humanitarian law and the right to life. The Sudanese government has not commented but Egypt has faced accusations of deadly strikes on gold prospectors in the past. The group believes the attack may be a war crime.",
+          "content": "One person was killed and 11 others were hurt in a second attack on the airport in Riyadh Saudi Arabia. A projectile hit the airport's passenger hall causing a fire. This comes a day after a similar attack killed 13 people and injured many more. The Houthis in Yemen who are behind the attacks warned that all Saudi airports are potential targets except for those in the holy cities of Mecca and Medina.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,31 +61,31 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "US Job Postings for Software Developers Increase Despite AI Fears",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
-          "place": "Tokyo, Japan",
+          "title": "TikTok CEO Forecasts Major Scientific Breakthroughs in Three Years",
+          "image": "https://images.pexels.com/photos/4843115/pexels-photo-4843115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Singapore",
           "time": "Oct 12, 2026",
-          "content": "The number of job postings for software developers in the US has increased since February 2025 even as overall job postings decreased. This is surprising as many thought AI would replace the need for software developers. Instead companies are producing more code than ever before and software developers who work with AI are in high demand. The increase is concentrated in senior-level roles and positions that involve AI which has led some to believe that the profession is evolving rather than disappearing.",
+          "content": "TikTok CEO Shou Zi Chew expects major scientific breakthroughs within three years due to artificial intelligence advancements. He believes AI will transform various sectors including physics biotech and chemistry with rapid progress opening up new possibilities. Chew highlights the accelerating pace of technological development saying the trend is \"very clear\" and that the long-term potential of AI is underappreciated.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "AI Firms Partner with Nonprofits to Safeguard Advanced Models",
-          "image": "https://images.pexels.com/photos/8438933/pexels-photo-8438933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
+          "title": "US Job Postings for Software Developers Jump 15% Despite AI Fears",
+          "image": "https://images.unsplash.com/photo-1607706189992-eae578626c86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Y29kaW5nfGVufDF8MHx8fDE3OTE3Nzk1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York, USA",
           "time": "Oct 12, 2026",
-          "content": "Independent evaluators mostly small nonprofits and accounting firms are being asked by AI companies like Anthropic and OpenAI to help safeguard their advanced models and grow their businesses. This comes after a debate over whether they can safely develop and use their technology. Anthropic has pledged to embed independent evaluators in its company while OpenAI has already done so. However questions remain about how these third-party evaluators will be funded what level of access they will have and what the reporting structure will look like. Some experts say that without federal regulation the evaluators may be beholden to the AI companies for revenue which could lead to rubber-stamping of their findings.",
+          "content": "The number of job postings for software developers in the US has risen 15% since February 2025 despite a decline in overall job postings. This is surprising because many predicted that AI would make software developers obsolete. Instead companies are using AI to produce more code than ever before and software developers who work with AI are in high demand. Experienced workers are seeing more job opportunities while recent graduates may face a tougher path into the field. The long-term outlook for software developers remains positive with the US Bureau of Labor Statistics predicting a 10% increase in employment from 2025 to 2035.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Fast-food Chains, Supermarkets Use AI for Dynamic Pricing, Personalization",
-          "image": "https://images.unsplash.com/photo-1604719312566-8912e9227c6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c3VwZXJtYXJrZXR8ZW58MXwwfHx8MTc5MTc3OTY3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Small Nonprofits Tapped to Ensure Safety of Advanced AI Models",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
           "place": "Washington, USA",
           "time": "Oct 12, 2026",
-          "content": "Fast-food chains and supermarkets are using artificial intelligence to set prices and personalize customer experiences. McDonald's is accused of using AI to charge different customers different prices for the same menu items. Grocery stores like Kroger are using AI to mark down near-expired food and supermarkets are using digital labels to display prices. Some companies are even using facial recognition to allow customers to pay with just a glance. Experts warn that this could lead to more dynamic pricing which means prices changing rapidly in response to changing market conditions. This could make it harder for consumers to compare prices and understand why they're paying certain prices.",
+          "content": "Independent evaluators are being asked to help ensure the safety of advanced AI models developed by companies like Anthropic and OpenAI. These evaluators mostly small nonprofits assess AI model capabilities and risks and flag instances where the technology behaves badly. With federal regulation lacking evaluators have taken on outsized importance. Anthropic and OpenAI are seeking support from these evaluators but questions remain about how they will be funded what level of access they will have and what the reporting structure will look like. Critics worry about the power imbalance between small evaluators and leading labs and the potential for conflicts of interest.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         }
@@ -101,22 +101,23 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "UK cancer deaths in children rise: parents urged to recognize clusters of symptoms",
-          "image": "https://images.pexels.com/photos/8384663/pexels-photo-8384663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "UK Children's Cancer Death Rate Tops, Symptoms Often Overlooked",
+          "image": "https://images.pexels.com/photos/8016896/pexels-photo-8016896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "London, UK",
           "time": "Oct 12, 2026",
-          "content": "Cancer is the leading cause of death from disease among children under 15 in the UK. Despite this many parents don't recognize the symptoms. For example 13-year-old Amelia Carroll was diagnosed with leukemia after her mother noticed bruises and tiredness. These symptoms were initially put down to being unfit but Gemma Carroll knew something was wrong when her daughter started getting more bruises. Experts say it's key for parents to look out for clusters of symptoms rather than just one or two and to seek medical help if these symptoms persist or worsen.",
+          "content": "Cancer is the leading cause of death from disease among children under 15 in the UK. Despite this many parents don't feel confident recognizing the symptoms. Each year around 1900 children under 14 are diagnosed with cancer. For 13-year-old Amelia Carroll it started with easy-to-miss symptoms like tiredness and being out of breath after mild exercise. Her mom noticed bruises and within 10 days Amelia got a diagnosis of acute myeloid leukaemia. Experts say it's key for parents to look out for clusters of symptoms that may be persisting getting worse or bigger.",
           "theme": "#E8F5F1",
           "source": "BBC"
         },
         {
           "id": "hw-2",
-          "title": "Temperature Key to Natural Sleep Cycles, Study Suggests",
-          "image": "https://images.pexels.com/photos/8037024/pexels-photo-8037024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Tokyo, Japan",
-          "time": "Oct 09, 2026",
-          "content": "Some scientists think that temperature could be as important as light for training our body's natural sleep clocks. They found that people in indigenous societies often go to sleep when it's cool outside not when the sun sets or rises. This suggests that temperature might be a cue for sleep just like light. Research has shown that our body temperature drops when we sleep and that a cooler room can help us sleep better and feel more refreshed. Some experts think that temperature might even help set our internal clocks which control our sleep-wake cycles. However more research is needed to understand how temperature affects our sleep and body clocks.",
-          "theme": "#E8F5F1"
+          "title": "Woman Gives Up Smartphone, Finds Deeper Connections",
+          "image": "https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c21hcnRwaG9uZXxlbnwxfDB8fHwxNzkxNzg3NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Upstate New York",
+          "time": "Oct 12, 2026",
+          "content": "A woman named August Lamm wrote a book about giving up her smartphone and how it changed her life. She says not having a smartphone helps her connect more with other people make more friends and feel more centered. She used to escape bad feelings by checking her phone but now she finds healthier ways to cope like talking to friends or reading a book. Lamm also has more free time now which she says is because she's not constantly checking her phone. She feels more present in her surroundings and is less stressed out.",
+          "theme": "#E8F5F1",
+          "source": "CNN"
         },
         {
           "id": "hw-3",
@@ -139,31 +140,31 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "El Niño Forecast: Strongest on Record Expected in December 2026",
-          "image": "https://images.pexels.com/photos/19742861/pexels-photo-19742861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Geneva, Switzerland",
-          "time": "Oct 10, 2026",
-          "content": "The World Meteorological Organization is forecasting that the current super El Niño could become the strongest on record since 1950 with a peak expected in December 2026. This could bring unusually hot temperatures to around 2.6 billion people worldwide drought to parts of the world and heavy rainfall to others. The El Niño event has already broken records with sea surface temperatures in the Niño 3.4 region reaching unprecedented levels.",
+          "title": "Google's New Forecasting Model Linked to Nepal-Tibet Flood Deaths",
+          "image": "https://images.pexels.com/photos/37028975/pexels-photo-37028975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Nepal",
+          "time": "Oct 12, 2026",
+          "content": "Google released a new weather forecasting model in August 2026 which is really good at predicting cyclones and gives forecasters a day more warning. At the same time a massive flood in Nepal and Tibet killed over 1400 people and destroyed important monitoring stations. This flood is connected to the new weather forecasting model because it shows that rich countries have better weather forecasting tools than poor countries.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "Migratory Birds Arrive Early at Chilika Lake Amidst Climate Change Trends",
-          "image": "https://images.unsplash.com/photo-1618843808465-befb4ad4a183?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Q2hpbGlrYSUyMGxha2V8ZW58MXwwfHx8MTc5MTYwNzYxMXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Odisha",
-          "time": "Oct 10, 2026",
-          "content": "Chilika Lake in Odisha is seeing its migratory birds arrive earlier than usual with some species spotted in the first weeks of October. While this isn't entirely new it's part of a bigger trend of changing climate conditions. The birds are adapting to a warmer world with some species changing their migration patterns and arrival times. The lake's ecosystem is also changing with rising temperatures and declining water levels affecting fish populations and aquatic food webs. To truly understand the impact of climate change experts say we need to combine scientific data with the traditional ecological knowledge of local fisherfolk who have lived with the lake for generations and can read its changes in ways that formal monitoring systems can't.",
+          "title": "Greenland Ice Sheet Most Studied, Other Climate Systems Lag Behind",
+          "image": "https://images.pexels.com/photos/20809683/pexels-photo-20809683.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Cambridge, UK",
+          "time": "Oct 12, 2026",
+          "content": "Scientists have been studying parts of the Earth's climate system to see when they might suddenly change in response to warming. They looked at 20000 studies and found that the Greenland Ice Sheet got the most attention with 4000 studies while some other systems got much less like permafrost in the Arctic which got only 139 studies. They also found that some systems that might change suddenly don't get as much attention as others even though they might be more likely to change.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-3",
-          "title": "Wayanad Temperatures Soar 1.9°C Above Average as Kerala District Faces Warming Concerns",
-          "image": "https://images.pexels.com/photos/16837564/pexels-photo-16837564.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Kalpetta, India",
-          "time": "Oct 10, 2026",
-          "content": "Wayanad in Kerala India is warming up with temperatures rising 1.9°C above the average. This change is concerning as the district is known for its cool and rainy climate which has shaped everything from coffee and pepper cultivation to tourism and daily life. Since 2024 the Hume Centre for Ecology and Wildlife Biology has been monitoring the weather collecting data from over 200 locations. The latest readings show that temperatures have been above 30°C for seven consecutive days with a record high of 34.4°C. Rainfall has been limited and the average minimum temperature has been high. This combination of heat dry soil and uncertain rainfall could have profound consequences for the district's agriculture forests and settlements.",
+          "title": "Rain brings relief to Delhi-NCR, temperatures drop significantly",
+          "image": "https://images.unsplash.com/photo-1511634829096-045a111727eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8cmFpbmZhbGx8ZW58MXwwfHx8MTc5MTc4ODMyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Delhi-NCR, India",
+          "time": "Oct 12, 2026",
+          "content": "Rain has brought relief to Delhi-NCR making the weather nice and cooler. Temperatures have dropped and the rain has washed away the heat. In the mountains Uttarakhand and Himachal Pradesh might get rain and snow with Manali temperatures expected to get very cold near zero degrees Celsius. The weather forecast says Punjab Haryana Rajasthan and western Uttar Pradesh can expect thunderstorms lightning and strong winds in the coming days.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         }
@@ -179,11 +180,11 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Bella Ramsey Eliminated from Traitors TV Show After Breakfast No-Show",
-          "image": "https://images.pexels.com/photos/37945716/pexels-photo-37945716.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Strictly Come Dancing Eliminates Melanie Walters",
+          "image": "https://images.unsplash.com/photo-1779315223992-b00745059ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8U3RyaWN0bHklMjBDb21lJTIwRGFuY2luZ3xlbnwxfDB8fHwxNzkxNzg4NTk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "London, UK",
-          "time": "Oct 10, 2026",
-          "content": "Bella Ramsey an actress from the show Last of Us was killed by the Traitors on the TV show. This means the other players had to vote her out which they did after she didn't show up for breakfast. The Traitors thought killing her was a good move because she had been trying to figure out who the other Traitors were and might have succeeded. Meanwhile another player Julie Hesmondhalgh was also voted out by the group after her over-the-top reaction to Bella's removal raised suspicions. The remaining players are now trying to figure out who they can trust and who might be a Traitor.",
+          "time": "Oct 12, 2026",
+          "content": "Melanie Walters a 64-year-old actress from Gavin and Stacey has been eliminated from Strictly Come Dancing. She was paired with professional dancer Aljaz Skorjanec and performed a Charleston scoring 17 from the judges. Despite encouragement from one judge the panel decided to save another couple and sent Walters and Skorjanec home.",
           "theme": "#F3ECF7",
           "source": "BBC"
         },
@@ -219,31 +220,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Healey's First Budget Affected by US-Israel War-Driven Price Spike",
-          "image": "https://images.pexels.com/photos/7735690/pexels-photo-7735690.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
+          "title": "Trump Faces Backlash Over Russian Diesel Imports to Lower Prices",
+          "image": "https://images.unsplash.com/photo-1707991131382-b82e0abca0a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OXx8ZGllc2VsfGVufDF8MHx8fDE3OTE3ODgzOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
           "time": "Oct 12, 2026",
-          "content": "Chancellor John Healey is preparing his first Budget but a price spike caused by the US-Israel war in Iran is making things tricky. The Institute for Fiscal Studies warns that higher-than-expected inflation could eat into planned spending on public services forcing Healey to choose between cuts tax rises or a mix of both. He's already said his Budget will focus on fiscal discipline to deliver economic resilience and give people \"breathing space\".",
+          "content": "US President Donald Trump is facing backlash over his plan to import diesel from Russia to lower prices in the US. Despite signing laws to sanction Russia Trump announced that Russia would release 300000 tonnes of diesel followed by more shipments. Some lawmakers think this deal violates US laws while others support it.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Microsoft Seeks Global AI Rules to Prevent Rogue Systems",
-          "image": "https://images.pexels.com/photos/16057187/pexels-photo-16057187.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "United Kingdom",
+          "title": "Chancellor Healey Faces Spending Conundrum in October Budget",
+          "image": "https://images.pexels.com/photos/6956131/pexels-photo-6956131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
           "time": "Oct 12, 2026",
-          "content": "Microsoft President Brad Smith thinks AI needs global safety rules to prevent rogue AI systems. He wants companies to have \"emergency brakes\" to pause or slow down AI if it gets out of control. He also thinks firms should be required to report incidents and tell victims if their AI system is breached. Smith believes the UK is well-positioned to lead the way in setting these global rules and he thinks most people would agree that the UK is the leader in AI technology.",
+          "content": "Chancellor John Healey is facing a big spending problem. He needs to come up with a plan for the next budget which is October 28th. A group called the Institute for Fiscal Studies says he might have to cut spending raise taxes or do a combination of both. This is because the government wants to increase spending on things like defense and health but it needs more money to do it. Higher inflation caused by wars in the Middle East and Europe might make it even harder to balance the budget. The Chancellor doesn't have to announce all his spending plans yet but he will need to make some decisions soon.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "Nebraska rancher struggles with wildfire damage, Trump's beef policy backfires",
-          "image": "https://images.pexels.com/photos/31458843/pexels-photo-31458843.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Nebraska, USA",
+          "title": "Citroen Revives Classic 2CV Brand for Electric City Car",
+          "image": "https://images.pexels.com/photos/18659395/pexels-photo-18659395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Paris, France",
           "time": "Oct 12, 2026",
-          "content": "A Nebraska rancher Yvette Mannon is struggling to keep her ranch afloat after a wildfire destroyed parts of her property. With high steel prices and tariffs imposed by President Trump she's facing a huge bill to replace her fencing. Meanwhile the Trump administration's decision to import foreign beef has sent the cattle market tumbling leaving many farmers and ranchers feeling betrayed. The situation has left some Trump supporters in Nebraska reassessing their political allegiances with some even considering voting against him in the upcoming midterms.",
+          "content": "Citroen has brought back its classic 2CV brand to boost sales of electric cars. The new model a small city car with retro styling is not yet on sale but could be in showrooms by 2028. Citroen wants to use its heritage to sell the car which is expected to cost around £13000. The company is following a trend of using nostalgia to sell modern cars as other European brands like Renault and VW have done. Citroen's chief executive says the new car is a modern response to the mobility challenges of tomorrow.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }
