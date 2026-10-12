@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 35",
+    "issue": "Issue No. 36",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "10 October 2026",
+    "publishedAt": "12 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Country Singer Ella Langley Cancels Tulsa Concert Due to Security Threat",
-          "image": "https://images.unsplash.com/photo-1506157786151-b8491531f063?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8bXVzaWMlMjBmZXN0aXZhbHxlbnwxfDB8fHwxNzkxNjE3NjU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Tulsa, Oklahoma",
-          "time": "Oct 10, 2026",
-          "content": "Ella Langley a famous country music singer had to cancel her concert in Tulsa Oklahoma due to a serious security threat. She made the decision just two hours before the show was supposed to start. A person called the police saying there would be \"great harm\" and \"shots fired and bombs\" at the event. The police checked the venue and couldn't find any threat but they did a sweep again after the phone call and still couldn't find anything. The concert was cancelled and Langley apologised to her fans promising to share information about ticket refunds soon.",
+          "title": "Security Forces Deployed in India's Capital as Protest Continues",
+          "image": "https://images.pexels.com/photos/18853472/pexels-photo-18853472.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Delhi, India",
+          "time": "Oct 12, 2026",
+          "content": "Thousands of security personnel were deployed in India's capital as protests continued for a second day. The Cockroach Janta Party led by Abhijeet Dipke is seeking electoral reforms and the resignation of the Chief Election Commissioner Gyanesh Kumar. Dipke was arrested on Saturday but freed on Sunday vowing to continue the protest. Thousands of protesters were detained and released with many more prevented from reaching the protest site by police barricades and internet curbs. The protest is seeking to update electoral rolls nationwide and has been accused of favouring the ruling party.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Indian Protest Leader Neha Bora Detained by Police",
-          "image": "https://images.pexels.com/photos/11980098/pexels-photo-11980098.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Delhi, India",
-          "time": "Oct 10, 2026",
-          "content": "A 29-year-old PhD student Neha Bora is a prominent face in India's protests seeking the resignation of the country's top election official. They're a theatre artist and activist who's been leading protests with the All India Students' Association for years. Recently Neha's been in the news for being dragged through the street by police and climbing on top of police barricades. They've also been detained and have made headlines for their outspokenness and combative speeches.",
+          "title": "One killed, 11 injured in second airport attack in Riyadh",
+          "image": "https://images.pexels.com/photos/35427894/pexels-photo-35427894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Riyadh, Saudi Arabia",
+          "time": "Oct 12, 2026",
+          "content": "One person has been killed and 11 others injured in a second attack on King Khalid International Airport in Riyadh Saudi Arabia. The attack comes a day after another strike on the same airport killed 13 people and injured 308 others. The Houthis in Yemen who are fighting against the Saudi-led coalition claimed responsibility for the attacks and said they targeted the airport with ballistic missiles cruise missiles and drones.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Three Men Found Guilty of Murdering Robinson Brothers in Mexico",
-          "image": "https://images.pexels.com/photos/4611990/pexels-photo-4611990.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Ensenada, Mexico",
-          "time": "Oct 10, 2026",
-          "content": "Three men were found guilty of murdering Australian brothers Jake and Callum Robinson and their US friend Carter Rhoad in Mexico in 2024. The men identified as Jesús Gerardo Irineo Francisco and Ángel Jesús are yet to be sentenced but face spending the rest of their lives in prison. The brothers and their friend were killed during a surfing trip in a botched robbery that sent shockwaves around the world. The murder victims' mother Debra Robinson spoke emotionally in court saying it's hard to lose a son. The trial lasted a month and the prosecution had sought 150 years in prison for each defendant.",
+          "title": "Sudanese gold miners killed in air strikes, at least 72 civilians died",
+          "image": "https://images.pexels.com/photos/31137175/pexels-photo-31137175.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "River Nile, Sudan",
+          "time": "Oct 12, 2026",
+          "content": "At least 72 civilians who were searching for gold in Sudan have been killed in air strikes. The strikes happened on Saturday at a popular mining site in Sudan's River Nile state. The jets targeted the miners who were not armed and destroyed their camps and equipment.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,31 +61,31 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "AI Adoption Soars Among UK and Ireland's Legal Professionals",
-          "image": "https://images.pexels.com/photos/7781900/pexels-photo-7781900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 10, 2026",
-          "content": "Almost 90% of UK and Ireland's legal professionals use artificial intelligence which is changing how they work. It's making it possible for lawyers to handle more work without hiring more people and it's cutting costs by doing administrative tasks. Some law firms are already using AI to speed up tasks like reviewing documents which previously took hours. This is challenging the idea of charging by the hour as AI can do some tasks in just seconds.",
+          "title": "US software job postings rise, defying predictions AI would replace developers",
+          "image": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y29kaW5nfGVufDF8MHx8fDE3OTE3Nzk1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 12, 2026",
+          "content": "Software development job postings in the US have risen since February 2025 despite overall job postings falling. This challenges predictions that AI would replace developers. Some experts say AI-written code is now close to surpassing human-written code on GitHub but others point out that senior-level roles and experienced AI-oriented positions are seeing the biggest increase. Labor market researchers believe the profession is evolving rather than disappearing with companies recognizing that AI can handle some tasks but humans are still needed to oversee and refine products.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "Tesla Renames \"Full Self-Driving\" to \"Assisted Driving\" in Europe",
-          "image": "https://images.unsplash.com/photo-1734532463032-111d471daed2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8VGVzbGElMjBsb2dvfGVufDF8MHx8fDE3OTE2MTc1MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Berlin, Germany",
-          "time": "Oct 10, 2026",
-          "content": "Tesla has renamed its \"Full Self-Driving\" system in Europe to \"Assisted Driving\" after German regulators called the branding \"somewhat misleading\". The system which is still sold as \"Full Self-Driving\" in the US is a driver assistance system that can support certain driving tasks but the driver must remain attentive at all times.",
+          "title": "AI evaluators sought for advanced AI models",
+          "image": "https://images.unsplash.com/photo-1580982336957-29e605c705d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8RW1iZWRkZWQlMjBFdmFsdWF0aW9ufGVufDF8MHx8fDE3OTE3Nzk2MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 12, 2026",
+          "content": "Independent evaluators mostly small organizations and nonprofits are being asked to help ensure the safety and accountability of advanced AI models developed by companies like Anthropic and OpenAI. These evaluators assess AI model capabilities and risks and flag instances where the technology behaves badly. However questions remain about how these evaluators will be funded what level of access they will have and what the reporting structure will look like. The AI industry is largely self-regulating with companies like Anthropic and OpenAI writing their own rules but some lawmakers and experts are pushing for government oversight and regulation to ensure true independence and accountability.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "SpaceX Buys Wireless Spectrum, Sparking Competition and Lower Prices",
-          "image": "https://images.unsplash.com/photo-1781323787706-da72924df777?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8U3BhY2VYJTIwbG9nb3xlbnwxfDB8fHwxNzkxNTE5NDU3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Fast-food Chains, Supermarkets Use AI for Dynamic Pricing",
+          "image": "https://images.unsplash.com/photo-1759038391007-bedbbd0e9e5b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c3VwZXJtYXJrZXQlMjBsb2dvfGVufDF8MHx8fDE3OTE3Nzk2Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Washington, USA",
-          "time": "Oct 10, 2026",
-          "content": "SpaceX led by Elon Musk recently agreed to buy a big chunk of wireless spectrum from Grain Management. This move aims to help SpaceX's Starlink internet service expand into mobile phone service. The news caused some big telecom companies like Verizon T-Mobile and AT&T to lose a lot of value with their stocks dropping by as much as 14%. Meanwhile SpaceX's own stock went up slightly. The head of the Federal Communications Commission Brendan Carr thinks this deal will be good for consumers because it will create more competition in the wireless market which will lead to better services and lower prices.",
+          "time": "Oct 12, 2026",
+          "content": "Fast-food chains and supermarkets are using artificial intelligence to set prices potentially affecting what customers pay. McDonald's is accused of using AI to overcharge customers while grocery stores like Kroger are using AI to discount near-expired food. Supermarkets are also using digital price tags and facial recognition checkout to collect more data on customers. Experts warn that this could lead to more dynamic pricing where prices change rapidly in response to market conditions and individual customer behavior.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         }
@@ -101,13 +101,13 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Woman's 30-year journey with undiagnosed narcolepsy ends in treatment hope.",
-          "image": "https://images.pexels.com/photos/7034795/pexels-photo-7034795.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Michigan",
-          "time": "Oct 10, 2026",
-          "content": "Amy Clifton has a rare sleep disorder type 1 narcolepsy which made her feel hopeless and lost driving her to consider taking her own life. She struggled with insomnia nightmares and overwhelming daytime sleepiness and despite seeing many doctors it took nearly three decades to get a correct diagnosis. Amy's narcolepsy caused hallucinations cataplexy and sleep paralysis which affected her daily life and relationships. She felt like she was \"going insane\" and \"couldn't be relied upon.\" After finally getting a correct diagnosis at age 30 Amy began treatment but insurance denied coverage for the drug she needed. She's now cautiously hopeful after starting a new medication which has reduced her hallucinations and increased her energy.",
+          "title": "UK kids' cancer cases top 1900 each year, experts warn of hidden symptoms",
+          "image": "https://images.pexels.com/photos/8384663/pexels-photo-8384663.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 12, 2026",
+          "content": "Cancer is the top cause of death from disease among kids under 15 in the UK but many parents don't recognize the symptoms. Each year about 1900 kids under 14 are diagnosed with cancer. Amelia Carroll was diagnosed with leukaemia when she was 13. Her mum Gemma says she initially thought Amelia's tiredness and breathlessness were just from being unfit. But when Amelia started getting bruises Gemma knew something was wrong. Experts say it's key to look out for clusters of symptoms that persist or get worse.",
           "theme": "#E8F5F1",
-          "source": "CNN"
+          "source": "BBC"
         },
         {
           "id": "hw-2",
@@ -219,31 +219,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "US and Russia Reach Deal on Diesel Fuel Import Despite Ukraine's Concerns",
-          "image": "https://images.pexels.com/photos/11322874/pexels-photo-11322874.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
-          "time": "Oct 10, 2026",
-          "content": "Ukraine's President Volodymyr Zelensky has criticized a deal between US President Donald Trump and Russian President Vladimir Putin to import Russian diesel fuel into the US. The deal involves releasing 300000 tonnes of diesel immediately followed by 500000 tonnes in November and another million after that. Zelensky sees it as a \"gift\" to Putin that prolongs the war in Ukraine. Trump has promised that this will lower fuel prices in the US but analysts say the impact will be small.",
+          "title": "Chancellor Healey Faces Budget Dilemma Amid Middle East War Inflation",
+          "image": "https://images.pexels.com/photos/27287808/pexels-photo-27287808.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 12, 2026",
+          "content": "Chancellor John Healey is facing a big challenge as he prepares his first Budget thanks to a war in the Middle East driving up prices. The Institute for Fiscal Studies warns that Healey will have to choose between cutting spending raising taxes or a mix of both to balance the budget. Higher inflation could eat into public spending making it hard for Healey to make spending announcements without honouring them.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Boots Sold to Canadian Family for £7 Billion",
-          "image": "https://images.pexels.com/photos/37477895/pexels-photo-37477895.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "UK",
-          "time": "Oct 10, 2026",
-          "content": "Boots a popular UK pharmacy and retailer has been sold to a Canadian family Wittington Investments for £7 billion. The new owners plan to upgrade the chain's 1800 stores which could bring a more consistent look to smaller shops. Boots has been investing in its beauty areas and some experts think the company should focus on upgrading all its stores not just the larger ones. The Advantage loyalty card launched in 1997 is likely to remain popular offering customers points for every pound spent. Boots also plans to expand its healthcare services which is a growing industry.",
+          "title": "Microsoft's Brad Smith Urges Global AI Safety Rules to Prevent Harm",
+          "image": "https://images.pexels.com/photos/8438933/pexels-photo-8438933.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "United Kingdom",
+          "time": "Oct 12, 2026",
+          "content": "Microsoft's president Brad Smith says artificial intelligence needs global safety rules to prevent harm. He wants companies to have \"kill switches\" to stop AI if it gets out of control and for them to tell victims if their AI systems are breached. Smith also suggests independent government evaluators should vet new AI technology. He believes the UK is best placed to lead the way in creating these global rules because of its AI Security Institute.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "Boots sold to Canadian family in £7 billion deal",
-          "image": "https://images.pexels.com/photos/16195427/pexels-photo-16195427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "UK",
-          "time": "Oct 10, 2026",
-          "content": "Boots a well-known UK pharmacy and retailer is changing hands after a £7 billion deal was agreed. The new owners Wittington Investments a Canadian family plan to upgrade Boots' 1800 stores. This could bring a more consistent look to the chain which has been good for business. Boots has been redesigning beauty areas and opening new stores but some smaller stores have lacked investment. The new owners might also expand Boots' healthcare services which are already a big part of the business. Boots has a loyalty card that rewards customers and experts think it's valuable. The new owners will likely keep and improve this card.",
+          "title": "Nebraska Rancher Struggles to Keep Afloat Amid Wildfire, Tariffs, and Fuel Costs",
+          "image": "https://images.pexels.com/photos/33975350/pexels-photo-33975350.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Nebraska, USA",
+          "time": "Oct 12, 2026",
+          "content": "Nebraska rancher Yvette Mannon is struggling to keep her ranch afloat after a wildfire destroyed part of her land and a tractor and then the Trump administration's decision to import foreign beef tanked the cattle market. Many farmers and ranchers in the state are feeling the pinch of government policies tariffs and rising fuel costs leading some to reassess their political allegiances. Some Trump supporters like rancher Jake Wolfinger are unhappy with the president's intervention in the beef market while others like rancher Duane Kimball blame government regulations and rising costs for their struggles. As the midterms approach some farmers and ranchers may show their discontent at the polls.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }
