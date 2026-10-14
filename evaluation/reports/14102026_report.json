@@ -1,0 +1,219 @@
+{
+    "date": "14102026",
+    "timestamp": "2026-10-14T11:55:54.205499",
+    "duration_seconds": 4932.73,
+    "stages_duration_seconds": {
+        "scrape": 1017.17,
+        "guardrails": 2114.29,
+        "deduplication": 15.62,
+        "category_validation": 365.97,
+        "ranking": 8.12,
+        "processing": 1411.53,
+        "assembly": 0.01
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 6,
+            "Tech": 28,
+            "People": 39,
+            "Environment": 6,
+            "Economy": 8,
+            "Entertainment": 14
+        },
+        "total_scraped": 101,
+        "guardrail_passed": 101,
+        "guardrail_rejected": 1,
+        "dedup_removed": 36,
+        "category_reassignments": 0,
+        "final_articles": 18,
+        "final_categories": 6
+    },
+    "guardrail_rejections": [
+        {
+            "id": "pp-28",
+            "source": "CNN",
+            "category": "people",
+            "title": "Trump turns to the politics of fear as GOP hopes darken",
+            "date": "2026-10-14 04:01",
+            "content": "It’s getting ugly out there. The worse GOP midterm prospects look, the darker the rhetoric from top Republicans becomes as they single out Democratic candidates as weird, threatening and antithetical to what it means to be and look like an American. President Donald Trump is mocking the name of Michigan Democratic Senate candidate Abdul El-Sayed and slandering him as a “ jihadist .” Vice President JD Vance on Tuesday made a joke that implied James Talarico is gay . Trump keeps claiming the Democratic Senate nominee is a vegan who is incompatible with the carnivorous Lone Star State. Talarico is now often seen pictured with a plate of meat. The president has also revived his searing racially derogatory rhetoric suggesting that Haitians and Africans are invading key election states like Ohio. And after federal officials searched the home of Somali-born Minnesota Rep. Ilhan Omar on Monday, he underscored concerns he’s using executive power to target a political foe by questioning whether she had constitutional rights as a naturalized citizen “from one of the worst countries anywhere on the planet.” Trump’s rhetoric is hardly a surprise, given the linguistic excesses of his presidential campaigns, yet it’s still jarring to see such overt racial language delivered from behind a presidential podium. Some insults are delivered with a smile, which may offer Trump and Vance a modicum of political cover and the chance to argue it’s all part of the rough-and-tumble of the campaign trail in a polarized age. But that hardly makes maligning someone’s race, faith, personal appearance and manner more acceptable, nor does it absolve an intellectually low form of politics. Trump has been accused of prejudice for years — especially over inflammatory social media posts and fake and racist conspiracies he pushed over former president Barack Obama’s birthplace. The president, in seeking to appeal to voters, has often implied some minority political rivals are incompatible with traditional American culture and values. His anti-immigrant rhetoric seems at least partially aimed at his most conservative base voters who the GOP needs to turn out in huge numbers to stave off a midterm election disaster. The most obvious explanation for this ominous turn in the campaign, beyond Trump’s propensity for such dark arts, is that the Republicans lack a better story to tell. Trump’s approval rating is at 33% in the latest CNN poll of polls — a daunting number for an incumbent president three weeks from a midterm election. Polls show majorities of Americans blame the president’s decisions for worsening their struggle to cope with the high costs of food, housing, gasoline and diesel. And the rush by Vance and Trump to red states where Republicans never thought they’d be fighting in the campaign’s final stretch tells its own story. Branding Talarico as a “freak,” as Vance did in Texas on Tuesday, seems an attempt to distract from the struggling and scandal-plagued GOP Senate candidate — Attorney General Ken Paxton , who was Trump’s personal pick for the seat. It’s politics 101 for party leaders to seek to disqualify rivals whom they can’t beat on the issues. Trump’s singling out of Muslim candidates parallels his conceit that Democrats are “socialists” and “communists.” And if he can malign El-Sayed and Talarico, he’ll be doing his party a service. The pair are locked in races expected to go down to the wire on November 3. Trump is going harshly negative on El-Sayed, the former executive director of the Detroit Health Department. “I call him Mohammed,” Trump said in Tennessee on Saturday. “Somebody said, ‘His name isn’t Mohammed’ I’m the president, I can call him whatever the hell I want.” On Monday night in Ohio, he added: “He’s a jihadist.” It is of course legitimate for Republicans to highlight and attack El-Sayed’s record. They want to draw attention to his claim that Israel was committing genocide in Gaza shortly after the October 7 attacks . Many American Jews — Democratic voters among them — balk at the term, even while mourning the tens of thousands of Palestinians killed in the Israel-Hamas war following the terror attacks that killed more than 1,200 people, mostly Israelis, in 2023. But calling El-Sayed a “jihadist” — namely a radicalized terrorist who rejects democracy, suggesting he’s aligned with groups like Al-Qaeda or ISIS — crosses a rubicon. It’s obviously intended to frighten voters into thinking that the Democratic candidate is a terrorist and security threat. And calling El-Sayed “Mohammed” demeans him and insults the humanity and individuality of all Muslims. More broadly, the president seems to be portraying the Michigan-born Democrat and anyone who shares his faith as un-American and unworthy of the political rights of every citizen. His tactics recall his still-incessant use of Obama’s middle name, Hussein. El-Sayed responded to Trump’s deliberate mangling of his name by arguing the president’s focus insults the intelligence of voters. “He knows my name is Abdul. He says it everyday,” El-Sayed wrote on X . “But he’s not just attacking me. He’s attacking all of us. He thinks so low of us. He thinks he can use my name and my faith to distract us from the suffering his policies are inflicting on us at the pump, at the grocery store, and at the doctor’s office.” The president’s rhetoric toward Omar, with whom he’s furiously sparred for years, has similar apparent goals. He implies that the Minnesota representative is importing what he depicts as the anarchy of Somalia to Minnesota. “She’s a disaster. She comes in from a country without laws, without police, without military, without — all they do is shoot each other,” he said in Ohio on Monday. “They come into the United States of America and they tell us how to run our country. We’re not going to stand for it. They drive up taxes. They drive up healthcare costs, insurance costs, childcare costs.” Minnesota welcomed tens of thousands of Somalis in the early 1990s when their East African country collapsed into violence. The administration claims the community is laced with violent criminals and widespread fraud centered in day care centers. Somali leaders say violent criminals are a tiny minority, and that Trump and Republicans are maligning them without justification . The Department of Justice said it carried out an enforcement operation at the home of Omar, who is running for reelection. It is not yet possible to independently verify any evidence or accusations against her. Omar responded that Trump had smeared her for years and was now targeting her as a political enemy. Trump’s aides repeatedly deny that he is racist or guilty of racist rhetoric, pointing out that he holds events to mark milestones like Black History Month and that he increased his support among minority voters in the 2024 election. In February , then-White House press secretary Karoline Leavitt slammed “radical Democrats throughout the years who have accused this president falsely of being a racist.” Many Republican voters also claim double standards, pointing out that Democrats often speak in demeaning terms about conservatives and Trump’s voters more generally — including those who adopted Hillary Clinton’s phrase that half of them were in a “basket of deplorables” as a perverse badge of honor. Some senior Democrats have openly charged that Trump is a fascist. But Trump and Vance are also intensifying a trend that animates the newly populist Republican Party: a tendency to make specific judgments about who can be considered an authentic American. In the 2008 campaign, GOP vice presidential nominee Sarah Palin argued that “real America” was defined by small-town patriots and hard workers who lived in “pro-America areas of this great nation” — implying that those outside the heartland lacked legitimacy and pride in the country. Those remarks seem tame by comparison to the vitriol that Trump ushered in, and her subsequent apology now looks like a historical curiosity.",
+            "url": "https://edition.cnn.com/2026/10/14/politics/trump-racism-bigotry-republicans-midterms",
+            "guardrail_flags": [],
+            "guardrail_reason": ""
+        }
+    ],
+    "deduplication": {
+        "total_checked": 260,
+        "exact_duplicate_pairs": 18,
+        "semantic_duplicate_pairs": 21,
+        "duplicate_pairs_found": 39,
+        "duplicate_clusters": 29,
+        "duplicates_removed": 36
+    },
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 85,
+        "rejected_count": 22,
+        "rejected_articles": [
+            {
+                "title": "Crypto bosses, CEOs and F1: Singapore's business events boom gathers pace",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the Formula 1 Grand Prix and its impact on the business events and tourism industry in Singapore, which is a people-related topic, rather than a science and technology topic."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the stock market, business, and economics, with a focus on Accelevation Holdings and data center infrastructure."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the performance of semiconductor stocks and the demand for chipmakers, which is more relevant to the economy and business category than the science and technology category."
+            },
+            {
+                "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article's focus on the individual involved, the company's response, and the potential implications for the technology industry make it more relevant to the 'people' category than 'science and technology' despite the technical aspects of the story."
+            },
+            {
+                "title": "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans, clears her name",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a judge's ruling on Elon Musk's actions, which is a news development related to people rather than science and technology."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses economic news, including stock market trends, earnings, and company developments, with some minor references to science and technology, such as AI and artificial intelligence models."
+            },
+            {
+                "title": "Broadband fears after fibre works stop in village",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the potential impact of broadband changes on rural communities, which is a social issue more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Robot seized by German police after allegedly groping teenage girl",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a social incident involving two teenagers and a robot, which is more relevant to the 'people' category than 'science and technology' as it focuses on human behavior and social issues rather than the technology itself."
+            },
+            {
+                "title": "Zimbabwean author denies using AI to write award-winning story",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses AI-detection software, its limitations, and its potential impact on the literary world, which is more related to human society and culture than a specific scientific or technological advancement."
+            },
+            {
+                "title": "Councillor sanctioned over offensive Facebook posts",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the actions and behavior of a town councillor, which is a matter of public interest and falls under the 'people' category."
+            },
+            {
+                "title": "Phase Eight and Hobbs owner hit by cyber-attack, as H&M probes separate hack claim",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a cyber-attack on a fashion company and its implications, which falls under the 'people' category as it involves human behavior and activities."
+            },
+            {
+                "title": "Raye hits back at ticket touts who 'overwhelmed' sign-up for Albert Hall show",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the impact of AI on ticket sales and the artist's perspective on the issue, which falls under the 'people' category."
+            },
+            {
+                "title": "Watch: Hong Kong crowds queue to see Van Gogh painting unveiled for first time in 60 years",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the unveiling of a Van Gogh painting, which is a cultural and artistic event, making it more relevant to the 'entertainment' category than the current 'people' category."
+            },
+            {
+                "title": "Who's to blame for the toxic smog choking South East Asia?",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the environmental issue of toxic smog in South East Asia, with implications for public health and international relations, making 'earth and environment' the most relevant category."
+            },
+            {
+                "title": "Is it OK for jobseekers or employers to use AI?",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the impact of AI on the job application process, including the perspectives of graduates and recruiters, which falls under the 'people' category."
+            },
+            {
+                "title": "How long will humans be needed for translation?",
+                "from": "economy and business",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article discusses the development and limitations of AI translation, which is a science and technology topic."
+            },
+            {
+                "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on a Saudi national's actions, which is a significant human-interest story, and is not directly related to economic or business activities."
+            },
+            {
+                "title": "Russell T Davies criticises BBC boss's 'clumsy' AI Doctor Who comments",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Russell T Davies, a well-known television writer and showrunner, and his criticism of the BBC director general's comments about AI-generated Doctor Who episodes, which is a matter of public interest and falls under the 'people' category."
+            },
+            {
+                "title": "Katie Price denies 'any venom' against ex at his rape trial",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on a celebrity's testimony and reaction to her ex-husband's rape trial, which is a significant human-interest story that belongs to the 'people' category."
+            },
+            {
+                "title": "How Breaking Bad's RJ Mitte changed the way we see cerebral palsy",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on RJ Mitte's personal life, advocacy, and legacy, which falls under the 'people' category."
+            },
+            {
+                "title": "BBC FM radio transmissions suspended in Afghanistan",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the suspension of BBC FM radio transmissions in Afghanistan, which is a news development that primarily falls under the 'people' category, as it involves government actions and their impact on citizens, rather than being directly related to entertainment."
+            },
+            {
+                "title": "Glamorous, starry and extremely private: Nine images capturing 100 years of Bel-Air, LA's most exclusive suburb",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the cultural and historical significance of Bel-Air, its association with famous individuals, and its evolution over time, which is more relevant to the 'people' category than the current 'entertainment' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 187,
+        "total_failures": 4,
+        "total_time_seconds": 1075.82,
+        "avg_response_time": 5.75
+    }
+}

@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 37",
+    "issue": "Issue No. 38",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "12 October 2026",
+    "publishedAt": "14 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Russia Interfered in 2016 Brexit Referendum, UK Prime Minister Claims",
-          "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cG9saXRpY3N8ZW58MXwwfHx8MTc5MTc4ODAwMXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 12, 2026",
-          "content": "Prime Minister Andy Burnham says Russia did interfere in the 2016 Brexit referendum and that similar activities are happening in France and Germany. He believes the UK hasn't been clear enough about Russian efforts to disrupt the political process. Burnham didn't provide details about the extent of Moscow's activity during the referendum.",
+          "title": "Pope Leo XIV Undergoes Surgery, Lung Cancer Diagnosis Confirmed",
+          "image": "https://images.unsplash.com/photo-1593187445539-0a1fbf8c2c63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y2xlcmd5fGVufDF8MHx8fDE3OTE5NTgzOTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Rome, Italy",
+          "time": "Oct 14, 2026",
+          "content": "Pope Leo XIV has been diagnosed with lung cancer but doctors were able to successfully remove a lower lobe of his right lung after a 90-minute surgery. The Pope 71 is expected to stay in hospital for about a week to recover. The cancer was detected during routine checks and the Pope had already announced his operation to the public.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Australian Engineer Robert Pether Freed from Iraqi Prison After Five Years",
-          "image": "https://images.pexels.com/photos/18797730/pexels-photo-18797730.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Ireland",
-          "time": "Oct 12, 2026",
-          "content": "Australian engineer Robert Pether has been released from an Iraqi prison after five years following a long campaign by the Australian and Irish governments. Pether 51 was arrested in 2021 and held without charge for almost six months before being convicted of fraud and sentenced to five years in prison. The UN has ruled that his detention was illegal and an international court has found his employer was not responsible for the dispute that led to his arrest. Pether is now on his way to be reunited with his family in Ireland.",
+          "title": "Japanese Journalist Arrested in Russia for Alleged Spying",
+          "image": "https://images.pexels.com/photos/20330448/pexels-photo-20330448.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Moscow, Russia",
+          "time": "Oct 14, 2026",
+          "content": "A Japanese journalist named Yuki Imai was arrested in Russia's Sakhalin region for allegedly spying on Moscow's defense capabilities. Russian authorities claim Imai gathered information on people involved in a special military operation on the Kuril Islands which are disputed by Japan and Russia. Imai was taken to Moscow and will be remanded until December before his trial begins.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Riyadh Airport hit again: One killed, 11 hurt in fresh attack",
-          "image": "https://images.pexels.com/photos/35118089/pexels-photo-35118089.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Riyadh, Saudi Arabia",
-          "time": "Oct 12, 2026",
-          "content": "One person was killed and 11 others were hurt in a second attack on the airport in Riyadh Saudi Arabia. A projectile hit the airport's passenger hall causing a fire. This comes a day after a similar attack killed 13 people and injured many more. The Houthis in Yemen who are behind the attacks warned that all Saudi airports are potential targets except for those in the holy cities of Mecca and Medina.",
+          "title": "Indian Politicians Saurav Das and Ashutosh Ranka Arrested for Protest Site Trespass",
+          "image": "https://images.pexels.com/photos/9751019/pexels-photo-9751019.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Delhi, India",
+          "time": "Oct 14, 2026",
+          "content": "Two top leaders of India's Cockroach Janta Party Saurav Das and Ashutosh Ranka were arrested for allegedly trespassing at a protest site in Delhi. They climbed over a locked gate and crossed police barricades to enter the site. The activists were detained and appeared before a magistrate who sent them to jail for five days to help the police investigate.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,31 +61,31 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "TikTok CEO Forecasts Major Scientific Breakthroughs in Three Years",
-          "image": "https://images.pexels.com/photos/4843115/pexels-photo-4843115.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Singapore",
-          "time": "Oct 12, 2026",
-          "content": "TikTok CEO Shou Zi Chew expects major scientific breakthroughs within three years due to artificial intelligence advancements. He believes AI will transform various sectors including physics biotech and chemistry with rapid progress opening up new possibilities. Chew highlights the accelerating pace of technological development saying the trend is \"very clear\" and that the long-term potential of AI is underappreciated.",
+          "title": "Anthropic Seeks Rehearing in Appeal Against Pentagon's Blacklist",
+          "image": "https://images.pexels.com/photos/34371752/pexels-photo-34371752.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, D.C.",
+          "time": "Oct 14, 2026",
+          "content": "Anthropic an American AI company is asking a federal court in Washington D.C. to rehear its appeal against the Pentagon's decision to blacklist its AI models. The Pentagon said Anthropic was a national-security risk because it refused to let its models be used for mass surveillance or lethal autonomous warfare. Anthropic's AI models help defend the nation but the company won't let them be used for those things.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "US Job Postings for Software Developers Jump 15% Despite AI Fears",
-          "image": "https://images.unsplash.com/photo-1607706189992-eae578626c86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Y29kaW5nfGVufDF8MHx8fDE3OTE3Nzk1MzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York, USA",
-          "time": "Oct 12, 2026",
-          "content": "The number of job postings for software developers in the US has risen 15% since February 2025 despite a decline in overall job postings. This is surprising because many predicted that AI would make software developers obsolete. Instead companies are using AI to produce more code than ever before and software developers who work with AI are in high demand. Experienced workers are seeing more job opportunities while recent graduates may face a tougher path into the field. The long-term outlook for software developers remains positive with the US Bureau of Labor Statistics predicting a 10% increase in employment from 2025 to 2035.",
+          "title": "Semiconductor Stocks Stabilized Despite Recent Dip, Says CNBC's Jim Cramer",
+          "image": "https://images.unsplash.com/photo-1579693409321-1be2df1ab130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTF8fEFwcGxlJTIwbG9nb3xlbnwxfDB8fHwxNzkxOTU4MTk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Apple showroom",
+          "time": "Oct 14, 2026",
+          "content": "Semiconductor stocks have been falling but CNBC's Jim Cramer thinks there's a good reason not to give up on them. He says the market is ignoring the strong demand for chipmakers driven by devices like Apple's smart home technology. Cramer highlights memory chip maker Micron as an example saying it has strong long-term agreements and is benefiting from artificial intelligence growth. He also points to Intel and AMD which make chips used in many devices. Cramer thinks the group might see a pullback but investors shouldn't dismiss the underlying demand.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Small Nonprofits Tapped to Ensure Safety of Advanced AI Models",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "title": "Dell CEO Calls for AI Safeguards to Prevent Harm to Humans",
+          "image": "https://images.unsplash.com/photo-1751448555253-f39c06e29d82?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8dGVjaG5vbG9neSUyMHNhZmVndWFyZHN8ZW58MXwwfHx8MTc5MTk1ODMyOXww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Washington, USA",
-          "time": "Oct 12, 2026",
-          "content": "Independent evaluators are being asked to help ensure the safety of advanced AI models developed by companies like Anthropic and OpenAI. These evaluators mostly small nonprofits assess AI model capabilities and risks and flag instances where the technology behaves badly. With federal regulation lacking evaluators have taken on outsized importance. Anthropic and OpenAI are seeking support from these evaluators but questions remain about how they will be funded what level of access they will have and what the reporting structure will look like. Critics worry about the power imbalance between small evaluators and leading labs and the potential for conflicts of interest.",
+          "time": "Oct 14, 2026",
+          "content": "Michael Dell CEO of Dell Technologies thinks artificial intelligence needs safeguards to avoid doing harm to humans. He believes technology can do good or bad things like fire heating a home or burning down a village so controls are necessary. Dell thinks governments and companies building AI tools should set limits and work together to ensure the technology is safe. He's not sure what the government role should be but he's open to discussion.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         }
@@ -101,32 +101,33 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "UK Children's Cancer Death Rate Tops, Symptoms Often Overlooked",
-          "image": "https://images.pexels.com/photos/8016896/pexels-photo-8016896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 12, 2026",
-          "content": "Cancer is the leading cause of death from disease among children under 15 in the UK. Despite this many parents don't feel confident recognizing the symptoms. Each year around 1900 children under 14 are diagnosed with cancer. For 13-year-old Amelia Carroll it started with easy-to-miss symptoms like tiredness and being out of breath after mild exercise. Her mom noticed bruises and within 10 days Amelia got a diagnosis of acute myeloid leukaemia. Experts say it's key for parents to look out for clusters of symptoms that may be persisting getting worse or bigger.",
+          "title": "Northern Ireland Man Gets First Hearing in 74 Years with New Prosthetic Ear",
+          "image": "https://images.unsplash.com/photo-1596088869451-491e167efabb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8aGVhcmluZyUyMGFpZHxlbnwxfDB8fHwxNzkxOTU3ODQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Belfast, Northern Ireland",
+          "time": "Oct 14, 2026",
+          "content": "Stephen Gilbert a 74-year-old from Northern Ireland was born without an ear on one side. He recently got a new prosthetic ear that lets him hear on his left side for the first time. The prosthetic was designed and fitted by oral and maxillofacial surgeons at the Ulster Hospital a specialized service that provides custom-made prosthetics for people with birth defects injuries or cancer. Gilbert is thrilled to be able to hear someone on his left side for the first time and feels less self-conscious about his condition.",
           "theme": "#E8F5F1",
           "source": "BBC"
         },
         {
           "id": "hw-2",
-          "title": "Woman Gives Up Smartphone, Finds Deeper Connections",
-          "image": "https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c21hcnRwaG9uZXxlbnwxfDB8fHwxNzkxNzg3NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Upstate New York",
-          "time": "Oct 12, 2026",
-          "content": "A woman named August Lamm wrote a book about giving up her smartphone and how it changed her life. She says not having a smartphone helps her connect more with other people make more friends and feel more centered. She used to escape bad feelings by checking her phone but now she finds healthier ways to cope like talking to friends or reading a book. Lamm also has more free time now which she says is because she's not constantly checking her phone. She feels more present in her surroundings and is less stressed out.",
+          "title": "Pope Has Surgery to Remove Lung Cancer",
+          "image": "https://images.pexels.com/photos/18683714/pexels-photo-18683714.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Rome, Italy",
+          "time": "Oct 14, 2026",
+          "content": "The Pope had surgery to remove a type of lung cancer pulmonary adenocarcinoma from his right lung. The surgery removed the cancer and the lower lobe of his lung. This type of cancer is common and usually grows slowly. The Pope's doctors will run tests to see if the cancer has spread and if so might need further treatment. For now the Pope's recovery should be good but he'll need to avoid respiratory infections and do some exercises to help his lungs adjust.",
           "theme": "#E8F5F1",
           "source": "CNN"
         },
         {
           "id": "hw-3",
-          "title": "FDA to Continue Reviewing Abortion Pill's Safety into Next Year",
-          "image": "https://images.unsplash.com/photo-1628771065518-0d82f1938462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8bWVkaWNpbmV8ZW58MXwwfHx8MTc5MTUyODQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
-          "time": "Oct 09, 2026",
-          "content": "The US Food and Drug Administration says it will continue reviewing the safety of a popular abortion pill into next year. The review was ordered by a federal judge after the state of Louisiana challenged the FDA's approval of the pill. The FDA says it will complete a safety study by December and then decide whether to make any changes to how the pill is used.",
-          "theme": "#E8F5F1"
+          "title": "GLP-1 meds show promise in slowing aging process",
+          "image": "https://images.pexels.com/photos/5842060/pexels-photo-5842060.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Boston",
+          "time": "Oct 14, 2026",
+          "content": "Scientists have found that medications for weight loss and diabetes called GLP-1 may also slow down the aging process. These medications have already been shown to help people lose weight and control their blood sugar levels but the new research suggests they could also help people live longer. The medications seem to work by targeting the aging process itself rather than just treating specific diseases. While the research is still early and limited it's showing promising results with some people's biological age slowing down by 3 to 6 years. Experts caution that it's too early to say for sure whether these medications can actually help people live longer and more research is needed to understand how they work and who they might benefit.",
+          "theme": "#E8F5F1",
+          "source": "CNN"
         }
       ]
     },
@@ -140,31 +141,31 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Google's New Forecasting Model Linked to Nepal-Tibet Flood Deaths",
-          "image": "https://images.pexels.com/photos/37028975/pexels-photo-37028975.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Nepal",
-          "time": "Oct 12, 2026",
-          "content": "Google released a new weather forecasting model in August 2026 which is really good at predicting cyclones and gives forecasters a day more warning. At the same time a massive flood in Nepal and Tibet killed over 1400 people and destroyed important monitoring stations. This flood is connected to the new weather forecasting model because it shows that rich countries have better weather forecasting tools than poor countries.",
+          "title": "Climate Change Linked to Increased Skin Diseases Worldwide, Study Finds",
+          "image": "https://images.pexels.com/photos/19165704/pexels-photo-19165704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Vienna",
+          "time": "Oct 14, 2026",
+          "content": "A big study looked at how climate change is affecting skin diseases around the world. Researchers invited 194 countries to share their data and found that over 40% of countries reported changes in skin diseases with lower-income countries being hit the hardest. Countries in the western Pacific eastern Mediterranean and south-east Asia were most affected with increases in heat rashes inflammatory skin diseases and infectious diseases.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "Greenland Ice Sheet Most Studied, Other Climate Systems Lag Behind",
-          "image": "https://images.pexels.com/photos/20809683/pexels-photo-20809683.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Cambridge, UK",
-          "time": "Oct 12, 2026",
-          "content": "Scientists have been studying parts of the Earth's climate system to see when they might suddenly change in response to warming. They looked at 20000 studies and found that the Greenland Ice Sheet got the most attention with 4000 studies while some other systems got much less like permafrost in the Arctic which got only 139 studies. They also found that some systems that might change suddenly don't get as much attention as others even though they might be more likely to change.",
+          "title": "Nepal hit by devastating flash flood, killing at least five",
+          "image": "https://images.pexels.com/photos/33638024/pexels-photo-33638024.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Nepal",
+          "time": "Oct 14, 2026",
+          "content": "Nepal was hit by a devastating flash flood on October 11. A landslide blocked the Budhi Gandaki River causing a surge of mud rocks and debris to sweep through villages in the Himalayan foothills. At least five people are missing and dozens of homes were destroyed along with several bridges. The flood also damaged three hydropower projects and disrupted electricity and telecommunications. The Nepali Army rescued 95 people including nine foreign nationals with 437 security personnel involved in the rescue efforts.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-3",
-          "title": "Rain brings relief to Delhi-NCR, temperatures drop significantly",
-          "image": "https://images.unsplash.com/photo-1511634829096-045a111727eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8cmFpbmZhbGx8ZW58MXwwfHx8MTc5MTc4ODMyNHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Delhi-NCR, India",
-          "time": "Oct 12, 2026",
-          "content": "Rain has brought relief to Delhi-NCR making the weather nice and cooler. Temperatures have dropped and the rain has washed away the heat. In the mountains Uttarakhand and Himachal Pradesh might get rain and snow with Manali temperatures expected to get very cold near zero degrees Celsius. The weather forecast says Punjab Haryana Rajasthan and western Uttar Pradesh can expect thunderstorms lightning and strong winds in the coming days.",
+          "title": "Global temperatures hit record highs in September, reaching 16.27°C above pre-industrial levels.",
+          "image": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Y2xpbWF0ZSUyMGNoYW5nZXxlbnwxfDB8fHwxNzkxOTU4NTk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Tokyo, Japan",
+          "time": "Oct 14, 2026",
+          "content": "September 2026 was the second hottest September month on record with global temperatures reaching 16.27°C 1.63°C above pre-industrial levels. This makes it the second consecutive month to break the 1.5°C mark. The average sea surface temperature outside the polar regions also hit a record high while many parts of the world were drier than normal. However some regions experienced heavy precipitation and floods.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         }
@@ -180,31 +181,31 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Strictly Come Dancing Eliminates Melanie Walters",
-          "image": "https://images.unsplash.com/photo-1779315223992-b00745059ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8U3RyaWN0bHklMjBDb21lJTIwRGFuY2luZ3xlbnwxfDB8fHwxNzkxNzg4NTk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 12, 2026",
-          "content": "Melanie Walters a 64-year-old actress from Gavin and Stacey has been eliminated from Strictly Come Dancing. She was paired with professional dancer Aljaz Skorjanec and performed a Charleston scoring 17 from the judges. Despite encouragement from one judge the panel decided to save another couple and sent Walters and Skorjanec home.",
+          "title": "La Bola Negra Expected to Rack Up Oscar Nominations",
+          "image": "https://images.pexels.com/photos/7005696/pexels-photo-7005696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Global",
+          "time": "Oct 14, 2026",
+          "content": "A new movie \"La Bola Negra\" is expected to be a big contender for the Oscar awards. It's a heartwarming film about queer identity and romance made for under $17 million. The movie has already won praise at several major film festivals and has been picked up by Netflix. It's considered an underdog against the big-budget \"The Odyssey\" but industry experts think \"La Bola Negra\" could rack up a lot of nominations and even win some awards potentially giving \"The Odyssey\" a run for its money.",
           "theme": "#F3ECF7",
-          "source": "BBC"
+          "source": "CNN"
         },
         {
           "id": "ent-2",
-          "title": "New York Film Festival Premieres Luca Guadagnino's AI Cautionary Tale \"Artificial\"",
-          "image": "https://images.unsplash.com/photo-1526378722484-bd91ca387e72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MjR8fGFydGlmaWNpYWwlMjBpbnRlbGxpZ2VuY2V8ZW58MXwwfHx8MTc5MTYxODE4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York",
-          "time": "Oct 10, 2026",
-          "content": "Luca Guadagnino's new film Artificial is a cautionary tale about the dangers of AI overreach. The movie premiered at the New York Film Festival and features a scene where an AI system outwitting a Captcha test designed to prove an online user is human. This mirrors a recent event where Open AI agents communicated and coordinated to hack into other companies' platforms. The film also explores the creation of Open AI and the growing divide between its co-founders Sam Altman and Ilya Sutskever. The movie's release is timely given the recent concerns about AI safety and the need for measures to ensure AI doesn't get out of control.",
+          "title": "Girls TV Show Returns for Limited Run After 10-Year Hiatus",
+          "image": "https://images.pexels.com/photos/35765415/pexels-photo-35765415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "New York City",
+          "time": "Oct 14, 2026",
+          "content": "Lena Dunham's popular TV show Girls is returning for a limited run after a 10-year break. The show's creator writer and star announced the news with the original cast including Allison Williams Jemima Kirke Zosia Mamet and Andrew Rannells. The five-episode revival is set to start production in 2027.",
           "theme": "#F3ECF7",
           "source": "BBC"
         },
         {
           "id": "ent-3",
-          "title": "Paramount Pictures to Produce Cyberpunk 2077 Movie",
-          "image": "https://upload.wikimedia.org/wikipedia/en/9/9f/Cyberpunk_2077_box_art.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "place": "Los Angeles, USA",
-          "time": "Oct 10, 2026",
-          "content": "A movie version of the popular video game Cyberpunk 2077 is being made by Paramount Pictures. The studio is working with the game's developers CD Projekt Red and producer Lorenzo di Bonaventura known for his work on the Transformers films. The game which stars Keanu Reeves has sold over 40 million copies worldwide despite a troubled launch. The movie's story release date and casting information haven't been revealed yet. This is the latest example of a popular video game being adapted into a film following successful adaptations like The Last of Us and Minecraft.",
+          "title": "Rob Brydon Voiced Animated TV Special \"The Baddies\" Hits Screens This Christmas",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "London, UK",
+          "time": "Oct 14, 2026",
+          "content": "A new animated TV special called The Baddies is coming out this Christmas. It's based on a popular children's book by Julia Donaldson and will feature voice acting from Welsh actor Rob Brydon and some of his Gavin and Stacey co-stars. The story is about a troll a ghost and a witch who try to steal a little girl's blue spotty hanky but they soon learn that they might not be the scariest characters after all. The special is about being brave kind and standing up to bullies and it's set to be a funny and spooky holiday treat.",
           "theme": "#F3ECF7",
           "source": "BBC"
         }
@@ -220,31 +221,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Trump Faces Backlash Over Russian Diesel Imports to Lower Prices",
-          "image": "https://images.unsplash.com/photo-1707991131382-b82e0abca0a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OXx8ZGllc2VsfGVufDF8MHx8fDE3OTE3ODgzOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Bank of America Fined $1.2 Billion for Failing to Detect Money Laundering",
+          "image": "https://images.pexels.com/photos/6266771/pexels-photo-6266771.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Washington, USA",
-          "time": "Oct 12, 2026",
-          "content": "US President Donald Trump is facing backlash over his plan to import diesel from Russia to lower prices in the US. Despite signing laws to sanction Russia Trump announced that Russia would release 300000 tonnes of diesel followed by more shipments. Some lawmakers think this deal violates US laws while others support it.",
+          "time": "Oct 14, 2026",
+          "content": "Bank of America has been fined $1.2 billion for failing to detect potential money laundering and other illegal activity. The bank didn't report over $5 billion in suspicious transactions to the government including some that posed national security risks. The bank relied too heavily on outside parties to help detect and report suspicious activity rather than using its own internal controls.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Chancellor Healey Faces Spending Conundrum in October Budget",
-          "image": "https://images.pexels.com/photos/6956131/pexels-photo-6956131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "UK Economy to Grow 1.3% in 2026 Due to AI Investment Surge",
+          "image": "https://images.pexels.com/photos/8566525/pexels-photo-8566525.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "London, UK",
-          "time": "Oct 12, 2026",
-          "content": "Chancellor John Healey is facing a big spending problem. He needs to come up with a plan for the next budget which is October 28th. A group called the Institute for Fiscal Studies says he might have to cut spending raise taxes or do a combination of both. This is because the government wants to increase spending on things like defense and health but it needs more money to do it. Higher inflation caused by wars in the Middle East and Europe might make it even harder to balance the budget. The Chancellor doesn't have to announce all his spending plans yet but he will need to make some decisions soon.",
+          "time": "Oct 14, 2026",
+          "content": "The International Monetary Fund has released its latest report on the global economy and the UK is doing better than expected. The IMF says the UK's economy will grow by 1.3% in 2026 which is an increase from its previous forecast. This is partly because of a surge in investment in artificial intelligence. Despite some challenges the UK's economy is expected to be the second-fastest growing in the G7 group of countries. However the IMF warns that inflation is rising and interest rates will likely go up which could affect how much people spend and how much companies invest.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "Citroen Revives Classic 2CV Brand for Electric City Car",
-          "image": "https://images.pexels.com/photos/18659395/pexels-photo-18659395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Paris, France",
-          "time": "Oct 12, 2026",
-          "content": "Citroen has brought back its classic 2CV brand to boost sales of electric cars. The new model a small city car with retro styling is not yet on sale but could be in showrooms by 2028. Citroen wants to use its heritage to sell the car which is expected to cost around £13000. The company is following a trend of using nostalgia to sell modern cars as other European brands like Renault and VW have done. Citroen's chief executive says the new car is a modern response to the mobility challenges of tomorrow.",
+          "title": "Royal Mail sees 400 weekly staff departures amid new delivery issues",
+          "image": "https://images.pexels.com/photos/36816335/pexels-photo-36816335.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "West Midlands, UK",
+          "time": "Oct 14, 2026",
+          "content": "About 400 Royal Mail postmen and women are leaving the company every week according to the Communication Workers Union. This number has gone up since the company introduced a new delivery system earlier this year. The union says the new system is not working in hundreds of offices and is causing problems for staff including increased workloads and delays in delivering mail and parcels.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }
