@@ -1,205 +1,218 @@
 {
     "date": "14102026",
-    "timestamp": "2026-10-14T11:56:07.417404",
-    "duration_seconds": 4722.48,
+    "timestamp": "2026-10-14T21:18:14.000715",
+    "duration_seconds": 3235.39,
     "stages_duration_seconds": {
-        "scrape": 1241.88,
-        "guardrails": 1677.36,
-        "deduplication": 17.4,
-        "category_validation": 349.8,
-        "ranking": 10.19,
-        "processing": 1425.8,
-        "assembly": 0.02
+        "scrape": 931.16,
+        "guardrails": 978.96,
+        "deduplication": 11.97,
+        "category_validation": 147.92,
+        "ranking": 8.88,
+        "processing": 1156.46,
+        "assembly": 0.0
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 6,
-            "Tech": 28,
-            "People": 39,
+            "Health": 5,
+            "Tech": 24,
+            "People": 38,
             "Environment": 6,
-            "Economy": 9,
-            "Entertainment": 14
+            "Economy": 13,
+            "Entertainment": 19
         },
-        "total_scraped": 102,
-        "guardrail_passed": 100,
-        "guardrail_rejected": 1,
-        "dedup_removed": 0,
+        "total_scraped": 105,
+        "guardrail_passed": 103,
+        "guardrail_rejected": 2,
+        "dedup_removed": 99,
         "category_reassignments": 0,
-        "final_articles": 18,
+        "final_articles": 15,
         "final_categories": 6
     },
     "guardrail_rejections": [
         {
-            "id": "health-4",
+            "id": "pp-31",
             "source": "CNN",
-            "category": "health",
-            "title": "People say these peptides hurt them. Their stories are muffled in MAHA’s push for medical freedom",
-            "date": "2026-10-13 19:18",
-            "content": "After the third day of squirting an experimental drug up his nose, Dylan Meetze felt horrible. “It was like I was underwater, like it took the most to do anything,” he said. Meetze stopped taking the drug but endured fatigue and anxiety for months afterward, and his eyes and muscles twitched, he said. He had taken BPC-157, a peptide drug popularized by podcasts about wellness, longevity, and what’s called “body optimization.” “Peptide” is a general term for substances that are smaller than proteins but composed of the same building blocks. Dozens of peptide drugs , including insulin and GLP-1 weight loss medicines, have garnered approval by the Food and Drug Administration. But BPC-157 and many others have not because they haven’t undergone clinical trials. This fact hasn’t stopped online influencers from promoting them as remedies for muscle injuries, gut issues, covid, and more. Use of BPC-157 is growing in the U.S., particularly among white males, according to a new analysis of millions of de-identified electronic health records. Since 2020, the analysis, which hasn’t yet been published in a peer-reviewed journal, found that more than 1,000 people told doctors they had used the drug. Meetze said he decided to take BPC-157 after listening to Andrew Huberman, a Stanford neuroscientist with more than 16 million followers on YouTube, Instagram, and TikTok, who talks up peptides frequently on his podcasts . Studies in mice suggest that BPC-157 helps muscles heal and has “very high safety profiles,” Huberman has said , “at least, with respect to the lethal dosing.” His guest on one episode , Craig Koniver, a doctor who sells peptides through his wellness clinic, called BPC-157 “super safe” and recommended it for “anyone who’s working out on a regular basis.” Koniver did not respond to requests for comment. Huberman didn’t respond to multiple queries from KFF Health News, but an automatic reply linked to a disclaimer on his Huberman Lab website that says the podcast doesn’t constitute medical advice: “Any reliance on information provided through the podcast is solely at the user’s own risk.” Hoping BPC-157 might help him advance as a weightlifter, Meetze said he bought the drug last year from an online vendor, Researchem. A chemical supply company with that name sells experimental peptides through its website , warning that the substances are “solely for laboratory research” and are “not intended for human consumption.” (It lists an address in Hillsboro, Oregon, that corresponds to a shared office space. A receptionist at the space said Researchem wasn’t registered there, and multiple queries from KFF Health News to the email address listed on the website went unanswered.) Companies are required to warn that experimental peptides, which haven’t been approved by the FDA, are for research use only. But many companies may soon be permitted to drop the warning because of a push by health secretary Robert F. Kennedy Jr. to lower barriers to their use. He and other leaders of the Make America Healthy Again movement have promoted peptides as a way to improve the country’s health. On the social media platform X, before he took the helm at the Department of Health and Human Services, Kennedy vowed to end the “aggressive suppression” of “peptides, stem cells, raw milk” and “anything else that advances human health and can’t be patented by Pharma.” (In fact, peptides are heavily patented.) He has repeated the pledge since taking office. On Joe Rogan’s podcast early this year, Kennedy said he was a “big fan” of peptides and wanted to make many of them “more accessible.” On a podcast with the co-chair of the MAHA Action committee, Gary Brecka, Kennedy said the FDA’s role should be to assess science, “but not tell people and not tell physicians what they can and cannot prescribe.” “If you want to take an experimental drug,” he added, “you ought to be able to do that.” This summer, Kennedy’s health department appointed doctors with financial stakes in the peptide industry to a panel that advises the FDA. At an FDA meeting in July, the new appointees voted to ease restrictions on six experimental peptides, including the trendy compounds BPC-157, TB-500, and MOTS-c. Specifically, they advised adding these peptides to a list, called 503A, that would allow specialized pharmacies to make the drugs for human use, even though the FDA hasn’t approved them. In an email, HHS spokesperson Emily Hilliard wrote that every committee member satisfies the FDA’s ethics requirements. “FDA — not podcasts or politics — determines which substances qualify for inclusion on the 503A Bulks List,” she wrote. The FDA has yet to issue a final decision. The vote went against FDA scientists who presented research on the six peptides, concluding there wasn’t enough evidence to show they improved any condition. Furthermore, the scientists highlighted a potential for liver damage, allergic reactions, or other serious consequences. “People are saying this is about medical freedom — putting decisions back in the hands of patients,” said Reshma Ramachandran, a regulatory science researcher at Yale School of Medicine. “But what we see in practice is that incentives aren’t actually centered around patients. They’re centered around selling products.” Scientists also warned that drugmakers would be reluctant to invest millions of dollars into clinical trials on peptides if they could be sold without FDA approval. “The chances of clinical trials getting done now are diminished,” said Eric Topol, executive vice president of Scripps Research, a biomedical science institute in San Diego. “We will have more people who are prey to predators that will sell, sell, sell.” A lack of data leaves consumers in the dark. Meetze sought help on Reddit, where people post about pain, headaches, vision problems, and a lack of motivation after taking experimental peptides. Peptide enthusiasts often comment on these posts with skepticism, attributing a person’s problems to contaminated products, preexisting conditions, or misuse of the drugs. The online vitriol in the Reddit conversations can be intense, so Meetze welcomed an invitation to join a private group on the social platform Discord in which people with BPC-157 side effects tried to figure out what happened to them and how to fix it. “There are millions of success stories with these peptides,” Meetze said, “but no one wants to believe that this wrecks some of our lives.” One member of the private side-effects group, a 46-year-old software engineer named Dominik E., said he got an excruciating migraine within days of taking BPC-157 with TB-4, another unapproved peptide — a combination called the “Wolverine Stack” because of its purported ability to heal wounds rapidly, like its namesake Marvel superhero. “My left eye started throbbing really badly, and the left side of my face became numb,” he told KFF Health News, which agreed to only partially identify him and others interviewed for this article who were concerned about divulging sensitive health information. After two months of migraines, Dominik said, the pain eased, but his face felt inflamed. “It is a total nightmare,” he said. “I’m afraid how people will judge me,” said Lois S., a woman who works at a Michigan elementary school. She hoped BPC-157 and another unapproved peptide, retatrutide, would help with weight loss, but she stopped taking the treatment when she felt pain. “I sought out this substance from a lab that clearly labeled it not for human use, purchased a syringe, and injected this in my kitchen,” she said. “That belies all logic about what a normal person would do.” Peptide proponents argue that shoddy manufacturing — not the peptides — causes harm. Therefore, they say, the FDA must protect the public by allowing doctors to prescribe peptides made for human use by pharmacies that specialize in compounding medicines . Typically, compounding pharmacies manufacture alternatives to FDA-approved drugs so a patient can, say, get a liquid version of a drug that the original manufacturer makes only as pills. Adding unapproved peptides to the FDA’s list of compoundable drugs would mark a departure from the list’s purpose, said Peter Lurie, a former FDA official who now directs the advocacy group Center for Science in the Public Interest. He noted that federal and state oversight for compounding pharmacies is often lax, and they’ve been cited for contamination . Furthermore, he added, the move would mislead consumers into thinking they’re buying drugs backed by clinical trials. People promoting peptides often point to promising laboratory research as evidence. Rats with spinal injuries regained tail mobility after BPC-157 injections, for example, and old mice given the experimental peptide MOTS-c could run longer. On average, however, fewer than 10% of substances that show promise in animal studies prove effective in clinical trials. “A lot of this pseudoscience stuff sounds deeply impressive — inflammation this and telomere that — but at the end of the day, none of it really matters,” Lurie said. “You’ve got to show clinical benefit in humans: Does it work?” Peptide promoters lean on anecdotes, often without verifiable numbers. In a podcast recorded at the White House, the MAHA influencer Brecka said: “Twenty million people have been prescribed these things without adverse events.” His guest on the episode, Brigham Buhler — who is the co-author of The Peptide Revolution and owner of a compounding pharmacy that sells peptides and a clinic, Ways2Well, that prescribes them — told Brecka that none of its 75,000-plus patients had reported adverse events from peptides. Buhler cited even higher numbers in the movie MAHA Uncensored , a documentary featuring Kennedy and other leaders of the MAHA movement and that bears the MAHA trademark. In the segment on peptides, Buhler said: “Having treated literally hundreds of thousands of people through our compounding pharmacy, we’ve never had a major adverse event.” Topol asks why those boasting success haven’t conducted clinical studies. “If influencers and companies really believe these peptides are helping people,” Topol said, “then they should put their profits back into rigorous research.” Chris Woodward, a spokesperson for Brecka and his company, the Ultimate Human, said in an email that the health and wellness issues discussed on Brecka’s podcast do not constitute medical advice. “Mr. Brecka consistently advises his audience to consult a licensed physician,” Woodward wrote. Buhler did not respond to requests for comment. Not all anecdotes are rosy. At an antiaging conference last summer in Las Vegas, two women were rushed to the hospital and intubated after being injected with experimental peptides and vitamins, according to citations that Nevada’s state pharmacy board issued against the doctor running the booth and his colleagues for prescribing and administering drugs without a state medical license. An FDA database for adverse events contains concerning reports. Although the database can’t prove that a drug, vaccine, or medical device caused harm — the reports are brief, unverified, and voluntary — it signals issues worth exploring. A 36-year-old woman was hospitalized in December after taking the experimental peptide BPC-157 for weight control and a skin disorder, for example, and a 48-year-old man was hospitalized with a “life-threatening” condition after taking the peptide. FDA scientists presented some of these reports at the July meeting and flagged worrisome outcomes in animal experiments, such as a 2020 study revealing signs of liver toxicity in rats and dogs injected with BPC-157. Brian Lee, a liver disease specialist at the University of Southern California, was among the panel’s minority who voted against easing restrictions. Without clinical studies, he said, afflictions that take time to develop, like liver damage and cancer, might not be spotted for years: “I think this endorsement can be potentially harmful, and I cannot in good conscience vote ‘yes.’” The panel’s newcomers disagreed. “I do not believe the FDA made a good case on issues with safety with BPC,” said Kris Wusterhausen, founder of an antiaging company in Texas, the Resurge Clinic, which sells a BPC-157 product for $149. “Once you’ve seen the effects of BPC,” he said, “you can’t unsee it.” Deepak Srivastava, president of the Gladstone Institutes in San Francisco, designed a clinical trial two decades ago to see if a peptide he studies, TB-4, could repair tissue after a heart attack. Before enrollment, people volunteering for the study would be screened for early signs of cancer because TB-4 triggers vessel growth and cell migration, which might exacerbate malignant growths. He worries about the FDA panel’s vote to ease restrictions on a derivative of TB-4, before such trials have been completed, saying, “You need to have a healthy respect for the fact that drugs can be harmful.” Pinchas Cohen, a peptide researcher at the University of Southern California, was less cautious, saying the FDA buzz might drive investors to fund trials. He’s seeking support to bring a peptide his lab identified, MOTS-c, to market. It’s “un-ideal” for people to take unproven drugs, Cohen said, but that’s what’s happening: “The world is changing and people like me need to accept that this is the new reality and find ways to make it as safe as possible.” In the meantime, people like Meetze resort to podcasts and online forums for advice. His symptoms faded after a year, but he still had spells of feeling “zero emotions.” Peptide users describe this condition as anhedonia. It’s come up on Huberman’s podcasts . Huberman occasionally mentions other potential peptide risks, like cancer, sprinkling them into advice on how to take them. Take a 2024 episode with 1.2 million views: “I do not think that BPC-157 is not without its quote-unquote ‘side effects,’” Huberman says. “If you’re going to go down this path of taking BPC-157, I would encourage you to take the minimal effective dose, to not simply do it every day, and certainly to not do it continuously, and of course to monitor your other health metrics for anything that could potentially resemble cancer or tumor growth, because obviously stimulating angiogenesis for wound repair sounds like a great thing, recovering and being able to do your workouts or play your sport, or move about more comfortably, of course, a wonderfully attractive thing to do.” “Isn’t that what we all want? But obviously not with the trade-off of growing a tumor,” he said, before interrupting the discussion to advertise a supplement company sponsoring the show. KFF Health News is a national newsroom that produces in-depth journalism about health issues and is one of the core operating programs at KFF—an independent source of health policy research, polling, and journalism. Learn more about KFF .",
-            "url": "https://edition.cnn.com/2026/10/13/health/peptides-maha-access",
+            "category": "people",
+            "title": "Republicans take an ominous turn in their midterm campaign",
+            "date": "2026-10-14 04:01",
+            "content": "It’s getting ugly out there. The worse GOP midterm prospects look, the darker the rhetoric from top Republicans becomes as they single out Democratic candidates as weird, threatening and antithetical to what it means to be and look like an American. President Donald Trump is mocking the name of Michigan Democratic Senate candidate Abdul El-Sayed and slandering him as a “ jihadist .” Vice President JD Vance on Tuesday made a joke that implied James Talarico is gay . Trump keeps claiming the Democratic Senate nominee is a vegan who is incompatible with the carnivorous Lone Star State. Talarico is now often seen pictured with a plate of meat. The president has also revived his searing racially derogatory rhetoric suggesting that Haitians and Africans are invading key election states like Ohio. And after federal officials searched the home of Somali-born Minnesota Rep. Ilhan Omar on Monday, he underscored concerns he’s using executive power to target a political foe by questioning whether she had constitutional rights as a naturalized citizen “from one of the worst countries anywhere on the planet.” Trump’s rhetoric is hardly a surprise, given the linguistic excesses of his presidential campaigns, yet it’s still jarring to see such overt racial language delivered from behind a presidential podium. Some insults are delivered with a smile, which may offer Trump and Vance a modicum of political cover and the chance to argue it’s all part of the rough-and-tumble of the campaign trail in a polarized age. But that hardly makes maligning someone’s race, faith, personal appearance and manner more acceptable, nor does it absolve an intellectually low form of politics. Trump has been accused of prejudice for years — especially over inflammatory social media posts and fake and racist conspiracies he pushed over former president Barack Obama’s birthplace. The president, in seeking to appeal to voters, has often implied some minority political rivals are incompatible with traditional American culture and values. His anti-immigrant rhetoric seems at least partially aimed at his most conservative base voters who the GOP needs to turn out in huge numbers to stave off a midterm election disaster. The most obvious explanation for this ominous turn in the campaign, beyond Trump’s propensity for such dark arts, is that the Republicans lack a better story to tell. Trump’s approval rating is at 33% in the latest CNN poll of polls — a daunting number for an incumbent president three weeks from a midterm election. Polls show majorities of Americans blame the president’s decisions for worsening their struggle to cope with the high costs of food, housing, gasoline and diesel. And the rush by Vance and Trump to red states where Republicans never thought they’d be fighting in the campaign’s final stretch tells its own story. Branding Talarico as a “freak,” as Vance did in Texas on Tuesday, seems an attempt to distract from the struggling and scandal-plagued GOP Senate candidate — Attorney General Ken Paxton , who was Trump’s personal pick for the seat. It’s politics 101 for party leaders to seek to disqualify rivals whom they can’t beat on the issues. Trump’s singling out of Muslim candidates parallels his conceit that Democrats are “socialists” and “communists.” And if he can malign El-Sayed and Talarico, he’ll be doing his party a service. The pair are locked in races expected to go down to the wire on November 3. Trump is going harshly negative on El-Sayed, the former executive director of the Detroit Health Department. “I call him Mohammed,” Trump said in Tennessee on Saturday. “Somebody said, ‘His name isn’t Mohammed’ I’m the president, I can call him whatever the hell I want.” On Monday night in Ohio, he added: “He’s a jihadist.” It is of course legitimate for Republicans to highlight and attack El-Sayed’s record. They want to draw attention to his claim that Israel was committing genocide in Gaza shortly after the October 7 attacks . Many American Jews — Democratic voters among them — balk at the term, even while mourning the tens of thousands of Palestinians killed in the Israel-Hamas war following the terror attacks that killed more than 1,200 people, mostly Israelis, in 2023. But calling El-Sayed a “jihadist” — namely a radicalized terrorist who rejects democracy, suggesting he’s aligned with groups like Al-Qaeda or ISIS — crosses a rubicon. It’s obviously intended to frighten voters into thinking that the Democratic candidate is a terrorist and security threat. And calling El-Sayed “Mohammed” demeans him and insults the humanity and individuality of all Muslims. More broadly, the president seems to be portraying the Michigan-born Democrat and anyone who shares his faith as un-American and unworthy of the political rights of every citizen. His tactics recall his still-incessant use of Obama’s middle name, Hussein. El-Sayed responded to Trump’s deliberate mangling of his name by arguing the president’s focus insults the intelligence of voters. “He knows my name is Abdul. He says it everyday,” El-Sayed wrote on X . “But he’s not just attacking me. He’s attacking all of us. He thinks so low of us. He thinks he can use my name and my faith to distract us from the suffering his policies are inflicting on us at the pump, at the grocery store, and at the doctor’s office.” The president’s rhetoric toward Omar, with whom he’s furiously sparred for years, has similar apparent goals. He implies that the Minnesota representative is importing what he depicts as the anarchy of Somalia to Minnesota. “She’s a disaster. She comes in from a country without laws, without police, without military, without — all they do is shoot each other,” he said in Ohio on Monday. “They come into the United States of America and they tell us how to run our country. We’re not going to stand for it. They drive up taxes. They drive up healthcare costs, insurance costs, childcare costs.” Minnesota welcomed tens of thousands of Somalis in the early 1990s when their East African country collapsed into violence. The administration claims the community is laced with violent criminals and widespread fraud centered in day care centers. Somali leaders say violent criminals are a tiny minority, and that Trump and Republicans are maligning them without justification . The Department of Justice said it carried out an enforcement operation at the home of Omar, who is running for reelection. It is not yet possible to independently verify any evidence or accusations against her. Omar responded that Trump had smeared her for years and was now targeting her as a political enemy. Trump’s aides repeatedly deny that he is racist or guilty of racist rhetoric, pointing out that he holds events to mark milestones like Black History Month and that he increased his support among minority voters in the 2024 election. In February , then-White House press secretary Karoline Leavitt slammed “radical Democrats throughout the years who have accused this president falsely of being a racist.” Many Republican voters also claim double standards, pointing out that Democrats often speak in demeaning terms about conservatives and Trump’s voters more generally — including those who adopted Hillary Clinton’s phrase that half of them were in a “basket of deplorables” as a perverse badge of honor. Some senior Democrats have openly charged that Trump is a fascist. But Trump and Vance are also intensifying a trend that animates the newly populist Republican Party: a tendency to make specific judgments about who can be considered an authentic American. In the 2008 campaign, GOP vice presidential nominee Sarah Palin argued that “real America” was defined by small-town patriots and hard workers who lived in “pro-America areas of this great nation” — implying that those outside the heartland lacked legitimacy and pride in the country. Those remarks seem tame by comparison to the vitriol that Trump ushered in, and her subsequent apology now looks like a historical curiosity. This headline has been updated .",
+            "url": "https://edition.cnn.com/2026/10/14/politics/trump-racism-bigotry-republicans-midterms",
             "guardrail_flags": [],
+            "guardrail_reason": "biased tone and language"
+        },
+        {
+            "id": "pp-38",
+            "source": "The Guardian",
+            "category": "people",
+            "title": "Nigel Farage says charities that help asylum seekers reach UK should be prosecuted",
+            "date": "2026-10-14 11:18",
+            "content": "Charities and volunteers who help asylum seekers get to the UK should face potential criminal prosecution, Nigel Farage has said in an interview with a rightwing US podcaster. While the Reform UK leader did not specify which organisations should be targeted, he and other senior Reform figures have been heavily critical of the Royal National Lifeboat Institution (RNLI), which has faced a campaign of intimidation for its work in rescuing asylum seekers in the Channel. Speaking to Benny Johnson , a podcaster who has previously written for a series of rightwing US outlets, including Breitbart News, Farage discussed the arrival of asylum seekers on small boats, calling it “literally an invasion of people who could cause us enormous harm”. Johnson asked him: “Do you believe in criminal penalties for those who facilitated this invasion of the English Isles?” Farage replied: “Totally, totally. The role of the NGOs, the role of those that are sponsored by taxpayers’ money, because they’re nice, they’re good, they’re kind. They have actually aided and abetted criminality in absolutely every way. “These are people [who are] are deluded – deluded, hard-left socialist Marxists, who don’t believe in countries, don’t believe in borders, don’t believe in identities, are intent on destroying everything that exists.” Farage has previously described the RNLI, which rescues some asylum seekers, a small proportion of its lifesaving work, as a “migrant taxi service”, while other Reform figures have criticised the charity, including sharing footage of far-right protesters abusing RNLI crews bringing people ashore. Calling for charities and campaign groups to be prosecuted for their work has echoes of the efforts by the former Hungarian prime minister Viktor Orbán to try to cement his grip on power. A Reform spokesperson said Farage’s comments “speak for themselves”. In his conversation with Johnson, Farage repeatedly raised what he said was the issue of Muslim asylum seekers arriving in the UK, citing what the example of Michigan, the US state where rightwing agitators have sought to whip up anti-Muslim feeling. Farage said: “We are importing into our countries … people who will do us enormous harm, who will change, disrupt our lives in every way, in fact make our way of life potentially unrecognisable.” Saying that European countries such as the UK and France had a greater problem with migration than the US, Farage said if Donald Trump was followed in office by a “weak politician” who did not tackle migration and stand up for “American, English-speaking Christian values” then the consequences would be dire. Farage told Johnson: “If we don’t, this show of yours will be illegal in five or 10 years’ time. Literally, you’ll be banned for hate speech.” Sign up to First Edition Our morning email breaks down the key stories of the day, telling you what’s happening and why it matters after newsletter promotion Elsewhere in the interview, Farage speculated that five UK nationals arrested near RAF Fairford late last month before being bailed had been undertaking “a dummy run for a proper terrorist attack on UK forces”. He added: “I’m deeply, deeply shocked that they’re out on bail whilst there are other people in this country who have said things that the establishment now thinks are racist, who are held inside behind bars without, frankly, proper charge. So it’s what we call here two-tier policing.” Farage has a habit of sometimes making his message more robust for rightwing US audiences. He has appeared several times on the web TV show hosted by the disgraced far-right pundit Alex Jones, who was sued by bereaved parents of the 2012 Sandy Hook school shooting , which Jones said had been a hoax. Farage was criticised by some Jewish groups for using these and other US interviews to discuss tropes and conspiracy theories associated with the far right and antisemitism.",
+            "url": "https://www.theguardian.com/politics/2026/oct/14/nigel-farage-charities-help-asylum-seekers-uk-prosecute",
+            "guardrail_flags": [
+                "toxic_propaganda"
+            ],
             "guardrail_reason": ""
         }
     ],
     "deduplication": {
-        "total_checked": 224,
-        "exact_duplicate_pairs": 0,
-        "semantic_duplicate_pairs": 0,
-        "duplicate_pairs_found": 0,
-        "duplicate_clusters": 0,
-        "duplicates_removed": 0
+        "total_checked": 247,
+        "exact_duplicate_pairs": 12,
+        "semantic_duplicate_pairs": 123,
+        "duplicate_pairs_found": 135,
+        "duplicate_clusters": 33,
+        "duplicates_removed": 99
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 85,
+        "total_checked": 63,
         "rejected_count": 20,
         "rejected_articles": [
             {
-                "title": "Crypto bosses, CEOs and F1: Singapore's business events boom gathers pace",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses business events and conferences, which is primarily a people-related topic, even though it involves some science and technology aspects."
-            },
-            {
-                "title": "",
+                "title": "Bending Spoons skyrockets 35% as Berkshire Hathaway makes $330 million investment",
                 "from": "science and technology",
                 "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article discusses Accelevation Holdings, an AI infrastructure company, and Jim Cramer's thoughts on its stock performance, making it more relevant to the 'economy and business' category."
-            },
-            {
-                "title": "FBI arrests Saudi OpenAI employee who allegedly planted recording device in conference room",
-                "from": "science and technology",
-                "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article primarily discusses a security incident involving a Saudi OpenAI employee, which falls under the 'people' category, rather than the 'science and technology' category where the employee's role at OpenAI was secondary."
-            },
-            {
-                "title": "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans, clears her name",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily reports on a government official's experience and a judge's ruling, which falls under the people category."
-            },
-            {
-                "title": "Apple releases HomeView smart home hub with screen as showcase for Siri AI",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses the release of a new Apple product, HomeView, which is more relevant to the people category than the science and technology category, as it is a product announcement and not a scientific discovery or technological innovation."
+                "reason": "The article primarily discusses a financial investment and its impact on the company's financial flexibility, which is more closely related to the 'economy and business' category than 'science and technology'."
             },
             {
                 "title": "5 Things to Know",
                 "from": "science and technology",
                 "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses financial news, earnings, and market updates, with only minor mentions of science and technology (AI model and its pricing)."
+                "reason": "The article discusses stock futures, consumer price index, Bank of America's financials, Morgan Stanley's equities trading revenue, and Anthropic's financials, which are all relevant to the economy and business category."
             },
             {
-                "title": "Broadband fears after fibre works stop in village",
+                "title": "Crypto bosses, CEOs and F1: Singapore's business events boom gathers pace",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article focuses on the concerns and issues faced by residents in a rural village due to the suspension of fibre broadband installation, with quotes from local residents and officials, making it more relevant to the 'people' category than 'science and technology'."
+                "reason": "The article primarily discusses business events and conferences, which are related to the people and economy, rather than strictly science and technology."
             },
             {
-                "title": "Robot seized by German police after allegedly groping teenage girl",
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the development of Accelevation Holdings, a company that makes and installs electric, cooling equipment and support structures inside data centers, which is more relevant to the 'economy and business' category than 'science and technology'."
+            },
+            {
+                "title": "Judge says Musk engaged in intimidation of ex-FEMA CFO Mary Comans, clears her name",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Elon Musk's actions and their implications, which falls under the 'people' category, despite having some tangential connections to science and technology."
+            },
+            {
+                "title": "Vehicle thefts rise to highest level in a decade",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article primarily deals with the social and human aspects of the incident, including the involvement of teenagers and the streaming of the event on social media, making 'people' the most relevant category."
+                "reason": "The article discusses the rise of vehicle thefts, which is a social and human-interest story, rather than a scientific or technological development."
+            },
+            {
+                "title": "Robot seized by German police after it was allegedly used to grope teenage girl",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily deals with the human behavior and actions of the teenagers involved, rather than the technology or science aspects of the robot."
             },
             {
                 "title": "Zimbabwean author denies using AI to write award-winning story",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses AI-generated content and its impact on literary awards, which falls under the 'people' category."
-            },
-            {
-                "title": "Councillor sanctioned over offensive Facebook posts",
-                "from": "science and technology",
-                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article is primarily about a town councillor's social media posts and their consequences, which falls under the 'people' category."
-            },
-            {
-                "title": "Phase Eight and Hobbs owner hit by cyber-attack, as H&M probes separate hack claim",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses cyber-attacks on fashion brands, which is a human-interest story and a people-focused issue."
-            },
-            {
-                "title": "Raye hits back at ticket touts who 'overwhelmed' sign-up for Albert Hall show",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about Raye's experience with ticket touts using AI bots, which is more relevant to the 'people' category than 'science and technology'."
+                "reason": "The article primarily discusses the controversy surrounding the use of AI in writing, with a focus on the author's denial and the reactions from the literary world, which falls under the 'people' category."
             },
             {
                 "title": "Watch: Hong Kong crowds queue to see Van Gogh painting unveiled for first time in 60 years",
                 "from": "people",
                 "detected_category": "entertainment",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the unveiling of a Van Gogh painting, which is a cultural event and artistic development, making it more relevant to the 'entertainment' category than the current 'people' category."
-            },
-            {
-                "title": "World's oldest shipwreck found off coast of Turkey",
-                "from": "people",
-                "detected_category": "science and technology",
                 "confidence": 0.8,
-                "reason": "The article is primarily about an archaeological discovery and the technology used to date the shipwreck, which is a clear fit for the 'science and technology' category."
+                "reason": "The article primarily focuses on the unveiling of a Van Gogh painting and the auction process, which is more relevant to the entertainment category than the 'people' category."
             },
             {
-                "title": "Saudi man charged with planting 'sophisticated' recording device in OpenAI office",
+                "title": "'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire",
                 "from": "economy and business",
-                "detected_category": "science and technology",
+                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily reports on the use of AI technology by OpenAI, which is a clear connection to the science and technology category."
+                "reason": "The article discusses the impact of AI on job applications and the graduate recruitment market, which is more relevant to the 'people' category than 'economy and business', despite having some economic and business aspects."
+            },
+            {
+                "title": "Civil servant faked illness with make-up to juggle five jobs, court hears",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about a civil servant's alleged fraudulent behavior, which falls under the 'people' category, focusing on an individual's actions rather than a specific economic or business development."
+            },
+            {
+                "title": "Hundreds of Royal Mail staff quitting each week under new efficiency plans",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the impact of Royal Mail's efficiency plans on its employees, which is a people-related issue rather than an economic or business one."
+            },
+            {
+                "title": "Netflix to lay off roughly 1,000 employees, or 6% of workforce",
+                "from": "entertainment",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Netflix's business decisions, including layoffs and cost-cutting measures, which are relevant to the economy and business category."
+            },
+            {
+                "title": "BBC director general backs plan to shelve new Archers studio",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the impact of the BBC's decision on the people involved, including the cast and the region's mayor, rather than the entertainment aspect of the show."
+            },
+            {
+                "title": "Racial bias in London music licensing, report says",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses racial bias in London music licensing, which is a social and cultural issue that falls under the 'people' category."
+            },
+            {
+                "title": "Davina McCall says memory loss after brain surgery was like 'advanced Alzheimer's'",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses Davina McCall's health experience and recovery after brain surgery, making 'health' the most relevant category."
             },
             {
                 "title": "Russell T Davies criticises BBC boss's 'clumsy' AI Doctor Who comments",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses Russell T Davies, a television writer and showrunner, and his criticisms of the BBC director general, making it more relevant to the 'people' category than 'entertainment'."
+                "reason": "The article primarily focuses on Russell T Davies' criticism of the BBC director general's comments, making it more relevant to the 'people' category than the current 'entertainment' category, despite mentioning Doctor Who."
+            },
+            {
+                "title": "Actress Selma Blair faces charges for kicking nurse and officer after plane incident",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal situation and legal issues of actress Selma Blair, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Ex-gang boss sentenced to 40 years for orchestrating Tupac Shakur's murder",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Tupac Shakur, a renowned figure in the entertainment industry, and the murder investigation that has been a significant event in popular culture."
             },
             {
                 "title": "Katie Price denies 'any venom' against ex at his rape trial",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article is primarily about a celebrity (Katie Price) and her ex-husband's rape trial, which is a significant event in the 'people' category."
-            },
-            {
-                "title": "How Breaking Bad's RJ Mitte changed the way we see cerebral palsy",
-                "from": "entertainment",
-                "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article is primarily about the life and legacy of RJ Mitte, a person with cerebral palsy, and his impact on the entertainment industry."
-            },
-            {
-                "title": "BBC FM radio transmissions suspended in Afghanistan",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article reports on a government decision to suspend the transmission of BBC broadcasts in Afghanistan, which is a significant event in the people category."
-            },
-            {
-                "title": "Glamorous, starry and extremely private: Nine images capturing 100 years of Bel-Air, LA's most exclusive suburb",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article focuses on the history and cultural significance of Bel-Air, discussing its evolution from a 'gentlemen's haven' to a film-star refuge, and its connection to Hollywood and celebrity culture."
+                "reason": "The article primarily focuses on a celebrity's testimony in a criminal trial, which falls under the 'people' category."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 186,
-        "total_failures": 4,
-        "total_time_seconds": 1450.0,
-        "avg_response_time": 7.8
+        "total_calls": 168,
+        "total_failures": 8,
+        "total_time_seconds": 702.27,
+        "avg_response_time": 4.18
     }
 }

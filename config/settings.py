@@ -58,17 +58,18 @@ OLLAMA_MODEL = "llama3:latest"
 OLLAMA_TIMEOUT = 600  # seconds
 OLLAMA_MAX_RETRIES = 2
 OLLAMA_RETRY_DELAY = 3  # seconds
+LLAMA_GUARD_MODEL = "llama-guard4"
 
 
 # ============================================================
 # DEDUPLICATION SETTINGS
 # ============================================================
 
-DEDUP_SIMILARITY_THRESHOLD = 0.75
-DEDUP_CROSS_DAY_THRESHOLD = 0.85
+DEDUP_SIMILARITY_THRESHOLD = 0.55
+DEDUP_CROSS_DAY_THRESHOLD = 0.55
 DEDUP_EMBEDDING_MODEL = "all-MiniLM-L6-v2"
-DEDUP_HISTORY_DAYS = 5
-DEDUP_TFIDF_OVERLAP_THRESHOLD = 0.6
+DEDUP_HISTORY_DAYS = 6
+DEDUP_TFIDF_OVERLAP_THRESHOLD = 0.4
 
 
 # ============================================================
@@ -76,7 +77,7 @@ DEDUP_TFIDF_OVERLAP_THRESHOLD = 0.6
 # ============================================================
 
 RANKING_TOP_N = 3
-RANKING_SIMILARITY_THRESHOLD = 0.78
+RANKING_SIMILARITY_THRESHOLD = 0.68
 
 
 # ============================================================

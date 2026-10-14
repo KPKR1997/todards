@@ -4,11 +4,10 @@ from urllib.parse import urljoin
 from datetime import datetime, timezone, timedelta
 
 
+
 def get_section_links():
-
-    url = "https://www.downtoearth.org.in/climate-change"
-    domain = "https://www.downtoearth.org.in/"
-
+    url = "https://www.unep.org/en/news-and-stories/press-release"
+    domain = "https://www.unep.org/en/"
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -22,129 +21,58 @@ def get_section_links():
         "Accept-Language": "en-US,en;q=0.9",
         "Referer": url
     }
-
-    response = requests.get(
-        url,
-        headers=headers,
-        timeout=10
-    )
-
+    response = requests.get(url, headers=headers, timeout=10)
     response.raise_for_status()
-
     soup = BeautifulSoup(
         response.text,
         "html.parser"
     )
-
-    links = []
+    urls = []
 
     # Current UTC time
     now = datetime.now(timezone.utc)
-
     # Time 24 hours ago
     cutoff = now - timedelta(hours=24)
 
-    # --------------------------------------------------------
-    # FIND ALL HEADLINE LINKS
-    # --------------------------------------------------------
-
-    sections = soup.select(
-        'a[aria-label="headline"][href]'
+    sections = soup.find_all(
+        "div", class_ = "views-row"
     )
 
     print(f"Found {len(sections)} headline links")
 
-    # --------------------------------------------------------
-    # PROCESS EACH HEADLINE
-    # --------------------------------------------------------
+
 
     for section in sections:
+        # Get publication time from the same views-row
+        time_tag = section.find("time", class_="datetime")
 
-        # ----------------------------------------------------
-        # FIND THE STORY CARD
-        # ----------------------------------------------------
-
-        story_card = section.find_parent(
-            "div",
-            attrs={
-                "data-test-id": "story-card"
-            }
-        )
-
-        if not story_card:
+        if not time_tag or not time_tag.get("datetime"):
             continue
 
-        # ----------------------------------------------------
-        # FIND PUBLISH TIME INSIDE SAME STORY CARD
-        # ----------------------------------------------------
-
-        time_tag = story_card.find(
-            "time",
-            attrs={
-                "datetime": True
-            }
+        published_at = datetime.fromisoformat(
+            time_tag["datetime"]
         )
 
-        if not time_tag:
-            continue
+        # Convert publication time to UTC
+        published_at = published_at.astimezone(timezone.utc)
 
-        datetime_value = time_tag.get(
-            "datetime",
-            ""
-        )
+        # Keep articles published within the past 24 hours
+        if cutoff <= published_at <= now:
+            link_tag = section.find("a", href=True)
 
-        # ----------------------------------------------------
-        # PARSE DATETIME
-        # ----------------------------------------------------
+            if link_tag:
+                link = urljoin(domain, link_tag["href"])
+                urls.append(link)
 
-        try:
+    print(f"Found {len(urls)} links published in the past 24 hours")
 
-            published_time = datetime.fromisoformat(
-                datetime_value.replace(
-                    "Z",
-                    "+00:00"
-                )
-            )
-
-        except ValueError:
-
-            print(
-                f"Invalid datetime: {datetime_value}"
-            )
-
-            continue
-
-        # ----------------------------------------------------
-        # CHECK LAST 24 HOURS
-        # ----------------------------------------------------
-
-        if cutoff <= published_time <= now:
-
-            link = section.get("href")
-
-            if link:
-
-                full_link = urljoin(
-                    domain,
-                    link
-                )
-
-                links.append(
-                    full_link
-                )
-
-                print(
-                    f"{published_time} -> {full_link}"
-                )
-
-    return links
+    return urls
 
 
 def scrape_content(url_list):
     paragraphs = []
     for url in url_list:
-        domain = "https://www.downtoearth.org.in/"
-
+        domain = "https://www.unep.org/en/"
         headers = {
                 "User-Agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -158,13 +86,10 @@ def scrape_content(url_list):
                 "Accept-Language": "en-US,en;q=0.9",
                 "Referer": url
         }
-
         response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
-
         sections = soup.find("div", class_="arr--story-page-card-wrapper").find_all("p")
-        
         text = ""
         for section in sections:
                 para = section.get_text(strip=True)
@@ -174,12 +99,8 @@ def scrape_content(url_list):
     return paragraphs
 
 
-
 if __name__ == "__main__":
-
         links = get_section_links()
-
         print("\nFINAL LINKS:")
         print(links)
-
-        scrape_content(links)
+        # scrape_content(links)
