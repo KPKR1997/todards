@@ -1,17 +1,17 @@
 TODARDS LLM PIPELINE EVALUATION — 15102026
-Execution timestamp: 2026-10-15T19:01:27.471684
-Pipeline duration: 53.2 minutes
+Execution timestamp: 2026-10-15T23:52:14.661432
+Pipeline duration: 35.7 minutes
 
-Here is the evaluation:
+Here is the concise, useful plain-text evaluation:
 
-**Overall Run Health:** The pipeline duration is 53.2 minutes, which is 3.1% longer than the previous recorded run. This increase in duration may warrant investigation. The scraped article volume has increased from 96 to 120, which is a 25% increase. This could be a positive trend, but it's essential to monitor the volume and duration to ensure the pipeline remains healthy.
+**Overall Run Health:** The pipeline duration is 35.7 minutes, which is 33.0% shorter than the previous recorded run. This indicates a healthy run.
 
-**Scrape Volume:** The total scraped articles have increased by 25% compared to the previous recorded run. This could be a sign of improved data collection or a change in the data sources.
+**Scrape Volume:** The scraped article volume remains consistent at 120, with no significant changes.
 
-**Semantic Deduplication:** The deduplication process removed 43 duplicate articles from the 120 scraped articles, which is a 35.8% reduction in duplicates. This is a significant improvement, indicating that the deduplication process is effective in removing redundant data.
+**Semantic Deduplication:** The deduplication process removed 48 duplicate articles, which is a 40.0% reduction from the total scraped volume. This is a healthy outcome.
 
-**Source/Category Ingestion Anomalies:** There are no anomalies reported in the evidence-based observations.
+**Source/Category Ingestion Anomalies:** No significant anomalies are observed in the scraped article volume by category.
 
-**LLM Performance:** The LLM performance metrics are within acceptable ranges, with 192 total calls, 3 total failures, and an average response time of 4.24 seconds.
+**LLM Performance:** The LLM performance metrics indicate 181 total calls, 0 total failures, and an average response time of 1.55 seconds. This suggests a healthy performance.
 
-**Next Practical Check:** Investigate the increase in pipeline duration and scraped article volume to ensure that the changes are not indicative of any underlying issues. Monitor the deduplication process to ensure that it continues to be effective in removing duplicates.
+**Next Practical Check:** Verify the category validation status and the number of rejected articles to ensure that the pipeline is functioning correctly.

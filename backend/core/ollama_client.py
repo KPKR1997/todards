@@ -1,18 +1,13 @@
-"""
-Todards Pipeline — Centralized Ollama Client
+"""Todards Pipeline — centralized Ollama client.
 
-Single wrapper for all Ollama interactions.
-- Automatically generates JSON schema from Pydantic models
-- Passes schema to Ollama via the `format` parameter
-- Validates responses via Pydantic
-- Retries on parse failure
-- Logs all LLM calls for evaluation metrics
+Preserves the public OllamaClient constructor, generate(), generate_raw(),
+and get_stats() interfaces while making structured-output parsing strict.
 """
 
 import json
-import time
 import logging
-from typing import Type, TypeVar, Optional
+import time
+from typing import Optional, Type, TypeVar
 
 import requests
 from pydantic import BaseModel
@@ -25,24 +20,12 @@ from config.settings import (
     OLLAMA_RETRY_DELAY,
 )
 
-
 logger = logging.getLogger("todards.ollama")
-
 T = TypeVar("T", bound=BaseModel)
 
 
 class OllamaClient:
-    """
-    Centralized Ollama interaction client.
-
-    Usage:
-        client = OllamaClient()
-        result = client.generate(
-            prompt="Summarize this article: ...",
-            response_model=SummaryResponse,
-        )
-        print(result.summary)
-    """
+    """Centralized wrapper for Ollama chat API calls."""
 
     def __init__(
         self,
@@ -57,12 +40,11 @@ class OllamaClient:
         self.base_url = (base_url or OLLAMA_BASE_URL).rstrip("/")
         self.model = model or OLLAMA_MODEL
         self.timeout = timeout
-        self.max_retries = max_retries
-        self.retry_delay = retry_delay
+        self.max_retries = max(0, int(max_retries))
+        self.retry_delay = max(0, float(retry_delay))
         self.metrics = metrics_collector
         self.options = options or {}
 
-        # Track LLM call statistics
         self.total_calls = 0
         self.total_retries = 0
         self.total_failures = 0
@@ -70,49 +52,61 @@ class OllamaClient:
 
     @staticmethod
     def _pydantic_to_json_schema(model_class: Type[BaseModel]) -> dict:
-        """
-        Convert a Pydantic model class to a JSON schema dict
-        suitable for Ollama's `format` parameter.
-        """
+        """Return a JSON schema suitable for Ollama's ``format`` field."""
         schema = model_class.model_json_schema()
-
-        # Ollama expects a clean JSON schema without Pydantic internals
-        # Remove $defs if present and inline them
         defs = schema.pop("$defs", {})
 
-        def resolve_refs(obj):
+        def resolve_refs(obj, depth=0):
+            # Guard against unexpectedly recursive model schemas.
+            if depth > 30:
+                raise ValueError("JSON schema reference nesting is too deep.")
             if isinstance(obj, dict):
                 if "$ref" in obj:
                     ref_name = obj["$ref"].split("/")[-1]
-                    if ref_name in defs:
-                        return resolve_refs(defs[ref_name])
-                    return obj
-                return {
-                    key: resolve_refs(value)
-                    for key, value in obj.items()
-                }
-            elif isinstance(obj, list):
-                return [resolve_refs(item) for item in obj]
+                    if ref_name not in defs:
+                        raise ValueError(f"Unresolved JSON schema reference: {ref_name}")
+                    return resolve_refs(defs[ref_name], depth + 1)
+                return {key: resolve_refs(value, depth + 1) for key, value in obj.items()}
+            if isinstance(obj, list):
+                return [resolve_refs(value, depth + 1) for value in obj]
             return obj
 
-        resolved = resolve_refs(schema)
-        return resolved
+        return resolve_refs(schema)
 
-    def _sanitize_input(self, text: str) -> str:
-        """
-        Sanitize user-provided content to prevent prompt injection.
-        Wraps content in delimiters and strips control characters.
-        """
-        if not text:
-            return ""
+    @staticmethod
+    def _extract_content(data) -> str:
+        """Safely extract message content from an Ollama /api/chat response."""
+        if not isinstance(data, dict):
+            raise ValueError("Ollama returned a response that was not a JSON object.")
+        message = data.get("message")
+        if not isinstance(message, dict):
+            raise ValueError("Ollama response did not contain a valid 'message' object.")
+        content = message.get("content")
+        if not isinstance(content, str) or not content.strip():
+            raise ValueError("Ollama returned empty or non-text message content.")
+        return content.strip()
 
-        # Strip null bytes and other control chars (keep newlines/tabs)
-        cleaned = "".join(
-            char for char in text
-            if char == "\n" or char == "\t" or (ord(char) >= 32)
+    @staticmethod
+    def _safe_log_metric(metrics, **kwargs) -> None:
+        """Metrics must never turn a successful model response into a failed call."""
+        if metrics is None:
+            return
+        try:
+            metrics.log_llm_call(**kwargs)
+        except Exception as exc:
+            logger.warning("Could not record Ollama metrics: %s", exc)
+
+    def _post_chat(self, payload: dict):
+        response = requests.post(
+            f"{self.base_url}/api/chat",
+            json=payload,
+            timeout=self.timeout,
         )
-
-        return cleaned
+        response.raise_for_status()
+        try:
+            return response.json()
+        except ValueError as exc:
+            raise ValueError("Ollama returned invalid JSON in its HTTP response.") from exc
 
     def generate(
         self,
@@ -120,216 +114,172 @@ class OllamaClient:
         response_model: Type[T],
         role: str = "system",
     ) -> T:
-        """
-        Send a prompt to Ollama and return a validated Pydantic model.
+        """Generate structured output and return a validated Pydantic instance."""
+        if not isinstance(prompt, str) or not prompt.strip():
+            raise ValueError("prompt must be a non-empty string")
+        if not isinstance(response_model, type) or not issubclass(response_model, BaseModel):
+            raise TypeError("response_model must be a Pydantic BaseModel class")
 
-        Args:
-            prompt: The system/user prompt to send.
-            response_model: Pydantic model class for structured output.
-            role: Message role ("system" or "user").
-
-        Returns:
-            Validated instance of response_model.
-
-        Raises:
-            RuntimeError: If all retries are exhausted.
-        """
         json_schema = self._pydantic_to_json_schema(response_model)
-
         payload = {
             "model": self.model,
-            "messages": [
-                {
-                    "role": role,
-                    "content": prompt,
-                }
-            ],
+            "messages": [{"role": role, "content": prompt}],
             "stream": False,
+            # The original client generated this schema but did not send it.
+            "format": json_schema,
             "options": self.options,
         }
 
         last_error = None
+        attempts = self.max_retries + 1
 
-        for attempt in range(1, self.max_retries + 2):
-
+        for attempt in range(1, attempts + 1):
             self.total_calls += 1
-            start_time = time.time()
+            start_time = time.monotonic()
+            content = ""
+            elapsed = 0.0
 
             try:
-                response = requests.post(
-                    f"{self.base_url}/api/chat",
-                    json=payload,
-                    timeout=self.timeout,
-                )
-                response.raise_for_status()
-
-                elapsed = time.time() - start_time
-                self.total_time += elapsed
-
-                data = response.json()
-                content = data.get("message", {}).get("content", "")
-
-                if not content:
-                    raise ValueError(
-                        "Empty response from Ollama."
-                    )
-
-                # Parse JSON from the response
+                data = self._post_chat(payload)
+                content = self._extract_content(data)
                 parsed = self._extract_json(content)
-
-                # Validate through Pydantic
+                # _extract_json guarantees a dict; this validates required fields/types.
                 result = response_model.model_validate(parsed)
-
-                if self.metrics:
-                    self.metrics.log_llm_call(
-                        model=self.model,
-                        prompt_length=len(prompt),
-                        response_length=len(content),
-                        elapsed=elapsed,
-                        success=True,
-                    )
-
-                logger.debug(
-                    f"Ollama call succeeded: "
-                    f"{response_model.__name__} "
-                    f"({elapsed:.1f}s)"
-                )
-
-                return result
-
-            except Exception as e:
-
-                elapsed = time.time() - start_time
+                elapsed = time.monotonic() - start_time
                 self.total_time += elapsed
-                last_error = e
-
-                if attempt <= self.max_retries:
+                self._safe_log_metric(
+                    self.metrics,
+                    model=self.model,
+                    prompt_length=len(prompt),
+                    response_length=len(content),
+                    elapsed=elapsed,
+                    success=True,
+                )
+                logger.debug(
+                    "Ollama call succeeded: %s (%.1fs)",
+                    response_model.__name__,
+                    elapsed,
+                )
+                return result
+            except Exception as exc:
+                elapsed = time.monotonic() - start_time
+                self.total_time += elapsed
+                last_error = exc
+                if attempt < attempts:
                     self.total_retries += 1
                     logger.warning(
-                        f"Ollama attempt {attempt} failed "
-                        f"({response_model.__name__}): {e}. "
-                        f"Retrying in {self.retry_delay}s..."
+                        "Ollama attempt %d failed (%s): %s. Retrying in %ss...",
+                        attempt,
+                        response_model.__name__,
+                        exc,
+                        self.retry_delay,
                     )
-                    time.sleep(self.retry_delay)
+                    if self.retry_delay:
+                        time.sleep(self.retry_delay)
                 else:
                     self.total_failures += 1
-
-                    if self.metrics:
-                        self.metrics.log_llm_call(
-                            model=self.model,
-                            prompt_length=len(prompt),
-                            response_length=0,
-                            elapsed=elapsed,
-                            success=False,
-                        )
+                    # Preserve the original metrics behavior: log one failed
+                    # structured call after all retries have been exhausted.
+                    self._safe_log_metric(
+                        self.metrics,
+                        model=self.model,
+                        prompt_length=len(prompt),
+                        response_length=0,
+                        elapsed=elapsed,
+                        success=False,
+                    )
 
         raise RuntimeError(
-            f"Ollama failed after {self.max_retries + 1} attempts "
-            f"for {response_model.__name__}: {last_error}"
-        )
+            f"Ollama failed after {attempts} attempt(s) for "
+            f"{response_model.__name__}: {last_error}"
+        ) from last_error
 
-    def generate_raw(
-        self,
-        prompt: str,
-        role: str = "system",
-    ) -> str:
-        """
-        Send a prompt to Ollama and return raw text response.
-        Used only as fallback when structured output is not needed.
-        """
+    def generate_raw(self, prompt: str, role: str = "system") -> str:
+        """Generate and return raw text; keeps the existing public signature."""
+        if not isinstance(prompt, str) or not prompt.strip():
+            raise ValueError("prompt must be a non-empty string")
+
         payload = {
             "model": self.model,
-            "messages": [
-                {
-                    "role": role,
-                    "content": prompt,
-                }
-            ],
+            "messages": [{"role": role, "content": prompt}],
             "stream": False,
+            "options": self.options,
         }
-
         self.total_calls += 1
-        start_time = time.time()
-
+        start_time = time.monotonic()
         try:
-            response = requests.post(
-                f"{self.base_url}/api/chat",
-                json=payload,
-                timeout=self.timeout,
-            )
-            response.raise_for_status()
-
-            elapsed = time.time() - start_time
-            self.total_time += elapsed
-
-            data = response.json()
-            content = data.get("message", {}).get("content", "")
-
-            return content
-
-        except Exception as e:
-            elapsed = time.time() - start_time
-            self.total_time += elapsed
+            data = self._post_chat(payload)
+            return self._extract_content(data)
+        except Exception:
             self.total_failures += 1
             raise
+        finally:
+            self.total_time += time.monotonic() - start_time
 
     @staticmethod
     def _extract_json(text: str) -> dict:
-        """
-        Extract a JSON object from LLM response text.
-        Handles markdown code fences and extra text.
-        """
+        """Extract a JSON object, raising a useful error on every invalid case."""
+        if not isinstance(text, str) or not text.strip():
+            raise ValueError("Ollama returned an empty response; expected a JSON object.")
+
         text = text.strip()
 
-        # Try direct parse first
-        try:
-            return json.loads(text)
-        except json.JSONDecodeError:
-            pass
+        def parse_candidate(candidate: str):
+            try:
+                parsed = json.loads(candidate)
+            except json.JSONDecodeError:
+                return None, False
+            if not isinstance(parsed, dict):
+                raise ValueError(
+                    "Expected a JSON object for structured output, but Ollama returned "
+                    f"{type(parsed).__name__}."
+                )
+            return parsed, True
 
-        # Remove markdown code fences
+        # Full response first.
+        parsed, valid_json = parse_candidate(text)
+        if valid_json:
+            return parsed
+
+        # Remove optional Markdown fences.
         if text.startswith("```"):
             lines = text.splitlines()
             if lines:
                 lines = lines[1:]
             if lines and lines[-1].strip().startswith("```"):
                 lines = lines[:-1]
-            text = "\n".join(lines).strip()
+            unfenced = "\n".join(lines).strip()
+            parsed, valid_json = parse_candidate(unfenced)
+            if valid_json:
+                return parsed
+            text = unfenced
 
+        # Try each plausible object start, rather than returning None when
+        # the response contains prose or multiple brace characters.
+        decoder = json.JSONDecoder()
+        for index, char in enumerate(text):
+            if char != "{":
+                continue
             try:
-                return json.loads(text)
+                parsed, end = decoder.raw_decode(text[index:])
             except json.JSONDecodeError:
-                pass
+                continue
+            if isinstance(parsed, dict):
+                return parsed
+            # A valid JSON value that is not an object is not acceptable here.
+            raise ValueError(
+                "Expected a JSON object for structured output, but Ollama returned "
+                f"{type(parsed).__name__}."
+            )
 
-        # Find JSON object boundaries
-        start = text.find("{")
-        end = text.rfind("}")
-
-        if start != -1 and end != -1 and end > start:
-            json_text = text[start:end + 1]
-            try:
-                return json.loads(json_text)
-            except json.JSONDecodeError:
-                pass
-
-        # Find JSON array boundaries
-        start = text.find("[")
-        end = text.rfind("]")
-
-        if start != -1 and end != -1 and end > start:
-            json_text = text[start:end + 1]
-            try:
-                return json.loads(json_text)
-            except json.JSONDecodeError:
-                pass
-
-        # raise ValueError(
-        #     f"Could not extract valid JSON from response: "
-        #     f"{text[:200]}..."
-        # )
+        preview = text[:180].replace("\n", " ")
+        raise ValueError(
+            "Could not extract a valid JSON object from Ollama response. "
+            f"Response preview: {preview!r}"
+        )
 
     def get_stats(self) -> dict:
-        """Return LLM call statistics."""
+        """Return LLM call statistics (same keys as the original client)."""
         return {
             "total_calls": self.total_calls,
             "total_retries": self.total_retries,

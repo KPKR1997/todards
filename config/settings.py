@@ -60,6 +60,7 @@ OLLAMA_TIMEOUT = 600  # seconds
 OLLAMA_MAX_RETRIES = 2
 OLLAMA_RETRY_DELAY = 3  # seconds
 LLAMA_GUARD_MODEL = "llama-guard4"
+SUMMARY_VALIDATOR_MODEL = "gpt-oss:20b"
 
 
 # ============================================================

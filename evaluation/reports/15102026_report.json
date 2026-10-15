@@ -1,201 +1,157 @@
 {
     "date": "15102026",
-    "timestamp": "2026-10-15T19:01:27.471684",
-    "duration_seconds": 3194.21,
+    "timestamp": "2026-10-15T23:52:14.661432",
+    "duration_seconds": 2139.1,
     "stages_duration_seconds": {
-        "scrape": 627.75,
-        "guardrails": 1056.82,
-        "deduplication": 15.53,
-        "category_validation": 189.5,
-        "ranking": 476.0,
-        "processing": 828.58,
-        "assembly": 0.0
+        "scrape": 616.19,
+        "guardrails": 163.4,
+        "deduplication": 13.41,
+        "category_validation": 140.19,
+        "ranking": 164.21,
+        "processing": 1041.62,
+        "assembly": 0.03
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 0,
-            "Tech": 30,
-            "People": 60,
-            "Environment": 4,
-            "Economy": 12,
-            "Entertainment": 14
+            "Health": 3,
+            "Tech": 27,
+            "People": 68,
+            "Environment": 3,
+            "Economy": 9,
+            "Entertainment": 10
         },
         "total_scraped": 120,
-        "guardrail_passed": 123,
-        "guardrail_rejected": 0,
-        "dedup_removed": 43,
+        "guardrail_passed": 119,
+        "guardrail_rejected": 1,
+        "dedup_removed": 48,
         "category_reassignments": 0,
-        "final_articles": 11,
-        "final_categories": 5
+        "final_articles": 10,
+        "final_categories": 4
     },
-    "guardrail_rejections": [],
+    "guardrail_rejections": [
+        {
+            "id": "pp-68",
+            "source": "The Guardian",
+            "category": "people",
+            "title": "Just as Saint Nige thought it was safe to reappear, along comes pesky ITV",
+            "date": "2026-10-15 15:11",
+            "content": "S ometimes the world can be very unfair. As though life is just one cruel joke. How else to make sense of everything? For when the history books come to be written, Nigel Farage will go down as one of the century’s unluckiest politicians. Poor Nige. All he has ever wanted is a better Britain. A country united in a shared vision where everyone gets along with one another. Where people of all faiths and none look out for each other. Where men and women of all colours are treated as equals. Where Nige can teach the world to sing in perfect harmony. So why do so many bad things keep happening to such a good person? Where’s the justice in that? How come Nige has been given a lead role in the rewrite of Little Britain’s Book of Job. Nige as a latter day Old Testament prophet put on Earth to show us all the value of eternal suffering. Because Nige is a decent man. The very best of us. And yet time and again he is made to feel pain. No more so than in the last few months. First there was the money. Few would have batted an eyelid if he had been given £5m by the RNLI. For all he has done to support the work that unpaid volunteers do in rescuing all people in trouble on the sea. Let’s face it, a modern day ministry doesn’t pay for itself and no demigod-like politician can expect to get by on less than £1m a year. Those houses and bottles of champagne aren’t going to pay for themselves. Yet because the £5m came from a Thai crypto-billionaire, suddenly everyone was asking difficult questions . Anyone would think Reform might have crypto-friendly policies. Then there was the Channel 4 sting . And yet again our Messiah was the innocent victim of an establishment plot. Compared to Nige, Jesus had it easy in Holy Week. How could he be expected to realise that two associates whom he had barely known for years might allegedly be trying to secure an illegal donation from overseas? And what were the chances that Nige might be caught on camera giving considered responses as part of a conversation he hadn’t even been listening to? Some days you just can’t buy a break. On Thursday morning, Farage had been scheduled to host a press conference near Southend where we were promised he would spread goodwill to all men with yet another major policy announcement. Only for the event to be cancelled late on Wednesday evening. The official reason given was that Reform didn’t want to clash with the fifth anniversary of the murder of the former Southend MP David Amess. Yet more bad luck for Nige. Imagine only being given five years’ notice to plan your schedule. Or perhaps there was another reason for the cancellation. One related to another sting, this time by ITV , that had sent undercover journalists into the Reform operations room and uncovered the only bad apples in the entire organisation. Again, what were the chances of finding racists and misogynists attracted to a party that loved women and people of all colours? How could this ever have happened? The chances were slimmer than winning the EuroMillions lottery. And surely had nothing to do with Nige’s would-be chancellor, Honest Bob Jenrick, saying he would consider allowing soldiers to be able to blow up migrants in small boats in the Channel. What’s wrong with killing a few thousand people for the sake of a greater good? The country is just too woke for its own good sometimes. Then there’s the wannabe home secretary Zia Yusuf, who is on a one-man mission to round up all immigrants – even women and children – and send them back to countries where they may be killed. So again we are left with the question. Why are so many racists attracted to Reform? Let’s take Dean Miller. A vetted Reform councillor from Bromley who was filmed campaigning during the Makerfield byelection. Quite how extensive the vetting process was is anyone’s guess. “Tell us, Dean. Are you in any way prejudiced against people of colour?”. “Absolutely not. I just don’t want them anywhere near me.” “That’s great. Thanks Dean. Welcome to Reform.” Sign up to First Edition Our morning email breaks down the key stories of the day, telling you what’s happening and why it matters after newsletter promotion Anyway, Dean was caught on camera saying that it was kill or be killed with illegal immigrants. “They’re all fucking black and they’re like animals,” he said. “I’m not a racist, but you know what I mean.” Yes, Dean. We know exactly what you mean. And he couldn’t have been clearer about his intentions towards the king. Charles was a Muslim and deserved to be beheaded. It’s a view. When Miller was asked for a comment before the film is aired this weekend, his defence was that he had been on heavy medication at the time. And suddenly that all made sense. Because I too am on regular medication both for my psyche and for my heart. So I chose to reread the common known side effects of one of my drugs. And there among the small print about causing faster breathing, fever, muscle stiffness and drowsiness, one thing stood out. “Never take in the presence of a black person or royalty. Can make you prone to racist outbursts and in extreme cases can provoke urges to kill the monarch.” I guess I must just have been extremely lucky so far. Miller was not the only one to have been caught out this way. Others – also apparently vetted – declared that all foreigners were parasites, that the UK should have a 1% limit on all immigrants and made disgusting comments about a female Reform councillor. Raymond Dunning said he was so far-far right it was unbelievable. Then there were those who thought it best to try to sound moderate until after they had been elected. Then the gloves would come off and they could give foreigners hell. And in the middle of all this we have the saintly Nige. Scratching his head and wondering why all this was happening to him again. He hadn’t come in to politics to stir grievance and division. He was the god of love, the man of peace. Others among the Reform elite knew exactly where the blame lay. And it wasn’t with the innocent men who had been caught saying the only racist and sexist words they had ever said. Dicky Tice and the former Tory MP Ben Bradley were pointing the finger at ITV for daring to do its job properly. It was outrageous they had recorded Reform councillors going about their everyday jobs. Every man and woman was entitled to be as racist as they like in the comfort of their workplace. For now, Nige was determined to rise above it. He would survive. He was doing God’s work. Just a shame that God didn’t seem to like him much.",
+            "url": "https://www.theguardian.com/politics/2026/oct/15/nigel-farage-itv-reform",
+            "guardrail_flags": [],
+            "guardrail_reason": ""
+        }
+    ],
     "deduplication": {
-        "total_checked": 198,
-        "exact_duplicate_pairs": 22,
-        "semantic_duplicate_pairs": 44,
-        "duplicate_pairs_found": 66,
+        "total_checked": 192,
+        "exact_duplicate_pairs": 23,
+        "semantic_duplicate_pairs": 61,
+        "duplicate_pairs_found": 84,
         "duplicate_clusters": 25,
-        "duplicates_removed": 43,
-        "published_duplicates_removed": 14
+        "duplicates_removed": 48,
+        "published_duplicates_removed": 11
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 69,
-        "rejected_count": 21,
+        "total_checked": 61,
+        "rejected_count": 13,
         "rejected_articles": [
             {
-                "title": "",
+                "title": "5 Things to Know",
                 "from": "science and technology",
                 "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses market trends, inflation, and interest rates, with a focus on investment and economic policy, making 'economy and business' the most relevant category."
+                "reason": "The article primarily discusses financial market news, inflation, and the impact of AI on the economy, making 'economy and business' a more relevant category than 'science and technology' despite the presence of AI-related topics."
             },
             {
-                "title": "OpenAI sued by 8 states over ChatGPT safety concerns",
+                "title": "Teacher jailed for taking upskirt photos of pupils",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the legal and social implications of OpenAI's ChatGPT, which falls under the 'people' category."
+                "reason": "The article primarily reports on a teacher's criminal activity, which falls under the 'people' category, as it involves human behavior and consequences, rather than a specific scientific or technological development."
             },
             {
-                "title": "Anduril employee tender offer would value the defense tech startup at $90 billion",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article is primarily about the financial and business aspects of Anduril, a defense tech startup, including its valuation and funding rounds."
-            },
-            {
-                "title": "Bending Spoons skyrockets 41% as Berkshire Hathaway makes $330 million investment",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 1.0,
-                "reason": "The article primarily reports on the financial investment of Berkshire Hathaway in Bending Spoons, a company that falls under the category of 'economy and business'."
-            },
-            {
-                "title": "",
+                "title": "Amazon's studios plan should be approved - council",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses conservation efforts and the plight of endangered species, which is more relevant to the 'people' category than 'science and technology'."
+                "reason": "The article primarily discusses the plans and developments of Amazon's studios, which is more related to people and their projects rather than the science and technology category."
             },
             {
                 "title": "'As famous and defiant as ever': Why Elizabeth Holmes remains the US's most fascinating fraudster",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article is primarily about Elizabeth Holmes, a person, and her story, rather than a scientific or technological development."
+                "reason": "The article primarily focuses on Elizabeth Holmes, a well-known figure in the technology industry, and her story is more relevant to the 'people' category than 'science and technology', despite the mention of technology and medical devices."
             },
             {
-                "title": "Irish police social media accounts breached by hackers",
+                "title": "Anthropic wants to protect its AI - from you. Welcome to the consciousness crisis",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses social media hacking and the impact on social media users, which falls under the 'people' category, although it touches on technology."
+                "reason": "The article's focus on the moral and ethical implications of AI consciousness and the potential consequences for human society and relationships makes it more relevant to the 'people' category than the 'science and technology' category, despite the presence of AI-related concepts."
             },
             {
                 "title": "Outlander star criticises data centre plan for nuclear site",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article focuses on Outlander star Sam Heughan's concerns and opinions about the planned data centre, which is a human-interest story, rather than a scientific or technological development."
+                "confidence": 0.8,
+                "reason": "The article is primarily about Outlander star Sam Heughan's opinions and concerns about a data centre plan, which falls under the 'people' category."
             },
             {
                 "title": "How backlash against data centres could shape the US midterm elections",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article is primarily about the backlash against data centers and its potential impact on the US midterm elections, which falls under the 'people' category."
-            },
-            {
-                "title": "Palantir and City Hall settle Met contract row",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses the settlement of a contract dispute between Palantir and the Mayor's Office for Policing and Crime, which is a people-related story, despite being framed as a science and technology story"
-            },
-            {
-                "title": "Vehicle thefts rise to highest level in a decade",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses crime and law enforcement, which is more relevant to the 'people' category than 'science and technology', although it does mention technology such as electronic key cloning and signal amplification."
+                "reason": "The article's focus on the backlash against data centers and its potential impact on US midterm elections is more closely related to the 'people' category than 'science and technology', despite its connection to AI technology."
             },
             {
                 "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
                 "from": "people",
                 "detected_category": "health",
                 "confidence": 0.9,
-                "reason": "The article primarily reports on a tragic event involving children's deaths and injuries, which is more relevant to the 'health' category than the current 'people' category."
+                "reason": "The article reports a tragic event involving the death of many children, which is a major public health concern and highlights the importance of ensuring school safety and infrastructure."
             },
             {
-                "title": "Desperate to clear toxic haze, Indonesia douses its skies with dry ice",
+                "title": "Man killed by tiger died from 'multiple injuries'",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the death of a 24-year-old man due to injuries sustained from a tiger attack, which is a health-related incident."
+            },
+            {
+                "title": "Severe drought declared in parts of southern England",
                 "from": "people",
                 "detected_category": "earth and environment",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses a environmental issue (toxic haze) and the efforts to mitigate it, which is more relevant to 'earth and environment' than 'people'"
+                "confidence": 0.8,
+                "reason": "The article is primarily about a severe drought declared in parts of southern England, which is a significant environmental issue that falls under the 'earth and environment' category."
             },
             {
                 "title": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
                 "from": "people",
                 "detected_category": "earth and environment",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on environmental issues, specifically air pollution and its impact on Indonesia, making 'earth and environment' the most relevant category."
-            },
-            {
-                "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
-                "from": "economy and business",
-                "detected_category": "science and technology",
-                "confidence": 0.8,
-                "reason": "The article discusses the growth and profitability of AI giant Anthropic, which has significant implications for the science and technology sector."
+                "reason": "The article primarily focuses on environmental issues, specifically air pollution and haze, which is a significant topic in the 'earth and environment' category."
             },
             {
                 "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article discusses the relationship between the US government and Elon Musk's SpaceX, which is a people-oriented topic."
-            },
-            {
-                "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
-                "from": "economy and business",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about a specific individual, Abdulrahman Alfozan, and his alleged actions, which are more relevant to the 'people' category than 'economy and business'."
+                "reason": "The article discusses government decisions, international relations, and military developments, making it more relevant to the 'people' category than 'economy and business'."
             },
             {
                 "title": "Everyone has weighed in on the Shane Gillis monologue controversy, except ‘SNL’",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the controversy surrounding comedian Shane Gillis' monologue on SNL, with comments from various individuals and references to social issues, making it more relevant to the 'people' category than 'entertainment'."
-            },
-            {
-                "title": "Gustavo Dudamel arrives in New York with a mission that goes beyond the podium",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on Gustavo Dudamel's personal life, mission, and impact, which falls under the 'people' category, despite some tangential references to music and entertainment."
-            },
-            {
-                "title": "BBC News channel launches on YouTube for viewers in UK and US",
-                "from": "entertainment",
-                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the BBC's strategy to reach new audiences and combat disinformation, which is a topic relevant to the people category."
-            },
-            {
-                "title": "Danny Dyer in floating poo water protest on Thames",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article features actor Danny Dyer, his daughter Dani Dyer, and singer Becky Hill, making it more relevant to the 'people' category."
+                "reason": "The article focuses on the controversy surrounding Shane Gillis' monologue on Saturday Night Live, featuring comments from various people, including Cecily Strong and Dan Levy, making it more relevant to the 'people' category than 'entertainment'."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 192,
-        "total_failures": 3,
-        "total_time_seconds": 814.7,
-        "avg_response_time": 4.24
+        "total_calls": 181,
+        "total_failures": 0,
+        "total_time_seconds": 280.48,
+        "avg_response_time": 1.55
     }
 }
