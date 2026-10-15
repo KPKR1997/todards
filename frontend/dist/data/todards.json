@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 40",
+    "issue": "Issue No. 41",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Russell Brand's Rape and Sexual Assault Trial Begins",
-          "image": "https://images.unsplash.com/photo-1656152308981-d0a43ece2f54?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cnV0aGxlc3MlMjBzZXh1YWwlMjBwcmVkYXRvcnxlbnwxfDB8fHwxNzkxOTkyMjE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 14, 2026",
-          "content": "Russell Brand's trial for rape and sexual assault started with the prosecution describing him as \"ruthless\" and a \"sexual predator\". Six women accuse him of various offenses between 1999 and 2009 including rape sexual assault and indecent assault. The prosecutor says Brand's behavior was \"indiscriminate and voracious\" and that he would \"appear indifferent\" after the incidents. The jury heard details of the alleged offenses including incidents where Brand allegedly raped and assaulted several women.",
+          "title": "Israeli Military Investigates 254 Incidents, Discloses Outcomes in Only 28 Cases",
+          "image": "https://images.unsplash.com/photo-1533797387460-5bb8e7985b68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SXNyYWVsaSUyMG1pbGl0YXJ5fGVufDF8MHx8fDE3OTIwNDcxMTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
+          "time": "Oct 15, 2026",
+          "content": "The Israeli military has been accused of killing or injuring people in Gaza Lebanon the occupied West Bank and Israel but has not publicly disclosed the outcomes of investigations into most of these incidents. BBC Verify found 254 incidents where the Israeli military said it was investigating but only 28 of these had publicly disclosed outcomes. The investigations have been ongoing for years with some incidents dating back to 2023. Many of these incidents involve the killing or injury of civilians including women and children. The Israeli military has said it takes allegations of harm seriously but critics say the lack of transparency in investigations undermines accountability and perpetuates a culture of impunity.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Ukrainian man on trial in Germany for Nord Stream pipeline sabotage",
-          "image": "https://images.pexels.com/photos/26769352/pexels-photo-26769352.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Hamburg, Germany",
-          "time": "Oct 14, 2026",
-          "content": "A Ukrainian man named Serhii Kuznetsov has gone on trial in Hamburg Germany accused of blowing up Russia's Nord Stream gas pipelines four years ago. The prosecution says Kuznetsov played a leading role in a team of saboteurs and is charged with a war crime. His defence team claims there is no concrete evidence against him and that he cannot have a fair trial because he is a soldier who is bound to secrecy. The case is sensitive in Germany which is one of Ukraine's closest allies.",
+          "title": "Australian Woman Charged with Poisoning Colleague's Curry with Snail Pellets",
+          "image": "https://images.unsplash.com/photo-1567161291513-d8d58620c5ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c25haWx8ZW58MXwwfHx8MTc5MjA0NzE5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Western Australia",
+          "time": "Oct 15, 2026",
+          "content": "An Australian woman was charged with poisoning her colleague's curry with snail pellets. The woman allegedly laced the curry with the poison which can cause serious injury or death after visiting a chemical storage shed. The colleague tasted the curry and noticed something was off so they handed it over to detectives who identified the substance. The accused will face court on November 5th.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Australian Navy Ship Finds Hidden Video Device in Female-Only Space",
-          "image": "https://images.pexels.com/photos/33689138/pexels-photo-33689138.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Cairns, Queensland",
-          "time": "Oct 14, 2026",
-          "content": "An Australian navy ship HMAS Leeuwin had a hidden video recording device found in one of its cabins. The discovery was confirmed by the Australian Defence Force and was reportedly made in a female-only space. The incident has raised concerns that the device may have captured private moments of female sailors without their knowledge or consent and that footage may have been uploaded online. The Defence Force has launched an investigation and is providing support to affected crew members but has not yet revealed more details about the discovery or the investigation.",
+          "title": "Australian Government Introduces Laws to Give Users Control Over Online Content",
+          "image": "https://images.pexels.com/photos/13899132/pexels-photo-13899132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Australia",
+          "time": "Oct 15, 2026",
+          "content": "The Australian government is introducing new laws to give people control over the content they see on social media and streaming services. The proposed law would force big tech companies to let users choose what type of content they see rather than relying on algorithms that send them recommended content. This isn't a new idea as other countries have already tried to do something similar. The goal is to give people more control over what they see online and reduce the spread of misinformation.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,33 +61,33 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Tech Firms Unveil AI-Powered Devices for Holiday Season",
-          "image": "https://images.pexels.com/photos/8566521/pexels-photo-8566521.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Tokyo, Japan",
-          "time": "Oct 14, 2026",
-          "content": "Tech companies like Apple Amazon and Microsoft are introducing new devices with artificial intelligence or AI capabilities hoping to sell them to consumers during the holiday season. These devices such as smart home hubs and tablets claim to make AI more personal and accessible. While some analysts are skeptical about how well these devices will sell others believe that getting affluent early adopters on board now could be a win.",
+          "title": "Bank of America Hires Thousands to Fix Software Flaws",
+          "image": "https://images.unsplash.com/photo-1687603921109-46401b201195?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c29mdHdhcmUlMjBwYXRjaHxlbnwxfDB8fHwxNzkyMDQ2OTA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 15, 2026",
+          "content": "Bank of America has hired thousands of contractors to fix software problems after an artificial intelligence model called Mythos found many old flaws. The bank's CEO Brian Moynihan said they rushed to patch up their systems in the second quarter and spent a couple hundred million dollars on it. He's reassuring investors that this spending increase is temporary and will decrease over time.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "ASML Reports Strong Profits, Boosts Stock with Future Tool Demand",
-          "image": "https://images.unsplash.com/photo-1661347998423-b15d37d6f61e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8U2Ftc3VuZyUyMGxvZ298ZW58MXwwfHx8MTc5MTk5MjA3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "ASML Sees Strong Demand for Chip-Making Machines in 2029 and 2030.",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTE5NTgxMDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Eindhoven, Netherlands",
-          "time": "Oct 14, 2026",
-          "content": "ASML a company that makes tools for making semiconductors reported strong profits and said some customers are interested in buying its tools for future years. This has made investors feel better about the company's future demand. The CEO said customers are increasing their orders because they think AI-related investments will keep growing. ASML's CEO also said the company will need to increase its production to meet demand and is looking at ways to do that. The company's stock has gone up a lot this year and it's expected to keep growing.",
+          "time": "Oct 15, 2026",
+          "content": "ASML a Dutch company that makes special machines for making computer chips has seen its customers ask about buying those machines for 2029 and 2030. This news is good for investors because it shows that customers are planning ahead and expect to keep making a lot of chips.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Anthropic Asks Court to Reconsider Pentagon Blacklisting Appeal",
-          "image": "https://images.unsplash.com/photo-1499200493734-6ba25a83f77c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OHx8QW1lcmljYW4lMjBmbGFnfGVufDF8MHx8fDE3OTE5OTIxNTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, D.C.",
-          "time": "Oct 14, 2026",
-          "content": "Anthropic an American AI company is asking a federal court to reconsider its appeal in a case against the Pentagon. The Pentagon's Secretary of War blacklisted Anthropic's AI models in March because the company wouldn't allow its technology to be used for mass surveillance or lethal autonomous warfare. Anthropic sued the Trump administration to undo the action but the court upheld the blacklisting in September. Now Anthropic is arguing that the court ignored evidence that the blacklisting was retaliation for the company's speech about AI safety.",
+          "title": "Elephant tooth fossil yields insights into ancient environment of early humans.",
+          "image": "https://images.pexels.com/photos/35932054/pexels-photo-35932054.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Haifa, Israel",
+          "time": "Oct 15, 2026",
+          "content": "A giant elephant's tooth has helped scientists learn about the environment that supported early humans around 700000 years ago. The tooth found in Israel belongs to an ancient elephant species and provides clues about the landscape back then. Researchers used special techniques to study the tooth and surrounding fossils including stone tools made by early humans. They found that the area had a lot of water vegetation and wildlife making it a good place for animals and humans to live. This information helps scientists understand how humans and animals responded to changes in their environment and how these changes shaped human populations.",
           "theme": "#EBF2FA",
-          "source": "CNBC"
+          "source": "SciTechDaily"
         }
       ]
     },
@@ -101,31 +101,31 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Weightlifter's BPC-157 Use Ends in Fatigue, Anxiety After Just Three Days",
-          "image": "https://images.pexels.com/photos/6551290/pexels-photo-6551290.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "The single best geographic location to associate with this story is:",
-          "time": "Oct 14, 2026",
-          "content": "Dylan Meetze a weightlifter stopped taking BPC-157 a peptide drug after feeling horrible and experiencing fatigue anxiety twitching eyes and muscles after just three days. He bought the drug online and was one of over 1000 people who told doctors they had used it. Meetze's story is part of a growing trend of people using unapproved peptide drugs which are often promoted by online influencers and wellness enthusiasts. Despite the lack of clinical trials and evidence of potential harm the FDA is considering easing restrictions on these drugs which has sparked concerns among scientists and health experts. Meetze and others who have taken the drug are now dealing with the consequences including a lack of data and online skepticism from those who promote the drugs.",
+          "title": "Scots struggle to access weight loss treatments despite three-year approval",
+          "image": "https://images.unsplash.com/photo-1522844990619-4951c40f7eda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8d2VpZ2h0JTIwbG9zc3xlbnwxfDB8fHwxNzkyMDQ2Njk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Scotland",
+          "time": "Oct 15, 2026",
+          "content": "Fewer than 800 Scots have received NHS prescriptions for weight loss treatments like Mounjaro and Wegovy despite them being approved three years ago. Most health boards in Scotland don't offer the treatment specifically for weight loss and instead it's only available through small pilot schemes. This has led some doctors to describe the situation as \"discriminatory\" and widened health inequalities.",
           "theme": "#E8F5F1",
-          "source": "CNN"
+          "source": "BBC"
         },
         {
           "id": "hw-2",
-          "title": "Boy Kibble Diet Criticized for High Protein, Low Veggie Content",
-          "image": "https://images.pexels.com/photos/39273903/pexels-photo-39273903.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "New York, USA",
-          "time": "Oct 14, 2026",
-          "content": "Boy kibble is a simple meal plan where people eat the same food every day usually a rice base with ground meat and optional avocado. It's popular among men especially those trying to increase their fitness as it provides a reliable way to meet protein goals. However experts say the diet can be too high in protein and low in vegetables which is a concern. They suggest adding vegetables to the meals and switching up the diet occasionally to get a variety of nutrients.",
+          "title": "Kenya Confirms Second Ebola Case, 39-Year-Old Man in Quarantine",
+          "image": "https://images.pexels.com/photos/13744454/pexels-photo-13744454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Nairobi, Kenya",
+          "time": "Oct 15, 2026",
+          "content": "Kenya has confirmed a second case of Ebola 10 days after a businessman died of the virus. The new patient is a 39-year-old man who is a close relative of the first case and was already in quarantine when he fell ill. He was in quarantine because he was a contact of the first case and detecting his illness early improved his chances of recovery.",
           "theme": "#E8F5F1",
-          "source": "CNN"
+          "source": "BBC"
         },
         {
           "id": "hw-3",
-          "title": "GLP-1 medication slows aging process, study finds",
-          "image": "https://images.pexels.com/photos/7582591/pexels-photo-7582591.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Boston",
-          "time": "Oct 14, 2026",
-          "content": "Scientists have found that a type of medication called GLP-1 may slow down the aging process. This medication is typically used to help people with diabetes and weight loss. Studies have shown that it can improve the health of many parts of the body lowering the risk of certain diseases. Researchers have been studying how GLP-1 affects the aging process by looking at biomarkers or biological signs of aging. They found that the medication seemed to slow down aging in people who took it reducing their biological age by 3-6 years. The study's leader says that the effects of the medication are mostly due to weight loss and blood sugar control. Other studies have found similar results showing that GLP-1 medications may have anti-aging effects.",
+          "title": "Boy Kibble Diet Gains Popularity for High-Protein Convenience",
+          "image": "https://images.unsplash.com/photo-1676193866128-03a926df76ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8a2liYmxlfGVufDF8MHx8fDE3OTIwNDY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York-Presbyterian",
+          "time": "Oct 15, 2026",
+          "content": "Here is a summary of the news article in one natural paragraph\n\nBoy kibble is a way of eating that has become popular on social media where people strip meals back to basics to get high protein and convenience. It's a batch-cooked meal typically made with rice and ground meat with some people adding avocado for healthy fat. The diet has been popular among men especially those looking to increase their fitness as it provides a reliable way to meet protein goals. However experts warn that the diet can be imbalanced with too much protein and not enough vegetables and recommend adding some variety to the meals.",
           "theme": "#E8F5F1",
           "source": "CNN"
         }
@@ -141,31 +141,31 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Zimbabwe Sets Up $500 Million Reserve for Food Security",
-          "image": "https://images.unsplash.com/photo-1678059466227-d19beeff7557?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8WmltYmFid2V8ZW58MXwwfHx8MTc5MTk5MjQ0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Zimbabwe Prepares for Potential Drought with $500 Million Reserve",
+          "image": "https://images.unsplash.com/photo-1655981654045-5c45b14f3bc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8WmltYmFid2UlMjBtYXB8ZW58MXwwfHx8MTc5MjA0NzMxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Zimbabwe",
-          "time": "Oct 14, 2026",
-          "content": "Zimbabwe plans to create a $500 million reserve to help with food security if a drought happens. The government thinks a big El Niño weather event could cause dry conditions and make it hard to grow food so they're getting ready by setting up this reserve.",
+          "time": "Oct 15, 2026",
+          "content": "Zimbabwe is preparing for a potential drought by setting up a $500 million reserve of cash and grain. This is because some weather experts think El Niño a natural weather pattern might cause a drought that would affect the country's food. The country's Cabinet had already agreed on a plan to get ready for this and make sure people have enough food and their livelihoods are safe.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "African Countries Urged to Focus on Carbon Removal in Specific Locations",
-          "image": "https://images.unsplash.com/photo-1580064461598-505b080a8242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y2FyYm9uJTIwcmVtb3ZhbHxlbnwxfDB8fHwxNzkxOTkyNTAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "African Nations Urged to Prioritize Carbon Reduction Efforts",
+          "image": "https://images.unsplash.com/photo-1732187418596-18faa4a4b6f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Y2FyYm9uJTIwcmVtb3ZhbHxlbnwxfDB8fHwxNzkyMDQ3NDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Kenya",
-          "time": "Oct 14, 2026",
-          "content": "A new report says African countries should focus on removing carbon dioxide from the air in specific locations balancing efforts to fight climate change with their own development goals. This approach could bring in funding create jobs and support agriculture and industry but it's not a guarantee. Right now Africa's carbon removal sector is still developing with limited science infrastructure and expertise. The report highlights potential opportunities like biochar and enhanced rock weathering and points to Kenya's Rift Valley as an early hub for carbon capture. But it also warns that uncertain carbon markets lack of local standards and environmental risks could limit the benefits unless African countries strengthen their institutions and safeguards.",
+          "time": "Oct 15, 2026",
+          "content": "A new report suggests African countries should choose which areas to focus on when it comes to removing carbon dioxide from the atmosphere. This approach would balance helping the environment with local development needs. Some methods like using charcoal or rocks could create jobs support farming and help restore ecosystems. However these benefits aren't guaranteed and projects need to be carefully planned to make sure they're a good use of resources and don't harm the environment.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-3",
-          "title": "Indonesia sees worst wildfires in decade with 1.06 million hotspots detected.",
-          "image": "https://images.pexels.com/photos/4275991/pexels-photo-4275991.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Indonesia suffers worst wildfire season on record with 1.06 million hotspots",
+          "image": "https://images.pexels.com/photos/28345859/pexels-photo-28345859.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Indonesia",
-          "time": "Oct 14, 2026",
-          "content": "Indonesia has seen a massive increase in wildfires with over 1.06 million hotspots detected as of October 14 2026. This is the worst wildfire season in a decade. Dry conditions linked to the Super El Niño event are making the fires harder to control and increasing the risk of more outbreaks. The smoke from the fires has spread to Malaysia and Singapore causing air quality problems and health concerns. The cause of the fires is linked to slash-and-burn land-clearing practices and unusually dry weather.",
+          "time": "Oct 15, 2026",
+          "content": "Indonesia has had a severe wildfire season with over 1.06 million hotspots detected since October 14. This is worse than the previous worst year 2019 when there were 885000 hotspots. The dry conditions caused by Super El Niño have made it harder to control the fires and increased the risk of more outbreaks. Smoke from the fires has spread to neighboring countries causing poor air quality and health concerns.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         }
@@ -181,11 +181,11 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "La Bola Negra Sweeps Nation with Gay Drama Oscar Favourite",
-          "image": "https://images.pexels.com/photos/5928588/pexels-photo-5928588.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "La Bola Negra Nominated for Best Picture Academy Awards",
+          "image": "https://images.unsplash.com/photo-1527979809431-ea3d5c0c01c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8ZmlsbSUyMGZlc3RpdmFsfGVufDF8MHx8fDE3OTIwNDc3NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Spain",
-          "time": "Oct 14, 2026",
-          "content": "A new movie called La Bola Negra is making waves in the film industry. It's a sweeping drama that tells the stories of three gay men across a century and it's currently second favourite to win the top prize at the Oscars. The film has received widespread critical acclaim and is a commercial hit in its native Spain. It's a masterpiece of storytelling with a unique blend of romance historical epic and family drama. The film's directors Javier Calvo and Javier Ambrossi have brought their own experiences and perspectives to the story and the film's themes of gay desire persecution and self-punishment are handled with sensitivity and courage.",
+          "time": "Oct 15, 2026",
+          "content": "A film called La Bola Negra is a contender for the Academy Awards' best picture prize. The movie tells three stories of gay men across a century in Spain exploring themes of love repression and self-punishment. The film has received critical acclaim and is a commercial hit in Spain. It's known for its beautiful visuals complex storyline and courage in showing sexual desire. The directors Javier Calvo and Javier Ambrossi have been praised for their work and the film's cast including Álvaro Lafuente Calvo and Carlos González have also received recognition.",
           "theme": "#F3ECF7",
           "source": "BBC"
         },
@@ -221,31 +221,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "US Inflation Surges to 3.7%, Driven by Higher Gas Prices",
-          "image": "https://images.pexels.com/photos/9558502/pexels-photo-9558502.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "US",
-          "time": "Oct 14, 2026",
-          "content": "US inflation rose more than expected in September reaching 3.7%. Higher gasoline prices driven by Middle East energy supply disruptions are the main cause. Inflation has been above the US Federal Reserve's 2% target which is considered stable for an economy. Experts will closely watch if energy costs affect other areas like food prices and drive inflation higher. Food inflation is currently flat but core inflation which excludes food and energy is at 2.6%.",
+          "title": "Anthropic Sees 45% Revenue Hike to $16.8 Billion",
+          "image": "https://images.pexels.com/photos/37156584/pexels-photo-37156584.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "San Francisco, USA",
+          "time": "Oct 15, 2026",
+          "content": "Artificial intelligence company Anthropic saw its revenue jump by 45% to $16.8 billion in the last three months. This is a big increase from previous quarters and the company is preparing to list its stock on the market later this year.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Bank of America Fined $1.2 Billion for Money Laundering Failures",
-          "image": "https://images.unsplash.com/photo-1649734929640-d0c0f79da545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8QmFuayUyMG9mJTIwQW1lcmljYXxlbnwxfDB8fHwxNzkxOTkyNzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
-          "time": "Oct 14, 2026",
-          "content": "Bank of America has been fined $1.2 billion for failing to detect and report suspicious financial activity including money laundering and illegal transactions. The bank didn't flag transactions that might have involved Chinese money laundering networks or had connections to the US-Mexico border. This means the bank didn't take its own responsibility to detect and report suspicious activity seriously instead relying on others to do the job. As a result the US Treasury Department has imposed the third-largest fine ever and Bank of America has admitted to violating anti-money laundering rules.",
+          "title": "Teacher Struggles to Make Ends Meet in West Tennessee Amid Rising Costs",
+          "image": "https://images.pexels.com/photos/6289070/pexels-photo-6289070.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "West Tennessee",
+          "time": "Oct 15, 2026",
+          "content": "Kathryn Vaughn a 46-year-old teacher is struggling to make ends meet in West Tennessee. She works three jobs to support her family of four including as a primary school art teacher but still finds it hard to afford basic necessities like food and gas. Vaughn's story is echoed by others across the US who are feeling the pinch of rising costs and increasing prices.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "Saudi Engineer Charged with Secretly Recording OpenAI Executives",
-          "image": "https://images.unsplash.com/photo-1684493735679-359868df0e18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8T3BlbkFJfGVufDF8MHx8fDE3OTE5OTI4MDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "California, USA",
-          "time": "Oct 14, 2026",
-          "content": "A Saudi national Abdulrahman Alfozan has been charged with secretly installing a recording device in one of OpenAI's offices in California. Alfozan who worked as an engineer at OpenAI allegedly hid the device in a TV's USB port in an executive conference room. OpenAI discovered the device and used its AI models to track it back to Alfozan who was fired. Prosecutors say Alfozan tried to capture sensitive communications about OpenAI's AI product.",
+          "title": "Companies fined £6m for misleading sales tactics",
+          "image": "https://images.unsplash.com/photo-1607082349566-187342175e2f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8ZGlzY291bnQlMjBvZmZlcnxlbnwxfDB8fHwxNzkyMDQ3NjY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 15, 2026",
+          "content": "Wayfair Appliances Direct and Gold's Gym have been fined a total of £6m by the Competition Markets Authority for using misleading sales tactics. Wayfair was fined £4.8m for advertising products as if they would disappear quickly while Appliances Direct was fined £1.2m for automatically enrolling customers in services without their permission. Gold's Gym was fined £45000 for not clearly showing the total price of gym memberships. The companies will have to refund customers a total of £440000 with thousands of Appliances Direct customers and 726 Gold's Gym customers expected to receive refunds.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }

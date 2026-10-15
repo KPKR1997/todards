@@ -1,33 +1,131 @@
-from backend.main_guardrails.image_guard import ImageSafetyGuard
+
+import json
+from unittest.mock import MagicMock, patch
+
+import pytest
+
+from backend.main_guardrails.article_guard import ArticleSafetyGuard
 
 
-def main():
-    guard = ImageSafetyGuard(
-        model="gemma3:4b"
+@pytest.fixture
+def guard():
+    # Prevent construction of a real Ollama client.
+    with patch("backend.main_guardrails.article_guard.OllamaClient"):
+        guard = ArticleSafetyGuard(
+            client=MagicMock(),
+            model="llama-guard3:1b",
+        )
+
+    guard.guard_client = MagicMock()
+    return guard
+
+
+def test_safe_article(guard):
+    guard.guard_client.generate_raw.return_value = (
+        '{"safe": true}'
     )
 
-    # Test with the exact kind of URL that previously crashed
-    image_url = (
-        "hhttps://media.istockphoto.com/id/1533529011/photo/beauty-shot-of-beautiful-black-woman-in-monochromatic-pink-stock-photo-copy-space.jpg?s=2048x2048&w=is&k=20&c=kd8mewqMZrL3wqhAkqxWljkJfoR0vNuiOjzMdXVKhcQ="
+    result = guard._check_article({
+        "title": "Nobel Prize announced",
+        "content": "The Nobel Prize was announced today.",
+    })
+
+    assert result is True
+
+
+def test_unsafe_article(guard):
+    guard.guard_client.generate_raw.return_value = (
+        '{"safe": false}'
     )
 
-    print("Testing image safety guard...")
-    print(f"URL: {image_url}")
+    result = guard._check_article({
+        "title": "Unsafe article",
+        "content": "Test content",
+    })
 
-    result = guard.check_image(image_url)
-
-    print()
-    print("Result:", result)
-
-    if result is True:
-        print("PASS: Image classified as SAFE")
-
-    elif result is False:
-        print("PASS: Image classified as UNSAFE")
-
-    else:
-        print("ERROR: Image safety check failed")
+    assert result is False
 
 
-if __name__ == "__main__":
-    main()
+def test_markdown_json_response(guard):
+    guard.guard_client.generate_raw.return_value = (
+        '```json\n{"safe": true}\n```'
+    )
+
+    assert guard._check_article({
+        "title": "Test",
+        "content": "Test content",
+    }) is True
+
+
+def test_empty_model_response_returns_error(guard):
+    guard.guard_client.generate_raw.return_value = ""
+
+    assert guard._check_article({
+        "title": "Test",
+        "content": "Test content",
+    }) is None
+
+
+def test_invalid_json_returns_error(guard):
+    guard.guard_client.generate_raw.return_value = (
+        "This is not valid JSON"
+    )
+
+    assert guard._check_article({
+        "title": "Test",
+        "content": "Test content",
+    }) is None
+
+
+def test_model_exception_returns_error(guard):
+    guard.guard_client.generate_raw.side_effect = (
+        RuntimeError("Ollama unavailable")
+    )
+
+    assert guard._check_article({
+        "title": "Test",
+        "content": "Test content",
+    }) is None
+
+
+def test_missing_safe_field_returns_error(guard):
+    guard.guard_client.generate_raw.return_value = (
+        '{"reason": "test"}'
+    )
+
+    assert guard._check_article({
+        "title": "Test",
+        "content": "Test content",
+    }) is None
+
+
+def test_non_boolean_safe_value(guard):
+    guard.guard_client.generate_raw.return_value = (
+        '{"safe": "unexpected"}'
+    )
+
+    # Documents current behavior: unknown strings become False.
+    # Consider tightening the parser to return None instead.
+    assert guard._check_article({
+        "title": "Test",
+        "content": "Test content",
+    }) is False
+
+
+def test_generate_raw_receives_prompt(guard):
+    guard.guard_client.generate_raw.return_value = (
+        '{"safe": true}'
+    )
+
+    guard._check_article({
+        "title": "Test headline",
+        "content": "Test article",
+    })
+
+    guard.guard_client.generate_raw.assert_called_once()
+    prompt = guard.guard_client.generate_raw.call_args.kwargs[
+        "prompt"
+    ]
+
+    assert "Test headline" in prompt
+    assert "Test article" in prompt
