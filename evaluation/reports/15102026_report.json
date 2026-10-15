@@ -1,0 +1,52 @@
+{
+    "date": "15102026",
+    "timestamp": "2026-10-15T07:48:41.591908",
+    "duration_seconds": 4669.5,
+    "stages_duration_seconds": {
+        "scrape": 624.65,
+        "guardrails": 2448.31,
+        "deduplication": 9.93,
+        "category_validation": 1418.89,
+        "ranking": 10.96,
+        "processing": 156.74,
+        "assembly": 0.0
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 5,
+            "Tech": 24,
+            "People": 37,
+            "Environment": 6,
+            "Economy": 15,
+            "Entertainment": 23
+        },
+        "total_scraped": 110,
+        "guardrail_passed": 110,
+        "guardrail_rejected": 0,
+        "dedup_removed": 66,
+        "category_reassignments": 0,
+        "final_articles": 0,
+        "final_categories": 0
+    },
+    "guardrail_rejections": [],
+    "deduplication": {
+        "total_checked": 235,
+        "exact_duplicate_pairs": 31,
+        "semantic_duplicate_pairs": 54,
+        "duplicate_pairs_found": 85,
+        "duplicate_clusters": 45,
+        "duplicates_removed": 66
+    },
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 78,
+        "rejected_count": 0,
+        "rejected_articles": []
+    },
+    "llm_performance": {
+        "total_calls": 188,
+        "total_failures": 188,
+        "total_time_seconds": 763.85,
+        "avg_response_time": 4.06
+    }
+}
