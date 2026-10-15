@@ -201,6 +201,15 @@ def main():
     # ------------------------------------------------------------
     # 3. DEDUPLICATION
     # ------------------------------------------------------------
+    if not TODARDS_JSON_PATH.exists():
+            logger.error(f"Todards JSON not found at {TODARDS_JSON_PATH}")
+            return
+    
+    with open(TODARDS_JSON_PATH, "r", encoding="utf-8") as f:
+            frontend_data = json.load(f)
+    
+    copy_data = copy.deepcopy(frontend_data)
+    
     progress.update_stage("Deduplication: Semantic & Cross-Day", 35.0)
     metrics.start_stage("deduplication")
     try:
@@ -210,7 +219,8 @@ def main():
             cross_day_threshold=DEDUP_CROSS_DAY_THRESHOLD,
             metrics_collector=metrics,
         )
-        dedup_report = deduplicator.run()
+        dedup_report = deduplicator.run(publication_data=copy_data)
+
         logger.info(f"Deduplication complete: {dedup_report.get('duplicates_removed', 0)} duplicates removed.")
     except Exception as e:
         logger.error(f"Deduplication failed: {e}")
@@ -300,6 +310,7 @@ def main():
                 logger.info(f"Processed {len(cat_output)} articles for {display_cat}.")
             except Exception as e:
                 logger.error(f"Processing failed for category {display_cat}: {e}")
+
     # combined_output = ImageSafetyGuard().run(combined_output)
     # ------------------------------------------------------------
     # 7. CROSS-ARTICLE IMAGE DEDUPLICATION PASS
@@ -325,14 +336,7 @@ def main():
     progress.update_stage("Assembling Publication Dataset", 95.0)
     metrics.start_stage("assembly")
 
-    if not TODARDS_JSON_PATH.exists():
-        logger.error(f"Todards JSON not found at {TODARDS_JSON_PATH}")
-        return
-
-    with open(TODARDS_JSON_PATH, "r", encoding="utf-8") as f:
-        frontend_data = json.load(f)
-
-    copy_data = copy.deepcopy(frontend_data)
+    
 
     # Update publication metadata
     pub = copy_data.setdefault("publication", {})

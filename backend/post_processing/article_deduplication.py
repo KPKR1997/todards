@@ -901,9 +901,132 @@ class ArticleDuplicateRemover:
     # MAIN PIPELINE
     # ------------------------------------------------------------------
 
-    def run(self) -> Dict[str, Any]:
+    # ------------------------------------------------------------------
+    # READ-ONLY PUBLICATION REFERENCE FILTER
+    # ------------------------------------------------------------------
+
+    def remove_published_duplicates(
+        self,
+        publication_data: Dict[str, Any],
+    ) -> int:
         """
-        Execute complete deduplication pipeline.
+        Remove incoming source articles that duplicate cards in an existing
+        publication. The publication_data object is read-only: this method
+        never changes its sections/cards or writes to the publication JSON.
+
+        Returns the number of incoming source articles removed.
+        """
+        sections = publication_data.get("sections", [])
+        if not isinstance(sections, list) or not sections or not self.records:
+            logger.info("No usable publication references or incoming articles.")
+            return 0
+
+        references = []
+        for section in sections:
+            if not isinstance(section, dict):
+                continue
+            cards = section.get("cards", [])
+            if not isinstance(cards, list):
+                continue
+            for card in cards:
+                if not isinstance(card, dict):
+                    continue
+                title = self.clean_text(card.get("title", ""))
+                content = self.clean_text(card.get("content", card.get("summary", "")))
+                if not title and not content:
+                    continue
+                references.append({
+                    "title": title,
+                    "content": content,
+                    "combined_text": f"{title}. {content}".strip(),
+                    "fingerprint": self.create_fingerprint(title, content),
+                })
+
+        if not references:
+            logger.info("Publication reference contains no usable cards.")
+            return 0
+
+        # Only today's scraped records are "incoming". Older source files
+        # remain available for cross-day source deduplication, but this
+        # publication-reference pass must not delete them.
+        incoming_indices = [
+            index for index, record in enumerate(self.records)
+            if record.get("is_today")
+        ]
+        if not incoming_indices:
+            logger.info("No today's incoming source articles to compare.")
+            return 0
+
+        incoming_texts = [
+            self.records[index]["combined_text"] for index in incoming_indices
+        ]
+        reference_texts = [record["combined_text"] for record in references]
+        embeddings = self.model.encode(
+            incoming_texts + reference_texts,
+            batch_size=32,
+            show_progress_bar=False,
+            normalize_embeddings=True,
+        )
+        incoming_embeddings = embeddings[:len(incoming_indices)]
+        reference_embeddings = embeddings[len(incoming_indices):]
+
+        deleted_indices = set()
+        matches = []
+
+        for local_index, source_index in enumerate(incoming_indices):
+            incoming = self.records[source_index]
+            for reference_index, reference in enumerate(references):
+                score = float(
+                    np.dot(
+                        incoming_embeddings[local_index],
+                        reference_embeddings[reference_index],
+                    )
+                )
+
+                method = None
+                if incoming["fingerprint"] == reference["fingerprint"]:
+                    method = "exact"
+                elif self.titles_are_duplicates(incoming["title"], reference["title"]):
+                    method = "title"
+                elif score >= self.cross_day_threshold:
+                    method = "semantic"
+                elif score >= self.cross_day_threshold - 0.08:
+                    overlap = self._calculate_tfidf_overlap(
+                        incoming["combined_text"], reference["combined_text"]
+                    )
+                    if overlap >= DEDUP_TFIDF_OVERLAP_THRESHOLD:
+                        method = "semantic+tfidf"
+
+                if method:
+                    deleted_indices.add(source_index)
+                    matches.append(
+                        (incoming["title"], reference["title"], method, score)
+                    )
+                    break
+
+        for incoming_title, reference_title, method, score in matches:
+            logger.info(
+                "Rejecting incoming article already covered by publication "
+                "reference: incoming=%r | reference=%r | method=%s | similarity=%.4f",
+                incoming_title, reference_title, method, score,
+            )
+
+        removed = self.delete_from_files(deleted_indices)
+        logger.info(
+            "Read-only publication-reference filtering complete: "
+            "matched=%d, removed_from_source_files=%d; publication unchanged.",
+            len(deleted_indices), removed,
+        )
+        return removed
+
+    def run(
+        self,
+        publication_data: Optional[Dict[str, Any]] = None,
+    ) -> Dict[str, Any]:
+        """
+        Deduplicate incoming source articles against one another and, when
+        supplied, reject incoming articles already covered by a read-only
+        publication reference. publication_data is never modified or saved.
         """
 
         logger.info(
@@ -918,20 +1041,33 @@ class ArticleDuplicateRemover:
 
         self.load_articles()
 
+        # Treat the existing publication strictly as a read-only reference.
+        # Delete only matching incoming source records, then reload because
+        # source-file indices may have changed after removal.
+        published_duplicates_removed = 0
+        if publication_data is not None:
+            published_duplicates_removed = self.remove_published_duplicates(
+                publication_data
+            )
+            if published_duplicates_removed:
+                self.load_articles()
+
         if len(self.records) < 2:
 
             logger.info(
                 "Not enough articles to compare."
             )
 
-            return {
+            report = {
                 "total_checked": len(self.records),
-                "exact_duplicates": 0,
-                "semantic_duplicates": 0,
+                "exact_duplicate_pairs": 0,
+                "semantic_duplicate_pairs": 0,
                 "duplicate_pairs_found": 0,
                 "duplicate_clusters": 0,
                 "duplicates_removed": 0,
+                "published_duplicates_removed": published_duplicates_removed,
             }
+            return report
 
         # --------------------------------------------------------------
         # 2. Exact duplicate detection
@@ -1082,6 +1218,7 @@ class ArticleDuplicateRemover:
                 clusters
             ),
             "duplicates_removed": total_deleted,
+            "published_duplicates_removed": published_duplicates_removed,
         }
 
         if self.metrics:
@@ -1091,7 +1228,7 @@ class ArticleDuplicateRemover:
             )
 
         logger.info(
-            "Deduplication complete: "
+            "Source-file deduplication complete: "
             f"checked={report['total_checked']}, "
             f"pairs={report['duplicate_pairs_found']}, "
             f"clusters={report['duplicate_clusters']}, "

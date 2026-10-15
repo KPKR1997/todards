@@ -1,256 +1,201 @@
 {
     "date": "15102026",
-    "timestamp": "2026-10-15T16:25:42.487458",
-    "duration_seconds": 3098.78,
+    "timestamp": "2026-10-15T19:01:27.471684",
+    "duration_seconds": 3194.21,
     "stages_duration_seconds": {
-        "scrape": 862.87,
-        "guardrails": 838.74,
-        "deduplication": 13.79,
-        "category_validation": 162.76,
-        "ranking": 355.41,
-        "processing": 865.17,
+        "scrape": 627.75,
+        "guardrails": 1056.82,
+        "deduplication": 15.53,
+        "category_validation": 189.5,
+        "ranking": 476.0,
+        "processing": 828.58,
         "assembly": 0.0
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 4,
-            "Tech": 28,
-            "People": 31,
+            "Health": 0,
+            "Tech": 30,
+            "People": 60,
             "Environment": 4,
-            "Economy": 13,
-            "Entertainment": 16
+            "Economy": 12,
+            "Entertainment": 14
         },
-        "total_scraped": 96,
-        "guardrail_passed": 96,
+        "total_scraped": 120,
+        "guardrail_passed": 123,
         "guardrail_rejected": 0,
-        "dedup_removed": 28,
+        "dedup_removed": 43,
         "category_reassignments": 0,
-        "final_articles": 12,
+        "final_articles": 11,
         "final_categories": 5
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 186,
-        "exact_duplicate_pairs": 7,
-        "semantic_duplicate_pairs": 29,
-        "duplicate_pairs_found": 36,
-        "duplicate_clusters": 16,
-        "duplicates_removed": 28
+        "total_checked": 198,
+        "exact_duplicate_pairs": 22,
+        "semantic_duplicate_pairs": 44,
+        "duplicate_pairs_found": 66,
+        "duplicate_clusters": 25,
+        "duplicates_removed": 43,
+        "published_duplicates_removed": 14
     },
     "category_validation": {
         "status": "completed",
         "total_checked": 69,
-        "rejected_count": 29,
+        "rejected_count": 21,
         "rejected_articles": [
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses market trends, inflation, and interest rates, with a focus on investment and economic policy, making 'economy and business' the most relevant category."
+            },
             {
                 "title": "OpenAI sued by 8 states over ChatGPT safety concerns",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses the safety concerns and lawsuits related to OpenAI's ChatGPT, which falls under the 'people' category."
+                "reason": "The article primarily focuses on the legal and social implications of OpenAI's ChatGPT, which falls under the 'people' category."
             },
             {
                 "title": "Anduril employee tender offer would value the defense tech startup at $90 billion",
                 "from": "science and technology",
                 "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on the valuation and funding round of the defense tech startup Anduril, which is a significant economic and business development."
-            },
-            {
-                "title": "OpenAI’s Sachin Katti to leave infrastructure role, stay on as advisor",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily reports on a personnel change at OpenAI, which is more relevant to the 'people' category than 'science and technology', despite being an AI-related company."
+                "reason": "The article is primarily about the financial and business aspects of Anduril, a defense tech startup, including its valuation and funding rounds."
             },
             {
                 "title": "Bending Spoons skyrockets 41% as Berkshire Hathaway makes $330 million investment",
                 "from": "science and technology",
                 "detected_category": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses a financial investment and its impact on the company's financial flexibility and ability to pursue acquisitions, which is more relevant to the economy and business category than science and technology."
-            },
-            {
-                "title": "5 Things to Know",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses financial news, company earnings, and stock market trends, with no specific scientific or technological development reported."
+                "confidence": 1.0,
+                "reason": "The article primarily reports on the financial investment of Berkshire Hathaway in Bending Spoons, a company that falls under the category of 'economy and business'."
             },
             {
                 "title": "",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article discusses conservation efforts and threats to Sumatran and Javan rhino populations, which is more relevant to the 'people' category than 'science and technology'."
+                "confidence": 0.8,
+                "reason": "The article discusses conservation efforts and the plight of endangered species, which is more relevant to the 'people' category than 'science and technology'."
             },
             {
-                "title": "Anthropic wants to protect its AI - from you. Welcome to the consciousness crisis",
+                "title": "'As famous and defiant as ever': Why Elizabeth Holmes remains the US's most fascinating fraudster",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article discusses the potential consequences of treating AI like it has consciousness, which is a topic of interest in the field of people and society."
+                "confidence": 0.8,
+                "reason": "The article is primarily about Elizabeth Holmes, a person, and her story, rather than a scientific or technological development."
             },
             {
                 "title": "Irish police social media accounts breached by hackers",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses a cybersecurity incident and its impact, which is more related to people and their interactions with technology than science and technology."
+                "reason": "The article discusses social media hacking and the impact on social media users, which falls under the 'people' category, although it touches on technology."
             },
             {
                 "title": "Outlander star criticises data centre plan for nuclear site",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on Sam Heughan's opinions and concerns about the data centre plan, which is more relevant to the 'people' category than 'science and technology', despite the topic being a technology-related issue."
+                "confidence": 0.9,
+                "reason": "The article focuses on Outlander star Sam Heughan's concerns and opinions about the planned data centre, which is a human-interest story, rather than a scientific or technological development."
             },
             {
                 "title": "How backlash against data centres could shape the US midterm elections",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the backlash against data centers, which is a people-related issue, rather than a purely scientific or technological one."
+                "reason": "The article is primarily about the backlash against data centers and its potential impact on the US midterm elections, which falls under the 'people' category."
             },
             {
-                "title": "Palantir drops City Hall legal fight over Met deal",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article discusses a contract dispute between Palantir and the Metropolitan Police, highlighting issues with procurement and value for money, which are relevant to the 'economy and business' category."
-            },
-            {
-                "title": "Patients' frustration at GP surgery's AI receptionist",
+                "title": "Palantir and City Hall settle Met contract row",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the implementation of AI technology in a GP surgery, which is a people-focused story, rather than a science and technology story."
+                "reason": "The article discusses the settlement of a contract dispute between Palantir and the Mayor's Office for Policing and Crime, which is a people-related story, despite being framed as a science and technology story"
             },
             {
                 "title": "Vehicle thefts rise to highest level in a decade",
                 "from": "science and technology",
                 "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses crime and law enforcement, which is more relevant to the 'people' category than 'science and technology', although it does mention technology such as electronic key cloning and signal amplification."
+            },
+            {
+                "title": "At least 33 pupils and teacher killed after school roof collapses in Pakistan",
+                "from": "people",
+                "detected_category": "health",
                 "confidence": 0.9,
-                "reason": "The article discusses vehicle thefts and organized criminal gangs, which is a social and human-interest story, rather than a scientific or technological development."
+                "reason": "The article primarily reports on a tragic event involving children's deaths and injuries, which is more relevant to the 'health' category than the current 'people' category."
+            },
+            {
+                "title": "Desperate to clear toxic haze, Indonesia douses its skies with dry ice",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses a environmental issue (toxic haze) and the efforts to mitigate it, which is more relevant to 'earth and environment' than 'people'"
             },
             {
                 "title": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
                 "from": "people",
                 "detected_category": "earth and environment",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses air pollution and its impact on Indonesia and surrounding countries, which is more relevant to the 'earth and environment' category than the current 'people' category."
+                "reason": "The article primarily focuses on environmental issues, specifically air pollution and its impact on Indonesia, making 'earth and environment' the most relevant category."
             },
             {
-                "title": "Desperate to clear toxic haze, Indonesia douses its skies with dry ice",
-                "from": "people",
-                "detected_category": "earth and environment",
+                "title": "AI giant Anthropic woos potential investors ahead of stock market debut",
+                "from": "economy and business",
+                "detected_category": "science and technology",
                 "confidence": 0.8,
-                "reason": "The article primarily discusses environmental and ecological issues related to wildfires and air quality, making 'earth and environment' the most relevant category."
-            },
-            {
-                "title": "Australian woman charged with lacing colleague's curry with snail poison",
-                "from": "people",
-                "detected_category": "health",
-                "confidence": 0.8,
-                "reason": "The article reports a specific incident of poisoning and its consequences, which falls under the health category."
-            },
-            {
-                "title": "India and China aren't friends - but Nepal wants to unite them against climate threats",
-                "from": "people",
-                "detected_category": "earth and environment",
-                "confidence": 0.8,
-                "reason": "The article focuses on Nepal's Prime Minister Balendra Shah's proposal to unite India and China to tackle climate-related threats in the Himalayas, making it more relevant to the 'earth and environment' category."
+                "reason": "The article discusses the growth and profitability of AI giant Anthropic, which has significant implications for the science and technology sector."
             },
             {
                 "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
                 "from": "economy and business",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses the relationship between Elon Musk, the US government, and Ukraine, which falls under the 'people' category."
+                "confidence": 0.9,
+                "reason": "The article discusses the relationship between the US government and Elon Musk's SpaceX, which is a people-oriented topic."
             },
             {
                 "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article is primarily about a specific individual, Abdulrahman Alfozan, and his alleged actions, rather than being about economics or business."
-            },
-            {
-                "title": "Civil servant faked illness with make-up to juggle five jobs, court hears",
-                "from": "economy and business",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about a civil servant's alleged fraud, which is a significant development in the 'people' category, despite its tangential connection to the economy and business."
+                "reason": "The article is primarily about a specific individual, Abdulrahman Alfozan, and his alleged actions, which are more relevant to the 'people' category than 'economy and business'."
             },
             {
                 "title": "Everyone has weighed in on the Shane Gillis monologue controversy, except ‘SNL’",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses the controversy surrounding Shane Gillis' monologue and the reactions of various individuals and organizations, which is more relevant to the 'people' category than 'entertainment'."
-            },
-            {
-                "title": "Joni Mitchell is now an American citizen, six decades after moving to the US",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article is primarily about Joni Mitchell's personal life and citizenship, which is a people-related story, even though it mentions her music and entertainment industry connections."
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the controversy surrounding comedian Shane Gillis' monologue on SNL, with comments from various individuals and references to social issues, making it more relevant to the 'people' category than 'entertainment'."
             },
             {
                 "title": "Gustavo Dudamel arrives in New York with a mission that goes beyond the podium",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about Gustavo Dudamel, a music conductor, and his mission to democratize classical music, rather than focusing on entertainment-specific topics like films, music, or celebrities."
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Gustavo Dudamel's personal life, mission, and impact, which falls under the 'people' category, despite some tangential references to music and entertainment."
             },
             {
-                "title": "Sally Rooney books withdrawn in UK over Palestine Action support",
+                "title": "BBC News channel launches on YouTube for viewers in UK and US",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on author Sally Rooney's support for Palestine Action and its impact on her book sales, which falls under the 'people' category."
+                "reason": "The article discusses the BBC's strategy to reach new audiences and combat disinformation, which is a topic relevant to the people category."
             },
             {
                 "title": "Danny Dyer in floating poo water protest on Thames",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article focuses on the activist work of actor Danny Dyer, a prominent figure in the entertainment industry, highlighting his involvement in a protest and petitioning for a specific cause, making it more relevant to the 'people' category than 'entertainment'."
-            },
-            {
-                "title": "Russell Brand was a 'sexual predator', prosecution alleges as rape trial begins",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on Russell Brand's trial and allegations, which is a people-focused story, rather than entertainment."
-            },
-            {
-                "title": "BBC director general defends plan to shelve new Archers studio",
-                "from": "entertainment",
-                "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article is primarily about the BBC's decision and the reactions of the people involved, rather than being about entertainment in the classical sense, but it does touch on the popular show 'The Archers' and its impact on the community."
-            },
-            {
-                "title": "Racial bias in London music licensing, report says",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article's focus on racial bias in London music licensing and its social implications is more closely related to the 'people' category than 'entertainment'."
-            },
-            {
-                "title": "Davina McCall says memory loss after brain surgery was like 'advanced Alzheimer's'",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on Davina McCall's personal experience and recovery from brain surgery, which is a human-interest story that falls under the 'people' category."
+                "reason": "The article features actor Danny Dyer, his daughter Dani Dyer, and singer Becky Hill, making it more relevant to the 'people' category."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 165,
-        "total_failures": 2,
-        "total_time_seconds": 644.86,
-        "avg_response_time": 3.91
+        "total_calls": 192,
+        "total_failures": 3,
+        "total_time_seconds": 814.7,
+        "avg_response_time": 4.24
     }
 }

@@ -659,6 +659,38 @@ class PoliticsDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
+
+
+        #BBC Homepage scraping
+        BBC = BBCPoliticsScraper(
+            url="https://www.bbc.com",
+            domain="https://www.bbc.com"
+        )
+        BBC_links = (
+            BBC.get_section_links()
+        )
+        print(
+            f"BBC links found: "
+            f"{len(BBC_links)}"
+        )
+        BBC_data = BBC.scrape_content(
+            BBC_links
+        )
+        for article in BBC_data:
+            people_data.append({
+                "id": (
+                    f"pp-"
+                    f"{len(people_data) + 1}"
+                ),
+                "source": "BBC",
+                "category": self.category,
+                "title": article["title"],
+                "date": article["date"],
+                "content": article["content"],
+                "url": article["url"]
+            })
+        
+
         # ====================================================
         # CNN
         # ====================================================

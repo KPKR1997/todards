@@ -261,7 +261,7 @@ class PipelineReporter:
     ) -> str:
         """Call local Ollama. If unavailable, write a clearly labelled fallback."""
         base_url = os.getenv("TODARDS_OLLAMA_BASE_URL", "http://localhost:11434").rstrip("/")
-        model = os.getenv("TODARDS_OLLAMA_MODEL", "llama3.1")
+        model = "llama3:latest"
         payload = {
             "model": model,
             "prompt": self._evaluation_prompt(data, current, observations),

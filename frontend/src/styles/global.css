@@ -61,6 +61,14 @@ body {
   padding: 0 1rem;
 }
 
+.bottom-info-caption {
+  text-align: center;
+  max-width: 820px;
+  margin: auto;
+  padding: 0 1rem;
+}
+
+
 .caption-line-1,
 .caption-line-2 {
   font-family: var(--font-cursive);
@@ -72,9 +80,10 @@ body {
 }
 
 .caption-line-2 {
+  font-family: var(--font-serif);
   margin-top: 0.2rem;
   color: #666666;
-  font-size: 1.22rem;
+  font-size: 1.13rem;
 }
 
 /* Header Action Nav Links */

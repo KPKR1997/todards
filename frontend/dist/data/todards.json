@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 43",
+    "issue": "Issue No. 44",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Reform UK investigates officials' violent threats and discriminatory views",
-          "image": "https://images.pexels.com/photos/5233241/pexels-photo-5233241.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Essex",
+          "title": "Nepal PM seeks India and China cooperation on Himalayan climate disasters",
+          "image": "https://images.unsplash.com/photo-1617380613434-7495e9b45dfb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8SGltYWxheWFzfGVufDF8MHx8fDE3OTIwNzA2NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Nepal",
           "time": "Oct 15, 2026",
-          "content": "Reform UK is in trouble after an undercover investigation caught party officials and candidates making violent threats and expressing racist and sexist views. The party says it's investigating and has already suspended some people. Three councillors have quit the party so far. Party leader Nigel Farage has postponed a big announcement to deal with the fallout from the investigation which is expected to get worse with more revelations coming out.",
+          "content": "Nepal's Prime Minister Balendra Shah recently proposed creating a joint mechanism to tackle climate-related disasters in the Himalayas specifically calling for India and China to work together on this issue. This comes as the region faces growing threats from climate change including rapid glacier melting landslides and flooding. The Himalayas are home to over 14000 glacial lakes which can suddenly burst and cause devastating floods that can affect multiple countries. Experts say co-operation is crucial to address these shared threats but past efforts have been hampered by territorial disputes and sensitivities around sharing data.",
           "theme": "#F7ECEE",
-          "source": "The Guardian"
+          "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "US Military Plans Strikes Against Iranian Energy, Nuclear Sites",
-          "image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWFzc2l2ZSUyMGV4cGxvc2lvbnxlbnwxfDB8fHwxNzkyMDYxMzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Iran",
+          "title": "Romanian Tanker Attacked by Drones, 8 Crew Members Missing",
+          "image": "https://images.unsplash.com/photo-1521041601476-47a88cecb403?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bmF2eSUyMHJlc3BvbnNlfGVufDF8MHx8fDE3OTIwNzA3MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Romania",
           "time": "Oct 15, 2026",
-          "content": "The US military has developed new strike plans against Iranian energy infrastructure and nuclear sites which include the use of the \"Mother of All Bombs\" (MOAB) if President Trump gives the order. The MOAB is the largest non-nuclear bomb in the US arsenal and its use would mark a notable escalation. The plans also include targeting Iranian energy infrastructure and nuclear sites which could have devastating effects on the area.",
+          "content": "Romanian authorities say eight of the 12 crew members are missing after a tanker was attacked by drones off the country's coast. The San Marino-flagged Wine Trader caught fire and reported blasts 13 nautical miles east of the River Danube. The Romanian President confirmed the attack was carried out by drones. The incident is part of a recent spate of drone attacks in the region with similar incidents reported in Bulgaria and Ukraine. A search and rescue operation is underway to find the missing crew members while authorities are working to ensure the safety of those involved.",
           "theme": "#F7ECEE",
-          "source": "CNN"
+          "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Treasury Staff to Face Accountability for Woman's Suicide",
-          "image": "https://images.pexels.com/photos/39125276/pexels-photo-39125276.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
+          "title": "UK Defence Secretary Meets US Counterpart Amid Ukraine, Iran Tensions",
+          "image": "https://images.unsplash.com/flagged/photo-1551466673-2fcf8f51ba09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RGVmZW5jZSUyMFNlY3JldGFyeXxlbnwxfDB8fHwxNzkyMDcwODA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "The single best geographic location to associate with this story is:",
           "time": "Oct 15, 2026",
-          "content": "The parents of a woman who killed herself after a disciplinary meeting at the Treasury are demanding that anyone who contributed to her death be held accountable. The Treasury had previously acknowledged its role in her death and committed to making changes to prevent similar incidents. The parents David and Anne Moffat want to know that staff who handled their daughter's disciplinary meeting have been held accountable. They are meeting with the Treasury's permanent secretary to ask questions and seek assurances that lessons will be learned to prevent another tragedy.",
+          "content": "UK Defence Secretary Wes Streeting is in Washington DC to meet with US counterpart Pete Hegseth amid tensions between the two countries over Ukraine Iran and the Middle East. The meeting comes after Ukraine's President Volodymyr Zelenskyy visited London and expressed frustration over the US decision to throttle military access to Starlink satellite internet system. The UK is caught in the middle of the dispute and faces questions about its ability to safeguard US military bases in Britain.",
           "theme": "#F7ECEE",
           "source": "The Guardian"
         }
@@ -61,33 +61,33 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Tortoises Surpass Human Population on Seychelles Atoll",
-          "image": "https://images.unsplash.com/photo-1508455858334-95337ba25607?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8dG9ydG9pc2V8ZW58MXwwfHx8MTc5MjA1MTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Seychelles",
+          "title": "Nvidia CEO Seeks Dialogue on AI Safety with Chinese Firms",
+          "image": "https://images.unsplash.com/photo-1716967318503-05b7064afa41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TnZpZGlhJTIwbG9nb3xlbnwxfDB8fHwxNzkyMDcwNDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London",
           "time": "Oct 15, 2026",
-          "content": "Giant tortoises on a Seychelles atoll have made a remarkable recovery with nearly 183000 animals now outnumbering the country's people. This is the highest estimate yet reflecting conservation efforts and a better way of counting the animals. The tortoises were once pushed to the brink but decades of protection and monitoring have helped their population grow. The new findings highlight Aldabra Atoll as one of the Indian Ocean's outstanding conservation successes.",
+          "content": "Nvidia CEO Jensen Huang thinks it's crucial for his company to work with Chinese AI firms to make sure the technology is safe. He believes dialogue is the way to go and he's already having discussions with many researchers in China. Huang disagrees with some who think AI should be slowed down or heavily regulated. Instead he wants to focus on having open conversations about the risks and benefits of AI. This issue is important for both the US and China and Huang thinks the UK is in a good position to help facilitate these discussions.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily"
+          "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "Bank of America Hires Thousands to Fix Decades-Old Software Flaws",
-          "image": "https://images.pexels.com/photos/28184185/pexels-photo-28184185.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "New York, USA",
+          "title": "TSMC Reports Record Profit, Beats Estimates on Strong AI Chip Demand",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "Taipei, Taiwan",
           "time": "Oct 15, 2026",
-          "content": "Bank of America is working to fix software vulnerabilities by hiring thousands of employees and external contractors. This is because advanced artificial intelligence models like Mythos can find and exploit decades-old software flaws. The bank's CEO Brian Moynihan said they rushed to fix these issues and have spent a couple hundred million dollars so far.",
+          "content": "Taiwan Semiconductor Manufacturing Co. reported a record third-quarter profit beating estimates driven by strong demand for AI chips. The company's net profit surged 68.7% year-over-year while its operating margin reached 58.7% exceeding its guidance. TSMC also forecast a 14% sequential revenue increase in the fourth quarter driven by continued demand for advanced chipmaking technologies. The company's capital expenditure is expected to increase significantly over the next three years as it ramps up investments to support growing customer demand.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "£25 Billion Data Centre and Solar Farm Planned for Norfolk",
-          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c29sYXIlMjBmYXJtfGVufDF8MHx8fDE3OTIwNjExNzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Kings Lynn, UK",
+          "title": "Memory Chip Stocks Plummet Amid Chinese Competition Fears",
+          "image": "https://images.pexels.com/photos/33798628/pexels-photo-33798628.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Seoul, South Korea",
           "time": "Oct 15, 2026",
-          "content": "A big new data centre and one of the UK's largest solar farms are being planned near King's Lynn in Norfolk. The data centre will need a lot of power up to 1 gigawatt while the solar farm will generate up to 1.3 gigawatts. The project could bring in £25 billion of investment and create thousands of jobs. The solar farm will also have battery storage and use a special cooling system that recirculates liquid. The plans are being kept simple for now but there will be a consultation and the government will have the final say on whether the project goes ahead.",
+          "content": "Memory chip stocks have taken a hit recently due to concerns over Chinese competition and speculation about oversupply. The main worry is that a Chinese company ChangXin Memory Technologies is developing a new type of memory chip that could take market share from established players like Samsung and Micron. However some analysts question whether ChangXin can scale up production of this advanced technology. Meanwhile some experts predict the memory market will become oversupplied in 2029 leading to lower prices and profits. With demand increasing due to the AI boom the question is whether the industry's typical boom-and-bust cycle is changing.",
           "theme": "#EBF2FA",
-          "source": "BBC"
+          "source": "CNBC"
         }
       ]
     },
@@ -101,13 +101,13 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Kenya Reports Second Ebola Case, 39-Year-Old Man in Quarantine",
-          "image": "https://images.unsplash.com/photo-1707861107329-523a8e879d6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8RWJvbGF8ZW58MXwwfHx8MTc5MjA0Njc2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Nairobi, Kenya",
+          "title": "Vaccination Rates Decline as Parents Delay or Refuse Shots",
+          "image": "https://images.unsplash.com/photo-1626420925443-c6421f87daa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmFjY2luZSUyMHZpYWx8ZW58MXwwfHx8MTc5MjA3MDM2NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
           "time": "Oct 15, 2026",
-          "content": "Kenya has confirmed a second case of Ebola just 10 days after a businessman died of the virus. This new patient a 39-year-old man is a close relative of the first case and was already in quarantine when he fell ill. He's recovering because he was detected early and that's limited the chance of him passing the virus on to others. There's no evidence the virus has spread to the wider community and Kenya remains open to travel and trade.",
+          "content": "Parents are increasingly delaying or refusing vaccines by citing logistics or wanting more time rather than explicitly saying no. This trend has led to a decline in vaccination rates with 92.4% of kindergartners completing the recommended measles mumps and rubella series in the 2025-2026 school year down from 95.2% in 2019-2020. As a result there were 4080 confirmed measles cases and two deaths in the US in 2026 compared to 2289 cases and three deaths in 2025. To address this trend pediatricians are shifting their approach to focus on clear communication and making it easy for parents to get their children vaccinated rather than solely convincing vaccine skeptics.",
           "theme": "#E8F5F1",
-          "source": "BBC"
+          "source": "CNN"
         },
         {
           "id": "hw-2",
@@ -141,11 +141,11 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Heavy Rain and Thunderstorms Hit Delhi, Haryana, Punjab, and Chandigarh",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
-          "place": "Delhi, India",
+          "title": "Most Adults Don't Take Protective Action After Disaster Warnings",
+          "image": "https://images.pexels.com/photos/31951182/pexels-photo-31951182.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Global",
           "time": "Oct 15, 2026",
-          "content": "Delhi Haryana Punjab and Chandigarh are under orange alert for heavy rainfall thunderstorms hailstorms and strong winds reaching 50 kmph. Delhi-NCR could receive up to 204.4 mm of rain causing concerns over waterlogging traffic congestion lightning strikes and travel disruptions. The weather department warns of severe weather conditions including lightning strong winds and substantial rainfall which could disrupt road traffic agricultural activities and cause waterlogging.",
+          "content": "A new global report has found that many people are not taking protective action when warned of impending disasters. In fact four in five adults who experienced a disaster in the past five years received at least one warning but over a third of those warned couldn't take any action. The report which surveyed over 143000 people also shows that people in poorer countries are more likely to be affected by disasters but less likely to receive warnings or take precautions.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
@@ -221,31 +221,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "US Inflation Hits 3.7% Amid Petrol Price Spike",
-          "image": "https://images.unsplash.com/photo-1635627026254-b652e62d1d07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8cGV0cm9sJTIwcHJpY2VzfGVufDF8MHx8fDE3OTIwNjE1ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
+          "title": "Scotland Secretary Backs EU Trade Deal Over Free Trade Agreements",
+          "image": "https://images.unsplash.com/photo-1625440153141-1ae4c27ff33b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RXVyb3BlYW4lMjBVbmlvbnxlbnwxfDB8fHwxNzkyMDcwOTM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
           "time": "Oct 15, 2026",
-          "content": "US inflation rose to 3.7% in the year to September higher than expected. The main cause was a big jump in petrol prices which increased by 34.2% over 12 months. This was due to disruptions to Middle East energy supplies caused by the US-Israel conflict with Iran. The cost-of-living pressures are a key issue in the upcoming midterm elections.",
+          "content": "Britain can benefit from closer trading relations with the EU even if it means giving up negotiating free trade agreements says Scotland Secretary Douglas Alexander. He thinks joint trading arrangements with the EU would be a bigger economic prize as the EU has already negotiated a similar deal with India. Alexander who helped negotiate deals with India and the US says geography still matters in trade policy and the EU is and will remain the UK's largest trading partner. He welcomes the progress made since the Indian agreement came into force but says the economic benefits of trading agreements with the EU would be greater.",
           "theme": "#F7F1DE",
-          "source": "BBC"
+          "source": "The Guardian"
         },
         {
           "id": "eb-2",
-          "title": "Tennessee Teacher's Struggle Highlights Widespread US Cost of Living Crisis",
-          "image": "https://images.pexels.com/photos/4386394/pexels-photo-4386394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "West Tennessee",
+          "title": "China-made toys flood US market, worth $9.8 billion annually.",
+          "image": "https://images.pexels.com/photos/18403861/pexels-photo-18403861.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "US",
           "time": "Oct 15, 2026",
-          "content": "Kathryn Vaughn a 46-year-old art teacher in Tennessee is struggling to make ends meet due to rising costs of living. She works three jobs to support her family of four including her young son and has resorted to selling items online and writing obituaries to make extra money. Vaughn is not alone as millions of Americans are facing increased expenses for daily necessities like food gas and housing.",
+          "content": "Most children's toys sold in the US are made in China. In 2024 almost 80% of toys imported into the US came from China worth $9.8 billion. As Christmas approaches toy manufacturers in China start making toys designing them from scratch and then mass-producing them. The factory makes around $6 per toy which covers costs like materials production and a small profit. The toy then travels to the US by sea taking around 25 days and costs around $0.60 to ship. Once in the US the toy faces a 12.5% tariff which adds $0.75 to the cost. The toy's final price in the US is around $30 and after subtracting costs the company and retailer make a profit of around $2.50 each.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "UK Economy Shows Resilience with 0.1% Growth in August Despite Expectations",
-          "image": "https://images.pexels.com/photos/15867466/pexels-photo-15867466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
+          "title": "Government to Review Airport Drop-Off Charges After Prices Rise",
+          "image": "https://images.pexels.com/photos/39449155/pexels-photo-39449155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
           "time": "Oct 15, 2026",
-          "content": "The UK economy grew by 0.1% in August beating expectations of a slight contraction. Chancellor John Healey called this a sign of resilience and said it's a result of the government's fiscal discipline. The economy grew by 0.7% over the three months to August with production increasing but the services industry and construction sector were flat or contracting. The growth was driven by an increase in computer programming and the development of AI infrastructure.",
+          "content": "The government has agreed to review airport drop-off charges after prices rose by a third since summer 2025. Major UK airports like Gatwick and Stansted have seen fees jump from £7 to £10 while Edinburgh and Bournemouth airports have also increased their charges. The Department for Transport wants to ensure travel remains accessible and that passengers are treated fairly. The RAC a motoring organization has been campaigning against the increases saying they are a growing source of anger and frustration for drivers.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }
