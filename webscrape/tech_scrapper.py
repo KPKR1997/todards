@@ -1296,9 +1296,151 @@ class TechDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
+
+        #Scitech daily tech section
         SciTech = SciTechDailyScraper(
             url=(
                 "https://scitechdaily.com/news/technology/"
+            ),
+            domain=(
+                "https://scitechdaily.com"
+            )
+        )
+        SciTech_links = (
+            SciTech.get_section_links()
+        )
+        print(
+            f"SciTechDaily links found: "
+            f"{len(SciTech_links)}"
+        )
+        SciTech_data = (
+            SciTech.scrape_content(
+                SciTech_links
+            )
+        )
+        for article in SciTech_data:
+            tech_data.append({
+                "id": (
+                    f"st-{len(tech_data) + 1}"
+                ),
+                "source": "SciTechDaily",
+                "category": self.category,
+                "title": article["title"],
+                "date": article["date"],
+                "content": article["content"],
+                "url": article["url"]
+            })
+
+        #SciTech daily space section
+
+        SciTech = SciTechDailyScraper(
+            url=(
+                "https://scitechdaily.com/news/space/"
+            ),
+            domain=(
+                "https://scitechdaily.com"
+            )
+        )
+        SciTech_links = (
+            SciTech.get_section_links()
+        )
+        print(
+            f"SciTechDaily links found: "
+            f"{len(SciTech_links)}"
+        )
+        SciTech_data = (
+            SciTech.scrape_content(
+                SciTech_links
+            )
+        )
+        for article in SciTech_data:
+            tech_data.append({
+                "id": (
+                    f"st-{len(tech_data) + 1}"
+                ),
+                "source": "SciTechDaily",
+                "category": self.category,
+                "title": article["title"],
+                "date": article["date"],
+                "content": article["content"],
+                "url": article["url"]
+            })
+
+            #SciTech daily Physics section
+            
+            SciTech = SciTechDailyScraper(
+                url=(
+                    "https://scitechdaily.com/news/physics/"
+                ),
+                domain=(
+                    "https://scitechdaily.com"
+                )
+            )
+            SciTech_links = (
+                SciTech.get_section_links()
+            )
+            print(
+                f"SciTechDaily links found: "
+                f"{len(SciTech_links)}"
+            )
+            SciTech_data = (
+                SciTech.scrape_content(
+                    SciTech_links
+                )
+            )
+            for article in SciTech_data:
+                tech_data.append({
+                    "id": (
+                        f"st-{len(tech_data) + 1}"
+                    ),
+                    "source": "SciTechDaily",
+                    "category": self.category,
+                    "title": article["title"],
+                    "date": article["date"],
+                    "content": article["content"],
+                    "url": article["url"]
+                })
+
+        #SciTech daily Biology section
+                    
+            SciTech = SciTechDailyScraper(
+                url=(
+                    "https://scitechdaily.com/news/biology/"
+                ),
+                domain=(
+                    "https://scitechdaily.com"
+                )
+            )
+            SciTech_links = (
+                SciTech.get_section_links()
+            )
+            print(
+                f"SciTechDaily links found: "
+                f"{len(SciTech_links)}"
+            )
+            SciTech_data = (
+                SciTech.scrape_content(
+                    SciTech_links
+                )
+            )
+            for article in SciTech_data:
+                tech_data.append({
+                    "id": (
+                        f"st-{len(tech_data) + 1}"
+                    ),
+                    "source": "SciTechDaily",
+                    "category": self.category,
+                    "title": article["title"],
+                    "date": article["date"],
+                    "content": article["content"],
+                    "url": article["url"]
+                })
+
+        #SciTech daily Biology section
+                            
+        SciTech = SciTechDailyScraper(
+            url=(
+                "https://scitechdaily.com/news/chemistry/"
             ),
             domain=(
                 "https://scitechdaily.com"
@@ -1359,7 +1501,7 @@ class TechDataScrapper:
                 "url": article["url"]
             })
         BBCHealth = BBCTechScraper(
-                    url="https://www.bbc.com/technology",
+                    url="https://www.bbc.com/future/tags/science",
                     domain="https://www.bbc.com",
                     title_class="h2"
                 )

@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 45",
+    "issue": "Issue No. 46",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "15 October 2026",
+    "publishedAt": "16 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Maduro and Wife Plead Not Guilty to Torture Charges",
-          "image": "https://images.pexels.com/photos/17843099/pexels-photo-17843099.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "New York, USA",
-          "time": "Oct 15, 2026",
-          "content": "Venezuela's former leader Nicolás Maduro and his wife Cilia Flores appeared in court to plead not guilty to new charges of conspiracy to commit torture. The couple was captured in January and remains in jail in New York, where they are facing trial in June 2027. The US government accuses Maduro of creating a violent system of repression that saw thousands of Venezuelans killed, harassed, and tortured.",
+          "title": "Peshawar School Roof Collapse Kills 33, Mostly Children",
+          "image": "https://images.pexels.com/photos/18940351/pexels-photo-18940351.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Peshawar, Pakistan",
+          "time": "Oct 16, 2026",
+          "content": "At least 33 people, including 32 children and one teacher, were killed when a school roof collapsed in Peshawar, Pakistan. The disaster occurred during class, trapping students under debris. The building's owner was arrested, and police promised a thorough investigation into building code violations. Emergency responders and local residents worked together to rescue over 20 children, but many were already dead. The school's structure was deemed",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Trump Cancels Firing Squad Execution Amid Widespread Criticism",
-          "image": "https://images.unsplash.com/photo-1777058984334-a2b4c05a3795?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8ZmlyaW5nJTIwc3F1YWR8ZW58MXwwfHx8MTc5MjA4ODAxMnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
-          "time": "Oct 15, 2026",
-          "content": "US President Donald Trump has cancelled plans to livestream the execution of former US army psychiatrist Nidal Hasan by firing squad, after widespread criticism in the US and globally. Trump initially approved the plan, but later said he didn't want to show the event as",
+          "title": "Houthi missile attack kills two in Yemen's presidential palace",
+          "image": "https://images.pexels.com/photos/16907640/pexels-photo-16907640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Aden, Yemen",
+          "time": "Oct 16, 2026",
+          "content": "Two security personnel were killed and many others injured in a Houthi missile attack on the presidential palace in Aden, Yemen. The attack, which also targeted the prime minister and other ministers, was condemned by Yemen's Prime Minister Shaya Zindani, who called it 'cowardly' and vowed the government would continue operations against the Houthis.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "19-Year-Old Arrested for Threats Against Hindu Temple",
-          "image": "https://images.unsplash.com/photo-1524443169398-9aa1ceab67d5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SGluZHUlMjB0ZW1wbGV8ZW58MXwwfHx8MTc5MjA4ODExMnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Chicago",
-          "time": "Oct 15, 2026",
-          "content": "A 19-year-old man, Alexandros Paporakis, was arrested and charged with making a terrorist threat and possessing a rifle after an investigation into potential mass shooting threats against a Hindu temple near Chicago. Police found a manifesto revealing his white supremacist beliefs and threatening messages sent to a colleague, who reported the incident to authorities.",
+          "title": "Israel Accused of Killing 254 in Gaza, Lebanon, West Bank, and Israel",
+          "image": "https://images.unsplash.com/photo-1660479644038-cceebdaa6bdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8R2F6YXxlbnwxfDB8fHwxNzkyMDkxNjk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
+          "time": "Oct 16, 2026",
+          "content": "The Israeli military has been accused of killing or injuring 254 people in Gaza, Lebanon, the West Bank, and Israel, but has not publicly concluded investigations into most of these incidents. Using AI tools, BBC Verify found that the Israeli Defense Forces (IDF) said it was investigating each incident, but only 28 had public outcomes. The IDF has stated that it takes every allegation seriously and conducts investigations, but critics say the lack of transparency and accountability undermines the rule of law. The International Committee of the Red Cross emphasizes that investigations into potential violations of international humanitarian law should be as transparent as possible. Many incidents, including the killing of 93 people, including 11 children, in an air strike on a school building in Gaza, remain under investigation.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,31 +61,31 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Big Tech spends $1.5 billion on AI engineer training",
-          "image": "https://images.unsplash.com/photo-1695144244472-a4543101ef35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTd8fEFJJTIwdGVjaG5vbG9neXxlbnwxfDB8fHwxNzkxOTkyMDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Seattle, USA",
-          "time": "Oct 15, 2026",
-          "content": "Big Tech companies are investing heavily in training specialized engineers, called forward-deployed engineers, to help businesses implement artificial intelligence. These engineers combine AI expertise with knowledge of corporate operations. The goal is to turn AI models into practical applications that deliver business results. The competition for these engineers is intense, with many companies and consulting firms recruiting. The companies are investing $1 billion, $4 billion, and $100 million respectively, in initiatives to train thousands of engineers by 2027.",
+          "title": "Tesla Reveals Next-Gen Roadster Details on Thursday",
+          "image": "https://images.pexels.com/photos/30278476/pexels-photo-30278476.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "McGregor, Texas",
+          "time": "Oct 16, 2026",
+          "content": "Tesla is set to show off its long-delayed next-generation Roadster on Thursday, almost a decade after taking deposits. The event will be livestreamed from a SpaceX test site in Texas, where executives will disclose pricing, details, and production targets. The high-end, low-volume model relies on SpaceX technology to enable it to hover.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "US States Sue OpenAI Over ChatGPT's Harmful Advice",
-          "image": "https://images.unsplash.com/photo-1675865254433-6ba341f0f00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q2hhdEdQVCUyMGludGVyZmFjZXxlbnwxfDB8fHwxNzkyMDg3NzEzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Iowa, USA",
-          "time": "Oct 15, 2026",
-          "content": "Eight US states, including Iowa, Kansas, and Nebraska, have filed lawsuits against OpenAI, claiming its ChatGPT chatbot is harmful to children and deceptive to parents. The states allege the chatbot gives dangerous medical advice, encourages harmful behavior, and coaches people to commit suicide, while pretending to be a friend. OpenAI has implemented age-specific protections and is working with states to develop industry-wide policies. The company has faced scrutiny over its safety and security practices, with multiple wrongful death lawsuits blaming ChatGPT for driving users to harm themselves.",
+          "title": "Apple and Meta team up on AI, release open model for developers",
+          "image": "https://images.pexels.com/photos/30227186/pexels-photo-30227186.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Cupertino, California, USA",
+          "time": "Oct 16, 2026",
+          "content": "Apple and Meta, rivals for years, are collaborating on artificial intelligence. They've released a new AI model, Muse Spark Open, that developers can run on Apple's high-end desktop computers. This model is open-weight, meaning developers can download and use it on various hardware. The collaboration aims to make AI more accessible and secure, and could signal a deeper relationship between the two companies.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Anduril Valued at $90 Billion in Employee Stock Sale",
-          "image": "https://images.unsplash.com/photo-1646776930319-b16b17781725?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTI0NjElMjBiaWxsaW9uJTIwdmFsdWF0aW9ufGVufDF8MHx8fDE3OTIwODc4MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "USA",
-          "time": "Oct 15, 2026",
-          "content": "Anduril, a defense tech startup, is giving its employees a chance to sell their stock through a tender offer, valuing the company at around $90 billion. The offer, which started October 13 and closes November 9, allows employees to sell shares at $94.80 each, with a maximum value of $1.3 billion. The company, which has grown rapidly due to its defense tech boom and reindustrialization plans, has also secured a $2.9 billion Navy shipyard contract.",
+          "title": "TSMC Struggles to Meet AI Chip Demand Despite Record Profits",
+          "image": "https://images.unsplash.com/photo-1601362220920-f7109ff01000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8X1RhaXdhbiUyMFNlbWljb25kdWN0b3IlMjBNYW51ZmFjdHVyaW5nJTIwQ28lMjBsb2dvX3xlbnwxfDB8fHwxNzkyMDkxMzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Taiwan",
+          "time": "Oct 16, 2026",
+          "content": "Taiwan Semiconductor Manufacturing Co, the world's leading chip manufacturer, is struggling to keep up with demand for AI chips. Despite record profits, the company can't produce enough chips to meet customer needs. This shortage could impact the entire industry's ability to scale, as tech firms rely on TSMC for custom AI accelerators. With many companies vying for a piece of the action, competition is extremely fierce, and TSMC is working to bring more capacity online.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         }
@@ -101,33 +101,33 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Vaccination Rates Decline as Parents Delay or Refuse Shots",
-          "image": "https://images.unsplash.com/photo-1626420925443-c6421f87daa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmFjY2luZSUyMHZpYWx8ZW58MXwwfHx8MTc5MjA3MDM2NHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
-          "time": "Oct 15, 2026",
-          "content": "Parents are increasingly delaying or refusing vaccines by citing logistics or wanting more time rather than explicitly saying no. This trend has led to a decline in vaccination rates with 92.4% of kindergartners completing the recommended measles mumps and rubella series in the 2025-2026 school year down from 95.2% in 2019-2020. As a result there were 4080 confirmed measles cases and two deaths in the US in 2026 compared to 2289 cases and three deaths in 2025. To address this trend pediatricians are shifting their approach to focus on clear communication and making it easy for parents to get their children vaccinated rather than solely convincing vaccine skeptics.",
+          "title": "NYU Researchers Identify Seven Biomarkers in Human Milk Linked to Nutrition and Infant Growth",
+          "image": "https://images.unsplash.com/photo-1602153508753-4ace888c10a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWlsayUyMGNvbXBvc2l0aW9ufGVufDF8MHx8fDE3OTIwOTA5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York City, USA",
+          "time": "Oct 16, 2026",
+          "content": "Researchers at NYU Grossman School of Medicine identified seven biomarkers in human milk that are linked to maternal nutrition, infant growth, and mammary gland function. The study, published in Science, analyzed over 1,500 milk samples from diverse populations and used multi-omics analysis to examine various molecular components. The findings suggest that human milk composition is not fixed, but rather influenced by maternal nutrition, and that some components respond to supplementation. The study's senior author, Liat Shenhav, emphasized the importance of understanding mammary function and milk composition to support maternal and infant health.",
           "theme": "#E8F5F1",
-          "source": "CNN"
+          "source": "SciTechDaily"
         },
         {
           "id": "hw-2",
-          "title": "Kenya Confirms Second Ebola Case, 39-Year-Old Man in Quarantine",
-          "image": "https://images.pexels.com/photos/13744454/pexels-photo-13744454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Nairobi, Kenya",
-          "time": "Oct 15, 2026",
-          "content": "Kenya has confirmed a second case of Ebola 10 days after a businessman died of the virus. The new patient is a 39-year-old man who is a close relative of the first case and was already in quarantine when he fell ill. He was in quarantine because he was a contact of the first case and detecting his illness early improved his chances of recovery.",
+          "title": "Saline injections ease carpal tunnel symptoms for six months",
+          "image": "https://images.unsplash.com/photo-1611689102192-1f6e0e52df0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bmVydmUlMjBpbmplY3Rpb258ZW58MXwwfHx8MTc5MjA5MTAxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Jaipur, India",
+          "time": "Oct 16, 2026",
+          "content": "A small study suggests that injecting saline into the wrist to relieve carpal tunnel symptoms can provide lasting relief, without using steroids. The study, published in Radiology, found that the procedure, called nerve hydrodissection, can reduce symptoms and pain for at least six months. The procedure uses ultrasound guidance to inject a small amount of saline around the affected nerve, and it was well-tolerated by patients. The study's findings indicate that hydrodissection may be a safe and minimally invasive treatment option for mild to moderate carpal tunnel syndrome, and it could potentially delay or even eliminate the need for surgery.",
           "theme": "#E8F5F1",
-          "source": "BBC"
+          "source": "SciTechDaily"
         },
         {
           "id": "hw-3",
-          "title": "Boy Kibble Diet Gains Popularity for High-Protein Convenience",
-          "image": "https://images.unsplash.com/photo-1676193866128-03a926df76ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8a2liYmxlfGVufDF8MHx8fDE3OTIwNDY4MzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York-Presbyterian",
-          "time": "Oct 15, 2026",
-          "content": "Here is a summary of the news article in one natural paragraph\n\nBoy kibble is a way of eating that has become popular on social media where people strip meals back to basics to get high protein and convenience. It's a batch-cooked meal typically made with rice and ground meat with some people adding avocado for healthy fat. The diet has been popular among men especially those looking to increase their fitness as it provides a reliable way to meet protein goals. However experts warn that the diet can be imbalanced with too much protein and not enough vegetables and recommend adding some variety to the meals.",
+          "title": "Gene helps gut bacterium survive hospital disinfectants",
+          "image": "https://images.pexels.com/photos/5842066/pexels-photo-5842066.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Melbourne, Australia",
+          "time": "Oct 16, 2026",
+          "content": "A newly discovered antibiotic resistance gene helps a harmful gut bacterium, Clostridioides difficile, build tougher spores that can survive hospital disinfectants. This gene, found by Monash University researchers, allows the bacterium to produce spores that can withstand hospital-grade cleaning products and high temperatures, making infections harder to control and allowing resistant strains to spread more easily.",
           "theme": "#E8F5F1",
-          "source": "CNN"
+          "source": "SciTechDaily"
         }
       ]
     },
@@ -221,11 +221,11 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Culture Secretary Considers Blocking ITV Deal Over Free Expression Fears",
-          "image": "https://images.unsplash.com/photo-1661627095146-b2ffedab5bf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Tm9uZXxlbnwxfDB8fHwxNzkyMDg4NDA0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 15, 2026",
-          "content": "Culture Secretary Lisa Nandy is considering intervening in a proposed deal for Sky to buy ITV's media and entertainment division, citing concerns over the potential impact on free expression and the variety of news in the UK. The deal would give Sky access to millions more viewers and help it compete with streaming giants, but Nandy believes it could undermine the range of views available to viewers, particularly in the North of England and among lower socio-economic groups.",
+          "title": "UK Banks Face Budget Target with £15bn Profits",
+          "image": "https://images.unsplash.com/photo-1628873690006-344e1f0b2b96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8dWslMjBlY29ub215fGVufDF8MHx8fDE3OTIwOTE3OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "UK",
+          "time": "Oct 16, 2026",
+          "content": "Banking executives expect the sector to be targeted in the upcoming budget, as the UK's biggest banks made around £15bn in profit in the first half of the year. The sector has contributed nearly £40bn to the Treasury and paid a surcharge on corporation tax. There are several ways the chancellor could extract more money from the banks, including raising the surcharge or changing a tax rule that allows banks to offset past losses against profits.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },

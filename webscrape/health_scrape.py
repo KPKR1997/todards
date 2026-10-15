@@ -530,6 +530,200 @@ class CNNScraper:
                 "url": link
             })
         return articles
+
+# ============================================================
+# SCI TECH DAILY SCRAPER
+# ============================================================
+class SciTechDailyScraper:
+    def __init__(self, url, domain):
+        self.url = url
+        self.domain = domain
+        self.headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/153.0.0.0 Safari/537.36"
+            ),
+            "Accept": (
+                "text/html,application/xhtml+xml,application/xml;"
+                "q=0.9,image/avif,image/webp,*/*;q=0.8"
+            ),
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": self.url
+        }
+        self.session = requests.Session()
+        self.session.headers.update(
+            self.headers
+        )
+    # ========================================================
+    # GET ARTICLE LINKS
+    # ========================================================
+    def get_section_links(self):
+        try:
+            response = self.session.get(
+                self.url,
+                timeout=30
+            )
+            response.raise_for_status()
+        except requests.RequestException as e:
+            print(
+                f"SciTechDaily section failed: {e}"
+            )
+            return []
+        soup = BeautifulSoup(
+            response.text,
+            "html.parser"
+        )
+        links = []
+        # ----------------------------------------------------
+        # Current UTC time
+        # ----------------------------------------------------
+        now = datetime.now(
+            timezone.utc
+        )
+        cutoff = (
+            now -
+            timedelta(hours=24)
+        )
+        content_divs = soup.find_all(
+            "div",
+            class_="content"
+        )
+        for div in content_divs:
+            time_tag = div.find(
+                "time",
+                class_="post-date"
+            )
+            if not time_tag:
+                continue
+            datetime_value = time_tag.get(
+                "datetime",
+                ""
+            )
+            published_time = parse_datetime(
+                datetime_value
+            )
+            if not is_within_last_24_hours(
+                published_time
+            ):
+                continue
+            a_tag = div.select_one(
+                "h2.post-title a[href]"
+            )
+            if not a_tag:
+                continue
+            href = a_tag.get(
+                "href"
+            )
+            if not href:
+                continue
+            full_url = urljoin(
+                self.domain,
+                href
+            )
+            if full_url not in links:
+                links.append(
+                    full_url
+                )
+        return links
+    # ========================================================
+    # SCRAPE CONTENT
+    # ========================================================
+    def scrape_content(self, links):
+        articles = []
+        for link in links:
+            try:
+                response = self.session.get(
+                    link,
+                    timeout=30
+                )
+                response.raise_for_status()
+            except requests.RequestException as e:
+                print(
+                    f"SciTechDaily failed: {link}"
+                )
+                print(e)
+                continue
+            soup = BeautifulSoup(
+                response.text,
+                "html.parser"
+            )
+            article = soup.find(
+                "article"
+            )
+            if not article:
+                print(
+                    f"No article element found: {link}"
+                )
+                continue
+            # ------------------------------------------------
+            # Title
+            # ------------------------------------------------
+            headline = article.find(
+                "h1"
+            )
+            title = ""
+            if headline:
+                title = headline.get_text(
+                    " ",
+                    strip=True
+                )
+            # ------------------------------------------------
+            # Content
+            # ------------------------------------------------
+            content = " ".join(
+                p.get_text(
+                    " ",
+                    strip=True
+                )
+                for p in article.find_all(
+                    "p"
+                )
+                if p.get_text(
+                    " ",
+                    strip=True
+                )
+            )
+            content = re.sub(
+                r"\s+",
+                " ",
+                content
+            ).strip()
+            if not content:
+                print(
+                    f"No SciTechDaily content found: {link}"
+                )
+                continue
+            # ------------------------------------------------
+            # Published date
+            # ------------------------------------------------
+            published_date = ""
+            time_tag = article.find(
+                "time",
+                datetime=True
+            )
+            if time_tag:
+                published_date = (
+                    time_tag.get(
+                        "datetime",
+                        ""
+                    )
+                )
+            if not published_date:
+                published_date = (
+                    datetime.now(
+                        timezone.utc
+                    ).strftime(
+                        "%Y-%m-%d %H:%M"
+                    )
+                )
+            articles.append({
+                "title": title,
+                "date": published_date,
+                "content": content,
+                "url": link
+            })
+        return articles
 # ============================================================
 # GUARDIAN HEALTH SCRAPER
 # ============================================================
@@ -846,6 +1040,42 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
+
+        #SciTech daily space section
+        
+        SciTech = SciTechDailyScraper(
+            url=(
+                "https://scitechdaily.com/news/health/"
+            ),
+            domain=(
+                "https://scitechdaily.com"
+            )
+        )
+        SciTech_links = (
+            SciTech.get_section_links()
+        )
+        print(
+            f"SciTechDaily links found: "
+            f"{len(SciTech_links)}"
+        )
+        SciTech_data = (
+            SciTech.scrape_content(
+                SciTech_links
+            )
+        )
+        for article in SciTech_data:
+            health_data.append({
+                "id": (
+                    f"st-{len(health_data) + 1}"
+                ),
+                "source": "SciTechDaily",
+                "category": self.category,
+                "title": article["title"],
+                "date": article["date"],
+                "content": article["content"],
+                "url": article["url"]
+            })
+        
         # =====================================
         # SAVE
         # =====================================

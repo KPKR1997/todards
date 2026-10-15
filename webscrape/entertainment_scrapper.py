@@ -5,7 +5,6 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime, timezone, timedelta
-
 # ============================================================
 # COMMON DATE HELPERS
 # ============================================================
@@ -328,7 +327,6 @@ class CNBCEntertainmentScraper:
                 "url": link
             })
         return articles
-
 # ============================================================
 # CNN ENTERTAINMENT SCRAPER
 # ============================================================
@@ -610,8 +608,6 @@ def get_jsonld_datetime(soup, keys):
                     if parsed:
                         return parsed
     return None
-
-
 class BBCEntertainmentScraper:
     def __init__(self, url, domain, title_class):
         self.url = url
@@ -738,44 +734,43 @@ class EntertainmentDataScrapper:
         # ====================================================
         # CNBC
         # ====================================================
-        print(
-            "\n========== CNBC ==========\n"
-        )
-        CNBCEntertainment = CNBCEntertainmentScraper(
-            url=(
-                "https://www.cnbc.com/media/"
-            ),
-            domain=(
-                "https://www.cnbc.com"
-            )
-        )
-        CNBC_links = (
-            CNBCEntertainment.get_section_links()
-        )
-        print(
-            f"CNBC links found: ",
-            f"{len(CNBC_links)}",
-            CNBC_links
-        )
-        CNBC_data = (
-            CNBCEntertainment.scrape_content(
-                CNBC_links
-            )
-        )
-        for article in CNBC_data:
-            entertainment_data.append({
-                "id": (
-                    f"st-{len(entertainment_data) + 1}"
-                ),
-                "source": "CNBC",
-                "category": self.category,
-                "title": article["title"],
-                "date": article["date"],
-                "content": article["content"],
-                "url": article["url"]
-            })
-       
-       
+        # print(
+        #     "\n========== CNBC ==========\n"
+        # )
+        # CNBCEntertainment = CNBCEntertainmentScraper(
+        #     url=(
+        #         "https://www.cnbc.com/media/"
+        #     ),
+        #     domain=(
+        #         "https://www.cnbc.com"
+        #     )
+        # )
+        # CNBC_links = (
+        #     CNBCEntertainment.get_section_links()
+        # )
+        # print(
+        #     f"CNBC links found: ",
+        #     f"{len(CNBC_links)}",
+        #     CNBC_links
+        # )
+        # CNBC_data = (
+        #     CNBCEntertainment.scrape_content(
+        #         CNBC_links
+        #     )
+        # )
+        # for article in CNBC_data:
+        #     entertainment_data.append({
+        #         "id": (
+        #             f"st-{len(entertainment_data) + 1}"
+        #         ),
+        #         "source": "CNBC",
+        #         "category": self.category,
+        #         "title": article["title"],
+        #         "date": article["date"],
+        #         "content": article["content"],
+        #         "url": article["url"]
+        #     })
+
         
         # ====================================================
         # CNN
@@ -807,7 +802,6 @@ class EntertainmentDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-
         #BBC Scrapper
         BBCEntertainment = BBCEntertainmentScraper(
                     url="https://www.bbc.com/culture/entertainment-news",
