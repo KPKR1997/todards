@@ -1,249 +1,163 @@
 {
     "date": "15102026",
-    "timestamp": "2026-10-15T12:32:29.514364",
-    "duration_seconds": 12706.23,
+    "timestamp": "2026-10-15T13:53:17.479480",
+    "duration_seconds": 2957.8,
     "stages_duration_seconds": {
-        "scrape": 10406.16,
-        "guardrails": 958.27,
-        "deduplication": 12.57,
-        "category_validation": 168.98,
-        "ranking": 9.58,
-        "processing": 1150.62,
-        "assembly": 0.01
+        "scrape": 736.71,
+        "guardrails": 744.43,
+        "deduplication": 10.4,
+        "category_validation": 148.5,
+        "ranking": 434.27,
+        "processing": 883.45,
+        "assembly": 0.0
     },
     "volume": {
         "scraped_by_category": {
             "Health": 5,
-            "Tech": 25,
-            "People": 34,
+            "Tech": 0,
+            "People": 35,
             "Environment": 6,
-            "Economy": 13,
+            "Economy": 14,
             "Entertainment": 17
         },
-        "total_scraped": 100,
-        "guardrail_passed": 99,
+        "total_scraped": 77,
+        "guardrail_passed": 83,
         "guardrail_rejected": 1,
-        "dedup_removed": 27,
+        "dedup_removed": 21,
         "category_reassignments": 0,
-        "final_articles": 16,
-        "final_categories": 6
+        "final_articles": 13,
+        "final_categories": 5
     },
     "guardrail_rejections": [
         {
-            "id": "pp-30",
+            "id": "pp-31",
             "source": "The Guardian",
             "category": "people",
             "title": "Nigel Farage says charities that help asylum seekers reach UK should be prosecuted",
             "date": "2026-10-14 11:18",
             "content": "Charities and volunteers who help asylum seekers get to the UK should face potential criminal prosecution, Nigel Farage has said in an interview with a rightwing US podcaster. While the Reform UK leader did not specify which organisations should be targeted, he and other senior Reform figures have been heavily critical of the Royal National Lifeboat Institution (RNLI), which has faced a campaign of intimidation for its work in rescuing asylum seekers in the Channel. Speaking to Benny Johnson , a podcaster who has previously written for a series of rightwing US outlets, including Breitbart News, Farage discussed the arrival of asylum seekers on small boats, calling it “literally an invasion of people who could cause us enormous harm”. Johnson asked him: “Do you believe in criminal penalties for those who facilitated this invasion of the English Isles?” Farage replied: “Totally, totally. The role of the NGOs, the role of those that are sponsored by taxpayers’ money, because they’re nice, they’re good, they’re kind. They have actually aided and abetted criminality in absolutely every way. “These are people [who are] are deluded – deluded, hard-left socialist Marxists, who don’t believe in countries, don’t believe in borders, don’t believe in identities, are intent on destroying everything that exists.” Farage has previously described the RNLI, which rescues some asylum seekers, a small proportion of its lifesaving work, as a “migrant taxi service”, while other Reform figures have criticised the charity, including sharing footage of far-right protesters abusing RNLI crews bringing people ashore. Calling for charities and campaign groups to be prosecuted for their work has echoes of the efforts by the former Hungarian prime minister Viktor Orbán to try to cement his grip on power. A Reform spokesperson said Farage’s comments “speak for themselves”. In his conversation with Johnson, Farage repeatedly raised what he said was the issue of Muslim asylum seekers arriving in the UK, citing what the example of Michigan, the US state where rightwing agitators have sought to whip up anti-Muslim feeling. Farage said: “We are importing into our countries … people who will do us enormous harm, who will change, disrupt our lives in every way, in fact make our way of life potentially unrecognisable.” Saying that European countries such as the UK and France had a greater problem with migration than the US, Farage said if Donald Trump was followed in office by a “weak politician” who did not tackle migration and stand up for “American, English-speaking Christian values” then the consequences would be dire. Farage told Johnson: “If we don’t, this show of yours will be illegal in five or 10 years’ time. Literally, you’ll be banned for hate speech.” Sign up to First Edition Our morning email breaks down the key stories of the day, telling you what’s happening and why it matters after newsletter promotion Elsewhere in the interview, Farage speculated that five UK nationals arrested near RAF Fairford late last month before being bailed had been undertaking “a dummy run for a proper terrorist attack on UK forces”. He added: “I’m deeply, deeply shocked that they’re out on bail whilst there are other people in this country who have said things that the establishment now thinks are racist, who are held inside behind bars without, frankly, proper charge. So it’s what we call here two-tier policing.” Farage has a habit of sometimes making his message more robust for rightwing US audiences. He has appeared several times on the web TV show hosted by the disgraced far-right pundit Alex Jones, who was sued by bereaved parents of the 2012 Sandy Hook school shooting , which Jones said had been a hoax. Farage was criticised by some Jewish groups for using these and other US interviews to discuss tropes and conspiracy theories associated with the far right and antisemitism.",
             "url": "https://www.theguardian.com/politics/2026/oct/14/nigel-farage-charities-help-asylum-seekers-uk-prosecute",
-            "guardrail_flags": [
-                "toxic_propaganda"
-            ],
+            "guardrail_flags": [],
             "guardrail_reason": ""
         }
     ],
     "deduplication": {
-        "total_checked": 190,
-        "exact_duplicate_pairs": 7,
-        "semantic_duplicate_pairs": 25,
-        "duplicate_pairs_found": 32,
-        "duplicate_clusters": 19,
-        "duplicates_removed": 27
+        "total_checked": 173,
+        "exact_duplicate_pairs": 10,
+        "semantic_duplicate_pairs": 15,
+        "duplicate_pairs_found": 25,
+        "duplicate_clusters": 16,
+        "duplicates_removed": 21
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 73,
-        "rejected_count": 26,
+        "total_checked": 62,
+        "rejected_count": 14,
         "rejected_articles": [
             {
-                "title": "OpenAI sued by 8 states over ChatGPT safety concerns",
+                "title": "Patients' frustration at GP surgery's AI receptionist",
                 "from": "science and technology",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article focuses on the safety concerns and legal issues surrounding OpenAI's ChatGPT, which is more relevant to the 'people' category than 'science and technology', as it involves human impact and societal consequences."
-            },
-            {
-                "title": "Anduril employee tender offer would value the defense tech startup at $90 billion",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the financial aspects of Anduril's employee tender offer, which values the company at $90 billion, and has little connection to science and technology, the current category."
-            },
-            {
-                "title": "OpenAI’s Sachin Katti to leave infrastructure role, stay on as advisor",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily reports on a personnel change at OpenAI, a company focused on artificial intelligence, and does not have a specific scientific or technological development as its main focus."
-            },
-            {
-                "title": "Bending Spoons skyrockets 41% as Berkshire Hathaway makes $330 million investment",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article's primary focus is on the financial investment and its implications for the company's financial flexibility and ability to pursue acquisitions, which is more relevant to the economy and business category."
-            },
-            {
-                "title": "5 Things to Know",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses financial news, stock market trends, and company announcements, which are more relevant to the 'economy and business' category than 'science and technology'."
-            },
-            {
-                "title": "Crypto bosses, CEOs and F1: Singapore's business events boom gathers pace",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses the convergence of business and sports events in Singapore, with a focus on the Formula 1 Grand Prix, but it primarily belongs to the 'people' category due to the emphasis on the human-interest aspects, such as the influx of business travelers and the economic impact on the tourism industry."
-            },
-            {
-                "title": "",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses the conservation and protection of Sumatran and Javan rhinos, which is a human-interest story that fits well under the 'people' category."
-            },
-            {
-                "title": "How backlash against data centres could shape the US midterm elections",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article's primary focus is on the public backlash against data centers, which is a social and political issue, rather than a strictly scientific or technological one."
-            },
-            {
-                "title": "Palantir drops City Hall legal fight over Met deal",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses the Palantir company and its contract with the Metropolitan Police, with a focus on the politics and governance involved, rather than any scientific or technological advancements."
-            },
-            {
-                "title": "Vehicle thefts rise to highest level in a decade",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article's focus on vehicle thefts and criminal gangs, rather than the scientific or technological aspects of the issue, makes it more relevant to the 'people' category."
+                "reason": "The article primarily discusses a new AI receptionist tool at a GP surgery, which is a people-related story."
             },
             {
                 "title": "'Nowhere to escape' - Indonesians share footage of orange haze blanketing towns",
                 "from": "people",
                 "detected_category": "earth and environment",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on environmental issues, specifically air pollution and haze, which is more relevant to the 'earth and environment' category than the 'people' category."
-            },
-            {
-                "title": "Australia's first-ever Michelin stars go to 11 restaurants in one state",
-                "from": "people",
-                "detected_category": "entertainment",
                 "confidence": 0.8,
-                "reason": "The article is primarily about the awards and recognition given to restaurants, which is a type of entertainment."
+                "reason": "The article primarily discusses environmental issues, such as air pollution, haze, and wildfires, which are more relevant to the 'earth and environment' category than the 'people' category."
             },
             {
                 "title": "Musk says US government may be behind slowdown of Ukraine drone speeds",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the potential impact of US government restrictions on Starlink internet services on Ukraine's defense, which is a significant development in the conflict between Russia and Ukraine, a matter of international politics and diplomacy."
+                "reason": "The article's main focus is on Elon Musk's statements and their implications for international relations and politics, which is more relevant to the 'people' category than 'economy and business'."
             },
             {
                 "title": "Toilet paper and secret recorders: What we know about the arrest of the Saudi OpenAI engineer",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article focuses on a Saudi engineer's arrest and alleged misconduct, which is more relevant to the 'people' category than 'economy and business'."
+                "reason": "The article primarily reports on a person, Abdulrahman Alfozan, and his actions, rather than the economic or business implications."
             },
             {
                 "title": "Civil servant faked illness with make-up to juggle five jobs, court hears",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily reports on a personal issue and a court case, which is more relevant to the 'people' category than the 'economy and business' category."
+                "reason": "The article focuses on a civil servant's alleged fraudulent behavior and its consequences, which is more relevant to the 'people' category than 'economy and business', although there is some tangential connection to the latter."
             },
             {
                 "title": "Closer EU trade ties greater prize for UK than making separate deals, minister says",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses a government minister's views on trade relations with the EU, which is a people-focused topic, even though it touches on economic and business aspects."
+                "reason": "The article primarily discusses the views of Scotland's secretary on EU trade ties, which is a matter of public interest and falls under the 'people' category."
             },
             {
                 "title": "Everyone has weighed in on the Shane Gillis monologue controversy, except ‘SNL’",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses a controversy surrounding a comedian's monologue, and the reactions of various individuals, including celebrities and former SNL cast members, making it more relevant to the 'people' category."
+                "reason": "The article discusses a controversy surrounding a comedian's monologue, which is a people-related story."
             },
             {
                 "title": "Joni Mitchell is now an American citizen, six decades after moving to the US",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article is primarily about Joni Mitchell's life, including her naturalization as an American citizen, which is a personal and human-interest story that falls under the 'people' category."
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal life and citizenship of Joni Mitchell, a renowned singer-songwriter, making 'people' the most relevant category."
             },
             {
                 "title": "Gustavo Dudamel arrives in New York with a mission that goes beyond the podium",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article primarily focuses on Gustavo Dudamel, a cultural figure, and his mission to democratize classical music, rather than being a specific entertainment-related development."
-            },
-            {
-                "title": "Sally Rooney books withdrawn in UK over Palestine Action support",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on author Sally Rooney's decision and actions regarding her support for Palestine Action, which falls under the 'people' category."
+                "reason": "The article focuses on Gustavo Dudamel's arrival in New York and his mission to democratize classical music, which is more related to the 'people' category than 'entertainment'."
             },
             {
                 "title": "Danny Dyer in floating poo water protest on Thames",
                 "from": "entertainment",
-                "detected_category": "health",
-                "confidence": 0.8,
-                "reason": "The article's focus on water quality and sewage discharges, and their impact on human health, makes it more relevant to the 'health' category than the 'entertainment' category."
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Danny Dyer's protest and petition, which is a human-interest story and falls under the 'people' category."
             },
             {
                 "title": "Russell Brand was a 'sexual predator', prosecution alleges as rape trial begins",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on Russell Brand's trial for rape and sexual assault, which is a significant human-interest story that falls under the 'people' category."
+                "reason": "The article is primarily about the alleged criminal behavior of a celebrity, which falls under the 'people' category."
             },
             {
                 "title": "BBC director general defends plan to shelve new Archers studio",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses the impact of the BBC's decision on people involved in the production of The Archers, including the cast, as well as the West Midlands region, rather than solely focusing on the entertainment aspect."
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the impact of the BBC's decision on the cast, crew, and the community, which falls under the 'people' category."
             },
             {
                 "title": "Racial bias in London music licensing, report says",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses racial bias in London music licensing, which is a social and cultural issue related to people, rather than strictly entertainment."
+                "confidence": 0.9,
+                "reason": "The article reports on racial bias in London music licensing, which is a social and cultural issue, and is therefore more relevant to the 'people' category than 'entertainment'."
             },
             {
                 "title": "Davina McCall says memory loss after brain surgery was like 'advanced Alzheimer's'",
                 "from": "entertainment",
                 "detected_category": "health",
                 "confidence": 1.0,
-                "reason": "The article primarily discusses Davina McCall's experience with memory loss and brain surgery, which is a significant health-related development."
-            },
-            {
-                "title": "The Gentlemen star Ray Winstone charms locals in Welsh market town",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on actor Ray Winstone's interactions and actions, which falls under the 'people' category, as it is a human-interest story."
+                "reason": "The article discusses Davina McCall's experience with memory loss and recovery after brain surgery, which is a health-related topic."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 173,
-        "total_failures": 6,
-        "total_time_seconds": 738.62,
-        "avg_response_time": 4.27
+        "total_calls": 146,
+        "total_failures": 7,
+        "total_time_seconds": 583.46,
+        "avg_response_time": 4.0
     }
 }

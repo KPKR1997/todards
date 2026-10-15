@@ -1073,6 +1073,220 @@ class ArticleDuplicateRemover:
         return report
 
 
+    # ------------------------------------------------------------------
+    # FINAL PUBLICATION JSON DEDUPLICATION
+    # ------------------------------------------------------------------
+
+    def deduplicate_publication_data(
+        self,
+        publication_data: Dict[str, Any],
+    ) -> Dict[str, Any]:
+        """
+        Deduplicate cards across every section in the assembled Todards JSON.
+
+        Call this AFTER the publication's sections/cards have been assembled,
+        but BEFORE writing todards.json and copying it to the frontend dist
+        directory. This does not edit source category files.
+        """
+        sections = publication_data.get("sections", [])
+        if not isinstance(sections, list):
+            logger.warning("Final publication JSON has no valid sections list.")
+            return {
+                "total_checked": 0,
+                "duplicate_pairs_found": 0,
+                "duplicate_clusters": 0,
+                "duplicates_removed": 0,
+            }
+
+        flat_records: List[Dict[str, Any]] = []
+        refs: List[Tuple[int, int]] = []
+
+        category_to_folder = {
+            str(category).strip().lower(): folder
+            for folder, category in FOLDER_TO_CATEGORY.items()
+        }
+
+        for section_index, section in enumerate(sections):
+            if not isinstance(section, dict):
+                continue
+
+            section_id = self.clean_text(section.get("id", "")).lower()
+            folder = category_to_folder.get(section_id, section_id)
+            cards = section.get("cards", [])
+
+            if not isinstance(cards, list):
+                continue
+
+            for card_index, card in enumerate(cards):
+                if not isinstance(card, dict):
+                    continue
+
+                title = self.clean_text(card.get("title", ""))
+                content = self.clean_text(
+                    card.get("content", card.get("summary", ""))
+                )
+                if not title and not content:
+                    continue
+
+                combined_text = f"{title}. {content}".strip()
+                flat_records.append({
+                    "file_path": Path("<final-publication-json>"),
+                    "article_index": len(flat_records),
+                    "article": card,
+                    "folder": folder,
+                    "title": title,
+                    "content": content,
+                    "combined_text": combined_text,
+                    "file_date": datetime.now().strftime("%d%m%Y"),
+                    "is_today": True,
+                    "fingerprint": self.create_fingerprint(title, content),
+                    "section_index": section_index,
+                    "card_index": card_index,
+                })
+                refs.append((section_index, card_index))
+
+        total = len(flat_records)
+        if total < 2:
+            return {
+                "total_checked": total,
+                "duplicate_pairs_found": 0,
+                "duplicate_clusters": 0,
+                "duplicates_removed": 0,
+            }
+
+        # Preserve the source-dedup state while reusing its loaded model.
+        old_records = self.records
+        old_embeddings = self.embeddings
+        old_pairs = self.duplicate_pairs
+        old_clusters = self.duplicate_clusters
+
+        try:
+            self.records = flat_records
+
+            # Exact normalized title + content matches.
+            fingerprint_map: Dict[str, List[int]] = defaultdict(list)
+            for index, record in enumerate(flat_records):
+                fingerprint_map[record["fingerprint"]].append(index)
+
+            exact_pairs: List[Dict[str, Any]] = []
+            for indices in fingerprint_map.values():
+                if len(indices) < 2:
+                    continue
+                anchor = indices[0]
+                for other in indices[1:]:
+                    exact_pairs.append({
+                        "i": anchor,
+                        "j": other,
+                        "similarity": 1.0,
+                        "tfidf_overlap": 1.0,
+                        "method": "exact",
+                        "delete": self.choose_delete(anchor, other),
+                    })
+
+            # Semantic comparisons across all cards, regardless of section.
+            texts = [record["combined_text"] for record in flat_records]
+            embeddings = self.model.encode(
+                texts,
+                batch_size=32,
+                show_progress_bar=False,
+                normalize_embeddings=True,
+            )
+            self.embeddings = embeddings
+            similarity_matrix = cosine_similarity(embeddings)
+
+            semantic_pairs: List[Dict[str, Any]] = []
+            for i in range(total):
+                for j in range(i + 1, total):
+                    score = float(similarity_matrix[i, j])
+                    is_duplicate = score >= self.similarity_threshold
+                    overlap = 0.0
+                    method = "semantic"
+
+                    if (
+                        not is_duplicate
+                        and score >= self.similarity_threshold - 0.08
+                    ):
+                        overlap = self._calculate_tfidf_overlap(
+                            flat_records[i]["combined_text"],
+                            flat_records[j]["combined_text"],
+                        )
+                        if overlap >= DEDUP_TFIDF_OVERLAP_THRESHOLD:
+                            is_duplicate = True
+                            method = "semantic+tfidf"
+
+                    if is_duplicate:
+                        semantic_pairs.append({
+                            "i": i,
+                            "j": j,
+                            "similarity": round(score, 4),
+                            "tfidf_overlap": round(overlap, 4),
+                            "method": method,
+                            "delete": self.choose_delete(i, j),
+                        })
+
+            # Merge relationships so each pair appears only once.
+            relationships: Dict[Tuple[int, int], Dict[str, Any]] = {}
+            for pair in exact_pairs + semantic_pairs:
+                key = (min(pair["i"], pair["j"]), max(pair["i"], pair["j"]))
+                existing = relationships.get(key)
+                if existing is None or pair["similarity"] > existing["similarity"]:
+                    relationships[key] = pair
+
+            pairs = list(relationships.values())
+            clusters = self.build_duplicate_clusters(pairs)
+            deleted_indices = self.resolve_clusters(clusters)
+
+            # Remove duplicates across categories/sections, retaining the
+            # article selected by the existing category/content priority.
+            deleted_by_section: Dict[int, Set[int]] = defaultdict(set)
+            for flat_index in deleted_indices:
+                section_index, card_index = refs[flat_index]
+                deleted_by_section[section_index].add(card_index)
+
+            for section_index, card_indices in deleted_by_section.items():
+                cards = sections[section_index].get("cards", [])
+                sections[section_index]["cards"] = [
+                    card
+                    for card_index, card in enumerate(cards)
+                    if card_index not in card_indices
+                ]
+
+            report = {
+                "total_checked": total,
+                "duplicate_pairs_found": len(pairs),
+                "duplicate_clusters": len(clusters),
+                "duplicates_removed": len(deleted_indices),
+            }
+            logger.info("Final publication deduplication: %s", report)
+            return report
+
+        finally:
+            self.records = old_records
+            self.embeddings = old_embeddings
+            self.duplicate_pairs = old_pairs
+            self.duplicate_clusters = old_clusters
+
+    def deduplicate_final_json(self, json_path: Path) -> Dict[str, Any]:
+        """
+        Load, deduplicate and safely rewrite a final Todards JSON file.
+
+        Prefer deduplicate_publication_data(data) inside the main assembly
+        pipeline so the deduplicated data is written once to both output paths.
+        """
+        json_path = Path(json_path)
+        with json_path.open("r", encoding="utf-8") as handle:
+            data = json.load(handle)
+
+        report = self.deduplicate_publication_data(data)
+
+        temporary_path = json_path.with_suffix(json_path.suffix + ".tmp")
+        with temporary_path.open("w", encoding="utf-8") as handle:
+            json.dump(data, handle, ensure_ascii=False, indent=2)
+        temporary_path.replace(json_path)
+        return report
+
+
+
 if __name__ == "__main__":
 
     remover = ArticleDuplicateRemover()
