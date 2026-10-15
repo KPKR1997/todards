@@ -2,6 +2,7 @@ import hashlib
 import json
 import logging
 import re
+from difflib import SequenceMatcher
 from collections import defaultdict
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -120,6 +121,32 @@ class ArticleDuplicateRemover:
         text = re.sub(r"\s+", " ", text)
 
         return text.strip()
+
+    @classmethod
+    def titles_are_duplicates(cls, title_a: str, title_b: str) -> bool:
+        """Catch duplicate headlines even when article bodies differ."""
+        a = cls.normalize_for_hash(title_a)
+        b = cls.normalize_for_hash(title_b)
+
+        if not a or not b:
+            return False
+        if a == b:
+            return len(a) >= 12
+
+        # A close headline match is strong evidence, but avoid very short,
+        # generic titles where a character-level match is less meaningful.
+        if min(len(a), len(b)) >= 22 and SequenceMatcher(None, a, b).ratio() >= 0.92:
+            return True
+
+        # Catch reordered or lightly edited headlines.
+        words_a = set(a.split())
+        words_b = set(b.split())
+        if min(len(words_a), len(words_b)) >= 4:
+            overlap = len(words_a & words_b) / min(len(words_a), len(words_b))
+            if overlap >= 0.85:
+                return True
+
+        return False
 
     @classmethod
     def create_fingerprint(cls, title: str, content: str) -> str:
@@ -514,18 +541,19 @@ class ArticleDuplicateRemover:
                 tfidf_overlap = 0.0
                 method = "semantic"
 
-                # ------------------------------------------------------
+                # Headline matching is independent of body similarity. This
+                # catches same-category duplicates whose summaries differ.
+                if self.titles_are_duplicates(
+                    record_a["title"], record_b["title"]
+                ):
+                    is_duplicate = True
+                    method = "title"
+
                 # Strong semantic match
-                # ------------------------------------------------------
-
-                if score >= threshold:
-
+                elif score >= threshold:
                     is_duplicate = True
 
-                # ------------------------------------------------------
                 # Borderline semantic match
-                # ------------------------------------------------------
-
                 elif score >= threshold - 0.08:
 
                     tfidf_overlap = (
@@ -1198,9 +1226,17 @@ class ArticleDuplicateRemover:
             for i in range(total):
                 for j in range(i + 1, total):
                     score = float(similarity_matrix[i, j])
-                    is_duplicate = score >= self.similarity_threshold
                     overlap = 0.0
                     method = "semantic"
+                    is_duplicate = self.titles_are_duplicates(
+                        flat_records[i]["title"], flat_records[j]["title"]
+                    )
+                    if is_duplicate:
+                        method = "title"
+                    elif score >= self.similarity_threshold:
+                        is_duplicate = True
+                    else:
+                        is_duplicate = False
 
                     if (
                         not is_duplicate

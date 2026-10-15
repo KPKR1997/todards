@@ -1,131 +1,52 @@
 
 import json
-from unittest.mock import MagicMock, patch
+import smtplib
+import ssl
+from pathlib import Path
 
-import pytest
+CONFIG_PATH = Path("notifications/email_settings.json")
 
-from backend.main_guardrails.article_guard import ArticleSafetyGuard
+def test_email_connection():
+    if not CONFIG_PATH.exists():
+        print(f"ERROR: {CONFIG_PATH.resolve()} not found")
+        return
 
+    with CONFIG_PATH.open("r", encoding="utf-8") as f:
+        config = json.load(f)["email_settings"]
 
-@pytest.fixture
-def guard():
-    # Prevent construction of a real Ollama client.
-    with patch("backend.main_guardrails.article_guard.OllamaClient"):
-        guard = ArticleSafetyGuard(
-            client=MagicMock(),
-            model="llama-guard3:1b",
-        )
+    host = config["smtp_host"]
+    port = int(config["smtp_port"])
+    username = config["username"]
+    password = config["password"]
+    use_tls = config.get("use_tls", True)
 
-    guard.guard_client = MagicMock()
-    return guard
+    print(f"SMTP server: {host}:{port}")
+    print(f"TLS enabled: {use_tls}")
+    print(f"Username configured: {bool(username)}")
+    print(f"Password configured: {bool(password)}")
 
+    try:
+        with smtplib.SMTP(host, port, timeout=30) as server:
+            print("\n[1/3] Connecting...")
+            code, message = server.ehlo()
+            print(f"EHLO: {code} {message.decode(errors='replace')}")
 
-def test_safe_article(guard):
-    guard.guard_client.generate_raw.return_value = (
-        '{"safe": true}'
-    )
+            if use_tls:
+                print("\n[2/3] Starting TLS...")
+                server.starttls(context=ssl.create_default_context())
+                code, message = server.ehlo()
+                print(f"TLS successful; EHLO: {code}")
 
-    result = guard._check_article({
-        "title": "Nobel Prize announced",
-        "content": "The Nobel Prize was announced today.",
-    })
+            print("\n[3/3] Authenticating...")
+            server.login(username, password)
+            print("SUCCESS: SMTP authentication passed.")
 
-    assert result is True
+    except smtplib.SMTPAuthenticationError as e:
+        print(f"AUTHENTICATION FAILED: {e.smtp_code} {e.smtp_error!r}")
+    except smtplib.SMTPServerDisconnected as e:
+        print(f"SERVER DISCONNECTED: {e}")
+    except (OSError, smtplib.SMTPException) as e:
+        print(f"SMTP ERROR: {type(e).__name__}: {e}")
 
-
-def test_unsafe_article(guard):
-    guard.guard_client.generate_raw.return_value = (
-        '{"safe": false}'
-    )
-
-    result = guard._check_article({
-        "title": "Unsafe article",
-        "content": "Test content",
-    })
-
-    assert result is False
-
-
-def test_markdown_json_response(guard):
-    guard.guard_client.generate_raw.return_value = (
-        '```json\n{"safe": true}\n```'
-    )
-
-    assert guard._check_article({
-        "title": "Test",
-        "content": "Test content",
-    }) is True
-
-
-def test_empty_model_response_returns_error(guard):
-    guard.guard_client.generate_raw.return_value = ""
-
-    assert guard._check_article({
-        "title": "Test",
-        "content": "Test content",
-    }) is None
-
-
-def test_invalid_json_returns_error(guard):
-    guard.guard_client.generate_raw.return_value = (
-        "This is not valid JSON"
-    )
-
-    assert guard._check_article({
-        "title": "Test",
-        "content": "Test content",
-    }) is None
-
-
-def test_model_exception_returns_error(guard):
-    guard.guard_client.generate_raw.side_effect = (
-        RuntimeError("Ollama unavailable")
-    )
-
-    assert guard._check_article({
-        "title": "Test",
-        "content": "Test content",
-    }) is None
-
-
-def test_missing_safe_field_returns_error(guard):
-    guard.guard_client.generate_raw.return_value = (
-        '{"reason": "test"}'
-    )
-
-    assert guard._check_article({
-        "title": "Test",
-        "content": "Test content",
-    }) is None
-
-
-def test_non_boolean_safe_value(guard):
-    guard.guard_client.generate_raw.return_value = (
-        '{"safe": "unexpected"}'
-    )
-
-    # Documents current behavior: unknown strings become False.
-    # Consider tightening the parser to return None instead.
-    assert guard._check_article({
-        "title": "Test",
-        "content": "Test content",
-    }) is False
-
-
-def test_generate_raw_receives_prompt(guard):
-    guard.guard_client.generate_raw.return_value = (
-        '{"safe": true}'
-    )
-
-    guard._check_article({
-        "title": "Test headline",
-        "content": "Test article",
-    })
-
-    guard.guard_client.generate_raw.assert_called_once()
-    prompt = guard.guard_client.generate_raw.call_args.kwargs[
-        "prompt"
-    ]
-
-    assert "Test headline" in prompt
-    assert "Test article" in prompt
+if __name__ == "__main__":
+    test_email_connection()

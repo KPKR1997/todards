@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 42",
+    "issue": "Issue No. 43",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,33 +21,33 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Reform UK Leaders Caught on Camera Making Graphic Threats",
-          "image": "https://images.pexels.com/photos/29589319/pexels-photo-29589319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Essex, UK",
+          "title": "Reform UK investigates officials' violent threats and discriminatory views",
+          "image": "https://images.pexels.com/photos/5233241/pexels-photo-5233241.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Essex",
           "time": "Oct 15, 2026",
-          "content": "Reform UK is facing a major crisis after its councillors and election candidates were caught making graphic threats of violence expressing racist and misogynistic views on camera. Three councillors have already left the party and leader Nigel Farage has postponed a big announcement to deal with the fallout. The party is trying to contain the damage as more revelations are expected to come out in the coming days including footage of senior politicians and officials at its UK headquarters.",
+          "content": "Reform UK is in trouble after an undercover investigation caught party officials and candidates making violent threats and expressing racist and sexist views. The party says it's investigating and has already suspended some people. Three councillors have quit the party so far. Party leader Nigel Farage has postponed a big announcement to deal with the fallout from the investigation which is expected to get worse with more revelations coming out.",
           "theme": "#F7ECEE",
           "source": "The Guardian"
         },
         {
           "id": "pp-2",
-          "title": "UK Gains Powers to Punish Settlement Supporters and Obstruct Aid",
-          "image": "https://images.unsplash.com/photo-1566518447958-da38001b61ed?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VUslMjBzYW5jdGlvbnN8ZW58MXwwfHx8MTc5MjA1MjEyMXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
+          "title": "US Military Plans Strikes Against Iranian Energy, Nuclear Sites",
+          "image": "https://images.unsplash.com/photo-1580741569354-08feedd159f9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWFzc2l2ZSUyMGV4cGxvc2lvbnxlbnwxfDB8fHwxNzkyMDYxMzIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Iran",
           "time": "Oct 15, 2026",
-          "content": "The UK is giving itself new powers to freeze assets and punish entities that support Israeli settlements or obstruct humanitarian aid. This includes freezing assets and travel bans for people and companies that help these settlements or block aid. The new powers also allow the UK to punish people who incite or promote these actions even if they're not directly involved. This is part of a global human rights and humanitarian law sanctions regime that will start on Thursday but it needs approval from parliament within 28 days.",
+          "content": "The US military has developed new strike plans against Iranian energy infrastructure and nuclear sites which include the use of the \"Mother of All Bombs\" (MOAB) if President Trump gives the order. The MOAB is the largest non-nuclear bomb in the US arsenal and its use would mark a notable escalation. The plans also include targeting Iranian energy infrastructure and nuclear sites which could have devastating effects on the area.",
           "theme": "#F7ECEE",
-          "source": "The Guardian"
+          "source": "CNN"
         },
         {
           "id": "pp-3",
-          "title": "US Military Plans Strikes on Iran Using \"Mother of All Bombs\"",
-          "image": "https://images.unsplash.com/photo-1642584600548-c7fae671d461?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bW90aGVyJTIwb2YlMjBhbGwlMjBib21ic3xlbnwxfDB8fHwxNzkyMDUyMTk1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "Treasury Staff to Face Accountability for Woman's Suicide",
+          "image": "https://images.pexels.com/photos/39125276/pexels-photo-39125276.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
           "time": "Oct 15, 2026",
-          "content": "The US military has developed new strike plans that include using the \"mother of all bombs\" to target Iranian energy infrastructure and nuclear sites. The plans are for President Donald Trump to give the order to resume combat operations before or after the midterm elections. The \"mother of all bombs\" is the largest non-nuclear bomb in the US arsenal and is designed to clear a huge area. If used it would likely only damage the surface level and could have devastating effects on the area. Some officials question whether the White House has a strategy that incorporates these plans in a way that could actually end the war.",
+          "content": "The parents of a woman who killed herself after a disciplinary meeting at the Treasury are demanding that anyone who contributed to her death be held accountable. The Treasury had previously acknowledged its role in her death and committed to making changes to prevent similar incidents. The parents David and Anne Moffat want to know that staff who handled their daughter's disciplinary meeting have been held accountable. They are meeting with the Treasury's permanent secretary to ask questions and seek assurances that lessons will be learned to prevent another tragedy.",
           "theme": "#F7ECEE",
-          "source": "CNN"
+          "source": "The Guardian"
         }
       ]
     },
@@ -61,33 +61,33 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Doctors Use Metagenomics to Quickly Diagnose Serious Infections",
-          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
-          "place": "Wuhan, China",
+          "title": "Tortoises Surpass Human Population on Seychelles Atoll",
+          "image": "https://images.unsplash.com/photo-1508455858334-95337ba25607?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8dG9ydG9pc2V8ZW58MXwwfHx8MTc5MjA1MTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Seychelles",
           "time": "Oct 15, 2026",
-          "content": "Doctors are now using a technique called metagenomics to quickly diagnose serious infections. This test looks at all the DNA and RNA in a sample not just known pathogens. It helped identify Covid-19 and is now used in hospitals to diagnose things like sepsis and unexplained illnesses. The test can identify the exact organisms present allowing doctors to treat patients more effectively. It's already saved lives by helping doctors make life-or-death decisions.",
+          "content": "Giant tortoises on a Seychelles atoll have made a remarkable recovery with nearly 183000 animals now outnumbering the country's people. This is the highest estimate yet reflecting conservation efforts and a better way of counting the animals. The tortoises were once pushed to the brink but decades of protection and monitoring have helped their population grow. The new findings highlight Aldabra Atoll as one of the Indian Ocean's outstanding conservation successes.",
           "theme": "#EBF2FA",
-          "source": "BBC"
+          "source": "SciTechDaily"
         },
         {
           "id": "st-2",
-          "title": "Scientists Reconstruct Ancient Middle Eastern Ecosystem 700,000 Years Ago",
-          "image": "https://images.unsplash.com/photo-1759234916949-162e88b577ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8YW5jaWVudCUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzkyMDQ3MDM4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Haifa, Israel",
+          "title": "Bank of America Hires Thousands to Fix Decades-Old Software Flaws",
+          "image": "https://images.pexels.com/photos/28184185/pexels-photo-28184185.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "New York, USA",
           "time": "Oct 15, 2026",
-          "content": "Scientists have reconstructed the environment of early humans who lived in the Middle East nearly 700000 years ago. They studied the remains of giant elephants and found clues about the watery world they lived in which had plenty of water plants and animals. The area called Gesher Benot Ya'aqov was a stable ecosystem with woodlands grasslands and marshes where the elephants and early humans could survive.",
+          "content": "Bank of America is working to fix software vulnerabilities by hiring thousands of employees and external contractors. This is because advanced artificial intelligence models like Mythos can find and exploit decades-old software flaws. The bank's CEO Brian Moynihan said they rushed to fix these issues and have spent a couple hundred million dollars so far.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily"
+          "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Seychelles Tortoise Population Reaches 183,000, Thanks to Conservation Efforts",
-          "image": "https://images.unsplash.com/photo-1559041881-74dd9fd9b600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dG9ydG9pc2V8ZW58MXwwfHx8MTc5MjA1MTk5MXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Seychelles",
+          "title": "£25 Billion Data Centre and Solar Farm Planned for Norfolk",
+          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c29sYXIlMjBmYXJtfGVufDF8MHx8fDE3OTIwNjExNzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kings Lynn, UK",
           "time": "Oct 15, 2026",
-          "content": "Giant tortoises on a Seychelles atoll are now estimated to be nearly 183000 which is more than the human population of the country. This is a significant recovery since the 19th century when exploitation reduced their numbers to fewer than 1000. The tortoises' population has remained relatively stable over the past five years and their abundance is attributed to decades of protection and conservation efforts.",
+          "content": "A big new data centre and one of the UK's largest solar farms are being planned near King's Lynn in Norfolk. The data centre will need a lot of power up to 1 gigawatt while the solar farm will generate up to 1.3 gigawatts. The project could bring in £25 billion of investment and create thousands of jobs. The solar farm will also have battery storage and use a special cooling system that recirculates liquid. The plans are being kept simple for now but there will be a consultation and the government will have the final say on whether the project goes ahead.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily"
+          "source": "BBC"
         }
       ]
     },
@@ -101,11 +101,11 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Kenya Confirms Second Ebola Case, Linked to Fatal First Case",
-          "image": "https://images.pexels.com/photos/13590704/pexels-photo-13590704.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Kenya Reports Second Ebola Case, 39-Year-Old Man in Quarantine",
+          "image": "https://images.unsplash.com/photo-1707861107329-523a8e879d6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8RWJvbGF8ZW58MXwwfHx8MTc5MjA0Njc2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Nairobi, Kenya",
           "time": "Oct 15, 2026",
-          "content": "Kenya has confirmed a second case of Ebola a 39-year-old man who was already in quarantine when he fell ill. This case is linked to the first case a 40-year-old man who died on October 5. The new patient's early diagnosis has improved his chances of recovery and reduced the risk of him spreading the virus to others.",
+          "content": "Kenya has confirmed a second case of Ebola just 10 days after a businessman died of the virus. This new patient a 39-year-old man is a close relative of the first case and was already in quarantine when he fell ill. He's recovering because he was detected early and that's limited the chance of him passing the virus on to others. There's no evidence the virus has spread to the wider community and Kenya remains open to travel and trade.",
           "theme": "#E8F5F1",
           "source": "BBC"
         },
@@ -141,21 +141,21 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "North India Braces for Thunderstorms, Hailstorms and Heavy Rainfall",
-          "image": "https://images.pexels.com/photos/36972744/pexels-photo-36972744.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Himachal Pradesh, India",
+          "title": "Heavy Rain and Thunderstorms Hit Delhi, Haryana, Punjab, and Chandigarh",
+          "image": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80",
+          "place": "Delhi, India",
           "time": "Oct 15, 2026",
-          "content": "North India is bracing for thunderstorms hailstorms lightning and heavy rainfall which may cause damage to crops infrastructure and disrupt daily life. The India Meteorological Department has issued a warning advising people to be cautious. Meanwhile southern India is preparing for the onset of the northeast monsoon which may bring heavy rainfall to some areas.",
+          "content": "Delhi Haryana Punjab and Chandigarh are under orange alert for heavy rainfall thunderstorms hailstorms and strong winds reaching 50 kmph. Delhi-NCR could receive up to 204.4 mm of rain causing concerns over waterlogging traffic congestion lightning strikes and travel disruptions. The weather department warns of severe weather conditions including lightning strong winds and substantial rainfall which could disrupt road traffic agricultural activities and cause waterlogging.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
         {
           "id": "env-2",
-          "title": "Zimbabwe Plans $500 Million Reserve for Food Security Amid Drought Risk",
-          "image": "https://images.unsplash.com/photo-1641118593381-ded30a11d4e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZHJvdWdodHxlbnwxfDB8fHwxNzkyMDUyMzY2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Zimbabwe sets up $500 million reserve for drought preparation",
+          "image": "https://images.pexels.com/photos/32415692/pexels-photo-32415692.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Zimbabwe",
           "time": "Oct 15, 2026",
-          "content": "Zimbabwe's finance minister Mthuli Ncube announced on October 14 that the country plans to create a $500 million reserve of cash and grain to help with food security if a drought happens due to El Niño. This plan was approved by the Cabinet a month ago to prepare for the effects of a strong El Niño which could cause below-average rainfall long dry spells and higher temperatures during the next rainy season.",
+          "content": "Zimbabwe is preparing for a possible drought by setting up a $500 million cash and grain reserve. This move comes after the country's Cabinet approved a plan to ensure food security and protect livelihoods.",
           "theme": "#E7F4EF",
           "source": "Down To Earth"
         },
@@ -221,31 +221,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "IMF Praises UK's Fiscal Strategy, Hails Debt Reduction Plans",
-          "image": "https://images.pexels.com/photos/28586984/pexels-photo-28586984.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Bangkok, Thailand",
+          "title": "US Inflation Hits 3.7% Amid Petrol Price Spike",
+          "image": "https://images.unsplash.com/photo-1635627026254-b652e62d1d07?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8cGV0cm9sJTIwcHJpY2VzfGVufDF8MHx8fDE3OTIwNjE1ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
           "time": "Oct 15, 2026",
-          "content": "The International Monetary Fund is warning about the debts of the world's biggest economies. The UK is doing well compared to others with plans to reduce its borrowing costs and debt. The IMF likes the UK's approach and says it could lead to better growth prospects. This is good news for the UK's government but it might mean they have less money to spend or raise taxes.",
+          "content": "US inflation rose to 3.7% in the year to September higher than expected. The main cause was a big jump in petrol prices which increased by 34.2% over 12 months. This was due to disruptions to Middle East energy supplies caused by the US-Israel conflict with Iran. The cost-of-living pressures are a key issue in the upcoming midterm elections.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "Netflix Cuts 1000 Jobs, Mostly HR and Tech Staff",
-          "image": "https://images.unsplash.com/photo-1621955964441-c173e01c135b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8TmV0ZmxpeHxlbnwxfDB8fHwxNzkyMDUyNTMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
+          "title": "Tennessee Teacher's Struggle Highlights Widespread US Cost of Living Crisis",
+          "image": "https://images.pexels.com/photos/4386394/pexels-photo-4386394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "West Tennessee",
           "time": "Oct 15, 2026",
-          "content": "Netflix is cutting 1000 jobs about 6% of its workforce as it faces competition from other streaming services. The cuts will mainly affect teams that handle human resources legal product and technology issues. This is the biggest job cut at Netflix since 2022. The company's leaders said the move is necessary to focus on areas that will drive growth and innovation and that Netflix is still on track to meet its financial forecasts.",
+          "content": "Kathryn Vaughn a 46-year-old art teacher in Tennessee is struggling to make ends meet due to rising costs of living. She works three jobs to support her family of four including her young son and has resorted to selling items online and writing obituaries to make extra money. Vaughn is not alone as millions of Americans are facing increased expenses for daily necessities like food gas and housing.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "US Inflation Surges to 3.7% as Petrol Prices Jump 34.2%",
-          "image": "https://images.unsplash.com/photo-1629241290025-6bb716261f5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8cGV0cm9sJTIwcHVtcHxlbnwxfDB8fHwxNzkyMDUyNTk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
+          "title": "UK Economy Shows Resilience with 0.1% Growth in August Despite Expectations",
+          "image": "https://images.pexels.com/photos/15867466/pexels-photo-15867466.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
           "time": "Oct 15, 2026",
-          "content": "US inflation rose more than expected to 3.7% in the year to September driven by higher petrol prices. This is the highest rate in a while with energy prices jumping 20.4% over the year. The increase was mostly due to a big surge in petrol prices which rose 34.2% over 12 months. Experts think the US Federal Reserve will be closely watching to see if energy costs start affecting other areas of the economy like food prices.",
+          "content": "The UK economy grew by 0.1% in August beating expectations of a slight contraction. Chancellor John Healey called this a sign of resilience and said it's a result of the government's fiscal discipline. The economy grew by 0.7% over the three months to August with production increasing but the services industry and construction sector were flat or contracting. The growth was driven by an increase in computer programming and the development of AI infrastructure.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }
