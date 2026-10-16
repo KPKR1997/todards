@@ -1,46 +1,46 @@
 {
     "date": "16102026",
-    "timestamp": "2026-10-16T20:55:45.579771",
-    "duration_seconds": 1188.55,
+    "timestamp": "2026-10-16T21:43:25.368491",
+    "duration_seconds": 838.34,
     "stages_duration_seconds": {
-        "scrape": 623.64,
-        "guardrails": 213.07,
-        "deduplication": 9.23,
-        "category_validation": 11.11,
-        "ranking": 9.26,
-        "processing": 322.22,
-        "assembly": 0.01
+        "scrape": 595.23,
+        "guardrails": 203.67,
+        "deduplication": 8.19,
+        "category_validation": 9.33,
+        "ranking": 6.12,
+        "processing": 15.77,
+        "assembly": 0.0
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 9,
-            "Tech": 21,
+            "Health": 8,
+            "Tech": 20,
             "People": 65,
-            "Environment": 6,
+            "Environment": 5,
             "Economy": 8,
             "Entertainment": 17
         },
-        "total_scraped": 126,
-        "guardrail_passed": 126,
+        "total_scraped": 123,
+        "guardrail_passed": 123,
         "guardrail_rejected": 0,
-        "dedup_removed": 2,
+        "dedup_removed": 0,
         "category_reassignments": 0,
-        "final_articles": 1,
-        "final_categories": 1
+        "final_articles": 0,
+        "final_categories": 0
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 60,
-        "exact_duplicate_pairs": 1,
-        "semantic_duplicate_pairs": 2,
-        "duplicate_pairs_found": 3,
-        "duplicate_clusters": 1,
-        "duplicates_removed": 2,
+        "total_checked": 8,
+        "exact_duplicate_pairs": 0,
+        "semantic_duplicate_pairs": 0,
+        "duplicate_pairs_found": 0,
+        "duplicate_clusters": 0,
+        "duplicates_removed": 0,
         "published_duplicates_removed": 0
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 2,
+        "total_checked": 1,
         "rejected_count": 1,
         "rejected_articles": [
             {
@@ -48,14 +48,14 @@
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article is primarily about the life and legacy of Mark E Smith, the lead singer of The Fall, which is a significant event in the people category."
+                "reason": "The article primarily celebrates the life and legacy of Mark E Smith, a musician, rather than his entertainment-related achievements, which makes 'people' the most relevant category."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 128,
+        "total_calls": 124,
         "total_failures": 0,
-        "total_time_seconds": 155.91,
-        "avg_response_time": 1.22
+        "total_time_seconds": 146.25,
+        "avg_response_time": 1.18
     }
 }
