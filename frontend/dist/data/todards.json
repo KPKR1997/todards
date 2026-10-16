@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 52",
+    "issue": "Issue No. 53",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,30 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "World leaders gather for talks on a new international climate agreement",
-          "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Meeting_with_Masayoshi_Son_and_Sam_Altman_%28February_3%2C_2025%29_%283x4_cropped_on_Altman%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail_unscaled",
-          "place": "New York, USA",
-          "time": "Sep 21, 2026",
-          "content": "Representatives from several countries are meeting to discuss stronger cooperation on climate policy, energy security and emissions reduction. Negotiators are trying to find common ground between developed and developing economies. The talks are expected to focus on financing, technology sharing and national climate targets.",
-          "theme": "#F7ECEE"
+          "title": "French Students Protest Over Education Funding Shortages",
+          "image": "https://images.unsplash.com/photo-1682978969102-5555c66e4460?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8RnJlbmNoJTIwcHJvdGVzdHxlbnwxfDB8fHwxNzkyMTE0MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "France",
+          "time": "Oct 16, 2026",
+          "content": "Tensions are running high in France as thousands of students protest against education funding shortages and job prospects, with hundreds of new demonstrations announced across the country. The protests are expected to be joined by workers' unions and key figures from the yellow vest movement, with calls for a new system to address France's financial woes. Economist Anne-Laure Delatte believes that France needs constitutional change to overcome its financial challenges, while centrist politician Anne-Catherine Loisier thinks that the protesting students must feel heard and that local governments can make improvements by redistributing funding better.",
+          "theme": "#F7ECEE",
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c8zxlyg965r3o"
         },
         {
           "id": "pp-2",
-          "title": "Cities expand public transport as urban populations continue to grow",
-          "image": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=1200&q=82",
-          "place": "London, UK",
-          "time": "Sep 20, 2026",
-          "content": "Major cities are investing in rail networks, buses and cycling infrastructure as governments look for ways to reduce congestion and improve access to jobs. Urban planners say reliable public transport can also reduce pollution and make growing cities easier to navigate.",
-          "theme": "#F7ECEE"
+          "title": "Russia Returns Ukrainian Asylum Seekers to Moscow",
+          "image": "https://images.unsplash.com/photo-1594841343391-97ac1b9a950e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YXN5bHVtJTIwc2Vla2VyfGVufDF8MHx8fDE3OTIxNzIxMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Moscow",
+          "time": "Oct 16, 2026",
+          "content": "Russians who fled their country after the Ukraine invasion and sought asylum in the US or Europe are now being forcibly returned to Russia, amid a growing trend of deportations. Katya, one such deportee, was denied asylum in the US and forcibly returned to Moscow, where she was interrogated by Russian security services. Other deportees have reported similar experiences, with some being charged with",
+          "theme": "#F7ECEE",
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c6x23qpzjklwo"
         },
         {
           "id": "pp-3",
-          "title": "Young voters become increasingly influential in national elections",
-          "image": "https://images.unsplash.com/photo-1529390079861-591de354faf5?auto=format&fit=crop&w=1200&q=82",
-          "place": "Berlin, Germany",
-          "time": "Sep 18, 2026",
-          "content": "Younger voters are becoming an increasingly important political group in several countries. Issues such as housing, education, employment and climate policy are influencing how younger generations approach elections and public policy.",
-          "theme": "#F7ECEE"
+          "title": "Ukraine liberates 277 sq km in Donbas, inflicts heavy losses on Russia",
+          "image": "https://images.unsplash.com/photo-1534598974068-2d51eda7628f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8X1J1c3NpYW58ZW58MXwwfHx8MTc5MjE3MjQzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Donbas",
+          "time": "Oct 16, 2026",
+          "content": "Ukraine has made gains in the Donbas region, liberating 277 sq km and inflicting heavy losses on Russia. Ukrainian drones led the assault, and Russian drones threatened soldiers. Despite Russian airstrikes, Ukraine's Operation Vivaldi has been successful, with 8,000 Russian casualties and few Ukrainian losses. The operation was aided by Elon Musk's Starlink satellite communications network, but restrictions imposed without warning have sparked concern. Ukrainian soldiers are celebrating their gains and look to the future, while relations with Washington are strained due to differing views on Ukraine's strikes on Russian oil refineries.",
+          "theme": "#F7ECEE",
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cvx284w16z1po"
         }
       ]
     },
@@ -58,32 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Ukraine's Starlink access restricted, blamed for civilian deaths",
-          "image": "https://images.pexels.com/photos/11755208/pexels-photo-11755208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Ukraine",
+          "title": "Star Feeds on Brown Dwarf in Rare Cosmic System",
+          "image": "https://images.pexels.com/photos/14618894/pexels-photo-14618894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "California, USA",
           "time": "Oct 16, 2026",
-          "content": "Ukraine's access to SpaceX's Starlink systems was restricted, affecting its ability to defend against Russian attacks. President Volodymyr Zelenskyy criticized the move, saying it contributed to civilian deaths. SpaceX CEO Elon Musk blamed the US government, saying Starshield systems are under their control. Eutelsat shares rose 19% following the news, with analysts viewing it as a credible Starlink alternative. Ukraine's deputy minister for recovery, infrastructure, and transport, Serhiy Derkach, said Russia had increased attacks on Ukrainian infrastructure, taking advantage of the Starlink restrictions, and that Ukrainians already experience daily blackouts lasting 4-12 hours.",
+          "content": "Astronomers have discovered a unique cosmic system where a small star, 300 light-years from Earth, is slowly eating its companion, a brown dwarf. The star and brown dwarf are remarkably close, with the brown dwarf's entire orbit fitting within the Sun's diameter. The star is feeding off the brown dwarf's material, a process that could last billions of years. This is the first observation of a low-mass star consuming material from another low-mass object.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/mit-astronomers-catch-a-star-slowly-eating-its-companion-300-light-years-away/"
         },
         {
           "id": "st-2",
-          "title": "James Webb Telescope reveals new details about a distant exoplanet",
-          "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1200&q=82",
-          "place": "Baltimore, USA",
-          "time": "Sep 20, 2026",
-          "content": "Astronomers are using the James Webb Space Telescope to analyse the atmosphere of a planet located far beyond our Solar System. By studying how starlight passes through the atmosphere, researchers can identify gases and learn more about the planet's environment.",
-          "theme": "#EBF2FA"
+          "title": "Astronomers Find First Green-Colored White Dwarf Star",
+          "image": "https://images.unsplash.com/photo-1710678245400-148ffb386d2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8d2hpdGUlMjBkd2FyZiUyMHN0YXJ8ZW58MXwwfHx8MTc5MjE3MTY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "England",
+          "time": "Oct 16, 2026",
+          "content": "Astronomers found a white dwarf star that would appear green to human eyes, a first. The star's color is caused by the interaction between helium and other elements in its atmosphere, which can reveal clues about planetary material and how planets formed.",
+          "theme": "#EBF2FA",
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/16/science/green-star-discovery-scli-intl"
         },
         {
           "id": "t-3",
-          "title": "Robots prepare for a larger role in future lunar exploration",
-          "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1200&q=82",
-          "place": "Houston, USA",
-          "time": "Sep 19, 2026",
-          "content": "Space agencies are developing autonomous robots that could explore lunar terrain, transport equipment and prepare sites before astronauts arrive. Greater use of robotics could reduce the risks and costs associated with future long-duration missions to the Moon.",
-          "theme": "#EBF2FA"
+          "title": "Species Losses Erode Ecosystem Benefits, Study Finds",
+          "image": "https://images.pexels.com/photos/39787357/pexels-photo-39787357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 16, 2026",
+          "content": "A new global study suggests that losing species can steadily erode the benefits ecosystems provide, including pollination, clean water, and natural pest control. The research, led by King's College London and Imperial College London, found that ecosystems have less spare capacity than previously assumed, meaning that species losses could have significant consequences for the environment and climate. The study's findings also highlight the importance of protecting marine life, as it plays a crucial role in capturing and storing atmospheric carbon dioxide.",
+          "theme": "#EBF2FA",
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/scientists-discover-nature-has-far-fewer-backup-plans-than-we-thought/"
         }
       ]
     },
@@ -97,30 +107,36 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "WHO meeting puts stronger focus on global One Health cooperation",
-          "image": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?auto=format&fit=crop&w=1200&q=82",
-          "place": "Lisbon, Portugal",
-          "time": "Sep 22, 2026",
-          "content": "Health experts and international organisations are strengthening cooperation around One Health, an approach that recognises the links between human health, animals and the environment. Discussions are focusing on scientific evidence, country-level implementation and investment in health systems.",
-          "theme": "#E8F5F1"
+          "title": "Vanilla Compound Found to Help Wounds Heal",
+          "image": "https://images.unsplash.com/photo-1682482198446-4cbf92f85a4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmFuaWxsYSUyMHBvZHxlbnwxfDB8fHwxNzkyMTcxMDI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Adelaide, Australia",
+          "time": "Oct 16, 2026",
+          "content": "Researchers at Flinders University have found that vanillin, the compound behind vanilla's sweet aroma, has antibacterial and antioxidant properties that could be used to help wounds heal. Vanillin is a low-cost and abundant ingredient that could be used to create wound-care materials and deliver drugs, making it a promising candidate for biomedical applications.",
+          "theme": "#E8F5F1",
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/vanillas-sweet-secret-could-help-heal-stubborn-wounds/"
         },
         {
           "id": "hw-2",
-          "title": "Researchers identify new clues about how sleep affects memory",
-          "image": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=1200&q=82",
-          "place": "Boston, USA",
-          "time": "Sep 20, 2026",
-          "content": "Scientists studying sleep and memory have found further evidence that the brain remains active while we sleep. The research could improve understanding of how memories are processed and why adequate sleep is important for cognitive function.",
-          "theme": "#E8F5F1"
+          "title": "Ear Device Controls High Blood Pressure in Severe Cases",
+          "image": "https://images.unsplash.com/photo-1504711331083-9c895941bf81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+          "place": "London, United Kingdom",
+          "time": "Oct 16, 2026",
+          "content": "a small ear stimulation device tested by researchers at Queen Mary University of London showed promise in controlling high blood pressure that persists despite medication. The device, which delivers gentle electrical pulses through the ear, was found to be safe and practical to use at home. While it did not significantly lower blood pressure overall, a subgroup analysis found that those with more severe hypertension saw a greater reduction in blood pressure using the device.",
+          "theme": "#E8F5F1",
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/scientists-discover-a-surprising-new-way-to-fight-high-blood-pressure-through-the-ear/"
         },
         {
           "id": "hw-3",
-          "title": "New research improves understanding of antibiotic resistance",
-          "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=1200&q=82",
-          "place": "Cambridge, UK",
-          "time": "Sep 18, 2026",
-          "content": "Researchers are studying how bacteria develop resistance to antibiotics and how those changes spread. Understanding these mechanisms could help scientists develop better treatments and strategies for preventing drug-resistant infections.",
-          "theme": "#E8F5F1"
+          "title": "Blueberry Powder May Help Mild Depression in Older Adults",
+          "image": "https://images.unsplash.com/photo-1580854256166-e01d8a34da4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8Ymx1ZWJlcnJ5JTIwcG93ZGVyfGVufDF8MHx8fDE3OTIxMzk0MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Harvard Medical School",
+          "time": "Oct 16, 2026",
+          "content": "A small study found that older adults with mild depression who consumed daily blueberry powder had a greater reduction in symptoms than those given a placebo, but the difference was not statistically significant. The study also found subtle changes in the gut microbiome, with the fiber and dark pigments in blueberries potentially modifying the gut microbes and their products, which could be relevant to depression.",
+          "theme": "#E8F5F1",
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/eating-blueberries-linked-to-subtle-gut-changes-and-signs-of-mood-improvement/"
         }
       ]
     },
@@ -134,21 +150,25 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Coral restoration projects show promising signs of recovery",
-          "image": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1200&q=82",
-          "place": "Cairns, Australia",
-          "time": "Sep 21, 2026",
-          "content": "Marine scientists are testing new methods to restore coral reefs damaged by warming oceans and other environmental pressures. Some projects are combining coral breeding with carefully selected resilient colonies to improve the chances of recovery.",
-          "theme": "#E7F4EF"
+          "title": "Deforestation Rate Falls 15% in 2025, Shortfall Persists",
+          "image": "https://images.unsplash.com/photo-1645430786128-1d092f77d5bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8ZGVmb3Jlc3RhdGlvbiUyMHN0YXRpc3RpY3N8ZW58MXwwfHx8MTc5MjE3MjYwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
+          "time": "Oct 16, 2026",
+          "content": "The world's deforestation rate declined by 15% in 2025 to seven million hectares, but it's still far from meeting its goal of halting deforestation by 2030. The Forest Declaration Assessment 2026 found that despite the decline, the world has accumulated a 10.7 million hectare deforestation reduction shortfall since 2021. Tropical Latin America and the Caribbean reduced deforestation, while forest loss continued to rise in tropical Africa. Forest protection and restoration received only 0.3% of global climate finance in 2024.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/forests/global-deforestation-falls-15-per-cent-but-world-remains-off-track-to-meet-2030-forest-goals-report"
         },
         {
           "id": "env-2",
-          "title": "Underwater sensors reveal previously unknown whale migration patterns",
-          "image": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?auto=format&fit=crop&w=1200&q=82",
-          "place": "Reykjavik, Iceland",
-          "time": "Sep 19, 2026",
-          "content": "Networks of underwater microphones are helping scientists track whale movements across remote parts of the ocean. The recordings can reveal migration routes and important feeding areas without researchers having to follow the animals directly.",
-          "theme": "#E7F4EF"
+          "title": "India hit by heavy rainfall, orange alerts issued",
+          "image": "https://images.pexels.com/photos/32770117/pexels-photo-32770117.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Southern India",
+          "time": "Oct 16, 2026",
+          "content": "India faces heavy rainfall, with orange alerts issued for Tamil Nadu and South Interior Karnataka. Southern states are likely to experience intense rainfall, flash floods, and waterlogging, while other regions may see thunderstorms and strong winds. Delhi and surrounding areas can expect cloudy skies, light showers, and gusty winds, with temperatures ranging from 18 to 31 degrees Celsius. The weather department has warned of lightning and winds reaching 40-50 kmph, advising residents to be cautious and avoid flooded areas.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-southwest-monsoon-withdraws-but-heavy-rain-threat-persists-across-southern-india"
         },
         {
           "id": "env-3",
@@ -208,21 +228,25 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Global manufacturers increase investment in clean energy infrastructure",
-          "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=82",
-          "place": "Frankfurt, Germany",
-          "time": "Sep 21, 2026",
-          "content": "Manufacturing companies are increasing spending on renewable electricity, energy-efficient equipment and cleaner production systems. Businesses are looking to reduce operating costs while preparing for stricter environmental requirements and changing energy markets.",
-          "theme": "#F7F1DE"
+          "title": "Record 12 Ships Attacked in Strait of Hormuz in One Week",
+          "image": "https://images.unsplash.com/photo-1775563798442-a1b7e114bff7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U3RyYWl0JTIwb2YlMjBIb3JtdXp8ZW58MXwwfHx8MTc5MjE3Mjk3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Gulf of Oman",
+          "time": "Oct 16, 2026",
+          "content": "The number of ships attacked in and around the Strait of Hormuz has reached a record high, with 12 vessels hit in the last week alone. This surge in attacks has slowed the recovery in oil shipments through the strait, industry data suggests. The attacks are part of Iran's efforts to assert control over the waterway, experts say.",
+          "theme": "#F7F1DE",
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cmde8dpg8g0no"
         },
         {
           "id": "eb-2",
-          "title": "Global trade adjusts as companies rethink supply chains",
-          "image": "https://images.unsplash.com/photo-1586528116493-da8b5f7c9f65?auto=format&fit=crop&w=1200&q=82",
-          "place": "Singapore",
-          "time": "Sep 19, 2026",
-          "content": "Companies are continuing to redesign supply chains in response to changing trade policies, transportation costs and geopolitical risks. Many businesses are looking for ways to diversify suppliers and make production networks more resilient.",
-          "theme": "#F7F1DE"
+          "title": "UK Chancellor Plans Tax Hike on Banks to Boost Revenue",
+          "image": "https://images.unsplash.com/photo-1684679674829-fc7b436ec8e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YmFuayUyMHByb2ZpdHN8ZW58MXwwfHx8MTc5MjE3MzE5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 16, 2026",
+          "content": "UK Chancellor John Healey is planning to increase taxes on the bank sector, with possible options including reversing a 2023 reduction in the bank surcharge or raising the bank levy. Bank shares fell on expectations of a tax hike, with Lloyds and NatWest dropping over 2%. Some experts argue that banks, which made £15bn in profit in the first half of the year, should contribute more to the government's budget. Healey praised the role banks play in the UK economy, but trade unions and some experts call for a fairer share of taxes from the sector.",
+          "theme": "#F7F1DE",
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c32l4k2xdvrzo"
         },
         {
           "id": "eb-3",

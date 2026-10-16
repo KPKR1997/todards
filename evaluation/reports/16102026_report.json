@@ -1,61 +1,173 @@
 {
     "date": "16102026",
-    "timestamp": "2026-10-16T21:43:25.368491",
-    "duration_seconds": 838.34,
+    "timestamp": "2026-10-16T23:23:21.922099",
+    "duration_seconds": 3463.55,
     "stages_duration_seconds": {
-        "scrape": 595.23,
-        "guardrails": 203.67,
-        "deduplication": 8.19,
-        "category_validation": 9.33,
-        "ranking": 6.12,
-        "processing": 15.77,
-        "assembly": 0.0
+        "scrape": 612.06,
+        "guardrails": 162.65,
+        "deduplication": 12.95,
+        "category_validation": 164.33,
+        "ranking": 198.99,
+        "processing": 2312.53,
+        "assembly": 0.02
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 8,
+            "Health": 9,
             "Tech": 20,
             "People": 65,
             "Environment": 5,
             "Economy": 8,
             "Entertainment": 17
         },
-        "total_scraped": 123,
-        "guardrail_passed": 123,
+        "total_scraped": 124,
+        "guardrail_passed": 124,
         "guardrail_rejected": 0,
-        "dedup_removed": 0,
+        "dedup_removed": 42,
         "category_reassignments": 0,
-        "final_articles": 0,
-        "final_categories": 0
+        "final_articles": 13,
+        "final_categories": 5
     },
     "guardrail_rejections": [],
     "deduplication": {
-        "total_checked": 8,
-        "exact_duplicate_pairs": 0,
-        "semantic_duplicate_pairs": 0,
-        "duplicate_pairs_found": 0,
-        "duplicate_clusters": 0,
-        "duplicates_removed": 0,
-        "published_duplicates_removed": 0
+        "total_checked": 123,
+        "exact_duplicate_pairs": 27,
+        "semantic_duplicate_pairs": 34,
+        "duplicate_pairs_found": 61,
+        "duplicate_clusters": 24,
+        "duplicates_removed": 42,
+        "published_duplicates_removed": 8
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 1,
-        "rejected_count": 1,
+        "total_checked": 75,
+        "rejected_count": 17,
         "rejected_articles": [
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the technology sector, artificial intelligence, and its impact on the economy, making it more relevant to the 'economy and business' category than 'science and technology'."
+            },
+            {
+                "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Elon Musk's financial contribution to a Republican super PAC, which is a significant economic and business news development."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the performance of AI infrastructure stocks and their impact on the market, which is a financial and business topic."
+            },
+            {
+                "title": "Nvidia and Cisco confirm multimillion-dollar donations to Trump's White House ballroom",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about technology company donations to a White House project, which is more relevant to the people category than science and technology."
+            },
+            {
+                "title": "Anduril CEO defends Trump administration contracts: 'We've done incredibly well under Biden'",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the CEO of Anduril, Brian Schimpf, and his comments on the company's contracts and relationships with government officials, which falls under the 'people' category."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Sir John Gage's role in the English Reformation and his conflicting actions as a Catholic and a royal official, which falls under the 'people' category."
+            },
+            {
+                "title": "Traffickers ripped Bili the baby gorilla from her home. An international mission is returning her to the wild",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article's primary focus is on the trafficking and rescue of a baby gorilla, which is a human-interest story and a significant event in the 'people' category, rather than a scientific or technological development."
+            },
+            {
+                "title": "Children taken to hospital after chemical fumes at Dublin pool",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article reports on a chemical incident at a pool that required medical attention for children and an adult, making it a health-related news story."
+            },
+            {
+                "title": "'I'd spend $1,000 on a wedding present'",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article appears to be a human-interest piece featuring a wedding gift question and its answers, which is more relevant to entertainment than people."
+            },
+            {
+                "title": "Watch: Did Tesla really just unveil a flying car?",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Elon Musk, the CEO of Tesla, and his company's product unveiling, which is a people-related topic."
+            },
+            {
+                "title": "Watch: 'A dollar on gas won't change our vote' - Iowans sticking with Trump",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses politics and governance, specifically the US midterm elections, which is a topic related to the 'people' category."
+            },
+            {
+                "title": "Living with a stink? Technology might help",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses community efforts to address environmental issues, highlighting the importance of technology in monitoring and mitigating odors, which is a people-focused story."
+            },
+            {
+                "title": "I find it quite demoralising in store - why I do all my shopping online",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses consumer behavior and shopping habits, which falls under the 'people' category, as it explores the reasons why individuals prefer online shopping and the impact it has on the retail industry."
+            },
+            {
+                "title": "'More audacious than her male peers': The Renaissance woman who was the first female painter of erotic nudes",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on Lavinia Fontana, a historical figure, and her artistic works, which falls under the 'people' category, even though the article also discusses her art and paintings, which could fit into other categories."
+            },
+            {
+                "title": "'People call them pervert glasses': Blind users fear backlash over smart tech",
+                "from": "entertainment",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses smart glasses and their features, which falls under the 'science and technology' category."
+            },
+            {
+                "title": "London housing project wins top architecture award",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a housing project winning an architecture award, with quotes from the architects and a mention of its significance for the community, making it more relevant to the 'people' category than 'entertainment'."
+            },
             {
                 "title": "Mural of The Fall singer celebrates 'life and legacy'",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily celebrates the life and legacy of Mark E Smith, a musician, rather than his entertainment-related achievements, which makes 'people' the most relevant category."
+                "confidence": 0.8,
+                "reason": "The article primarily celebrates the life and legacy of Mark E Smith, the frontman of The Fall, which makes it more relevant to the 'people' category than 'entertainment', despite some entertainment-related aspects."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 124,
+        "total_calls": 199,
         "total_failures": 0,
-        "total_time_seconds": 146.25,
-        "avg_response_time": 1.18
+        "total_time_seconds": 304.87,
+        "avg_response_time": 1.53
     }
 }
