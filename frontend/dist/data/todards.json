@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 53",
+    "issue": "Issue No. 54",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "16 October 2026",
+    "publishedAt": "17 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "French Students Protest Over Education Funding Shortages",
-          "image": "https://images.unsplash.com/photo-1682978969102-5555c66e4460?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8RnJlbmNoJTIwcHJvdGVzdHxlbnwxfDB8fHwxNzkyMTE0MTY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "France",
-          "time": "Oct 16, 2026",
-          "content": "Tensions are running high in France as thousands of students protest against education funding shortages and job prospects, with hundreds of new demonstrations announced across the country. The protests are expected to be joined by workers' unions and key figures from the yellow vest movement, with calls for a new system to address France's financial woes. Economist Anne-Laure Delatte believes that France needs constitutional change to overcome its financial challenges, while centrist politician Anne-Catherine Loisier thinks that the protesting students must feel heard and that local governments can make improvements by redistributing funding better.",
+          "title": "Israeli Settlers Attack Palestinians in West Bank, Injuring 12",
+          "image": "https://images.pexels.com/photos/19458227/pexels-photo-19458227.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "West Bank",
+          "time": "Oct 17, 2026",
+          "content": "Dozens of masked Israeli settlers attacked Palestinians and set fire to cars and olive trees in the West Bank, injuring 12 people, including four US citizens. A BBC team witnessed the violence, which is part of a pattern of attacks on the annual olive harvest, with over 120 people injured and one killed this year.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c8zxlyg965r3o"
+          "url": "https://www.bbc.com/news/articles/c65ynk7212vqo"
         },
         {
           "id": "pp-2",
-          "title": "Russia Returns Ukrainian Asylum Seekers to Moscow",
-          "image": "https://images.unsplash.com/photo-1594841343391-97ac1b9a950e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YXN5bHVtJTIwc2Vla2VyfGVufDF8MHx8fDE3OTIxNzIxMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Moscow",
-          "time": "Oct 16, 2026",
-          "content": "Russians who fled their country after the Ukraine invasion and sought asylum in the US or Europe are now being forcibly returned to Russia, amid a growing trend of deportations. Katya, one such deportee, was denied asylum in the US and forcibly returned to Moscow, where she was interrogated by Russian security services. Other deportees have reported similar experiences, with some being charged with",
+          "title": "Carney Warns of High Stakes in Alberta Independence Vote",
+          "image": "https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q2FuYWRpYW4lMjBmbGFnfGVufDF8MHx8fDE3OTIxNzY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Calgary, Canada",
+          "time": "Oct 17, 2026",
+          "content": "Canadian Prime Minister Mark Carney urged Albertans to vote against independence, warning that the stakes are high and turnout will determine the outcome. He also cautioned that separation could be exploited by external forces seeking to break Canada. With early voting already underway, Carney is scheduled to attend pro-unity rallies in Calgary and Edmonton ahead of the October 19 referendum.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6x23qpzjklwo"
+          "url": "https://www.bbc.com/news/articles/c9rky2vrr5vzo"
         },
         {
           "id": "pp-3",
-          "title": "Ukraine liberates 277 sq km in Donbas, inflicts heavy losses on Russia",
-          "image": "https://images.unsplash.com/photo-1534598974068-2d51eda7628f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8X1J1c3NpYW58ZW58MXwwfHx8MTc5MjE3MjQzNXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Donbas",
-          "time": "Oct 16, 2026",
-          "content": "Ukraine has made gains in the Donbas region, liberating 277 sq km and inflicting heavy losses on Russia. Ukrainian drones led the assault, and Russian drones threatened soldiers. Despite Russian airstrikes, Ukraine's Operation Vivaldi has been successful, with 8,000 Russian casualties and few Ukrainian losses. The operation was aided by Elon Musk's Starlink satellite communications network, but restrictions imposed without warning have sparked concern. Ukrainian soldiers are celebrating their gains and look to the future, while relations with Washington are strained due to differing views on Ukraine's strikes on Russian oil refineries.",
+          "title": "UK Bans Online Pornography Showing Violence",
+          "image": "https://images.pexels.com/photos/9766672/pexels-photo-9766672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "England and Wales",
+          "time": "Oct 17, 2026",
+          "content": "From November 6, it will be illegal in England and Wales to possess or publish online pornography showing strangulation, incestuous relationships, or adults role-playing as children under 16. The new rules aim to curb the normalization of violent and harmful content and help prevent real-life harm.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cvx284w16z1po"
+          "url": "https://www.bbc.com/news/articles/cmpqgepejr2ro"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Star Feeds on Brown Dwarf in Rare Cosmic System",
-          "image": "https://images.pexels.com/photos/14618894/pexels-photo-14618894.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "California, USA",
-          "time": "Oct 16, 2026",
-          "content": "Astronomers have discovered a unique cosmic system where a small star, 300 light-years from Earth, is slowly eating its companion, a brown dwarf. The star and brown dwarf are remarkably close, with the brown dwarf's entire orbit fitting within the Sun's diameter. The star is feeding off the brown dwarf's material, a process that could last billions of years. This is the first observation of a low-mass star consuming material from another low-mass object.",
+          "title": "New dinosaur species found in Zimbabwe: Musango unveiled",
+          "image": "https://images.pexels.com/photos/33722897/pexels-photo-33722897.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Zimbabwe",
+          "time": "Oct 17, 2026",
+          "content": "Scientists have discovered a new dinosaur species, Musango, in Zimbabwe, which is unlike any found in South Africa. The fossil, a bipedal sauropodomorph, is about 4.5 meters long and weighed 220 kg. It's part of a distinct prehistoric community in Zimbabwe, which has its own unique dinosaur species unlike those found in neighboring countries.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/mit-astronomers-catch-a-star-slowly-eating-its-companion-300-light-years-away/"
+          "url": "https://scitechdaily.com/zimbabwes-ancient-dinosaurs-were-nothing-like-scientists-expected/"
         },
         {
           "id": "st-2",
-          "title": "Astronomers Find First Green-Colored White Dwarf Star",
-          "image": "https://images.unsplash.com/photo-1710678245400-148ffb386d2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8d2hpdGUlMjBkd2FyZiUyMHN0YXJ8ZW58MXwwfHx8MTc5MjE3MTY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "England",
-          "time": "Oct 16, 2026",
-          "content": "Astronomers found a white dwarf star that would appear green to human eyes, a first. The star's color is caused by the interaction between helium and other elements in its atmosphere, which can reveal clues about planetary material and how planets formed.",
+          "title": "US Warns of Growing Foreign Espionage in AI Development",
+          "image": "https://images.unsplash.com/photo-1770171323762-7b9a517a7094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5MjE3NTgyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 17, 2026",
+          "content": "US Director of National Intelligence Jay Clayton warns that foreign espionage attempts are a growing concern as the US competes with other countries in the development of artificial intelligence. He says the threat is real and that both US companies and the government need to be cautious, citing a recent case where a Saudi national was accused of installing a recording device at an OpenAI conference room. Clayton leads a White House AI task force that aims to stay ahead of foreign competitors, including China, Russia, Iran, and North Korea.",
           "theme": "#EBF2FA",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/16/science/green-star-discovery-scli-intl"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html"
         },
         {
           "id": "t-3",
-          "title": "Species Losses Erode Ecosystem Benefits, Study Finds",
-          "image": "https://images.pexels.com/photos/39787357/pexels-photo-39787357.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 16, 2026",
-          "content": "A new global study suggests that losing species can steadily erode the benefits ecosystems provide, including pollination, clean water, and natural pest control. The research, led by King's College London and Imperial College London, found that ecosystems have less spare capacity than previously assumed, meaning that species losses could have significant consequences for the environment and climate. The study's findings also highlight the importance of protecting marine life, as it plays a crucial role in capturing and storing atmospheric carbon dioxide.",
+          "title": "Gemsbok spread in New Mexico since 1960s, climate change may favor them",
+          "image": "https://images.pexels.com/photos/13407065/pexels-photo-13407065.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "New Mexico, USA",
+          "time": "Oct 17, 2026",
+          "content": "Gemsbok, African antelopes, have spread in New Mexico's dry rangelands since being introduced in the 1960s and 1970s. Climate change could give them an advantage over native wildlife as conditions become more widespread, potentially leading to competition for food and habitat.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-nature-has-far-fewer-backup-plans-than-we-thought/"
+          "url": "https://scitechdaily.com/climate-change-could-unleash-an-african-antelope-invasion-across-the-american-west/"
         }
       ]
     },
@@ -107,36 +107,36 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Vanilla Compound Found to Help Wounds Heal",
-          "image": "https://images.unsplash.com/photo-1682482198446-4cbf92f85a4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmFuaWxsYSUyMHBvZHxlbnwxfDB8fHwxNzkyMTcxMDI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Adelaide, Australia",
+          "title": "Sardinian Village Has High Rate of Centenarian Women",
+          "image": "https://images.pexels.com/photos/38047689/pexels-photo-38047689.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Sardinia, Italy",
           "time": "Oct 16, 2026",
-          "content": "Researchers at Flinders University have found that vanillin, the compound behind vanilla's sweet aroma, has antibacterial and antioxidant properties that could be used to help wounds heal. Vanillin is a low-cost and abundant ingredient that could be used to create wound-care materials and deliver drugs, making it a promising candidate for biomedical applications.",
+          "content": "A Sardinian village, Bolotana, has an unusually high number of centenarians, with women having an exceptional pattern of survival after age 70. Researchers found that women in Bolotana have a 13.8% chance of living to 100, compared to 3.5% in Italy and 3.6% in the US. The village's historical records, dating back centuries, allowed the researchers to independently verify ages and reconstruct residents' life histories.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/vanillas-sweet-secret-could-help-heal-stubborn-wounds/"
+          "url": "https://scitechdaily.com/scientists-uncover-a-longevity-hotspot-where-reaching-100-is-surprisingly-common/"
         },
         {
           "id": "hw-2",
-          "title": "Ear Device Controls High Blood Pressure in Severe Cases",
-          "image": "https://images.unsplash.com/photo-1504711331083-9c895941bf81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
-          "place": "London, United Kingdom",
+          "title": "Medication Reduces Inflammation, Cardiovascular Risk in Diabetes Patients",
+          "image": "https://images.unsplash.com/photo-1714642596931-2293df25c4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8N3x8ZGlhYmV0ZXMlMjBtZWRpY2F0aW9ufGVufDF8MHx8fDE3OTIxNzUzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Vanderbilt Health",
           "time": "Oct 16, 2026",
-          "content": "a small ear stimulation device tested by researchers at Queen Mary University of London showed promise in controlling high blood pressure that persists despite medication. The device, which delivers gentle electrical pulses through the ear, was found to be safe and practical to use at home. While it did not significantly lower blood pressure overall, a subgroup analysis found that those with more severe hypertension saw a greater reduction in blood pressure using the device.",
+          "content": "Researchers found that a diabetes medication, empagliflozin, changes how certain immune cells behave in the bloodstream, potentially reducing harmful inflammation and cardiovascular risk. In a small human clinical trial, the medication reduced inflammatory cell clusters after just two weeks, with measurable effects. The study, published in the American Heart Association journal Circulation, provides the first direct evidence that this medication can alter specific immune cells in humans.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-surprising-new-way-to-fight-high-blood-pressure-through-the-ear/"
+          "url": "https://scitechdaily.com/the-secret-heart-benefit-of-a-common-diabetes-drug/"
         },
         {
           "id": "hw-3",
-          "title": "Blueberry Powder May Help Mild Depression in Older Adults",
-          "image": "https://images.unsplash.com/photo-1580854256166-e01d8a34da4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8Ymx1ZWJlcnJ5JTIwcG93ZGVyfGVufDF8MHx8fDE3OTIxMzk0MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Harvard Medical School",
-          "time": "Oct 16, 2026",
-          "content": "A small study found that older adults with mild depression who consumed daily blueberry powder had a greater reduction in symptoms than those given a placebo, but the difference was not statistically significant. The study also found subtle changes in the gut microbiome, with the fiber and dark pigments in blueberries potentially modifying the gut microbes and their products, which could be relevant to depression.",
+          "title": "Fat Before Carbs Regulates Blood Sugar in Mice Study",
+          "image": "https://images.pexels.com/photos/5469027/pexels-photo-5469027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Kyoto, Japan",
+          "time": "Oct 17, 2026",
+          "content": "In a breakthrough study, researchers found that eating fat before carbohydrates can help regulate blood sugar levels by slowing down stomach emptying and reducing the initial spike. This effect was observed in mice and may be applicable to humans, offering a potential dietary strategy to manage post-meal blood sugar rises, an important treatment target in diabetes.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/eating-blueberries-linked-to-subtle-gut-changes-and-signs-of-mood-improvement/"
+          "url": "https://scitechdaily.com/scientists-discover-why-eating-fat-before-carbs-reduces-blood-sugar-spikes/"
         }
       ]
     },
@@ -150,14 +150,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Deforestation Rate Falls 15% in 2025, Shortfall Persists",
-          "image": "https://images.unsplash.com/photo-1645430786128-1d092f77d5bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8ZGVmb3Jlc3RhdGlvbiUyMHN0YXRpc3RpY3N8ZW58MXwwfHx8MTc5MjE3MjYwMXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global",
-          "time": "Oct 16, 2026",
-          "content": "The world's deforestation rate declined by 15% in 2025 to seven million hectares, but it's still far from meeting its goal of halting deforestation by 2030. The Forest Declaration Assessment 2026 found that despite the decline, the world has accumulated a 10.7 million hectare deforestation reduction shortfall since 2021. Tropical Latin America and the Caribbean reduced deforestation, while forest loss continued to rise in tropical Africa. Forest protection and restoration received only 0.3% of global climate finance in 2024.",
+          "title": "Shepherd loses 100 sheep and goats in Indian avalanche",
+          "image": "https://images.pexels.com/photos/34382075/pexels-photo-34382075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Himachal Pradesh, India",
+          "time": "Oct 17, 2026",
+          "content": "In October 2025, a 50-year-old shepherd named Joginder Chand and four others lost over 100 sheep and goats in an unexpected avalanche while migrating through the Jarol Jot pass in Himachal Pradesh, India.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/forests/global-deforestation-falls-15-per-cent-but-world-remains-off-track-to-meet-2030-forest-goals-report"
+          "url": "https://www.downtoearth.org.in/climate-change/disrupted-rhythms-how-climate-change-affects-himalayan-pastoralism"
         },
         {
           "id": "env-2",
@@ -228,14 +228,14 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Record 12 Ships Attacked in Strait of Hormuz in One Week",
-          "image": "https://images.unsplash.com/photo-1775563798442-a1b7e114bff7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U3RyYWl0JTIwb2YlMjBIb3JtdXp8ZW58MXwwfHx8MTc5MjE3Mjk3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Gulf of Oman",
-          "time": "Oct 16, 2026",
-          "content": "The number of ships attacked in and around the Strait of Hormuz has reached a record high, with 12 vessels hit in the last week alone. This surge in attacks has slowed the recovery in oil shipments through the strait, industry data suggests. The attacks are part of Iran's efforts to assert control over the waterway, experts say.",
+          "title": "Landfill operators ordered to use drones to track odour-causing chemicals",
+          "image": "https://images.pexels.com/photos/4454064/pexels-photo-4454064.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "California, USA",
+          "time": "Oct 17, 2026",
+          "content": "Residents in Milpitas, California, have long dealt with strong smells from industrial sites, including a massive landfill. Despite some improvements, the odours still affect many people daily. To tackle the problem, the landfill operators have been ordered to use drones and monitoring systems to track and measure the chemicals causing the smells. This data-driven approach aims to pinpoint and fix issues in real-time, making life more bearable for those affected.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmde8dpg8g0no"
+          "url": "https://www.bbc.com/news/articles/cr6240q1w136o"
         },
         {
           "id": "eb-2",
