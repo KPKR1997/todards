@@ -1,0 +1,255 @@
+{
+  "publication": {
+    "brand": "Todards.",
+    "subtitle": "The global today cards",
+    "issue": "Issue No. 49",
+    "tagline": "THREE STORIES A DAY",
+    "heroTitle": "A clearer world in three cards",
+    "heroDescription": "Essential science and technology news, simplified.",
+    "publishedAt": "16 October 2026",
+    "footerLeft": "Journalism Automated",
+    "footerRight": "Simple news. Deeper understanding."
+  },
+  "sections": [
+    {
+      "id": "people",
+      "title": "People & Politics",
+      "eyebrow": "PEOPLE & POLITICS",
+      "description": "Important developments in governments, societies and the people shaping the world.",
+      "accent": "#7A3E48",
+      "tint": "#F7ECEE",
+      "cards": [
+        {
+          "id": "pp-1",
+          "title": "Boy, 16, shoots three children, teacher in Oregon school attack",
+          "image": "https://images.pexels.com/photos/14189248/pexels-photo-14189248.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Bend, Oregon",
+          "time": "Oct 16, 2026",
+          "content": "In Oregon, a 16-year-old boy forced his way into a primary school, shooting dead three children and a teacher. A bystander killed the attacker and police arrived three minutes later. The victims were aged 5, 8, and 11, and a 7-year-old and the teacher were taken to the hospital in critical condition.",
+          "theme": "#F7ECEE",
+          "source": "BBC"
+        },
+        {
+          "id": "pp-2",
+          "title": "Pakistan school roof collapses, killing 33 students and teacher",
+          "image": "https://images.pexels.com/photos/18940342/pexels-photo-18940342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Peshawar, Pakistan",
+          "time": "Oct 16, 2026",
+          "content": "A school roof collapsed in Pakistan's Peshawar, killing at least 33 students and a teacher, with over a dozen injured. Police have arrested the school's owner and promised an investigation into building code violations.",
+          "theme": "#F7ECEE",
+          "source": "BBC"
+        },
+        {
+          "id": "pp-3",
+          "title": "US Intelligence Briefing on Foreign Threats Canceled Due to Technical Issues",
+          "image": "https://images.unsplash.com/photo-1476421069425-cc6d5d3cfd5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8RWxlY3Rpb24lMjBPZmZpY2V8ZW58MXwwfHx8MTc5MjE0MDU1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 16, 2026",
+          "content": "US intelligence officials cancelled a classified briefing for election officials about foreign threats due to technical difficulties. The briefing was supposed to discuss threats from Russia, Iran, and China, but was abruptly cancelled 15-30 minutes after starting. Election officials from across the country were left frustrated, having rearranged their schedules for the briefing.",
+          "theme": "#F7ECEE",
+          "source": "CNN"
+        }
+      ]
+    },
+    {
+      "id": "science and technology",
+      "title": "Science and technology",
+      "eyebrow": "SCIENCE & TECHNOLOGY",
+      "description": "Discover breakthroughs in science, space, computing and emerging technology.",
+      "accent": "#2E4B7C",
+      "tint": "#EBF2FA",
+      "cards": [
+        {
+          "id": "st-1",
+          "title": "Scientists Discover New Giant Isopod Species in Puerto Rico Specimen",
+          "image": "https://images.unsplash.com/photo-1753601142029-1c73caaa470b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Z2lhbnQlMjBpc29wb2R8ZW58MXwwfHx8MTc5MjEzOTU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Tübingen, Germany",
+          "time": "Oct 16, 2026",
+          "content": "Scientists at the University of Tübingen have discovered a new species of giant isopod, a deep-sea crustacean, in a specimen collected in Puerto Rico in the 1980s. The species, named Bathynomus tuebingoborikensis, is a",
+          "theme": "#EBF2FA",
+          "source": "SciTechDaily"
+        },
+        {
+          "id": "st-2",
+          "title": "Anthropic partners with nonprofits for AI safety evaluations",
+          "image": "https://images.pexels.com/photos/8439002/pexels-photo-8439002.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Menlo Ventures",
+          "time": "Oct 16, 2026",
+          "content": "Artificial intelligence lab Anthropic has partnered with nonprofits METR and SecureBio, and is discussing collaborations with other organizations, including Hugging Face, to embed independent evaluators within the company. These evaluators will help verify Anthropic's adherence to safety practices, with varying levels of access to the company and its resources.",
+          "theme": "#EBF2FA",
+          "source": "CNBC"
+        },
+        {
+          "id": "t-3",
+          "title": "Nvidia CEO Advocates for Dialogue on AI Risks with Chinese Firms",
+          "image": "https://images.unsplash.com/photo-1770169272345-9636d5ef2681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8QUklMjBsYWJ8ZW58MXwwfHx8MTc5MjEzOTk4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 16, 2026",
+          "content": "Nvidia CEO Jensen Huang emphasized the importance of working with Chinese AI companies to monitor the risks of AI technology, stating that dialogue is the key to advancing the tech safely. Huang believes that the UK, with its intellectual capital, is well-positioned to facilitate these dialogues on AI, which have become a key topic between the US and Chinese governments.",
+          "theme": "#EBF2FA",
+          "source": "CNBC"
+        }
+      ]
+    },
+    {
+      "id": "health",
+      "title": "Health & wellness",
+      "eyebrow": "HEALTH & WELLNESS",
+      "description": "Medical research, public health and discoveries that affect everyday wellbeing.",
+      "accent": "#2F7668",
+      "tint": "#E8F5F1",
+      "cards": [
+        {
+          "id": "hw-1",
+          "title": "Saline injections ease carpal tunnel symptoms, study shows",
+          "image": "https://images.pexels.com/photos/5723260/pexels-photo-5723260.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Jaipur, India",
+          "time": "Oct 16, 2026",
+          "content": "A small clinical trial found that injecting saline into the wrist under ultrasound guidance can provide long-lasting relief from carpal tunnel symptoms, even without adding steroids. The study involved 63 patients and showed that the saline injection procedure, called nerve hydrodissection, can be an effective and safe treatment option for mild to moderate carpal tunnel syndrome.",
+          "theme": "#E8F5F1",
+          "source": "SciTechDaily"
+        },
+        {
+          "id": "hw-2",
+          "title": "NYU Researchers Identify Seven Milk Molecules Linked to Nutrition and Baby Growth",
+          "image": "https://images.unsplash.com/photo-1608365151231-7dbed3034787?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8aW5mYW50JTIwZ3Jvd3RofGVufDF8MHx8fDE3OTIxMzkxMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Canada, Pakistan, and Burkina Faso",
+          "time": "Oct 16, 2026",
+          "content": "A team of researchers at NYU Grossman School of Medicine has identified seven molecules in human milk that could help explain how a mother's nutrition connects with her baby's growth. The study analyzed 1,543 milk samples from diverse populations and found that certain molecules, such as short-chain acylcarnitines, are associated with maternal nutritional status and infant growth. The researchers also found that maternal nutrition can influence the levels of these molecules in milk, potentially affecting the baby's growth.",
+          "theme": "#E8F5F1",
+          "source": "SciTechDaily"
+        },
+        {
+          "id": "hw-3",
+          "title": "Blueberry powder may ease mild depression in older adults",
+          "image": "https://images.unsplash.com/photo-1567805792275-f06dac23b338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Ymx1ZWJlcnJ5JTIwcG93ZGVyfGVufDF8MHx8fDE3OTIxMzk0MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Beth Israel Deaconess Medical Center and Harvard Medical School",
+          "time": "Oct 16, 2026",
+          "content": "A small study in older adults with mild depressive symptoms found that daily blueberry powder consumption may have a subtle effect on gut changes and mood improvement, but the connection between gut changes and mood is uncertain. The study, published in The Journal of Nutrition, Health and Aging, found that participants who consumed blueberry powder daily showed a greater reduction in depressive symptoms than those given a placebo, but the difference was not statistically significant. The researchers analyzed stool samples and found that blueberry compounds may modify the gut microbiome, which could potentially influence mood.",
+          "theme": "#E8F5F1",
+          "source": "SciTechDaily"
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "title": "Environment",
+      "eyebrow": "EARTH & ENVIRONMENT",
+      "description": "Climate, oceans, ecosystems and the changing planet around us.",
+      "accent": "#28705D",
+      "tint": "#E7F4EF",
+      "cards": [
+        {
+          "id": "env-1",
+          "title": "World Exceeds Seven Planetary Boundaries, Report Says",
+          "image": "https://images.pexels.com/photos/7152239/pexels-photo-7152239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Potsdam, Germany",
+          "time": "Oct 15, 2026",
+          "content": "According to a recent report, the world has exceeded seven out of nine planetary boundaries, which regulate the health of the planet. The four most transgressed boundaries include climate change, damage to ecosystems, changes to natural processes, and the introduction of new substances like plastic. Three boundaries have been crossed, while two remain within safe limits. A climate scientist notes that the report is global in scope, but regional variations can be seen, with strong pressures in South Asia and India.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth"
+        },
+        {
+          "id": "env-2",
+          "title": "Northern India Braces for Heavy Rainfall and Thunderstorms",
+          "image": "https://images.pexels.com/photos/12859195/pexels-photo-12859195.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "India",
+          "time": "Oct 15, 2026",
+          "content": "Heavy rainfall, thunderstorms, hailstorms, and gusty winds are forecasted for several regions in northern India, including Delhi-NCR, Punjab, Haryana, and Chandigarh, with orange alerts issued by the India Meteorological Department. Tamil Nadu, Kerala, and Puducherry are expected to receive heavy to very heavy rainfall as the northeast monsoon develops. Residents are advised to monitor official updates, exercise caution, and follow local advisories amid concerns over waterlogging, traffic congestion, lightning strikes, and crop damage.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth"
+        },
+        {
+          "id": "env-3",
+          "title": "Indonesia Reports 1.06 Million Wildfire Hotspots, 896,000 Hectares Burned",
+          "image": "https://images.pexels.com/photos/38601618/pexels-photo-38601618.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Indonesia",
+          "time": "Oct 15, 2026",
+          "content": "As of October 14 Indonesia has detected over 1.06 million wildfire hotspots surpassing the 885000 recorded in 2019. So far nearly 896000 hectares of land have burned mostly due to dry conditions and slash-and-burn practices. The situation is made worse by the ongoing Super El Niño which could make the fires harder to control and increase the risk of new outbreaks. Smoke from the fires has already spread to neighboring Malaysia and Singapore affecting air quality and public health.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth"
+        }
+      ]
+    },
+    {
+      "id": "entertainment",
+      "title": "Entertainment",
+      "eyebrow": "SPORTS & ENTERTAINMENT",
+      "description": "Stories from film, music, sports, culture and the world of entertainment.",
+      "accent": "#704A83",
+      "tint": "#F3ECF7",
+      "cards": [
+        {
+          "id": "ent-1",
+          "title": "La Bola Negra Nominated for Best Picture Academy Awards",
+          "image": "https://images.unsplash.com/photo-1527979809431-ea3d5c0c01c9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8ZmlsbSUyMGZlc3RpdmFsfGVufDF8MHx8fDE3OTIwNDc3NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Spain",
+          "time": "Oct 15, 2026",
+          "content": "A film called La Bola Negra is a contender for the Academy Awards' best picture prize. The movie tells three stories of gay men across a century in Spain exploring themes of love repression and self-punishment. The film has received critical acclaim and is a commercial hit in Spain. It's known for its beautiful visuals complex storyline and courage in showing sexual desire. The directors Javier Calvo and Javier Ambrossi have been praised for their work and the film's cast including Álvaro Lafuente Calvo and Carlos González have also received recognition.",
+          "theme": "#F3ECF7",
+          "source": "BBC"
+        },
+        {
+          "id": "ent-2",
+          "title": "Lena Dunham Revives Girls for Limited Run with Original Cast",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Lena_Dunham_at_Berlinale_2024.jpg/500px-Lena_Dunham_at_Berlinale_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "New York City, USA",
+          "time": "Oct 14, 2026",
+          "content": "Lena Dunham the creator of the popular TV show Girls announced that the show will return for a limited run after a 10-year hiatus. The revival will feature five episodes and reunite the original cast including Allison Williams Jemima Kirke Zosia Mamet and Andrew Rannells. Dunham said she's been missing the characters and that they started talking to her again around her 40th birthday. The show will explore what's happened to the characters since they were in their 20s.",
+          "theme": "#F3ECF7",
+          "source": "BBC"
+        },
+        {
+          "id": "ent-3",
+          "title": "Rob Brydon Voices New Animated \"The Baddies\" Adaptation",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Rob_Brydon_%26_Claire_Holland_at_BAFTAs_2026_01_%28cropped%29.jpg/500px-Rob_Brydon_%26_Claire_Holland_at_BAFTAs_2026_01_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "UK",
+          "time": "Oct 14, 2026",
+          "content": "Welsh actor Rob Brydon is voicing a new animated adaptation of the popular children's book \"The Baddies\" over the Christmas period. The story follows a troll a ghost and a witch as they try to steal a blue spotty hanky from a brave little girl. Brydon will be joined by Gavin and Stacey co-stars Sheridan Smith and Alison Steadman as well as Hammed Animashaun Robyn Cara and Francesca Mills. The half-hour special celebrates kindness and standing up to bullies and features beautiful animation.",
+          "theme": "#F3ECF7",
+          "source": "BBC"
+        }
+      ]
+    },
+    {
+      "id": "economy",
+      "title": "economy",
+      "eyebrow": "ECONOMY & BUSINESS",
+      "description": "Markets, businesses, trade and economic changes shaping the global economy.",
+      "accent": "#8A6A24",
+      "tint": "#F7F1DE",
+      "cards": [
+        {
+          "id": "eb-1",
+          "title": "UK Chancellor Plans to Tax Bank Sector",
+          "image": "https://images.pexels.com/photos/3395244/pexels-photo-3395244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
+          "time": "Oct 16, 2026",
+          "content": "UK Chancellor John Healey is planning to increase taxes on the bank sector, with the biggest four banks making about £15bn profit in the first six months of this year. The move has been met with resistance from the sector, which warns it will weaken competitiveness and discourage investment and job creation.",
+          "theme": "#F7F1DE",
+          "source": "BBC"
+        },
+        {
+          "id": "eb-2",
+          "title": "Primark to Launch Home Delivery in Britain Amid Online Shopping Boom",
+          "image": "https://images.pexels.com/photos/6868792/pexels-photo-6868792.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Peterborough, UK",
+          "time": "Oct 16, 2026",
+          "content": "Primark, a UK High Street retailer, plans to launch a home delivery service in Britain, allowing customers to shop from home. This move comes as online shopping continues to rise, with 27.3% of all retail sales in August coming from online. The decision is seen as a response to challenges from ultra-fast-fashion brands like Shein. For some customers, like Jess Bacon, shopping online is quicker and less hassle than in-store shopping.",
+          "theme": "#F7F1DE",
+          "source": "BBC"
+        },
+        {
+          "id": "eb-3",
+          "title": "UK Culture Secretary considers blocking Sky's ITV deal over free expression concerns",
+          "image": "https://images.unsplash.com/photo-1661347998996-dcf102498c63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8TWVkaWElMjBjb21wYW55JTIwbG9nb3xlbnwxfDB8fHwxNzkyMTE0NjA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 16, 2026",
+          "content": "UK Culture Secretary Lisa Nandy is considering blocking Sky's £1.6bn deal to buy ITV's media division, citing concerns that the tie-up could harm free expression and variety in British news. Nandy says the deal could undermine the range of views available to viewers, especially in the North of England and from lower socio-economic backgrounds. Sky and ITV have until October 20 to respond to Nandy's concerns.",
+          "theme": "#F7F1DE",
+          "source": "BBC"
+        }
+      ]
+    }
+  ]
+}

@@ -1,1 +1,61 @@
-[]
+[
+    {
+        "id": "st-7",
+        "source": "SciTechDaily",
+        "category": "health",
+        "title": "",
+        "date": "2026-10-16 11:32",
+        "content": "Seven molecules in human milk could help explain how a mother’s nutrition connects with her baby’s growth, offering a window into the biology of milk production. Human milk contains thousands of nutrients, metabolites, proteins, immune factors, and other molecules, yet researchers have often studied those components one at a time. Much remains unknown about how the gland that produces milk shapes this mixture and how differences in its composition relate to infant growth. By examining those molecules together, a team led by researchers at NYU Grossman School of Medicine identified seven candidate biomarkers associated with maternal nutritional status, infant growth, and biological processes within the mammary gland. Their study, published in Science , analyzed 1,543 milk samples from three geographically and nutritionally diverse cohorts in Canada, Pakistan, and Burkina Faso. The mammary gland prepares for milk production during pregnancy, undergoing hormonal changes that guide cell specialization, tissue and immune remodeling, and metabolic programming. Lactation becomes the main expression of that preparation after delivery. Like the placenta during pregnancy, the gland then serves as an interface between mother and child, connecting maternal biology and nutrition with the developing infant. “Human milk gives us a rare, non-invasive window into the biology of the lactating mammary gland,” said Liat Shenhav, PhD, the study’s senior author and an assistant professor at NYU Grossman School of Medicine, with appointments in the Institute for Systems Genetics, the Department of Microbiology, and the Department of Obstetrics and Gynecology. “By looking at molecular patterns across diverse populations, we can begin to identify shared features of mammary function and understand how maternal nutritional and metabolic state relates to milk composition and infant growth.” The study is one of two complementary papers published in Science from the International Milk Composition (IMiC) Consortium. Conducted in collaboration with Meghan Azad of the University of Manitoba and funded by the Gates Foundation, this international research effort brought together more than 1,000 mother-infant pairs and profiled more than 25,000 molecular features in human milk. For the NYU-led analysis, researchers integrated measurements of metabolites, proteins, micronutrients such as vitamins, macronutrients such as carbohydrates, and human milk oligosaccharides, a group of complex sugars. This approach, called multi-omics, examines several types of molecules together to build a fuller picture of a biological system. The team analyzed these measurements alongside infant growth data using computational tools, including machine learning, a form of artificial intelligence. In two randomized nutritional trials, maternal supplementation promoted recovery or stability in growth among infants at higher risk of poor growth. The molecular analyses also revealed a shared pattern in milk composition associated with both supplementation and infant growth. The companion study examined which milk components could be changed through maternal nutrition. It found that supplementation during lactation increased several B vitamins in milk, while many other components remained comparatively stable. “The studies show that human milk is neither fixed nor simply a reflection of what a mother eats,” said Shenhav. “Some components respond to maternal nutrition, while others remain stable or appear to reflect broader biological states within the mammary gland. Understanding that distinction is essential if we want to design interventions that meaningfully support maternal and infant health.” Mammary cells make and release milk components, while an epithelial barrier regulates what passes between the bloodstream and milk. Tissue remodeling reshapes the milk-producing tissue, and immune and repair processes protect the gland and help it recover from stress or injury. The researchers mapped milk’s molecular patterns onto these interconnected functions. Seven molecules contributed most consistently to the patterns associated with maternal nutritional status and infant growth. Four were short-chain acylcarnitines, called C2, C3, C4, and C5, which help cells process nutrients for energy. The remaining three were the amino acid lysine, the complex sugar 6′ sialyllactose, a human milk oligosaccharide, and the mineral selenium. Together, these candidate biomarkers captured complementary aspects of mammary function, extending beyond established measures of blood-milk barrier permeability, or how readily substances cross that barrier. The acylcarnitines showed the strongest links across the gland’s different functions, particularly C5. Higher C5 levels were associated with molecular signatures of reduced milk synthesis and with patterns related to tissue remodeling and immune activity. C5’s prominence prompted the researchers to examine how maternal nutrition might influence acylcarnitine levels. Acylcarnitine metabolism depends on coenzyme A, or CoA, a molecule central to energy and fat metabolism. The body makes CoA from pantothenic acid, better known as vitamin B5. Drawing on this established biology and associations across the cohorts, the researchers proposed that too little available vitamin B5 may restrict CoA-dependent metabolism and alter acylcarnitine profiles, potentially allowing C5 to accumulate. “Our findings demonstrate the intimate link between maternal nutrition, metabolic health and mammary function, highlighting the importance of an integrative approach to supporting maternal and infant health,” said first author Dr. April Jauhal of the Shenhav lab at NYU Grossman School of Medicine. “One plausible route linking maternal nutrition to mammary metabolism in our data is via the pantothenic-CoA-C5 metabolic pathway, and we are currently investigating the functional role of this pathway in mammary biology and lactation.” The Shenhav Lab is developing a framework that combines computational and experimental work to test potential nutritional bottlenecks that may constrain mammary metabolism and milk production. These include the proposed pathway involving vitamin B5, coenzyme A, and C5. “Ultimately, we want to understand milk in the context of the biology that produces it,” said Shenhav. “The mammary gland sits at a critical interface between maternal physiology and the developing infant. By understanding how maternal metabolism influences mammary function and milk composition, we can begin to uncover the biological pathways linking maternal nutritional status with infant growth.” Milk can be collected repeatedly without invasive procedures, allowing researchers to follow mammary biology over time. The lab is also studying colostrum, the earliest milk, and transitional milk, which precedes mature milk. Researchers want to understand how mammary functional states emerge during the transition from pregnancy to mature lactation, and whether early molecular changes in milk reflect the development of the gland’s metabolic, barrier, and secretory functions. Reference: “Shared patterns of human milk composition link mammary gland function to infant growth” by April Jauhal, Bianca Cordazzo-Vargas, Daniel Sunko, Pratima Niroula, Lishi Deng, Laeticia Celine Toe, Ameer Muhammad, Aneela Pasha, Yasir Shafiq, Naveed Iqbal, Waqasuddin Khan, Andrew Mertens, Kelsey Fehr, Joann M. McDermid, Melissa B. Manus, Chi-Hung Shu, Daniela Hampel, Setareh Shahab-Ferdows, Megan R. Beggs, Kim A. Lagerborg, Mohit Jain, Carl Lachat, Mark D. DeBoer, Jennifer Van Eyk, Natalie Rodriguez, Theo J. Moraes, Padmaja Subbarao, Alan Hubbard, Muhammad Imran Nisar, Lars Bode, Lindsay Allen, Donna Geddes, Michelle Kay McGuire, Nima Aghaeepour, Trenton Dailey-Chwalibóg, Fyezah Jehan, Meghan B. Azad and Liat Shenhav, 8 October 2026, Science . DOI: 10.1126/science.aee7240 The study was funded by the Gates Foundation (INV-001734, OPP1179727, and OPP1175213), the National Institutes of Health grant DP2AI185753, the Canadian Institutes of Health Research, the Allergy, Genes and Environment Network, Networks of Centres of Excellence (AllerGen NCE), Health Canada, Environment Canada, the Canada Mortgage and Housing Corporation, the Vital Pakistan Trust; the Burroughs Wellcome Fund; the March of Dimes; and the Alfred E. Mann Foundation. Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/whats-really-inside-breast-milk-scientists-discover-7-molecules-linked-to-how-babies-grow/",
+        "rank": 1,
+        "ranking_score": 0.17,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 0.17,
+            "base_score": 0.3,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.04,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 0,
+                "severity_tier": 1,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 30
+            }
+        }
+    }
+]
