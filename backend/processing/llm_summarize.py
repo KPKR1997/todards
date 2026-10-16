@@ -45,7 +45,7 @@ class LlmSummarizer:
         self.client = client or OllamaClient(
             base_url=self.base_url,
             model=self.model,
-            options={"num_predict": 2000},
+            options={"num_predict": 3000},
         )
 
         # Use a separate client because OllamaClient's model is configured at
@@ -53,7 +53,7 @@ class LlmSummarizer:
         self.validator_client = validator_client or OllamaClient(
             base_url=self.base_url,
             model=self.validator_model,
-            options={"num_predict": 2000, "temperature": 0},
+            options={"num_predict": 3000, "temperature": 0},
         )
 
     @staticmethod
