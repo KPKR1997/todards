@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 46",
+    "issue": "Issue No. 47",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,31 +21,31 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Peshawar School Roof Collapse Kills 33, Mostly Children",
-          "image": "https://images.pexels.com/photos/18940351/pexels-photo-18940351.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Peshawar, Pakistan",
+          "title": "French students protest university conditions and job prospects",
+          "image": "https://images.pexels.com/photos/4646785/pexels-photo-4646785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "France",
           "time": "Oct 16, 2026",
-          "content": "At least 33 people, including 32 children and one teacher, were killed when a school roof collapsed in Peshawar, Pakistan. The disaster occurred during class, trapping students under debris. The building's owner was arrested, and police promised a thorough investigation into building code violations. Emergency responders and local residents worked together to rescue over 20 children, but many were already dead. The school's structure was deemed",
+          "content": "Tens of thousands of students in France have been protesting for over three weeks, demanding better university conditions and job prospects. The protests are expected to continue this Saturday, with hundreds of new demonstrations announced across the country. Students will be joined by workers' unions and key figures from the",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Houthi missile attack kills two in Yemen's presidential palace",
-          "image": "https://images.pexels.com/photos/16907640/pexels-photo-16907640.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Aden, Yemen",
+          "title": "Taco Bell Cashier Planned Mass Shooting at Hindu Temple",
+          "image": "https://images.pexels.com/photos/19490613/pexels-photo-19490613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Aurora, USA",
           "time": "Oct 16, 2026",
-          "content": "Two security personnel were killed and many others injured in a Houthi missile attack on the presidential palace in Aden, Yemen. The attack, which also targeted the prime minister and other ministers, was condemned by Yemen's Prime Minister Shaya Zindani, who called it 'cowardly' and vowed the government would continue operations against the Houthis.",
+          "content": "A Taco Bell cashier, 19-year-old Alexandros Paporakis, allegedly plotted a mass shooting at a Hindu temple near Chicago. A colleague tipped off authorities after receiving concerning messages from Paporakis, who identified as a white supremacist and expressed hatred for non-white people. Police found writings outlining the plan and discovered Paporakis' home had a rifle, ammunition, and body armour, along with extremist ideology documents. The intended target implemented new security measures and Indian officials condemned the incident as a growing concern over racist hostility and anti-India hate in the US.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Israel Accused of Killing 254 in Gaza, Lebanon, West Bank, and Israel",
-          "image": "https://images.unsplash.com/photo-1660479644038-cceebdaa6bdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8R2F6YXxlbnwxfDB8fHwxNzkyMDkxNjk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global",
+          "title": "Fathom Sets Guinness Record with Nine Concerts in 12 Hours Across Australia",
+          "image": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8cm9jayUyMGNvbmNlcnR8ZW58MXwwfHx8MTc5MjExNDM0MXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Australia",
           "time": "Oct 16, 2026",
-          "content": "The Israeli military has been accused of killing or injuring 254 people in Gaza, Lebanon, the West Bank, and Israel, but has not publicly concluded investigations into most of these incidents. Using AI tools, BBC Verify found that the Israeli Defense Forces (IDF) said it was investigating each incident, but only 28 had public outcomes. The IDF has stated that it takes every allegation seriously and conducts investigations, but critics say the lack of transparency and accountability undermines the rule of law. The International Committee of the Red Cross emphasizes that investigations into potential violations of international humanitarian law should be as transparent as possible. Many incidents, including the killing of 93 people, including 11 children, in an air strike on a school building in Gaza, remain under investigation.",
+          "content": "Rock band Fathom set a Guinness World Record by performing nine concerts in 12 hours across multiple Australian cities, partnering with a mental health service. Meanwhile, a SpaceX rocket crashed into the Indian Ocean, a humpback whale freed itself, and police pursued a high-speed car chase. Additionally, a seven-year-old's song gained popularity, a children's cartoon was released in Indigenous language, and an elephant seal captured attention. Australian Prime Minister Anthony Albanese apologized for remarks about popstar Kylie Minogue, and a murder case anniversary was marked. Sports results included a US team winning against Australia's Socceroos. Farmers struggled with rodents, and a popular winter light show experienced a drone malfunction.",
           "theme": "#F7ECEE",
           "source": "BBC"
         }
@@ -61,33 +61,33 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Tesla Reveals Next-Gen Roadster Details on Thursday",
-          "image": "https://images.pexels.com/photos/30278476/pexels-photo-30278476.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "McGregor, Texas",
+          "title": "Big Tech invests in AI workforce with forward deployed engineers",
+          "image": "https://images.unsplash.com/photo-1709120395858-92f1c7c577f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8N3x8QUklMjBlbmdpbmVlcnxlbnwxfDB8fHwxNzkyMTEzODk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "AWS",
           "time": "Oct 16, 2026",
-          "content": "Tesla is set to show off its long-delayed next-generation Roadster on Thursday, almost a decade after taking deposits. The event will be livestreamed from a SpaceX test site in Texas, where executives will disclose pricing, details, and production targets. The high-end, low-volume model relies on SpaceX technology to enable it to hover.",
+          "content": "Big Tech companies are investing heavily to build a human workforce that can put their artificial intelligence technology to work in businesses. They're looking for specialists called forward deployed engineers, or FDEs, who combine AI and software expertise with knowledge of corporate operations. These FDEs will help turn powerful AI models into practical applications that deliver business results. The job market is competitive, with many companies, including Amazon Web Services, OpenAI, and Anthropic, investing in training programs to develop this expertise.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "st-2",
-          "title": "Apple and Meta team up on AI, release open model for developers",
-          "image": "https://images.pexels.com/photos/30227186/pexels-photo-30227186.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Cupertino, California, USA",
+          "title": "Memory chip stocks plummet amid Chinese competition concerns",
+          "image": "https://images.pexels.com/photos/37368170/pexels-photo-37368170.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Seoul, South Korea",
           "time": "Oct 16, 2026",
-          "content": "Apple and Meta, rivals for years, are collaborating on artificial intelligence. They've released a new AI model, Muse Spark Open, that developers can run on Apple's high-end desktop computers. This model is open-weight, meaning developers can download and use it on various hardware. The collaboration aims to make AI more accessible and secure, and could signal a deeper relationship between the two companies.",
+          "content": "Memory chip stocks have plummeted amid concerns over Chinese competition and oversupply. SK Hynix, Samsung, and Micron have all dropped significantly, with SK Hynix falling 26% and Samsung tanking 22%. The decline is attributed to the announcement of China's ChangXin Memory Technologies' plans to release a server memory product. Analysts question whether the Chinese company can scale production of the advanced technology, and some predict the supply-demand equation won't change. Meanwhile, traders are discussing comments from a South Korean publication warning of a potential slowdown in the AI boom and a",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "TSMC Struggles to Meet AI Chip Demand Despite Record Profits",
-          "image": "https://images.unsplash.com/photo-1601362220920-f7109ff01000?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8X1RhaXdhbiUyMFNlbWljb25kdWN0b3IlMjBNYW51ZmFjdHVyaW5nJTIwQ28lMjBsb2dvX3xlbnwxfDB8fHwxNzkyMDkxMzk3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Taiwan",
+          "title": "Scientists discover new dinosaur species Musango in Zimbabwe",
+          "image": "https://images.unsplash.com/photo-1559999127-b8b7f927dab8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c2F1cm9wb2RvbW9ycGglMjBkaW5vc2F1cnxlbnwxfDB8fHwxNzkyMTE0MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Zimbabwe",
           "time": "Oct 16, 2026",
-          "content": "Taiwan Semiconductor Manufacturing Co, the world's leading chip manufacturer, is struggling to keep up with demand for AI chips. Despite record profits, the company can't produce enough chips to meet customer needs. This shortage could impact the entire industry's ability to scale, as tech firms rely on TSMC for custom AI accelerators. With many companies vying for a piece of the action, competition is extremely fierce, and TSMC is working to bring more capacity online.",
+          "content": "{Scientists in Zimbabwe discovered a new dinosaur species, Musango, which is unique to the region. Musango was a bipedal, plant-eating dinosaur that lived around 210 million years ago. The discovery is significant because it reveals a distinct prehistoric community in Zimbabwe, which is different from the dinosaurs found in neighboring South Africa.}",
           "theme": "#EBF2FA",
-          "source": "CNBC"
+          "source": "SciTechDaily"
         }
       ]
     },
@@ -101,31 +101,31 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "NYU Researchers Identify Seven Biomarkers in Human Milk Linked to Nutrition and Infant Growth",
-          "image": "https://images.unsplash.com/photo-1602153508753-4ace888c10a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWlsayUyMGNvbXBvc2l0aW9ufGVufDF8MHx8fDE3OTIwOTA5MjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York City, USA",
+          "title": "US Vaccination Rates Decline Due to Parental Delay and Refusal",
+          "image": "https://images.pexels.com/photos/8376229/pexels-photo-8376229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "United States",
           "time": "Oct 16, 2026",
-          "content": "Researchers at NYU Grossman School of Medicine identified seven biomarkers in human milk that are linked to maternal nutrition, infant growth, and mammary gland function. The study, published in Science, analyzed over 1,500 milk samples from diverse populations and used multi-omics analysis to examine various molecular components. The findings suggest that human milk composition is not fixed, but rather influenced by maternal nutrition, and that some components respond to supplementation. The study's senior author, Liat Shenhav, emphasized the importance of understanding mammary function and milk composition to support maternal and infant health.",
+          "content": "Parents are increasingly delaying or refusing vaccines, citing logistics or wanting more time, rather than explicitly refusing them. This trend has led to a decline in vaccination rates, with 92.4% of kindergartners in the US having completed the recommended measles, mumps, and rubella series in the 2025-2026 school year, down from 95.2% in 2019-2020. As a result, there have been 4,080 confirmed cases of measles in 2026, a significant increase from previous years. Pediatricians are responding by shifting their approach to focus on 'not today' rather than explicit refusal, offering dates and times for follow-up appointments, and having nuanced conversations with parents about the risks and benefits of vaccines.",
           "theme": "#E8F5F1",
-          "source": "SciTechDaily"
+          "source": "CNN"
         },
         {
           "id": "hw-2",
-          "title": "Saline injections ease carpal tunnel symptoms for six months",
-          "image": "https://images.unsplash.com/photo-1611689102192-1f6e0e52df0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bmVydmUlMjBpbmplY3Rpb258ZW58MXwwfHx8MTc5MjA5MTAxMHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Jaipur, India",
+          "title": "Fat before glucose slows blood sugar spike in mice study",
+          "image": "https://images.unsplash.com/photo-1685485276223-0bb0226dcca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X2Jsb29kJTIwZ2x1Y29zZSUyMG1lYXN1cmVtZW50fGVufDF8MHx8fDE3OTIxMTM3MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kyoto, Japan",
           "time": "Oct 16, 2026",
-          "content": "A small study suggests that injecting saline into the wrist to relieve carpal tunnel symptoms can provide lasting relief, without using steroids. The study, published in Radiology, found that the procedure, called nerve hydrodissection, can reduce symptoms and pain for at least six months. The procedure uses ultrasound guidance to inject a small amount of saline around the affected nerve, and it was well-tolerated by patients. The study's findings indicate that hydrodissection may be a safe and minimally invasive treatment option for mild to moderate carpal tunnel syndrome, and it could potentially delay or even eliminate the need for surgery.",
+          "content": "Scientists found that giving mice fat before glucose slowed stomach emptying and reduced the early blood sugar spike. This suggests that a hormone that raises blood sugar may help regulate post-meal spikes when food order matters. Human studies have already shown that eating certain foods in a specific order can moderate blood sugar rises, a key treatment target in diabetes. Meal sequencing could offer a practical dietary strategy that changes eating order without eliminating foods.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily"
         },
         {
           "id": "hw-3",
-          "title": "Gene helps gut bacterium survive hospital disinfectants",
-          "image": "https://images.pexels.com/photos/5842066/pexels-photo-5842066.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Melbourne, Australia",
+          "title": "Empagliflozin drug cuts cardiovascular risk in two-week trial",
+          "image": "https://images.unsplash.com/photo-1628771065518-0d82f1938462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGlhYmV0ZXMlMjBtZWRpY2F0aW9ufGVufDF8MHx8fDE3OTIxMTM4MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Vanderbilt Health",
           "time": "Oct 16, 2026",
-          "content": "A newly discovered antibiotic resistance gene helps a harmful gut bacterium, Clostridioides difficile, build tougher spores that can survive hospital disinfectants. This gene, found by Monash University researchers, allows the bacterium to produce spores that can withstand hospital-grade cleaning products and high temperatures, making infections harder to control and allowing resistant strains to spread more easily.",
+          "content": "A diabetes medication, empagliflozin, has been found to alter the function of certain immune cells, potentially reducing inflammation and cardiovascular risk. In a small human clinical trial, the drug reduced clusters of immune cells and platelets associated with cardiovascular disease, with effects appearing after just two weeks.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily"
         }
@@ -221,31 +221,31 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "UK Banks Face Budget Target with £15bn Profits",
-          "image": "https://images.unsplash.com/photo-1628873690006-344e1f0b2b96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8dWslMjBlY29ub215fGVufDF8MHx8fDE3OTIwOTE3OTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "UK",
+          "title": "Synetal accused of failing to deliver on healthcare job promises",
+          "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8aGVhbHRoY2FyZSUyMHRyYWluaW5nfGVufDF8MHx8fDE3OTIxMTQ0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
           "time": "Oct 16, 2026",
-          "content": "Banking executives expect the sector to be targeted in the upcoming budget, as the UK's biggest banks made around £15bn in profit in the first half of the year. The sector has contributed nearly £40bn to the Treasury and paid a surcharge on corporation tax. There are several ways the chancellor could extract more money from the banks, including raising the surcharge or changing a tax rule that allows banks to offset past losses against profits.",
+          "content": "Synetal Solutions, a company promising healthcare jobs, has been accused of not delivering on its promises. Many people claim they were promised training and support to secure sponsored healthcare jobs that never materialised. Apurv Patel, one such individual, paid £3,600 for training and says he received poor quality training with no job offers or meaningful employment support. The company disputes claims of ineffective training, but critics describe its practices as",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-2",
-          "title": "UK Economy Defies Forecasts, Grows by 0.1%",
-          "image": "https://images.pexels.com/photos/32873339/pexels-photo-32873339.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 15, 2026",
-          "content": "UK Chancellor John Healey has hailed the country's economy as resilient after it grew by 0.1% in August, defying forecasts of a slight contraction. The growth was driven by an increase in production, including manufacturing, oil and gas extraction, and energy supply. The services sector was flat, while construction contracted. Healey has promised to use the budget to provide relief from cost of living and cost of business pressures, but did not elaborate on specific measures.",
+          "title": "Primark to Launch Home Delivery in Britain Amid Online Shopping Boom",
+          "image": "https://images.pexels.com/photos/6868792/pexels-photo-6868792.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Peterborough, UK",
+          "time": "Oct 16, 2026",
+          "content": "Primark, a UK High Street retailer, plans to launch a home delivery service in Britain, allowing customers to shop from home. This move comes as online shopping continues to rise, with 27.3% of all retail sales in August coming from online. The decision is seen as a response to challenges from ultra-fast-fashion brands like Shein. For some customers, like Jess Bacon, shopping online is quicker and less hassle than in-store shopping.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },
         {
           "id": "eb-3",
-          "title": "Government to Review Airport Drop-Off Charges After Prices Rise",
-          "image": "https://images.pexels.com/photos/39449155/pexels-photo-39449155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "UK",
-          "time": "Oct 15, 2026",
-          "content": "The government has agreed to review airport drop-off charges after prices rose by a third since summer 2025. Major UK airports like Gatwick and Stansted have seen fees jump from £7 to £10 while Edinburgh and Bournemouth airports have also increased their charges. The Department for Transport wants to ensure travel remains accessible and that passengers are treated fairly. The RAC a motoring organization has been campaigning against the increases saying they are a growing source of anger and frustration for drivers.",
+          "title": "UK Culture Secretary considers blocking Sky's ITV deal over free expression concerns",
+          "image": "https://images.unsplash.com/photo-1661347998996-dcf102498c63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8TWVkaWElMjBjb21wYW55JTIwbG9nb3xlbnwxfDB8fHwxNzkyMTE0NjA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 16, 2026",
+          "content": "UK Culture Secretary Lisa Nandy is considering blocking Sky's £1.6bn deal to buy ITV's media division, citing concerns that the tie-up could harm free expression and variety in British news. Nandy says the deal could undermine the range of views available to viewers, especially in the North of England and from lower socio-economic backgrounds. Sky and ITV have until October 20 to respond to Nandy's concerns.",
           "theme": "#F7F1DE",
           "source": "BBC"
         }

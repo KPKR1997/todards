@@ -1,17 +1,15 @@
 TODARDS LLM PIPELINE EVALUATION — 16102026
-Execution timestamp: 2026-10-16T00:46:33.892727
-Pipeline duration: 34.9 minutes
+Execution timestamp: 2026-10-16T07:06:55.774282
+Pipeline duration: 36.0 minutes
 
 Here is the evaluation:
 
-**Overall Run Health:** The pipeline run appears healthy, with no significant anomalies or failures reported. The duration of 34.9 minutes is within the expected range, considering the historical evidence.
+**Overall Run Health:** The pipeline duration is 36 minutes, which is 3% longer than the previous recorded run. This increase in duration may warrant investigation. The scraped article volume has increased by 1 article compared to the previous run, which is a minor change. The semantic deduplication process removed 45 duplicate articles, which is a relatively stable performance.
 
-**Scrape Volume:** The scraped article volume remains consistent at 120, with no notable changes or anomalies.
+**Scrape Volume:** The total scraped volume is 123 articles, with the majority coming from the "People" category (71 articles). The "Environment" category had no scraped articles, which may be a cause for investigation.
 
-**Semantic Deduplication:** The deduplication process removed 46 duplicate articles, which is a reasonable percentage of the total scraped volume (38.3%). This suggests that the deduplication algorithm is functioning correctly.
+**Semantic Deduplication:** The deduplication process removed 45 duplicate articles, which is a relatively stable performance. The number of duplicate pairs found is 77, with 26 duplicate clusters. The published duplicates removed is 12, which is a minor change.
 
-**Source/Category Ingestion Anomalies:** There are no reported anomalies or rejections in the guardrail or category validation stages.
+**LLM Performance:** The LLM made 195 calls, with 0 failures. The average response time is 1.44 seconds, which is a stable performance.
 
-**LLM Performance:** The LLM performance metrics indicate no failures and an average response time of 1.55 seconds, which is within the expected range.
-
-**Next Practical Check:** Review the category validation status and rejected count to ensure that the pipeline is correctly categorizing and validating the scraped articles. Additionally, monitor the LLM performance metrics to ensure that the language model is responding correctly to queries.
+**Next Practical Check:** Investigate the increase in pipeline duration and the lack of scraped articles in the "Environment" category.
