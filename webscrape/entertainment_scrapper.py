@@ -4,7 +4,7 @@ import re
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 # ============================================================
 # COMMON DATE HELPERS
 # ============================================================
@@ -712,6 +712,132 @@ class BBCEntertainmentScraper:
         )
         return articles
 # ============================================================
+# ACADEMY AWARDS / OSCARS SCRAPER
+# ============================================================
+class AcademyAwardsEntertainmentScraper:
+    """Fetch Oscars press-release cards dated today or yesterday."""
+
+    def __init__(self, url="https://press.oscars.org/tag/press-release", domain="https://press.oscars.org/"):
+        self.url = url
+        self.domain = domain
+        self.headers = {
+            "User-Agent": (
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/153.0.0.0 Safari/537.36"
+            ),
+            "Accept": (
+                "text/html,application/xhtml+xml,application/xml;"
+                "q=0.9,image/avif,image/webp,*/*;q=0.8"
+            ),
+            "Accept-Language": "en-US,en;q=0.9",
+            "Referer": url,
+        }
+        self.session = requests.Session()
+        self.session.headers.update(self.headers)
+
+    @staticmethod
+    def _parse_card_date(value):
+        if not value:
+            return None
+        value = re.sub(r"\s+", " ", value).strip()
+        for fmt in ("%A, %B %d, %Y", "%B %d, %Y", "%A, %b %d, %Y", "%b %d, %Y"):
+            try:
+                return datetime.strptime(value, fmt).date()
+            except ValueError:
+                continue
+        return None
+
+    def get_section_links(self):
+        try:
+            response = self.session.get(self.url, timeout=20)
+            response.raise_for_status()
+        except requests.RequestException as exc:
+            print(f"Academy Awards section failed: {exc}")
+            return []
+
+        soup = BeautifulSoup(response.text, "html.parser")
+        today = date.today()
+        allowed_dates = {today, today - timedelta(days=1)}
+        article_urls = []
+        seen_urls = set()
+
+        for card in soup.select("div.card-article"):
+            date_element = card.select_one("div.card-article__date")
+            if date_element is None:
+                continue
+
+            published_date = self._parse_card_date(
+                date_element.get_text(" ", strip=True)
+            )
+            if published_date not in allowed_dates:
+                continue
+
+            link = card.select_one("a.card-article__link[href], a[href]")
+            if link is None:
+                continue
+
+            article_url = urljoin(self.domain, link.get("href", "").strip())
+            if not article_url.startswith(("http://", "https://")):
+                continue
+            if article_url not in seen_urls:
+                seen_urls.add(article_url)
+                article_urls.append(article_url)
+
+        return article_urls
+
+    def scrape_content(self, links):
+        articles = []
+        for link in links:
+            try:
+                response = self.session.get(link, timeout=20)
+                response.raise_for_status()
+            except requests.RequestException as exc:
+                print(f"Academy Awards article failed: {link} ({exc})")
+                continue
+
+            soup = BeautifulSoup(response.text, "html.parser")
+            headline = soup.find("h1")
+            title = headline.get_text(" ", strip=True) if headline else ""
+
+            body = soup.select_one("div.news__body")
+            if body is None:
+                # Fallback selectors in case the publisher changes its markup.
+                body = soup.select_one("article")
+
+            if body is None:
+                print(f"No Academy Awards article body found: {link}")
+                continue
+
+            paragraphs = [
+                paragraph.get_text(" ", strip=True)
+                for paragraph in body.find_all("p")
+            ]
+            content = re.sub(r"\s+", " ", " ".join(p for p in paragraphs if p)).strip()
+            if not content:
+                print(f"No Academy Awards article text found: {link}")
+                continue
+
+            # Keep the publisher's displayed card date as the article date where
+            # available; the URL list already guarantees today/yesterday.
+            published_date = ""
+            date_meta = soup.find("meta", attrs={"property": "article:published_time"})
+            if date_meta and date_meta.get("content"):
+                published_date = date_meta["content"].strip()
+            if not published_date:
+                published_date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
+
+            articles.append({
+                "title": title,
+                "date": published_date,
+                "content": content,
+                "url": link,
+            })
+
+        return articles
+
+
+# ============================================================
 # MAIN NTERTAINMENT SCRAPER
 # ============================================================
 class EntertainmentDataScrapper:
@@ -833,6 +959,96 @@ class EntertainmentDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
+
+        #BBC Music Scrapper
+        BBCEntertainment = BBCEntertainmentScraper(
+                    url="https://www.bbc.com/culture/music",
+                    domain="https://www.bbc.com",
+                    title_class="h2"
+                )
+        BBCEntertainment_links = (
+            BBCEntertainment.get_section_links()
+        )
+        print(BBCEntertainment_links)
+        BBC_data = (
+            BBCEntertainment.scrape_content(
+                BBCEntertainment_links
+            )
+        )
+        print(BBC_data)
+        for article in BBC_data:
+            entertainment_data.append({
+                "id": (
+                    f"{self.category}-"
+                    f"{len(entertainment_data) + 1}"
+                ),
+                "source": 
+                    "BBC"
+                ,
+                "category": self.category,
+                "title": article["title"],
+                "date": article["date"],
+                "content": article["content"],
+                "url": article["url"]
+            })
+
+        #BBC Film & TV Scrapper
+        BBCEntertainment = BBCEntertainmentScraper(
+                    url="https://www.bbc.com/culture/film-tv",
+                    domain="https://www.bbc.com",
+                    title_class="h2"
+                )
+        BBCEntertainment_links = (
+            BBCEntertainment.get_section_links()
+        )
+        print(BBCEntertainment_links)
+        BBC_data = (
+            BBCEntertainment.scrape_content(
+                BBCEntertainment_links
+            )
+        )
+        print(BBC_data)
+        for article in BBC_data:
+            entertainment_data.append({
+                "id": (
+                    f"{self.category}-"
+                    f"{len(entertainment_data) + 1}"
+                ),
+                "source": 
+                    "BBC"
+                ,
+                "category": self.category,
+                "title": article["title"],
+                "date": article["date"],
+                "content": article["content"],
+                "url": article["url"]
+            })
+        # ====================================================
+        # ACADEMY AWARDS / OSCARS PRESS RELEASES
+        # ====================================================
+        try:
+            AcademyAwards = AcademyAwardsEntertainmentScraper(
+                url="https://press.oscars.org/tag/press-release",
+                domain="https://press.oscars.org/",
+            )
+            AcademyAwards_links = AcademyAwards.get_section_links()
+            print(f"Academy Awards links found: {len(AcademyAwards_links)}")
+            AcademyAwards_data = AcademyAwards.scrape_content(AcademyAwards_links)
+            for article in AcademyAwards_data:
+                entertainment_data.append({
+                    "id": f"{self.category}-{len(entertainment_data) + 1}",
+                    "source": "Academy Awards",
+                    "category": self.category,
+                    "title": article["title"],
+                    "date": article["date"],
+                    "content": article["content"],
+                    "url": article["url"],
+                })
+        except Exception as exc:
+            # A failure in this additional source must not prevent other
+            # entertainment sources from being saved.
+            print(f"Academy Awards scraper failed: {exc}")
+
         # ====================================================
         # SAVE JSON
         # ====================================================

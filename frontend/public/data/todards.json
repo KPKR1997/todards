@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 47",
+    "issue": "Issue No. 48",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,33 +21,33 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "French students protest university conditions and job prospects",
-          "image": "https://images.pexels.com/photos/4646785/pexels-photo-4646785.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "France",
+          "title": "Boy, 16, shoots three children, teacher in Oregon school attack",
+          "image": "https://images.pexels.com/photos/14189248/pexels-photo-14189248.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Bend, Oregon",
           "time": "Oct 16, 2026",
-          "content": "Tens of thousands of students in France have been protesting for over three weeks, demanding better university conditions and job prospects. The protests are expected to continue this Saturday, with hundreds of new demonstrations announced across the country. Students will be joined by workers' unions and key figures from the",
+          "content": "In Oregon, a 16-year-old boy forced his way into a primary school, shooting dead three children and a teacher. A bystander killed the attacker and police arrived three minutes later. The victims were aged 5, 8, and 11, and a 7-year-old and the teacher were taken to the hospital in critical condition.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-2",
-          "title": "Taco Bell Cashier Planned Mass Shooting at Hindu Temple",
-          "image": "https://images.pexels.com/photos/19490613/pexels-photo-19490613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Aurora, USA",
+          "title": "Pakistan school roof collapses, killing 33 students and teacher",
+          "image": "https://images.pexels.com/photos/18940342/pexels-photo-18940342.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Peshawar, Pakistan",
           "time": "Oct 16, 2026",
-          "content": "A Taco Bell cashier, 19-year-old Alexandros Paporakis, allegedly plotted a mass shooting at a Hindu temple near Chicago. A colleague tipped off authorities after receiving concerning messages from Paporakis, who identified as a white supremacist and expressed hatred for non-white people. Police found writings outlining the plan and discovered Paporakis' home had a rifle, ammunition, and body armour, along with extremist ideology documents. The intended target implemented new security measures and Indian officials condemned the incident as a growing concern over racist hostility and anti-India hate in the US.",
+          "content": "A school roof collapsed in Pakistan's Peshawar, killing at least 33 students and a teacher, with over a dozen injured. Police have arrested the school's owner and promised an investigation into building code violations.",
           "theme": "#F7ECEE",
           "source": "BBC"
         },
         {
           "id": "pp-3",
-          "title": "Fathom Sets Guinness Record with Nine Concerts in 12 Hours Across Australia",
-          "image": "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8cm9jayUyMGNvbmNlcnR8ZW58MXwwfHx8MTc5MjExNDM0MXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Australia",
+          "title": "US Intelligence Briefing on Foreign Threats Canceled Due to Technical Issues",
+          "image": "https://images.unsplash.com/photo-1476421069425-cc6d5d3cfd5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8RWxlY3Rpb24lMjBPZmZpY2V8ZW58MXwwfHx8MTc5MjE0MDU1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
           "time": "Oct 16, 2026",
-          "content": "Rock band Fathom set a Guinness World Record by performing nine concerts in 12 hours across multiple Australian cities, partnering with a mental health service. Meanwhile, a SpaceX rocket crashed into the Indian Ocean, a humpback whale freed itself, and police pursued a high-speed car chase. Additionally, a seven-year-old's song gained popularity, a children's cartoon was released in Indigenous language, and an elephant seal captured attention. Australian Prime Minister Anthony Albanese apologized for remarks about popstar Kylie Minogue, and a murder case anniversary was marked. Sports results included a US team winning against Australia's Socceroos. Farmers struggled with rodents, and a popular winter light show experienced a drone malfunction.",
+          "content": "US intelligence officials cancelled a classified briefing for election officials about foreign threats due to technical difficulties. The briefing was supposed to discuss threats from Russia, Iran, and China, but was abruptly cancelled 15-30 minutes after starting. Election officials from across the country were left frustrated, having rearranged their schedules for the briefing.",
           "theme": "#F7ECEE",
-          "source": "BBC"
+          "source": "CNN"
         }
       ]
     },
@@ -61,33 +61,33 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Big Tech invests in AI workforce with forward deployed engineers",
-          "image": "https://images.unsplash.com/photo-1709120395858-92f1c7c577f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8N3x8QUklMjBlbmdpbmVlcnxlbnwxfDB8fHwxNzkyMTEzODk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "AWS",
+          "title": "Scientists Discover New Giant Isopod Species in Puerto Rico Specimen",
+          "image": "https://images.unsplash.com/photo-1753601142029-1c73caaa470b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Z2lhbnQlMjBpc29wb2R8ZW58MXwwfHx8MTc5MjEzOTU0Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Tübingen, Germany",
           "time": "Oct 16, 2026",
-          "content": "Big Tech companies are investing heavily to build a human workforce that can put their artificial intelligence technology to work in businesses. They're looking for specialists called forward deployed engineers, or FDEs, who combine AI and software expertise with knowledge of corporate operations. These FDEs will help turn powerful AI models into practical applications that deliver business results. The job market is competitive, with many companies, including Amazon Web Services, OpenAI, and Anthropic, investing in training programs to develop this expertise.",
+          "content": "Scientists at the University of Tübingen have discovered a new species of giant isopod, a deep-sea crustacean, in a specimen collected in Puerto Rico in the 1980s. The species, named Bathynomus tuebingoborikensis, is a",
           "theme": "#EBF2FA",
-          "source": "CNBC"
+          "source": "SciTechDaily"
         },
         {
           "id": "st-2",
-          "title": "Memory chip stocks plummet amid Chinese competition concerns",
-          "image": "https://images.pexels.com/photos/37368170/pexels-photo-37368170.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Seoul, South Korea",
+          "title": "Anthropic partners with nonprofits for AI safety evaluations",
+          "image": "https://images.pexels.com/photos/8439002/pexels-photo-8439002.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Menlo Ventures",
           "time": "Oct 16, 2026",
-          "content": "Memory chip stocks have plummeted amid concerns over Chinese competition and oversupply. SK Hynix, Samsung, and Micron have all dropped significantly, with SK Hynix falling 26% and Samsung tanking 22%. The decline is attributed to the announcement of China's ChangXin Memory Technologies' plans to release a server memory product. Analysts question whether the Chinese company can scale production of the advanced technology, and some predict the supply-demand equation won't change. Meanwhile, traders are discussing comments from a South Korean publication warning of a potential slowdown in the AI boom and a",
+          "content": "Artificial intelligence lab Anthropic has partnered with nonprofits METR and SecureBio, and is discussing collaborations with other organizations, including Hugging Face, to embed independent evaluators within the company. These evaluators will help verify Anthropic's adherence to safety practices, with varying levels of access to the company and its resources.",
           "theme": "#EBF2FA",
           "source": "CNBC"
         },
         {
           "id": "t-3",
-          "title": "Scientists discover new dinosaur species Musango in Zimbabwe",
-          "image": "https://images.unsplash.com/photo-1559999127-b8b7f927dab8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c2F1cm9wb2RvbW9ycGglMjBkaW5vc2F1cnxlbnwxfDB8fHwxNzkyMTE0MDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Zimbabwe",
+          "title": "Nvidia CEO Advocates for Dialogue on AI Risks with Chinese Firms",
+          "image": "https://images.unsplash.com/photo-1770169272345-9636d5ef2681?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8QUklMjBsYWJ8ZW58MXwwfHx8MTc5MjEzOTk4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
           "time": "Oct 16, 2026",
-          "content": "{Scientists in Zimbabwe discovered a new dinosaur species, Musango, which is unique to the region. Musango was a bipedal, plant-eating dinosaur that lived around 210 million years ago. The discovery is significant because it reveals a distinct prehistoric community in Zimbabwe, which is different from the dinosaurs found in neighboring South Africa.}",
+          "content": "Nvidia CEO Jensen Huang emphasized the importance of working with Chinese AI companies to monitor the risks of AI technology, stating that dialogue is the key to advancing the tech safely. Huang believes that the UK, with its intellectual capital, is well-positioned to facilitate these dialogues on AI, which have become a key topic between the US and Chinese governments.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily"
+          "source": "CNBC"
         }
       ]
     },
@@ -101,31 +101,31 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "US Vaccination Rates Decline Due to Parental Delay and Refusal",
-          "image": "https://images.pexels.com/photos/8376229/pexels-photo-8376229.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "United States",
+          "title": "Saline injections ease carpal tunnel symptoms, study shows",
+          "image": "https://images.pexels.com/photos/5723260/pexels-photo-5723260.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Jaipur, India",
           "time": "Oct 16, 2026",
-          "content": "Parents are increasingly delaying or refusing vaccines, citing logistics or wanting more time, rather than explicitly refusing them. This trend has led to a decline in vaccination rates, with 92.4% of kindergartners in the US having completed the recommended measles, mumps, and rubella series in the 2025-2026 school year, down from 95.2% in 2019-2020. As a result, there have been 4,080 confirmed cases of measles in 2026, a significant increase from previous years. Pediatricians are responding by shifting their approach to focus on 'not today' rather than explicit refusal, offering dates and times for follow-up appointments, and having nuanced conversations with parents about the risks and benefits of vaccines.",
+          "content": "A small clinical trial found that injecting saline into the wrist under ultrasound guidance can provide long-lasting relief from carpal tunnel symptoms, even without adding steroids. The study involved 63 patients and showed that the saline injection procedure, called nerve hydrodissection, can be an effective and safe treatment option for mild to moderate carpal tunnel syndrome.",
           "theme": "#E8F5F1",
-          "source": "CNN"
+          "source": "SciTechDaily"
         },
         {
           "id": "hw-2",
-          "title": "Fat before glucose slows blood sugar spike in mice study",
-          "image": "https://images.unsplash.com/photo-1685485276223-0bb0226dcca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X2Jsb29kJTIwZ2x1Y29zZSUyMG1lYXN1cmVtZW50fGVufDF8MHx8fDE3OTIxMTM3MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Kyoto, Japan",
+          "title": "NYU Researchers Identify Seven Milk Molecules Linked to Nutrition and Baby Growth",
+          "image": "https://images.unsplash.com/photo-1608365151231-7dbed3034787?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8aW5mYW50JTIwZ3Jvd3RofGVufDF8MHx8fDE3OTIxMzkxMjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Canada, Pakistan, and Burkina Faso",
           "time": "Oct 16, 2026",
-          "content": "Scientists found that giving mice fat before glucose slowed stomach emptying and reduced the early blood sugar spike. This suggests that a hormone that raises blood sugar may help regulate post-meal spikes when food order matters. Human studies have already shown that eating certain foods in a specific order can moderate blood sugar rises, a key treatment target in diabetes. Meal sequencing could offer a practical dietary strategy that changes eating order without eliminating foods.",
+          "content": "A team of researchers at NYU Grossman School of Medicine has identified seven molecules in human milk that could help explain how a mother's nutrition connects with her baby's growth. The study analyzed 1,543 milk samples from diverse populations and found that certain molecules, such as short-chain acylcarnitines, are associated with maternal nutritional status and infant growth. The researchers also found that maternal nutrition can influence the levels of these molecules in milk, potentially affecting the baby's growth.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily"
         },
         {
           "id": "hw-3",
-          "title": "Empagliflozin drug cuts cardiovascular risk in two-week trial",
-          "image": "https://images.unsplash.com/photo-1628771065518-0d82f1938462?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGlhYmV0ZXMlMjBtZWRpY2F0aW9ufGVufDF8MHx8fDE3OTIxMTM4MDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Vanderbilt Health",
+          "title": "Blueberry powder may ease mild depression in older adults",
+          "image": "https://images.unsplash.com/photo-1567805792275-f06dac23b338?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Ymx1ZWJlcnJ5JTIwcG93ZGVyfGVufDF8MHx8fDE3OTIxMzk0MDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Beth Israel Deaconess Medical Center and Harvard Medical School",
           "time": "Oct 16, 2026",
-          "content": "A diabetes medication, empagliflozin, has been found to alter the function of certain immune cells, potentially reducing inflammation and cardiovascular risk. In a small human clinical trial, the drug reduced clusters of immune cells and platelets associated with cardiovascular disease, with effects appearing after just two weeks.",
+          "content": "A small study in older adults with mild depressive symptoms found that daily blueberry powder consumption may have a subtle effect on gut changes and mood improvement, but the connection between gut changes and mood is uncertain. The study, published in The Journal of Nutrition, Health and Aging, found that participants who consumed blueberry powder daily showed a greater reduction in depressive symptoms than those given a placebo, but the difference was not statistically significant. The researchers analyzed stool samples and found that blueberry compounds may modify the gut microbiome, which could potentially influence mood.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily"
         }
@@ -221,11 +221,11 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Synetal accused of failing to deliver on healthcare job promises",
-          "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8aGVhbHRoY2FyZSUyMHRyYWluaW5nfGVufDF8MHx8fDE3OTIxMTQ0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
+          "title": "UK Chancellor Plans to Tax Bank Sector",
+          "image": "https://images.pexels.com/photos/3395244/pexels-photo-3395244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
           "time": "Oct 16, 2026",
-          "content": "Synetal Solutions, a company promising healthcare jobs, has been accused of not delivering on its promises. Many people claim they were promised training and support to secure sponsored healthcare jobs that never materialised. Apurv Patel, one such individual, paid £3,600 for training and says he received poor quality training with no job offers or meaningful employment support. The company disputes claims of ineffective training, but critics describe its practices as",
+          "content": "UK Chancellor John Healey is planning to increase taxes on the bank sector, with the biggest four banks making about £15bn profit in the first six months of this year. The move has been met with resistance from the sector, which warns it will weaken competitiveness and discourage investment and job creation.",
           "theme": "#F7F1DE",
           "source": "BBC"
         },

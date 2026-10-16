@@ -1,13 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 
 
 
 def get_section_links():
-    url = "https://www.unep.org/en/news-and-stories/press-release"
-    domain = "https://www.unep.org/en/"
+    url = "https://press.oscars.org/tag/press-release"
+    domain = "https://press.oscars.org/"
     headers = {
         "User-Agent": (
             "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -27,52 +27,50 @@ def get_section_links():
         response.text,
         "html.parser"
     )
-    urls = []
+    article_urls = []
+    seen_urls = set()
 
-    # Current UTC time
-    now = datetime.now(timezone.utc)
-    # Time 24 hours ago
-    cutoff = now - timedelta(hours=24)
+    today = date.today()
+    allowed_dates = {today, today - timedelta(days=3)}
 
-    sections = soup.find_all(
-        "div", class_ = "views-row"
-    )
-
-    print(f"Found {len(sections)} headline links")
-
-
-
-    for section in sections:
-        # Get publication time from the same views-row
-        time_tag = section.find("time", class_="datetime")
-
-        if not time_tag or not time_tag.get("datetime"):
+    for card in soup.select("div.card-article"):
+        date_element = card.select_one("div.card-article__date")
+        if not date_element:
             continue
 
-        published_at = datetime.fromisoformat(
-            time_tag["datetime"]
-        )
+        date_text = date_element.get_text(" ", strip=True)
 
-        # Convert publication time to UTC
-        published_at = published_at.astimezone(timezone.utc)
+        parsed_date = None
+        for fmt in ("%A, %B %d, %Y", "%B %d, %Y"):
+            try:
+                parsed_date = datetime.strptime(date_text, fmt).date()
+                break
+            except ValueError:
+                continue
 
-        # Keep articles published within the past 24 hours
-        if cutoff <= published_at <= now:
-            link_tag = section.find("a", href=True)
+        if parsed_date not in allowed_dates:
+            continue
 
-            if link_tag:
-                link = urljoin(domain, link_tag["href"])
-                urls.append(link)
+        link = card.select_one("a.card-article__link[href], a[href]")
+        if not link:
+            continue
 
-    print(f"Found {len(urls)} links published in the past 24 hours")
+        article_url = urljoin(domain, link["href"])
 
-    return urls
+        if article_url not in seen_urls:
+            seen_urls.add(article_url)
+            article_urls.append(article_url)
+
+    return article_urls
+
+    
+
 
 
 def scrape_content(url_list):
     paragraphs = []
     for url in url_list:
-        domain = "https://www.unep.org/en/"
+        domain = "https://press.oscars.org/"
         headers = {
                 "User-Agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -89,7 +87,7 @@ def scrape_content(url_list):
         response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.text, "html.parser")
-        sections = soup.find("div", class_="arr--story-page-card-wrapper").find_all("p")
+        sections = soup.find("div", class_="news__body").find("p")
         text = ""
         for section in sections:
                 para = section.get_text(strip=True)
@@ -98,9 +96,3 @@ def scrape_content(url_list):
     print(paragraphs)
     return paragraphs
 
-
-if __name__ == "__main__":
-        links = get_section_links()
-        print("\nFINAL LINKS:")
-        print(links)
-        # scrape_content(links)

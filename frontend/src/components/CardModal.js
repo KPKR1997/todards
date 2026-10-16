@@ -37,7 +37,7 @@ export function openArticleModal(card = {}, section = {}) {
         <p>${card.content || ''}</p>
         <br />
         <p style="color: var(--text-secondary); font-style: italic; font-size: 0.95rem;">
-          source: ${card.source}
+          source: <a href="${card.url}" target="_blank" rel="noopener noreferrer">${card.source}</a>
         </p>
       </div>
     </div>

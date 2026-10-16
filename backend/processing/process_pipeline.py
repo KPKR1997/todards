@@ -73,6 +73,7 @@ class MainProcessPipeline:
             category = section.get("category", "")
             title = section.get("title", "")
             source = section.get("source", "")
+            url = section.get("url", "")
 
             if progress_tracker:
                 progress_tracker.update_status(
@@ -140,7 +141,7 @@ class MainProcessPipeline:
 
             if not matched_image_url:
                 # Ultimate fallback image if image search yields nothing
-                matched_image_url = "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=800&q=80"
+                matched_image_url = "https://images.unsplash.com/photo-1504711331083-9c895941bf81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
                 logger.warning(f"No image found for '{headline[:30]}'. Using fallback.")
 
             feed_data.append({
@@ -152,6 +153,7 @@ class MainProcessPipeline:
                 "time": datetime.now().strftime("%b %d, %Y"),
                 "content": summarized_content,
                 "source": source,
+                "url": url
             })
 
         return feed_data
