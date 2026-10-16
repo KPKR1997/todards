@@ -6,7 +6,60 @@ from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime, timezone, timedelta
 
-
+# ============================================================
+# COMMON DATE HELPERS
+# ============================================================
+def get_24_hour_window():
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=24)
+    return now, cutoff
+def parse_datetime(value):
+    if not value:
+        return None
+    value = value.strip()
+    try:
+        # ISO format
+        parsed = datetime.fromisoformat(
+            value.replace("Z", "+00:00")
+        )
+    except ValueError:
+        # Common fallback formats
+        formats = [
+            "%Y-%m-%d %H:%M:%S",
+            "%Y-%m-%d %H:%M",
+            "%Y/%m/%d %H:%M:%S",
+            "%Y/%m/%d %H:%M",
+            "%B %d, %Y %H:%M",
+            "%b %d, %Y %H:%M",
+        ]
+        parsed = None
+        for fmt in formats:
+            try:
+                parsed = datetime.strptime(
+                    value,
+                    fmt
+                )
+                break
+            except ValueError:
+                continue
+        if parsed is None:
+            return None
+    # If datetime has no timezone,
+    # treat it as UTC.
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(
+            tzinfo=timezone.utc
+        )
+    return parsed
+def is_within_last_24_hours(published_time):
+    if published_time is None:
+        return False
+    now, cutoff = get_24_hour_window()
+    return (
+        cutoff
+        <= published_time
+        <= now
+    )
 # ============================================================
 # DOWN TO EARTH ENVIRONMENT SCRAPER
 # ============================================================

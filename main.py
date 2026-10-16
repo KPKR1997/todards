@@ -370,6 +370,7 @@ def main():
             existing_card["time"] = new_card["time"]
             existing_card["content"] = new_card["content"]
             existing_card["source"] = new_card["source"]
+            existing_card["url"] = new_card["url"]
 
         updated_sections_count += 1
 

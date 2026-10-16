@@ -4,7 +4,7 @@ Todards Pipeline — Local RAG Historical Archive
 Maintains a persistent vector store of published articles in ChromaDB.
 Zero external API cost; uses local sentence-transformers for embeddings.
 """
-
+import chromadb
 import logging
 from datetime import datetime
 from pathlib import Path
@@ -46,7 +46,7 @@ class HistoricalArticleArchive:
             return
 
         try:
-            import chromadb
+            
             from chromadb.config import Settings
             from sentence_transformers import SentenceTransformer
 

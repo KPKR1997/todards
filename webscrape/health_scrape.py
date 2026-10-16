@@ -5,13 +5,14 @@ from urllib.parse import urljoin
 from datetime import datetime, timedelta, timezone
 import json
 import re
-def combine_data(main_list, source, content, category):
+def combine_data(main_list, source, content, category, url):
     serial_number = len(main_list) + 1
     main_list.append({
         "id": f"{category.lower()}-{serial_number}",
         "source": source,
         "category": category,
-        "content": content
+        "content": content,
+        "url": url
     })
     return main_list
 # ============================================================
