@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 54",
+    "issue": "Issue No. 55",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Israeli Settlers Attack Palestinians in West Bank, Injuring 12",
-          "image": "https://images.pexels.com/photos/19458227/pexels-photo-19458227.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "West Bank",
+          "title": "Teacher, Bystander Stop School Shooter, Killing Attacker",
+          "image": "https://images.unsplash.com/photo-1788808785746-74ab223b2b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c2Nob29sJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc5MjIwMTE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Bend, USA",
           "time": "Oct 17, 2026",
-          "content": "Dozens of masked Israeli settlers attacked Palestinians and set fire to cars and olive trees in the West Bank, injuring 12 people, including four US citizens. A BBC team witnessed the violence, which is part of a pattern of attacks on the annual olive harvest, with over 120 people injured and one killed this year.",
+          "content": "An Oregon teacher, attempting to stop a 16-year-old student who opened fire on a special education class, was aided by a bystander who shot and killed the student. The bystander, identified by the student's family as Kaylub Giamanco, had been driving by the school when he saw the student firing. He quickly grabbed his own .40-caliber pistol and intervened, firing multiple times and stopping the student. The attack left three children and a teacher dead, and two others injured. Police credited the teacher's and Giamanco's actions with saving lives.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c65ynk7212vqo"
+          "url": "https://www.bbc.com/news/articles/cv98zw1k8kp3o"
         },
         {
           "id": "pp-2",
-          "title": "Carney Warns of High Stakes in Alberta Independence Vote",
-          "image": "https://images.unsplash.com/photo-1530025809667-1f4bcff8e60f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q2FuYWRpYW4lMjBmbGFnfGVufDF8MHx8fDE3OTIxNzY0NDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Calgary, Canada",
+          "title": "Unprecedented protests erupt in Albania's major cities",
+          "image": "https://images.pexels.com/photos/25070208/pexels-photo-25070208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Tirana, Albania",
           "time": "Oct 17, 2026",
-          "content": "Canadian Prime Minister Mark Carney urged Albertans to vote against independence, warning that the stakes are high and turnout will determine the outcome. He also cautioned that separation could be exploited by external forces seeking to break Canada. With early voting already underway, Carney is scheduled to attend pro-unity rallies in Calgary and Edmonton ahead of the October 19 referendum.",
+          "content": "Albania has seen unprecedented protests with clashes between protesters and anti-riot police in major cities. The protests started as a student movement demanding education fee and cost of living reforms, but escalated into violent scenes with stone-throwing, water cannon, and tear gas. The government has accused opposition leader Sali Berisha of instigating chaos, while protesters say they are seeking justice for corruption allegations against ministers. The violence has spread to several cities, and the government has warned that it tarnishes Albania's image and affects its European path.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c9rky2vrr5vzo"
+          "url": "https://www.bbc.com/news/articles/cqdjv90d1jpko"
         },
         {
           "id": "pp-3",
-          "title": "UK Bans Online Pornography Showing Violence",
-          "image": "https://images.pexels.com/photos/9766672/pexels-photo-9766672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "England and Wales",
+          "title": "Pastor and wife charged with kidnapping in South Africa",
+          "image": "https://images.pexels.com/photos/26800347/pexels-photo-26800347.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Mpumalanga, South Africa",
           "time": "Oct 17, 2026",
-          "content": "From November 6, it will be illegal in England and Wales to possess or publish online pornography showing strangulation, incestuous relationships, or adults role-playing as children under 16. The new rules aim to curb the normalization of violent and harmful content and help prevent real-life harm.",
+          "content": "A pastor and his wife in South Africa were arrested and charged with kidnapping after authorities found over 200 people, some in chains, being held at an illegal rehabilitation center in Mpumalanga province. The facility had grossly inhumane conditions, with patients found with sores and others chained together. The couple is expected to appear in court on Monday.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmpqgepejr2ro"
+          "url": "https://www.bbc.com/news/articles/cmwyvxj49gpwo"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "New dinosaur species found in Zimbabwe: Musango unveiled",
-          "image": "https://images.pexels.com/photos/33722897/pexels-photo-33722897.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Zimbabwe",
+          "title": "Losing Species Hurts Ecosystem Benefits, Study Reveals",
+          "image": "https://images.pexels.com/photos/21701090/pexels-photo-21701090.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
           "time": "Oct 17, 2026",
-          "content": "Scientists have discovered a new dinosaur species, Musango, in Zimbabwe, which is unlike any found in South Africa. The fossil, a bipedal sauropodomorph, is about 4.5 meters long and weighed 220 kg. It's part of a distinct prehistoric community in Zimbabwe, which has its own unique dinosaur species unlike those found in neighboring countries.",
+          "content": "Scientists have found that losing species can have a significant impact on the benefits that ecosystems provide, such as pollination, clean water, and carbon storage. The largest global study of its kind combined data from over 400 studies and found that as biodiversity rises, these benefits also increase. The study suggests that ecosystems have less spare capacity than previously thought, and that species losses can have a cumulative effect on the benefits they provide. The research also found that some ecosystem services, such as marine carbon sequestration, are more sensitive to biodiversity than others.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/zimbabwes-ancient-dinosaurs-were-nothing-like-scientists-expected/"
+          "url": "https://scitechdaily.com/scientists-discover-nature-has-far-fewer-backup-plans-than-we-thought/"
         },
         {
           "id": "st-2",
-          "title": "US Warns of Growing Foreign Espionage in AI Development",
-          "image": "https://images.unsplash.com/photo-1770171323762-7b9a517a7094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8QXJ0aWZpY2lhbCUyMEludGVsbGlnZW5jZSUyMHRlY2hub2xvZ3l8ZW58MXwwfHx8MTc5MjE3NTgyOXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "120-million-year-old meat-eating dinosaur species found in Britain",
+          "image": "https://images.unsplash.com/photo-1534534502714-2828e7c540d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8cHJlaGlzdG9yaWMlMjBza3VsbHxlbnwxfDB8fHwxNzkyMjAwNzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "UK",
           "time": "Oct 17, 2026",
-          "content": "US Director of National Intelligence Jay Clayton warns that foreign espionage attempts are a growing concern as the US competes with other countries in the development of artificial intelligence. He says the threat is real and that both US companies and the government need to be cautious, citing a recent case where a Saudi national was accused of installing a recording device at an OpenAI conference room. Clayton leads a White House AI task force that aims to stay ahead of foreign competitors, including China, Russia, Iran, and North Korea.",
+          "content": "A 120-million-year-old dinosaur fossil, previously unknown and unnoticed for nearly a century, has been identified as a new species of meat-eating dinosaur called Invictibellatrix amberina. The dinosaur, roughly the size of a large tiger, lived in what is now Britain and was a member of the megaraptoran group, which was previously unknown in Europe. The discovery was made by a research team led by University College London using a fossil originally found on the Isle of Wight. The team used computed tomography to examine the fossil and compared it to other carnivorous dinosaurs to confirm its identity.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/scientists-discover-a-terrifying-new-dinosaur-hidden-for-100-years/"
         },
         {
           "id": "t-3",
-          "title": "Gemsbok spread in New Mexico since 1960s, climate change may favor them",
-          "image": "https://images.pexels.com/photos/13407065/pexels-photo-13407065.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "New Mexico, USA",
+          "title": "US scientists discover more efficient nuclear fusion process",
+          "image": "https://images.unsplash.com/photo-1693203498992-68efb8adccc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8bnVjbGVhciUyMGZ1c2lvbnxlbnwxfDB8fHwxNzkyMjAwODI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Princeton, USA",
           "time": "Oct 17, 2026",
-          "content": "Gemsbok, African antelopes, have spread in New Mexico's dry rangelands since being introduced in the 1960s and 1970s. Climate change could give them an advantage over native wildlife as conditions become more widespread, potentially leading to competition for food and habitat.",
+          "content": "Scientists at the US Department of Energy's Princeton Plasma Physics Laboratory have discovered a potentially more efficient way to achieve nuclear fusion, the process that powers the Sun. By changing the order in which plasma is heated and compressed, researchers found that dramatically less energy is needed to reach ignition, a crucial milestone in the pursuit of practical fusion power. The new approach could lead to better designs and operations for fusion machines, which are being developed to generate electricity for the power grid.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/climate-change-could-unleash-an-african-antelope-invasion-across-the-american-west/"
+          "url": "https://scitechdaily.com/scientists-discover-a-surprising-shortcut-to-nuclear-fusion/"
         }
       ]
     },
@@ -150,25 +150,25 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Shepherd loses 100 sheep and goats in Indian avalanche",
-          "image": "https://images.pexels.com/photos/34382075/pexels-photo-34382075.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Himachal Pradesh, India",
+          "title": "Global Deforestation Drops 15%, Still Off Track to Meet Goal",
+          "image": "https://images.unsplash.com/photo-1645430785800-d7d0daac9c5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8ZGVmb3Jlc3RhdGlvbiUyMHN0YXRpc3RpY3N8ZW58MXwwfHx8MTc5MjE3MjYwMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
           "time": "Oct 17, 2026",
-          "content": "In October 2025, a 50-year-old shepherd named Joginder Chand and four others lost over 100 sheep and goats in an unexpected avalanche while migrating through the Jarol Jot pass in Himachal Pradesh, India.",
+          "content": "Global deforestation declined by 15% in 2025 to seven million hectares, but the world remains off track to meet its goal of halting deforestation by 2030. Although the decline is the sharpest since the 2018-2020 baseline, a 10.7 million hectare deforestation reduction shortfall has accumulated since 2021, and only 17.33% of the world's land and inland waters are protected.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/disrupted-rhythms-how-climate-change-affects-himalayan-pastoralism"
+          "url": "https://www.downtoearth.org.in/forests/global-deforestation-falls-15-per-cent-but-world-remains-off-track-to-meet-2030-forest-goals-report"
         },
         {
           "id": "env-2",
-          "title": "India hit by heavy rainfall, orange alerts issued",
-          "image": "https://images.pexels.com/photos/32770117/pexels-photo-32770117.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Southern India",
-          "time": "Oct 16, 2026",
-          "content": "India faces heavy rainfall, with orange alerts issued for Tamil Nadu and South Interior Karnataka. Southern states are likely to experience intense rainfall, flash floods, and waterlogging, while other regions may see thunderstorms and strong winds. Delhi and surrounding areas can expect cloudy skies, light showers, and gusty winds, with temperatures ranging from 18 to 31 degrees Celsius. The weather department has warned of lightning and winds reaching 40-50 kmph, advising residents to be cautious and avoid flooded areas.",
+          "title": "NASA Astronaut Shows Ancient Moon Rock Formation in Madagascar",
+          "image": "https://images.unsplash.com/photo-1604499077368-9e99fb04754c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c3BhY2UlMjByb2NrfGVufDF8MHx8fDE3OTIyMDIwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Madagascar",
+          "time": "Oct 17, 2026",
+          "content": "A NASA astronaut took a photo from the International Space Station that shows a 600-million-year-old rock formation in Madagascar, which shares a surprising connection with the Moon. The rock, anorthosite, is found on the Moon's surface and in a few places on Earth, including Madagascar, where it forms a distinctive circular feature that stands out in photographs taken from space.",
           "theme": "#E7F4EF",
-          "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-southwest-monsoon-withdraws-but-heavy-rain-threat-persists-across-southern-india"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/nasa-captures-a-strange-formation-on-earth-with-a-surprising-lunar-connection/"
         },
         {
           "id": "env-3",
@@ -228,14 +228,14 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Landfill operators ordered to use drones to track odour-causing chemicals",
-          "image": "https://images.pexels.com/photos/4454064/pexels-photo-4454064.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "California, USA",
+          "title": "US-Iran tensions: Record 12 ships attacked in Strait of Hormuz",
+          "image": "https://images.pexels.com/photos/35767025/pexels-photo-35767025.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Strait of Hormuz",
           "time": "Oct 17, 2026",
-          "content": "Residents in Milpitas, California, have long dealt with strong smells from industrial sites, including a massive landfill. Despite some improvements, the odours still affect many people daily. To tackle the problem, the landfill operators have been ordered to use drones and monitoring systems to track and measure the chemicals causing the smells. This data-driven approach aims to pinpoint and fix issues in real-time, making life more bearable for those affected.",
+          "content": "A record 12 ships reported being attacked in and around the Strait of Hormuz between October 5 and 11, with 6 vessels struck on Sunday alone, the largest weekly number since the US-Israeli war with Iran began. The attacks have slowed the recovery in oil shipments through the strait, with industry data suggesting a decrease in shipments. The US military says commercial traffic continues to flow through the strait with coordinated protection from US forces and regional partners.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cr6240q1w136o"
+          "url": "https://www.bbc.com/news/articles/cmde8dpg8g0no"
         },
         {
           "id": "eb-2",

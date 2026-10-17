@@ -1,0 +1,61 @@
+[
+    {
+        "id": "pp-3",
+        "source": "BBC",
+        "category": "economy",
+        "title": "Ship attack reports near Hormuz reach record high as oil exports slow",
+        "date": "2026-10-16 05:00",
+        "content": "The number of ships that have reported being attacked in and around the Strait of Hormuz has hit a record high, BBC Verify analysis of data from a UK maritime agency shows. Twelve vessels were attacked between 5 and 11 October - the largest number of weekly strikes reported to the UK's Maritime Trade Operations (UKMTO) agency since the US-Israeli war with Iran began. The previous week saw 10 ships reporting attacks. Six of the vessels were struck last Sunday, according to the UKMTO - a one-day high. So far this week, there have been four reported attacks. As the number of strikes has risen, the recovery in oil shipments through the strait seen last month has slowed, industry data suggests. BBC Verify collated incident reports published by the UKMTO on its website and created a timeline based on the first date cited in each report. This is approximate because some incidents use the date of the attack and some the date on which it was reported. Experts say Tehran has been attacking ships in an effort to assert greater control over the waterway as the US military has increased the number of tankers it is shepherding through the south of the strait to evade Iranian strikes. Iran is also carrying out more attacks on vessels further away from the Strait of Hormuz, according to experts. The US military's Central Command, which oversees operations in the Middle East, posted on social media that despite the attacks \"commercial traffic continues to flow through the Strait of Hormuz with co-ordinated protection from US forces and regional partners\". The aftermath of one of Sunday's six reported attacks was captured in verified footage showing the Nicaragua-flagged tanker Petro Dolphin on fire, as filmed by the crew on a smaller boat nearby. The vessel was struck by a drone close to the Sohar Anchorage, Oman, more than 250km (150 miles) from the strait, according to the maritime intelligence firm Vanguard. Eleven Indian seafarers were rescued but two are still missing, the Forward Seamen's Union of India said. Attacks have continued this week with the container ship GFS Pride sinking after a strike by an unknown projectile in the strait on Tuesday. Twenty-one crew were safely evacuated. Iran's Islamic Revolutionary Guard Corps (IRGC) published footage of what appeared to be the same ship sinking. It said the vessel was carrying \"2,500 containers of contraband\" and had taken an \"unauthorised route\". Middle East oil exports have slowed as the number of ship strikes has risen. About 12.6 million barrels per day went through the strait on 13 October, below the 15 million reported at the end of September, data from trade intelligence firm Kpler shows. This compares with a pre-war baseline of some 17 million barrels per day. The recent increase in attacks comes as US Navy data indicates the number of vessels given assistance to navigate the Strait of Hormuz during the first 10 days of October was up 85% compared with the same period in August. Most of the oil being shipped from Gulf Arab states recently has been carried using a \"shuttle\" system where a fleet of tankers load up and sail through the strait before transferring their cargo to larger tankers in the Gulf of Oman. These shuttle ships use a route close to Oman's coastline. Iran says this is \"unauthorised\" and insist vessels take an alternative route closer to its own shore. So-called assisted transits were a key factor in helping drive oil flows from the Middle East back towards pre-war levels in September. This does not include Iranian exports which have completely stalled as a result of the US blockade of Iranian ports and ships. Martin Kelly, CEO of Orbital Risk Intelligence, said Iran has \"evolved its strategy\" in response to this loosening of its control over the strait and has been carrying out \"near daily or multiple attacks every single day\". \"The aim here is to stop the ships going through and to deter others,\" he added. The IRGC's navy has said strikes would not be \"limited to the Strait of Hormuz\" and later announced a \"new deployment formation\" across the region, according to state media. Martin Kelly told BBC Verify that Iran is widening its attacks and targeting ships near the coast of Gulf Arab states and in the Gulf of Oman. A tanker was struck by multiple projectiles north of Qatar on Thursday 8 October, more than 500km (310 miles) from the strait, resulting in multiple reported casualties, according to Vanguard. Another tanker was attacked close to the UAE town of Al-Jazirah al-Hamra on Friday 9 October, Vanguard said. Verified footage shows crew members running across the deck and putting on lifejackets as a large cloud of black smoke rises over the ship. Additional reporting by Becky Dale Graphics by Tom Shiel and Mark Edwards A man set fire to a memorial wall to destroy a photo of Iran's former Crown Prince, court told. The BBC's Sarah Smith travelled across the state ahead of the midterms, as the president faces political headwinds. Protests have taken place over the rules which have seen pupils wearing hijabs turned away from schools. All 21 sailors on the Singapore-flagged GFS Pride were evacuated safely after it was hit by an projectile on Tuesday, maritime authorities say. BBC Security Correspondent Frank Gardner analyses what intelligence agency's boss said in his annual speech and what it means for Britain. Copyright 2026 BBC. All rights reserved. The BBC is not responsible for the content of external sites. Read about our approach to external linking.",
+        "url": "https://www.bbc.com/news/articles/cmde8dpg8g0no",
+        "rank": 1,
+        "ranking_score": 0.7,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 0.7,
+            "base_score": 1.27,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 0,
+                "severity_tier": 1,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 50,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 3,
+                "public_need_to_know": 4,
+                "public_concern": 3,
+                "technology_significance": 2
+            }
+        }
+    }
+]
