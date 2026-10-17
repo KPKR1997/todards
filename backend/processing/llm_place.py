@@ -88,6 +88,8 @@ class LlmPlacefinder:
                         Geneva, Switzerland
                         Global
 
+                        Ensure youself that you are returning a valid place string
+
                         NEWS PARAGRAPH:
                         {content}
                         """

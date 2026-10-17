@@ -85,6 +85,34 @@ class OllamaClient:
         if not isinstance(content, str) or not content.strip():
             raise ValueError("Ollama returned empty or non-text message content.")
         return content.strip()
+    
+    @staticmethod
+    def _response_usage(data) -> dict:
+        """Extract token counts and server timings from an Ollama response."""
+        if not isinstance(data, dict):
+            data = {}
+
+        def token_count(key):
+            value = data.get(key)
+            if isinstance(value, int) and not isinstance(value, bool) and value >= 0:
+                return value
+            return None
+
+        def duration_seconds(key):
+            value = data.get(key)
+            if isinstance(value, (int, float)) and not isinstance(value, bool):
+                if value >= 0:
+                    return value / 1_000_000_000
+            return None
+
+        return {
+            "prompt_tokens": token_count("prompt_eval_count"),
+            "response_tokens": token_count("eval_count"),
+            "prompt_eval_seconds": duration_seconds("prompt_eval_duration"),
+            "generation_seconds": duration_seconds("eval_duration"),
+            "load_seconds": duration_seconds("load_duration"),
+            "server_total_seconds": duration_seconds("total_duration"),
+        }
 
     @staticmethod
     def _safe_log_metric(metrics, **kwargs) -> None:
@@ -97,6 +125,7 @@ class OllamaClient:
             logger.warning("Could not record Ollama metrics: %s", exc)
 
     def _post_chat(self, payload: dict):
+        payload.setdefault("keep_alive", "30m")
         response = requests.post(
             f"{self.base_url}/api/chat",
             json=payload,
@@ -138,6 +167,7 @@ class OllamaClient:
             start_time = time.monotonic()
             content = ""
             elapsed = 0.0
+            data = None
 
             try:
                 data = self._post_chat(payload)
@@ -154,6 +184,7 @@ class OllamaClient:
                     response_length=len(content),
                     elapsed=elapsed,
                     success=True,
+                    **self._response_usage(data),
                 )
                 logger.debug(
                     "Ollama call succeeded: %s (%.1fs)",
@@ -187,6 +218,7 @@ class OllamaClient:
                         response_length=0,
                         elapsed=elapsed,
                         success=False,
+                        **self._response_usage(data),
                     )
 
         raise RuntimeError(
@@ -195,7 +227,7 @@ class OllamaClient:
         ) from last_error
 
     def generate_raw(self, prompt: str, role: str = "system") -> str:
-        """Generate and return raw text; keeps the existing public signature."""
+        """Generate raw text and record call duration and Ollama usage."""
         if not isinstance(prompt, str) or not prompt.strip():
             raise ValueError("prompt must be a non-empty string")
 
@@ -205,16 +237,36 @@ class OllamaClient:
             "stream": False,
             "options": self.options,
         }
+
         self.total_calls += 1
         start_time = time.monotonic()
+        data = None
+        content = ""
+        success = False
+
         try:
             data = self._post_chat(payload)
-            return self._extract_content(data)
+            content = self._extract_content(data)
+            success = True
+            return content
+
         except Exception:
             self.total_failures += 1
             raise
+
         finally:
-            self.total_time += time.monotonic() - start_time
+            elapsed = time.monotonic() - start_time
+            self.total_time += elapsed
+
+            self._safe_log_metric(
+                self.metrics,
+                model=self.model,
+                prompt_length=len(prompt),
+                response_length=len(content),
+                elapsed=elapsed,
+                success=success,
+                **self._response_usage(data),
+            )
 
     @staticmethod
     def _extract_json(text: str) -> dict:

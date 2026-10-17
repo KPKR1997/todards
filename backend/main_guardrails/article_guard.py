@@ -62,6 +62,7 @@ class ArticleSafetyGuard:
             base_url=OLLAMA_BASE_URL,
             model=self.model,
             timeout=self.timeout,
+            metrics_collector=getattr(client, "metrics", None),
         )
 
         # Scalar fields are report-friendly and do not change article schemas.

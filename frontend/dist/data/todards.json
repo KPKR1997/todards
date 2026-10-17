@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 55",
+    "issue": "Issue No. 56",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Teacher, Bystander Stop School Shooter, Killing Attacker",
-          "image": "https://images.unsplash.com/photo-1788808785746-74ab223b2b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c2Nob29sJTIwc2VjdXJpdHl8ZW58MXwwfHx8MTc5MjIwMTE0OHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Bend, USA",
+          "title": "Last beluga whale leaves Marineland amid welfare concerns",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Oceanogr%C3%A0fic_29102004.jpg/500px-Oceanogr%C3%A0fic_29102004.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Canada",
           "time": "Oct 17, 2026",
-          "content": "An Oregon teacher, attempting to stop a 16-year-old student who opened fire on a special education class, was aided by a bystander who shot and killed the student. The bystander, identified by the student's family as Kaylub Giamanco, had been driving by the school when he saw the student firing. He quickly grabbed his own .40-caliber pistol and intervened, firing multiple times and stopping the student. The attack left three children and a teacher dead, and two others injured. Police credited the teacher's and Giamanco's actions with saving lives.",
+          "content": "A beluga whale named Tofino was the last of 30 belugas and four dolphins to leave a Canadian sea park, Marineland, after it was shut down due to animal welfare concerns. The whales were relocated to various aquariums, but five belugas and one dolphin have died since the move. The relocation was done to prevent euthanasia, but experts say it's too early to judge the outcome, considering the whales were facing euthanasia and had been living in an ageing facility.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cv98zw1k8kp3o"
+          "url": "https://www.bbc.com/news/articles/c623dnn3xvpko"
         },
         {
           "id": "pp-2",
-          "title": "Unprecedented protests erupt in Albania's major cities",
-          "image": "https://images.pexels.com/photos/25070208/pexels-photo-25070208.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Tirana, Albania",
+          "title": "German Police Detain Russian Man Over 2024 Cyber-Attack on London Hospitals",
+          "image": "https://images.pexels.com/photos/34258666/pexels-photo-34258666.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
           "time": "Oct 17, 2026",
-          "content": "Albania has seen unprecedented protests with clashes between protesters and anti-riot police in major cities. The protests started as a student movement demanding education fee and cost of living reforms, but escalated into violent scenes with stone-throwing, water cannon, and tear gas. The government has accused opposition leader Sali Berisha of instigating chaos, while protesters say they are seeking justice for corruption allegations against ministers. The violence has spread to several cities, and the government has warned that it tarnishes Albania's image and affects its European path.",
+          "content": "A 28-year-old Russian man, Vladimir K, accused of being part of a cyber-crime gang called Qilin, has been detained by German police. The gang is suspected of hacking a blood testing company in 2024, disrupting services at several London hospitals and potentially contributing to a patient's death. German police are investigating the incident as part of their inquiry into Vladimir K and his associates.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqdjv90d1jpko"
+          "url": "https://www.bbc.com/news/articles/c9vgr61kml3mo"
         },
         {
           "id": "pp-3",
-          "title": "Pastor and wife charged with kidnapping in South Africa",
-          "image": "https://images.pexels.com/photos/26800347/pexels-photo-26800347.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Mpumalanga, South Africa",
+          "title": "German Heiress on Trial for Abducting Children in Custody Battle",
+          "image": "https://images.unsplash.com/photo-1575550597081-13c89a6aedf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y3VzdG9keSUyMGJhdHRsZXxlbnwxfDB8fHwxNzkyMjE5NzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Hamburg, Germany",
           "time": "Oct 17, 2026",
-          "content": "A pastor and his wife in South Africa were arrested and charged with kidnapping after authorities found over 200 people, some in chains, being held at an illegal rehabilitation center in Mpumalanga province. The facility had grossly inhumane conditions, with patients found with sores and others chained together. The couple is expected to appear in court on Monday.",
+          "content": "A wealthy German heiress, Christina Block, is on trial for allegedly ordering the violent abduction of her children from Denmark during a custody battle. The case has sparked Germany's biggest espionage scandal in recent history. In a surprising twist, Germany's former intelligence chief, August Hanning, was arrested for treason and espionage, unrelated to Block's trial.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmwyvxj49gpwo"
+          "url": "https://www.bbc.com/news/articles/cwvgdn3d656vo"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Losing Species Hurts Ecosystem Benefits, Study Reveals",
-          "image": "https://images.pexels.com/photos/21701090/pexels-photo-21701090.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
+          "title": "Bee Colony Viewed as Single Living Organism, Like Mammals",
+          "image": "https://images.pexels.com/photos/6594653/pexels-photo-6594653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Finland",
           "time": "Oct 17, 2026",
-          "content": "Scientists have found that losing species can have a significant impact on the benefits that ecosystems provide, such as pollination, clean water, and carbon storage. The largest global study of its kind combined data from over 400 studies and found that as biodiversity rises, these benefits also increase. The study suggests that ecosystems have less spare capacity than previously thought, and that species losses can have a cumulative effect on the benefits they provide. The research also found that some ecosystem services, such as marine carbon sequestration, are more sensitive to biodiversity than others.",
+          "content": "A new study suggests that a honey bee colony is more than just a group of insects, but a single living organism that develops, reproduces, and ages like a mammal. The colony's development is compared to that of a mammal, with stages from embryo to adult, and it even undergoes biological aging and eventually dies after several years. This perspective could challenge common practices in modern beekeeping and raise questions about the colony's reproductive and developmental cycle.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-nature-has-far-fewer-backup-plans-than-we-thought/"
+          "url": "https://scitechdaily.com/scientists-say-that-a-honey-bee-colony-may-actually-be-a-single-living-organism/"
         },
         {
           "id": "st-2",
-          "title": "120-million-year-old meat-eating dinosaur species found in Britain",
-          "image": "https://images.unsplash.com/photo-1534534502714-2828e7c540d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8cHJlaGlzdG9yaWMlMjBza3VsbHxlbnwxfDB8fHwxNzkyMjAwNzEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "UK",
+          "title": "Astronomers Find Green White Dwarf Star Defying Temperature-Dependent Colors",
+          "image": "https://images.pexels.com/photos/20694891/pexels-photo-20694891.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Warwick, England",
           "time": "Oct 17, 2026",
-          "content": "A 120-million-year-old dinosaur fossil, previously unknown and unnoticed for nearly a century, has been identified as a new species of meat-eating dinosaur called Invictibellatrix amberina. The dinosaur, roughly the size of a large tiger, lived in what is now Britain and was a member of the megaraptoran group, which was previously unknown in Europe. The discovery was made by a research team led by University College London using a fossil originally found on the Isle of Wight. The team used computed tomography to examine the fossil and compared it to other carnivorous dinosaurs to confirm its identity.",
+          "content": "Astronomers have discovered a white dwarf star that would appear green to human eyes, breaking the temperature-dependent color limitations of most stars. The green star's unique color is caused by the interaction between helium in its atmosphere and other elements. This find can be used as a diagnostic tool to measure the chemistry of planetary material and shed light on the formation of planets.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-terrifying-new-dinosaur-hidden-for-100-years/"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/16/science/green-star-discovery-scli-intl"
         },
         {
           "id": "t-3",
-          "title": "US scientists discover more efficient nuclear fusion process",
-          "image": "https://images.unsplash.com/photo-1693203498992-68efb8adccc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8bnVjbGVhciUyMGZ1c2lvbnxlbnwxfDB8fHwxNzkyMjAwODI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Princeton, USA",
+          "title": "Webb Telescope Captures First View of Distant Brown Dwarf's Weather",
+          "image": "https://images.unsplash.com/photo-1707058665476-c1dccc63a5c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YnJvd24lMjBkd2FyZnxlbnwxfDB8fHwxNzkyMjE5MzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Arizona, USA",
           "time": "Oct 17, 2026",
-          "content": "Scientists at the US Department of Energy's Princeton Plasma Physics Laboratory have discovered a potentially more efficient way to achieve nuclear fusion, the process that powers the Sun. By changing the order in which plasma is heated and compressed, researchers found that dramatically less energy is needed to reach ignition, a crucial milestone in the pursuit of practical fusion power. The new approach could lead to better designs and operations for fusion machines, which are being developed to generate electricity for the power grid.",
+          "content": "The James Webb Space Telescope has captured the first detailed view of the weather on a distant brown dwarf, WISE 0855, which is 7.5 light-years away. Astronomers used the telescope to track the object's weather patterns over 11 hours, observing changes in water clouds and atmospheric gases. The findings, published in The Astrophysical Journal, provide the most detailed time-series view yet of this cold neighbor and offer the first direct confirmation that water clouds on another world change thickness over time, similar to Earth's weather.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-surprising-shortcut-to-nuclear-fusion/"
+          "url": "https://scitechdaily.com/webb-discovers-something-extraordinary-in-the-clouds-of-a-world-with-no-sun/"
         }
       ]
     },
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Sardinian Village Has High Rate of Centenarian Women",
-          "image": "https://images.pexels.com/photos/38047689/pexels-photo-38047689.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Sardinia, Italy",
-          "time": "Oct 16, 2026",
-          "content": "A Sardinian village, Bolotana, has an unusually high number of centenarians, with women having an exceptional pattern of survival after age 70. Researchers found that women in Bolotana have a 13.8% chance of living to 100, compared to 3.5% in Italy and 3.6% in the US. The village's historical records, dating back centuries, allowed the researchers to independently verify ages and reconstruct residents' life histories.",
+          "title": "Roller Coaster Death Sparks Safety Questions",
+          "image": "https://images.unsplash.com/photo-1504711331083-9c895941bf81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
+          "place": "Atlanta, USA",
+          "time": "Oct 17, 2026",
+          "content": "The death of a man on a roller coaster at Six Flags Over Georgia raises questions about amusement park safety. Dr. Leana Wen, a CNN wellness expert, explains that serious injuries are rare, but not unheard of, and can occur due to the physical forces experienced during a ride. She notes that certain people, such as those with medical conditions or neck or back problems, may be more vulnerable to injury. Wen emphasizes that most people can enjoy amusement parks safely, but it's essential to be aware of the potential risks and take precautions, such as reading ride safety requirements and not riding if you don't meet the physical requirements or have a medical condition that makes the ride unsafe.",
           "theme": "#E8F5F1",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-uncover-a-longevity-hotspot-where-reaching-100-is-surprisingly-common/"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/16/health/roller-coaster-safety-health-risks-wellness"
         },
         {
           "id": "hw-2",
-          "title": "Medication Reduces Inflammation, Cardiovascular Risk in Diabetes Patients",
-          "image": "https://images.unsplash.com/photo-1714642596931-2293df25c4a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8N3x8ZGlhYmV0ZXMlMjBtZWRpY2F0aW9ufGVufDF8MHx8fDE3OTIxNzUzMTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Vanderbilt Health",
-          "time": "Oct 16, 2026",
-          "content": "Researchers found that a diabetes medication, empagliflozin, changes how certain immune cells behave in the bloodstream, potentially reducing harmful inflammation and cardiovascular risk. In a small human clinical trial, the medication reduced inflammatory cell clusters after just two weeks, with measurable effects. The study, published in the American Heart Association journal Circulation, provides the first direct evidence that this medication can alter specific immune cells in humans.",
+          "title": "tAN device shows promise for severe hypertension patients",
+          "image": "https://images.pexels.com/photos/8088866/pexels-photo-8088866.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 17, 2026",
+          "content": "Researchers at Queen Mary University of London tested a small ear stimulation device to control high blood pressure that remains uncontrolled despite medication. The device, called transcutaneous autonomic neuromodulation (tAN), uses gentle electrical pulses through the ear to regulate blood pressure. The trial found the treatment was safe and practical to use at home, but it did not significantly lower blood pressure for the overall study population. However, a subgroup analysis showed that people with more severe hypertension experienced a greater blood pressure reduction with the active treatment compared to the sham device.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/the-secret-heart-benefit-of-a-common-diabetes-drug/"
+          "url": "https://scitechdaily.com/scientists-discover-a-surprising-new-way-to-fight-high-blood-pressure-through-the-ear/"
         },
         {
           "id": "hw-3",
@@ -150,34 +150,36 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Global Deforestation Drops 15%, Still Off Track to Meet Goal",
-          "image": "https://images.unsplash.com/photo-1645430785800-d7d0daac9c5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8ZGVmb3Jlc3RhdGlvbiUyMHN0YXRpc3RpY3N8ZW58MXwwfHx8MTc5MjE3MjYwMXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global",
+          "title": "Southern India hit by heavy rain and thunderstorms, orange alerts issued",
+          "image": "https://images.pexels.com/photos/31640239/pexels-photo-31640239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Southern India",
           "time": "Oct 17, 2026",
-          "content": "Global deforestation declined by 15% in 2025 to seven million hectares, but the world remains off track to meet its goal of halting deforestation by 2030. Although the decline is the sharpest since the 2018-2020 baseline, a 10.7 million hectare deforestation reduction shortfall has accumulated since 2021, and only 17.33% of the world's land and inland waters are protected.",
+          "content": "Southern India faces heavy to very heavy rainfall, with orange alerts issued for Tamil Nadu and South Interior Karnataka. The India Meteorological Department (IMD) warned of heavy rain, thunderstorms, lightning, and strong winds in several regions, including Delhi and its adjoining areas. Heavy rainfall may trigger flash floods and waterlogging in vulnerable districts. Other regions may experience thunderstorms, lightning, and strong winds. The maximum temperature in Delhi is expected to hover around 31°C, while the minimum may settle near 18°C.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/forests/global-deforestation-falls-15-per-cent-but-world-remains-off-track-to-meet-2030-forest-goals-report"
+          "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-southwest-monsoon-withdraws-but-heavy-rain-threat-persists-across-southern-india"
         },
         {
           "id": "env-2",
-          "title": "NASA Astronaut Shows Ancient Moon Rock Formation in Madagascar",
-          "image": "https://images.unsplash.com/photo-1604499077368-9e99fb04754c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c3BhY2UlMjByb2NrfGVufDF8MHx8fDE3OTIyMDIwMzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Madagascar",
+          "title": "Avalanche Sweeps Away Over 100 Sheep in Himachal Pradesh",
+          "image": "https://images.pexels.com/photos/5521067/pexels-photo-5521067.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Himachal Pradesh, India",
           "time": "Oct 17, 2026",
-          "content": "A NASA astronaut took a photo from the International Space Station that shows a 600-million-year-old rock formation in Madagascar, which shares a surprising connection with the Moon. The rock, anorthosite, is found on the Moon's surface and in a few places on Earth, including Madagascar, where it forms a distinctive circular feature that stands out in photographs taken from space.",
+          "content": "In October 2025, Joginder Chand, a 50-year-old shepherd from Himachal Pradesh's Chamba district, set out to migrate his 600 sheep and goats to warmer grazing grounds in Kangra district. Suddenly, an avalanche swept away over 100 animals.",
           "theme": "#E7F4EF",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/nasa-captures-a-strange-formation-on-earth-with-a-surprising-lunar-connection/"
+          "source": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/climate-change/disrupted-rhythms-how-climate-change-affects-himalayan-pastoralism"
         },
         {
           "id": "env-3",
-          "title": "Floating solar farms expand renewable energy production",
-          "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=82",
-          "place": "Singapore",
-          "time": "Sep 17, 2026",
-          "content": "Floating solar installations are becoming an increasingly attractive option for regions where land is limited. Panels installed on reservoirs and other water bodies can generate electricity while reducing pressure on valuable land resources.",
-          "theme": "#E7F4EF"
+          "title": "Srinagar's Water Crisis Worsens due to Climate Change",
+          "image": "https://images.unsplash.com/photo-1495647688236-ed6ef40cb28b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X3dhdGVyJTIwc3VwcGx5fGVufDF8MHx8fDE3OTIyMjAzNDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Srinagar, India",
+          "time": "Oct 17, 2026",
+          "content": "In Srinagar, a water crisis has been ongoing for years, causing daily struggles for residents like Mehak and Zamrood. The absence of a regular water supply has led to the installation of tanks and a hand pump at their homes. Climate change is affecting Doodh Ganga, a vital source of drinking water, causing erratic water supply, low flow, and dry taps. The river's water availability is decreasing due to rising temperatures, changing rainfall patterns, and declining snowmelt. The Kashmir Valley's 24 watersheds, including Doodh Ganga, are experiencing similar impacts.",
+          "theme": "#E7F4EF",
+          "source": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/climate-change/doodh-ganga-under-pressure-how-climate-change-is-deepening-water-woes-in-uptown-srinagar"
         }
       ]
     },
@@ -191,30 +193,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Global film festivals spotlight a new generation of filmmakers",
-          "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=82",
-          "place": "Toronto, Canada",
-          "time": "Sep 21, 2026",
-          "content": "Film festivals around the world are giving greater attention to emerging directors and independent productions. Organisers say new filmmakers are experimenting with storytelling techniques and technologies while exploring social and cultural themes.",
-          "theme": "#F3ECF7"
+          "title": "Elizabeth Holmes caught on camera over 200 times",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Elizabeth_Holmes_2014_%28cropped_2%29.jpg/500px-Elizabeth_Holmes_2014_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Texas, USA",
+          "time": "Oct 17, 2026",
+          "content": "Elizabeth Holmes, the former Theranos founder, has been caught on camera over 200 times by documentarians Nathan Fielder and Lance Oppenheim. The footage is part of a new documentary,",
+          "theme": "#F3ECF7",
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/16/entertainment/nathan-fielder-elizabeth-holmes-see-everything"
         },
         {
           "id": "ent-2",
-          "title": "New stadium technology changes how fans experience live sports",
-          "image": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1200&q=82",
+          "title": "Celebrity Traitors Ends in Snooze, New Recruit Brings Energy",
+          "image": "https://images.pexels.com/photos/8763166/pexels-photo-8763166.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "London, UK",
-          "time": "Sep 19, 2026",
-          "content": "Sports venues are adopting larger digital displays, real-time statistics and connected services to create more interactive experiences for spectators. The technology is also helping teams analyse matches and improve stadium operations.",
-          "theme": "#F3ECF7"
+          "time": "Oct 17, 2026",
+          "content": "In the latest episode of The Celebrity Traitors, the show's twist was that the final scene was a slow-motion build-up to determine which celebrity would fall asleep due to boredom. The traitors tried to make others yawn, but the outcome was far from thrilling. Meanwhile, new recruit King Kenny brought energy to the group, while Joe Lycett's desire to join the traitors raised suspicions. The next episode will reveal who is eliminated.",
+          "theme": "#F3ECF7",
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cq70pre80gwko"
         },
         {
           "id": "ent-3",
-          "title": "Music platforms experiment with new ways for artists to reach audiences",
-          "image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=82",
-          "place": "Los Angeles, USA",
-          "time": "Sep 18, 2026",
-          "content": "Music platforms are experimenting with new discovery tools, personalised recommendations and direct connections between artists and listeners. The changes are reshaping how new musicians build audiences and release their work.",
-          "theme": "#F3ECF7"
+          "title": "Scottish Actor Hopes Fans Accept His Accent in Marvel Series",
+          "image": "https://images.unsplash.com/photo-1620336655052-b57986f5a26a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q29taWMlMjBib29rJTIwY2hhcmFjdGVyfGVufDF8MHx8fDE3OTIyMjE0NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London",
+          "time": "Oct 17, 2026",
+          "content": "Scottish actor Ruaridh Mollica, who plays Tommy Maximoff in the Marvel Cinematic Universe miniseries VisionQuest, hopes fans will accept his Scottish accent. He says speaking in his own accent helped him bring the character to life, and he's excited to be part of the show.",
+          "theme": "#F3ECF7",
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c39wz879wxl2o"
         }
       ]
     },
@@ -228,25 +236,25 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "US-Iran tensions: Record 12 ships attacked in Strait of Hormuz",
-          "image": "https://images.pexels.com/photos/35767025/pexels-photo-35767025.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Strait of Hormuz",
+          "title": "UK's Strong Growth Data Amid Global Economic Uncertainty",
+          "image": "https://images.pexels.com/photos/7567445/pexels-photo-7567445.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Bangkok, Thailand",
           "time": "Oct 17, 2026",
-          "content": "A record 12 ships reported being attacked in and around the Strait of Hormuz between October 5 and 11, with 6 vessels struck on Sunday alone, the largest weekly number since the US-Israeli war with Iran began. The attacks have slowed the recovery in oil shipments through the strait, with industry data suggesting a decrease in shipments. The US military says commercial traffic continues to flow through the strait with coordinated protection from US forces and regional partners.",
+          "content": "A global economic tug-of-war is underway, with crises from energy shock, trade conflict, and war holding back growth, while massive AI spending and resilience from smaller economies pull in the other direction. At IMF meetings in Bangkok, finance ministers highlighted the UK's strong growth data and its model pupil status, but uncertainty remains about the future direction of the economy.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmde8dpg8g0no"
+          "url": "https://www.bbc.com/news/articles/cm4g189jvnxjo"
         },
         {
           "id": "eb-2",
-          "title": "UK Chancellor Plans Tax Hike on Banks to Boost Revenue",
-          "image": "https://images.unsplash.com/photo-1684679674829-fc7b436ec8e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YmFuayUyMHByb2ZpdHN8ZW58MXwwfHx8MTc5MjE3MzE5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 16, 2026",
-          "content": "UK Chancellor John Healey is planning to increase taxes on the bank sector, with possible options including reversing a 2023 reduction in the bank surcharge or raising the bank levy. Bank shares fell on expectations of a tax hike, with Lloyds and NatWest dropping over 2%. Some experts argue that banks, which made £15bn in profit in the first half of the year, should contribute more to the government's budget. Healey praised the role banks play in the UK economy, but trade unions and some experts call for a fairer share of taxes from the sector.",
+          "title": "Tesla Unveils Electric Sports Car with Hover Capabilities",
+          "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8dGVzbGElMjByb2Fkc3RlcnxlbnwxfDB8fHwxNzkyMjIwODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Texas, USA",
+          "time": "Oct 17, 2026",
+          "content": "Tesla unveiled a new electric sports car that can hover and turn in mid-air, but it's unclear when flying cars will become a reality. Other news includes Meta's trial over claims its platforms are addictive, a ban on under-16s using social media, and the release of Nintendo's Switch 2. SpaceX's Starship rocket exploded during a test, and the US president is considering selling his Tesla car. A digital detox expert shares tips to help you stop looking at your phone.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c32l4k2xdvrzo"
+          "url": "https://www.bbc.com/news/videos/ckly4mj1g3n9o"
         },
         {
           "id": "eb-3",

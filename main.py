@@ -195,7 +195,16 @@ def main():
     # ------------------------------------------------------------
     metrics.start_stage("guardrails")
     apply_guardrails(metrics, progress, data_paths, ollama_client)
-    ArticleSafetyGuard(ollama_client).run(data_paths)
+    safety_guard = ArticleSafetyGuard(ollama_client)
+    safety_removed = safety_guard.run(data_paths)
+    
+    metrics.log_article_safety_results(safety_guard.metrics)
+
+    logger.info(
+        "Llama Guard removed %s articles. Metrics: %s",
+        safety_removed,
+        safety_guard.metrics,
+    )
     metrics.end_stage("guardrails")
 
     # ------------------------------------------------------------
