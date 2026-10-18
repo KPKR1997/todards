@@ -5,9 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime, timezone, timedelta, date
-# ============================================================
+ 
 # COMMON DATE HELPERS
-# ============================================================
+ 
 def get_24_hour_window():
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=24)
@@ -59,9 +59,9 @@ def is_within_last_24_hours(published_time):
         <= published_time
         <= now
     )
-# ============================================================
+ 
 # CNBC ENTERTAINMENT SCRAPER
-# ============================================================
+ 
 class CNBCEntertainmentScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -327,9 +327,9 @@ class CNBCEntertainmentScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # CNN ENTERTAINMENT SCRAPER
-# ============================================================
+ 
 class CNNEntertainmentScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -576,9 +576,9 @@ class CNNEntertainmentScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # BBC HEALTH SCRAPER
-# ============================================================
+ 
 def get_jsonld_datetime(soup, keys):
     """
     Find publication/modification datetime from JSON-LD.
@@ -649,12 +649,17 @@ class BBCEntertainmentScraper:
     def scrape_content(self, links):
         articles = []
         for link in links:
-            response = requests.get(
-                link,
-                headers=self.headers,
-                timeout=10
-            )
-            response.raise_for_status()
+            try:
+                response = requests.get(
+                    link,
+                    headers=self.headers,
+                    timeout=10
+                )
+                response.raise_for_status()
+            except requests.RequestException as e:
+                print(f"Request failed: {link}")
+                print(e)
+                continue
             soup = BeautifulSoup(
                 response.text,
                 "html.parser"
@@ -671,9 +676,7 @@ class BBCEntertainmentScraper:
             )
             if not published_time:
                 continue
-            if not is_within_last_24_hours(
-                published_time
-            ):
+            if not is_within_last_24_hours(published_time):
                 continue
             # ------------------------------------------------
             # TITLE
@@ -688,7 +691,31 @@ class BBCEntertainmentScraper:
             # ------------------------------------------------
             # CONTENT
             # ------------------------------------------------
-            paragraphs = soup.find_all("p")
+            if "videos" in link.lower():
+                # Video pages: use only the specified text container.
+                content_container = soup.find(
+                    "div",
+                    class_=(
+                        "VideoDetailsPage-styles__TextStyled-sc-85e5b49-3 "
+                        "fsrCoa"
+                    )
+                )
+                paragraphs = (
+                    content_container.find_all("p")
+                    if content_container
+                    else []
+                )
+            elif "articles" in link.lower():
+                # Article pages: use only paragraphs inside <article>.
+                article_tag = soup.find("article")
+                paragraphs = (
+                    article_tag.find_all("p")
+                    if article_tag
+                    else []
+                )
+            else:
+                # Preserve existing behavior for other URLs.
+                paragraphs = soup.find_all("p")
             article_content = ""
             for content in paragraphs[:20]:
                 text = content.get_text(
@@ -706,17 +733,21 @@ class BBCEntertainmentScraper:
                     "content": article_content.strip(),
                     "url": link
                 })
+            else:
+                print(f"No article content found: {link}")
+        # ------------------------------------------------
+        # SORT BY PUBLICATION DATE
+        # ------------------------------------------------
         articles.sort(
             key=lambda x: x["date"],
             reverse=True
         )
         return articles
-# ============================================================
+ 
 # ACADEMY AWARDS / OSCARS SCRAPER
-# ============================================================
+ 
 class AcademyAwardsEntertainmentScraper:
     """Fetch Oscars press-release cards dated today or yesterday."""
-
     def __init__(self, url="https://press.oscars.org/tag/press-release", domain="https://press.oscars.org/"):
         self.url = url
         self.domain = domain
@@ -735,7 +766,6 @@ class AcademyAwardsEntertainmentScraper:
         }
         self.session = requests.Session()
         self.session.headers.update(self.headers)
-
     @staticmethod
     def _parse_card_date(value):
         if not value:
@@ -747,7 +777,6 @@ class AcademyAwardsEntertainmentScraper:
             except ValueError:
                 continue
         return None
-
     def get_section_links(self):
         try:
             response = self.session.get(self.url, timeout=20)
@@ -755,37 +784,30 @@ class AcademyAwardsEntertainmentScraper:
         except requests.RequestException as exc:
             print(f"Academy Awards section failed: {exc}")
             return []
-
         soup = BeautifulSoup(response.text, "html.parser")
         today = date.today()
         allowed_dates = {today, today - timedelta(days=1)}
         article_urls = []
         seen_urls = set()
-
         for card in soup.select("div.card-article"):
             date_element = card.select_one("div.card-article__date")
             if date_element is None:
                 continue
-
             published_date = self._parse_card_date(
                 date_element.get_text(" ", strip=True)
             )
             if published_date not in allowed_dates:
                 continue
-
             link = card.select_one("a.card-article__link[href], a[href]")
             if link is None:
                 continue
-
             article_url = urljoin(self.domain, link.get("href", "").strip())
             if not article_url.startswith(("http://", "https://")):
                 continue
             if article_url not in seen_urls:
                 seen_urls.add(article_url)
                 article_urls.append(article_url)
-
         return article_urls
-
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -795,20 +817,16 @@ class AcademyAwardsEntertainmentScraper:
             except requests.RequestException as exc:
                 print(f"Academy Awards article failed: {link} ({exc})")
                 continue
-
             soup = BeautifulSoup(response.text, "html.parser")
             headline = soup.find("h1")
             title = headline.get_text(" ", strip=True) if headline else ""
-
             body = soup.select_one("div.news__body")
             if body is None:
                 # Fallback selectors in case the publisher changes its markup.
                 body = soup.select_one("article")
-
             if body is None:
                 print(f"No Academy Awards article body found: {link}")
                 continue
-
             paragraphs = [
                 paragraph.get_text(" ", strip=True)
                 for paragraph in body.find_all("p")
@@ -817,7 +835,6 @@ class AcademyAwardsEntertainmentScraper:
             if not content:
                 print(f"No Academy Awards article text found: {link}")
                 continue
-
             # Keep the publisher's displayed card date as the article date where
             # available; the URL list already guarantees today/yesterday.
             published_date = ""
@@ -826,20 +843,16 @@ class AcademyAwardsEntertainmentScraper:
                 published_date = date_meta["content"].strip()
             if not published_date:
                 published_date = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M")
-
             articles.append({
                 "title": title,
                 "date": published_date,
                 "content": content,
                 "url": link,
             })
-
         return articles
-
-
-# ============================================================
+ 
 # MAIN NTERTAINMENT SCRAPER
-# ============================================================
+ 
 class EntertainmentDataScrapper:
     def __init__(self):
         self.output_dir = (
@@ -896,8 +909,6 @@ class EntertainmentDataScrapper:
         #         "content": article["content"],
         #         "url": article["url"]
         #     })
-
-        
         # ====================================================
         # CNN
         # ====================================================
@@ -959,7 +970,6 @@ class EntertainmentDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-
         #BBC Music Scrapper
         BBCEntertainment = BBCEntertainmentScraper(
                     url="https://www.bbc.com/culture/music",
@@ -991,7 +1001,6 @@ class EntertainmentDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-
         #BBC Film & TV Scrapper
         BBCEntertainment = BBCEntertainmentScraper(
                     url="https://www.bbc.com/culture/film-tv",
@@ -1048,7 +1057,6 @@ class EntertainmentDataScrapper:
             # A failure in this additional source must not prevent other
             # entertainment sources from being saved.
             print(f"Academy Awards scraper failed: {exc}")
-
         # ====================================================
         # SAVE JSON
         # ====================================================
@@ -1082,9 +1090,9 @@ class EntertainmentDataScrapper:
             output_path
         )
         return entertainment_data
-# ============================================================
+ 
 # RUN
-# ============================================================
+ 
 if __name__ == "__main__":
     scrapper = EntertainmentDataScrapper()
     scrapper.scrape_entertainment_data()

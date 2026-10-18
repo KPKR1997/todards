@@ -5,9 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime, timezone, timedelta
-# ============================================================
+ 
 # COMMON DATE HELPERS
-# ============================================================
+ 
 def get_24_hour_window():
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=24)
@@ -59,9 +59,9 @@ def is_within_last_24_hours(published_time):
         <= published_time
         <= now
     )
-# ============================================================
+ 
 # CNBC TECHNOLOGY SCRAPER
-# ============================================================
+ 
 class CNBCTechScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -327,9 +327,9 @@ class CNBCTechScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # NASA TECHNOLOGY SCRAPER
-# ============================================================
+ 
 class NASATechScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -585,9 +585,9 @@ class NASATechScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # SCI TECH DAILY SCRAPER
-# ============================================================
+ 
 class SciTechDailyScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -778,9 +778,9 @@ class SciTechDailyScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # CNN TECHNOLOGY SCRAPER
-# ============================================================
+ 
 class CNNTechScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -1027,9 +1027,9 @@ class CNNTechScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # BBC HEALTH SCRAPER
-# ============================================================
+ 
 def get_jsonld_datetime(soup, keys):
     """
     Find publication/modification datetime from JSON-LD.
@@ -1162,9 +1162,9 @@ class BBCTechScraper:
             reverse=True
         )
         return articles
-# ============================================================
+ 
 # MAIN SCIENCE AND TECHNOLOGY SCRAPER
-# ============================================================
+ 
 class TechDataScrapper:
     def __init__(self):
         self.output_dir = (
@@ -1296,7 +1296,6 @@ class TechDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-
         #Scitech daily tech section
         SciTech = SciTechDailyScraper(
             url=(
@@ -1330,9 +1329,7 @@ class TechDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-
         #SciTech daily space section
-
         SciTech = SciTechDailyScraper(
             url=(
                 "https://scitechdaily.com/news/space/"
@@ -1365,9 +1362,7 @@ class TechDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-
             #SciTech daily Physics section
-            
             SciTech = SciTechDailyScraper(
                 url=(
                     "https://scitechdaily.com/news/physics/"
@@ -1400,9 +1395,7 @@ class TechDataScrapper:
                     "content": article["content"],
                     "url": article["url"]
                 })
-
         #SciTech daily Biology section
-                    
             SciTech = SciTechDailyScraper(
                 url=(
                     "https://scitechdaily.com/news/biology/"
@@ -1435,9 +1428,7 @@ class TechDataScrapper:
                     "content": article["content"],
                     "url": article["url"]
                 })
-
         #SciTech daily Biology section
-                            
         SciTech = SciTechDailyScraper(
             url=(
                 "https://scitechdaily.com/news/chemistry/"
@@ -1561,9 +1552,9 @@ class TechDataScrapper:
             output_path
         )
         return tech_data
-# ============================================================
+ 
 # RUN
-# ============================================================
+ 
 if __name__ == "__main__":
     scrapper = TechDataScrapper()
     scrapper.scrape_tech_data()

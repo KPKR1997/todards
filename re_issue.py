@@ -1,10 +1,8 @@
 """
 Todards Pipeline — Re-Issue Orchestrator
-
 Re-issue variant of main.py. It ignores current publication cards during deduplication,
 then rebuilds cards from the new pipeline output. The existing publication file is not
 modified until the pipeline reaches the assembly/save stage.
-
 Master orchestrator for the Todards daily news pipeline:
 1. Multi-source web scraping (Health, Tech, Politics, Environment, Economy)
 2. Content guardrails & moderation (Toxicity, NSFW, Gossip filtering)
@@ -17,7 +15,6 @@ Master orchestrator for the Todards daily news pipeline:
 9. Frontend dataset updates (todards.json) with issue numbering
 10. Evaluation reporting (Markdown & JSON metrics)
 """
-
 import os
 import sys
 import json
@@ -26,7 +23,6 @@ import logging
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, Any, List
-
 from config.settings import (
     TODARDS_JSON_PATH,
     OLLAMA_BASE_URL,
@@ -59,7 +55,6 @@ from backend.rag.archive import HistoricalArticleArchive
 from backend.rag.context_enricher import ContextEnricher
 from evaluation.metrics import PipelineMetrics
 from evaluation.reporter import PipelineReporter
-
 # Scrapers (Untouched)
 from webscrape.health_scrape import HealthDataScrapper
 from webscrape.tech_scrapper import TechDataScrapper
@@ -67,17 +62,11 @@ from webscrape.politics import PoliticsDataScrapper
 from webscrape.environment_scrapper import EnvironmentDataScrapper
 from webscrape.economy_scrapper import EconomicsDataScrapper
 from webscrape.entertainment_scrapper import EntertainmentDataScrapper
-
 # Guardrails
-
 from backend.main_guardrails.article_guard import ArticleSafetyGuard
 from backend.main_guardrails.image_guard import ImageSafetyGuard
-
 from notifications.send_report_email import send_daily_report
-
 logger = setup_logger("todards")
-
-
 def run_scrapers(
     metrics: PipelineMetrics,
     progress: PipelineProgressTracker,
@@ -86,7 +75,6 @@ def run_scrapers(
     """Execute all category scrapers with error isolation."""
     progress.update_stage("Web Scraping: Multi-source Ingestion", 10.0)
     data_paths = {}
-
     scrapers = [
         ("Health", "health_data", HealthDataScrapper, "scrape_health_data"),
         ("Tech", "tech_data", TechDataScrapper, "scrape_tech_data"),
@@ -95,18 +83,15 @@ def run_scrapers(
         ("Economy", "economy_data", EconomicsDataScrapper, "scrape_economics_data"),
         ("Entertainment", "entertainment_data", EntertainmentDataScrapper, "scrape_entertainment_data"),
     ]
-
     for idx, (display_name, folder_name, scraper_cls, method_name) in enumerate(scrapers, 1):
         progress.update_status(f"Scraping {display_name} ({idx}/{len(scrapers)})")
         filename = f"{date_str}_{folder_name}.json"
         path_str = f"data/{folder_name}/{filename}"
         data_paths[folder_name] = path_str
-
         try:
             logger.info(f"Starting {display_name} scraper...")
             scraper_inst = scraper_cls()
             getattr(scraper_inst, method_name)()
-
             # Count scraped articles
             p = Path(path_str)
             if p.exists():
@@ -119,10 +104,7 @@ def run_scrapers(
         except Exception as e:
             logger.error(f"Scraper error in {display_name}: {e}. Continuing with remaining scrapers.")
             metrics.log_scrape_count(display_name, 0)
-
     return data_paths
-
-
 def apply_guardrails(
     metrics: PipelineMetrics,
     progress: PipelineProgressTracker,
@@ -133,39 +115,30 @@ def apply_guardrails(
     if not GUARDRAIL_ENABLED:
         logger.info("Content guardrails disabled.")
         return
-
     progress.update_stage("Content Moderation & Guardrails", 22.0)
     guardrails = ContentGuardrails(client=ollama_client, enabled=True)
-
     for folder_name, path_str in data_paths.items():
         p = Path(path_str)
         if not p.exists():
             continue
-
         progress.update_status(f"Guardrail screening: {folder_name}")
         try:
             with open(p, "r", encoding="utf-8") as f:
                 articles = json.load(f)
-
             if not isinstance(articles, list) or not articles:
                 continue
-
             passed, rejected = guardrails.filter_articles(articles)
             metrics.log_guardrail_results(len(passed), rejected)
-
             if rejected:
                 with open(p, "w", encoding="utf-8") as f:
                     json.dump(passed, f, ensure_ascii=False, indent=4)
                 logger.info(f"Guardrails pruned {len(rejected)} toxic/gossip items from {folder_name}.")
         except Exception as e:
             logger.error(f"Guardrail filtering failed for {path_str}: {e}")
-
-
 def main():
     date_str = datetime.now().strftime("%d%m%Y")
     metrics = PipelineMetrics()
     reporter = PipelineReporter()
-
     # Determine current issue number
     issue_number = 1
     if TODARDS_JSON_PATH.exists():
@@ -176,24 +149,20 @@ def main():
             issue_number = int(curr_str.replace("Issue No.", "").strip()) + 1
         except Exception:
             pass
-
     progress = PipelineProgressTracker(issue_number=issue_number, date_str=date_str)
     progress.start()
-
     # Central LLM Client
     ollama_client = OllamaClient(
         base_url=OLLAMA_BASE_URL,
         model=OLLAMA_MODEL,
         metrics_collector=metrics,
     )
-
     # ------------------------------------------------------------
     # 1. SCRAPE
     # ------------------------------------------------------------
     metrics.start_stage("scrape")
     data_paths = run_scrapers(metrics, progress, date_str)
     metrics.end_stage("scrape")
-
     # ------------------------------------------------------------
     # 2. CONTENT GUARDRAILS
     # ------------------------------------------------------------
@@ -201,19 +170,15 @@ def main():
     apply_guardrails(metrics, progress, data_paths, ollama_client)
     ArticleSafetyGuard(ollama_client).run(data_paths)
     metrics.end_stage("guardrails")
-
     # ------------------------------------------------------------
     # 3. DEDUPLICATION
     # ------------------------------------------------------------
     if not TODARDS_JSON_PATH.exists():
             logger.error(f"Todards JSON not found at {TODARDS_JSON_PATH}")
             return
-    
     with open(TODARDS_JSON_PATH, "r", encoding="utf-8") as f:
             frontend_data = json.load(f)
-    
     copy_data = copy.deepcopy(frontend_data)
-
     # RE-ISSUE MODE: retain the section definitions and card templates separately,
     # but remove current cards from the in-memory publication passed to deduplication.
     # The on-disk todards.json remains untouched until successful assembly.
@@ -225,7 +190,6 @@ def main():
     for section in copy_data.get("sections", []):
         section["cards"] = []
     logger.info("RE-ISSUE MODE: current publication cards excluded from deduplication reference.")
-    
     progress.update_stage("Deduplication: Semantic & Cross-Day", 35.0)
     metrics.start_stage("deduplication")
     try:
@@ -236,12 +200,10 @@ def main():
             metrics_collector=metrics,
         )
         dedup_report = deduplicator.run(publication_data=copy_data)
-
         logger.info(f"Deduplication complete: {dedup_report.get('duplicates_removed', 0)} duplicates removed.")
     except Exception as e:
         logger.error(f"Deduplication failed: {e}")
     metrics.end_stage("deduplication")
-
     # ------------------------------------------------------------
     # 4. CATEGORY CROSS-VALIDATION
     # ------------------------------------------------------------
@@ -258,7 +220,6 @@ def main():
     except Exception as e:
         logger.error(f"Category validation failed: {e}")
     metrics.end_stage("category_validation")
-
     # ------------------------------------------------------------
     # 5. RANKING
     # ------------------------------------------------------------
@@ -280,19 +241,16 @@ def main():
         logger.error(f"News ranker failed: {e}")
         ranked_articles = []
     metrics.end_stage("ranking")
-
     # ------------------------------------------------------------
     # 6. STORY PROCESSING (RAG + Summarize + Place + Headlines + Images)
     # ------------------------------------------------------------
     progress.update_stage("Article Processing & Media Generation", 70.0)
     metrics.start_stage("processing")
-
     # Initialize shared components once
     shared_image_fetcher = ImageFetcher(model=OLLAMA_MODEL)
     shared_image_scorer = SigLIPMatcher()
     rag_archive = HistoricalArticleArchive(enabled=RAG_ENABLED)
     rag_enricher = ContextEnricher(archive=rag_archive) if RAG_ENABLED else None
-
     processor = MainProcessPipeline(
         url=OLLAMA_BASE_URL,
         model=OLLAMA_MODEL,
@@ -300,7 +258,6 @@ def main():
         image_scorer=shared_image_scorer,
         rag_enricher=rag_enricher,
     )
-
     combined_output = []
     categories_to_process = [
         ("Health", "health_data"),
@@ -310,7 +267,6 @@ def main():
         ("Economy & Business", "economy_data"),
         ("Entertainment", "entertainment_data")
     ]
-
     for display_cat, folder_name in categories_to_process:
         p_path = data_paths.get(folder_name)
         if p_path and Path(p_path).exists():
@@ -322,18 +278,15 @@ def main():
                     stage_name=display_cat,
                 )
                 combined_output.extend(cat_output)
-                
                 logger.info(f"Processed {len(cat_output)} articles for {display_cat}.")
             except Exception as e:
                 logger.error(f"Processing failed for category {display_cat}: {e}")
-
     # combined_output = ImageSafetyGuard().run(combined_output)
     # ------------------------------------------------------------
     # 7. CROSS-ARTICLE IMAGE DEDUPLICATION PASS
     # ------------------------------------------------------------
     progress.update_stage("Final Media Verification & Image Dedup", 88.0)
     combined_output = ensure_unique_images(combined_output, shared_image_fetcher)
-
     # ------------------------------------------------------------
     # 8. RAG ARCHIVING
     # ------------------------------------------------------------
@@ -343,29 +296,22 @@ def main():
             logger.info("Archived published issue to RAG vector database.")
         except Exception as e:
             logger.warning(f"RAG archiving failed: {e}")
-
     metrics.end_stage("processing")
-
     # ------------------------------------------------------------
     # 9. ASSEMBLE TODARDS.JSON
     # ------------------------------------------------------------
     progress.update_stage("Assembling Publication Dataset", 95.0)
     metrics.start_stage("assembly")
-
-    
-
     # Update publication metadata
     pub = copy_data.setdefault("publication", {})
     pub["issue"] = f"Issue No. {issue_number}"
     pub["publishedAt"] = datetime.now().strftime("%d %B %Y")
     copy_data["publication"] = pub
-
     # Group output by category
     output_by_category = {}
     for card in combined_output:
         cat_key = card["category"].strip().lower()
         output_by_category.setdefault(cat_key, []).append(card)
-
     # Rebuild cards from the fresh output, reusing the existing card templates
     # for stable IDs/themes. Only sections with newly processed cards are updated.
     updated_sections_count = 0
@@ -377,7 +323,6 @@ def main():
             # Do not leave stale old cards in a section during a re-issue.
             section["cards"] = []
             continue
-
         templates = card_templates_by_section.get(section_id, [])
         rebuilt_cards = []
         # Preserve the existing publication's card count for each section.
@@ -391,27 +336,21 @@ def main():
             if not card.get("theme") and section.get("tint"):
                 card["theme"] = section["tint"]
             rebuilt_cards.append(card)
-
         section["cards"] = rebuilt_cards
         updated_sections_count += 1
-
     # Publication-wide uniqueness pass: Guarantee zero duplicate images across all sections/cards
     copy_data["sections"] = ensure_unique_sections(
         copy_data.get("sections", []),
         shared_image_fetcher,
     )
-
     with open(TODARDS_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(copy_data, f, ensure_ascii=False, indent=2)
-
     dist_todards_json = Path("frontend/dist/data/todards.json")
     if dist_todards_json.parent.exists():
         with open(dist_todards_json, "w", encoding="utf-8") as f:
             json.dump(copy_data, f, ensure_ascii=False, indent=2)
-
     logger.info(f"RE-ISSUE saved {len(combined_output)} articles across {updated_sections_count} sections to {TODARDS_JSON_PATH}")
     metrics.end_stage("assembly")
-
     # ------------------------------------------------------------
     # 10. EVALUATION & METRICS REPORTING
     # ------------------------------------------------------------
@@ -420,15 +359,11 @@ def main():
         final_categories_count=updated_sections_count,
     )
     report_paths = reporter.generate_report(metrics)
-
     progress.finish(
         f"Re-issue #{issue_number} published successfully! ({len(combined_output)} articles in {metrics.to_dict()['duration_seconds']}s)"
     )
     print(f"\nEvaluation Report: {report_paths['markdown']}")
-
     email_result = send_daily_report()
     logger.info(email_result)
-
-
 if __name__ == "__main__":
     main()

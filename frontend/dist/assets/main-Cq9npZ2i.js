@@ -1,12 +1,10 @@
-/* empty css              */(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const c of a.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&s(c)}).observe(document,{childList:!0,subtree:!0});function t(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerPolicy&&(a.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?a.credentials="include":n.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function s(n){if(n.ep)return;n.ep=!0;const a=t(n);fetch(n.href,a)}})();function v(e={}){const i=document.getElementById("meta-issue"),t=document.getElementById("meta-date");if(i){const s=e.issue||e.issueNumber||"ISSUE NO. 248";i.textContent=s.toUpperCase()}if(t){const s=e.publishedAt||e.publishedDate||"21 SEPTEMBER 2026 · 09:00 PM IST";t.textContent=s.toUpperCase()}}function h(e={},i={}){const t=document.getElementById("article-modal"),s=document.getElementById("modal-card-content");if(!t||!s)return;s.innerHTML=`
+(function(){const i=document.createElement("link").relList;if(i&&i.supports&&i.supports("modulepreload"))return;for(const n of document.querySelectorAll('link[rel="modulepreload"]'))s(n);new MutationObserver(n=>{for(const a of n)if(a.type==="childList")for(const c of a.addedNodes)c.tagName==="LINK"&&c.rel==="modulepreload"&&s(c)}).observe(document,{childList:!0,subtree:!0});function t(n){const a={};return n.integrity&&(a.integrity=n.integrity),n.referrerPolicy&&(a.referrerPolicy=n.referrerPolicy),n.crossOrigin==="use-credentials"?a.credentials="include":n.crossOrigin==="anonymous"?a.credentials="omit":a.credentials="same-origin",a}function s(n){if(n.ep)return;n.ep=!0;const a=t(n);fetch(n.href,a)}})();function v(e={}){const i=document.getElementById("meta-issue"),t=document.getElementById("meta-date");if(i){const s=e.issue||e.issueNumber||"ISSUE NO. 248";i.textContent=s.toUpperCase()}if(t){const s=e.publishedAt||e.publishedDate||"21 SEPTEMBER 2026 · 09:00 PM IST";t.textContent=s.toUpperCase()}}function h(e={},i={}){const t=document.getElementById("article-modal"),s=document.getElementById("modal-card-content");if(!t||!s)return;s.innerHTML=`
     <button class="modal-close-btn" id="btn-modal-close" aria-label="Close modal">✕</button>
-
     <div class="modal-hero-image-wrapper">
       <img src="${e.image||"https://images.unsplash.com/photo-1518770660439-4636190af475"}" 
            alt="${e.title}" 
            class="modal-hero-image" />
     </div>
-
     <div class="modal-article-body">
       <div class="modal-meta-row">
         <span class="modal-pill" style="${i.accent?`background:${i.accent};`:""}">
@@ -16,9 +14,7 @@
           ${e.place?`${e.place} · `:""}${e.time||e.date||""}
         </span>
       </div>
-
       <h1 class="modal-title">${e.title||"Untitled Story"}</h1>
-
       <div class="modal-body-text">
         <p>${e.content||""}</p>
         <br />
@@ -41,11 +37,9 @@
             <h3 class="card-image-title-overlay">${r.title}</h3>
           </div>
         </div>
-
         <div class="card-content-body">
           <h2 class="card-title">${r.title}</h2>
           <p class="card-snippet">${r.content}</p>
-          
           <div class="card-footer-action">
             <span>Read more</span>
             <svg class="arrow-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -5,9 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime, timezone, timedelta
-# ============================================================
+ 
 # DATETIME HELPERS
-# ============================================================
+ 
 def get_24_hour_window():
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=24)
@@ -113,9 +113,9 @@ def get_html_datetime(soup):
             )
         )
     return None
-# ============================================================
+ 
 # BBC POLITICS SCRAPER
-# ============================================================
+ 
 class BBCPoliticsScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -184,15 +184,14 @@ class BBCPoliticsScraper:
         articles = []
         for link in links:
             try:
-                response = self.session.get(
+                response = requests.get(
                     link,
-                    timeout=30
+                    headers=self.headers,
+                    timeout=10
                 )
                 response.raise_for_status()
             except requests.RequestException as e:
-                print(
-                    f"BBC failed: {link}"
-                )
+                print(f"Request failed: {link}")
                 print(e)
                 continue
             soup = BeautifulSoup(
@@ -200,7 +199,7 @@ class BBCPoliticsScraper:
                 "html.parser"
             )
             # ------------------------------------------------
-            # DATETIME
+            # PUBLICATION DATETIME
             # ------------------------------------------------
             published_time = get_jsonld_datetime(
                 soup,
@@ -210,21 +209,13 @@ class BBCPoliticsScraper:
                 ]
             )
             if not published_time:
-                published_time = get_html_datetime(
-                    soup
-                )
-            if not published_time:
                 continue
-            if not is_within_last_24_hours(
-                published_time
-            ):
+            if not is_within_last_24_hours(published_time):
                 continue
             # ------------------------------------------------
             # TITLE
             # ------------------------------------------------
-            headline = soup.find(
-                "h1"
-            )
+            headline = soup.find("h1")
             title = ""
             if headline:
                 title = headline.get_text(
@@ -234,42 +225,61 @@ class BBCPoliticsScraper:
             # ------------------------------------------------
             # CONTENT
             # ------------------------------------------------
-            paragraphs = soup.find_all(
-                "p"
-            )
-            content = " ".join(
-                p.get_text(
+            if "videos" in link.lower():
+                # Video pages: use only the specified text container.
+                content_container = soup.find(
+                    "div",
+                    class_=(
+                        "VideoDetailsPage-styles__TextStyled-sc-85e5b49-3 "
+                        "fsrCoa"
+                    )
+                )
+                paragraphs = (
+                    content_container.find_all("p")
+                    if content_container
+                    else []
+                )
+            elif "articles" in link.lower():
+                # Article pages: use only paragraphs inside <article>.
+                article_tag = soup.find("article")
+                paragraphs = (
+                    article_tag.find_all("p")
+                    if article_tag
+                    else []
+                )
+            else:
+                # Preserve existing behavior for other URLs.
+                paragraphs = soup.find_all("p")
+            article_content = ""
+            for content in paragraphs[:20]:
+                text = content.get_text(
                     " ",
                     strip=True
                 )
-                for p in paragraphs
-                if p.get_text(
-                    " ",
-                    strip=True
-                )
-            )
-            content = re.sub(
-                r"\s+",
-                " ",
-                content
-            ).strip()
-            if not content:
-                print(
-                    f"No BBC content found: {link}"
-                )
-                continue
-            articles.append({
-                "title": title,
-                "date": published_time.strftime(
-                    "%Y-%m-%d %H:%M"
-                ),
-                "content": content,
-                "url": link
-            })
+                if text:
+                    article_content += text + "\n"
+            if article_content.strip():
+                articles.append({
+                    "title": title,
+                    "date": published_time.strftime(
+                        "%Y-%m-%d %H:%M"
+                    ),
+                    "content": article_content.strip(),
+                    "url": link
+                })
+            else:
+                print(f"No article content found: {link}")
+        # ------------------------------------------------
+        # SORT BY PUBLICATION DATE
+        # ------------------------------------------------
+        articles.sort(
+            key=lambda x: x["date"],
+            reverse=True
+        )
         return articles
-# ============================================================
+ 
 # CNN POLITICS SCRAPER
-# ============================================================
+ 
 class CNNPoliticsScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -438,9 +448,9 @@ class CNNPoliticsScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # THE GUARDIAN POLITICS SCRAPER
-# ============================================================
+ 
 class GuardianPoliticsScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -614,9 +624,9 @@ class GuardianPoliticsScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # MAIN PEOPLE SCRAPER
-# ============================================================
+ 
 class PoliticsDataScrapper:
     def __init__(self):
         self.output_dir = (
@@ -659,8 +669,6 @@ class PoliticsDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-
-
         #BBC Homepage scraping
         BBC = BBCPoliticsScraper(
             url="https://www.bbc.com",
@@ -689,8 +697,6 @@ class PoliticsDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        
-
         # ====================================================
         # CNN
         # ====================================================
@@ -789,9 +795,9 @@ class PoliticsDataScrapper:
             output_path
         )
         return people_data
-# ============================================================
+ 
 # RUN
-# ============================================================
+ 
 if __name__ == "__main__":
     scrapper = PoliticsDataScrapper()
     scrapper.scrape_politics_data()

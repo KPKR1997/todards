@@ -15,9 +15,9 @@ def combine_data(main_list, source, content, category, url):
         "url": url
     })
     return main_list
-# ============================================================
+ 
 # DATETIME HELPERS
-# ============================================================
+ 
 def get_24_hour_window():
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=24)
@@ -90,9 +90,9 @@ def get_jsonld_datetime(soup, keys):
                     if parsed:
                         return parsed
     return None
-# ============================================================
+ 
 # BBC HEALTH SCRAPER
-# ============================================================
+ 
 class BBCScraper:
     def __init__(self, url, domain, title_class):
         self.url = url
@@ -134,12 +134,17 @@ class BBCScraper:
     def scrape_content(self, links):
         articles = []
         for link in links:
-            response = requests.get(
-                link,
-                headers=self.headers,
-                timeout=10
-            )
-            response.raise_for_status()
+            try:
+                response = requests.get(
+                    link,
+                    headers=self.headers,
+                    timeout=10
+                )
+                response.raise_for_status()
+            except requests.RequestException as e:
+                print(f"Request failed: {link}")
+                print(e)
+                continue
             soup = BeautifulSoup(
                 response.text,
                 "html.parser"
@@ -156,9 +161,7 @@ class BBCScraper:
             )
             if not published_time:
                 continue
-            if not is_within_last_24_hours(
-                published_time
-            ):
+            if not is_within_last_24_hours(published_time):
                 continue
             # ------------------------------------------------
             # TITLE
@@ -173,7 +176,31 @@ class BBCScraper:
             # ------------------------------------------------
             # CONTENT
             # ------------------------------------------------
-            paragraphs = soup.find_all("p")
+            if "videos" in link.lower():
+                # Video pages: use only the specified text container.
+                content_container = soup.find(
+                    "div",
+                    class_=(
+                        "VideoDetailsPage-styles__TextStyled-sc-85e5b49-3 "
+                        "fsrCoa"
+                    )
+                )
+                paragraphs = (
+                    content_container.find_all("p")
+                    if content_container
+                    else []
+                )
+            elif "articles" in link.lower():
+                # Article pages: use only paragraphs inside <article>.
+                article_tag = soup.find("article")
+                paragraphs = (
+                    article_tag.find_all("p")
+                    if article_tag
+                    else []
+                )
+            else:
+                # Preserve existing behavior for other URLs.
+                paragraphs = soup.find_all("p")
             article_content = ""
             for content in paragraphs[:20]:
                 text = content.get_text(
@@ -191,14 +218,19 @@ class BBCScraper:
                     "content": article_content.strip(),
                     "url": link
                 })
+            else:
+                print(f"No article content found: {link}")
+        # ------------------------------------------------
+        # SORT BY PUBLICATION DATE
+        # ------------------------------------------------
         articles.sort(
             key=lambda x: x["date"],
             reverse=True
         )
         return articles
-# ============================================================
+ 
 # WHO HEALTH SCRAPER
-# ============================================================
+ 
 class WHOScraper:
     def __init__(self, url, domain, title_class):
         self.url = url
@@ -371,13 +403,18 @@ class WHOScraper:
                     "url": link
                 })
         return articles
-# ============================================================
+ 
 # CNN HEALTH SCRAPER
-# ============================================================
+ 
 class CNNScraper:
+    ARTICLE_PATH_PATTERN = re.compile(
+        r"^/\d{4}/\d{2}/\d{2}/health/"
+    )
+
     def __init__(self, url, domain):
         self.url = url
-        self.domain = domain
+        self.domain = domain.rstrip("/")
+
         self.headers = {
             "User-Agent": (
                 "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -390,151 +427,239 @@ class CNNScraper:
                 "image/webp,*/*;q=0.8"
             ),
             "Accept-Language": "en-US,en;q=0.9",
-            "Referer": "https://edition.cnn.com/"
+            "Referer": "https://edition.cnn.com/",
         }
+
         self.session = requests.Session()
-        self.session.headers.update(
-            self.headers
-        )
-    def get_section_links(self):
-        response = self.session.get(
-            self.url,
-            timeout=30
-        )
-        response.raise_for_status()
-        soup = BeautifulSoup(
-            response.text,
-            "html.parser"
-        )
-        links = []
-        sections = soup.find_all(
-            "a",
-            href=True
-        )
-        for section in sections:
-            href = section["href"]
-            # ------------------------------------------------
-            # Keep original URL selection logic.
-            # It is only used to find candidate articles.
-            # Exact 24-hour filtering happens on article page.
-            # ------------------------------------------------
-            full_url = urljoin(
-                self.domain,
-                href
+        self.session.headers.update(self.headers)
+
+        # Shorter timeout prevents individual pages from
+        # blocking the scraper for too long.
+        self.timeout = (5, 10)
+
+    def _is_health_article_url(self, url):
+        """Accept dated CNN health article URLs only."""
+        try:
+            from urllib.parse import urlsplit
+
+            parsed = urlsplit(url)
+            hostname = (parsed.hostname or "").lower()
+
+            if not (
+                hostname == "cnn.com"
+                or hostname.endswith(".cnn.com")
+            ):
+                return False
+
+            if parsed.scheme not in ("http", "https"):
+                return False
+
+            if not self.ARTICLE_PATH_PATTERN.match(parsed.path):
+                return False
+
+            # Exclude common non-article endpoints.
+            excluded_segments = (
+                "/interactive/",
+                "/photos/",
             )
-            if full_url not in links:
-                links.append(
-                    full_url
-                )
+
+            if any(
+                segment in parsed.path.lower()
+                for segment in excluded_segments
+            ):
+                return False
+
+            return True
+
+        except (ValueError, AttributeError):
+            return False
+
+    def _normalize_url(self, url):
+        """Remove fragments and query parameters for deduplication."""
+        from urllib.parse import urlsplit, urlunsplit
+
+        parsed = urlsplit(url)
+
+        return urlunsplit((
+            parsed.scheme.lower(),
+            parsed.netloc.lower(),
+            parsed.path.rstrip("/"),
+            "",
+            "",
+        ))
+
+    def get_section_links(self):
+        """Collect only dated health article URLs."""
+        try:
+            response = self.session.get(
+                self.url,
+                timeout=self.timeout,
+            )
+            response.raise_for_status()
+
+        except requests.RequestException as exc:
+            print(f"CNN health homepage failed: {exc}")
+            return []
+
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        links = []
+        seen = set()
+
+        for anchor in soup.find_all("a", href=True):
+            full_url = urljoin(
+                self.domain + "/",
+                anchor["href"],
+            )
+
+            if not self._is_health_article_url(full_url):
+                continue
+
+            normalized_url = self._normalize_url(full_url)
+
+            if normalized_url in seen:
+                continue
+
+            seen.add(normalized_url)
+            links.append(normalized_url)
+
         print(
-            "CNN Links are:",
-            links
+            f"CNN Health: {len(links)} candidate article URLs found"
         )
+
         return links
+
     def scrape_content(self, links):
+        """Fetch candidate articles and retain those published
+        or modified within the last 24 hours.
+        """
         articles = []
-        for link in links:
+        seen = set()
+
+        total = len(links)
+
+        for index, link in enumerate(links, start=1):
+            normalized_url = self._normalize_url(link)
+
+            if normalized_url in seen:
+                continue
+
+            seen.add(normalized_url)
+
             try:
                 response = self.session.get(
-                    link,
-                    timeout=30
+                    normalized_url,
+                    timeout=self.timeout,
                 )
                 response.raise_for_status()
-            except requests.RequestException as e:
+
+            except requests.RequestException as exc:
                 print(
-                    f"CNN failed: {link}"
+                    f"CNN request failed ({index}/{total}): "
+                    f"{normalized_url} — {exc}"
                 )
-                print(e)
                 continue
-            soup = BeautifulSoup(
-                response.text,
-                "html.parser"
-            )
-            # ------------------------------------------------
-            # PUBLICATION DATETIME
-            # ------------------------------------------------
+
+            soup = BeautifulSoup(response.text, "html.parser")
+
+            # Publication datetime from JSON-LD.
             published_time = get_jsonld_datetime(
                 soup,
-                [
-                    "datePublished",
-                    "dateModified"
-                ]
+                ["datePublished", "dateModified"],
             )
-            # CNN-specific fallback
+
+            # CNN-specific fallback.
             if not published_time:
                 script = soup.find(
                     "script",
-                    string=lambda x: (
-                        x and
-                        "published_date_formatted" in x
-                    )
+                    string=lambda value: (
+                        value is not None
+                        and "published_date_formatted" in value
+                    ),
                 )
-                if script:
+
+                if script and script.string:
                     match = re.search(
-                        r'"published_date_formatted":"([^"]+)"',
-                        script.string
+                        r'"published_date_formatted"\s*:\s*"([^"]+)"',
+                        script.string,
                     )
+
                     if match:
                         published_time = parse_datetime(
                             match.group(1)
                         )
+
+            # No reliable date: do not include the page.
             if not published_time:
                 continue
-            if not is_within_last_24_hours(
-                published_time
-            ):
+
+            if not is_within_last_24_hours(published_time):
                 continue
-            # ------------------------------------------------
-            # CONTENT
-            # ------------------------------------------------
-            sections = soup.find_all(
+
+            # Extract CNN article paragraphs.
+            paragraphs = soup.find_all(
                 "p",
                 class_=lambda value: (
-                    value and
-                    "paragraph-elevate" in value
-                )
+                    value is not None
+                    and "paragraph-elevate" in value
+                ),
             )
-            paragraph = ""
-            for section in sections:
-                text = section.get_text(
-                    " ",
-                    strip=True
-                )
+
+            content_parts = []
+
+            for paragraph in paragraphs:
+                text = paragraph.get_text(" ", strip=True)
+
                 if text:
-                    paragraph += text + " "
-            paragraph = re.sub(
+                    content_parts.append(text)
+
+            article_content = re.sub(
                 r"\s+",
                 " ",
-                paragraph
+                " ".join(content_parts),
             ).strip()
-            if not paragraph:
-                print(
-                    f"No CNN content found: {link}"
-                )
+
+            if not article_content:
                 continue
-            # ------------------------------------------------
-            # TITLE
-            # ------------------------------------------------
+
             headline = soup.find("h1")
-            title = ""
-            if headline:
-                title = headline.get_text(
-                    " ",
-                    strip=True
-                )
+            title = (
+                headline.get_text(" ", strip=True)
+                if headline
+                else ""
+            )
+
+            if not title:
+                continue
+
             articles.append({
                 "title": title,
-                "date": published_time.strftime(
-                    "%Y-%m-%d %H:%M"
-                ),
-                "content": paragraph,
-                "url": link
+                "date": published_time.strftime("%Y-%m-%d %H:%M"),
+                "content": article_content,
+                "url": normalized_url,
             })
+
+            print(
+                f"CNN Health: retained article "
+                f"{len(articles)} — {title}"
+            )
+
+        articles.sort(
+            key=lambda article: article["date"],
+            reverse=True,
+        )
+
+        print(
+            f"CNN Health complete: "
+            f"{len(articles)} articles retained from "
+            f"{total} candidate URLs"
+        )
+
         return articles
 
-# ============================================================
+ 
 # SCI TECH DAILY SCRAPER
-# ============================================================
+ 
 class SciTechDailyScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -725,9 +850,9 @@ class SciTechDailyScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # GUARDIAN HEALTH SCRAPER
-# ============================================================
+ 
 class GuardianScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -759,29 +884,43 @@ class GuardianScraper:
             timeout=30
         )
         response.raise_for_status()
+
         soup = BeautifulSoup(
             response.text,
             "html.parser"
         )
+
         links = []
-        sections = soup.find_all(
+
+        first_div = soup.find(
+            "div",
+            class_="dcr-cavc6m"
+        )
+
+        if first_div is None:
+            print("Guardian section div not found.")
+            return links
+
+        sections = first_div.find_all(
             "a",
             href=True
         )
+
         for section in sections:
             href = section["href"]
             full_url = urljoin(
                 self.domain,
                 href
             )
+
             if full_url not in links:
-                links.append(
-                    full_url
-                )
+                links.append(full_url)
+
         print(
             "Guardian Links are:",
             links
         )
+
         return links
     def scrape_content(self, links):
         articles = []
@@ -897,9 +1036,9 @@ class GuardianScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # MAIN HEALTH SCRAPER
-# ============================================================
+ 
 class HealthDataScrapper:
     def __init__(self):
         self.output_dir = (
@@ -1043,7 +1182,6 @@ class HealthDataScrapper:
             })
 
         #SciTech daily space section
-        
         SciTech = SciTechDailyScraper(
             url=(
                 "https://scitechdaily.com/news/health/"
@@ -1076,7 +1214,6 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        
         # =====================================
         # SAVE
         # =====================================
@@ -1106,9 +1243,8 @@ class HealthDataScrapper:
             f"{output_path}"
         )
         return health_data
-# ============================================================
+ 
 # RUN
-# ============================================================
 if __name__ == "__main__":
     scrapper = HealthDataScrapper()
     scrapper.scrape_health_data()

@@ -1,8 +1,3 @@
-"""Todards Pipeline — centralized Ollama client.
-
-Preserves the public OllamaClient constructor, generate(), generate_raw(),
-and get_stats() interfaces while making structured-output parsing strict.
-"""
 
 import json
 import logging
@@ -52,12 +47,11 @@ class OllamaClient:
 
     @staticmethod
     def _pydantic_to_json_schema(model_class: Type[BaseModel]) -> dict:
-        """Return a JSON schema suitable for Ollama's ``format`` field."""
         schema = model_class.model_json_schema()
         defs = schema.pop("$defs", {})
 
         def resolve_refs(obj, depth=0):
-            # Guard against unexpectedly recursive model schemas.
+            # Guard against unexpectedly recursive  schemas.
             if depth > 30:
                 raise ValueError("JSON schema reference nesting is too deep.")
             if isinstance(obj, dict):
@@ -75,7 +69,6 @@ class OllamaClient:
 
     @staticmethod
     def _extract_content(data) -> str:
-        """Safely extract message content from an Ollama /api/chat response."""
         if not isinstance(data, dict):
             raise ValueError("Ollama returned a response that was not a JSON object.")
         message = data.get("message")
@@ -88,7 +81,6 @@ class OllamaClient:
     
     @staticmethod
     def _response_usage(data) -> dict:
-        """Extract token counts and server timings from an Ollama response."""
         if not isinstance(data, dict):
             data = {}
 
@@ -116,7 +108,6 @@ class OllamaClient:
 
     @staticmethod
     def _safe_log_metric(metrics, **kwargs) -> None:
-        """Metrics must never turn a successful model response into a failed call."""
         if metrics is None:
             return
         try:
@@ -143,7 +134,6 @@ class OllamaClient:
         response_model: Type[T],
         role: str = "system",
     ) -> T:
-        """Generate structured output and return a validated Pydantic instance."""
         if not isinstance(prompt, str) or not prompt.strip():
             raise ValueError("prompt must be a non-empty string")
         if not isinstance(response_model, type) or not issubclass(response_model, BaseModel):
@@ -227,7 +217,6 @@ class OllamaClient:
         ) from last_error
 
     def generate_raw(self, prompt: str, role: str = "system") -> str:
-        """Generate raw text and record call duration and Ollama usage."""
         if not isinstance(prompt, str) or not prompt.strip():
             raise ValueError("prompt must be a non-empty string")
 
@@ -270,7 +259,6 @@ class OllamaClient:
 
     @staticmethod
     def _extract_json(text: str) -> dict:
-        """Extract a JSON object, raising a useful error on every invalid case."""
         if not isinstance(text, str) or not text.strip():
             raise ValueError("Ollama returned an empty response; expected a JSON object.")
 
@@ -283,7 +271,6 @@ class OllamaClient:
                 return None, False
             if not isinstance(parsed, dict):
                 raise ValueError(
-                    "Expected a JSON object for structured output, but Ollama returned "
                     f"{type(parsed).__name__}."
                 )
             return parsed, True
@@ -320,18 +307,15 @@ class OllamaClient:
                 return parsed
             # A valid JSON value that is not an object is not acceptable here.
             raise ValueError(
-                "Expected a JSON object for structured output, but Ollama returned "
                 f"{type(parsed).__name__}."
             )
 
         preview = text[:180].replace("\n", " ")
         raise ValueError(
-            "Could not extract a valid JSON object from Ollama response. "
             f"Response preview: {preview!r}"
         )
 
     def get_stats(self) -> dict:
-        """Return LLM call statistics (same keys as the original client)."""
         return {
             "total_calls": self.total_calls,
             "total_retries": self.total_retries,

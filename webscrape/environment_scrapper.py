@@ -5,10 +5,9 @@ import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from datetime import datetime, timezone, timedelta
-
-# ============================================================
+ 
 # COMMON DATE HELPERS
-# ============================================================
+ 
 def get_24_hour_window():
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=24)
@@ -60,9 +59,9 @@ def is_within_last_24_hours(published_time):
         <= published_time
         <= now
     )
-# ============================================================
+ 
 # DOWN TO EARTH ENVIRONMENT SCRAPER
-# ============================================================
+ 
 class DownToEarthEnvironmentScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -309,11 +308,9 @@ class DownToEarthEnvironmentScraper:
                 "url": link
             })
         return articles
-
-
-# ============================================================
+ 
 # SCI TECH DAILY SCRAPER
-# ============================================================
+ 
 class SciTechDailyScraper:
     def __init__(self, url, domain):
         self.url = url
@@ -504,9 +501,9 @@ class SciTechDailyScraper:
                 "url": link
             })
         return articles
-# ============================================================
+ 
 # MAIN ENVIRONMENT SCRAPER
-# ============================================================
+ 
 class EnvironmentDataScrapper:
     def __init__(self):
         self.output_dir = (
@@ -563,9 +560,7 @@ class EnvironmentDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-
         #SciTech daily space section
-                
         SciTech = SciTechDailyScraper(
             url=(
                 "https://scitechdaily.com/news/earth/"
@@ -629,9 +624,9 @@ class EnvironmentDataScrapper:
             output_path
         )
         return environment_data
-# ============================================================
+ 
 # RUN
-# ============================================================
+ 
 if __name__ == "__main__":
     scrapper = EnvironmentDataScrapper()
     scrapper.scrape_environment_data()

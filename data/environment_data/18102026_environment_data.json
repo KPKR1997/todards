@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-1",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "West Bengal’s Durga Puja turns pandals into platforms for climate action",
+        "date": "2026-10-17T05:32:36.603Z",
+        "content": "Soil is a dominant theme in the displays at this year’s Durga Puja celebrations in West Bengal, according to a “green puja ” award. More broadly, environment-related themes have become increasingly prominent over the past two decades, experts associated with the award say, as Durga Puja pandals increasingly use elaborate concepts to engage the public. “The Serader Sera Nirmal Puja Puroskar (the greenest of the green puja award) has been continuing for the past 19 years and this year one in every three or four puja celebrations we assessed has an environmental theme. Soil is particularly prominent,” said Dulal Bose, a senior physician, former sheriff of Kolkata and president of non-profit EnGIO that runs the award with support from the West Bengal Pollution Control Board and other organisations and companies.",
+        "url": "https://www.downtoearth.org.in/environment/west-bengals-durga-puja-turns-pandals-into-platforms-for-climate-action",
+        "rank": 1,
+        "ranking_score": 8.4,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 8.4,
+            "base_score": 8.0,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 50,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 20,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 50
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant trend in environmental themes at Durga Puja celebrations in West Bengal, highlighting the growing awareness and engagement on climate action. The presence of experts and organizations supporting the green puja award provides credibility and substance to the story, making it suitable for publication in a high-value public-interest news product."
+            }
+        }
+    }
+]

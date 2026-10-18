@@ -1,21 +1,10 @@
-"""
-Todards Pipeline — Pydantic Schemas
-
-Data contracts for every LLM interaction and internal data exchange.
-Using Pydantic ensures structured, validated outputs from Ollama
-with zero format hallucination.
-"""
 
 from typing import List, Optional, Literal
 from pydantic import BaseModel, Field, field_validator
 
 
-# ============================================================
 # SUMMARIZER
-# ============================================================
-
 class SummaryResponse(BaseModel):
-    """Structured output from the summarization LLM."""
     summary: str = Field(
         ...,
         min_length=1,
@@ -27,12 +16,9 @@ class SummaryResponse(BaseModel):
         )
     )
 
-# ============================================================
-# PLACE FINDER
-# ============================================================
 
+# PLACE FINDER
 class PlaceResponse(BaseModel):
-    """Structured output from the location extraction LLM."""
     place: str = Field(
         ...,
         description="Geographic location string, e.g. 'Tokyo, Japan'"
@@ -40,31 +26,23 @@ class PlaceResponse(BaseModel):
 
 
 class PlaceValidationResponse(BaseModel):
-    """Structured output from the place validation LLM."""
     is_valid: bool = Field(
         ...,
         description="Whether the identified place is valid and relevant"
     )
 
 
-# ============================================================
 # HEADLINE
-# ============================================================
-
 class HeadlineResponse(BaseModel):
-    """Structured output from the headline writer/editor LLM."""
     headline: str = Field(
         ...,
         description="Professional news headline, max 14 words"
     )
 
 
-# ============================================================
-# IMAGE KEYWORDS
-# ============================================================
 
+# IMAGE KEYWORDS
 class ImageKeywordsResponse(BaseModel):
-    """Structured output from the image keyword generator LLM."""
     keywords: List[str] = Field(
         ...,
         description="Exactly 3 image-search keywords",
@@ -78,27 +56,19 @@ class ImageKeywordsResponse(BaseModel):
         return [kw.strip() for kw in v if kw.strip()]
 
 
-# ============================================================
 # KEYWORD CLASSIFIER (PERSON vs OTHER)
-# ============================================================
-
 class KeywordClassificationItem(BaseModel):
-    """Single keyword classification."""
     keyword: str
     type: Literal["PERSON", "OTHER"] = "OTHER"
 
 
 class KeywordClassificationResponse(BaseModel):
-    """Structured output from keyword classifier LLM."""
     classifications: List[KeywordClassificationItem]
 
 
-# ============================================================
-# ARTICLE ANALYSIS (for ranking)
-# ============================================================
 
+# ARTICLE ANALYSIS
 class EventFlags(BaseModel):
-    """Boolean flags for major event types."""
     major_disaster: bool = False
     mass_casualties: bool = False
     pandemic: bool = False
@@ -114,7 +84,6 @@ class EventFlags(BaseModel):
 
 
 class ArticleAnalysisResponse(BaseModel):
-    """Structured output from the article importance analyzer."""
     everyday_impact: int = Field(0, ge=0, le=100)
     dont_miss: int = Field(0, ge=0, le=100)
     human_consequence: int = Field(0, ge=0, le=100)
@@ -176,12 +145,9 @@ class ArticleAnalysisResponse(BaseModel):
         return max(1, min(5, v))
 
 
-# ============================================================
-# CATEGORY VALIDATION
-# ============================================================
 
+# CATEGORY VALIDATION
 class CategoryValidationResponse(BaseModel):
-    """Structured output from category cross-validation LLM."""
     assigned_category: str = Field(
         ...,
         description="The category this article best belongs to"
@@ -207,12 +173,8 @@ class CategoryValidationResponse(BaseModel):
         return max(0.0, min(1.0, v))
 
 
-# ============================================================
 # CONTENT GUARDRAILS
-# ============================================================
-
 class GuardrailResponse(BaseModel):
-    """Structured output from the content guardrail LLM."""
     is_safe: bool = Field(
         True,
         description="False if contains NSFW, toxic, abusive, or adult content"
@@ -235,21 +197,13 @@ class GuardrailResponse(BaseModel):
     )
 
 
-# ============================================================
-# NEWS vs ARTICLE CLASSIFIER
-# ============================================================
 
 class ContentTypeResponse(BaseModel):
-    """Structured output from the news/article classifier."""
     content_type: Literal["NEWS", "ARTICLE"] = "NEWS"
 
 
-# ============================================================
 # INTERNAL DATA MODELS
-# ============================================================
-
 class ArticleRecord(BaseModel):
-    """Internal representation of an article during pipeline processing."""
     id: str = ""
     title: str = ""
     content: str = ""
@@ -263,7 +217,6 @@ class ArticleRecord(BaseModel):
 
 
 class ProcessedArticle(BaseModel):
-    """Final processed article ready for todards.json."""
     id: str
     category: str
     title: str

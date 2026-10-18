@@ -1,41 +1,41 @@
 {
     "date": "17102026",
-    "timestamp": "2026-10-17T12:47:39.350271",
-    "duration_seconds": 4022.58,
+    "timestamp": "2026-10-17T21:56:50.798238",
+    "duration_seconds": 2849.66,
     "stages_duration_seconds": {
-        "scrape": 659.28,
-        "guardrails": 169.79,
-        "deduplication": 12.8,
-        "category_validation": 134.3,
-        "ranking": 143.9,
-        "processing": 2902.45,
-        "assembly": 0.02
+        "scrape": 666.17,
+        "guardrails": 126.71,
+        "deduplication": 9.17,
+        "category_validation": 117.97,
+        "ranking": 163.56,
+        "processing": 1766.05,
+        "assembly": 0.01
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 6,
-            "Tech": 19,
-            "People": 57,
-            "Environment": 6,
-            "Economy": 3,
-            "Entertainment": 26
+            "Health": 4,
+            "Tech": 20,
+            "People": 47,
+            "Environment": 3,
+            "Economy": 2,
+            "Entertainment": 27
         },
-        "total_scraped": 117,
-        "guardrail_passed": 117,
+        "total_scraped": 103,
+        "guardrail_passed": 103,
         "guardrail_rejected": 0,
-        "dedup_removed": 53,
+        "dedup_removed": 39,
         "category_reassignments": 0,
-        "final_articles": 16,
-        "final_categories": 6
+        "final_articles": 7,
+        "final_categories": 4
     },
     "guardrail_rejections": [],
     "article_safety": {
         "files_seen": 6,
-        "articles_seen": 117,
-        "classified_safe": 89,
-        "classified_unsafe": 28,
+        "articles_seen": 103,
+        "classified_safe": 68,
+        "classified_unsafe": 35,
         "unsafe_removed": 0,
-        "unsafe_would_remove": 28,
+        "unsafe_would_remove": 35,
         "unclassified": 0,
         "unclassified_retained": 0,
         "model_errors": 0,
@@ -43,124 +43,131 @@
         "dry_run": true
     },
     "deduplication": {
-        "total_checked": 123,
-        "exact_duplicate_pairs": 30,
-        "semantic_duplicate_pairs": 68,
-        "duplicate_pairs_found": 98,
-        "duplicate_clusters": 26,
-        "duplicates_removed": 53,
+        "total_checked": 104,
+        "exact_duplicate_pairs": 35,
+        "semantic_duplicate_pairs": 29,
+        "duplicate_pairs_found": 64,
+        "duplicate_clusters": 23,
+        "duplicates_removed": 39,
         "published_duplicates_removed": 11
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 57,
-        "rejected_count": 13,
+        "total_checked": 53,
+        "rejected_count": 14,
         "rejected_articles": [
+            {
+                "title": "AI enters the chaotic world of online dating. User beware",
+                "from": "health",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article's primary focus is on the impact of AI on online dating, which falls under the category of 'entertainment'"
+            },
+            {
+                "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial and business aspects of software consolidation and Bending Spoons' M&A strategy, making 'economy and business' the most relevant category."
+            },
             {
                 "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
                 "from": "science and technology",
                 "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article discusses campaign finance and the impact of outside spending on political candidates, which is more relevant to the economy and business category than science and technology."
+                "reason": "The article primarily discusses campaign finance and the impact of outside spending on political races, which is a topic more relevant to the 'economy and business' category than 'science and technology'."
             },
             {
                 "title": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
                 "from": "science and technology",
-                "detected_category": "economy and business",
+                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses Apple's new iPhone Duo and its potential impact on the company's revenue and market position, making it more relevant to the economy and business category than science and technology."
+                "reason": "The article primarily discusses the release of Apple's new iPhone Duo and its potential impact on the company's revenue, rather than any specific scientific or technological advancements, making 'people' a more relevant category."
             },
             {
-                "title": "5 Things to Know",
+                "title": "Trump says White House didn't order Starlink restrictions in Ukraine",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.7,
-                "reason": "The article discusses Elon Musk's announcement about Tesla's next-generation Roadster, which is more relevant to the 'people' category due to its focus on Elon Musk's role in the development of the new vehicle."
+                "confidence": 0.8,
+                "reason": "The article is primarily about political figures and their actions, with a focus on Trump's denial of involvement in Starlink restrictions in Ukraine, making it more relevant to the 'people' category than 'science and technology'."
             },
             {
-                "title": "SpaceX AI policy leader grilled by NYC Council on Grok safety, sexualized images",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article is primarily focused on the AI policy leader Gabriela Castillo Madrid's testimony before the NYC Council and the concerns raised about AI safety and misuse, rather than the scientific or technological aspects of AI itself."
-            },
-            {
-                "title": "Traffickers ripped Bili the baby gorilla from her home. An international mission is returning her to the wild",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the story of a baby gorilla and its trafficking, with a significant portion dedicated to the efforts of conservation organizations and the complexities of wildlife trafficking, making it more relevant to the 'people' category."
-            },
-            {
-                "title": "Why people who have never smoked are getting hooked on vaping",
+                "title": "More NHS staff sacked over attacks victims' records",
                 "from": "people",
                 "detected_category": "health",
-                "confidence": 0.8,
-                "reason": "The article explores the habit of vaping among people who have never smoked, highlighting its addictive nature and potential health risks, making it more relevant to the 'health' category."
+                "confidence": 1.0,
+                "reason": "The article is primarily about a news development related to the dismissal of NHS staff for accessing medical records, which falls under the health category."
             },
             {
-                "title": "Not sure what to wear for Halloween? These outfits are set to be the most popular this year",
-                "from": "people",
-                "detected_category": "entertainment",
-                "confidence": 0.8,
-                "reason": "The article is primarily focused on Halloween costumes and inspirations, which falls under the entertainment category, despite mentioning some celebrities and pop culture references."
-            },
-            {
-                "title": "Evacuation orders as fast-moving California wildfire burns homes",
+                "title": "Brazil sees record fall in Amazon deforestation as key election looms",
                 "from": "people",
                 "detected_category": "earth and environment",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on the wildfire and its impact on homes and the environment, making 'earth and environment' the most relevant category."
+                "reason": "The article primarily discusses the decline in Amazon deforestation, a significant environmental development, and its connection to a presidential election, which is relevant to the people category, but the main focus is on the environmental issue."
             },
             {
-                "title": "Street Fighter movie is 'made by fans for fans' - but can it KO the critics?",
+                "title": "Why people who have never smoked are getting hooked on vapes",
                 "from": "people",
-                "detected_category": "entertainment",
-                "confidence": 0.8,
-                "reason": "The article discusses a movie adaptation of the Street Fighter game, focusing on the cast, characters, and plot, which makes it more relevant to the 'entertainment' category than the current 'people' category."
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses the habits and motivations of people who have never smoked but now vape, highlighting the psychological dependence and addictive nature of vaping, which is a significant health-related topic."
             },
             {
-                "title": "US senators call for investigation into Ukraine's Starlink restrictions",
+                "title": "Fast-moving California wildfire burns homes as people are ordered to leave",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily reports on a wildfire event, which falls under the 'earth and environment' category, rather than 'people' despite mentioning evacuation orders and firefighting efforts."
+            },
+            {
+                "title": "‘Austerity is inevitably painful’: How Michael Gove justifies his politics | Radical Thinking with Aditya Chakrabortty – podcast",
                 "from": "economy and business",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article's primary focus is on the geopolitical implications of Starlink restrictions and the US-Ukraine relationship, which is more relevant to the 'people' category than 'economy and business'."
+                "reason": "The article primarily discusses Michael Gove's politics and ideology, which is more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "Rebel Wilson to Taron Egerton: Hollywood stars reveal the films that mean most to them",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article features Hollywood stars discussing their most meaningful films, which is a personal and industry-related topic that falls under the 'people' category."
             },
             {
                 "title": "'Well-known' man asks court to stop publication of sexual offence allegation",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article primarily discusses a well-known individual's request to the court to stop publication of sexual offence allegations, which is a news development related to the 'people' category."
+                "confidence": 0.8,
+                "reason": "The article primarily deals with a court case and allegations against a well-known individual, which falls under the 'people' category."
             },
             {
-                "title": "'More audacious than her male peers': The Renaissance woman who was the first female painter of erotic nudes",
+                "title": "Dame Judi Dench joins Archers Birmingham campaign",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article is primarily about a historical figure, Lavinia Fontana, and her artistic contributions, which falls under the people category."
+                "reason": "The article primarily focuses on the involvement of Dame Judi Dench and other cast and crew members of The Archers, which is a people-oriented story rather than an entertainment one."
             },
             {
-                "title": "Mural of The Fall singer celebrates 'life and legacy'",
+                "title": "The Voice singer Ciiara Nyx says music helped her navigate her trans identity",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article is primarily about the life and legacy of Mark E Smith, a musician and cultural icon, which falls under the 'people' category."
+                "reason": "The article primarily focuses on Ciiara Nyx's personal story and her journey as a transgender woman, which is more relevant to the 'people' category than the 'entertainment' category, despite being an entertainer."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 291,
+        "total_calls": 259,
         "total_failures": 0,
-        "total_time_seconds": 303.72,
-        "prompt_tokens": 415156,
-        "response_tokens": 6044,
-        "total_tokens": 421200,
-        "usage_responses": 291,
-        "prompt_eval_seconds": 101.942,
-        "generation_seconds": 147.765,
-        "load_seconds": 27.567,
-        "server_total_seconds": 300.653,
-        "avg_response_time": 1.04
+        "total_time_seconds": 244.44,
+        "prompt_tokens": 328716,
+        "response_tokens": 5778,
+        "total_tokens": 334494,
+        "usage_responses": 259,
+        "prompt_eval_seconds": 71.253,
+        "generation_seconds": 134.127,
+        "load_seconds": 19.549,
+        "server_total_seconds": 240.253,
+        "avg_response_time": 0.94
     }
 }

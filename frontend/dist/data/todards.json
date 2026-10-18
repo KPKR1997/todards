@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 56",
+    "issue": "Issue No. 63",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "17 October 2026",
+    "publishedAt": "18 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Last beluga whale leaves Marineland amid welfare concerns",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Oceanogr%C3%A0fic_29102004.jpg/500px-Oceanogr%C3%A0fic_29102004.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Canada",
-          "time": "Oct 17, 2026",
-          "content": "A beluga whale named Tofino was the last of 30 belugas and four dolphins to leave a Canadian sea park, Marineland, after it was shut down due to animal welfare concerns. The whales were relocated to various aquariums, but five belugas and one dolphin have died since the move. The relocation was done to prevent euthanasia, but experts say it's too early to judge the outcome, considering the whales were facing euthanasia and had been living in an ageing facility.",
+          "title": "Trump Unveils Revised Washington D.C. Arch Plans",
+          "image": "https://images.pexels.com/photos/36150697/pexels-photo-36150697.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Oct 18, 2026",
+          "content": "The Trump administration has released final plans for a 250-foot triumphal arch in Washington D.C., but without the military complex features that President Donald Trump initially proposed. The new documents describe the arch as a 'ceremonial gateway' rather than a national security purpose. The project, which would sit near Arlington National Cemetery, has been met with opposition from preservationists and veterans who are concerned about the impact it would have on the cemetery's solemnity and the sightline of national landmarks. The Interior Department has stated that the current design of the arch is capable of accommodating the national security functions, but the Advisory Council on Historic Preservation will need to review the use of the arch as a military asset separately from the construction plans. The project has received preliminary approval from the National Capital Planning Commission and is eyeing approval in November.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c623dnn3xvpko"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/17/politics/triumphal-arch-omit-promised-military-complex"
         },
         {
           "id": "pp-2",
-          "title": "German Police Detain Russian Man Over 2024 Cyber-Attack on London Hospitals",
-          "image": "https://images.pexels.com/photos/34258666/pexels-photo-34258666.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 17, 2026",
-          "content": "A 28-year-old Russian man, Vladimir K, accused of being part of a cyber-crime gang called Qilin, has been detained by German police. The gang is suspected of hacking a blood testing company in 2024, disrupting services at several London hospitals and potentially contributing to a patient's death. German police are investigating the incident as part of their inquiry into Vladimir K and his associates.",
+          "title": "Israeli Settlers Attack European Diplomats in West Bank, EU and US Condemn",
+          "image": "https://images.unsplash.com/photo-1591625991934-ce6df113294d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TWFza2VkJTIwcHJvdGVzdGVyc3xlbnwxfDB8fHwxNzkyMjk4MTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Taybeh, West Bank",
+          "time": "Oct 18, 2026",
+          "content": "A delegation of European diplomats from Belgium, France, Poland, and the Catholic Church was attacked by masked Israeli settlers in the occupied West Bank. The attackers smashed a car window, assaulted a French mayor, and confronted the convoy. The Belgian government condemned the assault, calling on Israel to bring the perpetrators to justice. The Israeli Defense Forces also condemned the attack, saying they were investigating. However, Prime Minister Benjamin Netanyahu's office questioned the incident, suggesting it was part of a 'coordinated campaign to smear Israel.' The US Secretary of State and Ambassador to Israel also condemned the attack, calling it 'disturbing' and 'despicable.' This incident is part of a series of attacks by Israeli settlers on Palestinians and diplomats in the West Bank, with some calling for EU sanctions against those responsible.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c9vgr61kml3mo"
+          "url": "https://www.bbc.com/news/articles/c962ydpmjm3zo"
         },
         {
           "id": "pp-3",
-          "title": "German Heiress on Trial for Abducting Children in Custody Battle",
-          "image": "https://images.unsplash.com/photo-1575550597081-13c89a6aedf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y3VzdG9keSUyMGJhdHRsZXxlbnwxfDB8fHwxNzkyMjE5NzcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Hamburg, Germany",
-          "time": "Oct 17, 2026",
-          "content": "A wealthy German heiress, Christina Block, is on trial for allegedly ordering the violent abduction of her children from Denmark during a custody battle. The case has sparked Germany's biggest espionage scandal in recent history. In a surprising twist, Germany's former intelligence chief, August Hanning, was arrested for treason and espionage, unrelated to Block's trial.",
+          "title": "17 Killed in Crush at Kolkata Hindu Festival Amid Sudden Rain",
+          "image": "https://images.pexels.com/photos/14297040/pexels-photo-14297040.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Kolkata, India",
+          "time": "Oct 18, 2026",
+          "content": "At least 17 people died and many more were injured in a crush at a Hindu festival event in Kolkata, India, after sudden rainfall caused a surge of people seeking shelter. A 7-year-old girl was among the dead, and 25 people were treated for injuries. Indian Prime Minister Narendra Modi described the incident as 'tragic' and pledged support to affected families. The crush occurred after an announcement caused 'commotion' among the crowd, leading to a stampede. This tragic incident is not the first of its kind in India, where poor management and lack of safety precautions have led to deadly crowd incidents during religious festivals.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cwvgdn3d656vo"
+          "url": "https://www.bbc.com/news/articles/c820vwq7qg2ko"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Bee Colony Viewed as Single Living Organism, Like Mammals",
-          "image": "https://images.pexels.com/photos/6594653/pexels-photo-6594653.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Finland",
-          "time": "Oct 17, 2026",
-          "content": "A new study suggests that a honey bee colony is more than just a group of insects, but a single living organism that develops, reproduces, and ages like a mammal. The colony's development is compared to that of a mammal, with stages from embryo to adult, and it even undergoes biological aging and eventually dies after several years. This perspective could challenge common practices in modern beekeeping and raise questions about the colony's reproductive and developmental cycle.",
+          "title": "SpaceX Delivers Cargo to International Space Station",
+          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U3BhY2VYJTIwcm9ja2V0fGVufDF8MHx8fDE3OTIxNjQzNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Cape Canaveral, USA",
+          "time": "Oct 18, 2026",
+          "content": "In a mission that could lead to new medical breakthroughs, SpaceX successfully delivered a cargo of scientific experiments and supplies to the International Space Station. The Dragon spacecraft, launched on October 13, arrived at the station on October 15 and brought over 6,300 pounds of cargo, including tiny brain models, artificial retina technology, and 3D heart tissue. The experiments aim to advance medical research on Earth, with one focusing on manufacturing artificial retinas and another using 3D heart tissue models to test large-scale drug testing. The spacecraft will remain docked at the station until mid-November before returning to Earth, concluding its mission with a splashdown off the California coast.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-say-that-a-honey-bee-colony-may-actually-be-a-single-living-organism/"
+          "url": "https://scitechdaily.com/spacex-dragon-delivers-groundbreaking-science-and-solar-arrays-to-iss/"
         },
         {
           "id": "st-2",
-          "title": "Astronomers Find Green White Dwarf Star Defying Temperature-Dependent Colors",
-          "image": "https://images.pexels.com/photos/20694891/pexels-photo-20694891.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Warwick, England",
-          "time": "Oct 17, 2026",
-          "content": "Astronomers have discovered a white dwarf star that would appear green to human eyes, breaking the temperature-dependent color limitations of most stars. The green star's unique color is caused by the interaction between helium in its atmosphere and other elements. This find can be used as a diagnostic tool to measure the chemistry of planetary material and shed light on the formation of planets.",
+          "title": "NASA Backs Lunar Cave Search to Reveal Moon's Volcanic History",
+          "image": "https://images.unsplash.com/photo-1614726365930-627c75da663e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bW9vbiUyMGxhbmRpbmd8ZW58MXwwfHx8MTc5MjI5NzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Bengaluru, India",
+          "time": "Oct 18, 2026",
+          "content": "NASA is backing a project to search for a hidden lunar cave, which could reveal how ancient volcanic activity shaped the Moon. The project, led by the Planetary Science Institute, will use a lander and rover to investigate a potential large cave near the Marius Hill Pit. The team will employ ground-penetrating radar, seismic sensors, and gravity measurements to gather data, and if successful, the discovery could provide insights into the Moon's volcanic history and potentially even shelter astronauts from radiation and extreme temperatures. The project is funded by NASA's Payloads and Research Investigations on the Surface of the Moon program and is expected to provide valuable information about the Moon's subsurface and geology.",
           "theme": "#EBF2FA",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/16/science/green-star-discovery-scli-intl"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/nasa-is-about-to-investigate-what-lies-beneath-a-giant-hole-on-the-moon/"
         },
         {
           "id": "t-3",
-          "title": "Webb Telescope Captures First View of Distant Brown Dwarf's Weather",
-          "image": "https://images.unsplash.com/photo-1707058665476-c1dccc63a5c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YnJvd24lMjBkd2FyZnxlbnwxfDB8fHwxNzkyMjE5MzQzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Arizona, USA",
-          "time": "Oct 17, 2026",
-          "content": "The James Webb Space Telescope has captured the first detailed view of the weather on a distant brown dwarf, WISE 0855, which is 7.5 light-years away. Astronomers used the telescope to track the object's weather patterns over 11 hours, observing changes in water clouds and atmospheric gases. The findings, published in The Astrophysical Journal, provide the most detailed time-series view yet of this cold neighbor and offer the first direct confirmation that water clouds on another world change thickness over time, similar to Earth's weather.",
+          "title": "Ancient Insect Found with Bendy Straw Feeding Organ in Amber",
+          "image": "https://images.unsplash.com/photo-1681438080729-5c62d90f9416?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dHJlZSUyMHJlc2lufGVufDF8MHx8fDE3OTIyOTc2ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Myanmar",
+          "time": "Oct 18, 2026",
+          "content": "Researchers have discovered a 99-million-year-old insect, Cretodorus noonoo, that had an ancient adaptation of a flexible and durable feeding organ, resembling a bendy straw, which allowed it to feed on tree sap. The newly described species, found in Myanmar, had mouthparts nearly twice the length of its body and was preserved in amber. The unique feature of the insect's mouthparts was densely covered with crosswise folds, which likely allowed it to bend and flex without collapsing. This discovery provides a glimpse into the insect world during the age of dinosaurs, and suggests that ancient forests created ecological conditions and opportunities very different from those we know today.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/webb-discovers-something-extraordinary-in-the-clouds-of-a-world-with-no-sun/"
+          "url": "https://scitechdaily.com/scientists-discover-a-99-million-year-old-insect-with-a-bizarre-feature-never-seen-in-living-species/"
         }
       ]
     },
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Roller Coaster Death Sparks Safety Questions",
-          "image": "https://images.unsplash.com/photo-1504711331083-9c895941bf81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
-          "place": "Atlanta, USA",
+          "title": "Cancer drug works by blocking DHODH, not KDM4",
+          "image": "https://images.pexels.com/photos/8428390/pexels-photo-8428390.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
           "time": "Oct 17, 2026",
-          "content": "The death of a man on a roller coaster at Six Flags Over Georgia raises questions about amusement park safety. Dr. Leana Wen, a CNN wellness expert, explains that serious injuries are rare, but not unheard of, and can occur due to the physical forces experienced during a ride. She notes that certain people, such as those with medical conditions or neck or back problems, may be more vulnerable to injury. Wen emphasizes that most people can enjoy amusement parks safely, but it's essential to be aware of the potential risks and take precautions, such as reading ride safety requirements and not riding if you don't meet the physical requirements or have a medical condition that makes the ride unsafe.",
+          "content": "Researchers have found that a cancer drug, zavondemstat, works mainly by blocking an enzyme called DHODH, rather than targeting KDM4 as originally thought. This discovery has implications for understanding how earlier studies using a related compound, QC6352, may need to be reinterpreted. The team developed new compounds that inhibit KDM4 without affecting DHODH, allowing scientists to study KDM4's role more accurately. The findings raise questions about whether clinical trials for zavondemstat are being designed around the correct biological mechanism.",
           "theme": "#E8F5F1",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/16/health/roller-coaster-safety-health-risks-wellness"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/scientists-discover-an-unexpected-problem-with-a-cancer-drug-already-in-human-trials/"
         },
         {
           "id": "hw-2",
-          "title": "tAN device shows promise for severe hypertension patients",
-          "image": "https://images.pexels.com/photos/8088866/pexels-photo-8088866.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
+          "title": "MDS patients have lower bone density and poorer survival",
+          "image": "https://images.pexels.com/photos/7723513/pexels-photo-7723513.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Dresden, Germany",
           "time": "Oct 17, 2026",
-          "content": "Researchers at Queen Mary University of London tested a small ear stimulation device to control high blood pressure that remains uncontrolled despite medication. The device, called transcutaneous autonomic neuromodulation (tAN), uses gentle electrical pulses through the ear to regulate blood pressure. The trial found the treatment was safe and practical to use at home, but it did not significantly lower blood pressure for the overall study population. However, a subgroup analysis showed that people with more severe hypertension experienced a greater blood pressure reduction with the active treatment compared to the sham device.",
+          "content": "For people with myelodysplastic syndromes, a type of blood cancer, osteoporosis may be an important clue to survival. Researchers found that patients with MDS had significantly lower bone density and continued to lose bone mass over time. Patients with osteoporosis at the beginning of the study also had poorer overall survival. The study suggests that bone health, often overlooked in MDS care, may reveal important information about patients' overall health and prognosis. The findings highlight the need to consider bone health when diagnosing and managing MDS, particularly for older adults with complex conditions. This could lead to new ways to investigate how blood formation, aging, and bone metabolism influence one another.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-surprising-new-way-to-fight-high-blood-pressure-through-the-ear/"
+          "url": "https://scitechdaily.com/your-bones-may-hold-a-hidden-clue-to-blood-cancer-survival/"
         },
         {
           "id": "hw-3",
@@ -150,14 +150,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Southern India hit by heavy rain and thunderstorms, orange alerts issued",
-          "image": "https://images.pexels.com/photos/31640239/pexels-photo-31640239.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Southern India",
-          "time": "Oct 17, 2026",
-          "content": "Southern India faces heavy to very heavy rainfall, with orange alerts issued for Tamil Nadu and South Interior Karnataka. The India Meteorological Department (IMD) warned of heavy rain, thunderstorms, lightning, and strong winds in several regions, including Delhi and its adjoining areas. Heavy rainfall may trigger flash floods and waterlogging in vulnerable districts. Other regions may experience thunderstorms, lightning, and strong winds. The maximum temperature in Delhi is expected to hover around 31°C, while the minimum may settle near 18°C.",
+          "title": "NASA captures rare atmospheric waves above Hurricane Simon",
+          "image": "https://images.unsplash.com/photo-1498330177096-689e3fb901ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X2h1cnJpY2FuZSUyMHdhdmV8ZW58MXwwfHx8MTc5MjI5ODY4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Manzanillo, Mexico",
+          "time": "Oct 18, 2026",
+          "content": "NASA captured rare atmospheric waves above Hurricane Simon as it moved along Mexico's Pacific coast. Although the storm stayed offshore, it brought heavy rainfall and strong winds, causing flooding and landslides. Meanwhile, NASA satellites detected enormous ripples in the upper atmosphere, a phenomenon caused by the storm's powerful winds and heat release. These ripples can travel far above the storm, reaching the stratosphere and mesosphere. The NASA VIIRS instrument detected this phenomenon due to the Moon providing very little illumination, allowing the faint atmospheric glow to stand out. As the storm continued to behave unpredictably, meteorologists struggled to determine its future strength and direction, with forecasts carrying",
           "theme": "#E7F4EF",
-          "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-southwest-monsoon-withdraws-but-heavy-rain-threat-persists-across-southern-india"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/hurricane-simon-roars-below-as-strange-waves-ripple-across-the-sky/"
         },
         {
           "id": "env-2",
@@ -193,25 +193,25 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Elizabeth Holmes caught on camera over 200 times",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Elizabeth_Holmes_2014_%28cropped_2%29.jpg/500px-Elizabeth_Holmes_2014_%28cropped_2%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Texas, USA",
-          "time": "Oct 17, 2026",
-          "content": "Elizabeth Holmes, the former Theranos founder, has been caught on camera over 200 times by documentarians Nathan Fielder and Lance Oppenheim. The footage is part of a new documentary,",
+          "title": "BBC Rests DIY SOS, Replaces with Spin-Off in 2027 Cost-Cutting Measure",
+          "image": "https://images.pexels.com/photos/11014213/pexels-photo-11014213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 18, 2026",
+          "content": "DIY SOS, a long-running home renovation TV series, will be rested in 2027 due to the BBC's savings challenges, and replaced by a spin-off show featuring highlights from past episodes. The decision comes as part of the corporation's drive to save £500m over three years, which has already led to the cancellation of several well-known TV shows. The BBC has confirmed that a new spin-off show, DIY SOS Rebuilt My Life, will revisit successful projects from the past and expand the brand on the BBC in a more cost-effective way. The original series, presented by Nick Knowles, has been airing since 1999 and has tackled numerous ambitious projects, including renovating homes for families facing severe illness, disability, or building disasters.",
           "theme": "#F3ECF7",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/16/entertainment/nathan-fielder-elizabeth-holmes-see-everything"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cr15jw22v50qo"
         },
         {
           "id": "ent-2",
-          "title": "Celebrity Traitors Ends in Snooze, New Recruit Brings Energy",
-          "image": "https://images.pexels.com/photos/8763166/pexels-photo-8763166.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 17, 2026",
-          "content": "In the latest episode of The Celebrity Traitors, the show's twist was that the final scene was a slow-motion build-up to determine which celebrity would fall asleep due to boredom. The traitors tried to make others yawn, but the outcome was far from thrilling. Meanwhile, new recruit King Kenny brought energy to the group, while Joe Lycett's desire to join the traitors raised suspicions. The next episode will reveal who is eliminated.",
+          "title": "Paul Shipper: From Film Fan to Illustrator of Marvel and Star Wars",
+          "image": "https://images.unsplash.com/photo-1787239813767-4c348c9a2318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8VmludGFnZSUyMG1vdmllJTIwcG9zdGVyfGVufDF8MHx8fDE3OTIzMDI3NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Birminghams Jewellery Quarter",
+          "time": "Oct 18, 2026",
+          "content": "Paul Shipper, a film fan-turned-illustrator, has come a long way from creating movie poster artwork for fun. He has worked on some of Hollywood's biggest franchises, including Marvel, Indiana Jones, and Star Wars. Shipper's passion for illustration started when he was a kid, inspired by the films of George Lucas and Steven Spielberg. He shared his designs online, which led to opportunities that once seemed like a dream. The illustrator has worked on various projects, including posters and artwork for blockbuster titles, and has maintained a consistent artistic style despite working across different projects. Shipper is now involved in a charity exhibition, AMPjam Presents: We've Been Framed, which brings together more than 60 artists from around the world to create original artworks inspired by films and television shows.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq70pre80gwko"
+          "url": "https://www.bbc.com/news/articles/cqx2zz0xdpdko"
         },
         {
           "id": "ent-3",

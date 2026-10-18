@@ -1,9 +1,3 @@
-"""
-Todards Pipeline — Structured Logging
-
-Configures unified logging for all pipeline components.
-Outputs formatted logs to stdout and optionally to a daily log file.
-"""
 
 import logging
 import sys
@@ -17,17 +11,7 @@ def setup_logger(
     log_dir: Optional[Path] = None,
     level: int = logging.INFO,
 ) -> logging.Logger:
-    """
-    Set up and configure a logger instance.
 
-    Args:
-        name: Logger name (hierarchy dot-separated).
-        log_dir: Directory where log files are stored. Defaults to data/logs.
-        level: Logging level (default: logging.INFO).
-
-    Returns:
-        Configured logging.Logger instance.
-    """
     logger = logging.getLogger(name)
     logger.setLevel(level)
 

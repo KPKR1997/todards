@@ -4,4 +4,9 @@
 - Implement press release scrape
 
 
+15/10
+
+- Change ranking method from scoring to sorting
+
+
 

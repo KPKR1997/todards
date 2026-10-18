@@ -1,0 +1,129 @@
+{
+    "date": "18102026",
+    "timestamp": "2026-10-18T11:22:48.694967",
+    "duration_seconds": 1931.56,
+    "stages_duration_seconds": {
+        "scrape": 420.67,
+        "guardrails": 80.97,
+        "deduplication": 8.19,
+        "category_validation": 80.74,
+        "ranking": 171.38,
+        "processing": 1169.56,
+        "assembly": 0.04
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 4,
+            "Tech": 7,
+            "People": 33,
+            "Environment": 4,
+            "Economy": 1,
+            "Entertainment": 13
+        },
+        "total_scraped": 62,
+        "guardrail_passed": 61,
+        "guardrail_rejected": 1,
+        "dedup_removed": 12,
+        "category_reassignments": 0,
+        "final_articles": 3,
+        "final_categories": 2
+    },
+    "guardrail_rejections": [
+        {
+            "id": "pp-33",
+            "source": "The Guardian",
+            "category": "people",
+            "title": "Reform candidate filmed saying asylum seekers should be put in ‘concentration camps’",
+            "date": "2026-10-17 19:00",
+            "content": "A would-be Reform UK MP told an undercover reporter that Muslims could not be British and asylum seekers should be put in “concentration camps”. The comments were recorded as part of the undercover investigation by ITV that has already seen Reform accused of “appalling behaviour” and “extreme racism”. Reform has said it had opened investigations where activists or members had “clearly behaved inappropriately”, adding there was “no room for racism” in the party. In footage due to be broadcast on Sunday, a Reform activist and aspiring MP, who has yet to be publicly identified, described himself as “pretty hardline about Islam”. He said: “If a Muslim’s prepared to de-convert, I’m happy. “But if they want to remain faithful to Islam, then this would be, I would have disagreements, especially with, um, I mean, as far as I understand, [Reform home affairs spokesperson] Zia Yusuf is a Muslim … to me … you cannot be a Muslim and British … it’s like oil and water.” Discussing people crossing the Channel in small boats, the same activist said: “In the first week of election, build concentration camps, and everyone who comes across on the Channel, you’re in there.” Excerpts from the investigation released earlier in the week included councillors and candidates within Reform using racist language. In one excerpt, black children were referred to as “animals”, while in another a Reform member said his area had become “infested” with Asian families. Bridget Phillipson, the Labour party chair, said Nigel Farage’s response to the revelations showed he was “completely unfit to lead”. She said: “Bad apples don’t fall far from the tree. The sleaze, scandals and appalling revelations of racism and rank misogyny piling up by the day go right to the top of Reform UK. “Nigel Farage is incapable of taking responsibility and getting his house in order because he himself shares culpability.” Speaking earlier in the week, Farage said that while Reform carries out vetting, “you can’t vet people for what they say in the future”. In a statement to ITV, the party said: “Reform UK has improved and prioritised its vetting procedures, but from time to time a handful of individuals who do not share our values will initially make it through vetting. “This is the same for all organisations. However good the vetting, one cannot vet a future comment. “There is no room for racism in Reform UK. We always respect due process of investigations and whilst these are ongoing it would not be appropriate to comment on individual cases.” On Friday, Alan Feeney resigned as a Reform councillor for Solihull and Birmingham after racist comments he had made were uncovered in the investigation. ITV revealed secretly recorded footage of Feeney making racist comments about Asian homeowners, calling them “parasites”, and stating that “no more than 1% of [the] British population can be non-white”, during a local election campaign. In a subsequent Facebook post, Feeney wrote: “There is no excuse for my comments. With responsibility comes accountability, and it is for that reason that I have resigned every post I hold on both Solihull borough council and Birmingham city council.” He added: “My remarks were wrong, offensive and completely unacceptable. They do not reflect the standards that the public rightly expects from an elected representative, and I take full responsibility for what I said.”",
+            "url": "https://www.theguardian.com/politics/2026/oct/17/reform-candidate-filmed-saying-asylum-seekers-should-be-put-in-concentration-camps",
+            "guardrail_flags": [],
+            "guardrail_reason": ""
+        }
+    ],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 61,
+        "classified_safe": 42,
+        "classified_unsafe": 19,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 19,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {
+        "total_checked": 65,
+        "exact_duplicate_pairs": 11,
+        "semantic_duplicate_pairs": 5,
+        "duplicate_pairs_found": 16,
+        "duplicate_clusters": 9,
+        "duplicates_removed": 12,
+        "published_duplicates_removed": 13
+    },
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 36,
+        "rejected_count": 6,
+        "rejected_articles": [
+            {
+                "title": "AI enters the chaotic world of online dating. User beware",
+                "from": "health",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the use of AI in online dating and its impact on human connection, which is more relevant to the 'people' category than 'health'."
+            },
+            {
+                "title": "",
+                "from": "health",
+                "detected_category": "science and technology",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the discovery of a light-sensitive protein and its application in optogenetics, which is a scientific and technological advancement."
+            },
+            {
+                "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the acquisition and consolidation strategies of Bending Spoons, a company that has bought several software startups, and its investment by Berkshire Hathaway, which is a significant event in the economy and business category."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses cognitive skills and language-related knowledge that support mathematical learning, which is more related to the people category than the current 'science and technology' category."
+            },
+            {
+                "title": "‘Austerity is inevitably painful’: How Michael Gove justifies his politics | Radical Thinking with Aditya Chakrabortty – podcast",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Michael Gove's politics and worldview, which is a topic more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "The Voice singer Ciiara Nyx says music helped her navigate her trans identity",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article's primary focus is on the personal story of Ciiara Nyx, a transgender singer, and how music helped her navigate her identity, which is more relevant to the 'people' category than 'entertainment'."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 159,
+        "total_failures": 0,
+        "total_time_seconds": 161.61,
+        "prompt_tokens": 199109,
+        "response_tokens": 3733,
+        "total_tokens": 202842,
+        "usage_responses": 159,
+        "prompt_eval_seconds": 47.589,
+        "generation_seconds": 86.767,
+        "load_seconds": 16.042,
+        "server_total_seconds": 158.809,
+        "avg_response_time": 1.02
+    }
+}

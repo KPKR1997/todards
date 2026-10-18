@@ -1,10 +1,3 @@
-"""
-Todards Pipeline — Live Terminal Progress Tracker
-
-Renders a terminal progress bar with active stage titles, sub-steps,
-and percentages using the `rich` library. Gracefully degrades to standard
-console output if `rich` is unavailable.
-"""
 
 import sys
 from typing import Optional
@@ -28,9 +21,6 @@ except ImportError:
 
 
 class PipelineProgressTracker:
-    """
-    Live terminal progress bar and banner renderer for the Todards pipeline.
-    """
 
     def __init__(self, issue_number: Optional[int] = None, date_str: Optional[str] = None):
         self.issue_number = issue_number
@@ -56,7 +46,6 @@ class PipelineProgressTracker:
             self.task_id = None
 
     def start(self):
-        """Print initial banner and launch progress display."""
         header_text = "TODARDS NEWS PIPELINE — AUTOMATED LOCAL AGENT"
         sub_text = f"Date: {self.date_str or 'Today'}"
         if self.issue_number:
@@ -82,7 +71,6 @@ class PipelineProgressTracker:
             print("=" * 60)
 
     def update_stage(self, stage_name: str, percent: float):
-        """Update the major stage and overall percentage."""
         self.current_percent = min(100.0, max(0.0, percent))
         self.status_message = stage_name
 
@@ -96,7 +84,6 @@ class PipelineProgressTracker:
             print(f"[{self.current_percent:3.0f}%] {stage_name}")
 
     def update_status(self, detail: str):
-        """Update live micro-status description above or within bar."""
         if RICH_AVAILABLE and self.progress and self.task_id is not None:
             self.progress.update(
                 self.task_id,
@@ -106,7 +93,6 @@ class PipelineProgressTracker:
             print(f"  → {detail}")
 
     def finish(self, message: str = "Pipeline completed successfully!"):
-        """Complete the progress display with closing summary."""
         if RICH_AVAILABLE and self.progress and self.task_id is not None:
             self.progress.update(
                 self.task_id,

@@ -1,12 +1,9 @@
 """
 Todards Pipeline — Category Definitions and Mappings
-
 Central definition of news categories, display titles, folder mappings,
 and validation rules.
 """
-
 from typing import Dict, List
-
 # Standard categories in Todards
 CATEGORIES: List[str] = [
     "people",
@@ -16,7 +13,6 @@ CATEGORIES: List[str] = [
     "entertainment",
     "economy and business",
 ]
-
 # Display names for UI / frontend
 CATEGORY_DISPLAY_NAMES: Dict[str, str] = {
     "people": "People",
@@ -26,7 +22,6 @@ CATEGORY_DISPLAY_NAMES: Dict[str, str] = {
     "entertainment": "Sports & Entertainment",
     "economy and business": "Economy & Business",
 }
-
 # Mapping from folder name to canonical category name
 FOLDER_TO_CATEGORY: Dict[str, str] = {
     "health_data": "health",
@@ -36,12 +31,10 @@ FOLDER_TO_CATEGORY: Dict[str, str] = {
     "economy_data": "economy and business",
     "entertainment_data": "entertainment",
 }
-
 # Mapping from canonical category name to folder name
 CATEGORY_TO_FOLDER: Dict[str, str] = {
     v: k for k, v in FOLDER_TO_CATEGORY.items()
 }
-
 # Folder priority when resolving duplicate articles across categories
 # Higher priority retains the article, lower priority deletes/yields
 CATEGORY_PRIORITY: Dict[str, int] = {
