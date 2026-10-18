@@ -5,68 +5,47 @@ from datetime import datetime, timezone, timedelta, date
 
 
 
-def get_section_links():
-    url = "https://press.oscars.org/tag/press-release"
-    domain = "https://press.oscars.org/"
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/153.0.0.0 Safari/537.36"
-        ),
-        "Accept": (
-            "text/html,application/xhtml+xml,application/xml;"
-            "q=0.9,image/avif,image/webp,*/*;q=0.8"
-        ),
-        "Accept-Language": "en-US,en;q=0.9",
-        "Referer": url
-    }
-    response = requests.get(url, headers=headers, timeout=10)
+from datetime import datetime, timedelta
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+
+from datetime import datetime, timedelta
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
+
+def get_section_links(url, domain):
+    response = requests.get(url, timeout=30)
     response.raise_for_status()
-    soup = BeautifulSoup(
-        response.text,
-        "html.parser"
-    )
-    article_urls = []
-    seen_urls = set()
+    soup = BeautifulSoup(response.text, "html.parser")
 
-    today = date.today()
-    allowed_dates = {today, today - timedelta(days=3)}
+    cutoff = datetime.now() - timedelta(hours=24)
+    links = []
 
-    for card in soup.select("div.card-article"):
-        date_element = card.select_one("div.card-article__date")
-        if not date_element:
+    for article in soup.find_all("article", class_="post"):
+        time_tag = article.find("div", class_="totalView")
+        time_tag = time_tag.find("p") if time_tag else None
+
+        if not time_tag:
             continue
 
-        date_text = date_element.get_text(" ", strip=True)
-
-        parsed_date = None
-        for fmt in ("%A, %B %d, %Y", "%B %d, %Y"):
-            try:
-                parsed_date = datetime.strptime(date_text, fmt).date()
-                break
-            except ValueError:
-                continue
-
-        if parsed_date not in allowed_dates:
+        try:
+            published = datetime.strptime(
+                time_tag.get_text(strip=True),
+                "%B %d, %Y %I:%M %p"
+            )
+        except ValueError:
             continue
 
-        link = card.select_one("a.card-article__link[href], a[href]")
-        if not link:
-            continue
+        if published >= cutoff:
+            link = article.find("a", href=True)
+            if link:
+                full_url = urljoin(domain, link["href"])
+                if full_url not in links:
+                    links.append(full_url)
 
-        article_url = urljoin(domain, link["href"])
-
-        if article_url not in seen_urls:
-            seen_urls.add(article_url)
-            article_urls.append(article_url)
-
-    return article_urls
+    return links
 
     
-
-
-
 def scrape_content(url_list):
     paragraphs = []
     for url in url_list:
@@ -96,3 +75,5 @@ def scrape_content(url_list):
     print(paragraphs)
     return paragraphs
 
+if __name__ == "__main__":
+    print(get_section_links("https://newsonair.gov.in/category/sports/", "https://newsonair.gov.in/"))

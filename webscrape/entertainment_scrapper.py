@@ -743,6 +743,8 @@ class BBCEntertainmentScraper:
             reverse=True
         )
         return articles
+
+
  
 # ACADEMY AWARDS / OSCARS SCRAPER
  
@@ -914,6 +916,37 @@ class EntertainmentDataScrapper:
         # ====================================================
         CNNEntertainment = CNNEntertainmentScraper(
             url="https://edition.cnn.com/entertainment",
+            domain="https://edition.cnn.com"
+        )
+        CNN_links = (
+            CNNEntertainment.get_section_links()
+        )
+        print(
+            f"CNN links found: "
+            f"{len(CNN_links)}"
+        )
+        CNN_data = (
+            CNNEntertainment.scrape_content(
+                CNN_links
+            )
+        )
+        for article in CNN_data:
+            entertainment_data.append({
+                "id":
+                f"st-{len(entertainment_data) + 1}",
+                "source": "CNN",
+                "category": self.category,
+                "title": article["title"],
+                "date": article["date"],
+                "content": article["content"],
+                "url": article["url"]
+            })
+
+        # ====================================================
+        # CNN
+        # ====================================================
+        CNNEntertainment = CNNEntertainmentScraper(
+            url="https://edition.cnn.com/sport",
             domain="https://edition.cnn.com"
         )
         CNN_links = (
