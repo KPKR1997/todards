@@ -1,1 +1,67 @@
-[]
+[
+    {
+        "id": "st-3",
+        "source": "SciTechDaily",
+        "category": "science and technology",
+        "title": "",
+        "date": "2026-10-18 13:27",
+        "content": "Language and reasoning skills help predict math performance, offering clues to the learning difficulties that a test score alone may miss. Why do some students grasp mathematical concepts with ease while others struggle, even after repeated instruction? The answer may lie in abilities that extend far beyond working with numbers. Mathematics requires students to recognize patterns, interpret information, and apply logical reasoning, drawing on a range of cognitive skills that also support learning in other subjects. Because math concepts build on one another, difficulties that emerge early can compound over time, making it especially important to understand what drives individual differences in mathematical ability. A new study published in the Journal of Intelligence suggests that language-related knowledge and reasoning ability are among the most consistent cognitive predictors of math performance. Led by Dr. Daniel Hajovsky, an associate professor in the Department of Educational Psychology at Texas A&M University, the research offers new insights into the mental abilities that support mathematical learning and how educators might better identify students who need additional help. The researchers brought together findings from 122 distinct test batteries in a single analysis, comparing a broad range of cognitive and academic assessments. A test battery groups tests of cognitive or behavioral abilities, such as the Wechsler cognitive test commonly used to evaluate children’s intellectual abilities. Combining these assessments allowed the team to examine how different cognitive abilities relate to math knowledge, calculation, problem solving, and fluency. Foundational knowledge of numbers mattered alongside those broader thinking skills. “We found in our study that number sense, which is this general understanding of math and how numbers are related to each other, was just as important and a strong foundation for later math skills,” Hajovsky said. “Cognitive abilities are important for learning and academic outcomes, but it’s not what fully makes up someone’s math ability.” One of the strongest cognitive predictors, fluid reasoning, involves drawing conclusions through deduction or induction. Deduction applies a general rule to a particular situation, while induction uses specific observations to develop a broader conclusion. “The example I like to use to explain fluid reasoning is, ‘How well can a student learn a game when there are no prior rules or background knowledge required for it?’” Hajovsky said. “When you’re reasoning internally, you’re still using verbal knowledge and information, but fluid reasoning helps you figure out which information is relevant and what’s irrelevant.” Language, vocabulary, and verbal reasoning are central to the other consistent predictor, comprehension knowledge. “If someone wants to go to law school, they’ll take the law school admission test. Part of that test requires strong reading comprehension skills and bringing in your own background knowledge or schemas of understanding to make sense of the new information you’re learning. That’s comprehension knowledge,” he said. “It’s important for reading, it’s important for writing, and we see now it’s important for mathematics.” These abilities continue to develop both inside and outside the math classroom through time and effort, Hajovsky said. Their connections extend across tasks that can appear quite different. “One of the most robust, consistent findings within psychology is something called the positive manifold. Performance on one mental task is positively correlated on a different mental task,” he said. “For example, how well someone can manipulate visual puzzles and mentally turn them is positively correlated with someone’s vocabulary development. They’re both tapping into this mental engine that drives performance on these unique cognitive tasks.” Hajovsky hopes that understanding the skills that support classroom success will inform new screening approaches, helping educators identify learning needs early and provide targeted support. “Instead of looking at a student’s scores, we can pay attention to the pattern of errors they make so we can pinpoint where the greatest learning needs exist,” he said. “In other words, using error analysis to distinguish if math challenges stem from conceptual difficulties like language, reasoning, or efficiency issues and adjusting instruction accordingly. This strategy could be helpful in improving math outcomes for all students.” Reference: “Cognitive–Mathematics Relations: A Meta-Analysis of Norm-Referenced Standardized Test Batteries” by Christopher R. Niileksela, Daniel B. Hajovsky, Francisco Philippe Cocar-Montenegro, William Joel Schneider, Dawn P. Flanagan and Vincent C. Alfonso, 5 July 2026, Journal of Intelligence . DOI: 10.3390/jintelligence14070142 Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/the-surprising-reason-some-children-struggle-with-math-according-to-science/",
+        "rank": 1,
+        "ranking_score": 8.16,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 8.16,
+            "base_score": 8.0,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 80,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 80
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a substantive development in the field of science and technology, providing new insights into the cognitive predictors of math performance and how educators can better identify students who need additional help. The study's findings and their implications for education are clear and compelling, making it a suitable candidate for publication in a high-value public-interest news product."
+            }
+        }
+    }
+]

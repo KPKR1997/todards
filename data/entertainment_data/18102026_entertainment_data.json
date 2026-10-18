@@ -1,22 +1,22 @@
 [
     {
-        "id": "entertainment-11",
+        "id": "entertainment-8",
         "source": "BBC",
         "category": "entertainment",
-        "title": "Pete Tong among first acts announced for festival",
-        "date": "2026-10-17 17:19",
-        "content": "Pete Tong's Ibiza Classics show and DJ Sonny Fodera are the first acts to be announced for Brighton's On The Beach festival in 2027.\nOrganisers said Pete Tong, with Tom Richards conducting the Essential Orchestra, would perform at the season opening party on 9 July, while Sonny Fodera would take to the stage on 24 July.\nThe festival returns to Brighton beach for its seventh edition after hosting artists including Fatboy Slim, Madness, The Maccabees and Moby this year .\nFestival organisers said the event generated more than £8.3m for Brighton's economy in 2025, attracting about 59,000 attendees and supporting more than 300 jobs.\nThey said the event delivered more than £3m in visitor spending across local businesses, accommodation and hospitality.\nCouncillor David McGregor said Brighton council was delighted that On the Beach would return next year.\nHe said: \"Events are critical to making Brighton and Hove such a distinctive place to live, work and visit, and bring significant benefits to our communities and economy.\"\nMcGregor added that last year's event created a \"second-to-none experience for visitors and residents alike\".\nA spokesperson for On the Beach said the Pete Tong and Sonny Fodera shows were \"a first taste of what's to come\" more would be announced in due course.\nFollow BBC Sussex on Facebook , X , and Instagram and listen to BBC Radio Sussex on Sounds . Send your story ideas to southeasttoday@bbc.co.uk or WhatsApp us on 08081 002250.",
-        "url": "https://www.bbc.com/news/articles/cr93zkexpqgpo",
+        "title": "Indie band celebrates album's top 10 chart success",
+        "date": "2026-10-18 06:30",
+        "content": "A band's new album that features \"nods\" to the guitarist and singer's hometown, Portsmouth, has reached the top 10 in the Official Charts in several categories.\nThe Howlers reached number two in the album downloads chart, number three in the independent album breakers chart and number 10 in the independent album chart with their new album 'Heavy'.\nIt comes after the band's debut album 'What You've Got to Lose to Win It All' reached number 10 in the record store chart.\nGuitarist and singer Adam Young said: \"In one of the busiest release weeks of the year going up against some huge artists I'm so proud of how hard our whole team worked to hold our own.\"\nHe added: \"It's been incredible over the past week to see how much this album already means to people.\n\"Doing things our way on our terms.\"\nThe band spent the summer touring Germany supporting Deep Purple.\nYoung told BBC Introducing that this was \"one of those experiences you wish you could do forever, bucket list stuff\".\nYoung, from Portsmouth, said the band's new album features \"lots of little things\" on the record \"linked to where I'm from\", including the centre stickers on the records and the CD.\nOne of the songs, Cold Sweat, is a \"rock/hip-hop track\", said Young.\n\"There's little nods to where I'm from and where we were recording it and stuff like that.\n\"It was a really cool track to kind of write and hear the end product as well, so different for us.\n\"There's lots of little things on this record that are kind of linked to where I'm from and where I grew up, even the centre stickers on the records and the CD is meant to look like dazzle paint on navy ships from 50-60 years ago so there's still like a landing craft in Portsmouth which has it on.\n\"I kind of got the idea for like the blue and the white from that.\"\nHe added: \"This record is meant to represent a step up from the previous and it's meant to be more authentic... it's a totally different experience doing this to the first one.\"",
+        "url": "https://www.bbc.com/news/articles/cmz7xvxz7nzwo",
         "rank": 1,
-        "ranking_score": 10.15,
-        "ranking_reason": "First acts announced for Brighton's On The Beach festival, including Pete Tong and Sonny Fodera",
+        "ranking_score": 9.09,
+        "ranking_reason": "",
         "ranking": {
             "rank": 1,
-            "score": 10.15,
-            "base_score": 10.15,
+            "score": 9.09,
+            "base_score": 9.0,
             "event_multiplier": 1.0,
             "severity_multiplier": 1.0,
-            "freshness_multiplier": 1.0,
+            "freshness_multiplier": 1.01,
             "source_multiplier": 1.0,
             "source_count": 1,
             "cluster_size": 1,
@@ -24,15 +24,15 @@
                 "everyday_impact": 0,
                 "dont_miss": 0,
                 "human_consequence": 0,
-                "economic_impact": 20,
+                "economic_impact": 0,
                 "political_significance": 0,
                 "health_significance": 0,
                 "scientific_significance": 0,
-                "entertainment_significance": 80,
+                "entertainment_significance": 60,
                 "remarkability": 0,
-                "global_reach": 1,
+                "global_reach": 20,
                 "urgency": 0,
-                "severity_tier": 1,
+                "severity_tier": 2,
                 "events": {
                     "major_disaster": false,
                     "mass_casualties": false,
@@ -47,8 +47,8 @@
                     "major_scientific_discovery": false,
                     "major_technology_event": false
                 },
-                "reason": "First acts announced for Brighton's On The Beach festival, including Pete Tong and Sonny Fodera",
-                "editorial_relevance": 60,
+                "reason": "",
+                "editorial_relevance": 50,
                 "publishable": true,
                 "rejection_reason": "",
                 "public_impact": 0,
@@ -60,7 +60,7 @@
             "representative_selection_method": "llm_pairwise_comparison",
             "final_quality": {
                 "passed": true,
-                "reason": "The article provides a concrete announcement of the first acts for the On The Beach festival, including a well-known DJ and a local economic impact analysis, which is of interest to the entertainment and local communities."
+                "reason": "This article provides a brief update on the success of an indie band's album, which is a category-specific development in the entertainment industry. While it may not have global impact, it provides a clear reason for readers to care by highlighting the band's achievement and the significance of their hometown influences in their music."
             }
         }
     }

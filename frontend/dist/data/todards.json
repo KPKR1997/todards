@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 64",
+    "issue": "Issue No. 65",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Illinois Governor Pritzker Donates Millions to Democrats Ahead of 2028 Bid",
-          "image": "https://images.pexels.com/photos/32437728/pexels-photo-32437728.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Illinois",
+          "title": "Israeli Settlers Attack European Diplomats in West Bank",
+          "image": "https://images.unsplash.com/photo-1686953412092-61727980970e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8SXNyYWVsaSUyMGZsYWd8ZW58MXwwfHx8MTc5MjI5ODExMXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "West Bank",
           "time": "Oct 18, 2026",
-          "content": "Illinois Governor JB Pritzker is donating millions of dollars to Democratic candidates and groups in the midterm elections, a move seen as a strategic play ahead of a potential 2028 presidential bid. With an estimated net worth of $4.2 billion, Pritzker's donations have been targeted and impactful, helping to boost Democratic campaigns in key states and districts. His efforts have also helped to repair relationships with the Congressional Black Caucus and the Congressional Hispanic Caucus, groups he would need to court as a presidential candidate. Pritzker's donations have not gone unnoticed, with some Republican candidates seeking to turn him into a political liability by portraying him as a liberal out-of-state elite. Despite this, Pritzker remains focused on his midterm giving, saying that he is",
+          "content": "A delegation of European diplomats from Belgium, France, Poland, and the Catholic Church was attacked by masked Israeli settlers in the occupied West Bank. The Belgian government condemned the assault, calling for Israel to bring those responsible to justice. France also condemned the attack, urging Israel to halt the violence and ensure the safety of civilian populations. The US Secretary of State Marco Rubio separately condemned an attack on a Washington Post photographer, Heidi Levine, saying it was 'disturbing' and 'not a good look.' The Israeli Defense Forces (IDF) are investigating the attacks, while the office of Prime Minister Benjamin Netanyahu questioned the motives behind the incidents.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/18/politics/jb-pritzker-midterm-elections-donations-2028"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c962ydpmjm3zo"
         },
         {
           "id": "pp-2",
-          "title": "Pope Leo XIV Discharged from Hospital After Lung Cancer Surgery",
-          "image": "https://images.pexels.com/photos/18683714/pexels-photo-18683714.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Vatican City",
+          "title": "UK woman detained for two months over sister's activism in Egypt",
+          "image": "https://images.unsplash.com/photo-1593781493209-823f48853130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QnJpdGlzaCUyMHBhc3Nwb3J0fGVufDF8MHx8fDE3OTIzMzIzMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Cairo, Egypt",
           "time": "Oct 18, 2026",
-          "content": "Pope Leo XIV has been discharged from Rome's Gemelli Hospital just four days after an operation to remove a cancerous growth from his lung. The 71-year-old walked unaided to his waiting car, stopping to speak to well-wishers. The Vatican said the Pope will give the traditional Angelus prayer and blessing to a crowd in St Peter's Square on Sunday, as he did last week when he surprised the world by announcing the surgery. The Pope's doctors reported 'steady improvement' following his operation. The Pope also made a surprise call to Russian President Vladimir Putin, urging 'dialogue and peace', amid the ongoing invasion of Ukraine. The Pope's schedule has been cleared completely until October 20, so his reappearance in public so soon is a surprise and will be some relief for Catholics around the world.",
+          "content": "Eman el-Shazly, a 46-year-old woman from Handsworth Wood, Birmingham, has been detained by Egyptian authorities for two months, allegedly due to her sister's online activism. Her husband, Zeesharn Moustapha, has called on Prime Minister Andy Burnham to intervene and help secure her release. Moustapha claims that their family has been left feeling helpless, with no contact with el-Shazly and her health deteriorating due to a lack of food and medical assistance. The Foreign, Commonwealth & Development Office has stated that it is in contact with Egyptian authorities, but Moustapha feels that their efforts are 'useless' with no progress made in securing el-Shazly's release. The situation has left Moustapha and their four children feeling distraught and unsure of what to do.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c5x2vkddrkrko"
+          "url": "https://www.bbc.com/news/articles/c6dxw58vrqnpo"
         },
         {
           "id": "pp-3",
-          "title": "Premier League's TV deal transforms football into big business",
-          "image": "https://images.unsplash.com/photo-1761315191206-a592f6bdb523?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8UHJlbWllciUyMExlYWd1ZSUyMGxvZ298ZW58MXwwfHx8MTc5MjMyNDA0OHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United Kingdom",
+          "title": "Attack on St. Petersburg oil facilities kills one, injures five",
+          "image": "https://images.unsplash.com/photo-1693847173071-bd6237101335?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTI0b2lsX3Rlcm1pbmFsfGVufDF8MHx8fDE3OTIzMzI1Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "St Petersburg, Russia",
           "time": "Oct 18, 2026",
-          "content": "The article highlights how the Premier League's initial TV deal with Sky in the early 1990s transformed football from a sport to big business. The agreement made live top-tier football available behind a paywall for the first time, setting a lucrative model for other sports to follow. However, the rise of piracy has put this model under pressure, with half of sports fans admitting to using",
+          "content": "At least one person was killed and five others injured in an overnight attack on St. Petersburg, Russia, which targeted two oil facilities, a logistics centre, and a data centre. The attack also damaged 12 apartment buildings, two homes, and temporarily closed Pulkovo Airport. The city's governor said fires were being extinguished at the oil terminal and depot. Ukraine had paused its strikes on Russian oil facilities, but resumed them earlier this week. Russia's Defence Ministry reported shooting down over 1,000 Ukrainian drones overnight.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmx2375zqwwwo"
+          "url": "https://www.bbc.com/news/articles/c3eweygrjzd7o"
         }
       ]
     },
@@ -64,14 +64,14 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "SpaceX Delivers Cargo to International Space Station",
-          "image": "https://images.unsplash.com/photo-1541185933-ef5d8ed016c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U3BhY2VYJTIwcm9ja2V0fGVufDF8MHx8fDE3OTIxNjQzNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Cape Canaveral, USA",
+          "title": "Texas A&M Study Finds Language, Reasoning Linked to Math Skills",
+          "image": "https://images.pexels.com/photos/5412108/pexels-photo-5412108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "College Station, USA",
           "time": "Oct 18, 2026",
-          "content": "In a mission that could lead to new medical breakthroughs, SpaceX successfully delivered a cargo of scientific experiments and supplies to the International Space Station. The Dragon spacecraft, launched on October 13, arrived at the station on October 15 and brought over 6,300 pounds of cargo, including tiny brain models, artificial retina technology, and 3D heart tissue. The experiments aim to advance medical research on Earth, with one focusing on manufacturing artificial retinas and another using 3D heart tissue models to test large-scale drug testing. The spacecraft will remain docked at the station until mid-November before returning to Earth, concluding its mission with a splashdown off the California coast.",
+          "content": "Researchers at Texas A&M University have found that language and reasoning skills are strong predictors of math performance. The study, published in the Journal of Intelligence, analyzed 122 test batteries and found that cognitive abilities such as number sense, fluid reasoning, and comprehension knowledge are essential for math learning. According to Dr. Daniel Hajovsky, the study's lead researcher, math requires students to recognize patterns, interpret information, and apply logical reasoning, drawing on a range of cognitive skills that also support learning in other subjects. The findings suggest that understanding what drives individual differences in mathematical ability can help educators identify learning needs early and provide targeted support. The study's conclusions may lead to new approaches to screening and instruction, potentially improving math outcomes for all students.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/spacex-dragon-delivers-groundbreaking-science-and-solar-arrays-to-iss/"
+          "url": "https://scitechdaily.com/the-surprising-reason-some-children-struggle-with-math-according-to-science/"
         },
         {
           "id": "st-2",
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Cancer drug works by blocking DHODH, not KDM4",
-          "image": "https://images.pexels.com/photos/8428390/pexels-photo-8428390.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 17, 2026",
-          "content": "Researchers have found that a cancer drug, zavondemstat, works mainly by blocking an enzyme called DHODH, rather than targeting KDM4 as originally thought. This discovery has implications for understanding how earlier studies using a related compound, QC6352, may need to be reinterpreted. The team developed new compounds that inhibit KDM4 without affecting DHODH, allowing scientists to study KDM4's role more accurately. The findings raise questions about whether clinical trials for zavondemstat are being designed around the correct biological mechanism.",
+          "title": "Losartan Medication Activates Brown Fat for Better Cardiovascular Health",
+          "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWVkaWNhdGlvbiUyMGJvdHRsZXxlbnwxfDB8fHwxNzkyMzMxNTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York City, USA",
+          "time": "Oct 18, 2026",
+          "content": "A new study on a blood pressure medication, Losartan, reveals that it could have a second use in activating brown fat, a tissue that burns energy to produce heat and is linked to better cardiovascular health. The research, published in Nature, analyzed medical records and PET/CT scans of over 100,000 patients and found that patients taking Losartan were more likely to have brown fat detected on their scans. The study also found that Losartan directly increased metabolic activity in brown fat cells and had a positive effect on the body's energy-burning fat. This discovery could lead to future treatments for people with normal blood pressure, as well as potential benefits for cardiovascular health. Additionally, the study found that brown fat was associated with lower rates of anxiety and depression, and its activity was linked to several health indicators, including blood sugar regulation, blood fats, and heart function. The researchers noted that further study is needed to fully understand the connections between brown fat and these health outcomes.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-an-unexpected-problem-with-a-cancer-drug-already-in-human-trials/"
+          "url": "https://scitechdaily.com/scientists-discover-a-surprising-new-effect-of-a-popular-blood-pressure-drug/"
         },
         {
           "id": "hw-2",
-          "title": "MDS patients have lower bone density and poorer survival",
-          "image": "https://images.pexels.com/photos/7723513/pexels-photo-7723513.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Dresden, Germany",
-          "time": "Oct 17, 2026",
-          "content": "For people with myelodysplastic syndromes, a type of blood cancer, osteoporosis may be an important clue to survival. Researchers found that patients with MDS had significantly lower bone density and continued to lose bone mass over time. Patients with osteoporosis at the beginning of the study also had poorer overall survival. The study suggests that bone health, often overlooked in MDS care, may reveal important information about patients' overall health and prognosis. The findings highlight the need to consider bone health when diagnosing and managing MDS, particularly for older adults with complex conditions. This could lead to new ways to investigate how blood formation, aging, and bone metabolism influence one another.",
+          "title": "Experimental treatment shows promise against C. difficile",
+          "image": "https://images.pexels.com/photos/5841802/pexels-photo-5841802.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Germany",
+          "time": "Oct 18, 2026",
+          "content": "Experimental treatment for C. difficile gut infections, which is caused by an imbalance in the gut's microbial community, has shown promise in early laboratory and mouse research. The treatment, argyrin B, specifically kills the C. difficile bacteria while sparing the rest of the gut microbiome. Researchers have found that argyrin B is highly effective against C. difficile infections, reducing the bacterial load in laboratory experiments and mouse models. The compound acts by targeting a specific antibacterial site in the C. difficile bacteria and has shown little to no effect on beneficial microorganisms in the digestive tract. This could lead to a treatment that reduces the risk of further microbiome disruption, infections, and relapses, and may provide an alternative to the current treatment, fecal microbiota transfer, which is complex and unpleasant for many patients.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/your-bones-may-hold-a-hidden-clue-to-blood-cancer-survival/"
+          "url": "https://scitechdaily.com/scientists-discover-a-powerful-new-weapon-against-a-dangerous-gut-infection/"
         },
         {
           "id": "hw-3",
@@ -150,14 +150,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "India falls short on health in national climate plan",
-          "image": "https://images.unsplash.com/photo-1516540613122-c22d40e07f12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8X2NsaW1hdGVfY2hhbmdlX2luZGlhfGVufDF8MHx8fDE3OTIzMjQxNjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "India",
+          "title": "NASA data shows Arctic sea ice decline, threatening ice-free summers",
+          "image": "https://images.unsplash.com/photo-1509326066092-14b2e882fe86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YXJjdGljfGVufDF8MHx8fDE3OTIzMzI2NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
           "time": "Oct 18, 2026",
-          "content": "A recent report by the Global Climate and Health Alliance found that India has not effectively incorporated health considerations into its national climate change action plan. This is concerning, as India is vulnerable to climate-related illnesses and premature deaths. The report, called",
+          "content": "NASA's satellite data reveals a concerning decline in Arctic sea ice, with a possibility of nearly ice-free summers before 2050. The data shows a decrease in sea ice coverage during both winter and summer, with a significant decline in the thickness and age of the remaining ice. While there have been fluctuations in ice coverage over the years, the long-term trend suggests a persistent decline attributed to a combination of natural climate patterns and increasing global temperatures. The NASA data provides an uninterrupted record of Arctic sea ice growth and retreat since 1978, allowing scientists to track changes across nearly five decades.",
           "theme": "#E7F4EF",
-          "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/indias-climate-action-plan-fails-to-prioritise-health-global-scorecard-finds"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/nasa-satellites-reveal-a-troubling-new-reality-in-the-arctic/"
         },
         {
           "id": "env-2",
@@ -193,14 +193,14 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Pete Tong and Sonny Fodera Announced for On The Beach Festival 2027",
-          "image": "https://images.pexels.com/photos/15288905/pexels-photo-15288905.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Brighton, UK",
+          "title": "The Howlers' album 'Heavy' tops charts with Portsmouth nods",
+          "image": "https://images.pexels.com/photos/34287896/pexels-photo-34287896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Portsmouth, UK",
           "time": "Oct 18, 2026",
-          "content": "Pete Tong's Ibiza Classics show and DJ Sonny Fodera are the first acts to be announced for the On The Beach festival in 2027, which returns for its seventh edition after hosting artists like Fatboy Slim, Madness, and Moby this year. The festival, which takes place on Brighton beach, generated over £8.3m for the local economy in 2025, attracting 59,000 attendees and supporting over 300 jobs. Councillor David McGregor said the event brings significant benefits to the community and economy, and organizers promise more acts will be announced in the future. Last year's event created a 'second-to-none experience' for visitors and residents alike, according to McGregor.",
+          "content": "The British band, The Howlers, has achieved significant success with their new album 'Heavy', which features nods to their hometown, Portsmouth. The album reached the top 10 in several Official Charts, including album downloads, independent album breakers, and independent album charts. Guitarist and singer Adam Young credits the band's hard work and the album's authenticity for its success. Young notes that the album includes several references to Portsmouth, such as the centre stickers on the records and the CD, which are meant to resemble dazzle paint on navy ships. This album is seen as a step up from their previous work and a more authentic representation of the band. The Howlers spent the summer touring Germany supporting Deep Purple and have seen the album already mean a lot to people.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cr93zkexpqgpo"
+          "url": "https://www.bbc.com/news/articles/cmz7xvxz7nzwo"
         },
         {
           "id": "ent-2",

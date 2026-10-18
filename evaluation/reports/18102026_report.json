@@ -1,41 +1,41 @@
 {
     "date": "18102026",
-    "timestamp": "2026-10-18T17:22:23.779092",
-    "duration_seconds": 2439.84,
+    "timestamp": "2026-10-18T19:43:02.244109",
+    "duration_seconds": 2798.55,
     "stages_duration_seconds": {
-        "scrape": 1288.14,
-        "guardrails": 88.98,
-        "deduplication": 8.57,
-        "category_validation": 86.35,
-        "ranking": 133.44,
-        "processing": 834.29,
-        "assembly": 0.05
+        "scrape": 1024.95,
+        "guardrails": 83.91,
+        "deduplication": 8.92,
+        "category_validation": 87.61,
+        "ranking": 181.45,
+        "processing": 1411.64,
+        "assembly": 0.06
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 4,
-            "Tech": 7,
-            "People": 39,
+            "Health": 6,
+            "Tech": 5,
+            "People": 38,
             "Environment": 4,
             "Economy": 0,
             "Entertainment": 14
         },
-        "total_scraped": 68,
-        "guardrail_passed": 68,
+        "total_scraped": 67,
+        "guardrail_passed": 67,
         "guardrail_rejected": 0,
-        "dedup_removed": 21,
+        "dedup_removed": 20,
         "category_reassignments": 0,
-        "final_articles": 5,
-        "final_categories": 3
+        "final_articles": 8,
+        "final_categories": 5
     },
     "guardrail_rejections": [],
     "article_safety": {
         "files_seen": 6,
-        "articles_seen": 68,
+        "articles_seen": 67,
         "classified_safe": 49,
-        "classified_unsafe": 19,
+        "classified_unsafe": 18,
         "unsafe_removed": 0,
-        "unsafe_would_remove": 19,
+        "unsafe_would_remove": 18,
         "unclassified": 0,
         "unclassified_retained": 0,
         "model_errors": 0,
@@ -43,89 +43,82 @@
         "dry_run": true
     },
     "deduplication": {
-        "total_checked": 78,
+        "total_checked": 76,
         "exact_duplicate_pairs": 16,
-        "semantic_duplicate_pairs": 22,
-        "duplicate_pairs_found": 38,
-        "duplicate_clusters": 11,
-        "duplicates_removed": 21,
+        "semantic_duplicate_pairs": 24,
+        "duplicate_pairs_found": 40,
+        "duplicate_clusters": 10,
+        "duplicates_removed": 20,
         "published_duplicates_removed": 7
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 41,
-        "rejected_count": 8,
+        "total_checked": 40,
+        "rejected_count": 7,
         "rejected_articles": [
             {
                 "title": "",
                 "from": "health",
                 "detected_category": "science and technology",
                 "confidence": 0.9,
-                "reason": "The article primarily discusses the discovery and application of a protein that helps scientists reactivate a fear memory in mice, which is a significant scientific development in the field of optogenetics."
-            },
-            {
-                "title": "Software’s new consolidator gets big vote of confidence from Berkshire",
-                "from": "science and technology",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses the business and financial aspects of software consolidation, with a focus on Bending Spoons' M&A strategy and its impact on the technology industry."
+                "reason": "The article discusses the discovery of a protein that helps scientists reactivate a fear memory in mice, and its application in optogenetics, which is a tool for controlling brain cells with light, making it more relevant to the 'science and technology' category."
             },
             {
                 "title": "'It was jaw-dropping': The shocking lessons from an infamous experiment in obedience",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article explores the concept of obedience and human behavior, which is more relevant to the 'people' category than 'science and technology'."
+                "confidence": 0.9,
+                "reason": "The article discusses the Milgram experiment, which is a famous social psychology study that explores human behavior and obedience, and its findings are related to people and human behavior."
             },
             {
-                "title": "Making murder fun: How the Traitors' soundtrack sets the tone",
+                "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
                 "from": "people",
-                "detected_category": "entertainment",
+                "detected_category": "health",
                 "confidence": 0.9,
-                "reason": "The article is primarily about a TV show, its music, and its production, which makes it more relevant to the 'entertainment' category than 'people'."
+                "reason": "The article discusses the opioid crisis and its impact on individuals, with a focus on the synthetic drugs and their effects, which is a clear connection to the 'health' category."
             },
             {
                 "title": "Comedian Paul Whitehouse mugged at London cash machine",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.9,
-                "reason": "The article primarily focuses on the personal experience and reaction of comedian Paul Whitehouse to a mugging, which is a human-interest story that falls under the 'people' category."
-            },
-            {
-                "title": "Funding for new 'Mackem' musical history project",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article primarily focuses on the preservation of Sunderland's musical history and its cultural significance, making it more relevant to the 'people' category than 'entertainment'."
+                "reason": "The article primarily focuses on the personal life and experiences of comedian Paul Whitehouse, which falls under the 'people' category."
             },
             {
                 "title": "How The Beatles found their drummer at Butlin's",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article is primarily about Ringo Starr's career and the events that led him to join The Beatles, which is a significant human-interest story in the 'people' category."
+                "reason": "The article is primarily about the biographical development of Ringo Starr, a key figure in the music industry, which makes it more relevant to the 'people' category than the current category 'entertainment'."
             },
             {
                 "title": "She started by peeling potatoes, now she is one of Britain's best-known online chefs",
                 "from": "entertainment",
                 "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Poppy O'Toole's personal journey and her rise to fame as a chef, which is a human-interest story and a significant development in the 'people' category."
+            },
+            {
+                "title": "Clayface star says uncomfortable prosthetics helped his performance",
+                "from": "entertainment",
+                "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article is primarily about Poppy O'Toole, a chef and TV regular, and her journey to becoming a well-known food personality, which falls under the 'people' category."
+                "reason": "The article is primarily about an actor's experience and thoughts, which falls under the 'people' category, although it is also tangentially related to the 'entertainment' category due to the actor's profession and the movie being discussed."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 177,
+        "total_calls": 174,
         "total_failures": 0,
-        "total_time_seconds": 175.2,
-        "prompt_tokens": 212728,
-        "response_tokens": 4098,
-        "total_tokens": 216826,
-        "usage_responses": 177,
-        "prompt_eval_seconds": 48.54,
-        "generation_seconds": 92.126,
-        "load_seconds": 22.587,
-        "server_total_seconds": 171.851,
+        "total_time_seconds": 171.39,
+        "prompt_tokens": 210618,
+        "response_tokens": 3983,
+        "total_tokens": 214601,
+        "usage_responses": 174,
+        "prompt_eval_seconds": 48.638,
+        "generation_seconds": 92.74,
+        "load_seconds": 18.411,
+        "server_total_seconds": 168.8,
         "avg_response_time": 0.99
     }
 }
