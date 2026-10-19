@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 69",
+    "issue": "Issue No. 70",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -106,37 +106,26 @@
       "tint": "#E8F5F1",
       "cards": [
         {
-          "id": "hw-1",
-          "title": "Experimental Treatment Shows Promise for C. Difficile Infections",
-          "image": "https://images.pexels.com/photos/3786213/pexels-photo-3786213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Germany",
-          "time": "Oct 19, 2026",
-          "content": "An experimental treatment for C. difficile gut infections, which can cause life-threatening diarrhea, has shown promise in early laboratory and mouse research. The treatment, argyrin B, specifically kills the bacteria responsible for the infection while sparing the rest of the gut microbiome. This is significant because broad-spectrum antibiotics can disrupt the gut's microbial community, allowing C. difficile to multiply unchecked. The researchers believe that argyrin B could reduce the risk of further microbiome disruption, infections, and relapses, which often require a stool transplant. The team plans to continue studying the treatment, including determining the effective dose and testing its ability to prevent recurrent infections.",
-          "theme": "#E8F5F1",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-powerful-new-weapon-against-a-dangerous-gut-infection/"
-        },
-        {
           "id": "hw-2",
-          "title": "Experimental treatment shows promise against C. difficile",
-          "image": "https://images.pexels.com/photos/5841802/pexels-photo-5841802.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Germany",
-          "time": "Oct 18, 2026",
-          "content": "Experimental treatment for C. difficile gut infections, which is caused by an imbalance in the gut's microbial community, has shown promise in early laboratory and mouse research. The treatment, argyrin B, specifically kills the C. difficile bacteria while sparing the rest of the gut microbiome. Researchers have found that argyrin B is highly effective against C. difficile infections, reducing the bacterial load in laboratory experiments and mouse models. The compound acts by targeting a specific antibacterial site in the C. difficile bacteria and has shown little to no effect on beneficial microorganisms in the digestive tract. This could lead to a treatment that reduces the risk of further microbiome disruption, infections, and relapses, and may provide an alternative to the current treatment, fecal microbiota transfer, which is complex and unpleasant for many patients.",
+          "title": "Type 2 Diabetes Patients With Stable Rhythms Control Blood Sugar Better",
+          "image": "https://images.unsplash.com/photo-1685485276223-0bb0226dcca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Ymxvb2QlMjBnbHVjb3NlJTIwbW9uaXRvcmluZ3xlbnwxfDB8fHwxNzkyNDAxODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Ansan, South Korea",
+          "time": "Oct 19, 2026",
+          "content": "Patients with type 2 diabetes who use insulin have a better chance of controlling their blood sugar levels if they have a consistent daily rhythm. Researchers found that patients with the most stable daily rhythms were 2.3 times more likely to meet their blood sugar goals compared to those with less stable rhythms. The study, which involved 122 patients, also found that patients who were more active in the afternoon had smaller swings in their blood sugar levels. Additionally, patients who got sufficient sleep had a lower risk of having low blood sugar and smaller glucose fluctuations. The researchers believe that maintaining regular daily rhythms can help manage blood sugar levels and plan to conduct a follow-up study to confirm this.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-powerful-new-weapon-against-a-dangerous-gut-infection/"
+          "url": "https://scitechdaily.com/scientists-uncover-a-hidden-factor-that-could-change-how-we-manage-diabetes/"
         },
         {
           "id": "hw-3",
-          "title": "Fat Before Carbs Regulates Blood Sugar in Mice Study",
-          "image": "https://images.pexels.com/photos/5469027/pexels-photo-5469027.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Kyoto, Japan",
-          "time": "Oct 17, 2026",
-          "content": "In a breakthrough study, researchers found that eating fat before carbohydrates can help regulate blood sugar levels by slowing down stomach emptying and reducing the initial spike. This effect was observed in mice and may be applicable to humans, offering a potential dietary strategy to manage post-meal blood sugar rises, an important treatment target in diabetes.",
+          "title": "Scientists Study 'Immortal Jellyfish' Rejuvenation Secrets",
+          "image": "https://images.unsplash.com/photo-1508311603478-ce574376c3cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8amVsbHlmaXNoJTIwY2VsbHN8ZW58MXwwfHx8MTc5MjQwMTk4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Galveston, USA",
+          "time": "Oct 19, 2026",
+          "content": "Scientists have discovered a unique property of the Turritopsis dohrnii jellyfish, also known as the 'immortal jellyfish', which can rewind its life cycle and revert to a younger state. This process involves a transformation of adult cells into stem cells, allowing the jellyfish to create a new polyp and eventually grow into adult jellyfish again. Researchers are studying the genetic and molecular processes behind this phenomenon, hoping to unlock its secrets and potentially apply them to human cells to treat age-related diseases. While the goal is not to reverse human aging entirely, scientists aim to explore ways to coax human cells into more youthful states to heal wounds and treat age-related maladies. The research is still in its early stages, but initial findings suggest that the immortal jellyfish's ability to rejuvenate may be linked to its enhanced ability to repair DNA damage and maintain telomeres, which could hold the key to understanding and potentially applying its regenerative abilities to humans.",
           "theme": "#E8F5F1",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-why-eating-fat-before-carbs-reduces-blood-sugar-spikes/"
+          "source": "BBC",
+          "url": "https://www.bbc.com/future/article/20261016-the-rejuvenating-secrets-of-the-immortal-jellyfish"
         }
       ]
     },

@@ -1064,6 +1064,7 @@ class ArticleDuplicateRemover:
             json.dump(data, handle, ensure_ascii=False, indent=2)
         temporary_path.replace(json_path)
         return report
+    
 if __name__ == "__main__":
     remover = ArticleDuplicateRemover()
     result = remover.run()

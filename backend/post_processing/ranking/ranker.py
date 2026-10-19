@@ -1,9 +1,4 @@
-"""Todards editorial ranking pipeline.
-The pipeline keeps the existing orchestration and JSON schema, but uses
-LLM pairwise editorial comparisons as the primary ordering method. The
-weighted RankingRules score is retained as diagnostic metadata and as the
-explicitly logged fallback when a pairwise comparison cannot be completed.
-"""
+
 import json
 import shutil
 from datetime import datetime
@@ -15,7 +10,6 @@ from backend.post_processing.ranking.ranking_rules import RankingRules
 from backend.post_processing.ranking.story_clusterer import StoryClusterer
 from config.settings import ALL_DATA_FOLDERS
 class NewsRanker:
-    """Rank Todards stories while preserving the existing main.py interface."""
     def __init__(
         self,
         data_root="data",
@@ -46,7 +40,7 @@ class NewsRanker:
      
     def load_today_articles(self):
         self.records = []
-        print("\n========== LOADING TODAY'S ARTICLES ==========")
+        print("\nLOADING TODAY'S ARTICLES")
         for folder_name in ALL_DATA_FOLDERS:
             folder = self.data_root / folder_name
             if not folder.exists():
@@ -80,7 +74,6 @@ class NewsRanker:
      
     @staticmethod
     def _failed_analysis() -> dict:
-        """Fail closed if ArticleAnalyzer raises unexpectedly."""
         return {
             "editorial_relevance": 0,
             "publishable": False,
@@ -124,7 +117,7 @@ class NewsRanker:
             ),
         }
     def analyze_articles(self):
-        print("\n========== ANALYZING ARTICLES ==========")
+        print("\n ANALYZING ARTICLES")
         if not self.records:
             print("No articles available for analysis.")
             return

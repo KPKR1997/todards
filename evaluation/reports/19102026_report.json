@@ -1,41 +1,36 @@
 {
     "date": "19102026",
-    "timestamp": "2026-10-19T14:08:56.658965",
-    "duration_seconds": 2884.22,
+    "timestamp": "2026-10-19T14:56:29.914838",
+    "duration_seconds": 527.46,
     "stages_duration_seconds": {
-        "scrape": 1478.96,
-        "guardrails": 107.95,
-        "deduplication": 9.91,
-        "category_validation": 85.14,
-        "ranking": 152.77,
-        "processing": 1049.41,
-        "assembly": 0.05
+        "scrape": 66.78,
+        "guardrails": 16.61,
+        "deduplication": 8.89,
+        "category_validation": 13.92,
+        "ranking": 29.24,
+        "processing": 391.98,
+        "assembly": 0.02
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 3,
-            "Tech": 14,
-            "People": 40,
-            "Environment": 1,
-            "Economy": 10,
-            "Entertainment": 8
+            "Health": 4
         },
-        "total_scraped": 76,
-        "guardrail_passed": 76,
+        "total_scraped": 4,
+        "guardrail_passed": 4,
         "guardrail_rejected": 0,
-        "dedup_removed": 23,
+        "dedup_removed": 0,
         "category_reassignments": 0,
-        "final_articles": 5,
-        "final_categories": 2
+        "final_articles": 2,
+        "final_categories": 1
     },
     "guardrail_rejections": [],
     "article_safety": {
-        "files_seen": 6,
-        "articles_seen": 76,
-        "classified_safe": 63,
-        "classified_unsafe": 13,
+        "files_seen": 1,
+        "articles_seen": 4,
+        "classified_safe": 4,
+        "classified_unsafe": 0,
         "unsafe_removed": 0,
-        "unsafe_would_remove": 13,
+        "unsafe_would_remove": 0,
         "unclassified": 0,
         "unclassified_retained": 0,
         "model_errors": 0,
@@ -43,68 +38,32 @@
         "dry_run": true
     },
     "deduplication": {
-        "total_checked": 74,
-        "exact_duplicate_pairs": 13,
-        "semantic_duplicate_pairs": 23,
-        "duplicate_pairs_found": 36,
-        "duplicate_clusters": 13,
-        "duplicates_removed": 23,
-        "published_duplicates_removed": 16
+        "total_checked": 17,
+        "exact_duplicate_pairs": 0,
+        "semantic_duplicate_pairs": 0,
+        "duplicate_pairs_found": 0,
+        "duplicate_clusters": 0,
+        "duplicates_removed": 0,
+        "published_duplicates_removed": 6
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 37,
-        "rejected_count": 5,
-        "rejected_articles": [
-            {
-                "title": "People playing loud music on buses could face £100 fine",
-                "from": "economy and business",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses a government initiative to crack down on antisocial behavior on public transport, including loud music, and its impact on passengers, which is more relevant to the 'people' category than the current 'economy and business' category."
-            },
-            {
-                "title": "‘You Can See Everything’ becomes one of the biggest documentary releases in decades",
-                "from": "economy and business",
-                "detected_category": "entertainment",
-                "confidence": 0.9,
-                "reason": "The article is primarily about a documentary film's box office performance, which is a topic typically classified under the 'entertainment' category."
-            },
-            {
-                "title": "Prediction markets are partnering with top athletes and sports teams. Why it’s taking the magic away for many fans",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses the fan experience and reactions to prediction market partnerships with sports teams, making it more relevant to the 'people' category than 'entertainment'."
-            },
-            {
-                "title": "Why baseball teams party so hard and so often in October",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about the culture and celebrations of MLB teams, which falls under the 'people' category."
-            },
-            {
-                "title": "BBC pauses civil service secondment scheme",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article discusses the BBC's secondment scheme for civil servant statisticians, which is a news development related to government and public policy."
-            }
-        ]
+        "total_checked": 3,
+        "rejected_count": 0,
+        "rejected_articles": []
     },
     "llm_performance": {
-        "total_calls": 189,
+        "total_calls": 11,
         "total_failures": 0,
-        "total_time_seconds": 192.92,
-        "prompt_tokens": 247893,
-        "response_tokens": 3939,
-        "total_tokens": 251832,
-        "usage_responses": 189,
-        "prompt_eval_seconds": 59.898,
-        "generation_seconds": 93.792,
-        "load_seconds": 26.013,
-        "server_total_seconds": 190.445,
-        "avg_response_time": 1.02
+        "total_time_seconds": 30.52,
+        "prompt_tokens": 17417,
+        "response_tokens": 262,
+        "total_tokens": 17679,
+        "usage_responses": 11,
+        "prompt_eval_seconds": 5.411,
+        "generation_seconds": 6.221,
+        "load_seconds": 18.182,
+        "server_total_seconds": 30.325,
+        "avg_response_time": 2.77
     }
 }
