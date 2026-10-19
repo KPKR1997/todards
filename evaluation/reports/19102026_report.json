@@ -1,124 +1,83 @@
 {
     "date": "19102026",
-    "timestamp": "2026-10-19T16:41:27.690547",
-    "duration_seconds": 5310.81,
+    "timestamp": "2026-10-19T17:11:37.155871",
+    "duration_seconds": 1175.22,
     "stages_duration_seconds": {
-        "scrape": 2101.2,
-        "guardrails": 115.02,
-        "deduplication": 10.02,
-        "category_validation": 89.51,
-        "ranking": 206.31,
-        "processing": 2788.71,
+        "scrape": 62.32,
+        "guardrails": 54.99,
+        "deduplication": 8.27,
+        "category_validation": 82.12,
+        "ranking": 151.18,
+        "processing": 816.3,
         "assembly": 0.02
     },
     "volume": {
         "scraped_by_category": {
-            "Health": 4,
-            "Tech": 15,
-            "People": 42,
-            "Environment": 1,
-            "Economy": 10,
-            "Entertainment": 11
+            "People": 46
         },
-        "total_scraped": 83,
-        "guardrail_passed": 83,
+        "total_scraped": 46,
+        "guardrail_passed": 46,
         "guardrail_rejected": 0,
-        "dedup_removed": 27,
+        "dedup_removed": 0,
         "category_reassignments": 0,
-        "final_articles": 9,
-        "final_categories": 5
+        "final_articles": 3,
+        "final_categories": 1
     },
     "guardrail_rejections": [],
     "article_safety": {
-        "files_seen": 6,
-        "articles_seen": 83,
-        "classified_safe": 64,
-        "classified_unsafe": 19,
+        "files_seen": 1,
+        "articles_seen": 46,
+        "classified_safe": 29,
+        "classified_unsafe": 17,
         "unsafe_removed": 0,
-        "unsafe_would_remove": 19,
+        "unsafe_would_remove": 17,
         "unclassified": 0,
         "unclassified_retained": 0,
         "model_errors": 0,
         "file_errors": 0,
         "dry_run": true
     },
-    "deduplication": {
-        "total_checked": 79,
-        "exact_duplicate_pairs": 17,
-        "semantic_duplicate_pairs": 20,
-        "duplicate_pairs_found": 37,
-        "duplicate_clusters": 18,
-        "duplicates_removed": 27,
-        "published_duplicates_removed": 18
-    },
+    "deduplication": {},
     "category_validation": {
         "status": "completed",
-        "total_checked": 40,
-        "rejected_count": 7,
+        "total_checked": 41,
+        "rejected_count": 3,
         "rejected_articles": [
             {
-                "title": "Elon Musk says he'll give a SpaceX share to every child in America next year",
-                "from": "science and technology",
-                "detected_category": "people",
+                "title": "China's growth accelerates as AI boom helps boost exports",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on China's economic growth, trade surplus, and AI boom, which are all topics relevant to the 'economy and business' category."
+            },
+            {
+                "title": "China's growth accelerates as AI boom helps boost exports",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article focuses on China's economic growth, exports, and trade surplus, making it more relevant to the 'economy and business' category than 'people'."
+            },
+            {
+                "title": "Don't fall for this - how to protect yourself from AI scams",
+                "from": "people",
+                "detected_category": "economy and business",
                 "confidence": 0.8,
-                "reason": "The article is primarily about Elon Musk's announcement and its implications, which falls under the 'people' category, rather than a specific scientific or technological development."
-            },
-            {
-                "title": "'It was jaw-dropping': The shocking lessons from an infamous experiment in obedience",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily explores the psychological and social implications of the Milgram experiment, which falls under the 'people' category."
-            },
-            {
-                "title": "People playing loud music on buses could face £100 fine",
-                "from": "economy and business",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the government's attempt to crack down on antisocial behavior on public transport, which falls under the 'people' category."
-            },
-            {
-                "title": "‘You Can See Everything’ becomes one of the biggest documentary releases in decades",
-                "from": "economy and business",
-                "detected_category": "entertainment",
-                "confidence": 0.9,
-                "reason": "The article is primarily about the documentary film 'You Can See Everything' and its box office performance, which is a topic more suited to the 'entertainment' category."
-            },
-            {
-                "title": "Why baseball teams party so hard and so often in October",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is primarily about the culture and traditions of professional baseball teams, which falls under the 'people' category."
-            },
-            {
-                "title": "Selena Gomez says vaping has affected her voice",
-                "from": "entertainment",
-                "detected_category": "health",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses Selena Gomez's health issues and personal experience with vaping's effects on her voice, which is more relevant to the 'health' category than 'entertainment'."
-            },
-            {
-                "title": "BBC pauses civil service secondment scheme",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article discusses the BBC's decision to pause its secondment scheme, which is a news development related to the media and public figures."
+                "reason": "The article primarily focuses on AI-generated scams affecting consumers and the importance of being cautious when making online purchases, which falls under the 'economy and business' category."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 206,
+        "total_calls": 133,
         "total_failures": 0,
-        "total_time_seconds": 204.33,
-        "prompt_tokens": 273771,
-        "response_tokens": 4317,
-        "total_tokens": 278088,
-        "usage_responses": 206,
-        "prompt_eval_seconds": 66.083,
-        "generation_seconds": 101.936,
-        "load_seconds": 20.216,
-        "server_total_seconds": 201.826,
-        "avg_response_time": 0.99
+        "total_time_seconds": 136.89,
+        "prompt_tokens": 169681,
+        "response_tokens": 3367,
+        "total_tokens": 173048,
+        "usage_responses": 133,
+        "prompt_eval_seconds": 35.166,
+        "generation_seconds": 79.436,
+        "load_seconds": 12.971,
+        "server_total_seconds": 135.364,
+        "avg_response_time": 1.03
     }
 }
