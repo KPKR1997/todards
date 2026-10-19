@@ -1,41 +1,41 @@
 {
     "date": "19102026",
-    "timestamp": "2026-10-19T12:42:21.603653",
-    "duration_seconds": 2553.04,
+    "timestamp": "2026-10-19T14:08:56.658965",
+    "duration_seconds": 2884.22,
     "stages_duration_seconds": {
-        "scrape": 815.82,
-        "guardrails": 97.37,
-        "deduplication": 10.59,
-        "category_validation": 82.54,
-        "ranking": 129.49,
-        "processing": 1417.17,
-        "assembly": 0.03
+        "scrape": 1478.96,
+        "guardrails": 107.95,
+        "deduplication": 9.91,
+        "category_validation": 85.14,
+        "ranking": 152.77,
+        "processing": 1049.41,
+        "assembly": 0.05
     },
     "volume": {
         "scraped_by_category": {
             "Health": 3,
             "Tech": 14,
-            "People": 43,
+            "People": 40,
             "Environment": 1,
             "Economy": 10,
-            "Entertainment": 5
+            "Entertainment": 8
         },
         "total_scraped": 76,
         "guardrail_passed": 76,
         "guardrail_rejected": 0,
-        "dedup_removed": 30,
+        "dedup_removed": 23,
         "category_reassignments": 0,
-        "final_articles": 6,
-        "final_categories": 3
+        "final_articles": 5,
+        "final_categories": 2
     },
     "guardrail_rejections": [],
     "article_safety": {
         "files_seen": 6,
         "articles_seen": 76,
-        "classified_safe": 64,
-        "classified_unsafe": 12,
+        "classified_safe": 63,
+        "classified_unsafe": 13,
         "unsafe_removed": 0,
-        "unsafe_would_remove": 12,
+        "unsafe_would_remove": 13,
         "unclassified": 0,
         "unclassified_retained": 0,
         "model_errors": 0,
@@ -43,61 +43,68 @@
         "dry_run": true
     },
     "deduplication": {
-        "total_checked": 82,
-        "exact_duplicate_pairs": 20,
-        "semantic_duplicate_pairs": 31,
-        "duplicate_pairs_found": 51,
-        "duplicate_clusters": 16,
-        "duplicates_removed": 30,
-        "published_duplicates_removed": 8
+        "total_checked": 74,
+        "exact_duplicate_pairs": 13,
+        "semantic_duplicate_pairs": 23,
+        "duplicate_pairs_found": 36,
+        "duplicate_clusters": 13,
+        "duplicates_removed": 23,
+        "published_duplicates_removed": 16
     },
     "category_validation": {
         "status": "completed",
-        "total_checked": 38,
-        "rejected_count": 4,
+        "total_checked": 37,
+        "rejected_count": 5,
         "rejected_articles": [
-            {
-                "title": "'It was jaw-dropping': The shocking lessons from an infamous experiment in obedience",
-                "from": "science and technology",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on the psychological and sociological aspects of obedience, exploring the Milgram experiment and its implications, which makes it more relevant to the 'people' category than 'science and technology'."
-            },
             {
                 "title": "People playing loud music on buses could face £100 fine",
                 "from": "economy and business",
                 "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article is primarily about the government's attempt to crack down on antisocial behavior on public transport, which is a people-related issue."
+                "confidence": 0.8,
+                "reason": "The article discusses a government initiative to crack down on antisocial behavior on public transport, including loud music, and its impact on passengers, which is more relevant to the 'people' category than the current 'economy and business' category."
             },
             {
                 "title": "‘You Can See Everything’ becomes one of the biggest documentary releases in decades",
                 "from": "economy and business",
                 "detected_category": "entertainment",
                 "confidence": 0.9,
-                "reason": "The article is primarily about the box office performance of a documentary film, which is a topic typically classified under the 'entertainment' category."
+                "reason": "The article is primarily about a documentary film's box office performance, which is a topic typically classified under the 'entertainment' category."
+            },
+            {
+                "title": "Prediction markets are partnering with top athletes and sports teams. Why it’s taking the magic away for many fans",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the fan experience and reactions to prediction market partnerships with sports teams, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Why baseball teams party so hard and so often in October",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the culture and celebrations of MLB teams, which falls under the 'people' category."
             },
             {
                 "title": "BBC pauses civil service secondment scheme",
                 "from": "entertainment",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article discusses the BBC's decision to pause its secondment scheme, which raises questions about impartiality and the role of government statisticians in journalism, making it more relevant to the 'people' category than 'entertainment'."
+                "confidence": 1.0,
+                "reason": "The article discusses the BBC's secondment scheme for civil servant statisticians, which is a news development related to government and public policy."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 190,
+        "total_calls": 189,
         "total_failures": 0,
-        "total_time_seconds": 179.72,
-        "prompt_tokens": 233808,
-        "response_tokens": 3970,
-        "total_tokens": 237778,
-        "usage_responses": 190,
-        "prompt_eval_seconds": 52.983,
-        "generation_seconds": 93.693,
-        "load_seconds": 19.465,
-        "server_total_seconds": 177.382,
-        "avg_response_time": 0.95
+        "total_time_seconds": 192.92,
+        "prompt_tokens": 247893,
+        "response_tokens": 3939,
+        "total_tokens": 251832,
+        "usage_responses": 189,
+        "prompt_eval_seconds": 59.898,
+        "generation_seconds": 93.792,
+        "load_seconds": 26.013,
+        "server_total_seconds": 190.445,
+        "avg_response_time": 1.02
     }
 }

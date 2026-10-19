@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 68",
+    "issue": "Issue No. 69",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "WFP Cuts Gaza Food Aid by Third Due to Funding Shortages",
-          "image": "https://images.unsplash.com/photo-1715829152062-c159b0836ffb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8UGFsZXN0aW5pYW4lMjByZWZ1Z2VlJTIwY2FtcHxlbnwxfDB8fHwxNzkyMzkzMjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Gaza Strip",
+          "title": "US Allows Ukrainians and Sudanese to Stay, Temporary Deportation Protections Extended",
+          "image": "https://images.pexels.com/photos/39356211/pexels-photo-39356211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "United States",
           "time": "Oct 19, 2026",
-          "content": "The World Food Programme (WFP) is forced to drastically reduce its food aid to the Gaza Strip due to funding shortages. This means that the number of people helped by the WFP will drop by about a third, from 1.6 million to 1.1 million. The cuts will hit as winter approaches and at a time when many families in Gaza are still struggling to feed themselves. The reduced aid will affect the daily hot meals provided by community kitchens, which will decrease from 250,000 to 150,000, and families living in hard-to-reach areas will receive a meal every other day instead of daily. The WFP's Palestine director, Shaun Hughes, emphasized that the cuts are due to finances, not a decrease in need. The agency urgently needs $450m to maintain critical operations over the next six months.",
+          "content": "The US Department of Homeland Security has announced that immigrants from Ukraine and Sudan will be allowed to continue living and working in the country without fear of deportation, for now, as their temporary deportation protections were set to expire this week. Over 100,000 Ukrainians and nearly 1,800 Sudanese nationals are currently enrolled in the Temporary Protected Status (TPS) program, which provides humanitarian relief to people fleeing war, natural disasters, or humanitarian crises. Although the Trump administration had previously terminated TPS for multiple countries, including El Salvador earlier this year, the current protections for Ukraine and Sudan will remain in place until further announcements are made. This decision comes after the US Supreme Court allowed the Trump administration to end TPS for Haitians and Syrians in June. Meanwhile, immigrants who have lost TPS status in the past have faced uncertainty and fear of detention and deportation.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm79plrvpl4vo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/18/politics/ukraine-sudan-temporary-protected-status"
         },
         {
           "id": "pp-2",
-          "title": "Austrian Airlines Flight Makes Emergency Landing in Bulgaria",
-          "image": "https://images.pexels.com/photos/18856658/pexels-photo-18856658.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Sofia, Bulgaria",
+          "title": "Tiger Shroff survives shooting in Mumbai, two injured in investigation",
+          "image": "https://images.pexels.com/photos/38576035/pexels-photo-38576035.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Mumbai, India",
           "time": "Oct 19, 2026",
-          "content": "Austrian Airlines flight from Israel to Austria was forced to make an emergency landing in Bulgaria after a reported bomb threat. The Airbus A320 plane, carrying 51 passengers and six crew members, took off from Tel Aviv and was heading to Vienna when it was diverted to Sofia. The flight was escorted by a Bulgarian MiG-29 fighter jet, and authorities conducted a security search of the plane after it landed. The incident comes after a pilot attempted to hijack a Flydubai flight to Tel Aviv last month. The investigation into the threat has begun, and no injuries have been reported.",
+          "content": "Tiger Shroff, a popular Bollywood actor, was shot at while leaving a football ground in Mumbai, but he survived without sustaining any gunshot wounds. Two people, including his driver, were injured in the attack, which has sent shockwaves through the film industry. The police are investigating and have detained three men in connection with the incident. The attack has raised concerns about Shroff's safety, and celebrities and political figures have spoken out against it. The motive behind the attack is still unclear, but some reports suggest that the Lawrence Bishnoi gang may be involved. The incident has also raised questions about the security of film industry workers and their families.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c680zdmn100lo"
+          "url": "https://www.bbc.com/news/articles/c6jdmy872r7vo"
         },
         {
           "id": "pp-3",
-          "title": "Man dies in Dublin assault; Gardaí appeal for witnesses",
-          "image": "https://images.unsplash.com/photo-1609238796154-9a9a4371a014?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8R2FyZGElMjBwb2xpY2UlMjBjYXJ8ZW58MXwwfHx8MTc5MjM5MzU3OXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Dublin, Ireland",
+          "title": "Australian Greens Senator Denies Inappropriate Behavior Allegations",
+          "image": "https://images.unsplash.com/photo-1593510987185-1ec2256148a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cGFydHklMjBpbnZlc3RpZ2F0aW9ufGVufDF8MHx8fDE3OTIzOTkxNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Western Australia",
           "time": "Oct 19, 2026",
-          "content": "A man in his late 30s, named Jamie Bailey, died after a fatal assault in Dublin. He was found with serious injuries on a footpath in Blackhorse Place early Sunday morning and pronounced dead at the hospital. The area has been cordoned off for a forensic examination, and a post-mortem will determine the cause of death. Gardaí are appealing to anyone who was in the area between 2am and 3:30am to come forward. The investigation is being led from an incident room at the Bridewell Garda Station.",
+          "content": "Australian Greens Senator Jordon Steele-John has denied allegations of inappropriate behavior towards women, which were brought forward by seven current and former party members. The allegations date back to 2017 and 2025, with the senator claiming they were initially referred to as a nickname, but have since taken on a 'more sinister meaning.' Steele-John also accused party leader David Shoebridge of mishandling the situation and questioned the timing of the letter. An internal party investigation has been launched, and the allegations have been referred to the Independent Parliamentary Standards Commission. In a statement, Steele-John acknowledged the allegations would have damaged the public's trust in him, but expressed his commitment to rebuilding that trust through transparency and accountability.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ck1l3ed21vz0o"
+          "url": "https://www.bbc.com/news/articles/cmpdgj8z8v2do"
         }
       ]
     },
@@ -64,25 +64,25 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "ChangXin Predicts Profitability in 2026, Driven by AI Demand Growth",
-          "image": "https://images.unsplash.com/photo-1739036868260-c26b292cd85d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QUklMjBjb21wdXRpbmclMjBwb3dlcnxlbnwxfDB8fHwxNzkyMzkzMDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "China",
+          "title": "Milky Way ideal for life, study of galaxy simulations shows",
+          "image": "https://images.pexels.com/photos/17954395/pexels-photo-17954395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Milky Way",
           "time": "Oct 19, 2026",
-          "content": "a Chinese chipmaker, ChangXin Memory Technologies, expects to reverse a net loss and become profitable in the first nine months of 2026, with a predicted net profit of 131-132.5 billion yuan. The company's revenue is also expected to increase by 232.9-237.9 billion yuan, driven by growing demand for AI computing power. This growth has led to supply shortages and higher prices in the global DRAM market. ChangXin has been gaining ground in the global memory chip market, now accounting for 10% of global DRAM revenue, up from 5% a year earlier.",
+          "content": "Researchers have analyzed galaxy simulations to identify the most habitable places in the universe, finding that the Milky Way offers some of the best conditions for life. The team discovered that the Sun's location in the galaxy is ideal, and that the Milky Way's habitable zone is characterized by a balance of factors that make it suitable for life. They also found that other galaxies, particularly smaller and more crowded ones, are less likely to be habitable due to various dangers such as explosions, collisions, and black holes. The study suggests that the Milky Way is typical of the galaxies that have been efficient in creating life-friendly environments, and that it is likely to remain a haven for life in the universe.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/scientists-simulated-the-universe-and-discovered-the-milky-way-may-be-one-of-the-best-places-for-life/"
         },
         {
           "id": "st-2",
-          "title": "White dwarfs have unexpected colors, including green, pink, and purple, study finds.",
-          "image": "https://images.pexels.com/photos/31260398/pexels-photo-31260398.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Warwick",
+          "title": "AI Wearables Raise Privacy Concerns with Continuous Recording",
+          "image": "https://images.unsplash.com/photo-1660905419259-0eccba887eb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8TWV0YSUyMEdsYXNzZXN8ZW58MXwwfHx8MTc5MjM4MDgxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Pittsburgh, USA",
           "time": "Oct 19, 2026",
-          "content": "In a groundbreaking study, astronomers from the University of Warwick have discovered that white dwarfs, the remnants of stars that have reached the end of their life, can have unexpected colors. Unlike most stars which change color based on their temperature, white dwarfs can have shades of green, pink, and purple. The researchers found that this unusual coloration is caused by the interaction of trace elements in the star's atmosphere with the surrounding dense helium plasma. The team used spectra collected by astronomers to calculate how each star's light would appear to human eyes, revealing that some white dwarfs can appear green, yellow, pink, or purple due to the enrichment of their atmospheres with elements from rocky debris. The study suggests that about one in thirty white dwarfs across the Universe could have unusual coloring, with some stars being even more vibrantly colored than others.",
+          "content": "The article reports on the growing trend of AI-powered wearables and devices that record, transcribe, and analyze a user's daily life. Chris Thomas, a Pittsburgh-based business owner, uses a range of AI gadgets, including Meta's camera-equipped glasses and Amazon's Bee wearable, to stay organized and pay bills on time. However, these devices have raised concerns about privacy, with some users worrying about being recorded without their consent. The article highlights the legal questions surrounding the use of AI devices, including whether continuous listening and interpreting of speech can be considered an interception. The development of AI devices that can rapidly interpret and draw meaning from large volumes of information has raised concerns about the erosion of privacy, with experts warning that people can be swept into AI-powered surveillance without owning or knowingly interacting with the device doing the collecting.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/something-out-of-science-fiction-astronomers-discover-a-star-that-glows-a-bizarre-shade-of-green/"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html"
         },
         {
           "id": "t-3",
@@ -258,15 +258,15 @@
         },
         {
           "id": "eb-1",
-          "title": "UK Chancellor Plans to Tax Bank Sector",
-          "image": "https://images.pexels.com/photos/3395244/pexels-photo-3395244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "UK",
-          "time": "Oct 16, 2026",
-          "content": "UK Chancellor John Healey is planning to increase taxes on the bank sector, with the biggest four banks making about £15bn profit in the first six months of this year. The move has been met with resistance from the sector, which warns it will weaken competitiveness and discourage investment and job creation.",
-          "theme": "#F7F1DE",
-          "source": "BBC",
-          "url" : "https://www.bbc.com/news/articles/c32l4k2xdvrzo"
-        } 
+          "title": "ChangXin Predicts Profitability in 2026, Driven by AI Demand Growth",
+          "image": "https://images.unsplash.com/photo-1739036868260-c26b292cd85d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QUklMjBjb21wdXRpbmclMjBwb3dlcnxlbnwxfDB8fHwxNzkyMzkzMDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "China",
+          "time": "Oct 19, 2026",
+          "content": "a Chinese chipmaker, ChangXin Memory Technologies, expects to reverse a net loss and become profitable in the first nine months of 2026, with a predicted net profit of 131-132.5 billion yuan. The company's revenue is also expected to increase by 232.9-237.9 billion yuan, driven by growing demand for AI computing power. This growth has led to supply shortages and higher prices in the global DRAM market. ChangXin has been gaining ground in the global memory chip market, now accounting for 10% of global DRAM revenue, up from 5% a year earlier.",
+          "theme": "#EBF2FA",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html"
+        }
       ]
     }
   ]

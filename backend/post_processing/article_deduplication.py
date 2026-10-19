@@ -22,19 +22,7 @@ from config.settings import (
 )
 logger = logging.getLogger("todards.dedup")
 class ArticleDuplicateRemover:
-    """
-    Enhanced article deduplication engine for Todards.
-    Detection layers:
-    1. Exact normalized-content fingerprint
-    2. Semantic similarity using SentenceTransformer
-    3. TF-IDF keyword overlap for borderline semantic matches
-    4. Duplicate clustering using connected components
-    Deletion priority:
-    1. Keep today's article over older article
-    2. Higher-priority category wins
-    3. Longer article wins
-    4. First article wins on complete tie
-    """
+
     FOLDERS = [
         "health_data",
         "tech_data",
@@ -68,9 +56,7 @@ class ArticleDuplicateRemover:
        
     @staticmethod
     def clean_text(text: Any) -> str:
-        """
-        Normalize whitespace and basic formatting.
-        """
+
         if text is None:
             return ""
         text = str(text)
@@ -79,15 +65,6 @@ class ArticleDuplicateRemover:
         return text.strip()
     @staticmethod
     def normalize_for_hash(text: str) -> str:
-        """
-        Strong normalization used only for exact duplicate detection.
-        Removes:
-        - case differences
-        - excessive whitespace
-        - punctuation differences
-        This helps identify the same article even when JSON/source
-        formatting differs slightly.
-        """
         text = str(text).lower()
         # Remove punctuation
         text = re.sub(r"[^\w\s]", " ", text, flags=re.UNICODE)
@@ -96,7 +73,6 @@ class ArticleDuplicateRemover:
         return text.strip()
     @classmethod
     def titles_are_duplicates(cls, title_a: str, title_b: str) -> bool:
-        """Catch duplicate headlines even when article bodies differ."""
         a = cls.normalize_for_hash(title_a)
         b = cls.normalize_for_hash(title_b)
         if not a or not b:
@@ -117,9 +93,6 @@ class ArticleDuplicateRemover:
         return False
     @classmethod
     def create_fingerprint(cls, title: str, content: str) -> str:
-        """
-        Create deterministic fingerprint from normalized title + content.
-        """
         normalized_title = cls.normalize_for_hash(title)
         normalized_content = cls.normalize_for_hash(content)
         combined = f"{normalized_title} {normalized_content}".strip()
@@ -130,9 +103,6 @@ class ArticleDuplicateRemover:
     # LOAD ARTICLES
        
     def load_articles(self, days: Optional[int] = None):
-        """
-        Load articles from configured category folders.
-        """
         days = days or self.days
         self.records = []
         today = datetime.now().date()
@@ -208,11 +178,6 @@ class ArticleDuplicateRemover:
     # EXACT DUPLICATES
        
     def find_exact_duplicates(self) -> List[Dict[str, Any]]:
-        """
-        Find articles with identical normalized title + content.
-        Returns duplicate pairs in the same structure used by the
-        semantic deduplication stage.
-        """
         fingerprint_map: Dict[str, List[int]] = defaultdict(list)
         for index, record in enumerate(self.records):
             fingerprint_map[
@@ -251,9 +216,6 @@ class ArticleDuplicateRemover:
     # EMBEDDINGS
        
     def create_embeddings(self):
-        """
-        Create normalized semantic embeddings for all articles.
-        """
         if not self.records:
             self.embeddings = np.empty((0, 0))
             return
@@ -279,10 +241,7 @@ class ArticleDuplicateRemover:
         text_b: str,
         top_k: int = 15,
     ) -> float:
-        """
-        Calculate overlap of important TF-IDF terms.
-        Used as a secondary confirmation for borderline semantic matches.
-        """
+ 
         try:
             vectorizer = TfidfVectorizer(
                 stop_words="english",
@@ -319,14 +278,7 @@ class ArticleDuplicateRemover:
     # DELETE PRIORITY
        
     def choose_delete(self, i: int, j: int) -> int:
-        """
-        Determine which article should be deleted.
-        Priority:
-        1. Today's article wins
-        2. Higher-priority category wins
-        3. Longer content wins
-        4. First article wins
-        """
+
         a = self.records[i]
         b = self.records[j]
           
@@ -371,11 +323,7 @@ class ArticleDuplicateRemover:
         self,
         excluded_indices: Optional[Set[int]] = None,
     ) -> List[Dict[str, Any]]:
-        """
-        Find semantic duplicates using embeddings.
-        Exact duplicates can be excluded because they have already been
-        detected by fingerprinting.
-        """
+
         if (
             self.embeddings is None
             or len(self.records) < 2
@@ -463,15 +411,7 @@ class ArticleDuplicateRemover:
         self,
         pairs: List[Dict[str, Any]],
     ) -> List[List[int]]:
-        """
-        Build connected duplicate clusters.
-        Example:
-            A <-> B
-            B <-> C
-        becomes:
-            [A, B, C]
-        instead of greedily deleting B and then ignoring C.
-        """
+  
         if not pairs:
             return []
         parent: Dict[int, int] = {}
@@ -520,11 +460,7 @@ class ArticleDuplicateRemover:
         self,
         clusters: List[List[int]],
     ) -> Set[int]:
-        """
-        Select one article to keep from every duplicate cluster.
-        This is the important replacement for the old greedy
-        resolve_deletions() implementation.
-        """
+ 
         deleted: Set[int] = set()
         for cluster in clusters:
             if len(cluster) < 2:
@@ -549,9 +485,7 @@ class ArticleDuplicateRemover:
         pairs: List[Dict[str, Any]],
         clusters: List[List[int]],
     ):
-        """
-        Print duplicate diagnostics.
-        """
+  
         if not pairs:
             print("\nNo duplicates found.")
             return
@@ -627,9 +561,7 @@ class ArticleDuplicateRemover:
         self,
         deleted_indices: Set[int],
     ) -> int:
-        """
-        Remove selected articles from their JSON files.
-        """
+      
         if not deleted_indices:
             return 0
         by_file: Dict[Path, List[int]] = defaultdict(list)
@@ -691,12 +623,7 @@ class ArticleDuplicateRemover:
         self,
         publication_data: Dict[str, Any],
     ) -> int:
-        """
-        Remove incoming source articles that duplicate cards in an existing
-        publication. The publication_data object is read-only: this method
-        never changes its sections/cards or writes to the publication JSON.
-        Returns the number of incoming source articles removed.
-        """
+
         sections = publication_data.get("sections", [])
         if not isinstance(sections, list) or not sections or not self.records:
             logger.info("No usable publication references or incoming articles.")
@@ -793,11 +720,7 @@ class ArticleDuplicateRemover:
         self,
         publication_data: Optional[Dict[str, Any]] = None,
     ) -> Dict[str, Any]:
-        """
-        Deduplicate incoming source articles against one another and, when
-        supplied, reject incoming articles already covered by a read-only
-        publication reference. publication_data is never modified or saved.
-        """
+  
         logger.info(
             "Running Article Duplicate Remover "
             f"(within-day: {self.similarity_threshold}, "
@@ -851,8 +774,7 @@ class ArticleDuplicateRemover:
         self.create_embeddings()
         
         # 4. Semantic duplicate detection
-        #
-        # We still allow semantic comparison between exact duplicates
+                # We still allow semantic comparison between exact duplicates
         # because an exact group may contain the strongest representative.
         # The final graph handles everything together.
         
@@ -968,12 +890,7 @@ class ArticleDuplicateRemover:
         self,
         publication_data: Dict[str, Any],
     ) -> Dict[str, Any]:
-        """
-        Deduplicate cards across every section in the assembled Todards JSON.
-        Call this AFTER the publication's sections/cards have been assembled,
-        but BEFORE writing todards.json and copying it to the frontend dist
-        directory. This does not edit source category files.
-        """
+
         sections = publication_data.get("sections", [])
         if not isinstance(sections, list):
             logger.warning("Final publication JSON has no valid sections list.")
@@ -1137,11 +1054,7 @@ class ArticleDuplicateRemover:
             self.duplicate_pairs = old_pairs
             self.duplicate_clusters = old_clusters
     def deduplicate_final_json(self, json_path: Path) -> Dict[str, Any]:
-        """
-        Load, deduplicate and safely rewrite a final Todards JSON file.
-        Prefer deduplicate_publication_data(data) inside the main assembly
-        pipeline so the deduplicated data is written once to both output paths.
-        """
+  
         json_path = Path(json_path)
         with json_path.open("r", encoding="utf-8") as handle:
             data = json.load(handle)

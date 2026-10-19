@@ -1,17 +1,15 @@
 TODARDS LLM PIPELINE EVALUATION — 19102026
-Execution timestamp: 2026-10-19T12:42:21.603653
-Pipeline duration: 42.6 minutes
+Execution timestamp: 2026-10-19T14:08:56.658965
+Pipeline duration: 48.1 minutes
 
-Here is the evaluation:
+Here is the pipeline evaluation:
 
-**Overall Run Health:** The pipeline duration is 42.6 minutes, which is a 19.6% decrease compared to the previous recorded run. This suggests a healthy run.
+**Overall Run Health:** The pipeline duration is 48.1 minutes, which is 13.0% longer than the previous recorded run. This increase in duration may warrant further investigation. The scraped article volume remains the same as the previous recorded run, with 76 articles scraped. The semantic deduplication process removed 23 duplicate articles, which is 30.3% of the scraped volume.
 
-**Scrape Volume:** The total scraped volume is 76 articles, which is a decrease from the previous recorded run. However, this change is not alarming, and the volume remains relatively stable.
+**Scrape Volume:** The scrape volume is healthy, with 76 articles scraped. The volume by category is as follows: Health (3), Tech (14), People (40), Environment (1), Economy (10), and Entertainment (8).
 
-**Semantic Deduplication:** The deduplication process removed 30 duplicate articles from the scraped volume, which is a significant reduction (39.5% of scraped volume). This indicates that the deduplication process is effective in removing redundant content.
+**Semantic Deduplication:** The semantic deduplication process removed 23 duplicate articles, which is 30.3% of the scraped volume. This is a relatively high percentage of duplicates removed, indicating that the deduplication process is effective in removing redundant articles.
 
-**Source/Category Ingestion Anomalies:** There are no anomalies reported in the evidence-based observations.
+**LLM Performance:** The LLM performance metrics are healthy, with no failures reported and an average response time of 1.02 seconds. The total time spent in LLM calls is 192.92 seconds, with 189 successful calls.
 
-**LLM Performance:** The LLM performance metrics are all within normal ranges, with no failures reported. The average response time is 0.95 seconds, which is acceptable.
-
-**Next Practical Check:** Verify the integrity of the scraped articles and the deduplication process to ensure that the removed duplicates are indeed redundant and not important articles.
+**Next Practical Check:** Investigate the cause of the increased pipeline duration and assess whether it is impacting the overall performance of the pipeline. Additionally, review the category reassignment and guardrail rejection details to ensure that the pipeline is functioning as expected.
