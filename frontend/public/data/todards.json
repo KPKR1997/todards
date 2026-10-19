@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 65",
+    "issue": "Issue No. 66",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "18 October 2026",
+    "publishedAt": "19 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Israeli Settlers Attack European Diplomats in West Bank",
-          "image": "https://images.unsplash.com/photo-1686953412092-61727980970e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8SXNyYWVsaSUyMGZsYWd8ZW58MXwwfHx8MTc5MjI5ODExMXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "West Bank",
-          "time": "Oct 18, 2026",
-          "content": "A delegation of European diplomats from Belgium, France, Poland, and the Catholic Church was attacked by masked Israeli settlers in the occupied West Bank. The Belgian government condemned the assault, calling for Israel to bring those responsible to justice. France also condemned the attack, urging Israel to halt the violence and ensure the safety of civilian populations. The US Secretary of State Marco Rubio separately condemned an attack on a Washington Post photographer, Heidi Levine, saying it was 'disturbing' and 'not a good look.' The Israeli Defense Forces (IDF) are investigating the attacks, while the office of Prime Minister Benjamin Netanyahu questioned the motives behind the incidents.",
+          "title": "Reform UK Suspends MP Jason Powell for Concentration Camp Advocacy",
+          "image": "https://images.pexels.com/photos/29589319/pexels-photo-29589319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 19, 2026",
+          "content": "An aspiring Reform UK MP, Jason Powell, has been suspended from the party after advocating for concentration camps and stating that Muslims cannot be British. Powell's comments were recorded in an ITV documentary, which also featured other party members expressing extreme views. One councillor, Dean Miller, was recorded calling for King Charles to be beheaded because he believed the king was secretly a Muslim, leading Conservative, Labour, and Liberal Democrat councillors to call for his resignation. The Muslim Council of Britain criticized Reform UK's leadership for allowing a culture of hatred to fester within the organization. Reform UK has suspended Powell, but critics argue that the party's vetting process is flawed, allowing extreme views to be expressed.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c962ydpmjm3zo"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/oct/18/aspiring-reform-mp-cannot-be-muslim-and-british-suspended"
         },
         {
           "id": "pp-2",
-          "title": "UK woman detained for two months over sister's activism in Egypt",
-          "image": "https://images.unsplash.com/photo-1593781493209-823f48853130?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QnJpdGlzaCUyMHBhc3Nwb3J0fGVufDF8MHx8fDE3OTIzMzIzMTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Cairo, Egypt",
-          "time": "Oct 18, 2026",
-          "content": "Eman el-Shazly, a 46-year-old woman from Handsworth Wood, Birmingham, has been detained by Egyptian authorities for two months, allegedly due to her sister's online activism. Her husband, Zeesharn Moustapha, has called on Prime Minister Andy Burnham to intervene and help secure her release. Moustapha claims that their family has been left feeling helpless, with no contact with el-Shazly and her health deteriorating due to a lack of food and medical assistance. The Foreign, Commonwealth & Development Office has stated that it is in contact with Egyptian authorities, but Moustapha feels that their efforts are 'useless' with no progress made in securing el-Shazly's release. The situation has left Moustapha and their four children feeling distraught and unsure of what to do.",
+          "title": "Austrian Airlines Flight Makes Emergency Landing in Bulgaria",
+          "image": "https://images.pexels.com/photos/35130740/pexels-photo-35130740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Sofia, Bulgaria",
+          "time": "Oct 19, 2026",
+          "content": "An Austrian Airlines flight from Tel Aviv to Vienna was forced to make an emergency landing in Sofia, Bulgaria, after a reported bomb threat. The Airbus A320 plane was traveling with 51 passengers and six crew members when it was diverted to Sofia, where passengers were evacuated. The Bulgarian air force scrambled a MiG-29 fighter jet to escort the airliner. So far, no injuries have been reported, and an investigation has begun. The incident comes after a recent attempt to hijack a Flydubai flight to Tel Aviv, and similar incidents have occurred in the past, including a false hijacking alert on a commercial flight from Corfu to Nuremberg.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6dxw58vrqnpo"
+          "url": "https://www.bbc.com/news/articles/c680zdmn100lo"
         },
         {
           "id": "pp-3",
-          "title": "Attack on St. Petersburg oil facilities kills one, injures five",
-          "image": "https://images.unsplash.com/photo-1693847173071-bd6237101335?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTI0b2lsX3Rlcm1pbmFsfGVufDF8MHx8fDE3OTIzMzI1Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "St Petersburg, Russia",
-          "time": "Oct 18, 2026",
-          "content": "At least one person was killed and five others injured in an overnight attack on St. Petersburg, Russia, which targeted two oil facilities, a logistics centre, and a data centre. The attack also damaged 12 apartment buildings, two homes, and temporarily closed Pulkovo Airport. The city's governor said fires were being extinguished at the oil terminal and depot. Ukraine had paused its strikes on Russian oil facilities, but resumed them earlier this week. Russia's Defence Ministry reported shooting down over 1,000 Ukrainian drones overnight.",
+          "title": "US Allows Ukrainians, Sudanese to Keep Deportation Protections",
+          "image": "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VVMlMjBpbW1pZ3JhdGlvbnxlbnwxfDB8fHwxNzkyMzgxMzU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
+          "time": "Oct 19, 2026",
+          "content": "The US Department of Homeland Security announced that Ukrainian and Sudanese immigrants who were facing deportation protections expiration will be allowed to continue living and working in the country for now. This decision applies to over 100,000 Ukrainians and nearly 1,800 Sudanese nationals who were enrolled in the Temporary Protected Status (TPS) program. The protection for both countries was set to expire on Monday, but the agency will make an announcement at a later time. Until then, immigrants from Ukraine and Sudan who are currently in the US will retain their protections. The decision comes as the Trump administration has repeatedly terminated TPS for multiple countries, citing it as a temporary solution, not a permanent one. The US Supreme Court allowed the Trump administration to end TPS for Haitians and Syrians in June, leaving those who lost their status vulnerable to detention and deportation.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c3eweygrjzd7o"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/18/politics/ukraine-sudan-temporary-protected-status"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Texas A&M Study Finds Language, Reasoning Linked to Math Skills",
-          "image": "https://images.pexels.com/photos/5412108/pexels-photo-5412108.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "College Station, USA",
-          "time": "Oct 18, 2026",
-          "content": "Researchers at Texas A&M University have found that language and reasoning skills are strong predictors of math performance. The study, published in the Journal of Intelligence, analyzed 122 test batteries and found that cognitive abilities such as number sense, fluid reasoning, and comprehension knowledge are essential for math learning. According to Dr. Daniel Hajovsky, the study's lead researcher, math requires students to recognize patterns, interpret information, and apply logical reasoning, drawing on a range of cognitive skills that also support learning in other subjects. The findings suggest that understanding what drives individual differences in mathematical ability can help educators identify learning needs early and provide targeted support. The study's conclusions may lead to new approaches to screening and instruction, potentially improving math outcomes for all students.",
+          "title": "World Edges Closer to 30% Land Conservation Goal, Gaps Remain",
+          "image": "https://images.pexels.com/photos/18907088/pexels-photo-18907088.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 19, 2026",
+          "content": "A recent study suggests that the world may be closer to achieving its 30% land conservation goal, but significant gaps in grassland and shrubland protection remain. These areas, which support unique wildlife, are not fully represented in global conservation records, indicating that simply expanding the total area of protected land is not enough to ensure the conservation of all wildlife habitats. The study highlights the need for more effective management of conservation areas and a focus on improving the overall effectiveness of conservation efforts to meet the 30% target and address the biodiversity crisis.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/the-surprising-reason-some-children-struggle-with-math-according-to-science/"
+          "url": "https://scitechdaily.com/the-world-may-be-much-closer-to-a-major-conservation-goal-than-scientists-thought/"
         },
         {
           "id": "st-2",
-          "title": "NASA Backs Lunar Cave Search to Reveal Moon's Volcanic History",
-          "image": "https://images.unsplash.com/photo-1614726365930-627c75da663e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bW9vbiUyMGxhbmRpbmd8ZW58MXwwfHx8MTc5MjI5NzUzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Bengaluru, India",
-          "time": "Oct 18, 2026",
-          "content": "NASA is backing a project to search for a hidden lunar cave, which could reveal how ancient volcanic activity shaped the Moon. The project, led by the Planetary Science Institute, will use a lander and rover to investigate a potential large cave near the Marius Hill Pit. The team will employ ground-penetrating radar, seismic sensors, and gravity measurements to gather data, and if successful, the discovery could provide insights into the Moon's volcanic history and potentially even shelter astronauts from radiation and extreme temperatures. The project is funded by NASA's Payloads and Research Investigations on the Surface of the Moon program and is expected to provide valuable information about the Moon's subsurface and geology.",
+          "title": "White dwarfs have unexpected colors, including green, pink, and purple, study finds.",
+          "image": "https://images.pexels.com/photos/31260398/pexels-photo-31260398.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Warwick",
+          "time": "Oct 19, 2026",
+          "content": "In a groundbreaking study, astronomers from the University of Warwick have discovered that white dwarfs, the remnants of stars that have reached the end of their life, can have unexpected colors. Unlike most stars which change color based on their temperature, white dwarfs can have shades of green, pink, and purple. The researchers found that this unusual coloration is caused by the interaction of trace elements in the star's atmosphere with the surrounding dense helium plasma. The team used spectra collected by astronomers to calculate how each star's light would appear to human eyes, revealing that some white dwarfs can appear green, yellow, pink, or purple due to the enrichment of their atmospheres with elements from rocky debris. The study suggests that about one in thirty white dwarfs across the Universe could have unusual coloring, with some stars being even more vibrantly colored than others.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/nasa-is-about-to-investigate-what-lies-beneath-a-giant-hole-on-the-moon/"
+          "url": "https://scitechdaily.com/something-out-of-science-fiction-astronomers-discover-a-star-that-glows-a-bizarre-shade-of-green/"
         },
         {
           "id": "t-3",
-          "title": "Ancient Insect Found with Bendy Straw Feeding Organ in Amber",
-          "image": "https://images.unsplash.com/photo-1681438080729-5c62d90f9416?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dHJlZSUyMHJlc2lufGVufDF8MHx8fDE3OTIyOTc2ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Myanmar",
-          "time": "Oct 18, 2026",
-          "content": "Researchers have discovered a 99-million-year-old insect, Cretodorus noonoo, that had an ancient adaptation of a flexible and durable feeding organ, resembling a bendy straw, which allowed it to feed on tree sap. The newly described species, found in Myanmar, had mouthparts nearly twice the length of its body and was preserved in amber. The unique feature of the insect's mouthparts was densely covered with crosswise folds, which likely allowed it to bend and flex without collapsing. This discovery provides a glimpse into the insect world during the age of dinosaurs, and suggests that ancient forests created ecological conditions and opportunities very different from those we know today.",
+          "title": "Pittsburgh Businessman's AI-Powered Wearables Raise Privacy Concerns",
+          "image": "https://images.pexels.com/photos/31899179/pexels-photo-31899179.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Pittsburgh, USA",
+          "time": "Oct 19, 2026",
+          "content": "Chris Thomas, a Pittsburgh-based business owner and livestreamer, uses AI-powered devices to record his daily life, raising concerns about privacy and consent. Thomas wears camera-equipped glasses, a note-taking pendant, and a wristband that record his activities. He has encountered situations where bystanders feel uncomfortable knowing they are being recorded, and Thomas removes the devices or turns them off. The article discusses the potential erosion of privacy, citing the devices' ability to continuously listen, interpret speech, and extract meaning without retaining the underlying audio. It also highlights the legal questions surrounding these devices, with some state laws defining interception broadly. The article concludes that the growing use of AI-powered devices is changing the privacy landscape, making it more important for individuals to have control over how they interact with technology and to consider the potential risks and consequences.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-99-million-year-old-insect-with-a-bizarre-feature-never-seen-in-living-species/"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html"
         }
       ]
     },
@@ -150,14 +150,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "NASA data shows Arctic sea ice decline, threatening ice-free summers",
-          "image": "https://images.unsplash.com/photo-1509326066092-14b2e882fe86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YXJjdGljfGVufDF8MHx8fDE3OTIzMzI2NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
-          "time": "Oct 18, 2026",
-          "content": "NASA's satellite data reveals a concerning decline in Arctic sea ice, with a possibility of nearly ice-free summers before 2050. The data shows a decrease in sea ice coverage during both winter and summer, with a significant decline in the thickness and age of the remaining ice. While there have been fluctuations in ice coverage over the years, the long-term trend suggests a persistent decline attributed to a combination of natural climate patterns and increasing global temperatures. The NASA data provides an uninterrupted record of Arctic sea ice growth and retreat since 1978, allowing scientists to track changes across nearly five decades.",
+          "title": "India falls short on health concerns in climate change plan, report finds",
+          "image": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Z3JlZW5ob3VzZSUyMGdhcyUyMGVtaXNzaW9uc3xlbnwxfDB8fHwxNzkyMzgxNTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "India",
+          "time": "Oct 19, 2026",
+          "content": "India has done poorly in incorporating health concerns into its national climate change action plan, according to a new report from the Global Climate and Health Alliance. This is significant because India is highly vulnerable to climate-related illnesses and deaths. The report, called",
           "theme": "#E7F4EF",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/nasa-satellites-reveal-a-troubling-new-reality-in-the-arctic/"
+          "source": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/climate-change/indias-climate-action-plan-fails-to-prioritise-health-global-scorecard-finds"
         },
         {
           "id": "env-2",
@@ -193,14 +193,14 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "The Howlers' album 'Heavy' tops charts with Portsmouth nods",
-          "image": "https://images.pexels.com/photos/34287896/pexels-photo-34287896.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Portsmouth, UK",
-          "time": "Oct 18, 2026",
-          "content": "The British band, The Howlers, has achieved significant success with their new album 'Heavy', which features nods to their hometown, Portsmouth. The album reached the top 10 in several Official Charts, including album downloads, independent album breakers, and independent album charts. Guitarist and singer Adam Young credits the band's hard work and the album's authenticity for its success. Young notes that the album includes several references to Portsmouth, such as the centre stickers on the records and the CD, which are meant to resemble dazzle paint on navy ships. This album is seen as a step up from their previous work and a more authentic representation of the band. The Howlers spent the summer touring Germany supporting Deep Purple and have seen the album already mean a lot to people.",
+          "title": "Sunderland Music City gets £156,166 grant for heritage project",
+          "image": "https://images.unsplash.com/photo-1658926942507-e7bfbd47fd4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8U3VuZGVybGFuZHxlbnwxfDB8fHwxNzkyMzgxODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Sunderland, UK",
+          "time": "Oct 19, 2026",
+          "content": "A major heritage project, Sunderland Music City's Mackem Music Memories, has been awarded £156,166 by the National Lottery Heritage Fund to preserve the city's musical history. The project aims to collect over 300 memories of Sunderland's music scene from residents past and present through questionnaires, research, and interviews. The memories will be displayed in an exhibition at the Culture House Sunderland in summer 2027, along with community activities and live events. The project will also work with diverse communities, including South Asian, Filipino, Nigerian, and Eastern European groups, and international students. The goal is to capture these stories before they disappear and make them part of Sunderland's permanent heritage.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmz7xvxz7nzwo"
+          "url": "https://www.bbc.com/news/articles/cwkg53dkrl84o"
         },
         {
           "id": "ent-2",
@@ -236,14 +236,14 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "UK's Strong Growth Data Amid Global Economic Uncertainty",
-          "image": "https://images.pexels.com/photos/7567445/pexels-photo-7567445.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Bangkok, Thailand",
-          "time": "Oct 17, 2026",
-          "content": "A global economic tug-of-war is underway, with crises from energy shock, trade conflict, and war holding back growth, while massive AI spending and resilience from smaller economies pull in the other direction. At IMF meetings in Bangkok, finance ministers highlighted the UK's strong growth data and its model pupil status, but uncertainty remains about the future direction of the economy.",
+          "title": "EU urged to lift Ukrainian steel restrictions, citing war context",
+          "image": "https://images.unsplash.com/photo-1559589688-6ba6beafe1e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8RXVyb3BlYW4lMjBVbmlvbiUyMGZsYWd8ZW58MXwwfHx8MTc5MjM4MTc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Ukraine",
+          "time": "Oct 19, 2026",
+          "content": "The CEO of Metinvest, Ukraine's largest steel company, has urged the European Union to lift restrictions on Ukrainian steel products, claiming they were unfairly bundled with cheaper imports from countries like China. The EU imposed the restrictions to protect its own steel manufacturers, but Metinvest's CEO, Yuriy Ryzhenkov, argues that Ukraine's situation, including the war with Russia, has not been taken into account. He wants at least a",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm4g189jvnxjo"
+          "url": "https://www.bbc.com/news/articles/cwdd8z6gyy96o"
         },
         {
           "id": "eb-2",

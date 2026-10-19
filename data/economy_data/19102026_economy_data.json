@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pp-5",
+        "source": "BBC",
+        "category": "economy",
+        "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
+        "date": "2026-10-18 23:28",
+        "content": "The boss of one of Ukraine's biggest steel companies has called on the European Union to drop import restrictions on products made from the country, arguing it has been \"bundled together\" in measures aimed a curbing cheap imports from the likes of China. Yuriy Ryzhenkov, chief executive of Metinvest, told the BBC the recently-imposed tariffs on imported steel to the EU were \"unfair\" and had been put in place \"without any consideration for the situation Ukraine is in\". He said he wished to see \"at least a carve out\" for Ukraine to access the EU market. A spokesperson for the European Commission said the EU \"took into account the difficult situation\" of Ukraine when deciding its steel policy. The trading bloc has recently imposed restrictions on steel imports in an effort to protect steel manufacturers of member nations. It has capped the amount of steel which can enter the EU tax free at 18.3 million tonnes per year - a 47% reduction from 2024 levels. There are some country-specific quotas in the policy, but the overall aim is to cut the amount of steel that can be imported due to member nations struggling to compete with cheap imports from the likes of China and Turkey. Despite a free-trade agreement (FTA) being in place between the EU and Ukraine, the FTA does not stop the EU from introducing separate trade protection measures. \"Ukraine has been bundled together into those measures without any consideration for the situation Ukraine is in,\" Ryzhenkov said, pointing to the war with Russia. \"Access to the European market is crucial for survival,\" he added. \"The restrictive measures that have been put in place by the authorities in the European Union, they don't help. \"I think it's unfair that Ukraine has been treated in the same way as all of the other importers into the European Union.\" The Ukraine steel industry estimates steel exports to the EU could ultimately fall by about 50–60%. The EU said Ukraine's specific steel quota guaranteed exports of the metal, but acknowledged this was at a \"level lower than in the past years\". \"Despite the war effort, Ukraine remains an important exporter of steel to the EU,\" a spokesperson said, adding it had \"offered compensations\" to its largest suppliers, which included Ukraine. Steel products are a foundation in Ukraine's economy. Before the start of Russia's full-scale invasion in 2022, metallurgy and mining accounted for roughly 10% of Ukraine's national income and a third of its exports. The EU is its top customer. But the industry has suffered from the continued Russian bombardment. All of Ukraine's steel mills have been bombed at points since the conflict began in 2022, but Ryzhenkov said strikes had \"intensified significantly recently\". At one point in September, there was \"no single tonne of steel produced\" in Ukraine for the first time in about 150 years, he added. Almost 800 Metinvest workers have been killed since the war began. Ryzhenkov said the company had \"improved the covered areas\" at its mills where workers can shelter during air raids. \"The only thing we can do is to design procedures to keep people safe and just obey those procedures and try to minimise the risks.\" \"Unfortunately, you cannot cover a whole steel mill to avoid it being damaged.\" Ryzhenkov said he expected the coming winter to be \"one of the hardest in our history\". \"We are in a dire situation when we don't have logistics to access any other market apart from the EU and cutting our available market by 60%, that doesn't help for the industry to survive.\"",
+        "url": "https://www.bbc.com/news/articles/cwdd8z6gyy96o",
+        "rank": 1,
+        "ranking_score": 14.46,
+        "ranking_reason": "EU tariffs aimed at China hitting Ukraine's steel industry, affecting its economy and market access.",
+        "ranking": {
+            "rank": 1,
+            "score": 14.46,
+            "base_score": 13.5,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 40,
+                "political_significance": 20,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 20,
+                "urgency": 10,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": true,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "EU tariffs aimed at China hitting Ukraine's steel industry, affecting its economy and market access.",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 10,
+                "public_need_to_know": 10,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant development in the economy category, specifically in the steel industry, which has implications for Ukraine's economy and market access. The article provides concrete data and quotes from a key source, the CEO of Metinvest, which adds credibility to the story."
+            }
+        }
+    }
+]

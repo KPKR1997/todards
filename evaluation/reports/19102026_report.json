@@ -1,0 +1,124 @@
+{
+    "date": "19102026",
+    "timestamp": "2026-10-19T09:21:08.906427",
+    "duration_seconds": 3229.33,
+    "stages_duration_seconds": {
+        "scrape": 916.85,
+        "guardrails": 103.72,
+        "deduplication": 8.89,
+        "category_validation": 91.03,
+        "ranking": 178.89,
+        "processing": 1929.89,
+        "assembly": 0.04
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 3,
+            "Tech": 13,
+            "People": 44,
+            "Environment": 2,
+            "Economy": 10,
+            "Entertainment": 6
+        },
+        "total_scraped": 78,
+        "guardrail_passed": 78,
+        "guardrail_rejected": 0,
+        "dedup_removed": 31,
+        "category_reassignments": 0,
+        "final_articles": 9,
+        "final_categories": 5
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 78,
+        "classified_safe": 56,
+        "classified_unsafe": 22,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 22,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {
+        "total_checked": 92,
+        "exact_duplicate_pairs": 20,
+        "semantic_duplicate_pairs": 27,
+        "duplicate_pairs_found": 47,
+        "duplicate_clusters": 18,
+        "duplicates_removed": 31,
+        "published_duplicates_removed": 6
+    },
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 44,
+        "rejected_count": 7,
+        "rejected_articles": [
+            {
+                "title": "'It was jaw-dropping': The shocking lessons from an infamous experiment in obedience",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily focused on the study of human nature and behavior, specifically the obedience experiment, which falls under the 'people' category."
+            },
+            {
+                "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the opioid crisis and its effects on individuals, which falls under the 'health' category."
+            },
+            {
+                "title": "Mission set to blast off for Mars to grab a piece of its moon",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on a space mission to Mars, the exploration of its moon Phobos, and the potential scientific discoveries that can be made from the mission, which aligns with the 'science and technology' category."
+            },
+            {
+                "title": "People playing loud music on buses could face £100 fine",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses government policies and social issues related to public transport, which falls under the 'people' category."
+            },
+            {
+                "title": "‘You Can See Everything’ becomes one of the biggest documentary releases in decades",
+                "from": "economy and business",
+                "detected_category": "entertainment",
+                "confidence": 1.0,
+                "reason": "The article is primarily about a documentary film's box office performance and critical acclaim, making it most relevant to the 'entertainment' category."
+            },
+            {
+                "title": "BBC pauses civil service secondment scheme",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses a decision made by the BBC, which is a news organization that is relevant to the 'people' category, rather than 'entertainment', as it does not appear to be related to entertainment news."
+            },
+            {
+                "title": "She started by peeling potatoes, now she is one of Britain's best-known online chefs",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about a person's journey and career, rather than their entertainment-related work."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 200,
+        "total_failures": 0,
+        "total_time_seconds": 194.58,
+        "prompt_tokens": 230674,
+        "response_tokens": 4473,
+        "total_tokens": 235147,
+        "usage_responses": 200,
+        "prompt_eval_seconds": 53.053,
+        "generation_seconds": 103.567,
+        "load_seconds": 24.319,
+        "server_total_seconds": 190.904,
+        "avg_response_time": 0.97
+    }
+}
