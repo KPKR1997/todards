@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 66",
+    "issue": "Issue No. 67",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,33 +21,33 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Reform UK Suspends MP Jason Powell for Concentration Camp Advocacy",
-          "image": "https://images.pexels.com/photos/29589319/pexels-photo-29589319.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
+          "title": "Irish priest Fr Willie Doyle one step closer to sainthood",
+          "image": "https://images.pexels.com/photos/8817475/pexels-photo-8817475.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Mullingar, Ireland",
           "time": "Oct 19, 2026",
-          "content": "An aspiring Reform UK MP, Jason Powell, has been suspended from the party after advocating for concentration camps and stating that Muslims cannot be British. Powell's comments were recorded in an ITV documentary, which also featured other party members expressing extreme views. One councillor, Dean Miller, was recorded calling for King Charles to be beheaded because he believed the king was secretly a Muslim, leading Conservative, Labour, and Liberal Democrat councillors to call for his resignation. The Muslim Council of Britain criticized Reform UK's leadership for allowing a culture of hatred to fester within the organization. Reform UK has suspended Powell, but critics argue that the party's vetting process is flawed, allowing extreme views to be expressed.",
+          "content": "A heroic Irish priest, Fr Willie Doyle, is one step closer to sainthood after being killed in World War I while helping injured soldiers. He served as a British Army chaplain, known for his courage under fire, and repeatedly risked his life to rescue wounded troops or comfort the dying. Fr Doyle's story is celebrated by the Catholic Church in Ireland, which is gathering documents to support his canonization. He died in 1917 while tending to two wounded Protestant soldiers, earning him the title 'ecumenical martyr of charity'. A campaign for his sainthood is led by the Fr Willie Doyle Association, with supporters highlighting his bravery and holiness.",
           "theme": "#F7ECEE",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/oct/18/aspiring-reform-mp-cannot-be-muslim-and-british-suspended"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cmg47rwddpxko"
         },
         {
           "id": "pp-2",
-          "title": "Austrian Airlines Flight Makes Emergency Landing in Bulgaria",
-          "image": "https://images.pexels.com/photos/35130740/pexels-photo-35130740.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Sofia, Bulgaria",
+          "title": "UK Home Secretary Meets EU Counterpart on Migration and Security",
+          "image": "https://images.unsplash.com/photo-1590084068846-5cd9faa51a36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VUslMjBob21lJTIwc2VjcmV0YXJ5fGVufDF8MHx8fDE3OTIzODYzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "UK",
           "time": "Oct 19, 2026",
-          "content": "An Austrian Airlines flight from Tel Aviv to Vienna was forced to make an emergency landing in Sofia, Bulgaria, after a reported bomb threat. The Airbus A320 plane was traveling with 51 passengers and six crew members when it was diverted to Sofia, where passengers were evacuated. The Bulgarian air force scrambled a MiG-29 fighter jet to escort the airliner. So far, no injuries have been reported, and an investigation has begun. The incident comes after a recent attempt to hijack a Flydubai flight to Tel Aviv, and similar incidents have occurred in the past, including a false hijacking alert on a commercial flight from Corfu to Nuremberg.",
+          "content": "UK Home Secretary Shabana Mahmood is set to meet EU Home Affairs Commissioner Magnus Brunner for talks on Monday, focusing on issues like migration, border management, and counter-terrorism. The meeting comes amid increased engagement between London and Brussels, following Andy Burnham's announcement to use an upcoming EU-UK summit to discuss Britain's long-term relationship with the EU. The UK is seeking to rejoin several police and security databases it was locked out of after Brexit, including Eurodac, a new platform for asylum seekers' biometric data, and the Schengen Information System, which contains data on missing persons, stolen goods, and fugitives. The meeting also follows a 43% decline in small boat crossings across the Channel, as reported by Frontex data.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c680zdmn100lo"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/oct/18/shabana-mahmood-talks-eu-law-enforcement-cooperation-magnus-brunner"
         },
         {
           "id": "pp-3",
-          "title": "US Allows Ukrainians, Sudanese to Keep Deportation Protections",
-          "image": "https://images.unsplash.com/photo-1655722724451-0df658a2ab23?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VVMlMjBpbW1pZ3JhdGlvbnxlbnwxfDB8fHwxNzkyMzgxMzU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Ukraine and Sudan Immigrants Get Temporary Reprieve",
+          "image": "https://images.unsplash.com/photo-1655722724447-2d2a3071e7f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8VVMlMjBpbW1pZ3JhdGlvbnxlbnwxfDB8fHwxNzkyMzgxMzU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "United States",
           "time": "Oct 19, 2026",
-          "content": "The US Department of Homeland Security announced that Ukrainian and Sudanese immigrants who were facing deportation protections expiration will be allowed to continue living and working in the country for now. This decision applies to over 100,000 Ukrainians and nearly 1,800 Sudanese nationals who were enrolled in the Temporary Protected Status (TPS) program. The protection for both countries was set to expire on Monday, but the agency will make an announcement at a later time. Until then, immigrants from Ukraine and Sudan who are currently in the US will retain their protections. The decision comes as the Trump administration has repeatedly terminated TPS for multiple countries, citing it as a temporary solution, not a permanent one. The US Supreme Court allowed the Trump administration to end TPS for Haitians and Syrians in June, leaving those who lost their status vulnerable to detention and deportation.",
+          "content": "A temporary reprieve has been granted to immigrants from Ukraine and Sudan, allowing them to continue living and working in the United States without fear of deportation. Temporary Protected Status, or TPS, provides humanitarian relief to individuals fleeing war, natural disasters, or humanitarian crises. As of March 2025, over 100,000 Ukrainians and 1,790 Sudanese were enrolled in the program. The Department of Homeland Security has announced that these immigrants will retain their protections until further announcements are made, which are expected to be made at a later time. This decision comes as a temporary reprieve for individuals who had been facing the threat of detention and deportation.",
           "theme": "#F7ECEE",
           "source": "CNN",
           "url": "https://edition.cnn.com/2026/10/18/politics/ukraine-sudan-temporary-protected-status"
@@ -64,14 +64,14 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "World Edges Closer to 30% Land Conservation Goal, Gaps Remain",
-          "image": "https://images.pexels.com/photos/18907088/pexels-photo-18907088.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
+          "title": "Warwick Study Reveals Unexpected Colors in White Dwarfs",
+          "image": "https://images.unsplash.com/photo-1701014159143-09482059f571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8c3RlbGxhciUyMGF0bW9zcGhlcmV8ZW58MXwwfHx8MTc5MjM4MDQ1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "University of Warwick",
           "time": "Oct 19, 2026",
-          "content": "A recent study suggests that the world may be closer to achieving its 30% land conservation goal, but significant gaps in grassland and shrubland protection remain. These areas, which support unique wildlife, are not fully represented in global conservation records, indicating that simply expanding the total area of protected land is not enough to ensure the conservation of all wildlife habitats. The study highlights the need for more effective management of conservation areas and a focus on improving the overall effectiveness of conservation efforts to meet the 30% target and address the biodiversity crisis.",
+          "content": "A new study by University of Warwick astronomers reveals that white dwarfs, the dense remnants of Sun-like stars, can have unexpected colors, including green, pink, and purple. These colors are not determined solely by temperature, unlike most stars, but are influenced by the composition of the star's atmosphere. The researchers found that the unusual colors are caused by the presence of certain elements, such as calcium, lithium, and sodium, which absorb or scatter light in specific ways. One white dwarf, WD J1330+6435, appears chartreuse green due to the presence of sodium, while others may be yellow, pink, or purple. The study suggests that about one in thirty white dwarfs across the universe may have unusual coloring.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/the-world-may-be-much-closer-to-a-major-conservation-goal-than-scientists-thought/"
+          "url": "https://scitechdaily.com/something-out-of-science-fiction-astronomers-discover-a-star-that-glows-a-bizarre-shade-of-green/"
         },
         {
           "id": "st-2",
@@ -107,14 +107,14 @@
       "cards": [
         {
           "id": "hw-1",
-          "title": "Losartan Medication Activates Brown Fat for Better Cardiovascular Health",
-          "image": "https://images.unsplash.com/photo-1587854692152-cbe660dbde88?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bWVkaWNhdGlvbiUyMGJvdHRsZXxlbnwxfDB8fHwxNzkyMzMxNTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York City, USA",
-          "time": "Oct 18, 2026",
-          "content": "A new study on a blood pressure medication, Losartan, reveals that it could have a second use in activating brown fat, a tissue that burns energy to produce heat and is linked to better cardiovascular health. The research, published in Nature, analyzed medical records and PET/CT scans of over 100,000 patients and found that patients taking Losartan were more likely to have brown fat detected on their scans. The study also found that Losartan directly increased metabolic activity in brown fat cells and had a positive effect on the body's energy-burning fat. This discovery could lead to future treatments for people with normal blood pressure, as well as potential benefits for cardiovascular health. Additionally, the study found that brown fat was associated with lower rates of anxiety and depression, and its activity was linked to several health indicators, including blood sugar regulation, blood fats, and heart function. The researchers noted that further study is needed to fully understand the connections between brown fat and these health outcomes.",
+          "title": "Experimental Treatment Shows Promise for C. Difficile Infections",
+          "image": "https://images.pexels.com/photos/3786213/pexels-photo-3786213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Germany",
+          "time": "Oct 19, 2026",
+          "content": "An experimental treatment for C. difficile gut infections, which can cause life-threatening diarrhea, has shown promise in early laboratory and mouse research. The treatment, argyrin B, specifically kills the bacteria responsible for the infection while sparing the rest of the gut microbiome. This is significant because broad-spectrum antibiotics can disrupt the gut's microbial community, allowing C. difficile to multiply unchecked. The researchers believe that argyrin B could reduce the risk of further microbiome disruption, infections, and relapses, which often require a stool transplant. The team plans to continue studying the treatment, including determining the effective dose and testing its ability to prevent recurrent infections.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-surprising-new-effect-of-a-popular-blood-pressure-drug/"
+          "url": "https://scitechdaily.com/scientists-discover-a-powerful-new-weapon-against-a-dangerous-gut-infection/"
         },
         {
           "id": "hw-2",
@@ -150,11 +150,11 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "India falls short on health concerns in climate change plan, report finds",
-          "image": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Z3JlZW5ob3VzZSUyMGdhcyUyMGVtaXNzaW9uc3xlbnwxfDB8fHwxNzkyMzgxNTI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "India Criticized for Poor Health Integration in Climate Plan",
+          "image": "https://images.unsplash.com/photo-1554418651-70309daf95f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Y2xpbWF0ZSUyMHNjb3JlY2FyZHxlbnwxfDB8fHwxNzkyMzg2NzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "India",
           "time": "Oct 19, 2026",
-          "content": "India has done poorly in incorporating health concerns into its national climate change action plan, according to a new report from the Global Climate and Health Alliance. This is significant because India is highly vulnerable to climate-related illnesses and deaths. The report, called",
+          "content": "India has been criticized for its poor performance in integrating health into its national climate change action plan, according to a new report by the Global Climate and Health Alliance. The report, called the",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
           "url": "https://www.downtoearth.org.in/climate-change/indias-climate-action-plan-fails-to-prioritise-health-global-scorecard-finds"
@@ -236,14 +236,14 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "EU urged to lift Ukrainian steel restrictions, citing war context",
-          "image": "https://images.unsplash.com/photo-1559589688-6ba6beafe1e5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8RXVyb3BlYW4lMjBVbmlvbiUyMGZsYWd8ZW58MXwwfHx8MTc5MjM4MTc0N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Ukraine",
+          "title": "China's Economy Rebounds, Growing 4.5% Amid AI Boom",
+          "image": "https://images.pexels.com/photos/28635331/pexels-photo-28635331.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "China",
           "time": "Oct 19, 2026",
-          "content": "The CEO of Metinvest, Ukraine's largest steel company, has urged the European Union to lift restrictions on Ukrainian steel products, claiming they were unfairly bundled with cheaper imports from countries like China. The EU imposed the restrictions to protect its own steel manufacturers, but Metinvest's CEO, Yuriy Ryzhenkov, argues that Ukraine's situation, including the war with Russia, has not been taken into account. He wants at least a",
+          "content": "China's economy rebounded in the third quarter, growing by 4.5% as the AI boom boosted exports. The growth is below the annual target of 4.5%-5% but still shows momentum. Exports, particularly high-tech goods, have offset weak domestic spending, but global trade tensions and uncertainty over AI investments cloud the outlook. The property market remains sluggish, with investment falling by over 20% in the first nine months, and consumer spending is weak due to trade uncertainties and geopolitical issues. Beijing has taken measures to support the economy, including lower interest rates and subsidies for property buyers, but faces pressure from Western economies over trade and concerns over AI investments.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cwdd8z6gyy96o"
+          "url": "https://www.bbc.com/news/articles/cm5yn098xz8lo"
         },
         {
           "id": "eb-2",

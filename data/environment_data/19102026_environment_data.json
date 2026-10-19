@@ -8,12 +8,12 @@
         "content": "India has performed poorly in integrating health into national climate change action plan, according to a new global scorecard. The finding is significant given the country’s vulnerability to climate-related illness and premature death. The report, “ Healthy NDC Scorecard ”, published by the Global Climate and Health Alliance, assessed how well countries incorporate health considerations into their Nationally Determined Contributions (NDCs). These are national climate action plans submitted under the Paris Agreement, setting out commitments to reduce greenhouse gas emissions and adapt to climate change.",
         "url": "https://www.downtoearth.org.in/climate-change/indias-climate-action-plan-fails-to-prioritise-health-global-scorecard-finds",
         "rank": 1,
-        "ranking_score": 28.0,
-        "ranking_reason": "India's climate action plan fails to prioritize health, global scorecard finds",
+        "ranking_score": 41.0,
+        "ranking_reason": "The article reports a meaningful, substantive development relevant to its category, highlighting India's poor performance in integrating health into its national climate change action plan.",
         "ranking": {
             "rank": 1,
-            "score": 28.0,
-            "base_score": 28.0,
+            "score": 41.0,
+            "base_score": 41.0,
             "event_multiplier": 1.0,
             "severity_multiplier": 1.0,
             "freshness_multiplier": 1.0,
@@ -21,17 +21,17 @@
             "source_count": 1,
             "cluster_size": 1,
             "analysis": {
-                "everyday_impact": 0,
+                "everyday_impact": 20,
                 "dont_miss": 0,
-                "human_consequence": 0,
-                "economic_impact": 0,
-                "political_significance": 0,
+                "human_consequence": 30,
+                "economic_impact": 20,
+                "political_significance": 40,
                 "health_significance": 80,
-                "scientific_significance": 0,
+                "scientific_significance": 50,
                 "entertainment_significance": 0,
-                "remarkability": 0,
-                "global_reach": 0,
-                "urgency": 0,
+                "remarkability": 40,
+                "global_reach": 30,
+                "urgency": 20,
                 "severity_tier": 3,
                 "events": {
                     "major_disaster": false,
@@ -47,20 +47,20 @@
                     "major_scientific_discovery": false,
                     "major_technology_event": false
                 },
-                "reason": "India's climate action plan fails to prioritize health, global scorecard finds",
-                "editorial_relevance": 70,
+                "reason": "The article reports a meaningful, substantive development relevant to its category, highlighting India's poor performance in integrating health into its national climate change action plan.",
+                "editorial_relevance": 60,
                 "publishable": true,
                 "rejection_reason": "",
-                "public_impact": 0,
-                "public_need_to_know": 80,
-                "public_concern": 80,
+                "public_impact": 40,
+                "public_need_to_know": 50,
+                "public_concern": 30,
                 "technology_significance": 0
             },
             "selection_method": "llm_pairwise_top_k",
             "representative_selection_method": "llm_pairwise_comparison",
             "final_quality": {
                 "passed": true,
-                "reason": "The article reports a significant finding on India's climate action plan, highlighting the country's poor performance in prioritizing health considerations. This is a substantive and important development in the environment category, providing a clear reason for readers to care about the potential impacts on public health."
+                "reason": "The article reports a meaningful, substantive development relevant to its category, highlighting India's poor performance in integrating health into its national climate change action plan, a significant issue given the country's vulnerability to climate-related illness and premature death."
             }
         }
     }

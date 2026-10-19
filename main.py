@@ -172,21 +172,22 @@ def main():
     copy_data = copy.deepcopy(frontend_data)
     progress.update_stage("Deduplication: Semantic & Cross-Day", 35.0)
     metrics.start_stage("deduplication")
-    try:
-        deduplicator = ArticleDuplicateRemover(
-            data_root=Path("data"),
-            similarity_threshold=DEDUP_SIMILARITY_THRESHOLD,
-            cross_day_threshold=DEDUP_CROSS_DAY_THRESHOLD,
-            metrics_collector=metrics,
-        )
-        dedup_report = deduplicator.run(publication_data=copy_data)
-        logger.info(f"Deduplication complete: {dedup_report.get('duplicates_removed', 0)} duplicates removed.")
-    except Exception as e:
-        logger.error(f"Deduplication failed: {e}")
-    metrics.end_stage("deduplication")
+    # try:
+        # deduplicator = ArticleDuplicateRemover(
+        #     data_root=Path("data"),
+        #     similarity_threshold=DEDUP_SIMILARITY_THRESHOLD,
+        #     cross_day_threshold=DEDUP_CROSS_DAY_THRESHOLD,
+        #     metrics_collector=metrics,
+        # )
+        # dedup_report = deduplicator.run(publication_data=copy_data)
+    #     logger.info(f"Deduplication complete: {dedup_report.get('duplicates_removed', 0)} duplicates removed.")
+    # except Exception as e:
+    #     logger.error(f"Deduplication failed: {e}")
+    # metrics.end_stage("deduplication")
     # ------------------------------------------------------------
     # 4. CATEGORY CROSS-VALIDATION
     # ------------------------------------------------------------
+        # pass
     progress.update_stage("Category Cross-Validation", 45.0)
     metrics.start_stage("category_validation")
     try:

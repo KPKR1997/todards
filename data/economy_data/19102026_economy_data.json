@@ -1,20 +1,20 @@
 [
     {
-        "id": "pp-5",
+        "id": "pp-1",
         "source": "BBC",
         "category": "economy",
-        "title": "EU tariffs aimed at China hitting Ukraine, steel boss says",
-        "date": "2026-10-18 23:28",
-        "content": "The boss of one of Ukraine's biggest steel companies has called on the European Union to drop import restrictions on products made from the country, arguing it has been \"bundled together\" in measures aimed a curbing cheap imports from the likes of China. Yuriy Ryzhenkov, chief executive of Metinvest, told the BBC the recently-imposed tariffs on imported steel to the EU were \"unfair\" and had been put in place \"without any consideration for the situation Ukraine is in\". He said he wished to see \"at least a carve out\" for Ukraine to access the EU market. A spokesperson for the European Commission said the EU \"took into account the difficult situation\" of Ukraine when deciding its steel policy. The trading bloc has recently imposed restrictions on steel imports in an effort to protect steel manufacturers of member nations. It has capped the amount of steel which can enter the EU tax free at 18.3 million tonnes per year - a 47% reduction from 2024 levels. There are some country-specific quotas in the policy, but the overall aim is to cut the amount of steel that can be imported due to member nations struggling to compete with cheap imports from the likes of China and Turkey. Despite a free-trade agreement (FTA) being in place between the EU and Ukraine, the FTA does not stop the EU from introducing separate trade protection measures. \"Ukraine has been bundled together into those measures without any consideration for the situation Ukraine is in,\" Ryzhenkov said, pointing to the war with Russia. \"Access to the European market is crucial for survival,\" he added. \"The restrictive measures that have been put in place by the authorities in the European Union, they don't help. \"I think it's unfair that Ukraine has been treated in the same way as all of the other importers into the European Union.\" The Ukraine steel industry estimates steel exports to the EU could ultimately fall by about 50–60%. The EU said Ukraine's specific steel quota guaranteed exports of the metal, but acknowledged this was at a \"level lower than in the past years\". \"Despite the war effort, Ukraine remains an important exporter of steel to the EU,\" a spokesperson said, adding it had \"offered compensations\" to its largest suppliers, which included Ukraine. Steel products are a foundation in Ukraine's economy. Before the start of Russia's full-scale invasion in 2022, metallurgy and mining accounted for roughly 10% of Ukraine's national income and a third of its exports. The EU is its top customer. But the industry has suffered from the continued Russian bombardment. All of Ukraine's steel mills have been bombed at points since the conflict began in 2022, but Ryzhenkov said strikes had \"intensified significantly recently\". At one point in September, there was \"no single tonne of steel produced\" in Ukraine for the first time in about 150 years, he added. Almost 800 Metinvest workers have been killed since the war began. Ryzhenkov said the company had \"improved the covered areas\" at its mills where workers can shelter during air raids. \"The only thing we can do is to design procedures to keep people safe and just obey those procedures and try to minimise the risks.\" \"Unfortunately, you cannot cover a whole steel mill to avoid it being damaged.\" Ryzhenkov said he expected the coming winter to be \"one of the hardest in our history\". \"We are in a dire situation when we don't have logistics to access any other market apart from the EU and cutting our available market by 60%, that doesn't help for the industry to survive.\"",
-        "url": "https://www.bbc.com/news/articles/cwdd8z6gyy96o",
+        "title": "China's growth accelerates as AI export boom outweighs domestic weakness",
+        "date": "2026-10-19 02:03",
+        "content": "China's economic growth picked up in the three months to the end of September, rebounding from a three-year low as the artificial intelligence (AI) boom helped boost exports. The world's second largest economy grew by 4.5% in the third quarter, up from the previous period but below the 5% expansion recorded from January to March, according to official Chinese data. The latest figure is at the bottom end of Beijing's annual growth target of 4.5%-5%, which analysts have said gives policymakers room to address the country's economic challenges. While exports have helped offset weak spending at home, global trade tensions and uncertainty over AI investments are clouding its outlook. China's National Bureau of Statistics said on Monday that the economy \"sustained steady development against pressure\" and showed \"momentum with new growth drivers and improving structure\". With exports climbing, China's trade surplus - the amount of goods and services it sells abroad compared to what it buys from other countries - is on track to overtake the record $1.2tn (£900bn) seen last year. But property investment fell by more than 20% in the first nine months from the same period last year, official data also showed. Oxford Economics researcher Sheana Yue said manufacturing and high-tech exports have boosted China's growth, despite weak investment and domestic spending. China's economy has struggling to shake off a long-running property slump, after years of overbuilding and excessive borrowing by private developers. There are still no signs that this trend will end soon, Yue said. Trade uncertainties and geopolitical issues have also made Chinese consumers more \"pessimistic\" and unwilling to spend, she added. The technology industry has been a key driver of China's growth in recent quarters. Global demand for computer chips and other components used to build AI data centres has helped to ease pressure on Beijing and cushion the impact of sluggish domestic consumption. Chinese businesses have leaned heavily on exports as a prolonged property slump, weak wage growth and high youth unemployment have weighed on consumer spending at home. In September, Beijing unveiled a raft of support measures, including lower interest rates for some businesses and subsidies for property buyers, in an effort to boost the economy. But Beijing is facing a backlash from Western economies - including the US and European Union - as manufacturers struggle to compete with large amounts of cheap Chinese goods. There are also concerns over the billions of dollars being spent on AI infrastructure and whether the companies making those investments can deliver on their promises of generating huge profits.",
+        "url": "https://www.bbc.com/news/articles/cm5yn098xz8lo",
         "rank": 1,
-        "ranking_score": 14.46,
-        "ranking_reason": "EU tariffs aimed at China hitting Ukraine's steel industry, affecting its economy and market access.",
+        "ranking_score": 53.04,
+        "ranking_reason": "",
         "ranking": {
             "rank": 1,
-            "score": 14.46,
-            "base_score": 13.5,
-            "event_multiplier": 1.05,
+            "score": 53.04,
+            "base_score": 52.0,
+            "event_multiplier": 1.0,
             "severity_multiplier": 1.0,
             "freshness_multiplier": 1.02,
             "source_multiplier": 1.0,
@@ -24,14 +24,14 @@
                 "everyday_impact": 0,
                 "dont_miss": 0,
                 "human_consequence": 0,
-                "economic_impact": 40,
-                "political_significance": 20,
+                "economic_impact": 60,
+                "political_significance": 40,
                 "health_significance": 0,
-                "scientific_significance": 0,
+                "scientific_significance": 50,
                 "entertainment_significance": 0,
                 "remarkability": 0,
-                "global_reach": 20,
-                "urgency": 10,
+                "global_reach": 80,
+                "urgency": 20,
                 "severity_tier": 2,
                 "events": {
                     "major_disaster": false,
@@ -39,7 +39,7 @@
                     "pandemic": false,
                     "election": false,
                     "major_political_change": false,
-                    "major_economic_event": true,
+                    "major_economic_event": false,
                     "major_award": false,
                     "celebrity_death": false,
                     "record_breaking": false,
@@ -47,20 +47,20 @@
                     "major_scientific_discovery": false,
                     "major_technology_event": false
                 },
-                "reason": "EU tariffs aimed at China hitting Ukraine's steel industry, affecting its economy and market access.",
-                "editorial_relevance": 60,
+                "reason": "",
+                "editorial_relevance": 70,
                 "publishable": true,
                 "rejection_reason": "",
-                "public_impact": 10,
-                "public_need_to_know": 10,
-                "public_concern": 0,
-                "technology_significance": 0
+                "public_impact": 40,
+                "public_need_to_know": 60,
+                "public_concern": 50,
+                "technology_significance": 70
             },
             "selection_method": "llm_pairwise_top_k",
             "representative_selection_method": "llm_pairwise_comparison",
             "final_quality": {
                 "passed": true,
-                "reason": "The article reports a significant development in the economy category, specifically in the steel industry, which has implications for Ukraine's economy and market access. The article provides concrete data and quotes from a key source, the CEO of Metinvest, which adds credibility to the story."
+                "reason": "The article reports a significant economic development in China, providing insights into the country's growth acceleration and the role of AI exports in offsetting domestic weakness. The information is substantiated with official Chinese data and expert opinions, making it a valuable contribution to the category of economy."
             }
         }
     }
