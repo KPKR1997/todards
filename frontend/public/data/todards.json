@@ -257,14 +257,16 @@
           "url": "https://www.bbc.com/news/articles/c60rl1xvjv89o"
         },
         {
-          "id": "eb-3",
-          "title": "Small businesses increasingly adopt artificial intelligence tools",
-          "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=82",
-          "place": "Bengaluru, India",
-          "time": "Sep 17, 2026",
-          "content": "Small businesses are adopting AI tools for customer support, marketing, document processing and data analysis. Lower-cost AI services are making technologies that were previously available mainly to large companies more accessible to smaller firms.",
-          "theme": "#F7F1DE"
-        }
+          "id": "eb-1",
+          "title": "UK Chancellor Plans to Tax Bank Sector",
+          "image": "https://images.pexels.com/photos/3395244/pexels-photo-3395244.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
+          "time": "Oct 16, 2026",
+          "content": "UK Chancellor John Healey is planning to increase taxes on the bank sector, with the biggest four banks making about £15bn profit in the first six months of this year. The move has been met with resistance from the sector, which warns it will weaken competitiveness and discourage investment and job creation.",
+          "theme": "#F7F1DE",
+          "source": "BBC",
+          "url" : "https://www.bbc.com/news/articles/c32l4k2xdvrzo"
+        } 
       ]
     }
   ]
