@@ -74,6 +74,7 @@ CATEGORY DEFINITIONS:
   Medicine, healthcare, public health, diseases, medical research,
   hospitals, treatments, vaccines, epidemiology, mental health,
   medical breakthroughs and health-related developments.
+
 - 'science and technology':
   Science, scientific research, physics, chemistry, biology,
   astronomy, space exploration, AI, software, computing,
@@ -82,19 +83,23 @@ CATEGORY DEFINITIONS:
   Politics, governments, elections, governance, diplomacy,
   politicians, world leaders, international relations,
   wars, conflicts, social developments and major human-interest stories.
+
 - 'earth and environment':
   Climate change, climate science, natural disasters, earthquakes,
   floods, storms, wildfires, weather events, wildlife, ecology,
   conservation, environment and energy-related environmental issues.
+
 - 'entertainment':
   Competitive sports, athletes, tournaments, sporting events,
   cinema, television, music, gaming, arts, pop culture,
   entertainment and awards,  Movies, television, music, celebrities, gaming, arts,
   pop culture and entertainment awards.
-- 'economy and business':
+
+  - 'economy and business':
   Stock markets, companies, corporate developments, business,
   startups, finance, banking, inflation, interest rates,
   trade, employment, labor markets, central banks and economic policy.
+
 CONTENT TYPE FILTER
 Todards should publish substantive news, not generic editorial or content
 formats.
@@ -218,9 +223,9 @@ CURRENT CATEGORY: '{current_category}'
             )
             if not file_path.exists():
                 continue
-            # --------------------------------------------------------
+              
             # LOAD ARTICLES
-            # --------------------------------------------------------
+              
             try:
                 with open(
                     file_path,
@@ -240,9 +245,9 @@ CURRENT CATEGORY: '{current_category}'
                 )
                 continue
             remaining_articles = []
-            # --------------------------------------------------------
+              
             # VALIDATE EACH ARTICLE
-            # --------------------------------------------------------
+              
             for article in articles:
                 total_checked += 1
                 title = str(
@@ -251,9 +256,9 @@ CURRENT CATEGORY: '{current_category}'
                 content = str(
                     article.get("content", "")
                 ).strip()
-                # ----------------------------------------------------
+                  
                 # EMPTY ARTICLE SAFETY
-                # ----------------------------------------------------
+                  
                 if not title and not content:
                     logger.warning(
                         f"Rejecting empty article from "
@@ -266,9 +271,9 @@ CURRENT CATEGORY: '{current_category}'
                         "reason": "Article contains no title or content.",
                     })
                     continue
-                # ----------------------------------------------------
+                  
                 # LLM VALIDATION
-                # ----------------------------------------------------
+                  
                 validation = self.validate_article(
                     title=title,
                     content=content,
@@ -280,9 +285,9 @@ CURRENT CATEGORY: '{current_category}'
                     .strip()
                 )
                 confidence = validation.confidence
-                # ----------------------------------------------------
+                  
                 # DECISION
-                # ----------------------------------------------------
+                  
                 #
                 # IMPORTANT:
                 #
@@ -294,7 +299,7 @@ CURRENT CATEGORY: '{current_category}'
                 # Otherwise KEEP.
                 #
                 # No redistribution.
-                # ----------------------------------------------------
+                  
                 should_reject = (
                     assigned != expected_category.lower().strip()
                     and confidence >= self.confidence_threshold
@@ -317,13 +322,13 @@ CURRENT CATEGORY: '{current_category}'
                     # Do NOT append to remaining_articles.
                     # Therefore it is removed from this category.
                     continue
-                # ----------------------------------------------------
+                  
                 # ARTICLE PASSES VALIDATION
-                # ----------------------------------------------------
+                  
                 remaining_articles.append(article)
-            # --------------------------------------------------------
+              
             # WRITE UPDATED FILE
-            # --------------------------------------------------------
+              
             if len(remaining_articles) != len(articles):
                 try:
                     with open(
@@ -348,9 +353,9 @@ CURRENT CATEGORY: '{current_category}'
                         f"Failed to save modified file "
                         f"{file_path}: {e}"
                     )
-        # ------------------------------------------------------------
+          
         # SUMMARY
-        # ------------------------------------------------------------
+          
         summary = {
             "status": "completed",
             "total_checked": total_checked,

@@ -50,6 +50,7 @@ Evaluate against these criteria:
 1. SAFETY (is_safe):
 - Is it free from NSFW, adult, sexually explicit material, graphic violence, extreme abuse, or hate speech?
 - Set is_safe to FALSE if it contains explicit adult content, vulgarity, or gratuitous graphic gore.
+- Nes articles about a riot or mass casualities are not unsafe.
 2. FACTUALITY (is_factual):
 - Is this legitimate news or informative reporting, rather than unverified celebrity gossip, unfounded conspiracy theories, or pure sensational rumors?
 - Set is_factual to FALSE if the text is pure tabloid gossip, unverified wild rumors, or obvious fake news.

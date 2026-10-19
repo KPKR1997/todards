@@ -120,9 +120,9 @@ class CNBCTechScraper:
                 self.domain,
                 href
             )
-            # ------------------------------------------------
+             
             # Check article's actual publication datetime
-            # ------------------------------------------------
+             
             try:
                 article_response = (
                     self.session.get(
@@ -138,9 +138,9 @@ class CNBCTechScraper:
                 "html.parser"
             )
             published_time = None
-            # ------------------------------------------------
+             
             # JSON-LD
-            # ------------------------------------------------
+             
             json_ld_scripts = (
                 article_soup.find_all(
                     "script",
@@ -181,9 +181,9 @@ class CNBCTechScraper:
                         break
                 except Exception:
                     continue
-            # ------------------------------------------------
+             
             # Meta fallback
-            # ------------------------------------------------
+             
             if not published_time:
                 meta = article_soup.find(
                     "meta",
@@ -232,9 +232,9 @@ class CNBCTechScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # Title
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -244,9 +244,9 @@ class CNBCTechScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # Content
-            # ------------------------------------------------
+             
             groups = soup.find_all(
                 "div",
                 class_="group"
@@ -271,9 +271,9 @@ class CNBCTechScraper:
                     f"No CNBC content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Actual publication date
-            # ------------------------------------------------
+             
             published_date = ""
             json_ld_scripts = (
                 soup.find_all(
@@ -385,10 +385,10 @@ class NASATechScraper:
                 self.domain,
                 href
             )
-            # ------------------------------------------------
+             
             # NASA listing does not reliably expose the
             # publication datetime, so check article page.
-            # ------------------------------------------------
+             
             try:
                 article_response = (
                     self.session.get(
@@ -404,9 +404,9 @@ class NASATechScraper:
                 "html.parser"
             )
             published_time = None
-            # ------------------------------------------------
+             
             # JSON-LD
-            # ------------------------------------------------
+             
             scripts = (
                 article_soup.find_all(
                     "script",
@@ -445,9 +445,9 @@ class NASATechScraper:
                         break
                 except Exception:
                     continue
-            # ------------------------------------------------
+             
             # Meta fallback
-            # ------------------------------------------------
+             
             if not published_time:
                 meta = article_soup.find(
                     "meta",
@@ -496,9 +496,9 @@ class NASATechScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # Title
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -508,9 +508,9 @@ class NASATechScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # Content
-            # ------------------------------------------------
+             
             paragraphs = soup.find_all(
                 "p",
                 class_="wp-block-paragraph"
@@ -536,9 +536,9 @@ class NASATechScraper:
                     f"No NASA content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Published date
-            # ------------------------------------------------
+             
             published_date = ""
             script = soup.find(
                 "script",
@@ -629,9 +629,9 @@ class SciTechDailyScraper:
             "html.parser"
         )
         links = []
-        # ----------------------------------------------------
+          
         # Current UTC time
-        # ----------------------------------------------------
+          
         now = datetime.now(
             timezone.utc
         )
@@ -710,9 +710,9 @@ class SciTechDailyScraper:
                     f"No article element found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Title
-            # ------------------------------------------------
+             
             headline = article.find(
                 "h1"
             )
@@ -722,9 +722,9 @@ class SciTechDailyScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # Content
-            # ------------------------------------------------
+             
             content = " ".join(
                 p.get_text(
                     " ",
@@ -748,9 +748,9 @@ class SciTechDailyScraper:
                     f"No SciTechDaily content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Published date
-            # ------------------------------------------------
+             
             published_date = ""
             time_tag = article.find(
                 "time",
@@ -836,10 +836,10 @@ class CNNTechScraper:
                 self.domain,
                 href
             )
-            # ------------------------------------------------
+             
             # CNN publication date must be checked from
             # article page.
-            # ------------------------------------------------
+             
             try:
                 article_response = (
                     self.session.get(
@@ -855,9 +855,9 @@ class CNNTechScraper:
                 "html.parser"
             )
             published_time = None
-            # ------------------------------------------------
+             
             # CNN JSON data
-            # ------------------------------------------------
+             
             script = article_soup.find(
                 "script",
                 string=lambda x:
@@ -875,9 +875,9 @@ class CNNTechScraper:
                             match.group(1)
                         )
                     )
-            # ------------------------------------------------
+             
             # JSON-LD fallback
-            # ------------------------------------------------
+             
             if not published_time:
                 scripts = (
                     article_soup.find_all(
@@ -951,9 +951,9 @@ class CNNTechScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # Title
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -963,9 +963,9 @@ class CNNTechScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # Content
-            # ------------------------------------------------
+             
             sections = soup.find_all(
                 "p",
                 class_=lambda value:
@@ -993,9 +993,9 @@ class CNNTechScraper:
                     f"No CNN content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Published date
-            # ------------------------------------------------
+             
             published_date = ""
             script = soup.find(
                 "script",
@@ -1110,9 +1110,9 @@ class BBCTechScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # PUBLICATION DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -1126,9 +1126,9 @@ class BBCTechScraper:
                 published_time
             ):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find("h1")
             title = ""
             if headline:
@@ -1136,9 +1136,9 @@ class BBCTechScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             paragraphs = soup.find_all("p")
             article_content = ""
             for content in paragraphs[:20]:

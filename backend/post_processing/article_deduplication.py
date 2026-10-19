@@ -63,9 +63,9 @@ class ArticleDuplicateRemover:
         self.embeddings: Optional[np.ndarray] = None
         self.duplicate_pairs: List[Dict[str, Any]] = []
         self.duplicate_clusters: List[List[int]] = []
-    # ------------------------------------------------------------------
+       
     # TEXT NORMALIZATION
-    # ------------------------------------------------------------------
+       
     @staticmethod
     def clean_text(text: Any) -> str:
         """
@@ -126,9 +126,9 @@ class ArticleDuplicateRemover:
         return hashlib.sha256(
             combined.encode("utf-8")
         ).hexdigest()
-    # ------------------------------------------------------------------
+       
     # LOAD ARTICLES
-    # ------------------------------------------------------------------
+       
     def load_articles(self, days: Optional[int] = None):
         """
         Load articles from configured category folders.
@@ -204,9 +204,9 @@ class ArticleDuplicateRemover:
         logger.info(
             f"Loaded {len(self.records)} articles across {days} days."
         )
-    # ------------------------------------------------------------------
+       
     # EXACT DUPLICATES
-    # ------------------------------------------------------------------
+       
     def find_exact_duplicates(self) -> List[Dict[str, Any]]:
         """
         Find articles with identical normalized title + content.
@@ -247,9 +247,9 @@ class ArticleDuplicateRemover:
             f"Exact duplicate pairs found: {len(duplicate_pairs)}"
         )
         return duplicate_pairs
-    # ------------------------------------------------------------------
+       
     # EMBEDDINGS
-    # ------------------------------------------------------------------
+       
     def create_embeddings(self):
         """
         Create normalized semantic embeddings for all articles.
@@ -270,9 +270,9 @@ class ArticleDuplicateRemover:
             show_progress_bar=False,
             normalize_embeddings=True,
         )
-    # ------------------------------------------------------------------
+       
     # TF-IDF
-    # ------------------------------------------------------------------
+       
     def _calculate_tfidf_overlap(
         self,
         text_a: str,
@@ -315,9 +315,9 @@ class ArticleDuplicateRemover:
             )
         except Exception:
             return 0.0
-    # ------------------------------------------------------------------
+       
     # DELETE PRIORITY
-    # ------------------------------------------------------------------
+       
     def choose_delete(self, i: int, j: int) -> int:
         """
         Determine which article should be deleted.
@@ -329,16 +329,16 @@ class ArticleDuplicateRemover:
         """
         a = self.records[i]
         b = self.records[j]
-        # --------------------------------------------------------------
+          
         # Rule 1: Today's article
-        # --------------------------------------------------------------
+          
         if a["is_today"] and not b["is_today"]:
             return j
         if b["is_today"] and not a["is_today"]:
             return i
-        # --------------------------------------------------------------
+          
         # Rule 2: Category priority
-        # --------------------------------------------------------------
+          
         prio_a = CATEGORY_PRIORITY.get(
             a["folder"],
             1,
@@ -351,22 +351,22 @@ class ArticleDuplicateRemover:
             return j
         if prio_b > prio_a:
             return i
-        # --------------------------------------------------------------
+          
         # Rule 3: Longer content
-        # --------------------------------------------------------------
+          
         len_a = len(a["content"])
         len_b = len(b["content"])
         if len_a > len_b:
             return j
         if len_b > len_a:
             return i
-        # --------------------------------------------------------------
+          
         # Rule 4: Tie
-        # --------------------------------------------------------------
+          
         return j
-    # ------------------------------------------------------------------
+       
     # SEMANTIC DUPLICATES
-    # ------------------------------------------------------------------
+       
     def find_semantic_duplicates(
         self,
         excluded_indices: Optional[Set[int]] = None,
@@ -456,9 +456,9 @@ class ArticleDuplicateRemover:
                     }
                 )
         return duplicate_pairs
-    # ------------------------------------------------------------------
+       
     # DUPLICATE GRAPH
-    # ------------------------------------------------------------------
+       
     def build_duplicate_clusters(
         self,
         pairs: List[Dict[str, Any]],
@@ -513,9 +513,9 @@ class ArticleDuplicateRemover:
             reverse=True,
         )
         return result
-    # ------------------------------------------------------------------
+       
     # RESOLVE CLUSTERS
-    # ------------------------------------------------------------------
+       
     def resolve_clusters(
         self,
         clusters: List[List[int]],
@@ -541,9 +541,9 @@ class ArticleDuplicateRemover:
             # Safety: the final keeper must never be deleted.
             deleted.discard(keeper)
         return deleted
-    # ------------------------------------------------------------------
+       
     # PRINT DUPLICATES
-    # ------------------------------------------------------------------
+       
     def print_duplicates(
         self,
         pairs: List[Dict[str, Any]],
@@ -620,9 +620,9 @@ class ArticleDuplicateRemover:
                     f"{record['title'][:80]} | "
                     f"similarity={similarity_text}"
                 )
-    # ------------------------------------------------------------------
+       
     # DELETE FROM FILES
-    # ------------------------------------------------------------------
+       
     def delete_from_files(
         self,
         deleted_indices: Set[int],
@@ -681,12 +681,12 @@ class ArticleDuplicateRemover:
                     f"Failed to update {file_path}: {e}"
                 )
         return total_deleted
-    # ------------------------------------------------------------------
+      
     # MAIN PIPELINE
-    # ------------------------------------------------------------------
-    # ------------------------------------------------------------------
+      
+       
     # READ-ONLY PUBLICATION REFERENCE FILTER
-    # ------------------------------------------------------------------
+       
     def remove_published_duplicates(
         self,
         publication_data: Dict[str, Any],
@@ -803,9 +803,9 @@ class ArticleDuplicateRemover:
             f"(within-day: {self.similarity_threshold}, "
             f"cross-day: {self.cross_day_threshold})"
         )
-        # --------------------------------------------------------------
+          
         # 1. Load
-        # --------------------------------------------------------------
+          
         self.load_articles()
         # Treat the existing publication strictly as a read-only reference.
         # Delete only matching incoming source records, then reload because
@@ -831,9 +831,9 @@ class ArticleDuplicateRemover:
                 "published_duplicates_removed": published_duplicates_removed,
             }
             return report
-        # --------------------------------------------------------------
+       
         # 2. Exact duplicate detection
-        # --------------------------------------------------------------
+        
         exact_pairs = (
             self.find_exact_duplicates()
         )
@@ -845,23 +845,23 @@ class ArticleDuplicateRemover:
             exact_duplicate_indices.add(
                 pair["j"]
             )
-        # --------------------------------------------------------------
+        
         # 3. Semantic embeddings
-        # --------------------------------------------------------------
+       
         self.create_embeddings()
-        # --------------------------------------------------------------
+        
         # 4. Semantic duplicate detection
         #
         # We still allow semantic comparison between exact duplicates
         # because an exact group may contain the strongest representative.
         # The final graph handles everything together.
-        # --------------------------------------------------------------
+        
         semantic_pairs = (
             self.find_semantic_duplicates()
         )
-        # --------------------------------------------------------------
+         
         # 5. Combine duplicate relationships
-        # --------------------------------------------------------------
+         
         all_pairs = (
             exact_pairs
             + semantic_pairs
@@ -888,9 +888,9 @@ class ArticleDuplicateRemover:
         all_pairs = list(
             unique_relationships.values()
         )
-        # --------------------------------------------------------------
+        
         # 6. Build duplicate clusters
-        # --------------------------------------------------------------
+        
         clusters = (
             self.build_duplicate_clusters(
                 all_pairs
@@ -898,32 +898,32 @@ class ArticleDuplicateRemover:
         )
         self.duplicate_pairs = all_pairs
         self.duplicate_clusters = clusters
-        # --------------------------------------------------------------
+          
         # 7. Print diagnostics
-        # --------------------------------------------------------------
+       
         self.print_duplicates(
             all_pairs,
             clusters,
         )
-        # --------------------------------------------------------------
+          
         # 8. Resolve clusters
-        # --------------------------------------------------------------
+        
         deleted_indices = (
             self.resolve_clusters(
                 clusters
             )
         )
-        # --------------------------------------------------------------
+          
         # 9. Modify JSON files
-        # --------------------------------------------------------------
+          
         total_deleted = (
             self.delete_from_files(
                 deleted_indices
             )
         )
-        # --------------------------------------------------------------
+          
         # 10. Report
-        # --------------------------------------------------------------
+          
         exact_count = sum(
             1
             for pair in all_pairs
@@ -961,9 +961,9 @@ class ArticleDuplicateRemover:
             f"removed={report['duplicates_removed']}"
         )
         return report
-    # ------------------------------------------------------------------
+      
     # FINAL PUBLICATION JSON DEDUPLICATION
-    # ------------------------------------------------------------------
+       
     def deduplicate_publication_data(
         self,
         publication_data: Dict[str, Any],

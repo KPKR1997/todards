@@ -103,9 +103,9 @@ class DownToEarthEnvironmentScraper:
             "html.parser"
         )
         links = []
-        # ----------------------------------------------------
+          
         # Current UTC time
-        # ----------------------------------------------------
+          
         now = datetime.now(
             timezone.utc
         )
@@ -113,9 +113,9 @@ class DownToEarthEnvironmentScraper:
             now -
             timedelta(hours=24)
         )
-        # ----------------------------------------------------
+          
         # Find all headline links
-        # ----------------------------------------------------
+          
         sections = soup.select(
             'a[aria-label="headline"][href]'
         )
@@ -123,13 +123,13 @@ class DownToEarthEnvironmentScraper:
             f"Down To Earth headline links found: "
             f"{len(sections)}"
         )
-        # ----------------------------------------------------
+          
         # Process every headline
-        # ----------------------------------------------------
+          
         for section in sections:
-            # ------------------------------------------------
+             
             # Find parent story card
-            # ------------------------------------------------
+             
             story_card = section.find_parent(
                 "div",
                 attrs={
@@ -138,9 +138,9 @@ class DownToEarthEnvironmentScraper:
             )
             if not story_card:
                 continue
-            # ------------------------------------------------
+             
             # Find publication time
-            # ------------------------------------------------
+             
             time_tag = story_card.find(
                 "time",
                 attrs={
@@ -153,9 +153,9 @@ class DownToEarthEnvironmentScraper:
                 "datetime",
                 ""
             )
-            # ------------------------------------------------
+             
             # Parse datetime
-            # ------------------------------------------------
+             
             try:
                 published_time = (
                     datetime.fromisoformat(
@@ -171,18 +171,18 @@ class DownToEarthEnvironmentScraper:
                     f"{datetime_value}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Last 24 hours
-            # ------------------------------------------------
+             
             if not (
                 cutoff
                 <= published_time
                 <= now
             ):
                 continue
-            # ------------------------------------------------
+             
             # Get article URL
-            # ------------------------------------------------
+             
             href = section.get(
                 "href"
             )
@@ -192,9 +192,9 @@ class DownToEarthEnvironmentScraper:
                 self.domain,
                 href
             )
-            # ------------------------------------------------
+             
             # Avoid duplicates
-            # ------------------------------------------------
+             
             if full_url not in links:
                 links.append(
                     full_url
@@ -226,9 +226,9 @@ class DownToEarthEnvironmentScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -238,9 +238,9 @@ class DownToEarthEnvironmentScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # ARTICLE CONTENT
-            # ------------------------------------------------
+             
             article_container = soup.find(
                 "div",
                 class_="arr--story-page-card-wrapper"
@@ -265,9 +265,9 @@ class DownToEarthEnvironmentScraper:
                     strip=True
                 )
             )
-            # ------------------------------------------------
+             
             # Clean whitespace
-            # ------------------------------------------------
+             
             content = re.sub(
                 r"\s+",
                 " ",
@@ -279,9 +279,9 @@ class DownToEarthEnvironmentScraper:
                     f"{link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Published date
-            # ------------------------------------------------
+             
             published_date = ""
             time_tag = soup.find(
                 "time",
@@ -298,9 +298,9 @@ class DownToEarthEnvironmentScraper:
                 published_date = datetime.now().strftime(
                     "%Y-%m-%d %H:%M"
                 )
-            # ------------------------------------------------
+             
             # Save article
-            # ------------------------------------------------
+             
             articles.append({
                 "title": title,
                 "date": published_date,
@@ -352,9 +352,9 @@ class SciTechDailyScraper:
             "html.parser"
         )
         links = []
-        # ----------------------------------------------------
+          
         # Current UTC time
-        # ----------------------------------------------------
+          
         now = datetime.now(
             timezone.utc
         )
@@ -433,9 +433,9 @@ class SciTechDailyScraper:
                     f"No article element found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Title
-            # ------------------------------------------------
+             
             headline = article.find(
                 "h1"
             )
@@ -445,9 +445,9 @@ class SciTechDailyScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # Content
-            # ------------------------------------------------
+             
             content = " ".join(
                 p.get_text(
                     " ",
@@ -471,9 +471,9 @@ class SciTechDailyScraper:
                     f"No SciTechDaily content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Published date
-            # ------------------------------------------------
+             
             published_date = ""
             time_tag = article.find(
                 "time",

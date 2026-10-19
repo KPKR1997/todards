@@ -1,20 +1,20 @@
 [
     {
-        "id": "st-9",
-        "source": "SciTechDaily",
+        "id": "st-1",
+        "source": "CNBC",
         "category": "science and technology",
-        "title": "",
-        "date": "2026-10-19 04:25",
-        "content": "A star’s color usually reflects its temperature, but white dwarfs can break that pattern, with models revealing unexpected shades of green, pink, and purple. A star that has drawn in rocky debris from its planetary system would appear chartreuse green to the human eye, according to new calculations by University of Warwick astronomers. As far as the researchers know, no other star, living or dead, has been credibly identified as green. The object, WD J1330+6435, is a white dwarf, the dense remnant left when a Sun-like star reaches the end of its life. At roughly 4,000 degrees Celsius, or 7,200 degrees Fahrenheit, it has accumulated rocky material that enriched its atmosphere with calcium, lithium, and sodium. Dr. Mark Hollands, a Warwick Prize Fellow in the Astronomy and Astrophysics Group at the University of Warwick, who led the study, explained how one of those elements changes its appearance. “The traces of sodium in the atmosphere of this white dwarf absorb the orange part of the spectrum, leaving behind a ghostly green glow. Imagine standing on a planet and looking up at a green star. It feels like something out of science fiction.” No white dwarf is close enough for its color to be seen directly, so the team worked from spectra that astronomers routinely collect. A spectrum separates starlight by wavelength, much as a prism spreads sunlight into a rainbow. These measurements reveal a star’s temperature and chemical makeup. For the study, published in RAS Techniques and Instruments (RASTI) , the researchers fed spectra into a model of human color vision to calculate how each star’s light would look to our eyes. “Most stars, including most white dwarfs, behave like ‘perfect radiators,’ so their color is set almost entirely by temperature. But nobody had really looked into what else might be possible for white dwarfs,” Hollands said. “It turns out these incredibly dense stars can produce colors nobody expected, and some of them genuinely surprised me.” Cooler stars look orange, Sun-like stars look white, and the hottest shine pale blue. The progression resembles iron changing from red to orange to white-hot as a blacksmith heats it. White dwarfs were expected to follow the same temperature-driven pattern. Their name came from the unexpectedly hot examples discovered first, which glowed white or pale blue. In the coolest white dwarfs, however, atmospheric density can reach about 1 gram per cubic centimeter, comparable to water and millions of times denser than the Sun’s photosphere, its visible surface. Trace elements such as carbon, calcium, and sodium interact with the surrounding dense helium plasma. Those interactions allow the elements to absorb light across a broader range of colors than they would at lower densities, changing the balance of light that escapes. Across the white dwarfs they examined, the researchers found distinct color groups associated with atmospheric composition. Stars enriched with debris from shattered asteroids and comets, the remains of old planetary systems, tend toward yellow. Cooler white dwarfs with atmospheres containing both hydrogen and helium often appear cyan or pale blue because hydrogen molecules collide with helium atoms under the exceptionally dense conditions. Carbon-rich white dwarfs are generally pink or purple. One nearby example, WD J1011+2845, may be the reddest star ever recorded. Just 48 light-years from Earth, it has a deep convection zone that has carried carbon from its core to its surface. Carbon molecules alter its light so strongly that almost all of it falls at wavelengths longer than 600 nanometers, giving it a deep salmon-pink glow unlike that of an ordinary star. To estimate how widespread unusual colors might be, the team examined a representative sample of the 151 white dwarfs within 20 parsecs, about 65 light-years, of Earth. Five had unusual colors, with two yellow stars and three pink ones. That local proportion suggests roughly one in thirty white dwarfs across the Universe could have unusual coloring. The other 146 stars were assessed using color temperature, which describes an object’s color by matching it to that of a perfect radiator. The same scale is used for light bulbs, with “warm white” at 3,000 K and “cool white” at 6,000 K. The median for these white dwarfs was approximately 6,800 kelvin. Surveys selected by brightness can give a different impression of the population. Hotter, bluer white dwarfs shine more brightly and can be detected farther away, making them disproportionately common in those surveys and contributing to the misconception that white dwarfs are typically blue. Professor Boris Gänsicke, of the Department of Physics at the University of Warwick, said, “One in thirty might not sound like a huge fraction, but across the entire population of white dwarfs in the Universe, that is still a lot of oddly colored stars out there. Yet if we take the median across a representative population of white dwarfs, we found that the average white dwarf really is white.” Reference: “Any color you like: the diverse chromaticities of white dwarfs” by Mark A Hollands, Boris T Gänsicke, Pier-Emmanuel Tremblay and Detlev Koester, 15 October 2026, RAS Techniques and Instruments . DOI: 10.1093/rasti/rzag069 Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
-        "url": "https://scitechdaily.com/something-out-of-science-fiction-astronomers-discover-a-star-that-glows-a-bizarre-shade-of-green/",
+        "title": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
+        "date": "2026-10-19T01:56:34+0000",
+        "content": "Shares of ChangXin Memory Technologies , or CXMT, fell 6.5% Monday even as the company on Friday forecast a sharp swing to profitability for the first nine months of 2026. CXMT said in a filing Friday that it expects net profit attributable to shareholders of between 131 billion yuan ($19.58 billion) and 132.5 billion yuan for the January-to-September period, reversing a net loss of 5.28 billion yuan a year earlier, according to a Google translation of the filing. The company expects revenue of around 265 billion yuan to 270 billion yuan, an increase of 232.9 billion yuan to 237.9 billion yuan from the same period a year earlier. The company attributed the sharp improvement to rapidly growing demand for AI computing power since the second half of 2025, which has boosted the global DRAM market, leading to supply shortages and significant price increases, according to the filing. CXMT has been gaining ground in the global memory chip market, challenging established players including Samsung Electronics, SK Hynix and Micron Technology. The Chinese chipmaker accounted for 10% of global DRAM revenue in the third quarter of 2026, up from 5% a year earlier, according to Counterpoint Research's data last month.",
+        "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html",
         "rank": 1,
-        "ranking_score": 9.05,
-        "ranking_reason": "A groundbreaking discovery in the field of science and technology, revealing unexpected colors in white dwarfs.",
+        "ranking_score": 8.96,
+        "ranking_reason": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
         "ranking": {
             "rank": 1,
-            "score": 9.05,
+            "score": 8.96,
             "base_score": 8.45,
-            "event_multiplier": 1.05,
+            "event_multiplier": 1.04,
             "severity_multiplier": 1.0,
             "freshness_multiplier": 1.02,
             "source_multiplier": 1.0,
@@ -24,12 +24,12 @@
                 "everyday_impact": 0,
                 "dont_miss": 0,
                 "human_consequence": 0,
-                "economic_impact": 0,
+                "economic_impact": 20,
                 "political_significance": 0,
                 "health_significance": 0,
-                "scientific_significance": 80,
+                "scientific_significance": 20,
                 "entertainment_significance": 0,
-                "remarkability": 20,
+                "remarkability": 0,
                 "global_reach": 3,
                 "urgency": 0,
                 "severity_tier": 2,
@@ -44,23 +44,23 @@
                     "celebrity_death": false,
                     "record_breaking": false,
                     "unprecedented_event": false,
-                    "major_scientific_discovery": true,
-                    "major_technology_event": false
+                    "major_scientific_discovery": false,
+                    "major_technology_event": true
                 },
-                "reason": "A groundbreaking discovery in the field of science and technology, revealing unexpected colors in white dwarfs.",
-                "editorial_relevance": 80,
+                "reason": "China's CXMT sees shares drop over 6% as investors look past chipmaker's profit turnaround",
+                "editorial_relevance": 60,
                 "publishable": true,
                 "rejection_reason": "",
                 "public_impact": 0,
                 "public_need_to_know": 0,
                 "public_concern": 0,
-                "technology_significance": 80
+                "technology_significance": 60
             },
             "selection_method": "llm_pairwise_top_k",
             "representative_selection_method": "llm_pairwise_comparison",
             "final_quality": {
                 "passed": true,
-                "reason": "A groundbreaking discovery in the field of science and technology, revealing unexpected colors in white dwarfs, which provides a clear reason for readers to care about the development and its potential implications for our understanding of the universe."
+                "reason": "The article reports a significant development in the science and technology category, specifically in the field of memory chip production. The profit turnaround of CXMT, a Chinese chipmaker, is a substantial and important category-specific development that provides a clear reason for readers to care. The article provides clear and specific data, including revenue and profit figures, and highlights the company's growing presence in the global memory chip market, which is a major category-specific development."
             }
         }
     }

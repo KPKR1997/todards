@@ -120,9 +120,9 @@ class CNBCEntertainmentScraper:
                 self.domain,
                 href
             )
-            # ------------------------------------------------
+             
             # Check article's actual publication datetime
-            # ------------------------------------------------
+             
             try:
                 article_response = (
                     self.session.get(
@@ -138,9 +138,9 @@ class CNBCEntertainmentScraper:
                 "html.parser"
             )
             published_time = None
-            # ------------------------------------------------
+             
             # JSON-LD
-            # ------------------------------------------------
+             
             json_ld_scripts = (
                 article_soup.find_all(
                     "script",
@@ -181,9 +181,9 @@ class CNBCEntertainmentScraper:
                         break
                 except Exception:
                     continue
-            # ------------------------------------------------
+             
             # Meta fallback
-            # ------------------------------------------------
+             
             if not published_time:
                 meta = article_soup.find(
                     "meta",
@@ -232,9 +232,9 @@ class CNBCEntertainmentScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # Title
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -244,9 +244,9 @@ class CNBCEntertainmentScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # Content
-            # ------------------------------------------------
+             
             groups = soup.find_all(
                 "div",
                 class_="group"
@@ -271,9 +271,9 @@ class CNBCEntertainmentScraper:
                     f"No CNBC content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Actual publication date
-            # ------------------------------------------------
+             
             published_date = ""
             json_ld_scripts = (
                 soup.find_all(
@@ -385,10 +385,10 @@ class CNNEntertainmentScraper:
                 self.domain,
                 href
             )
-            # ------------------------------------------------
+             
             # CNN publication date must be checked from
             # article page.
-            # ------------------------------------------------
+             
             try:
                 article_response = (
                     self.session.get(
@@ -404,9 +404,9 @@ class CNNEntertainmentScraper:
                 "html.parser"
             )
             published_time = None
-            # ------------------------------------------------
+             
             # CNN JSON data
-            # ------------------------------------------------
+             
             script = article_soup.find(
                 "script",
                 string=lambda x:
@@ -424,9 +424,9 @@ class CNNEntertainmentScraper:
                             match.group(1)
                         )
                     )
-            # ------------------------------------------------
+             
             # JSON-LD fallback
-            # ------------------------------------------------
+             
             if not published_time:
                 scripts = (
                     article_soup.find_all(
@@ -500,9 +500,9 @@ class CNNEntertainmentScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # Title
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -512,9 +512,9 @@ class CNNEntertainmentScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # Content
-            # ------------------------------------------------
+             
             sections = soup.find_all(
                 "p",
                 class_=lambda value:
@@ -542,9 +542,9 @@ class CNNEntertainmentScraper:
                     f"No CNN content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Published date
-            # ------------------------------------------------
+             
             published_date = ""
             script = soup.find(
                 "script",
@@ -664,9 +664,9 @@ class BBCEntertainmentScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # PUBLICATION DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -678,9 +678,9 @@ class BBCEntertainmentScraper:
                 continue
             if not is_within_last_24_hours(published_time):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find("h1")
             title = ""
             if headline:
@@ -688,9 +688,9 @@ class BBCEntertainmentScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             if "videos" in link.lower():
                 # Video pages: use only the specified text container.
                 content_container = soup.find(
@@ -735,9 +735,9 @@ class BBCEntertainmentScraper:
                 })
             else:
                 print(f"No article content found: {link}")
-        # ------------------------------------------------
+         
         # SORT BY PUBLICATION DATE
-        # ------------------------------------------------
+         
         articles.sort(
             key=lambda x: x["date"],
             reverse=True

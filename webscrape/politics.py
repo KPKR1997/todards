@@ -198,9 +198,9 @@ class BBCPoliticsScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # PUBLICATION DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -212,9 +212,9 @@ class BBCPoliticsScraper:
                 continue
             if not is_within_last_24_hours(published_time):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find("h1")
             title = ""
             if headline:
@@ -222,9 +222,9 @@ class BBCPoliticsScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             if "videos" in link.lower():
                 # Video pages: use only the specified text container.
                 content_container = soup.find(
@@ -269,9 +269,9 @@ class BBCPoliticsScraper:
                 })
             else:
                 print(f"No article content found: {link}")
-        # ------------------------------------------------
+         
         # SORT BY PUBLICATION DATE
-        # ------------------------------------------------
+         
         articles.sort(
             key=lambda x: x["date"],
             reverse=True
@@ -360,9 +360,9 @@ class CNNPoliticsScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -397,9 +397,9 @@ class CNNPoliticsScraper:
                 published_time
             ):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -409,9 +409,9 @@ class CNNPoliticsScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             paragraphs = soup.find_all(
                 "p",
                 class_=lambda value:
@@ -532,9 +532,9 @@ class GuardianPoliticsScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -568,9 +568,9 @@ class GuardianPoliticsScraper:
                 published_time
             ):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -580,9 +580,9 @@ class GuardianPoliticsScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             article_body = soup.find(
                 "div",
                 {

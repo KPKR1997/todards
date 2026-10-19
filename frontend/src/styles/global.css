@@ -356,9 +356,9 @@ body {
 
 @media (max-width: 768px) {
 
-  /* -------------------------
+  /*   -
      Header
-     ------------------------- */
+       - */
 
   .site-header {
     padding: 0.85rem 1.1rem;
@@ -386,9 +386,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      Search + Issue + Date
-     ------------------------- */
+       - */
 
   .search-meta-row {
     flex-wrap: wrap;
@@ -414,9 +414,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      Main Content
-     ------------------------- */
+       - */
 
   .app-container {
     padding: 0.5rem 0.85rem 4rem;
@@ -429,9 +429,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      Footer
-     ------------------------- */
+       - */
 
   .site-footer {
     flex-direction: column;
@@ -451,9 +451,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      Floating JSON Button
-     ------------------------- */
+       - */
 
   .btn-json-editor {
     bottom: 1rem;
@@ -463,9 +463,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      About Page
-     ------------------------- */
+       - */
 
   .about-page-container {
     margin: 1.5rem auto 3rem;
@@ -505,9 +505,9 @@ body {
 
 @media (max-width: 480px) {
 
-  /* -------------------------
+  /*   -
      Header
-     ------------------------- */
+       - */
 
   .site-header {
     padding: 0.75rem 0.85rem;
@@ -523,9 +523,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      Search / Meta
-     ------------------------- */
+       - */
 
   .search-meta-row {
     padding: 0.8rem 0.85rem 0.4rem;
@@ -543,9 +543,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      Main Content
-     ------------------------- */
+       - */
 
   .app-container {
     padding: 0.4rem 0.65rem 3.5rem;
@@ -557,9 +557,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      Footer
-     ------------------------- */
+       - */
 
   .site-footer {
     padding: 1.25rem 0.85rem;
@@ -571,9 +571,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      Floating JSON Button
-     ------------------------- */
+       - */
 
   .btn-json-editor {
     bottom: 0.75rem;
@@ -583,9 +583,9 @@ body {
   }
 
 
-  /* -------------------------
+  /*   -
      About Page
-     ------------------------- */
+       - */
 
   .about-page-container {
     margin: 1rem auto 2.5rem;

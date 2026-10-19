@@ -141,15 +141,15 @@ def main():
         model=OLLAMA_MODEL,
         metrics_collector=metrics,
     )
-    # ------------------------------------------------------------
+    
     # 1. SCRAPE
-    # ------------------------------------------------------------
+    
     metrics.start_stage("scrape")
     data_paths = run_scrapers(metrics, progress, date_str)
     metrics.end_stage("scrape")
-    # ------------------------------------------------------------
+    
     # 2. CONTENT GUARDRAILS
-    # ------------------------------------------------------------
+    
     metrics.start_stage("guardrails")
     apply_guardrails(metrics, progress, data_paths, ollama_client)
     safety_guard = ArticleSafetyGuard(ollama_client)
@@ -161,9 +161,9 @@ def main():
         safety_guard.metrics,
     )
     metrics.end_stage("guardrails")
-    # ------------------------------------------------------------
+    
     # 3. DEDUPLICATION
-    # ------------------------------------------------------------
+    
     if not TODARDS_JSON_PATH.exists():
             logger.error(f"Todards JSON not found at {TODARDS_JSON_PATH}")
             return
@@ -172,22 +172,22 @@ def main():
     copy_data = copy.deepcopy(frontend_data)
     progress.update_stage("Deduplication: Semantic & Cross-Day", 35.0)
     metrics.start_stage("deduplication")
-    # try:
-        # deduplicator = ArticleDuplicateRemover(
-        #     data_root=Path("data"),
-        #     similarity_threshold=DEDUP_SIMILARITY_THRESHOLD,
-        #     cross_day_threshold=DEDUP_CROSS_DAY_THRESHOLD,
-        #     metrics_collector=metrics,
-        # )
-        # dedup_report = deduplicator.run(publication_data=copy_data)
-    #     logger.info(f"Deduplication complete: {dedup_report.get('duplicates_removed', 0)} duplicates removed.")
-    # except Exception as e:
-    #     logger.error(f"Deduplication failed: {e}")
-    # metrics.end_stage("deduplication")
-    # ------------------------------------------------------------
+    try:
+        deduplicator = ArticleDuplicateRemover(
+            data_root=Path("data"),
+            similarity_threshold=DEDUP_SIMILARITY_THRESHOLD,
+            cross_day_threshold=DEDUP_CROSS_DAY_THRESHOLD,
+            metrics_collector=metrics,
+        )
+        dedup_report = deduplicator.run(publication_data=copy_data)
+        logger.info(f"Deduplication complete: {dedup_report.get('duplicates_removed', 0)} duplicates removed.")
+    except Exception as e:
+        logger.error(f"Deduplication failed: {e}")
+    metrics.end_stage("deduplication")
+    
     # 4. CATEGORY CROSS-VALIDATION
-    # ------------------------------------------------------------
-        # pass
+    
+        
     progress.update_stage("Category Cross-Validation", 45.0)
     metrics.start_stage("category_validation")
     try:
@@ -201,9 +201,9 @@ def main():
     except Exception as e:
         logger.error(f"Category validation failed: {e}")
     metrics.end_stage("category_validation")
-    # ------------------------------------------------------------
+    
     # 5. RANKING
-    # ------------------------------------------------------------
+    
     progress.update_stage("Deterministic Scoring & Story Clustering", 58.0)
     metrics.start_stage("ranking")
     try:
@@ -222,9 +222,9 @@ def main():
         logger.error(f"News ranker failed: {e}")
         ranked_articles = []
     metrics.end_stage("ranking")
-    # ------------------------------------------------------------
+    
     # 6. STORY PROCESSING (RAG + Summarize + Place + Headlines + Images)
-    # ------------------------------------------------------------
+    
     progress.update_stage("Article Processing & Media Generation", 70.0)
     metrics.start_stage("processing")
     # Initialize shared components once
@@ -263,14 +263,14 @@ def main():
             except Exception as e:
                 logger.error(f"Processing failed for category {display_cat}: {e}")
     # combined_output = ImageSafetyGuard().run(combined_output)
-    # ------------------------------------------------------------
+    
     # 7. CROSS-ARTICLE IMAGE DEDUPLICATION PASS
-    # ------------------------------------------------------------
+    
     progress.update_stage("Final Media Verification & Image Dedup", 88.0)
     combined_output = ensure_unique_images(combined_output, shared_image_fetcher)
-    # ------------------------------------------------------------
+    
     # 8. RAG ARCHIVING
-    # ------------------------------------------------------------
+    
     if RAG_ENABLED and rag_archive:
         try:
             rag_archive.archive_published_articles(combined_output)
@@ -278,9 +278,9 @@ def main():
         except Exception as e:
             logger.warning(f"RAG archiving failed: {e}")
     metrics.end_stage("processing")
-    # ------------------------------------------------------------
+    
     # 9. ASSEMBLE TODARDS.JSON
-    # ------------------------------------------------------------
+    
     progress.update_stage("Assembling Publication Dataset", 95.0)
     metrics.start_stage("assembly")
     # Update publication metadata
@@ -326,9 +326,9 @@ def main():
             json.dump(copy_data, f, ensure_ascii=False, indent=2)
     logger.info(f"Saved {len(combined_output)} articles across {updated_sections_count} sections to {TODARDS_JSON_PATH}")
     metrics.end_stage("assembly")
-    # ------------------------------------------------------------
+    
     # 10. EVALUATION & METRICS REPORTING
-    # ------------------------------------------------------------
+    
     metrics.finish(
         final_articles_count=len(combined_output),
         final_categories_count=updated_sections_count,

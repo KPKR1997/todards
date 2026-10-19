@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 67",
+    "issue": "Issue No. 68",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Irish priest Fr Willie Doyle one step closer to sainthood",
-          "image": "https://images.pexels.com/photos/8817475/pexels-photo-8817475.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Mullingar, Ireland",
+          "title": "WFP Cuts Gaza Food Aid by Third Due to Funding Shortages",
+          "image": "https://images.unsplash.com/photo-1715829152062-c159b0836ffb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8UGFsZXN0aW5pYW4lMjByZWZ1Z2VlJTIwY2FtcHxlbnwxfDB8fHwxNzkyMzkzMjU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Gaza Strip",
           "time": "Oct 19, 2026",
-          "content": "A heroic Irish priest, Fr Willie Doyle, is one step closer to sainthood after being killed in World War I while helping injured soldiers. He served as a British Army chaplain, known for his courage under fire, and repeatedly risked his life to rescue wounded troops or comfort the dying. Fr Doyle's story is celebrated by the Catholic Church in Ireland, which is gathering documents to support his canonization. He died in 1917 while tending to two wounded Protestant soldiers, earning him the title 'ecumenical martyr of charity'. A campaign for his sainthood is led by the Fr Willie Doyle Association, with supporters highlighting his bravery and holiness.",
+          "content": "The World Food Programme (WFP) is forced to drastically reduce its food aid to the Gaza Strip due to funding shortages. This means that the number of people helped by the WFP will drop by about a third, from 1.6 million to 1.1 million. The cuts will hit as winter approaches and at a time when many families in Gaza are still struggling to feed themselves. The reduced aid will affect the daily hot meals provided by community kitchens, which will decrease from 250,000 to 150,000, and families living in hard-to-reach areas will receive a meal every other day instead of daily. The WFP's Palestine director, Shaun Hughes, emphasized that the cuts are due to finances, not a decrease in need. The agency urgently needs $450m to maintain critical operations over the next six months.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmg47rwddpxko"
+          "url": "https://www.bbc.com/news/articles/cm79plrvpl4vo"
         },
         {
           "id": "pp-2",
-          "title": "UK Home Secretary Meets EU Counterpart on Migration and Security",
-          "image": "https://images.unsplash.com/photo-1590084068846-5cd9faa51a36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VUslMjBob21lJTIwc2VjcmV0YXJ5fGVufDF8MHx8fDE3OTIzODYzODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "UK",
+          "title": "Austrian Airlines Flight Makes Emergency Landing in Bulgaria",
+          "image": "https://images.pexels.com/photos/18856658/pexels-photo-18856658.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Sofia, Bulgaria",
           "time": "Oct 19, 2026",
-          "content": "UK Home Secretary Shabana Mahmood is set to meet EU Home Affairs Commissioner Magnus Brunner for talks on Monday, focusing on issues like migration, border management, and counter-terrorism. The meeting comes amid increased engagement between London and Brussels, following Andy Burnham's announcement to use an upcoming EU-UK summit to discuss Britain's long-term relationship with the EU. The UK is seeking to rejoin several police and security databases it was locked out of after Brexit, including Eurodac, a new platform for asylum seekers' biometric data, and the Schengen Information System, which contains data on missing persons, stolen goods, and fugitives. The meeting also follows a 43% decline in small boat crossings across the Channel, as reported by Frontex data.",
+          "content": "Austrian Airlines flight from Israel to Austria was forced to make an emergency landing in Bulgaria after a reported bomb threat. The Airbus A320 plane, carrying 51 passengers and six crew members, took off from Tel Aviv and was heading to Vienna when it was diverted to Sofia. The flight was escorted by a Bulgarian MiG-29 fighter jet, and authorities conducted a security search of the plane after it landed. The incident comes after a pilot attempted to hijack a Flydubai flight to Tel Aviv last month. The investigation into the threat has begun, and no injuries have been reported.",
           "theme": "#F7ECEE",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/oct/18/shabana-mahmood-talks-eu-law-enforcement-cooperation-magnus-brunner"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c680zdmn100lo"
         },
         {
           "id": "pp-3",
-          "title": "Ukraine and Sudan Immigrants Get Temporary Reprieve",
-          "image": "https://images.unsplash.com/photo-1655722724447-2d2a3071e7f8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8VVMlMjBpbW1pZ3JhdGlvbnxlbnwxfDB8fHwxNzkyMzgxMzU5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
+          "title": "Man dies in Dublin assault; Gardaí appeal for witnesses",
+          "image": "https://images.unsplash.com/photo-1609238796154-9a9a4371a014?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8R2FyZGElMjBwb2xpY2UlMjBjYXJ8ZW58MXwwfHx8MTc5MjM5MzU3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Dublin, Ireland",
           "time": "Oct 19, 2026",
-          "content": "A temporary reprieve has been granted to immigrants from Ukraine and Sudan, allowing them to continue living and working in the United States without fear of deportation. Temporary Protected Status, or TPS, provides humanitarian relief to individuals fleeing war, natural disasters, or humanitarian crises. As of March 2025, over 100,000 Ukrainians and 1,790 Sudanese were enrolled in the program. The Department of Homeland Security has announced that these immigrants will retain their protections until further announcements are made, which are expected to be made at a later time. This decision comes as a temporary reprieve for individuals who had been facing the threat of detention and deportation.",
+          "content": "A man in his late 30s, named Jamie Bailey, died after a fatal assault in Dublin. He was found with serious injuries on a footpath in Blackhorse Place early Sunday morning and pronounced dead at the hospital. The area has been cordoned off for a forensic examination, and a post-mortem will determine the cause of death. Gardaí are appealing to anyone who was in the area between 2am and 3:30am to come forward. The investigation is being led from an incident room at the Bridewell Garda Station.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/18/politics/ukraine-sudan-temporary-protected-status"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/ck1l3ed21vz0o"
         }
       ]
     },
@@ -64,14 +64,14 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Warwick Study Reveals Unexpected Colors in White Dwarfs",
-          "image": "https://images.unsplash.com/photo-1701014159143-09482059f571?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8c3RlbGxhciUyMGF0bW9zcGhlcmV8ZW58MXwwfHx8MTc5MjM4MDQ1NXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "University of Warwick",
+          "title": "ChangXin Predicts Profitability in 2026, Driven by AI Demand Growth",
+          "image": "https://images.unsplash.com/photo-1739036868260-c26b292cd85d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QUklMjBjb21wdXRpbmclMjBwb3dlcnxlbnwxfDB8fHwxNzkyMzkzMDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "China",
           "time": "Oct 19, 2026",
-          "content": "A new study by University of Warwick astronomers reveals that white dwarfs, the dense remnants of Sun-like stars, can have unexpected colors, including green, pink, and purple. These colors are not determined solely by temperature, unlike most stars, but are influenced by the composition of the star's atmosphere. The researchers found that the unusual colors are caused by the presence of certain elements, such as calcium, lithium, and sodium, which absorb or scatter light in specific ways. One white dwarf, WD J1330+6435, appears chartreuse green due to the presence of sodium, while others may be yellow, pink, or purple. The study suggests that about one in thirty white dwarfs across the universe may have unusual coloring.",
+          "content": "a Chinese chipmaker, ChangXin Memory Technologies, expects to reverse a net loss and become profitable in the first nine months of 2026, with a predicted net profit of 131-132.5 billion yuan. The company's revenue is also expected to increase by 232.9-237.9 billion yuan, driven by growing demand for AI computing power. This growth has led to supply shortages and higher prices in the global DRAM market. ChangXin has been gaining ground in the global memory chip market, now accounting for 10% of global DRAM revenue, up from 5% a year earlier.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/something-out-of-science-fiction-astronomers-discover-a-star-that-glows-a-bizarre-shade-of-green/"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html"
         },
         {
           "id": "st-2",
@@ -236,25 +236,25 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "China's Economy Rebounds, Growing 4.5% Amid AI Boom",
-          "image": "https://images.pexels.com/photos/28635331/pexels-photo-28635331.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "China",
+          "title": "Anthropic to Donate 5% of Shares to Philanthropic Fund",
+          "image": "https://images.unsplash.com/photo-1562884328-39da45501a9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QW1lcmljYW4lMjBmbGFnfGVufDF8MHx8fDE3OTIzOTM3MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
           "time": "Oct 19, 2026",
-          "content": "China's economy rebounded in the third quarter, growing by 4.5% as the AI boom boosted exports. The growth is below the annual target of 4.5%-5% but still shows momentum. Exports, particularly high-tech goods, have offset weak domestic spending, but global trade tensions and uncertainty over AI investments cloud the outlook. The property market remains sluggish, with investment falling by over 20% in the first nine months, and consumer spending is weak due to trade uncertainties and geopolitical issues. Beijing has taken measures to support the economy, including lower interest rates and subsidies for property buyers, but faces pressure from Western economies over trade and concerns over AI investments.",
+          "content": "Artificial intelligence giant Anthropic has announced it will set aside 5% of its shares for a fund that will make donations for the",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm5yn098xz8lo"
+          "url": "https://www.bbc.com/news/articles/cm2kez327gdko"
         },
         {
           "id": "eb-2",
-          "title": "Tesla Unveils Electric Sports Car with Hover Capabilities",
-          "image": "https://images.unsplash.com/photo-1617788138017-80ad40651399?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8dGVzbGElMjByb2Fkc3RlcnxlbnwxfDB8fHwxNzkyMjIwODIxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Texas, USA",
-          "time": "Oct 17, 2026",
-          "content": "Tesla unveiled a new electric sports car that can hover and turn in mid-air, but it's unclear when flying cars will become a reality. Other news includes Meta's trial over claims its platforms are addictive, a ban on under-16s using social media, and the release of Nintendo's Switch 2. SpaceX's Starship rocket exploded during a test, and the US president is considering selling his Tesla car. A digital detox expert shares tips to help you stop looking at your phone.",
+          "title": "Criminals use AI to create fake UK retailers, warns National Trading Standards",
+          "image": "https://images.unsplash.com/photo-1740479049014-274a2c756317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c2NhbSUyMHdhcm5pbmd8ZW58MXwwfHx8MTc5MjM5MzkzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "UK",
+          "time": "Oct 19, 2026",
+          "content": "Beware of online scams, warns National Trading Standards, as criminals are using artificial intelligence (AI) to create fake websites and convincing fake products. These scams often claim to be family-owned UK retailers selling quality products, but the reality is that products either don't arrive or are cheap imports from countries like China. AI-generated images, voice cloning, and deepfake videos are all being used to trick people out of their money. Old tactics like spotting typos and grammatical errors are no longer reliable, as AI can now mimic legitimate-looking websites. To protect yourself, stop and think before paying or sharing personal information, and be wary of pressure or urgency. You can report fraud and scams to Report Fraud or by calling the Citizens Advice Consumer Helpline.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/videos/ckly4mj1g3n9o"
+          "url": "https://www.bbc.com/news/articles/c60rl1xvjv89o"
         },
         {
           "id": "eb-3",

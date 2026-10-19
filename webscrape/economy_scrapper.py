@@ -197,9 +197,9 @@ class BBCEconomyScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -213,9 +213,9 @@ class BBCEconomyScraper:
                 continue
             if not is_within_last_24_hours(published_time):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find("h1")
             title = ""
             if headline:
@@ -223,9 +223,9 @@ class BBCEconomyScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             if "videos" in link.lower():
                 # BBC video pages: scrape paragraphs only from
                 # the specified VideoDetailsPage text container.
@@ -266,9 +266,9 @@ class BBCEconomyScraper:
             if not content:
                 print(f"No BBC content found: {link}")
                 continue
-            # ------------------------------------------------
+             
             # SAVE ARTICLE
-            # ------------------------------------------------
+             
             articles.append({
                 "title": title,
                 "date": published_time.strftime(
@@ -361,9 +361,9 @@ class CNNEconomyScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -398,9 +398,9 @@ class CNNEconomyScraper:
                 published_time
             ):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -410,9 +410,9 @@ class CNNEconomyScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             paragraphs = soup.find_all(
                 "p",
                 class_=lambda value:
@@ -533,9 +533,9 @@ class GuardianEconomyScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -569,9 +569,9 @@ class GuardianEconomyScraper:
                 published_time
             ):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find(
                 "h1"
             )
@@ -581,9 +581,9 @@ class GuardianEconomyScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             article_body = soup.find(
                 "div",
                 {
@@ -674,7 +674,7 @@ class EconomicsDataScrapper:
         # CNN
         # ====================================================
         CNN = CNNEconomyScraper(
-            url="https://edition.cnn.com/",
+            url="https://edition.cnn.com/business",
             domain="https://edition.cnn.com"
         )
         CNN_links = (

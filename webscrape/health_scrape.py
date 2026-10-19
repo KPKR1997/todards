@@ -149,9 +149,9 @@ class BBCScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # PUBLICATION DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -163,9 +163,9 @@ class BBCScraper:
                 continue
             if not is_within_last_24_hours(published_time):
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find("h1")
             title = ""
             if headline:
@@ -173,9 +173,9 @@ class BBCScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             if "videos" in link.lower():
                 # Video pages: use only the specified text container.
                 content_container = soup.find(
@@ -220,9 +220,9 @@ class BBCScraper:
                 })
             else:
                 print(f"No article content found: {link}")
-        # ------------------------------------------------
+         
         # SORT BY PUBLICATION DATE
-        # ------------------------------------------------
+         
         articles.sort(
             key=lambda x: x["date"],
             reverse=True
@@ -281,9 +281,9 @@ class WHOScraper:
                     response.text,
                     "html.parser"
                 )
-                # ------------------------------------------------
+                 
                 # PUBLICATION DATETIME
-                # ------------------------------------------------
+                 
                 published_time = get_jsonld_datetime(
                     soup,
                     [
@@ -363,9 +363,9 @@ class WHOScraper:
                 article_content = (
                     matched_text.group(1).strip()
                 )
-            # ------------------------------------------------
+             
             # PUBLICATION DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -701,9 +701,9 @@ class SciTechDailyScraper:
             "html.parser"
         )
         links = []
-        # ----------------------------------------------------
+         
         # Current UTC time
-        # ----------------------------------------------------
+         
         now = datetime.now(
             timezone.utc
         )
@@ -782,9 +782,9 @@ class SciTechDailyScraper:
                     f"No article element found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Title
-            # ------------------------------------------------
+             
             headline = article.find(
                 "h1"
             )
@@ -794,9 +794,9 @@ class SciTechDailyScraper:
                     " ",
                     strip=True
                 )
-            # ------------------------------------------------
+             
             # Content
-            # ------------------------------------------------
+             
             content = " ".join(
                 p.get_text(
                     " ",
@@ -820,9 +820,9 @@ class SciTechDailyScraper:
                     f"No SciTechDaily content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # Published date
-            # ------------------------------------------------
+             
             published_date = ""
             time_tag = article.find(
                 "time",
@@ -941,9 +941,9 @@ class GuardianScraper:
                 response.text,
                 "html.parser"
             )
-            # ------------------------------------------------
+             
             # PUBLICATION DATETIME
-            # ------------------------------------------------
+             
             published_time = get_jsonld_datetime(
                 soup,
                 [
@@ -987,9 +987,9 @@ class GuardianScraper:
                 published_time
             ):
                 continue
-            # ------------------------------------------------
+             
             # CONTENT
-            # ------------------------------------------------
+             
             sections = soup.find_all(
                 "p",
                 class_=lambda value: (
@@ -1017,9 +1017,9 @@ class GuardianScraper:
                     f"No Guardian content found: {link}"
                 )
                 continue
-            # ------------------------------------------------
+             
             # TITLE
-            # ------------------------------------------------
+             
             headline = soup.find("h1")
             title = ""
             if headline:

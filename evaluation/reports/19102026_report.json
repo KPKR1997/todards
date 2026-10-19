@@ -1,186 +1,103 @@
 {
     "date": "19102026",
-    "timestamp": "2026-10-19T10:46:26.052693",
-    "duration_seconds": 3175.73,
+    "timestamp": "2026-10-19T12:42:21.603653",
+    "duration_seconds": 2553.04,
     "stages_duration_seconds": {
-        "scrape": 1031.88,
-        "guardrails": 99.5,
-        "deduplication": 0.0,
-        "category_validation": 158.25,
-        "ranking": 282.25,
-        "processing": 1603.78,
+        "scrape": 815.82,
+        "guardrails": 97.37,
+        "deduplication": 10.59,
+        "category_validation": 82.54,
+        "ranking": 129.49,
+        "processing": 1417.17,
         "assembly": 0.03
     },
     "volume": {
         "scraped_by_category": {
             "Health": 3,
-            "Tech": 13,
-            "People": 50,
-            "Environment": 2,
+            "Tech": 14,
+            "People": 43,
+            "Environment": 1,
             "Economy": 10,
-            "Entertainment": 6
+            "Entertainment": 5
         },
-        "total_scraped": 84,
-        "guardrail_passed": 84,
+        "total_scraped": 76,
+        "guardrail_passed": 76,
         "guardrail_rejected": 0,
-        "dedup_removed": 0,
+        "dedup_removed": 30,
         "category_reassignments": 0,
-        "final_articles": 7,
-        "final_categories": 5
+        "final_articles": 6,
+        "final_categories": 3
     },
     "guardrail_rejections": [],
     "article_safety": {
         "files_seen": 6,
-        "articles_seen": 84,
-        "classified_safe": 59,
-        "classified_unsafe": 25,
+        "articles_seen": 76,
+        "classified_safe": 64,
+        "classified_unsafe": 12,
         "unsafe_removed": 0,
-        "unsafe_would_remove": 25,
+        "unsafe_would_remove": 12,
         "unclassified": 0,
         "unclassified_retained": 0,
         "model_errors": 0,
         "file_errors": 0,
         "dry_run": true
     },
-    "deduplication": {},
+    "deduplication": {
+        "total_checked": 82,
+        "exact_duplicate_pairs": 20,
+        "semantic_duplicate_pairs": 31,
+        "duplicate_pairs_found": 51,
+        "duplicate_clusters": 16,
+        "duplicates_removed": 30,
+        "published_duplicates_removed": 8
+    },
     "category_validation": {
         "status": "completed",
-        "total_checked": 84,
-        "rejected_count": 17,
+        "total_checked": 38,
+        "rejected_count": 4,
         "rejected_articles": [
             {
                 "title": "'It was jaw-dropping': The shocking lessons from an infamous experiment in obedience",
                 "from": "science and technology",
                 "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on the Milgram study and its implications on human nature, obedience, and social psychology, which are all related to the 'people' category."
-            },
-            {
-                "title": "China's growth accelerates as AI export boom outweighs domestic weakness",
-                "from": "people",
-                "detected_category": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses China's economic growth, AI export boom, and trade surplus, which are all relevant to the 'economy and business' category."
-            },
-            {
-                "title": "Don't fall for this - how to protect yourself from AI scams",
-                "from": "people",
-                "detected_category": "health",
                 "confidence": 0.8,
-                "reason": "The article discusses AI-generated scams and their impact on consumers, which falls under the broader category of health as it affects individuals' financial well-being and potential mental health consequences."
-            },
-            {
-                "title": "Home sellers cut asking prices on 3,000 properties a day",
-                "from": "people",
-                "detected_category": "economy and business",
-                "confidence": 0.8,
-                "reason": "The article is primarily about the housing market and its implications on the economy, which is more relevant to the 'economy and business' category than the 'people' category, despite having some human interest stories."
-            },
-            {
-                "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
-                "from": "people",
-                "detected_category": "health",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses the opioid crisis, addiction, and overdose prevention, which are all directly related to the field of health."
-            },
-            {
-                "title": "China's growth accelerates as AI export boom outweighs domestic weakness",
-                "from": "people",
-                "detected_category": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article primarily focuses on China's economic growth and trade surplus, driven by AI exports, making it more relevant to the 'economy and business' category than 'people'."
-            },
-            {
-                "title": "Home sellers cut asking prices on 3,000 properties a day",
-                "from": "people",
-                "detected_category": "economy and business",
-                "confidence": 0.9,
-                "reason": "The article discusses the UK housing market and the impact of mortgage rates and asking prices on home sales, which is primarily an economic and business topic."
-            },
-            {
-                "title": "A wave of homemade, synthetic drugs sweeps US and deepens crisis",
-                "from": "people",
-                "detected_category": "health",
-                "confidence": 0.8,
-                "reason": "The article focuses on the opioid crisis, its impact on individuals, and the challenges of overcoming addiction, which are all relevant to the 'health' category."
-            },
-            {
-                "title": "Trump says suspension of Russia sanctions is to keep peace negotiations going",
-                "from": "economy and business",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses Trump's decision to suspend Russia sanctions, which is a political and diplomatic issue, rather than an economic or business one."
-            },
-            {
-                "title": "Oil facilities hit in deadly overnight attack on St Petersburg",
-                "from": "economy and business",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article primarily discusses international relations, diplomacy, and war efforts, which are more relevant to the 'people' category than 'economy and business' despite mentioning economic topics."
+                "reason": "The article primarily focuses on the psychological and sociological aspects of obedience, exploring the Milgram experiment and its implications, which makes it more relevant to the 'people' category than 'science and technology'."
             },
             {
                 "title": "People playing loud music on buses could face £100 fine",
                 "from": "economy and business",
                 "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article primarily discusses a government initiative to crack down on antisocial behavior on public transport, with a focus on passenger experience and safety, which is more relevant to the 'people' category than 'economy and business'."
+                "confidence": 1.0,
+                "reason": "The article is primarily about the government's attempt to crack down on antisocial behavior on public transport, which is a people-related issue."
             },
             {
                 "title": "‘You Can See Everything’ becomes one of the biggest documentary releases in decades",
                 "from": "economy and business",
                 "detected_category": "entertainment",
-                "confidence": 0.8,
-                "reason": "The article primarily focuses on the documentary film 'You Can See Everything' and its box office performance, rather than any economic or business-related aspects."
-            },
-            {
-                "title": "Cindy Crawford 'beyond heartbroken' after death of son Presley at 27",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 1.0,
-                "reason": "The article primarily focuses on the death of Cindy Crawford's son Presley Gerber, a news development that is relevant to the 'people' category."
+                "confidence": 0.9,
+                "reason": "The article is primarily about the box office performance of a documentary film, which is a topic typically classified under the 'entertainment' category."
             },
             {
                 "title": "BBC pauses civil service secondment scheme",
                 "from": "entertainment",
                 "detected_category": "people",
                 "confidence": 0.8,
-                "reason": "The article discusses the BBC's decision to pause a secondment scheme for government statisticians, which is more relevant to the 'people' category than 'entertainment'"
-            },
-            {
-                "title": "Funding for new 'Mackem' musical history project",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article focuses on a community-driven project and its impact on people's lives, which is more relevant to the 'people' category than the current 'entertainment' category, despite the musical context."
-            },
-            {
-                "title": "How The Beatles found their drummer at Butlin's",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.9,
-                "reason": "The article focuses on the career development and decision-making process of Ringo Starr, which is a key aspect of the 'people' category."
-            },
-            {
-                "title": "She started by peeling potatoes, now she is one of Britain's best-known online chefs",
-                "from": "entertainment",
-                "detected_category": "people",
-                "confidence": 0.8,
-                "reason": "The article is about a celebrity chef and her journey, which falls under the 'people' category, despite being related to food and cooking."
+                "reason": "The article discusses the BBC's decision to pause its secondment scheme, which raises questions about impartiality and the role of government statisticians in journalism, making it more relevant to the 'people' category than 'entertainment'."
             }
         ]
     },
     "llm_performance": {
-        "total_calls": 252,
+        "total_calls": 190,
         "total_failures": 0,
-        "total_time_seconds": 257.45,
-        "prompt_tokens": 309502,
-        "response_tokens": 6743,
-        "total_tokens": 316245,
-        "usage_responses": 252,
-        "prompt_eval_seconds": 67.139,
-        "generation_seconds": 155.431,
-        "load_seconds": 19.376,
-        "server_total_seconds": 255.232,
-        "avg_response_time": 1.02
+        "total_time_seconds": 179.72,
+        "prompt_tokens": 233808,
+        "response_tokens": 3970,
+        "total_tokens": 237778,
+        "usage_responses": 190,
+        "prompt_eval_seconds": 52.983,
+        "generation_seconds": 93.693,
+        "load_seconds": 19.465,
+        "server_total_seconds": 177.382,
+        "avg_response_time": 0.95
     }
 }

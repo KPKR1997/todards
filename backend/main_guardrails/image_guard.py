@@ -296,17 +296,17 @@ Do not provide an explanation.
             result = self.check_image(
                 str(image_path)
             )
-            # ----------------------------------------------------
+              
             # SAFE
-            # ----------------------------------------------------
+              
             if result is True:
                 total_safe += 1
                 safe_articles.append(
                     article
                 )
-            # ----------------------------------------------------
+              
             # UNSAFE
-            # ----------------------------------------------------
+              
             elif result is False:
                 total_rejected += 1
                 logger.warning(
@@ -315,9 +315,9 @@ Do not provide an explanation.
                 )
                 # Article is removed because its only available
                 # image failed the configured safety policy.
-            # ----------------------------------------------------
+              
             # ERROR
-            # ----------------------------------------------------
+              
             else:
                 total_errors += 1
                 logger.error(

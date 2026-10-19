@@ -330,18 +330,18 @@ class ImageFetcher:
         self.wikipedia = WikiImageFetcher()
         self.pexels = PexelImageFetcher()
         self.unsplash = UnsplashDownloader()
-        # ----------------------------------------------------
+          
         # IMAGE OUTPUT DIRECTORY
-        # ----------------------------------------------------
+          
         self.project_root = Path(__file__).resolve().parents[2]
         self.output_dir = self.project_root / "images"
         self.output_dir.mkdir(
             parents=True,
             exist_ok=True
         )
-        # ----------------------------------------------------
+          
         # IMAGE HISTORY
-        # ----------------------------------------------------
+          
         self.history_path = Path(
             history_path
         )
@@ -726,9 +726,9 @@ class ImageFetcher:
         # Search several result pages. This prevents the fetcher from
         # returning no image just because page 1 contains duplicates.
         max_pages = 5
-        # ----------------------------------------------------
+          
         # PEXELS
-        # ----------------------------------------------------
+          
         try:
             for page in range(1, max_pages + 1):
                 images = self.pexels.get_images(
@@ -746,9 +746,9 @@ class ImageFetcher:
                         return image
         except Exception as e:
             print(f"Pexels fallback failed: {e}")
-        # ----------------------------------------------------
+          
         # UNSPLASH
-        # ----------------------------------------------------
+          
         try:
             for page in range(1, max_pages + 1):
                 images = self.unsplash.get_images(
