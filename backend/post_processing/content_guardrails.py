@@ -86,11 +86,7 @@ If any criterion fails, provide clear flags (e.g. "nsfw_content", "gossip_rumor"
         self,
         articles: List[Dict[str, Any]],
     ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]]]:
-        """
-        Filter a list of articles.
-        Returns:
-            (passed_articles, rejected_articles_with_reasons)
-        """
+       
         if not self.enabled:
             return articles, []
         passed = []

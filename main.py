@@ -21,6 +21,7 @@ from config.settings import (
     CATEGORY_VALIDATION_ENABLED,
     RAG_ENABLED,
 )
+
 from backend.core.logger import setup_logger
 from backend.core.progress import PipelineProgressTracker
 from backend.core.ollama_client import OllamaClient
@@ -39,16 +40,19 @@ from backend.rag.archive import HistoricalArticleArchive
 from backend.rag.context_enricher import ContextEnricher
 from evaluation.metrics import PipelineMetrics
 from evaluation.reporter import PipelineReporter
-# Scrapers (Untouched)
+
+# Scrapers
 from webscrape.health_scrape import HealthDataScrapper
 from webscrape.tech_scrapper import TechDataScrapper
 from webscrape.politics import PoliticsDataScrapper
 from webscrape.environment_scrapper import EnvironmentDataScrapper
 from webscrape.economy_scrapper import EconomicsDataScrapper
 from webscrape.entertainment_scrapper import EntertainmentDataScrapper
+
 # Guardrails
 from backend.main_guardrails.article_guard import ArticleSafetyGuard
 from backend.main_guardrails.image_guard import ImageSafetyGuard
+
 from notifications.send_report_email import send_daily_report
 logger = setup_logger("todards")
 def run_scrapers(
@@ -56,16 +60,16 @@ def run_scrapers(
     progress: PipelineProgressTracker,
     date_str: str,
 ) -> Dict[str, str]:
-    """Execute all category scrapers with error isolation."""
     progress.update_stage("Web Scraping: Multi-source Ingestion", 10.0)
     data_paths = {}
+
     scrapers = [
-        ("Health", "health_data", HealthDataScrapper, "scrape_health_data")
-        # ("Tech", "tech_data", TechDataScrapper, "scrape_tech_data"),
-        # ("People", "people_data", PoliticsDataScrapper, "scrape_politics_data"),
-        # ("Environment", "environment_data", EnvironmentDataScrapper, "scrape_environment_data"),
-        # ("Economy", "economy_data", EconomicsDataScrapper, "scrape_economics_data"),
-        # ("Entertainment", "entertainment_data", EntertainmentDataScrapper, "scrape_entertainment_data"),
+        ("Health", "health_data", HealthDataScrapper, "scrape_health_data"),
+        ("Tech", "tech_data", TechDataScrapper, "scrape_tech_data"),
+        ("People", "people_data", PoliticsDataScrapper, "scrape_politics_data"),
+        ("Environment", "environment_data", EnvironmentDataScrapper, "scrape_environment_data"),
+        ("Economy", "economy_data", EconomicsDataScrapper, "scrape_economics_data"),
+        ("Entertainment", "entertainment_data", EntertainmentDataScrapper, "scrape_entertainment_data"),
     ]
     for idx, (display_name, folder_name, scraper_cls, method_name) in enumerate(scrapers, 1):
         progress.update_status(f"Scraping {display_name} ({idx}/{len(scrapers)})")
@@ -95,7 +99,6 @@ def apply_guardrails(
     data_paths: Dict[str, str],
     ollama_client: OllamaClient,
 ):
-    """Filter scraped files using content moderation guardrails."""
     if not GUARDRAIL_ENABLED:
         logger.info("Content guardrails disabled.")
         return
@@ -340,5 +343,7 @@ def main():
     print(f"\nEvaluation Report: {report_paths['markdown']}")
     email_result = send_daily_report()
     logger.info(email_result)
+
+    
 if __name__ == "__main__":
     main()

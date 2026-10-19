@@ -22,13 +22,7 @@ from config.settings import (
 )
 logger = logging.getLogger("todards.category_validator")
 class CategoryValidator:
-    """
-    Validates whether articles are genuinely relevant to the category
-    in which they were scraped.
-    This validator DOES NOT redistribute articles.
-    If an article is clearly unrelated to its current category, it is
-    removed from that category.
-    """
+    
     def __init__(
         self,
         data_root: Optional[Path] = None,
@@ -53,12 +47,7 @@ class CategoryValidator:
         content: str,
         current_category: str,
     ) -> CategoryValidationResponse:
-        """
-        Ask the LLM whether the article is genuinely relevant to the
-        category in which it currently exists.
-        The LLM may identify another category, but that information is
-        NOT used to move the article.
-        """
+
         categories_str = ", ".join(
             f"'{category}'" for category in CATEGORIES
         )
@@ -195,12 +184,7 @@ CURRENT CATEGORY: '{current_category}'
         self,
         date_str: Optional[str] = None,
     ) -> Dict[str, Any]:
-        """
-        Validate today's articles against their existing categories.
-        Articles that are clearly unrelated to their current category
-        are removed.
-        Articles are NEVER moved to another category.
-        """
+       
         if not self.enabled:
             logger.info("Category validation disabled.")
             return {
@@ -286,19 +270,6 @@ CURRENT CATEGORY: '{current_category}'
                 )
                 confidence = validation.confidence
                   
-                # DECISION
-                  
-                #
-                # IMPORTANT:
-                #
-                # We only reject when:
-                #
-                # 1. LLM thinks it belongs somewhere else
-                # 2. That decision has high confidence
-                #
-                # Otherwise KEEP.
-                #
-                # No redistribution.
                   
                 should_reject = (
                     assigned != expected_category.lower().strip()

@@ -362,9 +362,7 @@ class ImageFetcher:
         self.current_todards_image_hashes = set()
         self.current_todards_perceptual_hashes = set()
         self.refresh_current_todards_images()
-    # ========================================================
-    # IMAGE HISTORY
-    # ========================================================
+
     @staticmethod
     def normalize_image_url(image_url):
         return get_canonical_image_id(image_url)
@@ -378,11 +376,7 @@ class ImageFetcher:
             return ""
     @staticmethod
     def get_perceptual_hash(content):
-        """Create a simple 256-bit perceptual hash from image bytes.
-        The image is center-cropped to a square before hashing so that the
-        hash is less sensitive to the different aspect ratios returned by
-        Pexels, Unsplash and existing Todards images.
-        """
+ 
         if not content:
             return None
         try:
@@ -408,7 +402,6 @@ class ImageFetcher:
             return 10**9
         return (hash_a ^ hash_b).bit_count()
     def is_perceptual_duplicate(self, image_content, threshold=18):
-        """Check an image against perceptual hashes already in Todards/current run."""
         image_hash = self.get_perceptual_hash(image_content)
         if image_hash is None:
             return False
@@ -466,13 +459,7 @@ class ImageFetcher:
                 pass
         return None
     def refresh_current_todards_images(self):
-        """Load every image currently used by the frontend Todards JSON.
-        The important point is that todards.json normally stores the remote
-        image URL, not the local file created by ImageFetcher. Therefore we
-        also download those remote images and build perceptual hashes from
-        them. URL comparison alone is not enough when the same photograph is
-        available from another URL/provider.
-        """
+       
         self.current_todards_image_urls = set()
         self.current_todards_image_hashes = set()
         self.current_todards_perceptual_hashes = set()
@@ -557,7 +544,7 @@ class ImageFetcher:
                 f"Could not load image history: {e}"
             )
             return []
-    # ========================================================
+
     def save_image_history(self):
         try:
             with open(
@@ -575,7 +562,7 @@ class ImageFetcher:
             print(
                 f"Could not save image history: {e}"
             )
-    # ========================================================
+
     def cleanup_image_history(self):
         cutoff_date = (
             datetime.now().date()
@@ -604,7 +591,7 @@ class ImageFetcher:
             cleaned_history
         )
         self.save_image_history()
-    # ========================================================
+   
     def get_recent_used_urls(self):
         cutoff_date = (
             datetime.now().date()
@@ -636,7 +623,7 @@ class ImageFetcher:
                     image_url
                 )
         return used_urls
-    # ========================================================
+
     def register_used_image(self, image_url, article_id, image_content=None):
         if not image_url:
             return
@@ -713,9 +700,8 @@ class ImageFetcher:
                 output_file
             )
         }
-    # ========================================================
-    # FALLBACK IMAGE
-    # ========================================================
+    
+    
     def get_fallback_image(
         self,
         keyword
@@ -723,8 +709,7 @@ class ImageFetcher:
         print(
             "  → Searching fallback image..."
         )
-        # Search several result pages. This prevents the fetcher from
-        # returning no image just because page 1 contains duplicates.
+   
         max_pages = 5
           
         # PEXELS
@@ -792,7 +777,6 @@ class ImageFetcher:
             )
         image_counter = 1
         def get_unique_pexels(keyword, target_count):
-            """Search multiple Pexels pages until target_count unique images."""
             unique = []
             max_pages = 5
             per_page = max(target_count, 5)
@@ -823,7 +807,6 @@ class ImageFetcher:
                         return unique
             return unique
         def get_unique_unsplash(keyword, target_count):
-            """Search multiple Unsplash pages until target_count unique images."""
             unique = []
             max_pages = 5
             per_page = max(target_count, 5)
@@ -857,16 +840,12 @@ class ImageFetcher:
             keyword = item["keyword"]
             keyword_type = item["type"]
             print(f"\nProcessing: {keyword}")
-            # =================================================
-            # PERSON
-            # =================================================
             if keyword_type == "PERSON":
                 print("  → Wikipedia")
                 wiki_image = self.wikipedia.get_image(
                     person_name=keyword
                 )
                 # If Wikipedia has no image OR its image is already used,
-                # immediately search Pexels/Unsplash instead.
                 if (
                     wiki_image
                     and not self.is_image_used_recently(
@@ -902,9 +881,6 @@ class ImageFetcher:
                         print(
                             f"  No unused image found for {keyword}"
                         )
-            # =================================================
-            # OTHER
-            # =================================================
             else:
                 print("  → Pexels + Unsplash")
                 # Search additional pages if page 1 contains duplicates.

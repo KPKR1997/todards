@@ -83,9 +83,7 @@ class CNBCEntertainmentScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -210,9 +208,7 @@ class CNBCEntertainmentScraper:
                     full_url
                 )
         return links
-    # ========================================================
-    # SCRAPE CONTENT
-    # ========================================================
+    
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -351,9 +347,7 @@ class CNNEntertainmentScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -386,7 +380,7 @@ class CNNEntertainmentScraper:
                 href
             )
              
-            # CNN publication date must be checked from
+     
             # article page.
              
             try:
@@ -425,8 +419,7 @@ class CNNEntertainmentScraper:
                         )
                     )
              
-            # JSON-LD fallback
-             
+        
             if not published_time:
                 scripts = (
                     article_soup.find_all(
@@ -478,9 +471,7 @@ class CNNEntertainmentScraper:
                     full_url
                 )
         return links
-    # ========================================================
-    # SCRAPE CONTENT
-    # ========================================================
+
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -867,16 +858,16 @@ class EntertainmentDataScrapper:
             self.output_dir,
             exist_ok=True
         )
-    # ========================================================
+   
     # MAIN SCRAPE
-    # ========================================================
+   
     def scrape_entertainment_data(self):
         entertainment_data = []
-        # ====================================================
+        # 
         # CNBC
-        # ====================================================
+        # 
         # print(
-        #     "\n========== CNBC ==========\n"
+        #     "\n CNBC \n"
         # )
         # CNBCEntertainment = CNBCEntertainmentScraper(
         #     url=(
@@ -911,9 +902,10 @@ class EntertainmentDataScrapper:
         #         "content": article["content"],
         #         "url": article["url"]
         #     })
-        # ====================================================
+
+        # 
         # CNN
-        # ====================================================
+        # 
         CNNEntertainment = CNNEntertainmentScraper(
             url="https://edition.cnn.com/entertainment",
             domain="https://edition.cnn.com"
@@ -942,9 +934,9 @@ class EntertainmentDataScrapper:
                 "url": article["url"]
             })
 
-        # ====================================================
+        
         # CNN
-        # ====================================================
+        
         CNNEntertainment = CNNEntertainmentScraper(
             url="https://edition.cnn.com/sport",
             domain="https://edition.cnn.com"
@@ -1065,9 +1057,9 @@ class EntertainmentDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
+       
         # ACADEMY AWARDS / OSCARS PRESS RELEASES
-        # ====================================================
+        
         try:
             AcademyAwards = AcademyAwardsEntertainmentScraper(
                 url="https://press.oscars.org/tag/press-release",
@@ -1090,9 +1082,9 @@ class EntertainmentDataScrapper:
             # A failure in this additional source must not prevent other
             # entertainment sources from being saved.
             print(f"Academy Awards scraper failed: {exc}")
-        # ====================================================
+       
         # SAVE JSON
-        # ====================================================
+      
         file_name = (
             datetime.now().strftime(
                 "%d%m%Y"

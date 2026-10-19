@@ -320,9 +320,9 @@ class HealthDataScrapper:
         os.makedirs(self.output_dir, exist_ok=True)
     def scrape_health_data(self):
         health_data = []
-        # =====================================
+        #    =======
         # BBC
-        # =====================================
+        #    =======
         BBCHealth = BBCScraper(
             url="https://www.bbc.com/news/health",
             domain="https://www.bbc.com",
@@ -340,9 +340,9 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # =====================================
+        #    =======
         # WHO
-        # =====================================
+        #    =======
         WHOHealth = WHOScraper(
             url="https://www.who.int/news-room",
             domain="https://www.who.int",
@@ -361,9 +361,9 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # =====================================
+        #    =======
         # CNN
-        # =====================================
+        #    =======
         CNNHealth = CNNScraper(
             url="https://edition.cnn.com/health",
             domain="https://edition.cnn.com"
@@ -394,9 +394,9 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # =====================================
+        #    =======
         # SAVE
-        # =====================================
+        #    =======
         file_name = datetime.now().strftime("%d%m%Y") + "_health_data.json"
         with open(os.path.join(self.output_dir, file_name), "w", encoding="utf-8") as f:
             json.dump(health_data, f, ensure_ascii=False, indent=4)

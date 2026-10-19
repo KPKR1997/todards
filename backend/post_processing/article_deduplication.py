@@ -224,7 +224,6 @@ class ArticleDuplicateRemover:
             for record in self.records
         ]
         logger.info(
-            "Computing article embeddings with title + content..."
         )
         self.embeddings = self.model.encode(
             texts,

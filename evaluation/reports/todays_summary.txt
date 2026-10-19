@@ -1,17 +1,17 @@
 TODARDS LLM PIPELINE EVALUATION — 19102026
-Execution timestamp: 2026-10-19T14:56:29.914838
-Pipeline duration: 8.8 minutes
+Execution timestamp: 2026-10-19T16:41:27.690547
+Pipeline duration: 88.5 minutes
 
 Here is the evaluation:
 
-**Overall Run Health:** The pipeline duration is 8.8 minutes, which is a significant decrease (-81.7%) compared to the previous recorded run. This suggests a potential issue with the pipeline's performance.
+**Overall Run Health:** The pipeline duration is significantly longer than previous recorded runs (+906.9%), which may indicate a potential issue. However, the scraped article volume has increased, and semantic deduplication removed a notable number of duplicates (32.5% of scraped volume).
 
-**Scrape Volume:** The scraped article volume is 4, which is a significant decrease (76 to 4) compared to the previous recorded run. This may indicate a problem with the scraping process.
+**Scrape Volume:** The scraped article volume has increased from 4 to 83, which may be a positive trend.
 
-**Semantic Deduplication:** The deduplication process removed 0 duplicate articles from 4 scraped articles, which is a low percentage (0.0%) of the scraped volume. This may indicate that the deduplication process is not effective.
+**Semantic Deduplication:** The deduplication process removed 27 duplicate articles, which is a significant improvement over previous runs.
 
-**Source/Category Ingestion Anomalies:** There are no anomalies reported in the evidence-based observations.
+**Source/Category Ingestion Anomalies:** No anomalies are reported in the evidence-based observations.
 
-**LLM Performance:** The LLM performance metrics are generally healthy, with no failures reported and an average response time of 2.77 seconds.
+**LLM Performance:** The LLM performance metrics are generally healthy, with no failures reported and an average response time of 0.99 seconds.
 
-**Next Practical Check:** Investigate the cause of the significant decrease in pipeline duration and scraped article volume. Additionally, review the deduplication process to determine why it is not effectively removing duplicate articles.
+**Next Practical Check:** Investigate the cause of the significant increase in pipeline duration and potential issues with the pipeline's performance. Additionally, review the scraped article volume and semantic deduplication results to ensure they align with expected trends.

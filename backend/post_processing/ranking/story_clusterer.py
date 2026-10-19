@@ -2,14 +2,6 @@ import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 class StoryClusterer:
-    """
-    Groups semantically similar articles into story clusters.
-    Example:
-        BBC    -> Earthquake in Japan
-        CNN    -> Japan earthquake kills hundreds
-        Guardian -> Powerful earthquake strikes Japan
-    These become one story cluster.
-    """
     def __init__(
         self,
         model_name="sentence-transformers/all-MiniLM-L6-v2",

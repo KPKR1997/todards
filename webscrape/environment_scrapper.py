@@ -83,9 +83,7 @@ class DownToEarthEnvironmentScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -204,9 +202,7 @@ class DownToEarthEnvironmentScraper:
                     f"{full_url}"
                 )
         return links
-    # ========================================================
-    # SCRAPE ARTICLE CONTENT
-    # ========================================================
+
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -332,9 +328,7 @@ class SciTechDailyScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -403,9 +397,7 @@ class SciTechDailyScraper:
                     full_url
                 )
         return links
-    # ========================================================
-    # SCRAPE CONTENT
-    # ========================================================
+
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -514,16 +506,16 @@ class EnvironmentDataScrapper:
             self.output_dir,
             exist_ok=True
         )
-    # ========================================================
+   
     # MAIN SCRAPE
-    # ========================================================
+
     def scrape_environment_data(self):
         environment_data = []
-        # ====================================================
+       
         # DOWN TO EARTH
-        # ====================================================
+    
         print(
-            "\n========== DOWN TO EARTH ==========\n"
+            "\n DOWN TO EARTH \n"
         )
         down_to_earth = (
             DownToEarthEnvironmentScraper(
@@ -593,9 +585,9 @@ class EnvironmentDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
+        # ==
         # SAVE JSON
-        # ====================================================
+        # ==
         file_name = (
             datetime.now().strftime("%d%m%Y")
             + "_environment_data.json"

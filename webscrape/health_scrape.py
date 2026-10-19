@@ -62,9 +62,6 @@ def is_within_last_24_hours(published_time):
     now, cutoff = get_24_hour_window()
     return cutoff <= published_time <= now
 def get_jsonld_datetime(soup, keys):
-    """
-    Find publication/modification datetime from JSON-LD.
-    """
     scripts = soup.find_all(
         "script",
         type="application/ld+json"
@@ -438,7 +435,6 @@ class CNNScraper:
         self.timeout = (5, 10)
 
     def _is_health_article_url(self, url):
-        """Accept dated CNN health article URLs only."""
         try:
             from urllib.parse import urlsplit
 
@@ -489,7 +485,6 @@ class CNNScraper:
         ))
 
     def get_section_links(self):
-        """Collect only dated health article URLs."""
         try:
             response = self.session.get(
                 self.url,
@@ -530,9 +525,6 @@ class CNNScraper:
         return links
 
     def scrape_content(self, links):
-        """Fetch candidate articles and retain those published
-        or modified within the last 24 hours.
-        """
         articles = []
         seen = set()
 
@@ -681,9 +673,7 @@ class SciTechDailyScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+   
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -752,9 +742,7 @@ class SciTechDailyScraper:
                     full_url
                 )
         return links
-    # ========================================================
-    # SCRAPE CONTENT
-    # ========================================================
+
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -1051,9 +1039,9 @@ class HealthDataScrapper:
         )
     def scrape_health_data(self):
         health_data = []
-        # =====================================
+        #    =======
         # BBC
-        # =====================================
+        #    =======
         BBCHealth = BBCScraper(
             url="https://www.bbc.com/news/health",
             domain="https://www.bbc.com",
@@ -1082,9 +1070,7 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # =====================================
-        # WHO
-        # =====================================
+
         WHOHealth = WHOScraper(
             url="https://www.who.int/news-room",
             domain="https://www.who.int",
@@ -1118,9 +1104,7 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # =====================================
-        # CNN
-        # =====================================
+
         CNNHealth = CNNScraper(
             url="https://edition.cnn.com/health",
             domain="https://edition.cnn.com"
@@ -1146,9 +1130,7 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # =====================================
-        # GUARDIAN
-        # =====================================
+  
         GuardianHealth = GuardianScraper(
             url=(
                 "https://www.theguardian.com/"
@@ -1214,9 +1196,7 @@ class HealthDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # =====================================
-        # SAVE
-        # =====================================
+
         file_name = (
             datetime.now().strftime("%d%m%Y")
             + "_health_data.json"

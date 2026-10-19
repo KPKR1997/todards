@@ -83,9 +83,7 @@ class CNBCTechScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -210,9 +208,7 @@ class CNBCTechScraper:
                     full_url
                 )
         return links
-    # ========================================================
-    # SCRAPE CONTENT
-    # ========================================================
+
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -351,9 +347,7 @@ class NASATechScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -474,9 +468,7 @@ class NASATechScraper:
                     full_url
                 )
         return links
-    # ========================================================
-    # SCRAPE CONTENT
-    # ========================================================
+
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -609,9 +601,7 @@ class SciTechDailyScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -680,9 +670,7 @@ class SciTechDailyScraper:
                     full_url
                 )
         return links
-    # ========================================================
-    # SCRAPE CONTENT
-    # ========================================================
+
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -802,9 +790,7 @@ class CNNTechScraper:
         self.session.headers.update(
             self.headers
         )
-    # ========================================================
-    # GET ARTICLE LINKS
-    # ========================================================
+
     def get_section_links(self):
         try:
             response = self.session.get(
@@ -929,9 +915,7 @@ class CNNTechScraper:
                     full_url
                 )
         return links
-    # ========================================================
-    # SCRAPE CONTENT
-    # ========================================================
+
     def scrape_content(self, links):
         articles = []
         for link in links:
@@ -1031,9 +1015,7 @@ class CNNTechScraper:
 # BBC HEALTH SCRAPER
  
 def get_jsonld_datetime(soup, keys):
-    """
-    Find publication/modification datetime from JSON-LD.
-    """
+
     scripts = soup.find_all(
         "script",
         type="application/ld+json"
@@ -1177,16 +1159,14 @@ class TechDataScrapper:
             self.output_dir,
             exist_ok=True
         )
-    # ========================================================
+    
     # MAIN SCRAPE
-    # ========================================================
+    
     def scrape_tech_data(self):
         tech_data = []
-        # ====================================================
-        # CNBC
-        # ====================================================
+    
         print(
-            "\n========== CNBC ==========\n"
+            "\n  CNBC  \n"
         )
         CNBCTech = CNBCTechScraper(
             url=(
@@ -1220,11 +1200,9 @@ class TechDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
-        # NASA
-        # ====================================================
+    
         print(
-            "\n========== NASA ==========\n"
+            "\n  NASA  \n"
         )
         NASATech = NASATechScraper(
             url=(
@@ -1258,11 +1236,11 @@ class TechDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
+        
         # SCI TECH DAILY
-        # ====================================================
+        
         print(
-            "\n========== SCI TECH DAILY ==========\n"
+            "\n  SCI TECH DAILY  \n"
         )
         SciTech = SciTechDailyScraper(
             url=(
@@ -1461,9 +1439,9 @@ class TechDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
+        
         # CNN
-        # ====================================================
+        
         CNNTech = CNNTechScraper(
             url="https://edition.cnn.com/science",
             domain="https://edition.cnn.com"
@@ -1519,9 +1497,9 @@ class TechDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
+        
         # SAVE JSON
-        # ====================================================
+        
         file_name = (
             datetime.now().strftime(
                 "%d%m%Y"

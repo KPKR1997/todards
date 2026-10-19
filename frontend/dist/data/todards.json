@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 70",
+    "issue": "Issue No. 71",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "US Allows Ukrainians and Sudanese to Stay, Temporary Deportation Protections Extended",
-          "image": "https://images.pexels.com/photos/39356211/pexels-photo-39356211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "United States",
+          "title": "Justice Jackson's approach isolates her from colleagues on Supreme Court",
+          "image": "https://images.pexels.com/photos/34850171/pexels-photo-34850171.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
           "time": "Oct 19, 2026",
-          "content": "The US Department of Homeland Security has announced that immigrants from Ukraine and Sudan will be allowed to continue living and working in the country without fear of deportation, for now, as their temporary deportation protections were set to expire this week. Over 100,000 Ukrainians and nearly 1,800 Sudanese nationals are currently enrolled in the Temporary Protected Status (TPS) program, which provides humanitarian relief to people fleeing war, natural disasters, or humanitarian crises. Although the Trump administration had previously terminated TPS for multiple countries, including El Salvador earlier this year, the current protections for Ukraine and Sudan will remain in place until further announcements are made. This decision comes after the US Supreme Court allowed the Trump administration to end TPS for Haitians and Syrians in June. Meanwhile, immigrants who have lost TPS status in the past have faced uncertainty and fear of detention and deportation.",
+          "content": "Justice Ketanji Brown Jackson has been a highly visible figure on the book circuit and has taken an approach that has isolated her from her colleagues on the Supreme Court. She has bucked internal court norms and has produced a palpable chill from colleagues used to more solicitude during oral-arguments. Jackson has challenged the integrity of conservative justices and has made bold assertions about the court majority's approach. She has also reframed how justices might look to the past to interpret the Constitution, emphasizing the role of Black Americans in the history of the Constitution's Reconstruction-era amendments. Some critics view her approach as alienating and counterproductive, but Jackson says she is moving intentionally, speaking to an audience beyond the bench, and stressing what she sees as threats to democracy. Her approach has changed the dynamic of the court, and she has drawn attention to the role of marginalized communities in the Constitution's history.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/18/politics/ukraine-sudan-temporary-protected-status"
+          "url": "https://edition.cnn.com/2026/10/19/politics/ketanji-brown-jackson-tenure-supreme-court"
         },
         {
           "id": "pp-2",
-          "title": "Tiger Shroff survives shooting in Mumbai, two injured in investigation",
-          "image": "https://images.pexels.com/photos/38576035/pexels-photo-38576035.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Mumbai, India",
+          "title": "Latino voters shift away from Trump, favor Democrats in midterms",
+          "image": "https://images.unsplash.com/photo-1730992907035-65ec4eaea035?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VHJ1bXAlMjdzJTIwaW1taWdyYXRpb24lMjBwb2xpY3l8ZW58MXwwfHx8MTc5MjQwNjkwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Miami, Florida",
           "time": "Oct 19, 2026",
-          "content": "Tiger Shroff, a popular Bollywood actor, was shot at while leaving a football ground in Mumbai, but he survived without sustaining any gunshot wounds. Two people, including his driver, were injured in the attack, which has sent shockwaves through the film industry. The police are investigating and have detained three men in connection with the incident. The attack has raised concerns about Shroff's safety, and celebrities and political figures have spoken out against it. The motive behind the attack is still unclear, but some reports suggest that the Lawrence Bishnoi gang may be involved. The incident has also raised questions about the security of film industry workers and their families.",
+          "content": "Mayumi Castro Fernandez, a Cuban American aircraft worker, has switched from supporting Donald Trump to canvassing for a Democrat in a Miami neighborhood, citing economic frustrations and dissatisfaction with the Trump administration. This shift in opinion reflects a broader trend among Latino voters, who traditionally lean Democratic but swung heavily towards Trump in the 2024 election. According to an NBC News/Telemundo poll, 59% of Latino voters prefer the Democrats to win control of Congress, while only 27% approve of Trump's job performance. This shift in the Latino vote could be a key factor in determining the outcome of the midterm elections, with the party potentially gaining control of Congress and flipping several House seats.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6jdmy872r7vo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/19/politics/latino-voters-shift-republicans-midterm-elections"
         },
         {
           "id": "pp-3",
-          "title": "Australian Greens Senator Denies Inappropriate Behavior Allegations",
-          "image": "https://images.unsplash.com/photo-1593510987185-1ec2256148a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cGFydHklMjBpbnZlc3RpZ2F0aW9ufGVufDF8MHx8fDE3OTIzOTkxNDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Western Australia",
+          "title": "Private companies profit from taxpayer-funded housing",
+          "image": "https://images.unsplash.com/photo-1585354745459-79a5f21f0d6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTQwU3VwcG9ydGVkJTIwZXhlbXB0JTIwYWNjb21tb2RhdGlvbnxlbnwxfDB8fHwxNzkyNDA3MTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Birmingham, UK",
           "time": "Oct 19, 2026",
-          "content": "Australian Greens Senator Jordon Steele-John has denied allegations of inappropriate behavior towards women, which were brought forward by seven current and former party members. The allegations date back to 2017 and 2025, with the senator claiming they were initially referred to as a nickname, but have since taken on a 'more sinister meaning.' Steele-John also accused party leader David Shoebridge of mishandling the situation and questioned the timing of the letter. An internal party investigation has been launched, and the allegations have been referred to the Independent Parliamentary Standards Commission. In a statement, Steele-John acknowledged the allegations would have damaged the public's trust in him, but expressed his commitment to rebuilding that trust through transparency and accountability.",
+          "content": "Private companies are making huge profits by receiving housing benefits for vulnerable people, including those with additional needs, but failing to provide required support. These companies are exploiting the system, using social media to lure people into taxpayer-funded housing with promises of free rooms and other perks. The system, called supported exempt accommodation (SEA), is designed to provide housing and care, but charities, politicians, and residents report that many parts of the system are being exploited, with most welfare payments being made to non-profit registered providers who then hire private companies to manage properties. In Birmingham alone, the Department for Work and Pensions paid out £410m in the last financial year, and critics say that some housing providers are making a profit while providing poor support.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmpdgj8z8v2do"
+          "url": "https://www.bbc.com/news/articles/cm62y80yxw9vo"
         }
       ]
     },
@@ -64,14 +64,14 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Milky Way ideal for life, study of galaxy simulations shows",
-          "image": "https://images.pexels.com/photos/17954395/pexels-photo-17954395.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Milky Way",
+          "title": "Scientists Predict Energy Loss in Quantum Crystals",
+          "image": "https://images.unsplash.com/photo-1690683789766-93253a3422c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cXVhbnR1bSUyMHNlbnNvcnN8ZW58MXwwfHx8MTc5MjQwNjAyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Chicago, USA",
           "time": "Oct 19, 2026",
-          "content": "Researchers have analyzed galaxy simulations to identify the most habitable places in the universe, finding that the Milky Way offers some of the best conditions for life. The team discovered that the Sun's location in the galaxy is ideal, and that the Milky Way's habitable zone is characterized by a balance of factors that make it suitable for life. They also found that other galaxies, particularly smaller and more crowded ones, are less likely to be habitable due to various dangers such as explosions, collisions, and black holes. The study suggests that the Milky Way is typical of the galaxies that have been efficient in creating life-friendly environments, and that it is likely to remain a haven for life in the universe.",
+          "content": "Scientists have developed a computational framework that can accurately predict how tiny flaws in crystals, called spin defects, lose energy. These imperfections could be used to create quantum sensors and qubits for quantum technologies, with potential applications in quantum sensing. The framework, developed by researchers at the University of Chicago Pritzker School of Molecular Engineering, captures the full optical cycle of spin defects, including internal conversion, a process that was previously harder to predict. The study, published in Physical Review Letters, shows how accounting for internal conversion can resolve a long-standing mismatch between predictions and experiments. The team's calculations brought the predictions into agreement with experiments, potentially informing efforts to develop spin defects as qubits. The framework is already incorporated into an open-source simulation code, making it available for other laboratories to use.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-simulated-the-universe-and-discovered-the-milky-way-may-be-one-of-the-best-places-for-life/"
+          "url": "https://scitechdaily.com/scientists-solve-a-quantum-mystery-hidden-inside-crystals/"
         },
         {
           "id": "st-2",
@@ -139,14 +139,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "India Criticized for Poor Health Integration in Climate Plan",
-          "image": "https://images.unsplash.com/photo-1554418651-70309daf95f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Y2xpbWF0ZSUyMHNjb3JlY2FyZHxlbnwxfDB8fHwxNzkyMzg2NzM1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "India",
+          "title": "Antarctic ice cliffs stabilizing, challenging climate projections",
+          "image": "https://images.unsplash.com/photo-1783886546586-40f40baf2331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TWFyaW5lJTIwaWNlJTIwY2xpZmYlMjBpbnN0YWJpbGl0eXxlbnwxfDB8fHwxNzkyNDA3MjkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Antarctica",
           "time": "Oct 19, 2026",
-          "content": "India has been criticized for its poor performance in integrating health into its national climate change action plan, according to a new report by the Global Climate and Health Alliance. The report, called the",
+          "content": "A recent study using satellite data from NASA's Ice, Cloud, and Land Elevation Satellite-2 (ICESat-2) has found that Antarctic ice cliffs, previously thought to be unstable and prone to rapid collapse, are actually stabilizing over time. The four-year survey of over 15,000 ice cliffs found that the tallest cliffs did collapse, but the ice sheet retreated faster than predicted and then stabilized. The researchers analyzed the data and found that factors such as the shape of the land beneath the ice, the thickness of the ice, and the surrounding water level all play a role in stabilizing the cliffs. This challenges previous assumptions about runaway ice loss and its contribution to rising sea levels. The study's findings suggest that the impact of climate change on sea levels may be less severe than previously thought.",
           "theme": "#E7F4EF",
-          "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/indias-climate-action-plan-fails-to-prioritise-health-global-scorecard-finds"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/something-unexpected-is-happening-to-antarcticas-collapsing-ice-cliffs/"
         },
         {
           "id": "env-2",
@@ -182,14 +182,14 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Sunderland Music City gets £156,166 grant for heritage project",
-          "image": "https://images.unsplash.com/photo-1658926942507-e7bfbd47fd4c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8U3VuZGVybGFuZHxlbnwxfDB8fHwxNzkyMzgxODYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Sunderland, UK",
+          "title": "Harryhausen's Monster Figures on Display in Winchester",
+          "image": "https://images.pexels.com/photos/17800214/pexels-photo-17800214.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Winchester, Hampshire",
           "time": "Oct 19, 2026",
-          "content": "A major heritage project, Sunderland Music City's Mackem Music Memories, has been awarded £156,166 by the National Lottery Heritage Fund to preserve the city's musical history. The project aims to collect over 300 memories of Sunderland's music scene from residents past and present through questionnaires, research, and interviews. The memories will be displayed in an exhibition at the Culture House Sunderland in summer 2027, along with community activities and live events. The project will also work with diverse communities, including South Asian, Filipino, Nigerian, and Eastern European groups, and international students. The goal is to capture these stories before they disappear and make them part of Sunderland's permanent heritage.",
+          "content": "An exhibition showcasing the original monster figures and artwork of special effects pioneer Ray Harryhausen is now on display at The Arc in Winchester, Hampshire. The exhibit features models from Harryhausen's classic films, including Jason and the Argonauts, The Golden Voyage of Sinbad, One Million Years B.C., and Clash of the Titans. Harryhausen's daughter, Vanessa, remembers her childhood home being filled with the models, which her father used to create stop-motion animations. The exhibit also highlights Harryhausen's painstaking process of creating dynamic sequences by moving each model a fraction at a time. The collection is in remarkable condition, thanks to instructions left by Harryhausen, and is expected to inspire new generations to appreciate his work.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cwkg53dkrl84o"
+          "url": "https://www.bbc.com/news/articles/ckqxn4xnnp1zo"
         },
         {
           "id": "ent-2",
@@ -225,36 +225,36 @@
       "cards": [
         {
           "id": "eb-1",
-          "title": "Anthropic to Donate 5% of Shares to Philanthropic Fund",
-          "image": "https://images.unsplash.com/photo-1562884328-39da45501a9c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QW1lcmljYW4lMjBmbGFnfGVufDF8MHx8fDE3OTIzOTM3MzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
+          "title": "One killed, five injured in overnight attack on St Petersburg",
+          "image": "https://images.pexels.com/photos/33844936/pexels-photo-33844936.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "St Petersburg, Russia",
           "time": "Oct 19, 2026",
-          "content": "Artificial intelligence giant Anthropic has announced it will set aside 5% of its shares for a fund that will make donations for the",
+          "content": "At least one person was killed and five others injured in an overnight attack on St Petersburg, Russia, targeting oil facilities and other infrastructure. The attack also damaged 12 apartment buildings, two homes, and temporarily closed Pulkovo Airport. Ukraine has launched strikes on Russian oil facilities and other targets, including a data center and logistics hub, in response to Russia's attacks on Ukraine's energy sector. The strikes have caused power outages and disruptions to mobile internet services. Russia has also launched attacks on Ukraine's energy infrastructure, leaving tens of thousands of people without power. The conflict has been ongoing for five years, with both sides exchanging attacks on each other's energy facilities.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm2kez327gdko"
+          "url": "https://www.bbc.com/news/articles/c3eweygrjzd7o"
         },
         {
           "id": "eb-2",
-          "title": "Criminals use AI to create fake UK retailers, warns National Trading Standards",
-          "image": "https://images.unsplash.com/photo-1740479049014-274a2c756317?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c2NhbSUyMHdhcm5pbmd8ZW58MXwwfHx8MTc5MjM5MzkzNXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "UK",
+          "title": "UK Home Sellers Cut Prices by £21,000 Amid Mortgage Rate Surge",
+          "image": "https://images.pexels.com/photos/8470800/pexels-photo-8470800.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Britain",
           "time": "Oct 19, 2026",
-          "content": "Beware of online scams, warns National Trading Standards, as criminals are using artificial intelligence (AI) to create fake websites and convincing fake products. These scams often claim to be family-owned UK retailers selling quality products, but the reality is that products either don't arrive or are cheap imports from countries like China. AI-generated images, voice cloning, and deepfake videos are all being used to trick people out of their money. Old tactics like spotting typos and grammatical errors are no longer reliable, as AI can now mimic legitimate-looking websites. To protect yourself, stop and think before paying or sharing personal information, and be wary of pressure or urgency. You can report fraud and scams to Report Fraud or by calling the Citizens Advice Consumer Helpline.",
+          "content": "In Britain, home sellers reduced asking prices on over 3,000 properties daily in September, the highest monthly total in 15 years, according to Rightmove. The surge in properties on the market, combined with some sellers setting unrealistic expectations, drove the price cuts. With mortgage rates at a three-year high, buyers are being cautious and selective, with many working to a tight budget. The average price reduction was nearly 7%, equivalent to £21,000 cut from a typical home. Properties with price reductions typically took 119 days to sell, compared to 39 days for those listed at one price. Buyers are in the driving seat, and sellers are facing difficulties, particularly those selling leasehold properties in England.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c60rl1xvjv89o"
+          "url": "https://www.bbc.com/news/articles/c84g13z6xx4eo"
         },
         {
           "id": "eb-1",
-          "title": "ChangXin Predicts Profitability in 2026, Driven by AI Demand Growth",
-          "image": "https://images.unsplash.com/photo-1739036868260-c26b292cd85d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QUklMjBjb21wdXRpbmclMjBwb3dlcnxlbnwxfDB8fHwxNzkyMzkzMDk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "China",
+          "title": "Nscale to Build UK's Largest AI Data Centre in Loughton, Despite Microsoft Pullout",
+          "image": "https://images.unsplash.com/photo-1715026323215-a2dbb71272f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TnNjYWxlJTIwZGF0YSUyMGNlbnRyZXxlbnwxfDB8fHwxNzkyNDA3ODM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Loughton, Essex",
           "time": "Oct 19, 2026",
-          "content": "a Chinese chipmaker, ChangXin Memory Technologies, expects to reverse a net loss and become profitable in the first nine months of 2026, with a predicted net profit of 131-132.5 billion yuan. The company's revenue is also expected to increase by 232.9-237.9 billion yuan, driven by growing demand for AI computing power. This growth has led to supply shortages and higher prices in the global DRAM market. ChangXin has been gaining ground in the global memory chip market, now accounting for 10% of global DRAM revenue, up from 5% a year earlier.",
+          "content": "Nscale, a tech company, has reaffirmed its plans to build the UK's largest AI data centre in Loughton, Essex, despite Microsoft's decision to pull out of the project. Microsoft had agreed to fund a supercomputer at the site, but its involvement has been terminated. Nscale is exploring alternative power sources and maintaining a strong relationship with Microsoft for other projects globally. The data centre was expected to receive its power supply by the end of this year, but this has been delayed until the 2030s due to a London-wide grid issue. The project is expected to create 250 permanent jobs when it opens.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/19/china-cxmt-profit-outlook-shares.html"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c9m26kl5y7epo"
         }
       ]
     }

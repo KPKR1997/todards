@@ -13,16 +13,16 @@ Set-Location $projectPath
 # Today's date for Git commit
 $today = Get-Date -Format "dd-MM-yyyy"
 Write-Host ""
-Write-Host "============================================"
+Write-Host "    ===="
 Write-Host "TODARDS DAILY UPDATE"
 Write-Host "Date: $today"
 Write-Host "Project: $projectPath"
-Write-Host "============================================"
+Write-Host "    ===="
 Write-Host ""
  
 # 1. RUN TODARDS REISSUE PIPELINE
  
-Write-Host "========== RUNNING REISSUE.PY =========="
+Write-Host "  RUNNING REISSUE.PY  "
 Write-Host ""
 & $pythonPath re_issue.py
 if ($LASTEXITCODE -ne 0) {
@@ -38,7 +38,7 @@ Write-Host ""
  
 # 2. GIT ADD
  
-Write-Host "========== GIT ADD =========="
+Write-Host "  GIT ADD  "
 Write-Host ""
 git add .
 if ($LASTEXITCODE -ne 0) {
@@ -49,7 +49,7 @@ if ($LASTEXITCODE -ne 0) {
 # 3. GIT COMMIT
  
 Write-Host ""
-Write-Host "========== GIT COMMIT =========="
+Write-Host "  GIT COMMIT  "
 Write-Host ""
 git commit -m "Todards Daily Update: $today"
 if ($LASTEXITCODE -ne 0) {
@@ -61,7 +61,7 @@ if ($LASTEXITCODE -ne 0) {
 # 4. GIT PUSH
  
 Write-Host ""
-Write-Host "========== GIT PUSH =========="
+Write-Host "  GIT PUSH  "
 Write-Host ""
 git push -u origin main
 if ($LASTEXITCODE -ne 0) {
@@ -72,8 +72,8 @@ if ($LASTEXITCODE -ne 0) {
 # COMPLETE
  
 Write-Host ""
-Write-Host "============================================"
+Write-Host "    ===="
 Write-Host "TODARDS DAILY UPDATE COMPLETED"
 Write-Host "Date: $today"
-Write-Host "============================================"
+Write-Host "    ===="
 Write-Host ""

@@ -7,13 +7,10 @@ from backend.core.ollama_client import OllamaClient
 from backend.core.schemas import SummaryResponse
 from config.settings import OLLAMA_BASE_URL, OLLAMA_MODEL, SUMMARY_VALIDATOR_MODEL
 logger = logging.getLogger("todards.summarize")
+
 class SummaryValidationError(RuntimeError):
-    """Raised when a summary cannot be safely approved for publication."""
+    pass
 class LlmSummarizer:
-    """Generate a summary, validate it against the source, and retry if needed.
-    The public summarize(content, historical_context=None) -> str interface is
-    unchanged so existing downstream modules do not need to change.
-    """
     def __init__(
         self,
         base_url=None,
@@ -47,7 +44,6 @@ class LlmSummarizer:
         )
     @staticmethod
     def _clean_summary(summary: str) -> str:
-        """Remove accidental wrappers without deleting normal punctuation."""
         if not summary:
             return ""
         summary = str(summary).strip()
@@ -97,7 +93,7 @@ class LlmSummarizer:
         return summary.strip()
     @staticmethod
     def _extract_json_object(text: str) -> Optional[dict]:
-        """Extract the first JSON object, even if the model adds a short preface."""
+
         if not text:
             return None
         text = str(text).strip()
@@ -194,11 +190,6 @@ NEWS ARTICLE (source material):
             raise ValueError("Summarizer returned an empty summary.")
         return candidate
     def _validate_summary(self, content: str, summary: str) -> Tuple[Optional[bool], str]:
-        """Return (True/False, feedback); None means validation was unavailable.
-        A valid ``false`` verdict is returned immediately so the summarizer can
-        regenerate. Transport errors and malformed validator output are retried
-        a bounded number of times.
-        """
         prompt = f"""
 You are a strict factuality validator for a news-summary pipeline.
 Compare the summary ONLY with the original news article below.
@@ -252,11 +243,6 @@ PROPOSED SUMMARY:
         content: str,
         historical_context: Optional[str] = None,
     ) -> str:
-        """Return only a summary approved by the validator.
-        The public string-returning interface is preserved. If validation is
-        unavailable or every candidate is rejected, raise SummaryValidationError
-        rather than silently returning unvalidated or rejected text.
-        """
         if not isinstance(content, str) or not content.strip():
             raise ValueError("content must be a non-empty string")
         last_candidate = ""

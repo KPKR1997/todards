@@ -144,7 +144,7 @@ class NewsRanker:
             else:
                 rejected_records.append(record)
         self.records = publishable_records
-        print("\n========== EDITORIAL PUBLISHABILITY GATE ==========")
+        print("\n  EDITORIAL PUBLISHABILITY GATE  ")
         print(f"Articles analyzed: {original_count}")
         print(f"Articles accepted: {len(self.records)}")
         print(f"Articles rejected: {len(rejected_records)}")
@@ -162,7 +162,7 @@ class NewsRanker:
     # CLUSTER SIMILAR STORIES
      
     def cluster_stories(self):
-        print("\n========== CLUSTERING STORIES ==========")
+        print("\n  CLUSTERING STORIES  ")
         if not self.records:
             print("No publishable articles available for clustering.")
             return []
@@ -180,7 +180,7 @@ class NewsRanker:
         except (TypeError, ValueError, AttributeError):
             return 0.0
     def score_clusters(self, clusters):
-        print("\n========== PREPARING STORY CANDIDATES ==========")
+        print("\n  PREPARING STORY CANDIDATES  ")
         stories = []
         articles = [record["article"] for record in self.records]
         for cluster_number, cluster in enumerate(clusters, 1):
@@ -265,7 +265,7 @@ class NewsRanker:
         except (TypeError, ValueError, AttributeError):
             return 0.0
     def select_top_stories(self, stories):
-        print("\n========== LLM EDITORIAL TOP STORIES BY CATEGORY ==========")
+        print("\n  LLM EDITORIAL TOP STORIES BY CATEGORY  ")
         stories_by_category = {}
         for story in stories:
             category = str(
@@ -324,7 +324,7 @@ class NewsRanker:
     def backup_original_files(self):
         backup_directory = self.backup_root / self.today
         backup_directory.mkdir(parents=True, exist_ok=True)
-        print("\n========== BACKING UP RAW DATA ==========")
+        print("\n  BACKING UP RAW DATA  ")
         backed_up = []
         for folder_name in ALL_DATA_FOLDERS:
             folder = self.data_root / folder_name
@@ -348,7 +348,7 @@ class NewsRanker:
     # UPDATE ORIGINAL JSON FILES USING THE EXISTING ARTICLE SCHEMA
      
     def update_json_files(self, selected):
-        print("\n========== UPDATING JSON FILES ==========")
+        print("\n  UPDATING JSON FILES  ")
         selected_by_file = {}
         for story in selected:
             record = self.records[story["record_index"]]

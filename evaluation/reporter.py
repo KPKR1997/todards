@@ -1,10 +1,4 @@
-"""Todards Pipeline — Evaluation Report Generator.
-Primary outputs:
-- todays_metrics.csv: one row for the latest pipeline run.
-- performance_history.csv: append-only run history.
-- todays_summary.txt: LLM-generated evaluation of the run and recent trends.
-Legacy JSON and Markdown reports are retained for compatibility.
-"""
+
 import csv
 import json
 import logging
@@ -17,8 +11,8 @@ from typing import Any, Dict, List, Optional, Tuple
 from evaluation.metrics import PipelineMetrics
 from config.settings import EVALUATION_REPORTS_DIR
 logger = logging.getLogger("todards.reporter")
+
 class PipelineReporter:
-    """Generate metrics reports and a grounded plain-language LLM evaluation."""
     HISTORY_FILE = "performance_history.csv"
     TODAY_FILE = "todays_metrics.csv"
     EMAIL_SUMMARY_FILE = "todays_summary.txt"
@@ -31,7 +25,6 @@ class PipelineReporter:
         return value or "metric"
     @classmethod
     def _flatten_metrics(cls, data: Dict[str, Any]) -> Dict[str, Any]:
-        """Flatten nested scalar metrics into a stable CSV row."""
         row: Dict[str, Any] = {}
         def walk(value: Any, prefix: str = "") -> None:
             if isinstance(value, dict):
@@ -78,8 +71,9 @@ class PipelineReporter:
             for row in rows:
                 writer.writerow({key: row.get(key, "") for key in fieldnames})
         temporary_path.replace(path)
+
+
     def _append_history(self, row: Dict[str, Any]) -> Tuple[Optional[Dict[str, str]], List[Dict[str, str]]]:
-        """Append this run and return the prior run plus resulting history."""
         path = self.reports_dir / self.HISTORY_FILE
         old_fields, old_rows = self._read_csv_rows(path)
         previous = old_rows[-1] if old_rows else None
@@ -115,8 +109,8 @@ class PipelineReporter:
                 return value
         return None
     @staticmethod
+
     def _category_count(row: Dict[str, Any], category: str) -> Optional[float]:
-        """Find a flattened scraped-by-category metric without assuming casing."""
         target = re.sub(r"[^a-z0-9]", "", category.lower())
         for key, value in row.items():
             normalized = re.sub(r"[^a-z0-9]", "", key.lower())
@@ -131,8 +125,8 @@ class PipelineReporter:
         current: Dict[str, Any],
         previous: Optional[Dict[str, str]],
         history_rows: List[Dict[str, str]],
+
     ) -> List[str]:
-        """Create evidence-backed observations to guide the LLM."""
         observations: List[str] = []
         volume = data.get("volume", {}) if isinstance(data.get("volume"), dict) else {}
         duration = self._number(data.get("duration_seconds"))
@@ -230,7 +224,6 @@ class PipelineReporter:
         current: Dict[str, Any],
         observations: List[str],
     ) -> str:
-        """Call local Ollama. If unavailable, write a clearly labelled fallback."""
         base_url = os.getenv("TODARDS_OLLAMA_BASE_URL", "http://localhost:11434").rstrip("/")
         model = "llama3:latest"
         payload = {
@@ -284,7 +277,6 @@ class PipelineReporter:
             f"{evaluation.strip()}\n"
         )
     def generate_report(self, metrics: PipelineMetrics) -> Dict[str, Path]:
-        """Write the three primary outputs and retain legacy reports."""
         data = metrics.to_dict()
         date_str = str(data.get("date", "unknown-date"))
         row = self._flatten_metrics(data)
@@ -313,7 +305,6 @@ class PipelineReporter:
             "markdown": md_path,
         }
     def _render_markdown(self, data: Dict[str, Any]) -> str:
-        """Legacy Markdown report retained for compatibility."""
         vol = data.get("volume", {})
         llm = data.get("llm_performance", {})
         stages = data.get("stages_duration_seconds", {})

@@ -1,1 +1,67 @@
-[]
+[
+    {
+        "id": "st-8",
+        "source": "SciTechDaily",
+        "category": "science and technology",
+        "title": "",
+        "date": "2026-10-19 09:44",
+        "content": "Tiny flaws in crystals could become building blocks for quantum sensors, and scientists can now better predict how these imperfections lose energy. A laser can excite electrons at a tiny flaw in diamond or silicon carbide, but the energy does not always return as light. As the defect relaxes toward its lowest-energy, or ground, state, it can emit a photon, move between states with different electron spins, or release energy as vibrations of the surrounding atoms. These spin defects could serve as stable, readable qubits, the units that hold information in quantum technologies, with potential uses in quantum sensing. Developing them requires understanding that entire cycle of excitation and relaxation. Physicists have used the fundamental equations of quantum mechanics to describe light emission and transitions between different spin states, but predicting energy loss through atomic vibrations, called internal conversion, has been harder. Researchers at the University of Chicago Pritzker School of Molecular Engineering (UChicago PME) have now developed a computational framework that captures the full optical cycle, including internal conversion. Their study, published in Physical Review Letters , shows how accounting for this process can resolve a long-standing mismatch between predictions and experiments. That discrepancy concerned a divacancy in silicon carbide, a defect formed by two neighboring missing atoms. The team’s calculations showed that internal conversion makes a substantial, previously overlooked contribution to the lifetime of its triplet excited state. Including that contribution brought the predictions into agreement with experiments, potentially informing efforts to develop this type of defect as a qubit. “We were expecting to see an effect, but of a smaller magnitude,” said Giulia Galli, the Liew Family Professor of Electronic Structure and Simulations in UChicago PME and the Department of Chemistry and the study’s senior author. “What we found is that this internal conversion process turns out to be more important than we thought.” For a nitrogen-vacancy center in diamond, where a nitrogen atom sits beside a missing carbon atom, the framework’s predictions matched recent spectroscopy measurements. Internal conversion contributed little to energy loss when triplet states were involved, but dominated energy loss from singlet states. These categories describe different arrangements of the electrons’ combined spin, and both results were consistent with previous assumptions. “We provided the missing piece of the puzzle needed to completely describe the optical cycle of spin defects,” Galli said. The obstacle to calculating internal conversion had been computational rather than a lack of fundamental equations. “Although the equations are known, it’s hard to describe the process accurately because of computational difficulties,” said Stefano Villani, a UChicago PME postdoctoral researcher and the study’s first author. “You need to account for complex interactions between the electrons and surrounding atoms, and that’s challenging in realistic solids represented by models with hundreds or thousands of atoms.” Galli and Villani worked with Yu Jin, a former graduate student in Galli’s group who is now a postdoctoral scholar at the Flatiron Institute in New York, to combine several methods previously developed in the group. They described the defect’s excited states using many-body wavefunctions, mathematical descriptions that account for interacting electrons. Exact mathematical derivations then allowed them to calculate how strongly each excited state couples to atomic motion. The resulting formulation could account for the coupling between each defect state and all the vibrational configurations of hundreds of nearby atoms, rather than calculating those configurations one at a time. “In the past, a clear mathematical derivation and efficient algorithms were not available,” Jin explained. “The new derivation came together after years of work on the optical cycle of spin defects.” The team implemented the framework in WEST, an open-source simulation code optimized for graphics processing units, or GPUs. Galli’s group has developed WEST over the past decade within the Midwest Integrated Center for Computational Materials (MICCoM), which has received funding from the U.S. Department of Energy’s Office of Basic Energy Sciences since 2015. With the framework already incorporated into the code, other laboratories can begin using it. “Our work can now be used to make more accurate predictions about many materials of interest for quantum technologies,” Jin said. “This internal conversion process is not only relevant to spin defects—it’s also related to processes of interest to energy technologies,” Galli said. “That’s one of the reasons this work is so exciting.” Access to the code does not eliminate the computational demands, however. Galli cautioned that the framework still requires substantial resources. “We are working on ways to integrate machine learning into excited states calculations to further improve the efficiency of our method,” Villani said. Alongside efforts to lower those costs, the team is extending the framework to spin defects in silicon and to a different class of materials used in renewable energy conversion and storage, where internal conversion plays an important role. Reference: “First-Principles Calculations of Internal Conversion Processes in Spin Defects” by Stefano Paolo Villani, Yu Jin and Giulia Galli, 14 October 2026, Physical Review Letters . DOI: 10.1103/y6z6-h16k Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/scientists-solve-a-quantum-mystery-hidden-inside-crystals/",
+        "rank": 1,
+        "ranking_score": 39.09,
+        "ranking_reason": "Development of a computational framework for predicting energy loss in spin defects could lead to the creation of stable, readable qubits for quantum sensing and energy technologies.",
+        "ranking": {
+            "rank": 1,
+            "score": 39.09,
+            "base_score": 36.5,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 40,
+                "political_significance": 20,
+                "health_significance": 0,
+                "scientific_significance": 80,
+                "entertainment_significance": 0,
+                "remarkability": 50,
+                "global_reach": 30,
+                "urgency": 20,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": true
+                },
+                "reason": "Development of a computational framework for predicting energy loss in spin defects could lead to the creation of stable, readable qubits for quantum sensing and energy technologies.",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 30,
+                "public_need_to_know": 40,
+                "public_concern": 20,
+                "technology_significance": 100
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a substantive development in the field of quantum technology, specifically a computational framework for predicting energy loss in spin defects, which could lead to the creation of stable and readable qubits for quantum sensing and energy technologies."
+            }
+        }
+    }
+]

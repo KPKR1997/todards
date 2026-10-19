@@ -13,10 +13,6 @@ class LlmHeadlineEditor:
             model=self.model
         )
     def _chat(self, system_prompt: str) -> str:
-        """
-        Send a request to Ollama and return the generated headline.
-        Uses Pydantic structured output with fallback.
-        """
         try:
             res = self.client.generate(
                 prompt=system_prompt,
@@ -40,9 +36,6 @@ class LlmHeadlineEditor:
             logger.error(f"Headline generation failed: {e}")
             raise
     def _clean_headline(self, headline: str) -> str:
-        """
-        Final programmatic cleanup.
-        """
         if not headline:
             return ""
         headline = headline.strip()
@@ -60,9 +53,6 @@ class LlmHeadlineEditor:
             headline = headline[1:-1].strip()
         return headline
     def write_headline(self, content: str, remarks: str) -> str:
-        """
-        Generate the initial headline.
-        """
         system_prompt = f"""
 You are a professional news headline writer for Todards.
 Write ONE clear headline for the news article below.
@@ -90,9 +80,6 @@ NEWS ARTICLE:
 """
         return self._chat(system_prompt)
     def validate_headline(self, content: str, headline: str) -> str:
-        """
-        Review and improve an existing headline only when necessary.
-        """
         system_prompt = f"""
 You are a professional news headline editor for Todards.
 Review the existing headline against the news article.

@@ -1,15 +1,7 @@
 from datetime import datetime, timezone
 import math
 class RankingRules:
-    """
-    Simple deterministic ranking for Todards.
-    Compatibility:
-    - Preserves RankingRules and its public calculation methods.
-    - Preserves calculate_score(analysis, article, source_count=1).
-    - Preserves all established calculate_score() result keys.
-    - Rejected articles always receive a final score of zero.
-    - No changes required to NewsRanker.
-    """
+ 
     # The weights sum to 1.0.
     # Category-specific significance is calculated separately
     # using the strongest relevant category signal.
@@ -64,12 +56,7 @@ class RankingRules:
             and value == 1
         )
     def calculate_base_score(self, analysis):
-        """
-        Calculate a normalized 0-100 score from a small set of signals.
-        dont_miss is retained as a legacy schema field. It is used
-        as an alternative to public_need_to_know, not added to it,
-        to avoid double-counting the same editorial judgement.
-        """
+    
         if not isinstance(analysis, dict):
             return 0.0
         values = {}
@@ -100,7 +87,6 @@ class RankingRules:
         )
         return round(max(0.0, min(100.0, score)), 2)
     def calculate_event_multiplier(self, analysis):
-        """Use only the strongest supported event bonus."""
         if not isinstance(analysis, dict):
             return 1.0
         events = analysis.get("events", {})
@@ -113,11 +99,6 @@ class RankingRules:
         ]
         return max(applicable, default=1.0)
     def calculate_severity_multiplier(self, analysis):
-        """
-        Retain the existing method for compatibility.
-        Severity overlaps with the importance scores and event flags,
-        so it no longer adds a separate ranking bonus.
-        """
         return 1.0
     @staticmethod
     def _parse_article_datetime(value):
@@ -138,7 +119,6 @@ class RankingRules:
             parsed = parsed.replace(tzinfo=timezone.utc)
         return parsed.astimezone(timezone.utc)
     def calculate_freshness_multiplier(self, article):
-        """Apply a small freshness adjustment."""
         if not isinstance(article, dict):
             return 1.0
         article_date = (
@@ -162,7 +142,6 @@ class RankingRules:
             return 0.98
         return 0.95
     def calculate_source_multiplier(self, source_count=1):
-        """Apply a small corroboration bonus."""
         try:
             count = max(1, int(source_count))
         except (ValueError, TypeError, OverflowError):
@@ -174,7 +153,6 @@ class RankingRules:
         return 1.0
     @staticmethod
     def _has_exceptional_event(analysis):
-        """Retained for compatibility with existing callers."""
         if not isinstance(analysis, dict):
             return False
         events = analysis.get("events", {})
@@ -197,17 +175,9 @@ class RankingRules:
             for name in exceptional_events
         )
     def _local_only_penalty(self, analysis):
-        """
-        Retained for compatibility but no longer applies a penalty.
-        Qualification should reject routine low-value local stories.
-        Ranking should compare the importance of stories that passed
-        qualification instead of applying a second geographic penalty.
-        """
+
         return 1.0
     def calculate_score(self, analysis, article, source_count=1):
-        """
-        Return the established score structure expected by NewsRanker.
-        """
         if not isinstance(analysis, dict):
             analysis = {}
         if not isinstance(article, dict):

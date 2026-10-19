@@ -13,9 +13,7 @@ def get_24_hour_window():
     cutoff = now - timedelta(hours=24)
     return now, cutoff
 def parse_datetime(value):
-    """
-    Convert a datetime string into timezone-aware UTC datetime.
-    """
+   
     if not value:
         return None
     value = value.strip()
@@ -57,9 +55,7 @@ def is_within_last_24_hours(published_time):
     now, cutoff = get_24_hour_window()
     return cutoff <= published_time <= now
 def get_jsonld_datetime(soup, keys):
-    """
-    Extract datePublished/dateModified from JSON-LD.
-    """
+    
     scripts = soup.find_all(
         "script",
         type="application/ld+json"
@@ -639,9 +635,9 @@ class PoliticsDataScrapper:
         )
     def scrape_politics_data(self):
         people_data = []
-        # ====================================================
+        #      ==
         # BBC
-        # ====================================================
+        #      ==
         BBC = BBCPoliticsScraper(
             url="https://www.bbc.com/news",
             domain="https://www.bbc.com"
@@ -697,9 +693,9 @@ class PoliticsDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
+        #      ==
         # CNN
-        # ====================================================
+        #      ==
         CNN = CNNPoliticsScraper(
             url="https://edition.cnn.com/",
             domain="https://edition.cnn.com"
@@ -727,9 +723,9 @@ class PoliticsDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
+        #      ==
         # THE GUARDIAN
-        # ====================================================
+        #      ==
         Guardian = GuardianPoliticsScraper(
             url=(
                 "https://www.theguardian.com/"
@@ -764,9 +760,9 @@ class PoliticsDataScrapper:
                 "content": article["content"],
                 "url": article["url"]
             })
-        # ====================================================
+        #      ==
         # SAVE JSON
-        # ====================================================
+        #      ==
         file_name = (
             datetime.now().strftime("%d%m%Y")
             + "_people_data.json"
