@@ -1,36 +1,41 @@
 {
     "date": "20102026",
-    "timestamp": "2026-10-20T09:36:15.922459",
-    "duration_seconds": 624.8,
+    "timestamp": "2026-10-20T10:22:09.833454",
+    "duration_seconds": 2627.79,
     "stages_duration_seconds": {
-        "scrape": 10.08,
-        "guardrails": 35.19,
-        "deduplication": 8.87,
-        "category_validation": 28.8,
-        "ranking": 45.38,
-        "processing": 496.45,
-        "assembly": 0.0
+        "scrape": 508.79,
+        "guardrails": 79.85,
+        "deduplication": 10.3,
+        "category_validation": 124.04,
+        "ranking": 200.06,
+        "processing": 1704.69,
+        "assembly": 0.04
     },
     "volume": {
         "scraped_by_category": {
-            "People": 10
+            "Health": 0,
+            "Tech": 22,
+            "People": 45,
+            "Environment": 0,
+            "Economy": 0,
+            "Entertainment": 0
         },
-        "total_scraped": 10,
-        "guardrail_passed": 10,
+        "total_scraped": 67,
+        "guardrail_passed": 67,
         "guardrail_rejected": 0,
         "dedup_removed": 0,
         "category_reassignments": 0,
-        "final_articles": 2,
-        "final_categories": 1
+        "final_articles": 6,
+        "final_categories": 2
     },
     "guardrail_rejections": [],
     "article_safety": {
-        "files_seen": 1,
-        "articles_seen": 10,
-        "classified_safe": 7,
-        "classified_unsafe": 3,
+        "files_seen": 4,
+        "articles_seen": 67,
+        "classified_safe": 38,
+        "classified_unsafe": 29,
         "unsafe_removed": 0,
-        "unsafe_would_remove": 3,
+        "unsafe_would_remove": 29,
         "unclassified": 0,
         "unclassified_retained": 0,
         "model_errors": 0,
@@ -40,22 +45,100 @@
     "deduplication": {},
     "category_validation": {
         "status": "completed",
-        "total_checked": 10,
-        "rejected_count": 0,
-        "rejected_articles": []
+        "total_checked": 64,
+        "rejected_count": 11,
+        "rejected_articles": [
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Jim Cramer's views and opinions on the AI stocks, rather than a specific scientific or technological development, making 'people' a more relevant category."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article discusses the recent AI stock sell-off and its connection to the 1987 market crash, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the impact of AI on society and the economy, making it more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Elon Musk says he'll give a SpaceX share to every child in America next year",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Elon Musk's philanthropic efforts and donation of SpaceX shares, which falls under the people category."
+            },
+            {
+                "title": "I have a condition people are too embarrassed to talk about",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Monica Thomas's experiences with lichen sclerosus, a gynaecological health issue, and includes quotes from medical professionals and researchers, making it more relevant to the 'health' category than 'people'."
+            },
+            {
+                "title": "'I started ketamine at 14 and needed nappies at 22' - the rise of young people going to rehab",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the impact of ketamine use on the physical and mental health of young people, with a specific focus on the consequences for Megan Harmes, which makes 'people' the most relevant category."
+            },
+            {
+                "title": "Charging battery believed to have caused house fire",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses a house fire caused by a charging lithium-ion battery, which is a health and safety issue related to electrical appliances and household accidents."
+            },
+            {
+                "title": "I have a condition people are too embarrassed to talk about",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article discusses a medical condition and its symptoms, diagnosis, and impact on mental health, making it more relevant to the 'health' category than the 'people' category."
+            },
+            {
+                "title": "'I started ketamine at 14 and needed nappies at 22' - the rise of young people going to rehab",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses the rise of young people seeking rehabilitation for ketamine addiction, highlighting the specific needs of this age group and the impact of drug use on their physical and mental health."
+            },
+            {
+                "title": "US bans DeepSeek AI from government use as tech tension with China continues",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article discusses the ban of DeepSeek AI technology from government use, which is a scientific and technological development, rather than a people-focused event."
+            },
+            {
+                "title": "Selena Gomez says vaping has affected her voice",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Selena Gomez's personal health issue and her experience with vaping affecting her voice, which is a clear connection to the 'health' category."
+            }
+        ]
     },
     "llm_performance": {
-        "total_calls": 30,
+        "total_calls": 198,
         "total_failures": 0,
-        "total_time_seconds": 63.97,
-        "prompt_tokens": 52036,
-        "response_tokens": 879,
-        "total_tokens": 52915,
-        "usage_responses": 30,
-        "prompt_eval_seconds": 15.69,
-        "generation_seconds": 20.899,
-        "load_seconds": 24.919,
-        "server_total_seconds": 63.385,
-        "avg_response_time": 2.13
+        "total_time_seconds": 203.7,
+        "prompt_tokens": 274247,
+        "response_tokens": 5232,
+        "total_tokens": 279479,
+        "usage_responses": 198,
+        "prompt_eval_seconds": 59.961,
+        "generation_seconds": 117.998,
+        "load_seconds": 11.813,
+        "server_total_seconds": 202.028,
+        "avg_response_time": 1.03
     }
 }

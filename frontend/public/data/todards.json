@@ -2,7 +2,7 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 73",
+    "issue": "Issue No. 74",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Trump Admin Defies Judges' Rulings, Continues Violating Court Orders",
-          "image": "https://images.pexels.com/photos/31517993/pexels-photo-31517993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, DC",
+          "title": "Saudi National Charged with Spying on OpenAI",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Royal_Standard_of_Kingdom_of_Saudi_Arabia.svg/330px-Royal_Standard_of_Kingdom_of_Saudi_Arabia.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "California",
           "time": "Oct 20, 2026",
-          "content": "US President Donald Trump's administration has faced numerous instances of violating court orders, including one regarding a public golf course renovation in Washington, DC. Judge Ana Reyes ordered the administration to stop the project after they cut down over 430 trees without proper notification. Trump claimed construction would begin immediately, prompting the judge to force officials to testify. This is just one example of the administration's apparent disregard for court orders, with at least 31 lawsuits and over 250 immigration-related instances of noncompliance found by judges. Republican-nominated judges have also reported finding violations, suggesting a broader pattern. There has been no accountability, and the administration has continued to defy court orders, with no change in approach.",
+          "content": "A Saudi national, Abdulrahman Alfozan, has been accused of having support from the Saudi government and charged with secretly planting a recording device in one of OpenAI's meeting rooms. Alfozan, an engineer, worked for the AI firm for about a year before his alleged attempt. US prosecutors claim he was in frequent communication with a member of the Saudi royal family and had a one-way flight to Saudi Arabia booked for his wife and son. The court denied Alfozan's request for bail, citing a risk of non-appearance, and he is scheduled to appear in federal court in San Francisco. If convicted, Alfozan faces up to five years in prison and a $250,000 fine.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/19/politics/trump-flouting-court-orders"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c6gel2dlyxvyo"
         },
         {
           "id": "pp-2",
-          "title": "Slotkin faces backlash from Trump over investigation deterrent claims",
-          "image": "https://images.pexels.com/photos/6580465/pexels-photo-6580465.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
+          "title": "Vinted removes suspected looting listings after French riots",
+          "image": "https://images.pexels.com/photos/2348809/pexels-photo-2348809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "France",
           "time": "Oct 20, 2026",
-          "content": "Democratic Sen. Elissa Slotkin is facing backlash from Republicans, including President Donald Trump, after suggesting that congressional investigations could deter recent graduates from joining the Trump administration. Slotkin made the comments at a University of Chicago event, suggesting that Democrats should focus on corruption cases and use their oversight powers to target not just the president but also aides who enabled him. The remarks sparked criticism from Republicans, including Trump, who called Slotkin a",
+          "content": "Second-hand re-selling platform Vinted removed listings believed to be from looted French shops after weekend riots. The company took immediate action to identify and remove the listings, stating zero tolerance for the sale of stolen goods. Over 2,000 businesses were impacted by the violence, resulting in hundreds of millions of euros in damage. Vinted is working with French authorities and police to detect and counter emerging risks and malicious behavior.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/19/politics/elissa-slotkin-trump-young-republicans"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cm8xzrljv72ro"
         },
         {
           "id": "eb-1",
-          "title": "Macron calls for calm after violent protests in France",
-          "image": "https://images.unsplash.com/photo-1680081089137-91dd46645362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8UGFyaXMlMjByaW90fGVufDF8MHx8fDE3OTI0MTAwOTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Paris, France",
-          "time": "Oct 19, 2026",
-          "content": "French President Emmanuel Macron called for calm and order after violent protests and rioting broke out across the country on Saturday. The protests, which drew around 550,000 people, were largely peaceful but turned violent, with looting, fire-setting, and clashes with police reported. Macron condemned the violence, saying it was unacceptable and that those responsible would face justice. The French government has promised to draft measures to protect shops and civic buildings, and Macron has vowed to provide full transparency over the police response. As the country continues to grapple with the aftermath of the protests, shopkeepers are left to pick up the pieces and residents are expressing sadness and shock at the damage caused.",
+          "title": "Canadian Man Convicted of Animal Cruelty for Flamingo Kidnapping",
+          "image": "https://images.pexels.com/photos/33008247/pexels-photo-33008247.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Las Vegas, USA",
+          "time": "Oct 20, 2026",
+          "content": "A Canadian man, Mitchell Fairbarn, has been found guilty of animal cruelty after taking a flamingo named Peachy from a Las Vegas hotel and bringing it to his hotel room during an alcohol-fuelled bender. Fairbarn, who had consumed 30 to 40 beers, claimed he never meant to harm the bird and thought it would be",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cw240zl08dm5o"
+          "url": "https://www.bbc.com/news/articles/cq398rjewd1jo"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Scientists Predict Energy Loss in Quantum Crystals",
-          "image": "https://images.unsplash.com/photo-1690683789766-93253a3422c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cXVhbnR1bSUyMHNlbnNvcnN8ZW58MXwwfHx8MTc5MjQwNjAyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Chicago, USA",
-          "time": "Oct 19, 2026",
-          "content": "Scientists have developed a computational framework that can accurately predict how tiny flaws in crystals, called spin defects, lose energy. These imperfections could be used to create quantum sensors and qubits for quantum technologies, with potential applications in quantum sensing. The framework, developed by researchers at the University of Chicago Pritzker School of Molecular Engineering, captures the full optical cycle of spin defects, including internal conversion, a process that was previously harder to predict. The study, published in Physical Review Letters, shows how accounting for internal conversion can resolve a long-standing mismatch between predictions and experiments. The team's calculations brought the predictions into agreement with experiments, potentially informing efforts to develop spin defects as qubits. The framework is already incorporated into an open-source simulation code, making it available for other laboratories to use.",
+          "title": "Astronomers Map WASP-17b's Weather Using James Webb Space Telescope",
+          "image": "https://images.pexels.com/photos/14618855/pexels-photo-14618855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Ithaca, New York",
+          "time": "Oct 20, 2026",
+          "content": "Astronomers have successfully mapped the weather patterns on a distant planet, WASP-17b, using the James Webb Space Telescope. The planet, a hot Jupiter, has one side that extends farther into space than the other, creating an uneven outline. The team, led by Cornell University and the University of Bristol, used a method called transmission strings to analyze the light passing through different parts of the atmosphere's edge. This allowed them to distinguish conditions around the boundary and create a comprehensive three-dimensional view of the planet's atmosphere. The findings agree with theoretical predictions and provide a benchmark for comparison with other exoplanets. The successful demonstration opens the way to applying this method to many more planets, potentially revealing complex weather patterns in exoplanet climates.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-solve-a-quantum-mystery-hidden-inside-crystals/"
+          "url": "https://scitechdaily.com/nasas-james-webb-telescope-reveals-a-giant-alien-planet-thats-not-quite-round/"
         },
         {
           "id": "st-2",
-          "title": "AI Wearables Raise Privacy Concerns with Continuous Recording",
-          "image": "https://images.unsplash.com/photo-1660905419259-0eccba887eb3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8TWV0YSUyMEdsYXNzZXN8ZW58MXwwfHx8MTc5MjM4MDgxOXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Pittsburgh, USA",
-          "time": "Oct 19, 2026",
-          "content": "The article reports on the growing trend of AI-powered wearables and devices that record, transcribe, and analyze a user's daily life. Chris Thomas, a Pittsburgh-based business owner, uses a range of AI gadgets, including Meta's camera-equipped glasses and Amazon's Bee wearable, to stay organized and pay bills on time. However, these devices have raised concerns about privacy, with some users worrying about being recorded without their consent. The article highlights the legal questions surrounding the use of AI devices, including whether continuous listening and interpreting of speech can be considered an interception. The development of AI devices that can rapidly interpret and draw meaning from large volumes of information has raised concerns about the erosion of privacy, with experts warning that people can be swept into AI-powered surveillance without owning or knowingly interacting with the device doing the collecting.",
+          "title": "NASA's Curiosity Rover to Examine Mysterious Martian Rock Layer",
+          "image": "https://images.pexels.com/photos/8474500/pexels-photo-8474500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Jet Propulsion Laboratory, Southern California",
+          "time": "Oct 20, 2026",
+          "content": "NASA's Curiosity rover is on its way to examine a Martian rock layer that appears out of place and may have formed from ancient volcanic ash. The layer, known as a yardang, stretches 10 miles across the northwestern reaches of Mount Sharp on Mars. Mission scientists are excited to study the layer closely, as it could provide clues about Mars' history. The rover has been climbing Mount Sharp since 2014, and its ascent has been marked by the discovery of different geological formations, including spiderweb-like boxwork ridges. The rover is now in the second year of its fifth extended mission, during which it will drive through layers enriched with sulfates and carbonates, signs of ancient drying at the surface. Scientists expect increasingly detailed images as the rover approaches the yardangs, with the goal of reaching the base of the cliffs by 2027 to collect data and investigate how they formed.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/18/ai-wearables-privacy-wiretap-laws.html"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/nasas-curiosity-rover-unveils-a-spectacular-new-view-of-mars-at-dawn/"
         },
         {
           "id": "t-3",
-          "title": "Honeybee colony can be considered as a single living Organism",
-          "image": "https://images.unsplash.com/photo-1647427062468-74ff21e8934f?q=80&w=1290&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
-          "place": "University of Oulu, Finland",
-          "time": "Oct 16, 2026",
-          "content": "A new study proposes that a honey bee colony functions as a superorganism, meaning a group of individual bees that work together like the specialized cells of a single living organism. Researchers suggest that the colony has its own life cycle, including development, reproduction through swarming (when a queen leaves with part of the colony to establish a new hive), aging, and eventual death. This perspective challenges conventional beekeeping practices such as frequently replacing queens and preventing swarming, as these interventions may disrupt the colony’s natural reproductive cycle and ability to manage parasites such as Varroa mites. However, further research is needed to determine whether managing colonies according to this superorganism model can improve bee health and parasite control.",
+          "title": "AI replaces switchboard jobs, shifting women's roles",
+          "image": "https://images.pexels.com/photos/11125742/pexels-photo-11125742.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Oct 20, 2026",
+          "content": "Before Siri and Alexa, there were women operating switchboards, a vital job that dominated the lives of many white, US-born women under 20. Today, this job is gone, and the dawn of artificial intelligence raises concerns about the impact on society, culture, and the economy. Women are likely to be affected by AI, which focuses on routine tasks and numbers, similar to the clerical jobs that many women hold. Historically, technological progress has led to changes in the job market, and women have adapted, moving into new roles as the economy evolves. With AI, there is a potential outcome where it eliminates tasks but not entire jobs, allowing workers to focus on higher-value tasks. However, the future is uncertain, as AI can learn and adapt.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-say-that-a-honey-bee-colony-may-actually-be-a-single-living-organism/"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html"
         }
       ]
     },
