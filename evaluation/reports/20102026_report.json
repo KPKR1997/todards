@@ -1,0 +1,61 @@
+{
+    "date": "20102026",
+    "timestamp": "2026-10-20T09:36:15.922459",
+    "duration_seconds": 624.8,
+    "stages_duration_seconds": {
+        "scrape": 10.08,
+        "guardrails": 35.19,
+        "deduplication": 8.87,
+        "category_validation": 28.8,
+        "ranking": 45.38,
+        "processing": 496.45,
+        "assembly": 0.0
+    },
+    "volume": {
+        "scraped_by_category": {
+            "People": 10
+        },
+        "total_scraped": 10,
+        "guardrail_passed": 10,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 2,
+        "final_categories": 1
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 1,
+        "articles_seen": 10,
+        "classified_safe": 7,
+        "classified_unsafe": 3,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 3,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 10,
+        "rejected_count": 0,
+        "rejected_articles": []
+    },
+    "llm_performance": {
+        "total_calls": 30,
+        "total_failures": 0,
+        "total_time_seconds": 63.97,
+        "prompt_tokens": 52036,
+        "response_tokens": 879,
+        "total_tokens": 52915,
+        "usage_responses": 30,
+        "prompt_eval_seconds": 15.69,
+        "generation_seconds": 20.899,
+        "load_seconds": 24.919,
+        "server_total_seconds": 63.385,
+        "avg_response_time": 2.13
+    }
+}

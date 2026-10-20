@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 72",
+    "issue": "Issue No. 73",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "19 October 2026",
+    "publishedAt": "20 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,25 +21,25 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Four Military Personnel Killed in Devastating Fire at Canadian Base",
-          "image": "https://images.unsplash.com/photo-1782849206440-74fee1c600eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X0NhbmFkaWFuJTIwbWlsaXRhcnl8ZW58MXwwfHx8MTc5MjQwOTYwOXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Wainwright, Alberta, Canada",
-          "time": "Oct 19, 2026",
-          "content": "A devastating fire on Saturday at Canadian Forces Base Wainwright in Alberta killed four members of the Canadian military and injured dozens. The blaze spread rapidly due to strong winds, with some accounts suggesting it moved 1km in just 30 to 60 seconds. Prime Minister Mark Carney described the tragedy as one of the worst on Canadian soil in peacetime. Officials have ruled out terrorism as a cause and are investigating the incident, which may take at least a month. The fire started during high-intensity combat training with live munitions, and officials knew about the fire on the base for several hours before it spread. At least 19 of the 39 injured people are in critical condition, and tributes are being paid to the servicemen who died.",
+          "title": "Trump Admin Defies Judges' Rulings, Continues Violating Court Orders",
+          "image": "https://images.pexels.com/photos/31517993/pexels-photo-31517993.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, DC",
+          "time": "Oct 20, 2026",
+          "content": "US President Donald Trump's administration has faced numerous instances of violating court orders, including one regarding a public golf course renovation in Washington, DC. Judge Ana Reyes ordered the administration to stop the project after they cut down over 430 trees without proper notification. Trump claimed construction would begin immediately, prompting the judge to force officials to testify. This is just one example of the administration's apparent disregard for court orders, with at least 31 lawsuits and over 250 immigration-related instances of noncompliance found by judges. Republican-nominated judges have also reported finding violations, suggesting a broader pattern. There has been no accountability, and the administration has continued to defy court orders, with no change in approach.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckj0ly6qnp1lo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/19/politics/trump-flouting-court-orders"
         },
         {
           "id": "pp-2",
-          "title": "Kenya Judge Delivers Verdict in Paul Mackenzie Mass Murder Case",
-          "image": "https://images.pexels.com/photos/6077422/pexels-photo-6077422.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Kenya",
-          "time": "Oct 19, 2026",
-          "content": "In Kenya, a judge is delivering a verdict in a mass murder case involving doomsday preacher Paul Mackenzie. Mackenzie and 29 followers are accused of killing 191 people, mostly children, by forcing them to starve to death. According to allegations, Mackenzie's cult believed that education and modern medicine were 'evil' and that starving children to death would bring them closer to meeting Jesus. The 29 accused, including Mackenzie, have pleaded not guilty, but their former head of security has become a prosecution witness. The case is highly disturbing, with gravediggers describing finding bodies of children as young as a few weeks old, some with their hands and legs tied and wrapped in bedsheets. The verdict is significant, as it is the first time Mackenzie will face a verdict on the most serious charges of murder.",
+          "title": "Slotkin faces backlash from Trump over investigation deterrent claims",
+          "image": "https://images.pexels.com/photos/6580465/pexels-photo-6580465.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Oct 20, 2026",
+          "content": "Democratic Sen. Elissa Slotkin is facing backlash from Republicans, including President Donald Trump, after suggesting that congressional investigations could deter recent graduates from joining the Trump administration. Slotkin made the comments at a University of Chicago event, suggesting that Democrats should focus on corruption cases and use their oversight powers to target not just the president but also aides who enabled him. The remarks sparked criticism from Republicans, including Trump, who called Slotkin a",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckd6d2l3dz4xo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/19/politics/elissa-slotkin-trump-young-republicans"
         },
         {
           "id": "eb-1",
@@ -90,7 +90,7 @@
           "image": "https://images.unsplash.com/photo-1647427062468-74ff21e8934f?q=80&w=1290&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D",
           "place": "University of Oulu, Finland",
           "time": "Oct 16, 2026",
-          "content": "A new study proposes that a honey bee colony functions as a superorganism, meaning a group of individual bees that work together like the specialized cells of a single living organism. Researchers suggest that the colony has its own life cycle, including development, reproduction through swarming (when a queen leaves with part of the colony to establish a new hive), aging, and eventual death. This perspective challenges conventional beekeeping practices such as frequently replacing queens and preventing swarming, as these interventions may disrupt the colony’s natural reproductive cycle and ability to manage parasites such as Varroa mites. However, further research is needed to determine whether managing colonies according to this superorganism model can improve bee health and parasite control",
+          "content": "A new study proposes that a honey bee colony functions as a superorganism, meaning a group of individual bees that work together like the specialized cells of a single living organism. Researchers suggest that the colony has its own life cycle, including development, reproduction through swarming (when a queen leaves with part of the colony to establish a new hive), aging, and eventual death. This perspective challenges conventional beekeeping practices such as frequently replacing queens and preventing swarming, as these interventions may disrupt the colony’s natural reproductive cycle and ability to manage parasites such as Varroa mites. However, further research is needed to determine whether managing colonies according to this superorganism model can improve bee health and parasite control.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
           "url": "https://scitechdaily.com/scientists-say-that-a-honey-bee-colony-may-actually-be-a-single-living-organism/"
@@ -154,7 +154,7 @@
           "image": "https://images.pexels.com/photos/5521067/pexels-photo-5521067.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Himachal Pradesh, India",
           "time": "Oct 17, 2026",
-          "content": "In October 2025, Joginder Chand, a 50-year-old shepherd from Himachal Pradesh's Chamba district, set out to migrate his 600 sheep and goats to warmer grazing grounds in Kangra district. Suddenly, an avalanche swept away over 100 animals.",
+          "content": "In October 2025, Joginder Chand, a 50-year-old shepherd from Himachal Pradesh's Chamba district, set out to migrate his 600 sheep and goats to warmer grazing grounds in Kangra district. Suddenly, an avalanche swept away over 100 animals. Rising temperatures and shifting weather patterns are disrupting the seasonal migrations and livelihoods of pastoral-nomadic communities",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
           "url": "https://www.downtoearth.org.in/climate-change/disrupted-rhythms-how-climate-change-affects-himalayan-pastoralism"
