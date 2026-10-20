@@ -64,12 +64,12 @@ def run_scrapers(
     data_paths = {}
 
     scrapers = [
-        # ("Health", "health_data", HealthDataScrapper, "scrape_health_data"),
-        # ("Tech", "tech_data", TechDataScrapper, "scrape_tech_data"),
-        ("People", "people_data", PoliticsDataScrapper, "scrape_politics_data")
-        # ("Environment", "environment_data", EnvironmentDataScrapper, "scrape_environment_data"),
-        # ("Economy", "economy_data", EconomicsDataScrapper, "scrape_economics_data"),
-        # ("Entertainment", "entertainment_data", EntertainmentDataScrapper, "scrape_entertainment_data"),
+        ("Health", "health_data", HealthDataScrapper, "scrape_health_data"),
+        ("Tech", "tech_data", TechDataScrapper, "scrape_tech_data"),
+        ("People", "people_data", PoliticsDataScrapper, "scrape_politics_data"),
+        ("Environment", "environment_data", EnvironmentDataScrapper, "scrape_environment_data"),
+        ("Economy", "economy_data", EconomicsDataScrapper, "scrape_economics_data"),
+        ("Entertainment", "entertainment_data", EntertainmentDataScrapper, "scrape_entertainment_data"),
     ]
     for idx, (display_name, folder_name, scraper_cls, method_name) in enumerate(scrapers, 1):
         progress.update_status(f"Scraping {display_name} ({idx}/{len(scrapers)})")
