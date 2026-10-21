@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 74",
+    "issue": "Issue No. 75",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "20 October 2026",
+    "publishedAt": "21 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Saudi National Charged with Spying on OpenAI",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Royal_Standard_of_Kingdom_of_Saudi_Arabia.svg/330px-Royal_Standard_of_Kingdom_of_Saudi_Arabia.svg.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "California",
-          "time": "Oct 20, 2026",
-          "content": "A Saudi national, Abdulrahman Alfozan, has been accused of having support from the Saudi government and charged with secretly planting a recording device in one of OpenAI's meeting rooms. Alfozan, an engineer, worked for the AI firm for about a year before his alleged attempt. US prosecutors claim he was in frequent communication with a member of the Saudi royal family and had a one-way flight to Saudi Arabia booked for his wife and son. The court denied Alfozan's request for bail, citing a risk of non-appearance, and he is scheduled to appear in federal court in San Francisco. If convicted, Alfozan faces up to five years in prison and a $250,000 fine.",
+          "title": "US Intel Sharing Improves with Ukraine, Zelensky Says",
+          "image": "https://images.unsplash.com/photo-1719947691028-0be6e2dccddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8V2hpdGUlMjBIb3VzZXxlbnwxfDB8fHwxNzkyNTU0NTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Oslo, Norway",
+          "time": "Oct 21, 2026",
+          "content": "Ukrainian President Volodymyr Zelensky has announced that US intelligence sharing on Russian missile attacks has improved after talks with President Donald Trump's special envoy Steve Witkoff. The meeting in Oslo, Norway, followed accusations that Washington was withholding key intelligence, which US Secretary of State Marco Rubio rejected as 'scandalous'. Zelensky expressed gratitude that the intelligence sharing now 'works' and that US early warnings and missile interceptors are crucial for Ukraine's civilian safety. The Ukrainian President also reiterated his country's readiness for negotiations to end the war with Russia, which has been ongoing since Putin's full-scale invasion in 2022. Witkoff is set to meet with Russian President Vladimir Putin to discuss the proposals agreed upon in Oslo, while Trump has called for Ukraine to 'make a deal' and end the war.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6gel2dlyxvyo"
+          "url": "https://www.bbc.com/news/articles/cq5ynkx3xy11o"
         },
         {
           "id": "pp-2",
-          "title": "Vinted removes suspected looting listings after French riots",
-          "image": "https://images.pexels.com/photos/2348809/pexels-photo-2348809.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "France",
-          "time": "Oct 20, 2026",
-          "content": "Second-hand re-selling platform Vinted removed listings believed to be from looted French shops after weekend riots. The company took immediate action to identify and remove the listings, stating zero tolerance for the sale of stolen goods. Over 2,000 businesses were impacted by the violence, resulting in hundreds of millions of euros in damage. Vinted is working with French authorities and police to detect and counter emerging risks and malicious behavior.",
+          "title": "King Charles hosts Sultan of Oman at Windsor Castle amid diplomatic efforts",
+          "image": "https://images.unsplash.com/photo-1700126530786-0950a9c9c9a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8V2luZHNvciUyMENhc3RsZXxlbnwxfDB8fHwxNzkyNTU0ODEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Windsor, UK",
+          "time": "Oct 21, 2026",
+          "content": "King Charles welcomed Sultan Haitham bin Tarik Al Said of Oman at a state banquet in Windsor Castle, highlighting Oman's efforts to keep open the Strait of Hormuz and diplomatic mediation in the Iran conflict. The King praised Oman's noble efforts and commended Prince William's work alongside the Sultan's son on an expedition project. The state visit, which included a dinner of pheasant and quince, showcased the strong partnership between the UK and Oman, despite tensions in the Middle East. The banquet featured a non-alcoholic spiced coffee drink instead of a traditional cocktail, due to the presence of Muslim guests. Prince Harry, not a working royal, was absent, but his desire to reconcile with his family garnered attention. The state visit aimed to strengthen business and military links between the two nations.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm8xzrljv72ro"
+          "url": "https://www.bbc.com/news/articles/c8040qgryqd3o"
         },
         {
           "id": "eb-1",
-          "title": "Canadian Man Convicted of Animal Cruelty for Flamingo Kidnapping",
-          "image": "https://images.pexels.com/photos/33008247/pexels-photo-33008247.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Las Vegas, USA",
-          "time": "Oct 20, 2026",
-          "content": "A Canadian man, Mitchell Fairbarn, has been found guilty of animal cruelty after taking a flamingo named Peachy from a Las Vegas hotel and bringing it to his hotel room during an alcohol-fuelled bender. Fairbarn, who had consumed 30 to 40 beers, claimed he never meant to harm the bird and thought it would be",
+          "title": "US Eases Myanmar Policy After Meeting with Military Regime Leader",
+          "image": "https://images.pexels.com/photos/8909281/pexels-photo-8909281.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Nay Pyi Taw, Myanmar",
+          "time": "Oct 21, 2026",
+          "content": "A significant shift in US policy towards Myanmar's military regime has been revealed, following a meeting between US Assistant Secretary of State Michael Vance and regime leader Min Aung Hlaing. The meeting, which took place in Myanmar's capital Nay Pyi Taw, was the most senior US official to meet Min Aung Hlaing since he seized power in the 2021 coup. Prior to this, the US had maintained a policy of isolating the regime, but recent developments suggest a change in approach. This comes after a series of targeted sanctions were applied against those supporting the junta, and a personal letter from US President Donald Trump to Min Aung Hlaing, in which he informed him that his country's economy was about to be hit by 40% tariffs. The meeting with Vance was likely to have discussed other matters of mutual interest, and could signal a new direction in US policy towards Myanmar.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq398rjewd1jo"
+          "url": "https://www.bbc.com/news/articles/cw203zx1x1rno"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Astronomers Map WASP-17b's Weather Using James Webb Space Telescope",
-          "image": "https://images.pexels.com/photos/14618855/pexels-photo-14618855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Ithaca, New York",
-          "time": "Oct 20, 2026",
-          "content": "Astronomers have successfully mapped the weather patterns on a distant planet, WASP-17b, using the James Webb Space Telescope. The planet, a hot Jupiter, has one side that extends farther into space than the other, creating an uneven outline. The team, led by Cornell University and the University of Bristol, used a method called transmission strings to analyze the light passing through different parts of the atmosphere's edge. This allowed them to distinguish conditions around the boundary and create a comprehensive three-dimensional view of the planet's atmosphere. The findings agree with theoretical predictions and provide a benchmark for comparison with other exoplanets. The successful demonstration opens the way to applying this method to many more planets, potentially revealing complex weather patterns in exoplanet climates.",
+          "title": "Texas A&M University scientists reveal DNA's thymine survival secret",
+          "image": "https://images.unsplash.com/photo-1732046801426-f32529468176?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8RE5BJTIwbW9sZWN1bGV8ZW58MXwwfHx8MTc5MjU1NDA1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Texas A&M University, USA",
+          "time": "Oct 21, 2026",
+          "content": "Scientists at Texas A&M University have discovered that DNA's reliance on the chemical building block thymine may have been a result of its ability to help early genetic molecules survive intense ultraviolet radiation from the sun without an ozone layer. The team used biophotonics to study thymine and uracil under controlled UV conditions, finding that thymine tends to direct UV damage into a more reversible form. This suggests that early life on Earth may have survived intense sunlight by controlling and repairing damage, rather than avoiding it. The researchers plan to extend their investigation to the origin-of-life process, exploring whether life's chemical building blocks formed and assembled entirely on Earth or were delivered from elsewhere. The study's findings also establish a new reference framework for research beyond molecular evolution, with potential applications in pathogen detection and UV disinfection.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/nasas-james-webb-telescope-reveals-a-giant-alien-planet-thats-not-quite-round/"
+          "url": "https://scitechdaily.com/scientists-may-have-solved-a-billion-year-old-mystery-about-dnas-evolution/"
         },
         {
           "id": "st-2",
-          "title": "NASA's Curiosity Rover to Examine Mysterious Martian Rock Layer",
-          "image": "https://images.pexels.com/photos/8474500/pexels-photo-8474500.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Jet Propulsion Laboratory, Southern California",
-          "time": "Oct 20, 2026",
-          "content": "NASA's Curiosity rover is on its way to examine a Martian rock layer that appears out of place and may have formed from ancient volcanic ash. The layer, known as a yardang, stretches 10 miles across the northwestern reaches of Mount Sharp on Mars. Mission scientists are excited to study the layer closely, as it could provide clues about Mars' history. The rover has been climbing Mount Sharp since 2014, and its ascent has been marked by the discovery of different geological formations, including spiderweb-like boxwork ridges. The rover is now in the second year of its fifth extended mission, during which it will drive through layers enriched with sulfates and carbonates, signs of ancient drying at the surface. Scientists expect increasingly detailed images as the rover approaches the yardangs, with the goal of reaching the base of the cliffs by 2027 to collect data and investigate how they formed.",
+          "title": "Salk Institute Maps Mouse Exercise Response, Revealing Insights",
+          "image": "https://images.pexels.com/photos/38006271/pexels-photo-38006271.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "La Jolla, USA",
+          "time": "Oct 21, 2026",
+          "content": "Salk Institute researchers have created a comprehensive molecular map of how healthy mice respond to exercise, offering insights that could help improve performance, reduce injury risk, and explain the benefits of regular physical activity. The study, published in Cell, analyzed the genetic changes that occur in 22 different tissues in mice that voluntarily ran on a wheel for eight weeks, compared to sedentary mice. The findings reveal that exercise alters the activity of nearly half of the genes examined, with different tissues adapting in various ways. The research also highlights the importance of considering sex and circadian rhythm when studying the effects of exercise on the body, as well as the potential for single-cell analysis to provide a more detailed understanding of how exercise impacts individual cells and tissues.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/nasas-curiosity-rover-unveils-a-spectacular-new-view-of-mars-at-dawn/"
+          "url": "https://scitechdaily.com/scientists-discover-exercise-changes-the-body-in-ways-we-never-fully-understood/"
         },
         {
           "id": "t-3",
-          "title": "AI replaces switchboard jobs, shifting women's roles",
-          "image": "https://images.pexels.com/photos/11125742/pexels-photo-11125742.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
-          "time": "Oct 20, 2026",
-          "content": "Before Siri and Alexa, there were women operating switchboards, a vital job that dominated the lives of many white, US-born women under 20. Today, this job is gone, and the dawn of artificial intelligence raises concerns about the impact on society, culture, and the economy. Women are likely to be affected by AI, which focuses on routine tasks and numbers, similar to the clerical jobs that many women hold. Historically, technological progress has led to changes in the job market, and women have adapted, moving into new roles as the economy evolves. With AI, there is a potential outcome where it eliminates tasks but not entire jobs, allowing workers to focus on higher-value tasks. However, the future is uncertain, as AI can learn and adapt.",
+          "title": "Global Automakers Face Pressure to Innovate on Prices and Tech",
+          "image": "https://images.pexels.com/photos/5982900/pexels-photo-5982900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "China",
+          "time": "Oct 21, 2026",
+          "content": "Global automakers face a challenge from consumers who want competitive prices and better technology. In China, technology and features are the top priority for 58% of buyers, while in the US and Europe, price is the main consideration. However, Chinese consumers still expect affordable prices, pushing carmakers to innovate. Western markets are expected to follow, with competitive pricing and technology playing a bigger role in purchasing decisions. The rise of Chinese manufacturers and weakening brand loyalty also threaten established manufacturers' advantages. Meanwhile, younger consumers in the US and Europe are more open to new brands and technology, forcing manufacturers to adapt and keep prices competitive to stay ahead.",
           "theme": "#EBF2FA",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/19/ai-job-losses-women-automation-risk.html"
+          "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html"
         }
       ]
     },
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "Type 2 Diabetes Patients With Stable Rhythms Control Blood Sugar Better",
-          "image": "https://images.unsplash.com/photo-1685485276223-0bb0226dcca8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Ymxvb2QlMjBnbHVjb3NlJTIwbW9uaXRvcmluZ3xlbnwxfDB8fHwxNzkyNDAxODE2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Ansan, South Korea",
-          "time": "Oct 19, 2026",
-          "content": "Patients with type 2 diabetes who use insulin have a better chance of controlling their blood sugar levels if they have a consistent daily rhythm. Researchers found that patients with the most stable daily rhythms were 2.3 times more likely to meet their blood sugar goals compared to those with less stable rhythms. The study, which involved 122 patients, also found that patients who were more active in the afternoon had smaller swings in their blood sugar levels. Additionally, patients who got sufficient sleep had a lower risk of having low blood sugar and smaller glucose fluctuations. The researchers believe that maintaining regular daily rhythms can help manage blood sugar levels and plan to conduct a follow-up study to confirm this.",
+          "title": "AI detects increased risk of sudden cardiac death through EKGs",
+          "image": "https://images.unsplash.com/photo-1694903110330-cc64b7e1d21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwxfDB8fHwxNzkyNTUzNzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Sweden",
+          "time": "Oct 21, 2026",
+          "content": "Researchers at the University of California, Berkeley have developed an artificial intelligence system that can detect subtle electrical patterns in routine electrocardiograms (EKGs) associated with an increased risk of sudden cardiac death. The AI system outperformed a standard clinical screening method, raising the possibility that doctors could identify more at-risk patients before their hearts suddenly stop. The system analyzed over 440,000 EKGs collected over six years through Sweden's healthcare system and linked these recordings to death certificates, training the AI model to recognize electrical patterns associated with subsequent sudden cardiac death. The algorithm identified subtle variations in EKG waveforms that conventional clinical assessments often overlook, and the findings could help improve both risk prediction and understanding of the biological processes behind sudden cardiac death.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-uncover-a-hidden-factor-that-could-change-how-we-manage-diabetes/"
+          "url": "https://scitechdaily.com/scientists-discover-a-hidden-electrical-signal-in-the-heart-that-could-predict-sudden-death/"
         },
         {
           "id": "hw-3",
-          "title": "Scientists Study 'Immortal Jellyfish' Rejuvenation Secrets",
-          "image": "https://images.unsplash.com/photo-1508311603478-ce574376c3cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8amVsbHlmaXNoJTIwY2VsbHN8ZW58MXwwfHx8MTc5MjQwMTk4M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Galveston, USA",
-          "time": "Oct 19, 2026",
-          "content": "Scientists have discovered a unique property of the Turritopsis dohrnii jellyfish, also known as the 'immortal jellyfish', which can rewind its life cycle and revert to a younger state. This process involves a transformation of adult cells into stem cells, allowing the jellyfish to create a new polyp and eventually grow into adult jellyfish again. Researchers are studying the genetic and molecular processes behind this phenomenon, hoping to unlock its secrets and potentially apply them to human cells to treat age-related diseases. While the goal is not to reverse human aging entirely, scientists aim to explore ways to coax human cells into more youthful states to heal wounds and treat age-related maladies. The research is still in its early stages, but initial findings suggest that the immortal jellyfish's ability to rejuvenate may be linked to its enhanced ability to repair DNA damage and maintain telomeres, which could hold the key to understanding and potentially applying its regenerative abilities to humans.",
+          "title": "Eagles QB Jalen Hurts Out for Season with Deep Vein Thrombosis",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Jalen_Hurts_11-14-22_%28cropped%29.jpg/500px-Jalen_Hurts_11-14-22_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Philadelphia, USA",
+          "time": "Oct 21, 2026",
+          "content": "Philadelphia Eagles quarterback Jalen Hurts, 28, may be out for the rest of the season after being diagnosed with deep vein thrombosis and blood clots in his lungs. The condition occurs when a blood clot forms in a deep vein, often caused by injury, inactivity, or genetic predisposition. Symptoms can include calf pain, swelling, and cramping, and in severe cases, can lead to pulmonary embolism, a life-threatening condition. Doctors typically treat blood clots with blood thinners and recommend avoiding activities that may cause injury. Hurts' case may have been caused by a calf injury he received during a game against the Los Angeles Rams. The Eagles have announced that Hurts will not play against the Carolina Panthers on Sunday and will undergo treatment. The condition is common, with nearly 900,000 people in the US diagnosed with a blood clot in the leg or lung each year.",
           "theme": "#E8F5F1",
-          "source": "BBC",
-          "url": "https://www.bbc.com/future/article/20261016-the-rejuvenating-secrets-of-the-immortal-jellyfish"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/20/health/blood-clots-jalen-hurts"
         }
       ]
     },
@@ -139,25 +139,25 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Antarctic ice cliffs stabilizing, challenging climate projections",
-          "image": "https://images.unsplash.com/photo-1783886546586-40f40baf2331?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TWFyaW5lJTIwaWNlJTIwY2xpZmYlMjBpbnN0YWJpbGl0eXxlbnwxfDB8fHwxNzkyNDA3MjkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Antarctica",
-          "time": "Oct 19, 2026",
-          "content": "A recent study using satellite data from NASA's Ice, Cloud, and Land Elevation Satellite-2 (ICESat-2) has found that Antarctic ice cliffs, previously thought to be unstable and prone to rapid collapse, are actually stabilizing over time. The four-year survey of over 15,000 ice cliffs found that the tallest cliffs did collapse, but the ice sheet retreated faster than predicted and then stabilized. The researchers analyzed the data and found that factors such as the shape of the land beneath the ice, the thickness of the ice, and the surrounding water level all play a role in stabilizing the cliffs. This challenges previous assumptions about runaway ice loss and its contribution to rising sea levels. The study's findings suggest that the impact of climate change on sea levels may be less severe than previously thought.",
+          "title": "India Issues Rainfall Warnings for South India",
+          "image": "https://images.unsplash.com/photo-1511634829096-045a111727eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwcmFpbmZhbGx8ZW58MXwwfHx8MTc5MjU1NTM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Tamil Nadu, India",
+          "time": "Oct 21, 2026",
+          "content": "The Indian Meteorological Department has issued an orange alert for Tamil Nadu, Puducherry, and Karaikal, warning of heavy to very heavy rainfall of up to 204.4mm on October 20, 2026. Additionally, a yellow alert has been issued for Kerala, Mahe, coastal Andhra Pradesh, and the Andaman and Nicobar Islands for heavy rainfall, thunderstorms, and lightning. Strong winds of 40-50 km/h, gusting to 60 km/h, are forecast over the southwest Arabian Sea, prompting warnings for fishermen. Meanwhile, the rest of northern, central, eastern, western, and northeastern India is expected to experience largely dry weather over the coming week.",
           "theme": "#E7F4EF",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/something-unexpected-is-happening-to-antarcticas-collapsing-ice-cliffs/"
+          "source": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-heavy-rain-alert-for-southern-india-strong-winds-forecast-over-arabian-sea"
         },
         {
           "id": "env-2",
-          "title": "Avalanche Sweeps Away Over 100 Sheep in Himachal Pradesh",
-          "image": "https://images.pexels.com/photos/5521067/pexels-photo-5521067.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Himachal Pradesh, India",
-          "time": "Oct 17, 2026",
-          "content": "In October 2025, Joginder Chand, a 50-year-old shepherd from Himachal Pradesh's Chamba district, set out to migrate his 600 sheep and goats to warmer grazing grounds in Kangra district. Suddenly, an avalanche swept away over 100 animals. Rising temperatures and shifting weather patterns are disrupting the seasonal migrations and livelihoods of pastoral-nomadic communities",
+          "title": "Antarctica Turns Green and Red Due to Penguin Droppings Fueling Algae",
+          "image": "https://images.pexels.com/photos/20433331/pexels-photo-20433331.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Antarctica",
+          "time": "Oct 21, 2026",
+          "content": "Antarctica, known for its vast expanses of white ice and snow-covered mountains, is unexpectedly turning green and red in some areas. This phenomenon has caught the attention of scientists who are trying to understand the connection to climate change. One factor contributing to the colorful patches is penguin droppings, which provide nutrients to microscopic algae growing on the snow. The scientists suspect that this natural process may accelerate local melting, adding to the effects of a warming climate. The impact of penguin droppings on the melting of Antarctica's snow is still being studied, and the effects are not yet fully understood.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/disrupted-rhythms-how-climate-change-affects-himalayan-pastoralism"
+          "url": "https://www.downtoearth.org.in/climate-change/how-penguin-droppings-may-accelerate-snowmelt-in-antarctica"
         },
         {
           "id": "env-3",
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Harryhausen's Monster Figures on Display in Winchester",
-          "image": "https://images.pexels.com/photos/17800214/pexels-photo-17800214.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Winchester, Hampshire",
-          "time": "Oct 19, 2026",
-          "content": "An exhibition showcasing the original monster figures and artwork of special effects pioneer Ray Harryhausen is now on display at The Arc in Winchester, Hampshire. The exhibit features models from Harryhausen's classic films, including Jason and the Argonauts, The Golden Voyage of Sinbad, One Million Years B.C., and Clash of the Titans. Harryhausen's daughter, Vanessa, remembers her childhood home being filled with the models, which her father used to create stop-motion animations. The exhibit also highlights Harryhausen's painstaking process of creating dynamic sequences by moving each model a fraction at a time. The collection is in remarkable condition, thanks to instructions left by Harryhausen, and is expected to inspire new generations to appreciate his work.",
+          "title": "BBC Closes TV Channels, Radio Station, and Cuts Jobs to Save £500m",
+          "image": "https://images.unsplash.com/photo-1589186161289-9eb8898086df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VFYlMjBzdHVkaW98ZW58MXwwfHx8MTc5MjU1NjEyMnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 21, 2026",
+          "content": "The BBC is making significant changes to reduce costs and save £500m over two years. The corporation is closing its linear TV channels, BBC Three and BBC Scotland, and shifting them online-only. The BBC has also announced the closure of Radio 4 Extra, which mainly airs archived content. This decision aims to make every pound work harder for audiences and respond to the immediate cost pressures. The BBC's director-general, Matt Brittin, said the decision was not taken lightly and acknowledged that it would be hard for audiences and colleagues. The affected staff were informed about the changes, and the BBC is planning to cut between 1,800 and 2,000 jobs to achieve the savings. The move is part of the BBC's efforts to reinvent itself for a changing world and maintain its services amid significant financial pressures.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckqxn4xnnp1zo"
+          "url": "https://www.bbc.com/news/articles/cqx2v800nnr2o"
         },
         {
           "id": "ent-2",
-          "title": "Paul Shipper: From Film Fan to Illustrator of Marvel and Star Wars",
-          "image": "https://images.unsplash.com/photo-1787239813767-4c348c9a2318?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8VmludGFnZSUyMG1vdmllJTIwcG9zdGVyfGVufDF8MHx8fDE3OTIzMDI3NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Birminghams Jewellery Quarter",
-          "time": "Oct 18, 2026",
-          "content": "Paul Shipper, a film fan-turned-illustrator, has come a long way from creating movie poster artwork for fun. He has worked on some of Hollywood's biggest franchises, including Marvel, Indiana Jones, and Star Wars. Shipper's passion for illustration started when he was a kid, inspired by the films of George Lucas and Steven Spielberg. He shared his designs online, which led to opportunities that once seemed like a dream. The illustrator has worked on various projects, including posters and artwork for blockbuster titles, and has maintained a consistent artistic style despite working across different projects. Shipper is now involved in a charity exhibition, AMPjam Presents: We've Been Framed, which brings together more than 60 artists from around the world to create original artworks inspired by films and television shows.",
+          "title": "New documentary reveals unseen footage from Only Fools and Horses",
+          "image": "https://images.unsplash.com/photo-1579520306276-7d07992a6efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QnJpdGlzaCUyMHNpdGNvbXxlbnwxfDB8fHwxNzkyNTU2NDI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Margate",
+          "time": "Oct 21, 2026",
+          "content": "A new documentary, Only Fools and Horses: The Lost Archive, features previously unseen footage from the classic British sitcom. The documentary includes cut clips from several episodes, including The Jolly Boys' Outing, which was filmed in Margate. The newly-found content shows the well-written characters in more depth and texture, and includes extended scenes that were previously removed to meet time restrictions. Richard Latto, a comedy archive specialist, hopes the newly-digitized footage will help restore episodes of the show in high definition. The Jolly Boys' Outing episode, which aired in 1989, is one of the show's most beloved episodes, reaching over 20 million viewers and inspiring tours of Margate.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqx2zz0xdpdko"
+          "url": "https://www.bbc.com/news/articles/cvrlyzlzlwj0o"
         },
         {
           "id": "ent-3",
-          "title": "Scottish Actor Hopes Fans Accept His Accent in Marvel Series",
-          "image": "https://images.unsplash.com/photo-1620336655052-b57986f5a26a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q29taWMlMjBib29rJTIwY2hhcmFjdGVyfGVufDF8MHx8fDE3OTIyMjE0NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Rob Brydon plays himself in comedy series The Trip",
+          "image": "https://images.unsplash.com/photo-1651163681754-69111e3a0c60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y29tZWR5JTIwZHVvfGVufDF8MHx8fDE3OTI1NTY2MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "London",
-          "time": "Oct 17, 2026",
-          "content": "Scottish actor Ruaridh Mollica, who plays Tommy Maximoff in the Marvel Cinematic Universe miniseries VisionQuest, hopes fans will accept his Scottish accent. He says speaking in his own accent helped him bring the character to life, and he's excited to be part of the show.",
+          "time": "Oct 21, 2026",
+          "content": "Comedian Rob Brydon, known for his role in Gavin and Stacey, initially doubted the idea of playing a fictionalized version of himself in the comedy series The Trip. However, he enjoyed playing a heightened version of himself, alongside Steve Coogan, and thought it made viewers more curious. The duo stars in the series, directed by Michael Winterbottom, as exaggerated versions of themselves, dining at different restaurants and traveling around the world. In the latest season, titled The Trip to the Northern Lights, they explore Scandinavia, searching for the aurora borealis. Brydon found filming in the region to be breathtaking, despite some cold weather, and enjoyed immersing himself in Scandinavian traditions, including saunas and cold plunges. The release date for the new season has yet to be announced.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c39wz879wxl2o"
+          "url": "https://www.bbc.com/news/articles/c5n49ll9l90wo"
         }
       ]
     },
@@ -225,25 +225,25 @@
       "cards": [
         {
           "id": "pp-3",
-          "title": "Private companies profit from taxpayer-funded housing",
-          "image": "https://images.unsplash.com/photo-1585354745459-79a5f21f0d6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTQwU3VwcG9ydGVkJTIwZXhlbXB0JTIwYWNjb21tb2RhdGlvbnxlbnwxfDB8fHwxNzkyNDA3MTQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Birmingham, UK",
-          "time": "Oct 19, 2026",
-          "content": "Private companies are making huge profits by receiving housing benefits for vulnerable people, including those with additional needs, but failing to provide required support. These companies are exploiting the system, using social media to lure people into taxpayer-funded housing with promises of free rooms and other perks. The system, called supported exempt accommodation (SEA), is designed to provide housing and care, but charities, politicians, and residents report that many parts of the system are being exploited, with most welfare payments being made to non-profit registered providers who then hire private companies to manage properties. In Birmingham alone, the Department for Work and Pensions paid out £410m in the last financial year, and critics say that some housing providers are making a profit while providing poor support.",
+          "title": "Elon Musk Considers Merging Tesla and SpaceX",
+          "image": "https://images.unsplash.com/photo-1662947475743-35a389428742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwVGVzbGElMjBsb2dvfGVufDF8MHx8fDE3OTI1NTU3OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "California, USA",
+          "time": "Oct 21, 2026",
+          "content": "Elon Musk has expressed interest in merging his companies Tesla and SpaceX, which he believes could be a good idea. The merger is under consideration, with special committees formed to examine the possibility. Musk emphasized that a merger would require shareholders' approval, but believes there is merit in combining the two companies. If successful, the merger would be one of the largest in history, with the combined value of the two companies estimated to be over $3.5 trillion. Musk's comments came as Tesla prepares to report its quarterly results, with shares rising 2% after being down for weeks. SpaceX, meanwhile, has been expanding its offerings, including cloud compute capacity, which has become its most profitable line of business.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm62y80yxw9vo"
+          "url": "https://www.bbc.com/news/articles/cmlyl09xjke4o"
         },
         {
           "id": "eb-2",
-          "title": "UK Home Sellers Cut Prices by £21,000 Amid Mortgage Rate Surge",
-          "image": "https://images.pexels.com/photos/8470800/pexels-photo-8470800.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Britain",
-          "time": "Oct 19, 2026",
-          "content": "In Britain, home sellers reduced asking prices on over 3,000 properties daily in September, the highest monthly total in 15 years, according to Rightmove. The surge in properties on the market, combined with some sellers setting unrealistic expectations, drove the price cuts. With mortgage rates at a three-year high, buyers are being cautious and selective, with many working to a tight budget. The average price reduction was nearly 7%, equivalent to £21,000 cut from a typical home. Properties with price reductions typically took 119 days to sell, compared to 39 days for those listed at one price. Buyers are in the driving seat, and sellers are facing difficulties, particularly those selling leasehold properties in England.",
+          "title": "UK Unemployment Rate Falls to 4.7%, Labour Market Edges Up",
+          "image": "https://images.unsplash.com/photo-1662714211047-27327efe05ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8VUslMjBqb2IlMjBtYXJrZXR8ZW58MXwwfHx8MTc5MjU1NTk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 21, 2026",
+          "content": "United Kingdom's unemployment rate has dropped to its lowest point in over a year, at 4.7%, according to the Office for National Statistics (ONS). Meanwhile, job vacancies have fallen by 21,000 to 691,000, with smaller businesses citing labour costs as a key factor. Despite this, the employment rate has edged up, and the labour market is considered 'broadly flat'. Average earnings excluding bonuses have risen 3.7%, and wages have grown 0.8% in real terms. While the figures indicate a recovery in the jobs market, there are concerns about the impact of rising energy costs, National Insurance, and the minimum wage on businesses and young people. The Secretary of State for Work and Pensions has praised the resilience of the labour market, but acknowledged that too many young people remain unemployed. Shadow Chancellor Andrew Griffith has criticized the government's policies, saying that businesses cannot afford to hire.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c84g13z6xx4eo"
+          "url": "https://www.bbc.com/news/articles/c6eq327pzr53o"
         },
         {
           "id": "eb-1",

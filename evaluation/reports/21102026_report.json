@@ -1,0 +1,270 @@
+{
+    "date": "21102026",
+    "timestamp": "2026-10-21T09:53:46.412809",
+    "duration_seconds": 4791.21,
+    "stages_duration_seconds": {
+        "scrape": 902.12,
+        "guardrails": 153.93,
+        "deduplication": 12.12,
+        "category_validation": 231.0,
+        "ranking": 416.25,
+        "processing": 3075.71,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 9,
+            "Tech": 19,
+            "People": 55,
+            "Environment": 5,
+            "Economy": 14,
+            "Entertainment": 24
+        },
+        "total_scraped": 126,
+        "guardrail_passed": 126,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 15,
+        "final_categories": 6
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 126,
+        "classified_safe": 95,
+        "classified_unsafe": 31,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 31,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 123,
+        "rejected_count": 29,
+        "rejected_articles": [
+            {
+                "title": "Salesforce announces $5.66 billion deal for Braze, sending BRZE stock soaring 51%",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a business deal and its financial implications, making it more relevant to the 'economy and business' category than 'science and technology'."
+            },
+            {
+                "title": "Apple adds U.S. titanium supplier for iPhone Duo as supply stays tight",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses Apple's efforts to expand manufacturing in the US, including a new partnership with a US titanium supplier, which is a significant economic development."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on stock market trends, AI stocks, and financial news, making it more relevant to the 'economy and business' category than the current 'science and technology' category."
+            },
+            {
+                "title": "Is Ebola under control in Kenya after nine cases confirmed?",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses an Ebola outbreak in Kenya, which falls under the 'health' category, as it reports on a specific news development related to medicine and public health."
+            },
+            {
+                "title": "Nigeria confirms Ebola case linked to East Africa",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article reports a specific news development about a case of Ebola in Nigeria, which is a health-related story."
+            },
+            {
+                "title": "Borneo burning: Life on the frontline of South East Asia's toxic haze",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the environmental catastrophe caused by wildfires in Indonesia, highlighting the impact on human health and daily life, making it more relevant to 'earth and environment' than the current category 'people'."
+            },
+            {
+                "title": "Is Ebola under control in Kenya after nine cases confirmed?",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article primarily reports on a public health crisis and outbreak of Ebola in Kenya, making it most relevant to the 'health' category."
+            },
+            {
+                "title": "Nigeria confirms Ebola case linked to East Africa",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses a confirmed Ebola case in Nigeria, which is a significant health development."
+            },
+            {
+                "title": "Christina Applegate says she was wrongly diagnosed with MS",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Christina Applegate's experience with a misdiagnosis of multiple sclerosis and the subsequent investigation into her symptoms, making it most relevant to the 'health' category."
+            },
+            {
+                "title": "UK asks Apple to widen access to its payment tech",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article focuses on a dispute between the UK's Competition and Markets Authority and Apple over the latter's payment technology, which is a significant economic and business issue."
+            },
+            {
+                "title": "Is Donald Trump ready to do business with Myanmar?",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the shift in US policy towards Myanmar and its implications, which is more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "OpenAI CEO Sam Altman wins dismissal of sister's lawsuit",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses a personal and legal matter, involving the CEO of OpenAI, which is a matter of public interest and falls under the 'people' category."
+            },
+            {
+                "title": "The tech helping crack decades-old cold cases",
+                "from": "economy and business",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the application of DNA technology and AI in solving cold cases, which is a scientific and technological development."
+            },
+            {
+                "title": "Christina Applegate, a leading MS advocate, says doctors found she doesn’t have the disease after all",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on Christina Applegate's personal life and health issues, which are more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Christina Applegate says she was wrongly diagnosed with MS",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Christina Applegate, an actress, and her personal experience with a misdiagnosis, which is a significant human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "Katie Razzall: BBC closures make business sense, but far more savings are needed",
+                "from": "entertainment",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article discusses the BBC's financial situation, its need to cut costs, and the impact of these changes on its services, making it more relevant to the 'economy and business' category than 'entertainment'."
+            },
+            {
+                "title": "Katie Razzall: BBC closures make business sense, but far more savings are needed",
+                "from": "entertainment",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the BBC's financial situation, cost-cutting measures, and the impact on its services, making 'economy and business' a more relevant category than 'entertainment'."
+            },
+            {
+                "title": "McCartney and Starr back new Beatles attraction",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Sir Paul McCartney and Ringo Starr, two iconic musicians, and their involvement in a new Beatles attraction in Liverpool, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "BBC Three, BBC Scotland and Radio 4 Extra broadcast channels to close",
+                "from": "entertainment",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the BBC's financial pressures and job cuts, which are more relevant to the economy and business category than entertainment."
+            },
+            {
+                "title": "'Medieval women could make accusations': The true story of a 15th-Century sexual assault survivor's quest for justice",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on a historical event and the story of a medieval woman, which is a significant aspect of human interest and falls under the 'people' category."
+            },
+            {
+                "title": "Woman says she 'couldn't speak or breathe' during alleged rape by Russell Brand",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article reports on a court trial involving a celebrity, Russell Brand, and alleged rape charges, which is a significant human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "Woman says she 'couldn't speak or breathe' during alleged rape by Russell Brand",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Russell Brand, a celebrity, and the allegations made against him, making it a news story that belongs in the 'people' category."
+            },
+            {
+                "title": "'Alice Cooper is a character, like Jekyll and Hyde'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the personal life and career of rock legend Alice Cooper, with a significant portion dedicated to his autobiography, personal struggles, and spiritual journey, making 'people' the most relevant category."
+            },
+            {
+                "title": "Rantzen felt 'deprived of choice' over her own death",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the life and death of Dame Esther Rantzen, a prominent person in the field of television and charity work."
+            },
+            {
+                "title": "Brighton band caught up in riots during Paris gig",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the band members' experiences and reactions to the riots, which falls under the 'people' category, as it involves human-interest stories and personal accounts."
+            },
+            {
+                "title": "'Alice Cooper is a character, like Jekyll and Hyde'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily focused on the life and career of Alice Cooper, which falls under the 'people' category, rather than entertainment, despite being a well-known figure in the entertainment industry."
+            },
+            {
+                "title": "Katie Razzall: BBC closures make business sense, but far more savings are needed",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the BBC's decisions regarding its broadcast channels, which is a news story about people and organizations, rather than a specific entertainment topic."
+            },
+            {
+                "title": "BBC Scotland TV channel to close amid cuts to services",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article reports on a significant decision by the BBC, which has implications for the people involved, and the changes affect a range of programming and jobs."
+            },
+            {
+                "title": "Woman says she 'couldn't speak or breathe' during alleged rape by Russell Brand",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses allegations of rape against Russell Brand, a celebrity, and includes details about his personal life and interactions with the alleged victims."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 375,
+        "total_failures": 0,
+        "total_time_seconds": 383.84,
+        "prompt_tokens": 513871,
+        "response_tokens": 10049,
+        "total_tokens": 523920,
+        "usage_responses": 375,
+        "prompt_eval_seconds": 110.181,
+        "generation_seconds": 225.468,
+        "load_seconds": 22.759,
+        "server_total_seconds": 379.722,
+        "avg_response_time": 1.02
+    }
+}
