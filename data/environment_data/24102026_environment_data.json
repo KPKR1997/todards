@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-2",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "IPCC fails to agree on climate science report timeline for sixth time, drawing criticism from vulnerable nations",
+        "date": "2026-10-23T11:21:43.787Z",
+        "content": "The IPCC has failed to agree on a timeline for its Seventh Assessment Cycle reports for the sixth consecutive time since 2024. Least Developed Countries warn that further delays could prevent crucial climate science from informing the second Global Stocktake under the Paris Agreement in 2028. India, Saudi Arabia, Russia and several other countries favour publishing two major reports in 2029, citing concerns over scientific rigour and inclusive participation. The IPCC's 65th plenary session in Ethiopia was suspended without agreement on the publication schedule or budget. The timeline for publishing three Working Group reports by Intergovernmental Panel on Climate Change's (IPCC) Seventh Assessment Cycle (AR7) remains unresolved after delegates failed to reach an agreement at the body’s 65th plenary session, held from October 12 to 16, 2026 in Addis Ababa, Ethiopia. This was the sixth consecutive occasion since 2024 that delegates were unable to agree on a publication schedule. On October 21, the Least Developed Countries (LDC) negotiating group under the United Nations Framework Convention on Climate Change (UNFCCC) expressed deep disappointment that the session had been suspended without a decision on the timeline for the reports, which are intended to inform global climate action. During the plenary, some countries raised concerns that the proposed schedule would be too short to allow a rigorous and inclusive scientific assessment across the three working groups under the AR7 cycle. The reports cover the physical science basis of climate change (Working Group I), impacts, adaptation and vulnerability (Working Group II), and climate change mitigation (Working Group III). “IPCC assessments provide governments, at all levels, with scientific information that they can use to develop climate policies. IPCC assessments are a key input into the international negotiations to tackle climate change,” according to IPCC’s website.",
+        "url": "https://www.downtoearth.org.in/climate-change/ipcc-fails-to-agree-on-climate-science-report-timeline-for-sixth-time-drawing-criticism-from-vulnerable-nations",
+        "rank": 1,
+        "ranking_score": 24.3,
+        "ranking_reason": "The IPCC's failure to agree on a timeline for its Seventh Assessment Cycle reports is a significant scientific development that may have implications for global climate action.",
+        "ranking": {
+            "rank": 1,
+            "score": 24.3,
+            "base_score": 24.3,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 40,
+                "health_significance": 0,
+                "scientific_significance": 60,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 2,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "The IPCC's failure to agree on a timeline for its Seventh Assessment Cycle reports is a significant scientific development that may have implications for global climate action.",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 20,
+                "public_need_to_know": 40,
+                "public_concern": 10,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant scientific development in the environment category, specifically the IPCC's failure to agree on a timeline for its Seventh Assessment Cycle reports, which may have implications for global climate action and the Paris Agreement. The story provides context and quotes from relevant stakeholders, making it a substantive and important development for readers to care about."
+            }
+        }
+    }
+]

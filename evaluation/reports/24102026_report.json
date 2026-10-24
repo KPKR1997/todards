@@ -1,0 +1,207 @@
+{
+    "date": "24102026",
+    "timestamp": "2026-10-24T12:23:04.170509",
+    "duration_seconds": 4664.87,
+    "stages_duration_seconds": {
+        "scrape": 1016.9,
+        "guardrails": 277.98,
+        "deduplication": 277.11,
+        "category_validation": 239.56,
+        "ranking": 393.26,
+        "processing": 2458.43,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 10,
+            "Tech": 20,
+            "People": 60,
+            "Environment": 5,
+            "Economy": 9,
+            "Entertainment": 18
+        },
+        "total_scraped": 122,
+        "guardrail_passed": 122,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 12,
+        "final_categories": 5
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 122,
+        "classified_safe": 80,
+        "classified_unsafe": 42,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 42,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 120,
+        "rejected_count": 20,
+        "rejected_articles": [
+            {
+                "title": "Scalpers offer Apple iPhone Duo buyers hundreds extra outside Beijing launch",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses consumer behavior and market trends surrounding the release of Apple's new iPhone Duo, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Musk's SpaceX is still restricting Starlink in Ukraine and the toll is rising",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses the impact of SpaceX's Starlink restrictions on Ukraine's military capabilities, which is a human-interest story and a matter of national security, falling under the 'people' category."
+            },
+            {
+                "title": "Texas Senate race: New Talarico ad rips Elon Musk 'dark money' push",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on Elon Musk's political spending and its connection to a Texas Senate race, which falls under the 'people' category."
+            },
+            {
+                "title": "Silicon Valley Democrats demand investigation into Starlink restrictions in Ukraine",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the use of Starlink internet service in Ukraine and the restrictions imposed, which is a people-related issue rather than a purely science and technology one."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses market trends, company performance, and individual actions (e.g., Elon Musk), which are more related to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "The artist dropping her debut album after a billion streams",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the artist Jazzy, her music, and her upcoming debut album, making it more relevant to the 'entertainment' category than the current 'people' category."
+            },
+            {
+                "title": "Oil spill washes up on UAE beaches after tanker strike",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses an oil spill on UAE beaches, which falls under the 'earth and environment' category, despite mentioning people-related aspects such as the crew's rescue."
+            },
+            {
+                "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on a health crisis, specifically the outbreak and deaths from Ebola in Kenya, making it a clear fit for the 'health' category."
+            },
+            {
+                "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article discusses the establishment of an AI Biosecurity Lab, which is primarily a scientific and technological development, with implications for the UK's ability to respond to emerging biological threats."
+            },
+            {
+                "title": "The artist dropping her debut album after a billion streams",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the artist Jazzy and her debut album, which is a music-related topic that falls under the entertainment category."
+            },
+            {
+                "title": "Oil spill washes up on UAE beaches after tanker strike",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses an oil spill affecting the UAE coastline, a clear environmental concern, making 'earth and environment' the most relevant category."
+            },
+            {
+                "title": "'It's been relentless' say IT workers on frontline of PHP cyber-security scramble",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article focuses on a critical cyber-security flaw in PHP and the scramble to fix it, which is a technical and scientific issue that falls under the 'science and technology' category."
+            },
+            {
+                "title": "The Indian workers filming their work to train AI",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article's primary focus is on the use of human-generated data to train artificial intelligence, which is a scientific and technological development."
+            },
+            {
+                "title": "First personalised cancer vaccine cuts risk of disease returning in major trial",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article reports on a medical breakthrough in cancer treatment, making it a clear fit for the 'health' category."
+            },
+            {
+                "title": "Who actually controls Ukraine's access to Starlink?",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article's focus on Ukraine's President Volodymyr Zelensky and US officials' statements makes it more relevant to the 'people' category than 'economy and business', as it involves international relations and political developments."
+            },
+            {
+                "title": "How does the UK state pension compare with other countries?",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses state pension and retirement benefits, which falls under the 'people' category, as it primarily concerns the welfare and financial security of individuals."
+            },
+            {
+                "title": "Civil servant who juggled five jobs says he was 'surprised' to be charged with fraud",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on a civil servant's employment and work habits, which is more relevant to the 'people' category than 'economy and business', despite some economic aspects being mentioned."
+            },
+            {
+                "title": "‘Everyone here wants to have sex with Nathan Fielder’",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article's primary focus is on Nathan Fielder's newfound sex symbol status and the cultural phenomenon surrounding his documentary 'You Can See Everything', which falls under the 'people' category."
+            },
+            {
+                "title": "'The scandal of the century': The English duchess charged with treason and witchcraft",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Eleanor Cobham, a historical figure, and her story, which falls under the 'people' category, despite some elements of 'science and technology' and 'history' present in the article."
+            },
+            {
+                "title": "Final James Bond screen tests to take place this weekend, reports say",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the casting process and potential actors to play James Bond, which falls under the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 364,
+        "total_failures": 0,
+        "total_time_seconds": 453.61,
+        "prompt_tokens": 512563,
+        "response_tokens": 9707,
+        "total_tokens": 522270,
+        "usage_responses": 364,
+        "prompt_eval_seconds": 120.049,
+        "generation_seconds": 221.297,
+        "load_seconds": 30.803,
+        "server_total_seconds": 403.077,
+        "avg_response_time": 1.25
+    }
+}

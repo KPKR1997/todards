@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 75",
+    "issue": "Issue No. 76",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "21 October 2026",
+    "publishedAt": "24 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "US Intel Sharing Improves with Ukraine, Zelensky Says",
-          "image": "https://images.unsplash.com/photo-1719947691028-0be6e2dccddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8V2hpdGUlMjBIb3VzZXxlbnwxfDB8fHwxNzkyNTU0NTk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Oslo, Norway",
-          "time": "Oct 21, 2026",
-          "content": "Ukrainian President Volodymyr Zelensky has announced that US intelligence sharing on Russian missile attacks has improved after talks with President Donald Trump's special envoy Steve Witkoff. The meeting in Oslo, Norway, followed accusations that Washington was withholding key intelligence, which US Secretary of State Marco Rubio rejected as 'scandalous'. Zelensky expressed gratitude that the intelligence sharing now 'works' and that US early warnings and missile interceptors are crucial for Ukraine's civilian safety. The Ukrainian President also reiterated his country's readiness for negotiations to end the war with Russia, which has been ongoing since Putin's full-scale invasion in 2022. Witkoff is set to meet with Russian President Vladimir Putin to discuss the proposals agreed upon in Oslo, while Trump has called for Ukraine to 'make a deal' and end the war.",
+          "title": "US Relocates Diplomats, Families from Middle East Over Escalation Threat",
+          "image": "https://images.unsplash.com/photo-1653289755997-1b028ff8ace8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGlwbG9tYXRpY3xlbnwxfDB8fHwxNzkyODIzNzIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Middle East",
+          "time": "Oct 24, 2026",
+          "content": "The US government is quickly relocating diplomats and their families from the Middle East due to the threat of regional escalation. This decision echoes the chaos experienced earlier this year when families scrambled to leave their homes in the region. Many of those leaving had only recently returned to their posts after being ordered out during the Iran war. The departures are caused by the increased threat of Houthi attacks and Iranian terror plots targeting US officials. Diplomats are expressing frustration and chaos, with many families receiving less financial support for their relocation compared to earlier this year. The State Department has confirmed that it is providing per diem allowances and support for lodging and schools to affected families. The moves come as the US government is also warning of the potential for hostilities to escalate rapidly beyond the immediate area.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq5ynkx3xy11o"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/23/politics/us-moves-diplomats-middle-east-escalation-fears"
         },
         {
           "id": "pp-2",
-          "title": "King Charles hosts Sultan of Oman at Windsor Castle amid diplomatic efforts",
-          "image": "https://images.unsplash.com/photo-1700126530786-0950a9c9c9a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8V2luZHNvciUyMENhc3RsZXxlbnwxfDB8fHwxNzkyNTU0ODEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Windsor, UK",
-          "time": "Oct 21, 2026",
-          "content": "King Charles welcomed Sultan Haitham bin Tarik Al Said of Oman at a state banquet in Windsor Castle, highlighting Oman's efforts to keep open the Strait of Hormuz and diplomatic mediation in the Iran conflict. The King praised Oman's noble efforts and commended Prince William's work alongside the Sultan's son on an expedition project. The state visit, which included a dinner of pheasant and quince, showcased the strong partnership between the UK and Oman, despite tensions in the Middle East. The banquet featured a non-alcoholic spiced coffee drink instead of a traditional cocktail, due to the presence of Muslim guests. Prince Harry, not a working royal, was absent, but his desire to reconcile with his family garnered attention. The state visit aimed to strengthen business and military links between the two nations.",
+          "title": "Trump gives House Republicans $30 million amid tough political climate",
+          "image": "https://images.pexels.com/photos/5926225/pexels-photo-5926225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington",
+          "time": "Oct 24, 2026",
+          "content": "In the final stretch before the midterms, House Speaker Mike Johnson asked President Donald Trump for additional funds to help House Republicans in tough political climate. Trump's political war chest dumped nearly $30 million into dozens of House races. However, due to deteriorating political conditions, Republicans are now focusing on protecting dozens of unexpectedly imperiled incumbents in traditionally red turf, rather than trying to flip Democrat-held seats. GOP operatives are shifting resources away from several seats that were redrawn to favor Republicans, and are pouring in millions to defend core incumbents in an attempt to hold onto a bulwark of traditionally red seats. Despite the challenges, Republicans believe they can still flip a half-dozen Democrat-held seats, particularly in blue states where voters are more likely to take out their anger on local Democrats than on Trump and the GOP.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c8040qgryqd3o"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/23/politics/mike-johnson-trump-house-races"
         },
         {
           "id": "eb-1",
-          "title": "US Eases Myanmar Policy After Meeting with Military Regime Leader",
-          "image": "https://images.pexels.com/photos/8909281/pexels-photo-8909281.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Nay Pyi Taw, Myanmar",
-          "time": "Oct 21, 2026",
-          "content": "A significant shift in US policy towards Myanmar's military regime has been revealed, following a meeting between US Assistant Secretary of State Michael Vance and regime leader Min Aung Hlaing. The meeting, which took place in Myanmar's capital Nay Pyi Taw, was the most senior US official to meet Min Aung Hlaing since he seized power in the 2021 coup. Prior to this, the US had maintained a policy of isolating the regime, but recent developments suggest a change in approach. This comes after a series of targeted sanctions were applied against those supporting the junta, and a personal letter from US President Donald Trump to Min Aung Hlaing, in which he informed him that his country's economy was about to be hit by 40% tariffs. The meeting with Vance was likely to have discussed other matters of mutual interest, and could signal a new direction in US policy towards Myanmar.",
+          "title": "US Justice investigates former aide over conflict of interest",
+          "image": "https://images.pexels.com/photos/36060296/pexels-photo-36060296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Oct 24, 2026",
+          "content": "The US Department of Justice is investigating whether Corey Lewandowski, a former aide to Department of Homeland Security Secretary Kristi Noem, profited personally from his role. Lewandowski worked closely with Noem until they were both ousted in March following a series of controversies, including fatal shootings by immigration officers. The probe is related to contracts signed under Noem's leadership, with a source saying Lewandowski approved some contracts despite lacking legal authority. Lewandowski's attorney denies any wrongdoing, and President Trump has expressed his desire for his people to be honest, stating that those who are not honest must be prosecuted. This investigation was sparked by a referral from the DHS inspector general's office and follows a controversy over a $220m advertising contract awarded to two companies with ties to Noem and her inner circle.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cw203zx1x1rno"
+          "url": "https://www.bbc.com/news/articles/c6ly0dg453v8o"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Texas A&M University scientists reveal DNA's thymine survival secret",
-          "image": "https://images.unsplash.com/photo-1732046801426-f32529468176?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8RE5BJTIwbW9sZWN1bGV8ZW58MXwwfHx8MTc5MjU1NDA1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Texas A&M University, USA",
-          "time": "Oct 21, 2026",
-          "content": "Scientists at Texas A&M University have discovered that DNA's reliance on the chemical building block thymine may have been a result of its ability to help early genetic molecules survive intense ultraviolet radiation from the sun without an ozone layer. The team used biophotonics to study thymine and uracil under controlled UV conditions, finding that thymine tends to direct UV damage into a more reversible form. This suggests that early life on Earth may have survived intense sunlight by controlling and repairing damage, rather than avoiding it. The researchers plan to extend their investigation to the origin-of-life process, exploring whether life's chemical building blocks formed and assembled entirely on Earth or were delivered from elsewhere. The study's findings also establish a new reference framework for research beyond molecular evolution, with potential applications in pathogen detection and UV disinfection.",
+          "title": "Females' Burial Sites Suggest Homo Naledi Had Sex-Specific Customs",
+          "image": "https://images.pexels.com/photos/18416953/pexels-photo-18416953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "South Africa",
+          "time": "Oct 24, 2026",
+          "content": ". } The discovery of ancient tooth proteins in South Africa's Dinaledi Chamber has led researchers to believe that the extinct human relative, Homo naledi, might have reserved a burial site exclusively for females. The study, published in Cell, analyzed 23 teeth from at least 20 individuals and found no male proteins, suggesting that the sampled individuals may have all been female. This finding raises the possibility that Homo naledi had a complex custom of sex-specific burial, previously thought unique to modern humans. The discovery also implies that the species might have had a more organized society than previously thought. According to the researchers, tooth enamel can preserve evidence that other skeletal material may lose, making it an ideal carrier of genetic information from deep time. The study helps to explain the long-standing mystery of why Homo naledi lacked significant variation, suggesting that they may have all belonged to one sex. The findings offer rare insights into a culture that has, until now, been difficult to access directly.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-may-have-solved-a-billion-year-old-mystery-about-dnas-evolution/"
+          "url": "https://scitechdaily.com/a-cave-full-of-ancient-human-remains-has-a-strange-secret-where-are-all-the-males/"
         },
         {
           "id": "st-2",
-          "title": "Salk Institute Maps Mouse Exercise Response, Revealing Insights",
-          "image": "https://images.pexels.com/photos/38006271/pexels-photo-38006271.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "La Jolla, USA",
-          "time": "Oct 21, 2026",
-          "content": "Salk Institute researchers have created a comprehensive molecular map of how healthy mice respond to exercise, offering insights that could help improve performance, reduce injury risk, and explain the benefits of regular physical activity. The study, published in Cell, analyzed the genetic changes that occur in 22 different tissues in mice that voluntarily ran on a wheel for eight weeks, compared to sedentary mice. The findings reveal that exercise alters the activity of nearly half of the genes examined, with different tissues adapting in various ways. The research also highlights the importance of considering sex and circadian rhythm when studying the effects of exercise on the body, as well as the potential for single-cell analysis to provide a more detailed understanding of how exercise impacts individual cells and tissues.",
+          "title": "Scientists Recover Ancient Human DNA from Cave Walls",
+          "image": "https://images.unsplash.com/photo-1635200487290-f91d14f64bd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y2F2ZSUyMHBhaW50aW5nfGVufDF8MHx8fDE3OTI4MjMzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Spain",
+          "time": "Oct 24, 2026",
+          "content": "Scientists have made a groundbreaking discovery by recovering ancient human DNA from cave walls, providing a new way to study prehistoric human presence. The researchers, from Spain, Portugal, the UK, China, and Germany, analyzed 24 rock art panels from 11 caves and found five samples that yielded authentic ancient human mitochondrial DNA. Two of these samples came from unpigmented walls and contained no detectable animal DNA, suggesting that humans deposited the DNA directly. The remaining three samples contained both human and animal DNA, indicating an indirect route. The recovered DNA revealed information about some of the people who had been in the caves, including their sex and ancestry. The study suggests that cave walls can hold traces of prehistoric visitors, even when they have no visible signs of human activity. This finding could potentially allow scientists to investigate who used these spaces without disturbing archaeological deposits.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-exercise-changes-the-body-in-ways-we-never-fully-understood/"
+          "url": "https://scitechdaily.com/scientists-discover-ancient-human-dna-hidden-in-cave-walls-for-thousands-of-years/"
         },
         {
           "id": "t-3",
-          "title": "Global Automakers Face Pressure to Innovate on Prices and Tech",
-          "image": "https://images.pexels.com/photos/5982900/pexels-photo-5982900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "China",
-          "time": "Oct 21, 2026",
-          "content": "Global automakers face a challenge from consumers who want competitive prices and better technology. In China, technology and features are the top priority for 58% of buyers, while in the US and Europe, price is the main consideration. However, Chinese consumers still expect affordable prices, pushing carmakers to innovate. Western markets are expected to follow, with competitive pricing and technology playing a bigger role in purchasing decisions. The rise of Chinese manufacturers and weakening brand loyalty also threaten established manufacturers' advantages. Meanwhile, younger consumers in the US and Europe are more open to new brands and technology, forcing manufacturers to adapt and keep prices competitive to stay ahead.",
+          "title": "AI Takes Over Customer Service, Leaving Humans Dealing with Complex Issues",
+          "image": "https://images.unsplash.com/photo-1553775282-20af80779df7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwY3VzdG9tZXIlMjBzZXJ2aWNlfGVufDF8MHx8fDE3OTI4MjM1Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Cardiff, Wales",
+          "time": "Oct 24, 2026",
+          "content": "As companies increasingly rely on artificial intelligence (AI) to handle customer service, the lives of human customer service representatives are undergoing significant changes. For some, like Kaylee Harris, AI has allowed them to focus more on each customer, while for others, like Shannon, AI-generated notes have led to errors and more work. The automation of routine tasks is meant to free up human agents to handle more complex cases, but some experts warn that this could lead to increased workloads and pressure on employees, potentially causing burnout. As AI takes on more responsibilities, human customer service representatives may be left dealing with a greater share of complicated cases, and the pressure on them comes amid reports of rising workloads across the industry. Experts caution that the push to automate could result in a loss of opportunities for employees to develop the experience needed for more demanding work.",
           "theme": "#EBF2FA",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/20/car-buyers-china-tech-price-europe.html"
+          "url": "https://www.cnbc.com/2026/10/24/ai-customer-service-jobs-work.html"
         }
       ]
     },
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "AI detects increased risk of sudden cardiac death through EKGs",
-          "image": "https://images.unsplash.com/photo-1694903110330-cc64b7e1d21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8YXJ0aWZpY2lhbCUyMGludGVsbGlnZW5jZXxlbnwxfDB8fHwxNzkyNTUzNzAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Sweden",
-          "time": "Oct 21, 2026",
-          "content": "Researchers at the University of California, Berkeley have developed an artificial intelligence system that can detect subtle electrical patterns in routine electrocardiograms (EKGs) associated with an increased risk of sudden cardiac death. The AI system outperformed a standard clinical screening method, raising the possibility that doctors could identify more at-risk patients before their hearts suddenly stop. The system analyzed over 440,000 EKGs collected over six years through Sweden's healthcare system and linked these recordings to death certificates, training the AI model to recognize electrical patterns associated with subsequent sudden cardiac death. The algorithm identified subtle variations in EKG waveforms that conventional clinical assessments often overlook, and the findings could help improve both risk prediction and understanding of the biological processes behind sudden cardiac death.",
+          "title": "Study Links Endocrine-Disrupting Chemicals to Breast Tissue Development Changes",
+          "image": "https://images.pexels.com/photos/7467102/pexels-photo-7467102.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Boston, USA",
+          "time": "Oct 24, 2026",
+          "content": "Scientists at Tufts University School of Medicine and Boston University have made a breakthrough in understanding how exposure to certain chemicals, known as endocrine-disrupting chemicals, may affect breast tissue development. They used human breast tissue models to study the effects of individual chemicals and mixtures on normal human breast tissue. The researchers found that when exposed to a combination of three common chemicals, bisphenol BPA, BPS, and BPF, at very low concentrations, the chemicals disrupted normal development in most of the tissue donors. This disruption led to changes in gene activity and DNA modifications. The team compared these changes to molecular data from human breast cancers and found a strong resemblance in data from patients with invasive lobular carcinoma, a type of breast cancer that can be difficult to detect. While the findings do not establish that the chemicals cause cancer, they suggest that environmental exposures may subtly alter how normal tissues develop, leaving behind molecular changes that could make the tissue more permissive to cancer many years later. This research raises the possibility of using these molecular changes as a biological record, like a",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-hidden-electrical-signal-in-the-heart-that-could-predict-sudden-death/"
+          "url": "https://scitechdaily.com/common-chemicals-trigger-alarming-changes-in-human-breast-tissue-models/"
         },
         {
           "id": "hw-3",
-          "title": "Eagles QB Jalen Hurts Out for Season with Deep Vein Thrombosis",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Jalen_Hurts_11-14-22_%28cropped%29.jpg/500px-Jalen_Hurts_11-14-22_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Philadelphia, USA",
-          "time": "Oct 21, 2026",
-          "content": "Philadelphia Eagles quarterback Jalen Hurts, 28, may be out for the rest of the season after being diagnosed with deep vein thrombosis and blood clots in his lungs. The condition occurs when a blood clot forms in a deep vein, often caused by injury, inactivity, or genetic predisposition. Symptoms can include calf pain, swelling, and cramping, and in severe cases, can lead to pulmonary embolism, a life-threatening condition. Doctors typically treat blood clots with blood thinners and recommend avoiding activities that may cause injury. Hurts' case may have been caused by a calf injury he received during a game against the Los Angeles Rams. The Eagles have announced that Hurts will not play against the Carolina Panthers on Sunday and will undergo treatment. The condition is common, with nearly 900,000 people in the US diagnosed with a blood clot in the leg or lung each year.",
+          "title": "Scientists uncover clues to deadly Brazilian virus evolution",
+          "image": "https://images.pexels.com/photos/3992943/pexels-photo-3992943.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "São Paulo, Brazil",
+          "time": "Oct 24, 2026",
+          "content": "Scientists have uncovered new clues about the evolution of a rare and deadly Brazilian virus, the Sabiá virus, which has circulated undetected for over a century. Genetic changes allowed the virus to escape existing laboratory tests, leading to the development of an improved detection method. Researchers found that the virus has been circulating in Brazil for approximately 142 years, with likely additional cases going undiagnosed. The study highlights the importance of genomic surveillance in detecting public health risks, particularly in cases where targeted diagnostic tests fail.",
           "theme": "#E8F5F1",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/20/health/blood-clots-jalen-hurts"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/a-deadly-virus-has-been-hiding-in-brazil-for-142-years-and-scientists-just-uncovered-a-hidden-danger/"
         }
       ]
     },
@@ -139,14 +139,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "India Issues Rainfall Warnings for South India",
-          "image": "https://images.unsplash.com/photo-1511634829096-045a111727eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwcmFpbmZhbGx8ZW58MXwwfHx8MTc5MjU1NTM5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Tamil Nadu, India",
-          "time": "Oct 21, 2026",
-          "content": "The Indian Meteorological Department has issued an orange alert for Tamil Nadu, Puducherry, and Karaikal, warning of heavy to very heavy rainfall of up to 204.4mm on October 20, 2026. Additionally, a yellow alert has been issued for Kerala, Mahe, coastal Andhra Pradesh, and the Andaman and Nicobar Islands for heavy rainfall, thunderstorms, and lightning. Strong winds of 40-50 km/h, gusting to 60 km/h, are forecast over the southwest Arabian Sea, prompting warnings for fishermen. Meanwhile, the rest of northern, central, eastern, western, and northeastern India is expected to experience largely dry weather over the coming week.",
+          "title": "IPCC fails to agree on climate reports timeline",
+          "image": "https://images.unsplash.com/photo-1571845599234-790a035f6109?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y2xpbWF0ZSUyMHJlcG9ydHxlbnwxfDB8fHwxNzkyODI0MzUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Addis Ababa, Ethiopia",
+          "time": "Oct 24, 2026",
+          "content": "The Intergovernmental Panel on Climate Change (IPCC) has failed for the sixth consecutive time to agree on a timeline for its Seventh Assessment Cycle reports. The Least Developed Countries are worried that further delays could hinder crucial climate science from informing the second Global Stocktake under the Paris Agreement in 2028. Meanwhile, some countries, including India, Saudi Arabia, and Russia, are pushing for the publication of two major reports in 2029 due to concerns over scientific rigor and inclusivity. The IPCC's 65th plenary session in Ethiopia was suspended without an agreement on the publication schedule or budget. This has left the timeline for publishing three Working Group reports unclear, as countries disagree on the pace of the assessment process. The reports cover climate change's physical science, impacts, and mitigation, which are crucial for informing global climate action.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-heavy-rain-alert-for-southern-india-strong-winds-forecast-over-arabian-sea"
+          "url": "https://www.downtoearth.org.in/climate-change/ipcc-fails-to-agree-on-climate-science-report-timeline-for-sixth-time-drawing-criticism-from-vulnerable-nations"
         },
         {
           "id": "env-2",
@@ -182,25 +182,25 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "BBC Closes TV Channels, Radio Station, and Cuts Jobs to Save £500m",
-          "image": "https://images.unsplash.com/photo-1589186161289-9eb8898086df?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VFYlMjBzdHVkaW98ZW58MXwwfHx8MTc5MjU1NjEyMnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 21, 2026",
-          "content": "The BBC is making significant changes to reduce costs and save £500m over two years. The corporation is closing its linear TV channels, BBC Three and BBC Scotland, and shifting them online-only. The BBC has also announced the closure of Radio 4 Extra, which mainly airs archived content. This decision aims to make every pound work harder for audiences and respond to the immediate cost pressures. The BBC's director-general, Matt Brittin, said the decision was not taken lightly and acknowledged that it would be hard for audiences and colleagues. The affected staff were informed about the changes, and the BBC is planning to cut between 1,800 and 2,000 jobs to achieve the savings. The move is part of the BBC's efforts to reinvent itself for a changing world and maintain its services amid significant financial pressures.",
+          "title": "Irish DJ Jazzy releases first full-length album 'Peace and Patience'",
+          "image": "https://images.unsplash.com/photo-1580656449278-e8381933522c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmlueWwlMjByZWNvcmR8ZW58MXwwfHx8MTc5MjgyNDYyNXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Dublin, Ireland",
+          "time": "Oct 24, 2026",
+          "content": "Irish singer and DJ Jazzy is set to release her first full-length album, 'Peace and Patience', after gaining a massive following with her singles and collaborations with industry heavyweights. With over a billion streams and a monthly listenership of over 10 million, Jazzy has built a reputation as a talented artist. Despite the trend of artists in the dance music genre opting for EPs and singles, Jazzy wanted to create an album that is true to her and her music. The 30-year-old has been a part of the Dublin club scene, but has noticed the decline of nightclubs due to the pandemic, with almost 30% of the night time economy lost since 2020.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqx2v800nnr2o"
+          "url": "https://www.bbc.com/news/articles/cwj0leg7ng67o"
         },
         {
           "id": "ent-2",
-          "title": "New documentary reveals unseen footage from Only Fools and Horses",
-          "image": "https://images.unsplash.com/photo-1579520306276-7d07992a6efd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QnJpdGlzaCUyMHNpdGNvbXxlbnwxfDB8fHwxNzkyNTU2NDI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Margate",
-          "time": "Oct 21, 2026",
-          "content": "A new documentary, Only Fools and Horses: The Lost Archive, features previously unseen footage from the classic British sitcom. The documentary includes cut clips from several episodes, including The Jolly Boys' Outing, which was filmed in Margate. The newly-found content shows the well-written characters in more depth and texture, and includes extended scenes that were previously removed to meet time restrictions. Richard Latto, a comedy archive specialist, hopes the newly-digitized footage will help restore episodes of the show in high definition. The Jolly Boys' Outing episode, which aired in 1989, is one of the show's most beloved episodes, reaching over 20 million viewers and inspiring tours of Margate.",
+          "title": "Callum Turner, Jack Lowden, and Josh O'Connor in Bond Auditions",
+          "image": "https://images.pexels.com/photos/8382046/pexels-photo-8382046.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 24, 2026",
+          "content": "Actors Callum Turner, Jack Lowden, and Josh O'Connor are reportedly in final auditions to play James Bond, with screen tests taking place this weekend. The auditions consist of stunts, camera presence, and dialogue, and between three and five actors are in the running. Turner and Lowden are said to be strong contenders to replace Daniel Craig, with Turner's wife Dua Lipa potentially singing the Bond theme song. The casting process is expected to be thorough, with the end of the year possibly seeing a final decision made. Only six actors have played Bond in the official film series, and the new Bond will be the seventh.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cvrlyzlzlwj0o"
+          "url": "https://www.bbc.com/news/articles/c50mep10dek7o"
         },
         {
           "id": "ent-3",
