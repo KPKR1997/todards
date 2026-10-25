@@ -1,0 +1,130 @@
+{
+    "date": "25102026",
+    "timestamp": "2026-10-25T11:14:13.976501",
+    "duration_seconds": 3228.87,
+    "stages_duration_seconds": {
+        "scrape": 938.25,
+        "guardrails": 112.95,
+        "deduplication": 12.09,
+        "category_validation": 143.0,
+        "ranking": 288.0,
+        "processing": 1734.47,
+        "assembly": 0.01
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 8,
+            "Tech": 5,
+            "People": 48,
+            "Environment": 2,
+            "Economy": 4,
+            "Entertainment": 12
+        },
+        "total_scraped": 79,
+        "guardrail_passed": 79,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 8,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 79,
+        "classified_safe": 57,
+        "classified_unsafe": 22,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 22,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 74,
+        "rejected_count": 9,
+        "rejected_articles": [
+            {
+                "title": "How to respond to the ‘Gen Z stare’ without looking like a total boomer",
+                "from": "health",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the cultural and social aspects of the 'Gen Z stare' and how it relates to intergenerational communication, which is more relevant to the 'people' category than 'health'."
+            },
+            {
+                "title": "A shark went astray and captured Korea's heart - will she finally make it back to sea?",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the shark's presence in a canal and the impact on the local community, which falls under the 'earth and environment' category."
+            },
+            {
+                "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article primarily reports on Vanessa Trump's breast cancer diagnosis, treatment, and remission, making it a relevant and specific health-related development."
+            },
+            {
+                "title": "Why the charts are full of old songs - and so are your playlists",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses music, streaming services, and playlists, which is more relevant to the 'entertainment' category than the 'people' category."
+            },
+            {
+                "title": "Six Flags adding seat belts to Goliath rollercoaster following death",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses the safety measures being taken by Six Flags after a fatal accident on one of their rollercoasters, which falls under the health category as it involves medical research and safety protocols."
+            },
+            {
+                "title": "Vanessa Trump says she is cancer-free six months after revealing diagnosis",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article reports on Vanessa Trump's journey with breast cancer, including her diagnosis, treatment, and subsequent recovery, making it most relevant to the 'health' category."
+            },
+            {
+                "title": "TV stars to marry in chapel home after proposal 'on Welsh soil'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal life and relationship of TV star Keith Brymer Jones, which is more related to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "BBC and Netflix composer up for national award",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal story and career of Thomas Farnon, a composer, rather than his work or the industry itself, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "How a shed become an icon of broadcasting history",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Jack Hargreaves, a television presenter, and his career, which makes 'people' the most relevant category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 232,
+        "total_failures": 0,
+        "total_time_seconds": 255.14,
+        "prompt_tokens": 322414,
+        "response_tokens": 6056,
+        "total_tokens": 328470,
+        "usage_responses": 232,
+        "prompt_eval_seconds": 70.161,
+        "generation_seconds": 139.024,
+        "load_seconds": 27.258,
+        "server_total_seconds": 253.016,
+        "avg_response_time": 1.1
+    }
+}

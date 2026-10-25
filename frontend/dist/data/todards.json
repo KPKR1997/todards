@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 76",
+    "issue": "Issue No. 77",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "24 October 2026",
+    "publishedAt": "25 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "US Relocates Diplomats, Families from Middle East Over Escalation Threat",
-          "image": "https://images.unsplash.com/photo-1653289755997-1b028ff8ace8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGlwbG9tYXRpY3xlbnwxfDB8fHwxNzkyODIzNzIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Middle East",
-          "time": "Oct 24, 2026",
-          "content": "The US government is quickly relocating diplomats and their families from the Middle East due to the threat of regional escalation. This decision echoes the chaos experienced earlier this year when families scrambled to leave their homes in the region. Many of those leaving had only recently returned to their posts after being ordered out during the Iran war. The departures are caused by the increased threat of Houthi attacks and Iranian terror plots targeting US officials. Diplomats are expressing frustration and chaos, with many families receiving less financial support for their relocation compared to earlier this year. The State Department has confirmed that it is providing per diem allowances and support for lodging and schools to affected families. The moves come as the US government is also warning of the potential for hostilities to escalate rapidly beyond the immediate area.",
+          "title": "Iowa Candidates Tackle Cancer Crisis Linked to Farm Pollution",
+          "image": "https://images.unsplash.com/photo-1563201515-adbe35c669c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZmFybSUyMHBvbGx1dGlvbnxlbnwxfDB8fHwxNzkyOTA1Njc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Iowa",
+          "time": "Oct 25, 2026",
+          "content": "Iowa's gubernatorial and Senate races have taken a surprising turn as candidates from both parties focus on addressing the state's cancer crisis, which is linked to farm pollution. The issue has become a political lightning rod amid public health concerns, with nearly $30 million spent on campaign ads mentioning cancer. Republicans and Democrats have staked out positions vowing to take on the issue, with some farmers and environmental advocates criticizing 'Big Ag' practices. The debate has become more heated, with some candidates accusing their opponents of not doing enough to address the crisis. The issue has also caused divisions within the Republican Party, with some MAHA supporters skeptical of the party's commitment to environmental issues.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/23/politics/us-moves-diplomats-middle-east-escalation-fears"
+          "url": "https://edition.cnn.com/2026/10/24/politics/iowa-cancer-midterms"
         },
         {
           "id": "pp-2",
-          "title": "Trump gives House Republicans $30 million amid tough political climate",
-          "image": "https://images.pexels.com/photos/5926225/pexels-photo-5926225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington",
-          "time": "Oct 24, 2026",
-          "content": "In the final stretch before the midterms, House Speaker Mike Johnson asked President Donald Trump for additional funds to help House Republicans in tough political climate. Trump's political war chest dumped nearly $30 million into dozens of House races. However, due to deteriorating political conditions, Republicans are now focusing on protecting dozens of unexpectedly imperiled incumbents in traditionally red turf, rather than trying to flip Democrat-held seats. GOP operatives are shifting resources away from several seats that were redrawn to favor Republicans, and are pouring in millions to defend core incumbents in an attempt to hold onto a bulwark of traditionally red seats. Despite the challenges, Republicans believe they can still flip a half-dozen Democrat-held seats, particularly in blue states where voters are more likely to take out their anger on local Democrats than on Trump and the GOP.",
+          "title": "Gunmen Kill At Least 10 in Taraba, Nigeria, amid Attacks",
+          "image": "https://images.pexels.com/photos/30403149/pexels-photo-30403149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Binnari, Nigeria",
+          "time": "Oct 25, 2026",
+          "content": "Unknown gunmen raided a remote village in Taraba, Nigeria, killing at least 10 people, and possibly up to 50, according to eyewitnesses and a non-governmental organization. The attackers, who arrived on motorcycles, looted shops, set houses ablaze, and fled after a four-hour rampage. The police are searching for other casualties and are accused by Amnesty International of failing to protect rural communities. The Nigerian government is facing criticism for its handling of insecurity, with the country experiencing attacks from armed groups across several regions.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/23/politics/mike-johnson-trump-house-races"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cq1kdlm1ze7do"
         },
         {
           "id": "eb-1",
-          "title": "US Justice investigates former aide over conflict of interest",
-          "image": "https://images.pexels.com/photos/36060296/pexels-photo-36060296.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
-          "time": "Oct 24, 2026",
-          "content": "The US Department of Justice is investigating whether Corey Lewandowski, a former aide to Department of Homeland Security Secretary Kristi Noem, profited personally from his role. Lewandowski worked closely with Noem until they were both ousted in March following a series of controversies, including fatal shootings by immigration officers. The probe is related to contracts signed under Noem's leadership, with a source saying Lewandowski approved some contracts despite lacking legal authority. Lewandowski's attorney denies any wrongdoing, and President Trump has expressed his desire for his people to be honest, stating that those who are not honest must be prosecuted. This investigation was sparked by a referral from the DHS inspector general's office and follows a controversy over a $220m advertising contract awarded to two companies with ties to Noem and her inner circle.",
+          "title": "Ohio Governor Candidate Vivek Ramaswamy Ends Campaign",
+          "image": "https://images.pexels.com/photos/8846752/pexels-photo-8846752.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Ohio, USA",
+          "time": "Oct 25, 2026",
+          "content": "Vivek Ramaswamy, the Republican nominee for Ohio governor, has ended his campaign, mirroring President Donald Trump's approach. The controversy arose after an ad featuring the estranged mother of his Democratic opponent, Amy Acton, calling Acton a liar and urging voters to reject her. Moderate and independent voters were bothered by the ad, and some said it changed how they view the GOP nominee. While die-hard Republicans who still support Trump remain strongly in Ramaswamy's camp, the controversy may alienate enough voters to hurt the Republican Party's chances in the post-Trump era. The ad's release was met with criticism from some prominent Republicans, including the man Ramaswamy is running to replace, two-term Republican Gov. Mike DeWine. Trump defended the ad, saying it is acceptable for voters to hear and make a decision for themselves.",
           "theme": "#F7F1DE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6ly0dg453v8o"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/24/politics/vivek-ramaswamy-ad-ohio-politics"
         }
       ]
     },
@@ -107,14 +107,14 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "Study Links Endocrine-Disrupting Chemicals to Breast Tissue Development Changes",
-          "image": "https://images.pexels.com/photos/7467102/pexels-photo-7467102.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Boston, USA",
-          "time": "Oct 24, 2026",
-          "content": "Scientists at Tufts University School of Medicine and Boston University have made a breakthrough in understanding how exposure to certain chemicals, known as endocrine-disrupting chemicals, may affect breast tissue development. They used human breast tissue models to study the effects of individual chemicals and mixtures on normal human breast tissue. The researchers found that when exposed to a combination of three common chemicals, bisphenol BPA, BPS, and BPF, at very low concentrations, the chemicals disrupted normal development in most of the tissue donors. This disruption led to changes in gene activity and DNA modifications. The team compared these changes to molecular data from human breast cancers and found a strong resemblance in data from patients with invasive lobular carcinoma, a type of breast cancer that can be difficult to detect. While the findings do not establish that the chemicals cause cancer, they suggest that environmental exposures may subtly alter how normal tissues develop, leaving behind molecular changes that could make the tissue more permissive to cancer many years later. This research raises the possibility of using these molecular changes as a biological record, like a",
+          "title": "Schizophrenia Linked to Weaker Brain Rhythm",
+          "image": "https://images.pexels.com/photos/5723875/pexels-photo-5723875.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Montreal, Canada",
+          "time": "Oct 25, 2026",
+          "content": "A new study published in Science Advances has discovered that changes in brain activity, specifically in a rhythm called beta-band activity, are linked to several symptoms of schizophrenia. Researchers found that patients with schizophrenia showed weaker and slower beta-band activity compared to healthy participants, which was associated with difficulties in processing sensory information, disorganized speech, and severe clinical symptoms. The study suggests that this common disruption in brain activity may be connected to the development of schizophrenia symptoms, including those related to perception, behavior, and speech. The findings could potentially lead to new methods for identifying and supporting individuals at risk of developing psychosis, and even serve as a target for future treatments.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/common-chemicals-trigger-alarming-changes-in-human-breast-tissue-models/"
+          "url": "https://scitechdaily.com/mysterious-brain-signal-linked-to-several-schizophrenia-symptoms/"
         },
         {
           "id": "hw-3",
@@ -182,25 +182,25 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Irish DJ Jazzy releases first full-length album 'Peace and Patience'",
-          "image": "https://images.unsplash.com/photo-1580656449278-e8381933522c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmlueWwlMjByZWNvcmR8ZW58MXwwfHx8MTc5MjgyNDYyNXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Dublin, Ireland",
-          "time": "Oct 24, 2026",
-          "content": "Irish singer and DJ Jazzy is set to release her first full-length album, 'Peace and Patience', after gaining a massive following with her singles and collaborations with industry heavyweights. With over a billion streams and a monthly listenership of over 10 million, Jazzy has built a reputation as a talented artist. Despite the trend of artists in the dance music genre opting for EPs and singles, Jazzy wanted to create an album that is true to her and her music. The 30-year-old has been a part of the Dublin club scene, but has noticed the decline of nightclubs due to the pandemic, with almost 30% of the night time economy lost since 2020.",
+          "title": "Fender Announces Massive Stadium Tour, Affordable Tickets and No Standing Area Tiers",
+          "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bXVzaWMlMjBmZXN0aXZhbHxlbnwxfDB8fHwxNzkyOTA2NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Newcastle, England",
+          "time": "Oct 25, 2026",
+          "content": "Sam Fender, a 32-year-old musician, announced his Proper Massive Stadium Tour for summer 2027, which will visit six cities. Ahead of the tour, Fender responded to a social media post claiming to outline ticket prices, stating he was not happy with the reported costs. He promised to lower the prices, saying they were inflated more than he had intended. Additionally, Fender said he would not split the standing area into front and back tiers, unlike some gigs that have this system. Tickets are due to go on general sale on Friday, with a pre-sale on Wednesday.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cwj0leg7ng67o"
+          "url": "https://www.bbc.com/news/articles/c6p3g9kle8pgo"
         },
         {
           "id": "ent-2",
-          "title": "Callum Turner, Jack Lowden, and Josh O'Connor in Bond Auditions",
-          "image": "https://images.pexels.com/photos/8382046/pexels-photo-8382046.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 24, 2026",
-          "content": "Actors Callum Turner, Jack Lowden, and Josh O'Connor are reportedly in final auditions to play James Bond, with screen tests taking place this weekend. The auditions consist of stunts, camera presence, and dialogue, and between three and five actors are in the running. Turner and Lowden are said to be strong contenders to replace Daniel Craig, with Turner's wife Dua Lipa potentially singing the Bond theme song. The casting process is expected to be thorough, with the end of the year possibly seeing a final decision made. Only six actors have played Bond in the official film series, and the new Bond will be the seventh.",
+          "title": "Nostalgia dominates music streaming, old-school hits lead playlists",
+          "image": "https://images.pexels.com/photos/23834128/pexels-photo-23834128.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Global",
+          "time": "Oct 25, 2026",
+          "content": "Music streaming platforms like Spotify and Deezer are facing a paradox. Despite the vast amount of new music being created, people's listening habits have shifted towards nostalgia. In the UK, over 60% of streams are of music released five or more years ago, with classic hits dominating playlists. The same trend is seen in the US, where about 60% of streams are of old-school hits in genres like R&B and Hip-Hop. While some new songs do break out, they often dominate streaming for weeks and months. As a result, aspiring artists may struggle to sustain a career after going viral, as platforms like TikTok are designed for viral moments rather than promoting artists.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c50mep10dek7o"
+          "url": "https://www.bbc.com/news/articles/c6kg50nnj0x4o"
         },
         {
           "id": "ent-3",
@@ -225,25 +225,25 @@
       "cards": [
         {
           "id": "pp-3",
-          "title": "Elon Musk Considers Merging Tesla and SpaceX",
-          "image": "https://images.unsplash.com/photo-1662947475743-35a389428742?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwVGVzbGElMjBsb2dvfGVufDF8MHx8fDE3OTI1NTU3OTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "California, USA",
-          "time": "Oct 21, 2026",
-          "content": "Elon Musk has expressed interest in merging his companies Tesla and SpaceX, which he believes could be a good idea. The merger is under consideration, with special committees formed to examine the possibility. Musk emphasized that a merger would require shareholders' approval, but believes there is merit in combining the two companies. If successful, the merger would be one of the largest in history, with the combined value of the two companies estimated to be over $3.5 trillion. Musk's comments came as Tesla prepares to report its quarterly results, with shares rising 2% after being down for weeks. SpaceX, meanwhile, has been expanding its offerings, including cloud compute capacity, which has become its most profitable line of business.",
+          "title": "Government funds £1 billion for England's social and affordable housing",
+          "image": "https://images.unsplash.com/photo-1768586429849-b35799b5cb2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X0VuZ2xpc2glMjBjaXR5c2NhcGV8ZW58MXwwfHx8MTc5MjkwNjE5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "England",
+          "time": "Oct 25, 2026",
+          "content": "Just over £1 billion will be allocated for social and affordable housing in England, bringing the government's 10-year homes programme funding to over £40 billion. Additionally, mayors and regional leaders are set to receive more powers and funding, with councils allowed to borrow money from the government to invest in housebuilding. The Chancellor, John Healey, will also announce support for small breweries and unveil billions of pounds of new defence spending. The plans aim to give regional leaders more flexibility and authority over investment decisions, with Prime Minister Andy Burnham stating that the goal is to shift power to those who know their communities best. The government will also confirm a new £1.5 billion borrowing facility for mayors from 2028, allowing them to support local priorities such as new homes, high streets, and transport links.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmlyl09xjke4o"
+          "url": "https://www.bbc.com/news/articles/cqm24j9y9zn7o"
         },
         {
           "id": "eb-2",
-          "title": "UK Unemployment Rate Falls to 4.7%, Labour Market Edges Up",
-          "image": "https://images.unsplash.com/photo-1662714211047-27327efe05ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8VUslMjBqb2IlMjBtYXJrZXR8ZW58MXwwfHx8MTc5MjU1NTk3MXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Oct 21, 2026",
-          "content": "United Kingdom's unemployment rate has dropped to its lowest point in over a year, at 4.7%, according to the Office for National Statistics (ONS). Meanwhile, job vacancies have fallen by 21,000 to 691,000, with smaller businesses citing labour costs as a key factor. Despite this, the employment rate has edged up, and the labour market is considered 'broadly flat'. Average earnings excluding bonuses have risen 3.7%, and wages have grown 0.8% in real terms. While the figures indicate a recovery in the jobs market, there are concerns about the impact of rising energy costs, National Insurance, and the minimum wage on businesses and young people. The Secretary of State for Work and Pensions has praised the resilience of the labour market, but acknowledged that too many young people remain unemployed. Shadow Chancellor Andrew Griffith has criticized the government's policies, saying that businesses cannot afford to hire.",
+          "title": "Naomi Nomi Revolutionizes Fashion with Quality, Long-Lasting Clothing",
+          "image": "https://images.pexels.com/photos/12101739/pexels-photo-12101739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "New York City",
+          "time": "Oct 25, 2026",
+          "content": "Naomi Mishkin, the founder of Naomi Nomi, is revolutionizing the fashion industry by producing high-quality, long-lasting clothing at a higher price point. The average customer starts with one shirt and returns for three more within six months, as they realize the value of her products. Mishkin's approach is a departure from the fast fashion industry, which has mastered the art of cutting production costs to the bone. She uses cotton and wool, making her shirts pricier than fast fashion, but lasting longer. Naomi Nomi's success is attributed to the growing backlash against companies that prioritize profit over quality and the environment. The fashion industry has undergone significant changes over the past few decades, with a shift towards planned obsolescence and the use of cheaper materials. However, some consumers are now looking for brands that offer quality, durability, and sustainability, and Naomi Nomi is capitalizing on this trend.",
           "theme": "#F7F1DE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6eq327pzr53o"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/24/business/its-not-just-you-theres-nowhere-to-shop-anymore"
         },
         {
           "id": "eb-1",

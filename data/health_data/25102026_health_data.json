@@ -1,0 +1,67 @@
+[
+    {
+        "id": "st-3",
+        "source": "SciTechDaily",
+        "category": "health",
+        "title": "",
+        "date": "2026-10-25 04:50",
+        "content": "Schizophrenia affects how people perceive their surroundings, organize their thoughts, and communicate with others. Although these symptoms are often studied separately, new research suggests they may be connected to a common disruption in brain activity. In a study published in Science Advances , scientists identified changes in a brain rhythm known as beta-band activity that were associated with several symptoms of schizophrenia. Patients with the most pronounced changes also had greater difficulty processing sensory information, more disorganized speech, and more severe clinical symptoms. Researchers examined brain activity in 25 people with schizophrenia and 25 healthy participants using high-resolution magnetoencephalography, or MEG. The recordings were collected at the McConnell Brain Imaging Centre at the Montreal Neurological Institute-Hospital (The Neuro). Participants completed a task involving the timing of sights and sounds, and researchers separately analyzed their speech for signs of disorganization. Compared with the control group, participants with schizophrenia showed weaker and slower beta-band activity. These brain rhythms are involved in processes that help the brain interpret sensory information and coordinate responses to the environment. “What struck us was that the same weakened brain signal kept showing up wherever we looked, whether patients were processing a sound, a sight or completing a movement,” said Hsi (Tiana) Wei, lead author of the study and a postdoctoral scholar in McGill University’s Department of Psychiatry and the Douglas Research Centre . “Seeing the same pattern across these different domains suggested there may be a common underlying process linking the symptoms.” The results support the possibility that some schizophrenia symptoms arise from disturbances in how the brain constructs and updates its understanding of the world. Rather than representing entirely independent problems, difficulties with perception, behavior, and speech may share an underlying neurological process. “This gives us early but compelling evidence that measuring the brain’s operations, especially how it builds and revises its own model of the world, may help us appreciate that there is a common thread behind the confusing array of symptoms we see in disorders like schizophrenia,” said Dr. Lena Palaniyappan, senior author of the study, Professor of Psychiatry at McGill University, and director of the Centre of Excellence in Youth Mental Health at the Douglas Hospital. Palaniyappan believes that further research could eventually help clinicians identify young people who need additional mental health support before psychosis develops. “The very first sign of schizophrenia begins in our adolescence, but this often gets missed for a long time. If this finding is confirmed in larger samples, we may have a potentially useful method to identify who, among youth seeking help for mental health, needs extra support to prevent psychosis,” he said. The study involved just 50 participants, and its findings establish associations rather than demonstrating that altered beta-band activity causes schizophrenia symptoms. The researchers also have not established whether measuring this signal can reliably predict psychosis. “This is a first, modest-size study, and the associations with speech and clinical severity will need to be tested in larger independent samples before we can be confident in them,” Wei said. If future studies confirm the findings, beta-band activity could potentially serve as a measurable indicator of brain dysfunction associated with schizophrenia. Wei also suggested that the signal may be worth investigating as a future treatment target, although its clinical usefulness remains unproven. Reference: “Neurophysiological dynamics related to perception, action, and language in schizophrenia” by Hsi T. Wei, Dominic Boutet, Rukun Dou, Jessica Ahrens, Nadia Zeramdini, Alban Voppel, Fernando Gonzales-Aste, Fatme Abboud, Sylvain Baillet and Lena Palaniyappan, 21 October 2026, Science Advances . DOI: 10.1126/sciadv.aeh5819 Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/mysterious-brain-signal-linked-to-several-schizophrenia-symptoms/",
+        "rank": 1,
+        "ranking_score": 19.81,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 19.81,
+            "base_score": 18.5,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 60,
+                "scientific_significance": 80,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 20,
+                "urgency": 20,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 30,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "brief evidence-based explanation"
+            }
+        }
+    }
+]
