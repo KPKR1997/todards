@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pp-5",
+        "source": "BBC",
+        "category": "economy",
+        "title": "Chelsea's World's End Estate to get £20m refurb",
+        "date": "2026-10-25 09:33",
+        "content": "Chelsea's World's End Estate has been earmarked for £20m worth of refurbishment. Kensington and Chelsea Council has proposed a scheme of work for the 750 homes in west London, set across seven tower blocks, which includes replacing some of the kitchens and bathrooms, roof renewals and redecoration of communal areas. Leaseholders will have to contribute towards the repairs, although the amount has not yet been confirmed. There will be tailored support for residents most affected by the works, including respite and the option to temporarily live away. The work to the interior of the flats, as well as the roofs and communal areas, is estimated to cost around £16.5m, and would be due to start in March 2028 and be completed one year later. The refurbishment would also include a £3.8m lift renewal programme estimated to start in February 2028. Over £500,000 has also been earmarked for proposed electrical and fire safety improvements. The heat network on the estate will also be upgraded, to ensure it is in compliance with new Ofgem regulations. These require everyone on a heat network to be billed individually for the energy they use. A report to the council's Housing and Communities Select Committee said that although there is building metering across World's End, \"the age and condition of the existing system\" means that it cannot currently support individual heat billing. \"It will not be easy to upgrade the system at World's End, and is estimated to require significant investment,\" the report says. \"This is an area of concern for many leaseholders, as the work needed would generate significant leaseholder recharges.\" The report adds: \"The World's End Estate programme represents a major long-term investment in the estate's fabric, safety and infrastructure. \"With over £20m of planned investment, extensive resident engagement already undertaken, and clear delivery plans in place, the programme offers a significant opportunity to improve homes, enhance resident safety and secure the future of the estate for decades to come.\" Listen to the best of BBC Radio London on Sounds and follow BBC London on Facebook , X and Instagram . Send your story ideas to hello.bbclondon@bbc.co.uk",
+        "url": "https://www.bbc.com/news/articles/crwyqn28e714o",
+        "rank": 1,
+        "ranking_score": 6.3,
+        "ranking_reason": "The article reports a significant economic development relevant to its category, with £20m worth of refurbishment planned for Chelsea's World's End Estate.",
+        "ranking": {
+            "rank": 1,
+            "score": 6.3,
+            "base_score": 6.3,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 20,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 40,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 2,
+                "urgency": 20,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "The article reports a significant economic development relevant to its category, with £20m worth of refurbishment planned for Chelsea's World's End Estate.",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "Substantive economic development for the economy category, with £20m worth of refurbishment planned for Chelsea's World's End Estate, providing a clear reason for readers to care about the impact on residents and the estate's future."
+            }
+        }
+    }
+]

@@ -1,0 +1,116 @@
+{
+    "date": "26102026",
+    "timestamp": "2026-10-26T08:58:44.818564",
+    "duration_seconds": 3330.87,
+    "stages_duration_seconds": {
+        "scrape": 761.54,
+        "guardrails": 92.46,
+        "deduplication": 9.4,
+        "category_validation": 127.27,
+        "ranking": 289.26,
+        "processing": 2050.85,
+        "assembly": 0.05
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 2,
+            "Tech": 8,
+            "People": 43,
+            "Environment": 2,
+            "Economy": 7,
+            "Entertainment": 6
+        },
+        "total_scraped": 68,
+        "guardrail_passed": 68,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 9,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 68,
+        "classified_safe": 44,
+        "classified_unsafe": 24,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 24,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 66,
+        "rejected_count": 7,
+        "rejected_articles": [
+            {
+                "title": "Is 'ferritin face' a real thing - and can you really spot low iron from looks?",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article discusses iron deficiency, ferritin levels, and its physical manifestations, which makes it a clear fit for the 'health' category."
+            },
+            {
+                "title": "Healey's Budget needs to sustain the stronger economy through gathering clouds",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses economic news and the UK's budget, which is a significant development in the 'economy and business' category."
+            },
+            {
+                "title": "Heating oil costs 'more than double' ahead of winter",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the rising cost of heating oil and its impact on households, which is an environmental and economic issue rather than a people-related story."
+            },
+            {
+                "title": "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Ukraine's military actions and diplomatic efforts, which fall under the 'people' category, despite having some economic and business aspects."
+            },
+            {
+                "title": "'I cannot teach you integrity': How employee theft is hurting small businesses in Africa",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the impact of employee theft on small businesses in Africa, which is primarily a people-related issue, although it also touches on economic and business aspects."
+            },
+            {
+                "title": "When will there be a flying car in your garage? Not anytime soon.",
+                "from": "economy and business",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article discusses electric vertical take-off and landing aircraft, a technology that is more relevant to the science and technology category than the economy and business category."
+            },
+            {
+                "title": "Rent control doomed this mayor’s re-election campaign. He has no regrets",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the re-election campaign of a mayor and its connection to rent control, which is a social and political issue, making 'people' a more suitable category than 'economy and business'."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 202,
+        "total_failures": 0,
+        "total_time_seconds": 219.09,
+        "prompt_tokens": 269239,
+        "response_tokens": 5548,
+        "total_tokens": 274787,
+        "usage_responses": 202,
+        "prompt_eval_seconds": 60.244,
+        "generation_seconds": 124.363,
+        "load_seconds": 21.607,
+        "server_total_seconds": 217.024,
+        "avg_response_time": 1.08
+    }
+}

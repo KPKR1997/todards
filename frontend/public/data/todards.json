@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 77",
+    "issue": "Issue No. 78",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "25 October 2026",
+    "publishedAt": "26 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Iowa Candidates Tackle Cancer Crisis Linked to Farm Pollution",
-          "image": "https://images.unsplash.com/photo-1563201515-adbe35c669c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZmFybSUyMHBvbGx1dGlvbnxlbnwxfDB8fHwxNzkyOTA1Njc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Iowa",
-          "time": "Oct 25, 2026",
-          "content": "Iowa's gubernatorial and Senate races have taken a surprising turn as candidates from both parties focus on addressing the state's cancer crisis, which is linked to farm pollution. The issue has become a political lightning rod amid public health concerns, with nearly $30 million spent on campaign ads mentioning cancer. Republicans and Democrats have staked out positions vowing to take on the issue, with some farmers and environmental advocates criticizing 'Big Ag' practices. The debate has become more heated, with some candidates accusing their opponents of not doing enough to address the crisis. The issue has also caused divisions within the Republican Party, with some MAHA supporters skeptical of the party's commitment to environmental issues.",
+          "title": "US Court Skeptical of DOJ's Mail-In Ballot Bid",
+          "image": "https://images.pexels.com/photos/15939941/pexels-photo-15939941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "California, USA",
+          "time": "Oct 26, 2026",
+          "content": "A US Circuit Court of Appeals panel has expressed skepticism over the Justice Department's attempt to force California to set aside mail-in ballots from suspected noncitizens. The Justice Department claims there are 20,000 noncitizens on California's voter rolls, but the court questioned the reliability of this information. The court also questioned why the Justice Department took its case to the appellate court before the district court ruled. The court is weighing whether to allow the Justice Department to force California to set aside the ballots, which has already processed over 300,000 midterm ballots. The case is seen as an attempt by the Trump administration to prove claims of massive voter fraud.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/24/politics/iowa-cancer-midterms"
+          "url": "https://edition.cnn.com/2026/10/25/politics/california-midterm-voting-judges"
         },
         {
           "id": "pp-2",
-          "title": "Gunmen Kill At Least 10 in Taraba, Nigeria, amid Attacks",
-          "image": "https://images.pexels.com/photos/30403149/pexels-photo-30403149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Binnari, Nigeria",
-          "time": "Oct 25, 2026",
-          "content": "Unknown gunmen raided a remote village in Taraba, Nigeria, killing at least 10 people, and possibly up to 50, according to eyewitnesses and a non-governmental organization. The attackers, who arrived on motorcycles, looted shops, set houses ablaze, and fled after a four-hour rampage. The police are searching for other casualties and are accused by Amnesty International of failing to protect rural communities. The Nigerian government is facing criticism for its handling of insecurity, with the country experiencing attacks from armed groups across several regions.",
+          "title": "Supreme Court's Decisions Favor Republicans in Midterm Elections",
+          "image": "https://images.unsplash.com/photo-1603119380999-ef522dd64b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Q29uc2VydmF0aXZlJTIwanVzdGljZXxlbnwxfDB8fHwxNzkyOTg0MDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Oct 26, 2026",
+          "content": "Conservative Supreme Court justices have significantly impacted the midterm elections, making decisions that benefit Republicans. These decisions have reshaped redistricting, campaign finance regulations, and mail voting, among other things. Justice Elena Kagan criticized the court's actions, saying they have created a democracy that does not work as well as it should. While some decisions have favored Republicans, others, such as the court's rejection of President Donald Trump's push to give the US Postal Service the power to withhold mail ballots, have not. The Supreme Court's decisions are expected to have a lasting impact on the political system, and the timing of Kagan's warning, just two weeks before the election, was notable.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq1kdlm1ze7do"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/25/politics/supreme-court-midterm-rules"
         },
         {
           "id": "eb-1",
-          "title": "Ohio Governor Candidate Vivek Ramaswamy Ends Campaign",
-          "image": "https://images.pexels.com/photos/8846752/pexels-photo-8846752.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Ohio, USA",
-          "time": "Oct 25, 2026",
-          "content": "Vivek Ramaswamy, the Republican nominee for Ohio governor, has ended his campaign, mirroring President Donald Trump's approach. The controversy arose after an ad featuring the estranged mother of his Democratic opponent, Amy Acton, calling Acton a liar and urging voters to reject her. Moderate and independent voters were bothered by the ad, and some said it changed how they view the GOP nominee. While die-hard Republicans who still support Trump remain strongly in Ramaswamy's camp, the controversy may alienate enough voters to hurt the Republican Party's chances in the post-Trump era. The ad's release was met with criticism from some prominent Republicans, including the man Ramaswamy is running to replace, two-term Republican Gov. Mike DeWine. Trump defended the ad, saying it is acceptable for voters to hear and make a decision for themselves.",
+          "title": "Israel's Deadlocked Election Enters Final Days",
+          "image": "https://images.pexels.com/photos/17654360/pexels-photo-17654360.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Tel Aviv, Israel",
+          "time": "Oct 26, 2026",
+          "content": "The Israeli general election is just days away, with the governing coalition and main opposition bloc neck-and-neck in polls. The election is deeply divided, with many voters eager to cast their ballots and some 70,000 reportedly flying in from abroad specifically to vote. Vast crowds of opposition voters have gathered to demand a change of government, with some citing the need for peace, security, and an end to corruption. The campaign has been energized by new tactics and a new face, Gadi Eisenkot, a former military chief of staff who has been dubbed a",
           "theme": "#F7F1DE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/24/politics/vivek-ramaswamy-ad-ohio-politics"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/ckpdgy6pl7xlo"
         }
       ]
     },
@@ -64,25 +64,25 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Females' Burial Sites Suggest Homo Naledi Had Sex-Specific Customs",
-          "image": "https://images.pexels.com/photos/18416953/pexels-photo-18416953.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "South Africa",
-          "time": "Oct 24, 2026",
-          "content": ". } The discovery of ancient tooth proteins in South Africa's Dinaledi Chamber has led researchers to believe that the extinct human relative, Homo naledi, might have reserved a burial site exclusively for females. The study, published in Cell, analyzed 23 teeth from at least 20 individuals and found no male proteins, suggesting that the sampled individuals may have all been female. This finding raises the possibility that Homo naledi had a complex custom of sex-specific burial, previously thought unique to modern humans. The discovery also implies that the species might have had a more organized society than previously thought. According to the researchers, tooth enamel can preserve evidence that other skeletal material may lose, making it an ideal carrier of genetic information from deep time. The study helps to explain the long-standing mystery of why Homo naledi lacked significant variation, suggesting that they may have all belonged to one sex. The findings offer rare insights into a culture that has, until now, been difficult to access directly.",
+          "title": "Scientists Find First Experimental Evidence of Quantum Phenomenon",
+          "image": "https://images.unsplash.com/photo-1666811722581-7900271596c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8YXRvbWljJTIwZGVmZWN0c3xlbnwxfDB8fHwxNzkyOTgzNDc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York, USA",
+          "time": "Oct 26, 2026",
+          "content": "Scientists at Columbia University have made a groundbreaking discovery, uncovering the first experimental evidence of a long-predicted quantum phenomenon in a metallic material. The finding, published in Science, shows that electron waves can become trapped inside a metal, even when pathways remain available for them to escape. This phenomenon, known as a bound state in the continuum (BIC), was predicted by quantum mechanics, but this is the first time it has been seen for electrons. The discovery was made possible by the development of a metal called Pd5AlI2, which can be separated into thin, two-dimensional layers while retaining its metallic properties. The researchers found that the metal's atomic structure creates competing paths for electrons to move between atoms, allowing destructive interference to suppress their movement. This finding has the potential to contribute to the development of highly sensitive quantum sensors, quantum information processing, and quantum chemistry.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/a-cave-full-of-ancient-human-remains-has-a-strange-secret-where-are-all-the-males/"
+          "url": "https://scitechdaily.com/tiny-atomic-defects-reveal-a-quantum-secret-hidden-inside-an-unusual-metal/"
         },
         {
           "id": "st-2",
-          "title": "Scientists Recover Ancient Human DNA from Cave Walls",
-          "image": "https://images.unsplash.com/photo-1635200487290-f91d14f64bd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y2F2ZSUyMHBhaW50aW5nfGVufDF8MHx8fDE3OTI4MjMzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Spain",
-          "time": "Oct 24, 2026",
-          "content": "Scientists have made a groundbreaking discovery by recovering ancient human DNA from cave walls, providing a new way to study prehistoric human presence. The researchers, from Spain, Portugal, the UK, China, and Germany, analyzed 24 rock art panels from 11 caves and found five samples that yielded authentic ancient human mitochondrial DNA. Two of these samples came from unpigmented walls and contained no detectable animal DNA, suggesting that humans deposited the DNA directly. The remaining three samples contained both human and animal DNA, indicating an indirect route. The recovered DNA revealed information about some of the people who had been in the caves, including their sex and ancestry. The study suggests that cave walls can hold traces of prehistoric visitors, even when they have no visible signs of human activity. This finding could potentially allow scientists to investigate who used these spaces without disturbing archaeological deposits.",
+          "title": "Hunter's Moon Visible at Sunset, Peaking on October 26",
+          "image": "https://images.pexels.com/photos/8488394/pexels-photo-8488394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Goddard Space Flight Center, Maryland",
+          "time": "Oct 26, 2026",
+          "content": "This weekend, October's full moon will be visible in the sky, coinciding with the moon's early rising time, making it visible at sunset and reaching peak illumination at 12:12 a.m. ET on Monday, October 26. Meanwhile, Saturn will be seen near the moon, with the moonlight appearing orange due to the denser air layer, similar to a sunset. The full moon is named the hunter's moon, traditionally marking a time for hunting and preparing for winter. The moon will shift its face as it rotates, revealing color differences due to its surface composition and age. For optimal sky-gazing, find a place with clear skies and no obstructions.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-ancient-human-dna-hidden-in-cave-walls-for-thousands-of-years/"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/25/science/full-hunters-moon-saturn"
         },
         {
           "id": "t-3",
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Fender Announces Massive Stadium Tour, Affordable Tickets and No Standing Area Tiers",
-          "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bXVzaWMlMjBmZXN0aXZhbHxlbnwxfDB8fHwxNzkyOTA2NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Newcastle, England",
-          "time": "Oct 25, 2026",
-          "content": "Sam Fender, a 32-year-old musician, announced his Proper Massive Stadium Tour for summer 2027, which will visit six cities. Ahead of the tour, Fender responded to a social media post claiming to outline ticket prices, stating he was not happy with the reported costs. He promised to lower the prices, saying they were inflated more than he had intended. Additionally, Fender said he would not split the standing area into front and back tiers, unlike some gigs that have this system. Tickets are due to go on general sale on Friday, with a pre-sale on Wednesday.",
+          "title": "Wicker Husband Story Becomes Film with Raunchy Twist",
+          "image": "https://images.pexels.com/photos/39562286/pexels-photo-39562286.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Budapest, Hungary",
+          "time": "Oct 26, 2026",
+          "content": "An author named Ursula Wills wrote a short story, The Wicker Husband, after seeing wicker sculptures on a camping trip. The story follows an ostracized fisherwoman who pays a basket-maker to weave her a husband. The story gained interest online and was later developed into a film, Wicker, starring Olivia Colman, Alexander Skarsgård, and Peter Dinklage. The author, who was initially surprised by the film's raunchy content, thinks audiences will go crazy for it. The film, which opens in UK cinemas on October 30, has garnered attention online and spawned viral posts.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6p3g9kle8pgo"
+          "url": "https://www.bbc.com/news/articles/c60rlpqlyd8xo"
         },
         {
           "id": "ent-2",
-          "title": "Nostalgia dominates music streaming, old-school hits lead playlists",
-          "image": "https://images.pexels.com/photos/23834128/pexels-photo-23834128.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Global",
-          "time": "Oct 25, 2026",
-          "content": "Music streaming platforms like Spotify and Deezer are facing a paradox. Despite the vast amount of new music being created, people's listening habits have shifted towards nostalgia. In the UK, over 60% of streams are of music released five or more years ago, with classic hits dominating playlists. The same trend is seen in the US, where about 60% of streams are of old-school hits in genres like R&B and Hip-Hop. While some new songs do break out, they often dominate streaming for weeks and months. As a result, aspiring artists may struggle to sustain a career after going viral, as platforms like TikTok are designed for viral moments rather than promoting artists.",
+          "title": "Spotify Corrects Error in Welsh Version of Dolly Parton's Jolene",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Young-Dolly-Parton_%28higher_quality_scan%29_%28cropped%29.jpg/500px-Young-Dolly-Parton_%28higher_quality_scan%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Wales",
+          "time": "Oct 26, 2026",
+          "content": "A Welsh version of Dolly Parton's hit song Jolene, featuring Bronwen Lewis and Jada Star, was mistakenly uploaded to Spotify with Irish lyrics. The song, recorded before Parton's death, features parts in English and Welsh, but the lyrics on Spotify showed it as Irish. After the BBC approached Spotify for comment, the error was removed. This is the second posthumous release from Parton, who was of Welsh descent and won 10 Grammy awards. Jolene, released in 1973, is about the fear of losing her husband to another woman, and it has had over one billion streams on Spotify. The Welsh version of the song was translated by Lewis and recorded with Parton's niece Star, and it follows Parton's revelation of her Welsh ancestry during a 2008 concert in Cardiff.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6kg50nnj0x4o"
+          "url": "https://www.bbc.com/news/articles/cw33xpl5xl8mo"
         },
         {
           "id": "ent-3",
-          "title": "Rob Brydon plays himself in comedy series The Trip",
-          "image": "https://images.unsplash.com/photo-1651163681754-69111e3a0c60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y29tZWR5JTIwZHVvfGVufDF8MHx8fDE3OTI1NTY2MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London",
-          "time": "Oct 21, 2026",
-          "content": "Comedian Rob Brydon, known for his role in Gavin and Stacey, initially doubted the idea of playing a fictionalized version of himself in the comedy series The Trip. However, he enjoyed playing a heightened version of himself, alongside Steve Coogan, and thought it made viewers more curious. The duo stars in the series, directed by Michael Winterbottom, as exaggerated versions of themselves, dining at different restaurants and traveling around the world. In the latest season, titled The Trip to the Northern Lights, they explore Scandinavia, searching for the aurora borealis. Brydon found filming in the region to be breathtaking, despite some cold weather, and enjoyed immersing himself in Scandinavian traditions, including saunas and cold plunges. The release date for the new season has yet to be announced.",
+          "title": "Marzamemi Festival Applies to Hold Family-Friendly Event on Richmond Green",
+          "image": "https://images.pexels.com/photos/36624118/pexels-photo-36624118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 26, 2026",
+          "content": "A family-friendly Italian-themed festival, the Marzamemi Festival, has applied to hold a three-day event on Richmond Green in south-west London in June. The event, which features live music, food, and activities for children, has received some support but also 45 objections from residents who are concerned about noise and restricted access to the park. The Richmond Society has objected to the event, citing concerns that it will take away public access to a large area of the green, potentially constituting a public nuisance. The event's founder, Emily Ceraudo, describes it as a 'boutique, family-friendly celebration' that aims to support local businesses. The Richmond Council's licensing committee will make a decision on the event in the coming days.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c5n49ll9l90wo"
+          "url": "https://www.bbc.com/news/articles/cq62yl7584p2o"
         }
       ]
     },
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "pp-3",
-          "title": "Government funds £1 billion for England's social and affordable housing",
-          "image": "https://images.unsplash.com/photo-1768586429849-b35799b5cb2d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X0VuZ2xpc2glMjBjaXR5c2NhcGV8ZW58MXwwfHx8MTc5MjkwNjE5OXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "England",
-          "time": "Oct 25, 2026",
-          "content": "Just over £1 billion will be allocated for social and affordable housing in England, bringing the government's 10-year homes programme funding to over £40 billion. Additionally, mayors and regional leaders are set to receive more powers and funding, with councils allowed to borrow money from the government to invest in housebuilding. The Chancellor, John Healey, will also announce support for small breweries and unveil billions of pounds of new defence spending. The plans aim to give regional leaders more flexibility and authority over investment decisions, with Prime Minister Andy Burnham stating that the goal is to shift power to those who know their communities best. The government will also confirm a new £1.5 billion borrowing facility for mayors from 2028, allowing them to support local priorities such as new homes, high streets, and transport links.",
+          "title": "£20m Refurbishment Plan Proposed for World's End Estate",
+          "image": "https://images.unsplash.com/photo-1629471723271-1830ffba31c8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8dXJiYW4lMjByZWZ1cmJpc2htZW50fGVufDF8MHx8fDE3OTI5ODQ1Mzd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Oct 26, 2026",
+          "content": "Kensington and Chelsea Council has proposed a £20m refurbishment plan for the World's End Estate in west London. The project, set to start in 2028, will replace some kitchens and bathrooms, renew roofs, and redecorate communal areas. Leaseholders will contribute to the repairs, with tailored support for those most affected. The upgrade includes electrical and fire safety improvements, and a new heat network system to comply with Ofgem regulations. The report notes that upgrading the existing system will require significant investment, which may generate leaseholder recharges. The £20m investment aims to improve homes, enhance resident safety, and secure the estate's future for decades to come.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqm24j9y9zn7o"
+          "url": "https://www.bbc.com/news/articles/crwyqn28e714o"
         },
         {
           "id": "eb-2",

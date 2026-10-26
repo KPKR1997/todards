@@ -1,17 +1,15 @@
-TODARDS LLM PIPELINE EVALUATION — 25102026
-Execution timestamp: 2026-10-25T11:14:13.976501
-Pipeline duration: 53.8 minutes
+TODARDS LLM PIPELINE EVALUATION — 26102026
+Execution timestamp: 2026-10-26T08:58:44.818564
+Pipeline duration: 55.5 minutes
 
-Here is the concise, useful plain-text evaluation for the operator's daily email:
+Here is the evaluation:
 
-**Overall Run Health:** The pipeline run appears healthy, with no significant anomalies or performance issues reported.
+**Run Health:** The pipeline duration is 55.5 minutes, which is 3.2% longer than the previous recorded run. This increase in duration may warrant investigation, but it is not necessarily a cause for concern. The scraped article volume has decreased by 11 articles compared to the previous run, which could be a sign of a minor issue.
 
-**Duration:** The run duration is 53.8 minutes, which is 30.8% shorter than the previous recorded run. This could be a positive trend, but more data is needed to confirm.
+**Semantic Deduplication:** The deduplication process removed 0 duplicate articles from the 68 scraped articles, which is a relatively low percentage. This could indicate that the deduplication process is functioning correctly.
 
-**Scrape Volume:** The scraped article volume is 79, which is a decrease from the previous recorded run's 122. This change may be worth investigating further.
+**Source/Category Ingestion Anomalies:** There are no anomalies reported in the evidence-based observations. The scraped article volume and duplicates removed counts are within expected ranges.
 
-**Semantic Deduplication:** No duplicate articles were removed from the scraped articles, which is consistent with the previous recorded run.
+**LLM Performance:** The LLM performance metrics are generally healthy, with 0 failures and an average response time of 1.08 seconds. The total time spent in LLM calls is 219.09 seconds, which is relatively low.
 
-**LLM Performance:** The LLM performed well, with no failures reported and an average response time of 1.1 seconds.
-
-**Next Practical Check:** Review the scrape volume and category ingestion anomalies to identify any potential issues or trends. Additionally, monitor the pipeline duration and LLM performance to ensure they remain stable and efficient.
+**Next Practical Check:** Investigate the increase in pipeline duration to determine the cause and potential impact on future runs. Review the scraped article volume and category counts to ensure they are within expected ranges.
