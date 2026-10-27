@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 78",
+    "issue": "Issue No. 79",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "26 October 2026",
+    "publishedAt": "27 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "US Court Skeptical of DOJ's Mail-In Ballot Bid",
-          "image": "https://images.pexels.com/photos/15939941/pexels-photo-15939941.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "California, USA",
-          "time": "Oct 26, 2026",
-          "content": "A US Circuit Court of Appeals panel has expressed skepticism over the Justice Department's attempt to force California to set aside mail-in ballots from suspected noncitizens. The Justice Department claims there are 20,000 noncitizens on California's voter rolls, but the court questioned the reliability of this information. The court also questioned why the Justice Department took its case to the appellate court before the district court ruled. The court is weighing whether to allow the Justice Department to force California to set aside the ballots, which has already processed over 300,000 midterm ballots. The case is seen as an attempt by the Trump administration to prove claims of massive voter fraud.",
+          "title": "Election 2026: Musk Leads $16 Billion in PAC Spending",
+          "image": "https://images.pexels.com/photos/8847039/pexels-photo-8847039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Oct 27, 2026",
+          "content": "In the 2026 election cycle, over $16 billion has been raised, with most of it coming from political action committees. Billionaire Elon Musk is expected to be the largest spender, with over $400 million contributed so far. Other big spenders include George Soros and Michael Bloomberg, who have donated tens of millions of dollars to Democratic candidates. Meanwhile, Republican majorities are being bolstered by spending from super PACs and individual donors, with SLF raising over $540 million. As the election approaches, the total amount spent by individual donors and PACs will continue to grow, making it difficult to track the true impact of campaign spending.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/25/politics/california-midterm-voting-judges"
+          "url": "https://edition.cnn.com/2026/10/26/politics/elon-musk-campaign-spending"
         },
         {
           "id": "pp-2",
-          "title": "Supreme Court's Decisions Favor Republicans in Midterm Elections",
-          "image": "https://images.unsplash.com/photo-1603119380999-ef522dd64b3c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Q29uc2VydmF0aXZlJTIwanVzdGljZXxlbnwxfDB8fHwxNzkyOTg0MDYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "Kristi Noem Ends Tenure as Shield of Americas Envoy, Confusion Ensues",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Official_Portrait_of_Secretary_Kristi_Noem.jpg/500px-Official_Portrait_of_Secretary_Kristi_Noem.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
           "place": "Washington, USA",
-          "time": "Oct 26, 2026",
-          "content": "Conservative Supreme Court justices have significantly impacted the midterm elections, making decisions that benefit Republicans. These decisions have reshaped redistricting, campaign finance regulations, and mail voting, among other things. Justice Elena Kagan criticized the court's actions, saying they have created a democracy that does not work as well as it should. While some decisions have favored Republicans, others, such as the court's rejection of President Donald Trump's push to give the US Postal Service the power to withhold mail ballots, have not. The Supreme Court's decisions are expected to have a lasting impact on the political system, and the timing of Kagan's warning, just two weeks before the election, was notable.",
+          "time": "Oct 27, 2026",
+          "content": "Kristi Noem, former special envoy to the Shield of Americas, posted an official-looking statement on her social media accounts announcing the end of her tenure, but sources claim it was not an official State Department statement. The statement's letterhead appeared to be genuine, but officials say no one on the seventh floor or in the press office saw the memo before it was posted. The substance of the statement was accurate, but the format and apparent authorization by leadership or the press office were not. Noem has since moved into a senior adviser role and is continuing to work on the Shield of the Americas portfolio. A State Department official confirmed that Noem remains at the department as a senior adviser, and the work she's doing with the coalition is being praised by President Donald Trump.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/25/politics/supreme-court-midterm-rules"
+          "url": "https://edition.cnn.com/2026/10/26/politics/kristi-noem-x-statement-not-approved-officials-say"
         },
         {
           "id": "eb-1",
-          "title": "Israel's Deadlocked Election Enters Final Days",
-          "image": "https://images.pexels.com/photos/17654360/pexels-photo-17654360.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Tel Aviv, Israel",
-          "time": "Oct 26, 2026",
-          "content": "The Israeli general election is just days away, with the governing coalition and main opposition bloc neck-and-neck in polls. The election is deeply divided, with many voters eager to cast their ballots and some 70,000 reportedly flying in from abroad specifically to vote. Vast crowds of opposition voters have gathered to demand a change of government, with some citing the need for peace, security, and an end to corruption. The campaign has been energized by new tactics and a new face, Gadi Eisenkot, a former military chief of staff who has been dubbed a",
+          "title": "Trump Makes Controversial Offers to Voters",
+          "image": "https://images.pexels.com/photos/8846629/pexels-photo-8846629.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Greenville, North Carolina",
+          "time": "Oct 27, 2026",
+          "content": "President Donald Trump has been making voters a series of highly controversial offers, threatening to withhold aid and funding if they don't vote for Republicans. At the Republican midterm convention, Trump initially offered every US adult $5,000 if Republicans keep the majority. Since then, he has offered more targeted deals to voters in about half of the states holding key Senate contests, often framing them as jokes. However, many of these promises are not just humorous, and Trump could deliver on them if he wanted to. The president has linked disaster relief to voting for Republican Michael Whatley, promised to invest $100 million in a drug manufacturing facility in Kentucky if Republicans win, and offered to make E15 fuel available permanently if Roger Marshall wins in Kansas. Trump has also threatened to withhold Department of Justice settlements for water contamination at Camp Lejeune if Republicans don't win. The president's quid pro quos have been met with widespread criticism, with polls showing most voters think the offers are inappropriate and would make them less likely to vote for a candidate who supports Trump's ideas.",
           "theme": "#F7F1DE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckpdgy6pl7xlo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/26/politics/trump-campaign-promises-midterms"
         }
       ]
     },
@@ -64,25 +64,25 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Scientists Find First Experimental Evidence of Quantum Phenomenon",
-          "image": "https://images.unsplash.com/photo-1666811722581-7900271596c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8YXRvbWljJTIwZGVmZWN0c3xlbnwxfDB8fHwxNzkyOTgzNDc4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York, USA",
-          "time": "Oct 26, 2026",
-          "content": "Scientists at Columbia University have made a groundbreaking discovery, uncovering the first experimental evidence of a long-predicted quantum phenomenon in a metallic material. The finding, published in Science, shows that electron waves can become trapped inside a metal, even when pathways remain available for them to escape. This phenomenon, known as a bound state in the continuum (BIC), was predicted by quantum mechanics, but this is the first time it has been seen for electrons. The discovery was made possible by the development of a metal called Pd5AlI2, which can be separated into thin, two-dimensional layers while retaining its metallic properties. The researchers found that the metal's atomic structure creates competing paths for electrons to move between atoms, allowing destructive interference to suppress their movement. This finding has the potential to contribute to the development of highly sensitive quantum sensors, quantum information processing, and quantum chemistry.",
+          "title": "SoftBank to invest $50 billion in Malaysia for AI and tech",
+          "image": "https://images.pexels.com/photos/27118624/pexels-photo-27118624.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Malaysia",
+          "time": "Oct 27, 2026",
+          "content": "Malaysian Prime Minister Anwar Ibrahim announced that SoftBank Group plans to invest $50 billion in the country, focusing on artificial intelligence, new technologies, and data centers. This planned investment comes as Malaysia aims to become an 'AI nation' by 2030 and follows the government's launch of a national AI action plan. SoftBank's planned investment is part of a growing trend, with Google, Amazon Web Services, and Microsoft also investing in the country. Malaysia has already seen $94 billion in data center-related investments between 2021 and the first half of 2026, and the country is seeking to strengthen its AI capabilities and infrastructure. }",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/tiny-atomic-defects-reveal-a-quantum-secret-hidden-inside-an-unusual-metal/"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/softbank-masayoshi-son-malaysia-ai-billions.html"
         },
         {
           "id": "st-2",
-          "title": "Hunter's Moon Visible at Sunset, Peaking on October 26",
-          "image": "https://images.pexels.com/photos/8488394/pexels-photo-8488394.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Goddard Space Flight Center, Maryland",
-          "time": "Oct 26, 2026",
-          "content": "This weekend, October's full moon will be visible in the sky, coinciding with the moon's early rising time, making it visible at sunset and reaching peak illumination at 12:12 a.m. ET on Monday, October 26. Meanwhile, Saturn will be seen near the moon, with the moonlight appearing orange due to the denser air layer, similar to a sunset. The full moon is named the hunter's moon, traditionally marking a time for hunting and preparing for winter. The moon will shift its face as it rotates, revealing color differences due to its surface composition and age. For optimal sky-gazing, find a place with clear skies and no obstructions.",
+          "title": "Musk Warns 200+ Neoclouds at Risk of Collapse Over Debt and Profit Concerns",
+          "image": "https://images.unsplash.com/photo-1667984390538-3dea7a3fe33d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Q2xvdWQlMjBpbmZyYXN0cnVjdHVyZXxlbnwxfDB8fHwxNzkzMDY0OTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Berlin, Germany",
+          "time": "Oct 27, 2026",
+          "content": "Elon Musk warned that more than 200 companies providing cloud computing services, known as neoclouds, could collapse due to debt issues and concerns over their ability to generate profits. Musk, CEO of SpaceX and Tesla, said that debt markets have shut off access to money for companies without substantial revenue independent of AI data centers. This could lead to a wave of consolidation and some neoclouds going out of business. Musk's comments came after Chamath Palihapitiya, founder of Social Capital, expressed similar concerns about the data center buildout. The warning comes as neocloud stocks have been falling sharply over the past month, with some companies down by as much as 40%. Nvidia, a major investor in neoclouds, has expressed confidence in the sector's growth potential, but many investors remain jittery. Neocloud executives are defending their companies' demand, saying that customers are still clamoring for their services.",
           "theme": "#EBF2FA",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/25/science/full-hunters-moon-saturn"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/26/neocloud-stocks-today-coreweave-nebius-iren-elon-musk.html"
         },
         {
           "id": "t-3",

@@ -1,0 +1,326 @@
+{
+    "date": "27102026",
+    "timestamp": "2026-10-27T07:16:59.556033",
+    "duration_seconds": 2757.54,
+    "stages_duration_seconds": {
+        "scrape": 893.71,
+        "guardrails": 176.99,
+        "deduplication": 15.27,
+        "category_validation": 237.25,
+        "ranking": 313.9,
+        "processing": 1120.34,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 6,
+            "Tech": 23,
+            "People": 56,
+            "Environment": 3,
+            "Economy": 9,
+            "Entertainment": 33
+        },
+        "total_scraped": 130,
+        "guardrail_passed": 130,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 5,
+        "final_categories": 2
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 130,
+        "classified_safe": 77,
+        "classified_unsafe": 53,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 53,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 127,
+        "rejected_count": 37,
+        "rejected_articles": [
+            {
+                "title": "As Halloweekend kicks off the holidays, the first thing a good party host should do is read this",
+                "from": "health",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on social interaction, hosting, and etiquette, which is more relevant to the 'people' category than 'health'."
+            },
+            {
+                "title": "From Wall Street to Silicon Valley, Anthropic IPO poised to have massive 'trickle-down effect'",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article's primary focus is on the economic impact and potential of Anthropic's IPO, making 'economy and business' a more relevant category than 'science and technology'."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the potential impact of AI-related IPOs on the market and the economy, rather than any specific scientific or technological development."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses news and developments related to politics and government, which falls under the 'people' category, despite having some tangential mention of science and technology."
+            },
+            {
+                "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article discusses the financial performance and valuation of Anthropic, a company, which is more relevant to the economy and business category than the people category."
+            },
+            {
+                "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article discusses the potential risks and benefits of artificial intelligence, which is primarily a scientific and technological topic, rather than a people-focused story."
+            },
+            {
+                "title": "Nurse killed in attack while responding to Ebola alert in DR Congo",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses a health-related incident, with a focus on the attack on health workers and the Ebola outbreak in DR Congo."
+            },
+            {
+                "title": "Anthropic's blockbuster share listing - 5 surprising things we now know",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article discusses the AI technology and its potential risks, which is a clear connection to the science and technology category."
+            },
+            {
+                "title": "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
+                "from": "economy and business",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the warning about AI posing catastrophic risks to humanity, which is a science and technology-related topic, rather than an economic or business topic."
+            },
+            {
+                "title": "Trump's media bans 'deprive the public', press freedom groups argue",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the Trump administration's policies and actions, which are more relevant to the 'people' category than 'economy and business', despite the economic implications."
+            },
+            {
+                "title": "No 10 appears to backtrack on PM's freedom of movement referendum suggestion",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the UK's relationship with the EU, including freedom of movement, which is a topic related to politics and governance, making 'people' the most relevant category."
+            },
+            {
+                "title": "Walter Koenig, Chekov of ‘Star Trek’ fame, dies at 90",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Walter Koenig's life, career, and legacy, which is a people-related story."
+            },
+            {
+                "title": "Chris Brown given prison sentence, suspended for a year, following London nightclub brawl",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Chris Brown, a celebrity, and his legal troubles, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Eric Bauza, voice actor behind Bugs Bunny and other Looney Tunes stars, dies at 46",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily reports on the life and career of Eric Bauza, a voice actor, and the tributes from his colleagues in the entertainment industry, making it most relevant to the 'people' category."
+            },
+            {
+                "title": "Twenty-five years later, baseball’s most emotional World Series still resonates",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article's primary focus is on the emotional impact of the 2001 World Series on the players and the nation, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Busted's James Bourne says 'hero' brother saved his life with kidney donation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the personal life and health of James Bourne, a celebrity musician, which falls under the 'people' category."
+            },
+            {
+                "title": "Busted's James Bourne says 'hero' brother saved his life with kidney donation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article focuses on the personal life and health of James Bourne, a celebrity, making it most relevant to the 'people' category."
+            },
+            {
+                "title": "Oscar-winning producer says BBC gave her £400,000 payout after she raised antisemitism concerns",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on a specific individual's experiences and allegations, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Oscar-winning producer says BBC gave her £400,000 payout after she raised antisemitism concerns",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article's focus on antisemitism and personal injury caused by the BBC's process makes it more relevant to the 'health' category, despite being an entertainment-related story."
+            },
+            {
+                "title": "Macklemore begins Free Palestine tour after Ed Sheeran fallout",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Macklemore's political views and his decision to support the Palestinian cause, which is a human-interest story and a social development, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the life and career of Walter Koenig, an actor, which falls under the 'people' category."
+            },
+            {
+                "title": "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily reports on the life and death of Walter Koenig, a person, rather than focusing on entertainment or other categories."
+            },
+            {
+                "title": "Russell Brand asked assistant for female fan phone numbers, court hears",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Russell Brand's personal life and alleged behavior, which is a human-interest story relevant to the 'people' category."
+            },
+            {
+                "title": "Russell Brand asked assistant for female fan phone numbers, court hears",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily reports on a high-profile individual, Russell Brand, and his alleged behavior, which falls under the 'people' category."
+            },
+            {
+                "title": "Owners of Elvis music rights sue Anthropic for copyright violations",
+                "from": "entertainment",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a lawsuit between a company and the owners of Elvis' music rights, which is a business and financial matter, rather than an entertainment story."
+            },
+            {
+                "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Chris Brown, a celebrity, and a legal case related to his actions, which falls under the 'people' category."
+            },
+            {
+                "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the legal consequences faced by celebrity Chris Brown, making it more relevant to the 'people' category than 'entertainment', where it was initially categorized."
+            },
+            {
+                "title": "'He was desperate to escape': Why the real Christopher Robin resented being linked to Winnie-the-Pooh",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal life and experiences of Christopher Robin, the inspiration behind Winnie-the-Pooh, and explores his complex relationship with his father and the fame that came with being associated with the beloved character."
+            },
+            {
+                "title": "Sharon Osbourne: 'I visit Ozzy's grave every day'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the personal life and grief of Sharon Osbourne, wife of the late Ozzy Osbourne, which is a human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "Sharon Osbourne: 'I visit Ozzy's grave every day'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the personal experiences and emotions of Sharon Osbourne, the wife of Ozzy Osbourne, and is a human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "Busted's James Bourne says 'hero' brother saved his life with kidney donation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on James Bourne's personal life and health, which is a human-interest story, making 'people' the most relevant category."
+            },
+            {
+                "title": "Macklemore begins Free Palestine tour after Ed Sheeran fallout",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article's focus on Macklemore's support for Palestine and his tour, which is a social and political issue, makes it more relevant to the 'people' category than the current category 'entertainment'."
+            },
+            {
+                "title": "Chris Brown given suspended eight-month prison sentence over nightclub attack",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about a celebrity, Chris Brown, and his legal troubles, making it a relevant fit for the 'people' category."
+            },
+            {
+                "title": "Sharon Osbourne: 'I visit Ozzy's grave every day'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the personal story and grief of Sharon Osbourne, which is a people-related topic, rather than a specific entertainment-related development."
+            },
+            {
+                "title": "Star Trek actor Walter Koenig, who played Pavel Chekov, dies aged 90",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the life and career of Walter Koenig, a person in the entertainment industry, rather than the entertainment industry itself."
+            },
+            {
+                "title": "Legally Blonde 'inspired the kind of lawyer I wanted to be'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses the impact of Legally Blonde on the legal profession, specifically on the number of women in law, and quotes individuals in the profession, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Sharon Osbourne: 'I visit Ozzy's grave every day'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal experience and emotions of Sharon Osbourne, making it more relevant to the 'people' category than 'entertainment'."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 387,
+        "total_failures": 0,
+        "total_time_seconds": 412.67,
+        "prompt_tokens": 540160,
+        "response_tokens": 10554,
+        "total_tokens": 550714,
+        "usage_responses": 387,
+        "prompt_eval_seconds": 115.211,
+        "generation_seconds": 235.991,
+        "load_seconds": 35.551,
+        "server_total_seconds": 408.498,
+        "avg_response_time": 1.07
+    }
+}
