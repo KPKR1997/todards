@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-3",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "Daily weather tracker: Cyclone Arnab intensifies into severe storm, heavy rain alert for Andhra Pradesh and Odisha",
+        "date": "2026-10-27T05:23:47.080Z",
+        "content": "Cyclone Arnab has intensified into a severe cyclonic storm over the Bay of Bengal and is expected to make landfall along the Andhra Pradesh coast on October 28. Coastal Andhra Pradesh faces extremely heavy rainfall and winds of 115–125 km/h, with gusts reaching 140 km/h. Odisha, Telangana and Chhattisgarh are also on alert for heavy rainfall, thunderstorms and strong winds. A western disturbance could bring rain and thunderstorms to northern India, with snowfall possible in the higher reaches of the Himalayas. Cyclone Arnab over the Bay of Bengal has intensified into a severe cyclonic storm, raising concerns over heavy rainfall, strong winds and coastal safety in Andhra Pradesh and Odisha. Meanwhile, an approaching western disturbance could bring rain, thunderstorms and snowfall to parts of northern India. According to the India Meteorological Department's (IMD) weather bulletin dated October 27, 2026, the cyclone moved west-north-westwards at approximately 23 km/h over the preceding six hours. At the time of the update, it was about 400 km from Gopalpur in Odisha, 350 km from Visakhapatnam and 420 km from Kakinada in Andhra Pradesh. The system is expected to continue moving west-north-westwards before turning north-westwards and crossing the Andhra Pradesh coast between Bapatla and Visakhapatnam, near Yanam, on the morning of October 28.",
+        "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-cyclone-arnab-intensifies-into-severe-storm-heavy-rain-alert-for-andhra-pradesh-and-odisha",
+        "rank": 1,
+        "ranking_score": 0.25,
+        "ranking_reason": "Daily weather tracker: Cyclone Arnab intensifies into severe storm, heavy rain alert for Andhra Pradesh and Odisha",
+        "ranking": {
+            "rank": 1,
+            "score": 0.25,
+            "base_score": 0.25,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 1,
+                "scientific_significance": 1,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 1,
+                "urgency": 1,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "Daily weather tracker: Cyclone Arnab intensifies into severe storm, heavy rain alert for Andhra Pradesh and Odisha",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a substantively important development in the environment category, providing clear information on the intensification of Cyclone Arnab and the expected impacts on Andhra Pradesh and Odisha. The article is evidence-based, citing the India Meteorological Department's weather bulletin as a source. This information is likely to be of significant interest to readers concerned about weather events and their consequences."
+            }
+        }
+    }
+]

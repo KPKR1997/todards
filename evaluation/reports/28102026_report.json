@@ -1,0 +1,214 @@
+{
+    "date": "28102026",
+    "timestamp": "2026-10-28T07:38:56.139067",
+    "duration_seconds": 4074.15,
+    "stages_duration_seconds": {
+        "scrape": 865.1,
+        "guardrails": 128.35,
+        "deduplication": 11.92,
+        "category_validation": 189.74,
+        "ranking": 437.75,
+        "processing": 2441.24,
+        "assembly": 0.0
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 9,
+            "Tech": 16,
+            "People": 47,
+            "Environment": 4,
+            "Economy": 6,
+            "Entertainment": 24
+        },
+        "total_scraped": 106,
+        "guardrail_passed": 106,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 12,
+        "final_categories": 6
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 106,
+        "classified_safe": 69,
+        "classified_unsafe": 37,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 37,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 103,
+        "rejected_count": 21,
+        "rejected_articles": [
+            {
+                "title": "Walmart says AI training is boosting confidence with the technology among its 2.1 million associates",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses how Walmart's 2.1 million associates are experiencing and using AI, focusing on the impact on their jobs and confidence, which is more relevant to the 'people' category than 'science and technology' despite mentioning AI."
+            },
+            {
+                "title": "Robinhood shares fall 4% as crypto slump weighs on profits, offsetting gains in new businesses",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Robinhood's financial performance, revenue growth, and business diversification, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the impact of AI on the stock market, companies, and the economy, making it more relevant to 'economy and business' than 'science and technology'."
+            },
+            {
+                "title": "Porsche profit rebounds as luxury carmaker reduces exposure to China",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article discusses Porsche's financial performance and restructuring efforts, which is more relevant to the 'economy and business' category than 'science and technology'."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses archaeological findings and their implications for understanding the history of Westminster Abbey, which falls under the category of people."
+            },
+            {
+                "title": "Nanotyrannus skeleton sells for $47.3m in New York auction",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the scientific discovery and classification of the dinosaur skeleton, which is a significant event in the field of paleontology."
+            },
+            {
+                "title": "Australian sunscreen brands face stricter rules after safety scandal",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article discusses safety regulations and testing requirements for sunscreen manufacturers, which is a health-related topic."
+            },
+            {
+                "title": "Mbappé sorry for 'ill-judged' Mao remark after backlash in China",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Kylian Mbappé's apology and the backlash in China, which is a human-interest story and falls under the 'people' category."
+            },
+            {
+                "title": "Susan Saint James, Emmy-winning actor of ‘McMillan & Wife’ and ‘Kate & Allie,’ dies at 80",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the life, career, and personal achievements of Susan Saint James, an actress in the entertainment industry, and does not have a clear connection to the 'entertainment' category beyond that."
+            },
+            {
+                "title": "Soccer star Kylian Mbappé apologizes for remark about ‘Chinese dictator’",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Kylian Mbappé, a soccer star, and his apology for a remark about a Chinese dictator, which is a significant human-interest story, making it relevant to the 'people' category."
+            },
+            {
+                "title": "Valkyries push Dream to the brink, move one win away from WNBA title",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the WNBA Finals and the Golden State Valkyries' push towards the championship, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Adventurer completes 400-mile expedition after losing contact with team",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Ash Dykes, an adventurer and explorer, and his personal experiences during the expedition, which falls under the 'people' category."
+            },
+            {
+                "title": "Russell Brand told police he never had non-consensual sex",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the trial of Russell Brand, a well-known personality, and discusses his interactions with the police, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Russell Brand told police he never had non-consensual sex",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Russell Brand, a media personality, and his trial, which falls under the people category."
+            },
+            {
+                "title": "Unnamed celebrity accused of 'inappropriate sexual activities', court hears",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on a celebrity's personal life and legal issues, which falls under the 'people' category."
+            },
+            {
+                "title": "Unnamed celebrity accused of 'inappropriate sexual activities', court hears",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses a celebrity and their alleged actions, which falls under the people category."
+            },
+            {
+                "title": "Netherlands pulls out of Eurovision again over Israel participation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a decision made by the Netherlands, a country, regarding its participation in the Eurovision Song Contest, which is a people-related event."
+            },
+            {
+                "title": "Netherlands pulls out of Eurovision again over Israel participation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the Netherlands' decision to pull out of Eurovision due to Israel's participation, which falls under the 'people' category"
+            },
+            {
+                "title": "Netherlands pulls out of Eurovision again over Israel participation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a decision made by the Netherlands public broadcaster, which is a people-related issue, rather than an entertainment one."
+            },
+            {
+                "title": "Sir Tom Jones 'truly sorry' as he cancels two shows due to illness",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Sir Tom Jones' health and career, which falls under the 'people' category."
+            },
+            {
+                "title": "Sports 'geo-blocking' can't be stopped, says regulator",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the regulator's decision and the economy minister's response, which falls under the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 315,
+        "total_failures": 0,
+        "total_time_seconds": 316.45,
+        "prompt_tokens": 414476,
+        "response_tokens": 8328,
+        "total_tokens": 422804,
+        "usage_responses": 315,
+        "prompt_eval_seconds": 91.522,
+        "generation_seconds": 185.556,
+        "load_seconds": 18.893,
+        "server_total_seconds": 313.261,
+        "avg_response_time": 1.0
+    }
+}
