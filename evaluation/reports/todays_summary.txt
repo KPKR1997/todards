@@ -1,17 +1,14 @@
-TODARDS LLM PIPELINE EVALUATION — 28102026
-Execution timestamp: 2026-10-28T07:38:56.139067
-Pipeline duration: 67.9 minutes
+TODARDS LLM PIPELINE EVALUATION — 29102026
+Execution timestamp: 2026-10-29T09:38:04.990657
+Pipeline duration: 187.1 minutes
 
-Here is the evaluation:
+LLM evaluation unavailable: Ollama did not return an evaluation.
+Reason: URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
 
-**Overall Run Health:** The pipeline duration is 67.9 minutes, which is 47.7% longer than the previous recorded run. This increase in duration may warrant investigation. The scraped article volume has decreased from 130 to 106, which could be a normal fluctuation or a sign of a potential issue.
-
-**Scrape Volume:** The total scraped volume is 106 articles, with a notable decrease from the previous recorded run. This change may be due to various factors, such as changes in data availability or quality.
-
-**Semantic Deduplication:** No duplicate articles were removed, which is consistent with the previous recorded run. This suggests that the deduplication process is functioning as expected.
-
-**Source/Category Ingestion Anomalies:** No anomalies were detected in the source/category ingestion metrics.
-
-**LLM Performance:** The LLM performance metrics appear healthy, with no failures reported and an average response time of 1.0 seconds. The total time spent in LLM calls is 316.45 seconds, which is relatively low.
-
-**Next Practical Check:** Investigate the cause of the increased pipeline duration and the decrease in scraped article volume. Review the LLM performance metrics to ensure they remain healthy and identify any potential issues.
+Metrics-based observations (not an LLM-generated assessment):
+- Pipeline duration: 187.1 minutes.
+- Semantic deduplication removed 0 duplicate articles from 134 scraped articles (0.0% of scraped volume; the count is relative to total scraped articles).
+- Pipeline duration changed +175.6% versus the previous recorded run.
+- Scraped article volume changed from 106 to 134 versus the previous recorded run.
+- Duplicates removed changed from 0 to 0 versus the previous recorded run.
+- Check that Ollama is running and TODARDS_OLLAMA_MODEL names an installed model.
