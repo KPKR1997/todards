@@ -1,0 +1,67 @@
+[
+    {
+        "id": "st-6",
+        "source": "SciTechDaily",
+        "category": "health",
+        "title": "",
+        "date": "2026-10-30 01:01",
+        "content": "A supplement containing a molecule naturally found in the body showed promise for easing lingering brain fog and fatigue after breast cancer treatment. Troubles following a conversation, remembering details, or organizing everyday tasks can linger long after breast cancer treatment ends. A small study now suggests that a supplement containing oxaloacetate, a molecule the body already uses to produce energy, could help ease this mental fog and the fatigue that often accompanies it. Researchers at the UCLA Health Jonsson Comprehensive Cancer Center found that survivors who completed eight weeks of supplementation reported clearer thinking, less fatigue, and better physical functioning. Cognitive tests also detected improvements in processing speed and executive function, the skills that help people plan, focus, and manage tasks. The results, published in JCO Oncology Advances , support further research into the supplement’s potential benefits. An estimated 15% to 25% of breast cancer survivors experience lasting cognitive difficulties after the disease and its treatment. Often called “chemo brain” or “brain fog,” these symptoms have historically been associated with chemotherapy. Researchers now recognize a broader set of possible contributors, including cancer itself, endocrine therapy, inflammation, hormonal changes, and other biological and behavioral factors. “Cancer-related cognitive impairment can persist long after treatment ends and can have a significant impact on a person’s daily life, yet we still have very few effective treatments for it,” said Dr. Patricia Ganz, the study’s first author and a distinguished professor of medicine at the David Geffen School of Medicine at UCLA and the UCLA Fielding School of Public Health. Oxaloacetate interests researchers because it supports both cellular energy production and the regulation of glutamate, a chemical involved in brain signaling. Inflammation associated with cancer and its treatments may disrupt these processes, potentially contributing to cognitive problems and mental fatigue. The team wanted to find out whether supplementing oxaloacetate could help address those symptoms. The phase II trial included women with early-stage breast cancer who were one to five years past diagnosis and reported substantial cognitive difficulties. Their average age was about 50. Most had received chemotherapy, and nearly 90% were taking endocrine therapy during the study. Participants took 500 milligrams (about 0.018 ounces) of oxaloacetate twice daily for eight weeks. Researchers used questionnaires and standardized neuropsychological tests to assess attention, memory, processing speed, and executive function before and during treatment. They also tracked fatigue, sleep, anxiety, depression, physical and mental health, and side effects. Sixteen women completed the treatment, and all 16 reported significant improvement in cognitive symptoms. Their average score on the primary measure of perceived cognitive impairment rose from 29.1 to 55.5, moving the group from a range considered impaired into one considered normal. Improvements were apparent after four weeks and generally grew by week eight. Beyond the reported gains in memory and concentration, participants experienced significant reductions in fatigue, including mental fatigue, and improvements in physical functioning. Neuropsychological tests showed better processing speed and executive function, although the researchers described these results as preliminary given the trial’s size. Oxaloacetate was generally well tolerated. The most common side effects involved the digestive system, including indigestion, bloating, constipation, diarrhea, and nausea. Two participants stopped treatment because of gastrointestinal symptoms, and no serious adverse events were reported. “These early findings give us a strong reason to continue studying oxaloacetate as a potential approach for managing cognitive problems after breast cancer treatment,” Ganz said. The team is preparing a randomized, placebo-controlled phase II trial in survivors with cancer-related cognitive impairment, expected to open in late 2026. Preclinical studies in mice are also underway to explore how oxaloacetate works and whether similar outcomes (improved fatigue and physical function) occur in a placebo-controlled mouse study. Reference: “Results From a Phase II Single-Arm Trial Evaluating the Safety and Efficacy of Anhydrous Enol-Oxaloacetate on Improving Cognitive Complaints in Breast Cancer Survivors” by Patricia A. Ganz, Kathleen Van Dyk, Catherine M. Crespi, Laura Petersen, Mina S. Sedrak and Julienne E. Bower, 1 October 2026, JCO Oncology Advances . DOI: 10.1200/OA-26-00063 The study was funded in part by the Breast Cancer Research Foundation and the National Cancer Institute. Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/a-natural-molecule-already-in-your-body-could-hold-the-key-to-clearing-brain-fog-after-cancer-treatment/",
+        "rank": 1,
+        "ranking_score": 22.95,
+        "ranking_reason": "The study's findings on the potential benefits of oxaloacetate supplementation for breast cancer survivors are a significant development in the field of health.",
+        "ranking": {
+            "rank": 1,
+            "score": 22.95,
+            "base_score": 22.5,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 20,
+                "dont_miss": 0,
+                "human_consequence": 40,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 80,
+                "scientific_significance": 60,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 20,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "The study's findings on the potential benefits of oxaloacetate supplementation for breast cancer survivors are a significant development in the field of health.",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 10,
+                "public_need_to_know": 30,
+                "public_concern": 20,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The study provides a significant development in the field of health, specifically in the area of breast cancer treatment and its effects on cognitive functioning, with clear evidence of potential benefits from oxaloacetate supplementation."
+            }
+        }
+    }
+]

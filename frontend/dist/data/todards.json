@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 81",
+    "issue": "Issue No. 82",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "29 October 2026",
+    "publishedAt": "30 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Egyptian Editor Detained for Running Unlicensed Website",
-          "image": "https://images.unsplash.com/photo-1785817631625-5a6fa8456f00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RWd5cHRpYW4lMjBmbGFnfGVufDF8MHx8fDE3OTMxNTIxNjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Egypt",
-          "time": "Oct 28, 2026",
-          "content": "The editor-in-chief of Egyptian news outlet Mada Masr, Lina Attalah, was detained for several hours after a court convicted her of managing an unlicensed website and ordered its closure. She was released after paying a fine of 3m Egyptian pounds. The verdict has been criticized by human rights groups and press freedom advocates, who see it as a blow to press freedom. Mada Masr had faced pressure from authorities over its journalism, and Attalah had faced years of harassment and intimidation. The site was a vital source of critical reporting in Egypt, but the court's decision has shut it down. Egypt is among the top jailers of journalists globally, with 25 currently behind bars.",
+          "title": "Democrats Lead in Michigan, Texas Senate Races",
+          "image": "https://images.unsplash.com/photo-1604496464355-a5032e3b47e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QW1lcmljYW4lMjBwb2xpdGljc3xlbnwxfDB8fHwxNzkzMzI0ODQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "USA",
+          "time": "Oct 30, 2026",
+          "content": "CNN polling across four key Senate races in the final days of the midterm campaign finds Democrats well-positioned in Michigan and Texas, with no clear leader in the races in Maine or Kansas. In Michigan, Democrat Abdul El-Sayed has opened up a lead over Republican Mike Rogers among likely voters. Texas gives Democrat James Talarico a narrow lead over Republican Ken Paxton. Maine and Kansas races remain tight contests, with no clear leader. The four states paint a picture of a Democratic Party well-positioned to make a play for Senate control. Democrats need a net gain of four seats to take control of the Senate. The polls show that individual candidates can overcome or succumb to the forces of political habit.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cw8rz14k1jvxo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
         },
         {
           "id": "pp-2",
-          "title": "Twin Brothers, American Woman Plead Guilty to Dating Scam",
-          "image": "https://images.pexels.com/photos/37844093/pexels-photo-37844093.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Ohio, USA",
-          "time": "Oct 28, 2026",
-          "content": "Twin brothers from Ghana, Jamal and Kamal Abubakari, and American woman Amanda Joy Opoku-Boachie have pleaded guilty to being part of an international criminal network that defrauded people on dating sites and social media. The group targeted elderly people in the US and Europe, using fake identities to lure them into believing they were in a romantic relationship, before persuading them to transfer large sums of money into bank accounts in Ghana. Between July 2024 and April 2026, the victims collectively lost $9 million. The three accused face up to 20 years in jail and will be sentenced next year. As part of the plea, they agreed to forfeit pieces of jewelry, including luxury watches and earrings, which were seized during their arrest. The case highlights a growing problem of elderly Americans being targeted by criminal networks operating in the US and West Africa.",
+          "title": "Serbia Student Movement Demands Officials Resign Amid Protests",
+          "image": "https://images.pexels.com/photos/27643932/pexels-photo-27643932.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Belgrade, Serbia",
+          "time": "Oct 30, 2026",
+          "content": "A student-led movement in Serbia has called for top officials in the police, intelligence, and judiciary to resign after ousting the previous government from power. The movement, which emerged from protests following a deadly railway station collapse, demands the immediate dismissal of police officers who broke the law and wants to bring corruption to an end. The new government has vowed to 'halt the plunder' and invest in education and the economy, and has already begun to purge Vučić loyalists from key institutions. The new administration plans to introduce reforms, including a lustration law to ban officials who violated the rights of Serbians from public office. The process of rebuilding the country's political system is expected to take weeks, with concerns that evidence of wrongdoing could be destroyed in the meantime.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cwz0vg2j442lo"
+          "url": "https://www.bbc.com/news/articles/cmx2dwzp0z0vo"
         },
         {
           "id": "eb-1",
-          "title": "Zookeeper Killed by Persian Leopards at Dutch Zoo",
-          "image": "https://images.pexels.com/photos/17543311/pexels-photo-17543311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Beekse Bergen, Netherlands",
-          "time": "Oct 28, 2026",
-          "content": "At a Dutch zoo called Beekse Bergen, a 40-year veteran zookeeper has sadly passed away. She was attacked by two Persian leopards in their enclosure on Saturday. The woman, who started her job at 17, was caring for the leopards when she was injured and taken to hospital. Despite her efforts to alert colleagues, she died due to her injuries. An investigation will be conducted into the incident, and the zoo has expressed its condolences to the woman's family and friends. The leopards, which were brought inside due to bad weather, will not be euthanized and are being treated as normal predators. The zoo will create a memorial for staff and visitors to pay their respects.",
+          "title": "Netanyahu faces backlash over election interference claims",
+          "image": "https://images.pexels.com/photos/17711813/pexels-photo-17711813.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Israel",
+          "time": "Oct 30, 2026",
+          "content": "Israeli Prime Minister Benjamin Netanyahu faced backlash from opposition leader Gadi Eisenkot and Arab-led party leaders after alleging foreign interference in the election, which saw his coalition lose its majority. Netanyahu's Likud accused Arab parties of 'stealing' the election, but Arab parties strongly rejected the claim. An investigation by the Shin Bet security service found no evidence of widespread foreign interference, but Netanyahu's attacks on Arab voters and parties have been ongoing. The election results offer three plausible options for a government to be formed, with Eisenkot potentially forming a minority government with Ra'am and supported from outside by the Joint List.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/crwyq90gwg8jo"
+          "url": "https://www.bbc.com/news/articles/ckdd8qdl9e0eo"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Denisovans' First Confirmed Radius Found in China Cave",
-          "image": "https://images.pexels.com/photos/3814504/pexels-photo-3814504.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Yunnan Province, China",
-          "time": "Oct 28, 2026",
-          "content": "Scientists have discovered the first confirmed Denisovan radius, a forearm bone, in a cave in southwest China. The radius combines features of Neanderthals and modern humans, but its owner is identified as Denisovan through preserved proteins. This discovery fills a long-standing gap in the group's known distribution in the region and provides rare clues to their physical traits and adaptations. The team used a combination of morphological analysis and ZooMS, a technique that examines protein signatures, to identify the radius and four other Denisovan remains from the Bianfu Cave. The findings were published in Nature and suggest that Denisovans may have thrived in a region with a relatively warm climate and abundant food resources during a glacial period.",
+          "title": "Researchers Develop Flexible, Conductive Shielding Materials",
+          "image": "https://images.pexels.com/photos/6538988/pexels-photo-6538988.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Beijing, China",
+          "time": "Oct 30, 2026",
+          "content": "Researchers are developing a new generation of electromagnetic shielding materials that combine excellent conductivity with strength and flexibility. Currently, options like metals, polymers, and carbon-based materials can be heavy, inflexible, or expensive. A promising approach combines two-dimensional transition metal carbides and nitrides (MXenes) with nanocellulose, a lightweight material from natural biomass. This combination offers excellent conductivity and chemical stability, but adding nanocellulose improves mechanical strength while preserving electrical properties. A research team led by Prof. Ming-Guo Ma has published a comprehensive review of MXene/nanocellulose composites, examining their structure, fabrication methods, and strengthening mechanisms. The review highlights differences between one-dimensional fibers, two-dimensional layered films, and three-dimensional networks, as well as various strengthening approaches, manufacturing techniques, and challenges. The goal is to create high-performance shielding materials that can adjust their electromagnetic behavior in response to changing conditions.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-mysterious-150000-year-old-bone-from-an-extinct-human-relative-in-chinese-cave/"
+          "url": "https://scitechdaily.com/the-future-of-electromagnetic-shields-could-be-lighter-stronger-and-greener/"
         },
         {
           "id": "st-2",
-          "title": "SK Hynix Reports Record Profit with 327.9% Revenue Growth",
-          "image": "https://images.unsplash.com/photo-1781643675498-9f7a5e56f6ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8X1NLJTIwSHluaXglMjBsb2dvfGVufDF8MHx8fDE3OTMxNTE3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Cheongju, South Korea",
-          "time": "Oct 28, 2026",
-          "content": "South Korean chipmaker SK Hynix has reported a record high quarterly profit, surpassing estimates, with revenue rising 327.9% from last year and operating profit climbing 632.1%. The company also announced plans to return over $25 billion to shareholders through dividends and share buybacks. SK Hynix expects its new high-bandwidth memory technology, HBM4, to surpass its previous generation in the fourth quarter, with 14 major customers securing long-term agreements for over 50% of its production capacity for 2027 and 2028. The company plans to significantly increase investment next year and expects memory demand to outpace supply through 2030. }",
+          "title": "Christie's pharmacy training inspired detective novels",
+          "image": "https://images.pexels.com/photos/33016276/pexels-photo-33016276.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Oct 30, 2026",
+          "content": "Before becoming a renowned author, Agatha Christie worked in a chemist's shop in Torquay, England, where she witnessed dark behaviors from a mysterious employer, Mr. P, who carried a deadly poison. Christie's sharp mind caught a mistake he made while infusing drugs and prevented a dangerous situation. Her experiences in the shop sparked the idea for her gripping detective novels, which were later inspired by her pharmacy training. Christie's accurate descriptions of poisons, which served as murder weapons in 41 of her 66 detective novels, continue to impress readers and experts today. Her work not only entertained but also educated readers about the science of poisons, helping to solve real-world crimes. Christie's life experiences, from working as a nurse during World War I to her extensive pharmacy training, are subtly woven into her novels, showcasing her attention to detail and expertise in the field of medicine.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/28/sk-hynix-third-quarter-profit.html"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/29/science/agatha-christie-science-pharmacist-poison"
         },
         {
           "id": "t-3",
-          "title": "Anthropic Reveals $131.7 Billion Cash Reserve",
-          "image": "https://images.pexels.com/photos/14655997/pexels-photo-14655997.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "United States",
-          "time": "Oct 28, 2026",
-          "content": "A nearly six-year-old artificial intelligence lab, Anthropic, has disclosed having an astonishing $131.7 billion in cash and short-term investments as of June 30. This amount surpasses every non-bank U.S. company except for Berkshire Hathaway and Alphabet. The company is set to go public, with reports suggesting it could raise over $100 billion, which would bring its cash hoard to over $230 billion. However, Anthropic's vast cash reserves are not a guarantee of its future, as it has significant commitments for computing power that will start to kick in over the next few years, with total estimated future lease obligations and commitments reaching over half a trillion.",
+          "title": "Reddit to Require Official Accounts for All Users",
+          "image": "https://images.unsplash.com/photo-1762330474120-71b4057a8b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bG9nZ2VkLWluJTIwdXNlcnxlbnwxfDB8fHwxNzkzMzI0NjI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "San Francisco, USA",
+          "time": "Oct 30, 2026",
+          "content": "Reddit plans to require all users to create official accounts to access the platform, a significant change that comes as the company faces a decline in search-referral traffic from Google. The shift is attributed to Google's increased use of AI overviews and chatting features, which has negatively impacted Reddit's referral traffic. The change aims to focus on the company's core users who come to the platform directly, with CEO Steve Huffman stating that users will likely adapt to the new requirement. The move is part of Reddit's efforts to grow its user base and increase revenue, with the company's third-quarter sales growing 53% year-over-year. Reddit will begin testing the new account requirement in the fourth quarter outside of the US, with Huffman emphasizing the company's focus on logged-in users who are more active and valuable to advertisers.",
           "theme": "#EBF2FA",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/27/anthropic-cash-investments-ipo.html"
+          "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html"
         }
       ]
     },
@@ -107,14 +107,14 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "Blood test reveals dementia risk clues",
-          "image": "https://images.unsplash.com/photo-1542884841-9f546e727bca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Ymxvb2QlMjB0ZXN0fGVufDF8MHx8fDE3OTMxNTEwNjl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "South Korea",
-          "time": "Oct 28, 2026",
-          "content": "A large study of over 316,000 adults found that a routine blood test can reveal clues about future dementia risk. Researchers discovered that people with unusually low or high hemoglobin levels were more likely to develop dementia. The study suggests that hemoglobin levels may reflect broader aspects of physical health associated with brain aging. The findings, published in the Journal of Alzheimer's Disease, also identified differences between Alzheimer's disease and vascular dementia. The study's lead researcher emphasized that the results do not establish a direct causal relationship, but rather suggest that abnormal hemoglobin levels may be a visible marker of wider physical vulnerability relevant to brain health. The researchers suggest that existing blood test results could potentially help scientists investigate connections between general physical health and long-term cognitive decline.",
+          "title": "Oxaloacetate Supplement Helps Breast Cancer Survivors with Brain Fog and Fatigue",
+          "image": "https://images.pexels.com/photos/7659879/pexels-photo-7659879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Los Angeles, USA",
+          "time": "Oct 30, 2026",
+          "content": "A recent study from the UCLA Health Jonsson Comprehensive Cancer Center has shown that a supplement containing the molecule oxaloacetate, which is naturally found in the body, may help alleviate lingering brain fog and fatigue experienced by breast cancer survivors after treatment. The study found that participants who took the supplement for eight weeks reported improvements in cognitive symptoms, processing speed, and executive function, as well as reduced fatigue and better physical functioning. The results suggest that further research into the supplement's potential benefits is warranted, particularly given that up to 25% of breast cancer survivors experience lasting cognitive difficulties after treatment.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/a-routine-blood-test-could-predict-dementia-risk-15-years-in-advance/"
+          "url": "https://scitechdaily.com/a-natural-molecule-already-in-your-body-could-hold-the-key-to-clearing-brain-fog-after-cancer-treatment/"
         },
         {
           "id": "hw-3",
@@ -139,14 +139,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Cyclone Arnab forms over Bay of Bengal, hits Andhra Pradesh coast",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Arnab_2026-10-27_0805Z.png/500px-Arnab_2026-10-27_0805Z.png?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Andhra Pradesh, India",
-          "time": "Oct 28, 2026",
-          "content": "A severe cyclonic storm named Cyclone Arnab has formed over the Bay of Bengal and is expected to make landfall on the Andhra Pradesh coast on October 28, bringing extremely heavy rainfall and strong winds to coastal areas. The cyclone's impact is also expected to affect Odisha, Telangana, and Chhattisgarh with heavy rainfall, thunderstorms, and strong winds. Meanwhile, a western disturbance is forecasted to bring rain, thunderstorms, and snowfall to parts of northern India. The India Meteorological Department reports that the cyclone is moving west-north-westwards and is expected to cross the Andhra Pradesh coast between Bapatla and Visakhapatnam on October 28.",
+          "title": "Wildfires to surge 30% globally by 2050 due to climate change",
+          "image": "https://images.pexels.com/photos/21706241/pexels-photo-21706241.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "South Africa",
+          "time": "Oct 30, 2026",
+          "content": "As the world faces the threat of increasingly intense and destructive wildfires, experts warn that the consequences of climate change and changing land use could lead to a 30% global increase in extreme fires by 2050. In South Africa, the risks are particularly high due to water scarcity, invasive vegetation, and expanding settlements near fire-prone landscapes. According to Christiaan Pool, head of forestry at Nelson Mandela University, low humidity, strong winds, and dry landscapes can combine to produce rapidly spreading fires that overwhelm firefighting efforts. The consequences of these fires extend from destroyed homes and livelihoods to damaged ecosystems and costly firefighting operations. Early warnings, satellite monitoring, and community participation are crucial in reducing the damage from wildfires.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/daily-weather-tracker-cyclone-arnab-intensifies-into-severe-storm-heavy-rain-alert-for-andhra-pradesh-and-odisha"
+          "url": "https://www.downtoearth.org.in/forests/climate-change-drought-and-invasive-vegetation-make-wildfires-harder-to-control"
         },
         {
           "id": "env-2",
@@ -182,25 +182,25 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Meghan Joins Junior MasterChef Australia as Co-Host",
-          "image": "https://images.pexels.com/photos/25205310/pexels-photo-25205310.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Australia",
-          "time": "Oct 28, 2026",
-          "content": "The Duchess of Sussex, Meghan, has been confirmed as a co-host for the new season of Junior MasterChef Australia, joining Poh Ling Yeow. This comes after Meghan appeared as a guest judge on MasterChef Australia last year, which drew its largest Sunday audience since 2023. Meghan's return to Australia follows a four-day tour she undertook with Prince Harry in April, which included an announcement about her MasterChef debut. Meghan said she is excited to participate in the show, sharing her love of cooking with her own kids. This new role comes as Meghan faces increased scrutiny over allegations against her father, Thomas Markle, which he denies. The Sussexes announced they were moving back to the UK from California in August, after stepping back from their royal duties in 2020 to pursue media careers.",
+          "title": "NFL Midpoint Approaches with Crucial Games Ahead",
+          "image": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QW1lcmljYW4lMjBmb290YmFsbHxlbnwxfDB8fHwxNzkzMzI1OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "NFL",
+          "time": "Oct 30, 2026",
+          "content": "The National Football League (NFL) is approaching its midpoint, with the Buffalo Bills, Baltimore Ravens, Cleveland Browns, Minnesota Vikings, and Los Angeles Rams all facing crucial matchups this week. The Bills host Lamar Jackson and the Ravens, while the Browns head to Pittsburgh to face the Steelers. The Vikings, the league's last remaining undefeated team, face a tough test against the Detroit Lions. Meanwhile, the Los Angeles Chargers are winless and struggling to find answers, while the Seattle Seahawks host the Chicago Bears in a potential NFC Championship Game preview.",
           "theme": "#F3ECF7",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/crgqwg3ll1v1o"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/29/sport/nfl-week-8-five-things"
         },
         {
           "id": "ent-2",
-          "title": "Spotify Corrects Error in Welsh Version of Dolly Parton's Jolene",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Young-Dolly-Parton_%28higher_quality_scan%29_%28cropped%29.jpg/500px-Young-Dolly-Parton_%28higher_quality_scan%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Wales",
-          "time": "Oct 26, 2026",
-          "content": "A Welsh version of Dolly Parton's hit song Jolene, featuring Bronwen Lewis and Jada Star, was mistakenly uploaded to Spotify with Irish lyrics. The song, recorded before Parton's death, features parts in English and Welsh, but the lyrics on Spotify showed it as Irish. After the BBC approached Spotify for comment, the error was removed. This is the second posthumous release from Parton, who was of Welsh descent and won 10 Grammy awards. Jolene, released in 1973, is about the fear of losing her husband to another woman, and it has had over one billion streams on Spotify. The Welsh version of the song was translated by Lewis and recorded with Parton's niece Star, and it follows Parton's revelation of her Welsh ancestry during a 2008 concert in Cardiff.",
+          "title": "Traitors Gain Power in Reality Show After Crew Member Sent Packing",
+          "image": "https://images.pexels.com/photos/1809389/pexels-photo-1809389.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Unknown",
+          "time": "Oct 30, 2026",
+          "content": "The faithful crew in a reality show is on edge after last Friday's episode, as traitors continue to gain power. King Kenny used his double vote to send another faithful, Sharon Rooney, packing, leaving the group frustrated. Michael Sheen urged his fellow faithful to pull something out of the bag, while James Blunt searched for whiskey. The traitors, including Kenny, Maya, and James A, plotted their next move, with Kenny declaring it would be a",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cw33xpl5xl8mo"
+          "url": "https://www.bbc.com/news/articles/ckr5y12r081zo"
         },
         {
           "id": "ent-3",

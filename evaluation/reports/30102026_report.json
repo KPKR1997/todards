@@ -1,0 +1,319 @@
+{
+    "date": "30102026",
+    "timestamp": "2026-10-30T07:38:57.669767",
+    "duration_seconds": 4079.14,
+    "stages_duration_seconds": {
+        "scrape": 876.98,
+        "guardrails": 158.85,
+        "deduplication": 10.39,
+        "category_validation": 228.29,
+        "ranking": 420.51,
+        "processing": 2384.08,
+        "assembly": 0.01
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 7,
+            "Tech": 19,
+            "People": 54,
+            "Environment": 5,
+            "Economy": 14,
+            "Entertainment": 25
+        },
+        "total_scraped": 124,
+        "guardrail_passed": 124,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 10,
+        "final_categories": 5
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 124,
+        "classified_safe": 79,
+        "classified_unsafe": 45,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 45,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 121,
+        "rejected_count": 36,
+        "rejected_articles": [
+            {
+                "title": "Peptides could soon be easier to get in the United States. Here’s what to know",
+                "from": "health",
+                "detected_category": "'health'",
+                "confidence": 1.0,
+                "reason": "The article is primarily about peptides, their potential benefits and risks, and their regulation in the healthcare industry, making it a clear fit for the 'health' category."
+            },
+            {
+                "title": "Microsoft plans to raise $25 billion in debt as it pursues AI buildout",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Microsoft's financial plans and debt raise, which is more relevant to the economy and business category than science and technology, despite mentioning AI and infrastructure expansion."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the views and opinions of Jim Cramer, a financial personality, and his take on the stock market, making it more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Nvidia responds to report Jensen Huang was target of Chinese asset, says diversion allegations were 'investigated and debunked'",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Nvidia CEO Jensen Huang's interactions and connections, making it more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article's focus on ServiceNow's revenue, earnings, and AI investments makes it more relevant to the 'economy and business' category than 'science and technology', even though it contains some AI-related content."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial performance and market trends of technology companies, with a focus on AI and cloud services."
+            },
+            {
+                "title": "Alphabet tanks nearly 13% for worst day ever, losing $500 billion in value",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses Alphabet's financial performance, including its capital expenditures and free cash flow, which is a significant aspect of the economy and business category."
+            },
+            {
+                "title": "U.S. worker job engagement hits lowest level since 2011, new Gallup poll finds",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses the decline in employee engagement in the US, which is a people-related issue, despite the mention of AI and technology."
+            },
+            {
+                "title": "Biggest fibre boost could be scraps in your bin, experts say",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article discusses the importance of fiber in the diet and how consuming fruit and vegetable scraps can provide a health boost, making it a relevant topic in the 'health' category."
+            },
+            {
+                "title": "I didn't know I was lacking in vitamin D until I collapsed at work",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses the importance of vitamin D levels and their impact on health, specifically in relation to its deficiency and its effects on young people, which is a health-related topic."
+            },
+            {
+                "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article's primary focus is on Google's financial performance, AI investments, and their impact on the company's stock market value, which is more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the financial implications of Google's AI investments and the decline in its stock market value, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "AI hardware can be hacked so chatbots provide dangerous answers, research shows",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses AI hardware security and its implications for AI models, which falls under the science and technology category."
+            },
+            {
+                "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about international relations, diplomatic tensions, and cultural exchanges, which are all related to the 'people' category."
+            },
+            {
+                "title": "China made Mbappé apologise - but many people don't know exactly what he said",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a sports personality's apology and the cultural and social implications, making it more relevant to the 'people' category than the 'economy and business' category, despite some tangential mentions of economic and business aspects."
+            },
+            {
+                "title": "From workshops to the catwalk - why mended clothes are going mainstream",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the growing trend of mended clothes and its connection to sustainability, consumerism, and human expression, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Canadian 'Crypto King' found guilty of fraud",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the personal story of Aiden Pleterski, including his fraudulent activities and subsequent trial, which is more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "European Central Bank President Lagarde resigns early",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the departure of European Central Bank President Christine Lagarde, which is a people-related news story."
+            },
+            {
+                "title": "Patrick Stewart, ‘Star Trek’ and ‘X-Men’ actor, dead at 86",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the life and career of Patrick Stewart, a renowned actor, rather than a specific entertainment-related event or production."
+            },
+            {
+                "title": "Atlanta holds off furious Golden State comeback to force Game 7 in WNBA Finals",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the Atlanta Dream, a WNBA team, and their game against the Golden State Valkyries, discussing their performance, strategies, and players, which falls under the 'people' category."
+            },
+            {
+                "title": "The Brewers were already great. Now, they’re undeniable",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the Milwaukee Brewers' World Series victory and the team's fanbase, which is a human-interest story and a major event in the sports world, fitting well into the 'people' category."
+            },
+            {
+                "title": "Sir Patrick Stewart: A life in pictures",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the life and career of Sir Patrick Stewart, a renowned actor, and does not focus on entertainment-related topics such as cinema, television, music, or gaming."
+            },
+            {
+                "title": "Sir Patrick Stewart: Actor who moved effortlessly between Star Trek and Shakespeare",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article focuses on the life, career, and personal experiences of Sir Patrick Stewart, a renowned actor, making it a great fit for the 'people' category."
+            },
+            {
+                "title": "Sir Patrick Stewart: Actor who moved effortlessly between Star Trek and Shakespeare",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Sir Patrick Stewart's life and career, with minimal connection to the 'entertainment' category."
+            },
+            {
+                "title": "Star Trek actor Sir Patrick Stewart dies aged 86",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily reports on the passing of a well-known actor, Sir Patrick Stewart, and includes tributes from fellow actors and industry professionals, making it most relevant to the 'people' category."
+            },
+            {
+                "title": "Ex-Top Gear host Richard Hammond's 'brave' new Welsh life wild swimming and running",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Richard Hammond's personal life, including his move to Wales, his relationships, and his new hobbies, making 'people' the most relevant category."
+            },
+            {
+                "title": "Russell Brand's wife tells his rape trial he is 'kind and a wonderful father'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Russell Brand's personal life and his court case, which falls under the 'people' category."
+            },
+            {
+                "title": "Russell Brand's wife tells his rape trial he is 'kind and a wonderful father'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Russell Brand's personal life, including his marriage and his trial, which is a significant human-interest story."
+            },
+            {
+                "title": "Why 'stunning' assisted-dying novel Switzy caused a Booker Prize controversy",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the themes and subject matter of the novel 'Switzy', which deals with assisted dying, dementia, and the end of life, making it more relevant to the 'health' category than 'entertainment'."
+            },
+            {
+                "title": "Actor targets 'scarred villain' screen stereotype",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the advocacy efforts of an actor and other individuals with visible differences, which falls under the 'people' category, despite being tangentially related to the entertainment industry."
+            },
+            {
+                "title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a controversy surrounding a Japanese TV show and its impact on Hello Kitty's reputation, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Littlewoods project backed despite studios pull-out",
+                "from": "entertainment",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the regeneration of a landmark building in Liverpool, which is primarily an economic development story, albeit with some tangential entertainment industry connections."
+            },
+            {
+                "title": "The accordion player who has been busking in hospital for 35 years",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the personal story of John Jones, an 84-year-old volunteer who has been playing the accordion in a hospital for 35 years, and his connection to the hospital and its charity, rather than the entertainment aspect."
+            },
+            {
+                "title": "Sir Patrick Stewart: A life in pictures",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the life and career of Sir Patrick Stewart, a renowned actor and people in the entertainment industry."
+            },
+            {
+                "title": "Sir Patrick Stewart: Actor who moved effortlessly between Star Trek and Shakespeare",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Sir Patrick Stewart's life, career, and personal experiences, which are more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Littlewoods project backed despite studios pull-out",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about a regeneration project and its impact on the local community, which is more related to the 'people' category than 'entertainment'."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 369,
+        "total_failures": 0,
+        "total_time_seconds": 386.35,
+        "prompt_tokens": 504567,
+        "response_tokens": 9818,
+        "total_tokens": 514385,
+        "usage_responses": 369,
+        "prompt_eval_seconds": 123.49,
+        "generation_seconds": 216.747,
+        "load_seconds": 24.483,
+        "server_total_seconds": 382.32,
+        "avg_response_time": 1.05
+    }
+}

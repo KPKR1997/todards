@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-4",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "Climate change, drought and invasive vegetation make wildfires harder to control",
+        "date": "2026-10-29T10:17:29.934Z",
+        "content": "Hotter conditions, prolonged droughts and invasive vegetation are making wildfires more intense and difficult to control. Extreme wildfires could increase by up to 30% globally by 2050, according to a UN assessment. South Africa faces growing risks from water scarcity, expanding settlements and combustible vegetation. Experts stress that early warnings, satellite monitoring and community participation are essential to reducing wildfire damage. Hotter conditions, prolonged droughts and the build-up of combustible vegetation are making wildfires more difficult to manage, increasing the risk of destructive fires that threaten communities, livelihoods and ecosystems. Christiaan (Tiaan) Pool, head of forestry at Nelson Mandela University (NMU) in South Africa, said low humidity, strong winds and dry landscapes could combine to produce rapidly spreading fires that overwhelm firefighting efforts. Speaking in the context of the International Day for Disaster Risk Reduction, observed on October 13, Pool warned that climate change and changing land use were increasing the threat of extreme wildfires. When low humidity and strong winds combine with a dry landscape, fires can spread rapidly, burn intensely and overwhelm efforts to contain them, he explained. The consequences extend from destroyed homes and livelihoods to damaged ecosystems and increasingly dangerous, expensive firefighting operations. A United Nations Environment Programme assessment projected that extreme fires could increase by up to 30 per cent by 2050. “Dangerous combinations of heat, dryness and wind are becoming more likely in many regions, putting greater pressure on prevention and preparedness,” Pool said. South Africa faces these challenges alongside water scarcity, invasive alien vegetation and growing human activity near fire-prone landscapes. Drought dries vegetation while reducing the water available for firefighting. Invasive woody plants add fuel, while expanding settlements and infrastructure increase the potential damage from fires. The developing 2026 El Niño is another concern. According to Pool, the World Meteorological Organization's October update indicated a strengthening event, which could contribute to hotter and drier conditions in parts of southern Africa. He said below-average rainfall could increase the risk of a difficult fire season, while sudden changes in wind and humidity could rapidly intensify an existing blaze.",
+        "url": "https://www.downtoearth.org.in/forests/climate-change-drought-and-invasive-vegetation-make-wildfires-harder-to-control",
+        "rank": 1,
+        "ranking_score": 48.8,
+        "ranking_reason": "Climate change, drought, and invasive vegetation making wildfires more intense and difficult to control.",
+        "ranking": {
+            "rank": 1,
+            "score": 48.8,
+            "base_score": 48.8,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 40,
+                "dont_miss": 0,
+                "human_consequence": 70,
+                "economic_impact": 20,
+                "political_significance": 50,
+                "health_significance": 80,
+                "scientific_significance": 60,
+                "entertainment_significance": 0,
+                "remarkability": 50,
+                "global_reach": 2,
+                "urgency": 80,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "Climate change, drought, and invasive vegetation making wildfires more intense and difficult to control.",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 60,
+                "public_need_to_know": 70,
+                "public_concern": 80,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "Substantive report on the increasing threat of wildfires due to climate change, drought, and invasive vegetation, with specific projections and expert warnings, providing a clear reason for readers to care about the issue."
+            }
+        }
+    }
+]
