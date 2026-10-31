@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 82",
+    "issue": "Issue No. 83",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "30 October 2026",
+    "publishedAt": "31 October 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Democrats Lead in Michigan, Texas Senate Races",
-          "image": "https://images.unsplash.com/photo-1604496464355-a5032e3b47e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QW1lcmljYW4lMjBwb2xpdGljc3xlbnwxfDB8fHwxNzkzMzI0ODQ2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "USA",
-          "time": "Oct 30, 2026",
-          "content": "CNN polling across four key Senate races in the final days of the midterm campaign finds Democrats well-positioned in Michigan and Texas, with no clear leader in the races in Maine or Kansas. In Michigan, Democrat Abdul El-Sayed has opened up a lead over Republican Mike Rogers among likely voters. Texas gives Democrat James Talarico a narrow lead over Republican Ken Paxton. Maine and Kansas races remain tight contests, with no clear leader. The four states paint a picture of a Democratic Party well-positioned to make a play for Senate control. Democrats need a net gain of four seats to take control of the Senate. The polls show that individual candidates can overcome or succumb to the forces of political habit.",
+          "title": "US Judge Blocks Trump's Election Interference Tactics",
+          "image": "https://images.pexels.com/photos/31690213/pexels-photo-31690213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Northern District of California",
+          "time": "Oct 31, 2026",
+          "content": "a US federal judge has issued an emergency order to halt the Trump administration's aggressive tactics to pressure election officials across the country, citing concerns that these actions may interfere with election administration and disenfranchise lawful voters. The order, which expires on November 16, bars the Justice Department and the Department of Homeland Security from demanding that election officials segregate ballots, purge voters from voter rolls, or halt ballot processing. The judge's ruling also blocks threats of criminal prosecutions against election officials and prohibits the administration from taking actions that 'threaten, intimidate or coerce' election officials. This decision comes as part of a lawsuit brought by a coalition of labor unions and civil rights groups, which claims the administration's recent conduct violates the Voting Rights Act and amounts to an unconstitutional intrusion into state control over election administration.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/29/politics/cnn-polls-michigan-maine-texas-kansas-senate-races-midterms-vis"
+          "url": "https://edition.cnn.com/2026/10/30/politics/emergency-order-halts-doj-pressure-campaign-election-officials"
         },
         {
           "id": "pp-2",
-          "title": "Serbia Student Movement Demands Officials Resign Amid Protests",
-          "image": "https://images.pexels.com/photos/27643932/pexels-photo-27643932.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Belgrade, Serbia",
-          "time": "Oct 30, 2026",
-          "content": "A student-led movement in Serbia has called for top officials in the police, intelligence, and judiciary to resign after ousting the previous government from power. The movement, which emerged from protests following a deadly railway station collapse, demands the immediate dismissal of police officers who broke the law and wants to bring corruption to an end. The new government has vowed to 'halt the plunder' and invest in education and the economy, and has already begun to purge Vučić loyalists from key institutions. The new administration plans to introduce reforms, including a lustration law to ban officials who violated the rights of Serbians from public office. The process of rebuilding the country's political system is expected to take weeks, with concerns that evidence of wrongdoing could be destroyed in the meantime.",
+          "title": "Elon Musk spends $445M on US politics, backs Texas Senate race",
+          "image": "https://images.unsplash.com/photo-1598802777393-751e5387ecd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8cG9saXRpY2FsJTIwY2FtcGFpZ258ZW58MXwwfHx8MTc5MzMyNDgzOHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Texas",
+          "time": "Oct 31, 2026",
+          "content": "Elon Musk, the world's richest man, has contributed nearly half a billion dollars to federal committees, making him the single largest disclosed donor in modern American politics. He has spent over $445 million, with nearly $216 million going to his own super PAC, America PAC. Musk's money has been deployed in Texas, where he lives, and is playing a significant role in the Senate race between Democrat James Talarico and Republican Ken Paxton. Musk's PAC has funded mailers, digital advertising, and other outreach to Texas voters, while also supporting the Senate Leadership Fund and Texas PAC, which has issued attacks against Talarico. The spending has outpaced Talarico's campaign, with Democrats being outspent by Republicans on ads by more than 2 to 1 in the final four weeks of the election.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmx2dwzp0z0vo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans"
         },
         {
           "id": "eb-1",
-          "title": "Netanyahu faces backlash over election interference claims",
-          "image": "https://images.pexels.com/photos/17711813/pexels-photo-17711813.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Israel",
-          "time": "Oct 30, 2026",
-          "content": "Israeli Prime Minister Benjamin Netanyahu faced backlash from opposition leader Gadi Eisenkot and Arab-led party leaders after alleging foreign interference in the election, which saw his coalition lose its majority. Netanyahu's Likud accused Arab parties of 'stealing' the election, but Arab parties strongly rejected the claim. An investigation by the Shin Bet security service found no evidence of widespread foreign interference, but Netanyahu's attacks on Arab voters and parties have been ongoing. The election results offer three plausible options for a government to be formed, with Eisenkot potentially forming a minority government with Ra'am and supported from outside by the Joint List.",
+          "title": "Russia Shuts Down Novaya Gazeta After 30 Years",
+          "image": "https://images.unsplash.com/photo-1697382609234-5435846cdf50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UnVzc2lhbiUyMG5ld3NwYXBlcnxlbnwxfDB8fHwxNzkzNDI2MDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Moscow, Russia",
+          "time": "Oct 31, 2026",
+          "content": ". Novaya Gazeta, Russia's most prominent independent newspaper, is being shut down after thirty years. The paper's journalists are being targeted by the Russian authorities, who accuse Novaya Gazeta of being a foreign agent. The paper has been facing increasing pressure since Russia's invasion of Ukraine in 2022, with new laws aimed at punishing dissent and silencing criticism. This has led to the blocking of the paper's websites, revocation of its media license, and refusal of donations. Journalist and co-founder Dmitry Muratov, who was awarded the Nobel Peace Prize in 2021, believes the paper is being strangled by the authorities. This is not the first time Novaya Gazeta has faced attacks; six colleagues have been killed for their work, including Anna Politkovskaya, who was shot dead twenty years ago. The paper's closure is seen as a blow to freedom of expression and democracy in Russia.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckdd8qdl9e0eo"
+          "url": "https://www.bbc.com/news/articles/cmewepdr109do"
         }
       ]
     },
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "Oxaloacetate Supplement Helps Breast Cancer Survivors with Brain Fog and Fatigue",
-          "image": "https://images.pexels.com/photos/7659879/pexels-photo-7659879.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Los Angeles, USA",
-          "time": "Oct 30, 2026",
-          "content": "A recent study from the UCLA Health Jonsson Comprehensive Cancer Center has shown that a supplement containing the molecule oxaloacetate, which is naturally found in the body, may help alleviate lingering brain fog and fatigue experienced by breast cancer survivors after treatment. The study found that participants who took the supplement for eight weeks reported improvements in cognitive symptoms, processing speed, and executive function, as well as reduced fatigue and better physical functioning. The results suggest that further research into the supplement's potential benefits is warranted, particularly given that up to 25% of breast cancer survivors experience lasting cognitive difficulties after treatment.",
+          "title": "AML treatment shows promise in mice and cancer cells",
+          "image": "https://images.unsplash.com/photo-1631048005681-79a19681e4fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bGV1a2VtaWElMjBjZWxsc3xlbnwxfDB8fHwxNzkzNDI0NDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Gothenburg, Sweden",
+          "time": "Oct 31, 2026",
+          "content": "Researchers have developed an experimental treatment for acute myeloid leukemia (AML), a type of cancer that affects blood and bone marrow. The treatment, which targets the energy demands of malignant cells, uses a molecule called AcTor to block a signaling protein involved in controlling a protein called mTOR. When combined with a drug called ixazomib, the treatment disrupts energy production in mitochondria, causing cancer cells to experience severe stress and die. The treatment has shown promising results in mice and patient-derived cancer cells, including a particularly aggressive form of the disease. The researchers hope that this approach will eventually lead to a cure for AML.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/a-natural-molecule-already-in-your-body-could-hold-the-key-to-clearing-brain-fog-after-cancer-treatment/"
+          "url": "https://scitechdaily.com/new-treatment-strategy-makes-cancer-cells-run-out-of-energy-and-die/"
         },
         {
           "id": "hw-3",
-          "title": "Antibodies linked to childhood cancer hinder DNA repair",
-          "image": "https://images.unsplash.com/photo-1638208761094-755b6b017229?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YW50aWJvZHl8ZW58MXwwfHx8MTc5MzE1MTI1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Bergen, Norway",
-          "time": "Oct 28, 2026",
-          "content": "Researchers in Norway have found that antibodies associated with childhood cancer can enter cells and bind DNA repair proteins, suggesting a possible route by which the immune system could weaken genetic safeguards. The study, published in Frontiers in Immunology, analyzed blood samples from 175 adults and children with cancer and compared them to samples from healthy individuals. The results show that children with cancer had substantially more circulating IgG antibodies targeting DNA repair proteins than young adults or older individuals. The findings suggest that these antibodies can appear well before cancer develops and may interfere with DNA repair, potentially leading to cancer. The researchers propose that these antibodies entering a cell or its nucleus could attach to DNA repair proteins and prevent them from working normally, leading to increased cellular damage that could lead to cancer development.",
+          "title": "Stenting, Surgery No Boost to Cognitive Skills, Study Finds",
+          "image": "https://images.unsplash.com/photo-1679639539537-0d2e452890f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8Y2VyZWJyYWwlMjBibG9vZCUyMGZsb3d8ZW58MXwwfHx8MTc5MzQyNDk5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York, USA",
+          "time": "Oct 31, 2026",
+          "content": "A recent study led by Randolph Marshall at Columbia University found that opening severely narrowed carotid arteries, also known as stenting or surgery, does not improve cognitive skills compared to medication alone. The study, known as CREST-H, enrolled 291 patients with carotid artery narrowing and found that cognitive scores improved slightly in both groups, but patients who underwent a procedure did no better than those treated with medication alone. This challenges the idea that reopening these arteries can reverse cognitive decline in patients without associated symptoms. The study's findings have already changed practice, with more patients receiving stents, but the results suggest that patients should not expect the procedure to improve their thinking skills beyond what medication alone provides.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/unexpected-discovery-of-abnormal-antibodies-could-help-explain-childhood-cancer/"
+          "url": "https://scitechdaily.com/a-promising-way-to-reverse-cognitive-decline-just-failed-a-major-clinical-test/"
         }
       ]
     },
@@ -139,14 +139,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Wildfires to surge 30% globally by 2050 due to climate change",
-          "image": "https://images.pexels.com/photos/21706241/pexels-photo-21706241.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "South Africa",
-          "time": "Oct 30, 2026",
-          "content": "As the world faces the threat of increasingly intense and destructive wildfires, experts warn that the consequences of climate change and changing land use could lead to a 30% global increase in extreme fires by 2050. In South Africa, the risks are particularly high due to water scarcity, invasive vegetation, and expanding settlements near fire-prone landscapes. According to Christiaan Pool, head of forestry at Nelson Mandela University, low humidity, strong winds, and dry landscapes can combine to produce rapidly spreading fires that overwhelm firefighting efforts. The consequences of these fires extend from destroyed homes and livelihoods to damaged ecosystems and costly firefighting operations. Early warnings, satellite monitoring, and community participation are crucial in reducing the damage from wildfires.",
+          "title": "Australia's fossil fuel exports emit 12.4 billion tonnes of CO2e",
+          "image": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y2FyYm9uJTIwZW1pc3Npb25zfGVufDF8MHx8fDE3OTM0MjYxNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Australia",
+          "time": "Oct 31, 2026",
+          "content": "Australia's fossil fuel exports between 2016 and 2026 produced an estimated 12.4 billion tonnes of CO2e emissions, surpassing the combined domestic emissions of the world's 44 least developed countries. The majority, 78%, was due to coal, which contributed 9.7 billion tonnes of emissions. Australia has reduced its domestic emissions by 29% since 2005, but continues to approve coal and gas projects, raising questions about its climate commitments. The country's fossil fuel exports emitted emissions equivalent to around a third of the European Union's domestic emissions, and the total emissions could reach 19.3 billion tonnes by 2032. This is concerning as it would account for 3.4% of the remaining global carbon budget for limiting warming to 1.5°C. The emissions refer to those released when Australian fossil fuels are burned overseas, not within Australia.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/forests/climate-change-drought-and-invasive-vegetation-make-wildfires-harder-to-control"
+          "url": "https://www.downtoearth.org.in/energy/australias-fossil-fuel-exports-generated-more-emissions-than-44-least-developed-countries-combined-over-a-decade"
         },
         {
           "id": "env-2",
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "NFL Midpoint Approaches with Crucial Games Ahead",
-          "image": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QW1lcmljYW4lMjBmb290YmFsbHxlbnwxfDB8fHwxNzkzMzI1OTMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "NFL",
-          "time": "Oct 30, 2026",
-          "content": "The National Football League (NFL) is approaching its midpoint, with the Buffalo Bills, Baltimore Ravens, Cleveland Browns, Minnesota Vikings, and Los Angeles Rams all facing crucial matchups this week. The Bills host Lamar Jackson and the Ravens, while the Browns head to Pittsburgh to face the Steelers. The Vikings, the league's last remaining undefeated team, face a tough test against the Detroit Lions. Meanwhile, the Los Angeles Chargers are winless and struggling to find answers, while the Seattle Seahawks host the Chicago Bears in a potential NFC Championship Game preview.",
+          "title": "Kettering Cinema Revival: Community Screenings Begin October 30",
+          "image": "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmludGFnZSUyMGNpbmVtYXxlbnwxfDB8fHwxNzkzNDI3MjM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Kettering, Northamptonshire",
+          "time": "Oct 31, 2026",
+          "content": "A film enthusiast, Will Preston, is working to revive cinema screenings in Kettering, Northamptonshire, after the closure of the Odeon cinema in January 2025. The Odeon, which opened in 1997, was shut down due to a significant drop in attendance over the past five years. Preston, who has fond memories of visiting the cinema with his family, is organizing community screenings at various locations in Kettering. The first event is scheduled for October 30, with plans to hold monthly screenings. Preston aims to make the cinema experience accessible and affordable for the community, with tickets and snacks priced cheaply. In 2024, over 2,000 people signed a petition to save the Kettering Odeon, and now Preston is working to bring back the cinematic experience to the town.",
           "theme": "#F3ECF7",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/29/sport/nfl-week-8-five-things"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cqgkvedkvvr5o"
         },
         {
           "id": "ent-2",
-          "title": "Traitors Gain Power in Reality Show After Crew Member Sent Packing",
-          "image": "https://images.pexels.com/photos/1809389/pexels-photo-1809389.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Unknown",
-          "time": "Oct 30, 2026",
-          "content": "The faithful crew in a reality show is on edge after last Friday's episode, as traitors continue to gain power. King Kenny used his double vote to send another faithful, Sharon Rooney, packing, leaving the group frustrated. Michael Sheen urged his fellow faithful to pull something out of the bag, while James Blunt searched for whiskey. The traitors, including Kenny, Maya, and James A, plotted their next move, with Kenny declaring it would be a",
+          "title": "Middlesbrough Empire Owners Sell Nightclub After 33 Years",
+          "image": "https://images.pexels.com/photos/19923642/pexels-photo-19923642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Middlesbrough, UK",
+          "time": "Oct 31, 2026",
+          "content": "The departing owners of The Middlesbrough Empire, a nightclub that has hosted famous DJs and acts, have announced they are selling the venue after 33 years. Father and son duo Barry Faulkner Sr and Jr, who put the town",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckr5y12r081zo"
+          "url": "https://www.bbc.com/news/articles/cq70p5g6ex39o"
         },
         {
           "id": "ent-3",
-          "title": "Marzamemi Festival Applies to Hold Family-Friendly Event on Richmond Green",
-          "image": "https://images.pexels.com/photos/36624118/pexels-photo-36624118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 26, 2026",
-          "content": "A family-friendly Italian-themed festival, the Marzamemi Festival, has applied to hold a three-day event on Richmond Green in south-west London in June. The event, which features live music, food, and activities for children, has received some support but also 45 objections from residents who are concerned about noise and restricted access to the park. The Richmond Society has objected to the event, citing concerns that it will take away public access to a large area of the green, potentially constituting a public nuisance. The event's founder, Emily Ceraudo, describes it as a 'boutique, family-friendly celebration' that aims to support local businesses. The Richmond Council's licensing committee will make a decision on the event in the coming days.",
+          "title": "Traitors contestant lands lead roles and business success after reality TV appearance",
+          "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZmlsbSUyMHNldHxlbnwxfDB8fHwxNzkzNDI4MDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Stevenage, Hertfordshire, UK",
+          "time": "Oct 31, 2026",
+          "content": "Former The Traitors contestant Kieran Tompsett, 46, from Stevenage, Hertfordshire, has transformed his life after appearing on the show in 2022. He decided to attend Ashley Walters' Kingdom Drama School, training for a year and a half and landing roles in three or four films, including Masters of the Universe. Tompsett was initially overwhelmed by the loss of privacy that came with being in the public eye, but he has since secured a lead role in a horror film and runs an AI workflow automation company. He will also appear in the dark comedy Damaged Goods. Prior to The Traitors, Tompsett worked as a solutions consultant.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq62yl7584p2o"
+          "url": "https://www.bbc.com/news/articles/cvze42lxdexwo"
         }
       ]
     },

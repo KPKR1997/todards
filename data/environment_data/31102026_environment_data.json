@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-4",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "Australia’s fossil fuel exports generated more emissions than 44 least developed countries combined over a decade",
+        "date": "2026-10-30T11:49:19.177Z",
+        "content": "Australia's fossil fuel exports generated an estimated 12.4 billion tonnes of CO2e emissions between January 2016 and March 2026, according to Global Witness. These emissions exceeded the combined domestic emissions of the world's 44 least developed countries over the same period. Coal accounted for 78% of Australia's exported fossil fuel emissions, contributing 9.7 billion tonnes of CO2e. Australia has cut domestic emissions by 29% from 2005 levels but continues to approve coal and gas projects. The findings raise questions about Australia's climate commitments ahead of COP31, where it will lead negotiations. Australia's fossil fuel exports generated an estimated 12.4 billion tonnes of carbon dioxide equivalent (CO2e) emissions between January 2016 and March 2026, exceeding the combined domestic emissions of the world's 44 least developed countries over the same period, according to a new analysis. The findings, published by environmental campaign group Global Witness , highlight the contrast between Australia's efforts to reduce emissions within its borders and its continued role as a major exporter of coal, oil and gas. Based on Australian government export records, the analysis found that emissions associated with the country's fossil fuel exports were equivalent to around a third of the European Union's domestic emissions over the same period. A further 6.9 billion tonnes of emissions could be generated from Australian fossil fuel exports by 2031, according to government projections cited in the analysis. This would bring the estimated total to 19.3 billion tonnes between 2016 and 2032, equivalent to around 3.4 per cent of the remaining global carbon budget for limiting warming to 1.5°C, using a 2016 baseline. The figures refer to emissions released when Australian fossil fuels are burned overseas, rather than emissions generated within Australia. While Australia has reduced its domestic emissions by 29 per cent compared with 2005 levels, emissions associated with its fossil fuel exports have remained high. In 2025, annual emissions from exported fossil fuels were approximately 2.5 times the country's domestic emissions.",
+        "url": "https://www.downtoearth.org.in/energy/australias-fossil-fuel-exports-generated-more-emissions-than-44-least-developed-countries-combined-over-a-decade",
+        "rank": 1,
+        "ranking_score": 40.95,
+        "ranking_reason": "Australia's fossil fuel exports generated more emissions than 44 least developed countries combined over a decade",
+        "ranking": {
+            "rank": 1,
+            "score": 40.95,
+            "base_score": 39.0,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 40,
+                "political_significance": 60,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 40,
+                "urgency": 0,
+                "severity_tier": 4,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": true,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "Australia's fossil fuel exports generated more emissions than 44 least developed countries combined over a decade",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 40,
+                "public_need_to_know": 60,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "This article reports a significant development in the environmental category, providing new insights into the impact of Australia's fossil fuel exports on global emissions. The numbers are substantial, and the analysis highlights the stark contrast between Australia's domestic emissions reduction efforts and its continued role as a major exporter of fossil fuels. The findings have implications for Australia's climate commitments and its leadership role in international negotiations."
+            }
+        }
+    }
+]

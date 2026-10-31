@@ -1,0 +1,235 @@
+{
+    "date": "31102026",
+    "timestamp": "2026-10-31T11:57:10.328857",
+    "duration_seconds": 5541.44,
+    "stages_duration_seconds": {
+        "scrape": 932.64,
+        "guardrails": 144.42,
+        "deduplication": 12.61,
+        "category_validation": 229.53,
+        "ranking": 414.11,
+        "processing": 3808.07,
+        "assembly": 0.01
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 7,
+            "Tech": 20,
+            "People": 55,
+            "Environment": 4,
+            "Economy": 11,
+            "Entertainment": 26
+        },
+        "total_scraped": 123,
+        "guardrail_passed": 123,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 10,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 123,
+        "classified_safe": 86,
+        "classified_unsafe": 37,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 37,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 116,
+        "rejected_count": 24,
+        "rejected_articles": [
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the performance of the technology-heavy Nasdaq Composite and the implications of AI-related news on the stock market, making it more relevant to the economy and business category."
+            },
+            {
+                "title": "Reid Hoffman gives millions to Dems in late spending spree as Epstein fight spills into election",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses a venture capitalist's political donations and their connection to Jeffrey Epstein, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Musk and Zuckerberg echo Trump's push to rebrand AI as 'super intelligence' on earnings calls. Others do not",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the rebranding of AI as 'super intelligence' by President Trump and his allies, with a focus on their earnings calls and statements, which falls under the category of people."
+            },
+            {
+                "title": "Tech giants need legacy businesses to keep growing as they pour trillions into the AI buildout",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the financial and investment implications of the tech giants' AI buildout, with a focus on their legacy businesses and capex spending, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses market trends, earnings, and cryptocurrency, which are more relevant to the 'economy and business' category than the 'science and technology' category."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "'science and technology'",
+                "confidence": 1.0,
+                "reason": "The article provides a specific news development about a scientific discovery in the field of quantum materials and spintronics, making it a clear fit for the 'science and technology' category."
+            },
+            {
+                "title": "US tech stocks see sharp falls as AI spending nears $1tn",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial implications of AI spending on tech stocks and companies, making it more relevant to the 'economy and business' category than the current 'people' category."
+            },
+            {
+                "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses a hacking incident and its impact on the cryptocurrency market, which is a science and technology issue."
+            },
+            {
+                "title": "How video game remakes tap the power of nostalgia",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article discusses the video game remake industry, nostalgia, and its impact on gamers, which is a topic more relevant to the entertainment category."
+            },
+            {
+                "title": "How video game remakes tap the power of nostalgia",
+                "from": "economy and business",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article discusses video game remakes and their connection to nostalgia, which is a clear fit for the entertainment category."
+            },
+            {
+                "title": "City of London chief tops UK Black Powerlist",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Ian Thomas, the City of London Corporation's chief executive, and his recognition as the UK's most influential Black Briton in the Black Powerlist awards, which is a people-related topic."
+            },
+            {
+                "title": "Yorkshire Water boss resigns after firm downgraded",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the resignation of the Yorkshire Water boss, which is a people-related news story, rather than an economic or business one."
+            },
+            {
+                "title": "‘They killed us’: Russia’s last independent newspaper falls silent amid pressure from Kremlin",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the shutdown of Novaya Gazeta, a Russian independent newspaper, and its implications for the Russian society and journalism, which is a people-related topic."
+            },
+            {
+                "title": "Hennessy, horses and huge money: Inside the most important horse auction in the world",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal stories and experiences of individuals involved in the horse auction, rather than the entertainment aspect of the event."
+            },
+            {
+                "title": "Packers’ Watson makes improbable ‘Thursday Night Football’ return after mid-game trip to hospital",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Christian Watson's personal experience and emotions, rather than entertainment-related topics, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Party Rock Anthem singer struggled with mental health before death",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about the life and death of Lauren Bennett, a British singer, which falls under the 'people' category, although it also touches on her music career in the 'entertainment' category."
+            },
+            {
+                "title": "How Bristol shaped Maya Jama before her TV fame",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on Maya Jama's personal story and early life, which is more relevant to the 'people' category than 'entertainment', although it does mention her TV fame."
+            },
+            {
+                "title": "Russell Brand accusers 'haunted' for years by alleged crimes, court hears",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Russell Brand's legal case and the allegations against him, which is a human-interest story and a major news development in the 'people' category, rather than entertainment."
+            },
+            {
+                "title": "Russell Brand accusers 'haunted' for years by alleged crimes, court hears",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a high-profile individual, Russell Brand, and allegations of rape and sexual assault, which is a serious news development with implications for his public reputation and personal life."
+            },
+            {
+                "title": "'A way of celebrating presence': What Botero's rotund remakes of classical masterpieces tell us about art history",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the art and life of Fernando Botero, with a focus on his creative process and the cultural significance of his work, which falls under the people category."
+            },
+            {
+                "title": "'It speaks to us about being human': Why Frankenstein, Mary Shelley's chilling 1818 horror story is so misunderstood",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the cultural significance and impact of Frankenstein, a classic novel that has been adapted into various forms of entertainment, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Sir Patrick Stewart remembered as 'Mirfield's finest'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on the life, death, and tributes of Sir Patrick Stewart, a renowned actor, which falls under the 'people' category."
+            },
+            {
+                "title": "Party Rock Anthem singer struggled with mental health before death",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the life and struggles of the singer Lauren Bennett, which falls under the 'people' category."
+            },
+            {
+                "title": "How Bristol shaped Maya Jama before her TV fame",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the life and career of Maya Jama, discussing her upbringing in Bristol and her path to TV fame, making it more relevant to the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 362,
+        "total_failures": 0,
+        "total_time_seconds": 372.84,
+        "prompt_tokens": 496011,
+        "response_tokens": 9672,
+        "total_tokens": 505683,
+        "usage_responses": 362,
+        "prompt_eval_seconds": 110.507,
+        "generation_seconds": 219.208,
+        "load_seconds": 19.137,
+        "server_total_seconds": 369.574,
+        "avg_response_time": 1.03
+    }
+}
