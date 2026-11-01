@@ -1,0 +1,67 @@
+[
+    {
+        "id": "st-3",
+        "source": "SciTechDaily",
+        "category": "health",
+        "title": "",
+        "date": "2026-11-01 03:09",
+        "content": "Quercetin, a compound found in citrus fruits, onions, and buckwheat, slowed lung cancer cell division and movement in laboratory experiments. At the highest dose tested, cell migration nearly stopped. The findings come from researchers at Universitätsklinikum Erlangen at Friedrich-Alexander Universität Erlangen-Nürnberg (FAU), who examined the compound’s effects in laboratory-grown lung cancer cells, mouse lung tissue sections, and living mice. Their study appeared in Cell Death Discovery . Lung cancer is the most common cancer worldwide and causes more cancer deaths than any other type. Available treatments do not work for everyone, prompting researchers to investigate additional approaches, including plant compounds such as quercetin, which is known for its anti-inflammatory properties. The team in the hospital’s Department of Molecular Pneumology found that quercetin affected several processes involved in cancer growth. “Many drugs against lung cancer target a single molecule,” explains Prof. Dr. Susetta Finotto. “Quercetin, by contrast, attacked at several points simultaneously in our experiments.” Treated tumor cells divided more slowly. In one of the two lung cancer cell types examined, quercetin also lowered oxidative stress. This occurs when reactive oxygen compounds overwhelm cells’ defenses, potentially causing damage that contributes to cancer development. The effect on movement was particularly striking because migration helps cancer cells spread and establish new tumors, known as metastases. “The higher the quercetin dose, the fewer cancer cells migrated. At the highest dose, the migration almost completely stopped,” reports Christine Carvalho, the study’s lead author. Quercetin also reduced levels of two proteins, EGFR and PD-L1, in the cancer cells studied. EGFR passes growth signals into cells, while PD-L1 can help tumors evade immune defenses. In mouse lung tissue sections, quercetin increased levels of interferon-alpha-2, a signaling molecule that helps the immune system defend against tumors. The researchers also observed changes beyond the lungs, involving the community of microbes living in the gut. “In the mice that received quercetin, the gut microbiome also changed,” explains Prof. Susetta Finotto. “Bacteria that produce certain short-chain fatty acids were more common.” These fatty acids can enter the bloodstream and reach the lungs, where they can inhibit cancer cell growth. The mice given quercetin also showed signs of fewer tumor sites. However, only a few animals developed tumors, leaving too little evidence to confirm that finding. Further studies are needed, and whether the effects seen in cells and mice extend to people remains unknown. The experiments also do not establish whether eating quercetin-containing foods would reproduce these results. “Our results suggest that a quercetin-rich diet could support treatment for lung cancer,” says Prof. Susetta Finotto. “We also think it may have preventive effects. We want to investigate that next.” Reference: “Immunoregulatory role of quercetin in lung cancer” by Christine Carvalho, Elvedina Nendel, Susanne Mittler, Sonja Trump, Adriana Geiger, Jonas Willar, Mircea T. Chiriac, Stefan Wirtz, Carol I. Geppert and Susetta Finotto, 14 September 2026, Cell Death Discovery . DOI: 10.1038/s41420-026-03312-7 Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/a-natural-compound-found-in-everyday-foods-shows-surprising-power-against-lung-cancer/",
+        "rank": 1,
+        "ranking_score": 8.57,
+        "ranking_reason": "Quercetin's potential to slow lung cancer cell division and movement is a notable scientific discovery with significant health implications.",
+        "ranking": {
+            "rank": 1,
+            "score": 8.57,
+            "base_score": 8.0,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 60,
+                "scientific_significance": 80,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": false
+                },
+                "reason": "Quercetin's potential to slow lung cancer cell division and movement is a notable scientific discovery with significant health implications.",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant scientific discovery with potential health implications, providing clear evidence of quercetin's effects on lung cancer cell division and movement, making it a notable development in the health category."
+            }
+        }
+    }
+]

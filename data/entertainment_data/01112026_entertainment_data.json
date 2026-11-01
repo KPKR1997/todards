@@ -1,0 +1,67 @@
+[
+    {
+        "id": "entertainment-7",
+        "source": "BBC",
+        "category": "entertainment",
+        "title": "How city became home of drum and bass and jungle",
+        "date": "2026-10-31 07:23",
+        "content": "It has been more than 30 years since Bristol with a \"rebel\" mentality ventured into the unknown, giving birth to the global phenomenon that is jungle and drum and bass music.\nThe city is still a heavyweight on the scene, inspiring generations of artists to continue pushing boundaries in dance music.\nJungle continues to be developed by artists across London and Bristol, but in its beginnings the sound from Bristol was more expansive and experimental.\nIt all started in the early 90s, with a DJ collective called Full Cycle . They were influenced by Jamaican sound systems, acid house and hip hop, which led to a new sound explosion in the city.\nDJ Krust - who was part of the collective - said the music was about \"finding expression through our artform which was DJing and producing\".\n\"Rave culture was a huge factor in speeding the tempo up. Once it got to 160bpm and now it's 170bpm, that felt like home for us,\" he said.\nThe jungle music they had a hand in creating is still to this day characterised by its speed, syncopated rhythms, breakbeats and ragga, funk and reggae samples.\nThe Full Cycle collective showcased their new music on the streets at St Paul's Carnival and when they saw people liked it, they made more.\nKrust said the beginnings of jungle and drum and bass were a partnership between the open mindedness of the city, the creativity of these DJs and their proximity to rave culture at free parties in the West Country countryside.\n\"We had to explore and dig deep to hear and see how this experiment can work in real time - that was huge to see,\" he said.\n\"When we finally figured out jungle we found our voice,\" he added.\nThe collective was made up of DJ Krust, DJ Die, producer Roni Size and DJ Suv - from Krust's original band Fresh Four, best-known for the top 10 hit Wishing on a Star .\nBy this time, Full Cycle had a show on commercial radio station Galaxy Radio - something Krust said became a really \"pivotal moment\" for the collective.\n\"It was like the calling for the youth - here you go, here's your new soundtrack, it's British and it's the sound of the streets,\" Krust said.\n\"You could feel it in the air that we'd got something and it was travelling through word of mouth - something was brewing and we could all feel it.\n\"This was the movement, this was the shift,\" he added.\nIn 1997, Full Cycle formed the live act Reprazent and released the album 'New Forms' which included the hit track Brown Paper Bag .\nLater that year they made history by becoming the first drum and bass group to win the Mercury Prize - firmly putting Bristol, jungle and drum and bass on the musical map.\nJungle went on to become the precursor to drum and bass music which is also fast, but has a signature simple kick and snare pattern that sits over rolling basslines.\nThe two genres are sometimes used interchangeably, but both still have a distinct sound.",
+        "url": "https://www.bbc.com/news/articles/cmly09y5l0r0o",
+        "rank": 1,
+        "ranking_score": 8.45,
+        "ranking_reason": "A major entertainment development that reports on the origins of drum and bass and jungle music in Bristol, featuring the Full Cycle collective and their contributions to the genre.",
+        "ranking": {
+            "rank": 1,
+            "score": 8.45,
+            "base_score": 8.45,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 80,
+                "remarkability": 0,
+                "global_reach": 3,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "A major entertainment development that reports on the origins of drum and bass and jungle music in Bristol, featuring the Full Cycle collective and their contributions to the genre.",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article provides a clear and concise account of the origins of drum and bass and jungle music in Bristol, featuring the Full Cycle collective and their contributions to the genre. The quotes from DJ Krust add depth and insight, and the article provides a compelling reason for readers to care about this topic, as it highlights the cultural significance of the genre and its enduring influence on the music scene."
+            }
+        }
+    }
+]

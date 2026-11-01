@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-3",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "Cyclone Arnab aftermath: Tens of thousands stranded in Odisha villages as fresh weather system threatens more rain",
+        "date": "2026-10-31T03:49:36.805Z",
+        "content": "The Odisha government has stepped up rescue and relief operations across southern districts battered by exceptionally heavy rain brought by Cyclone Arnab on October 28. The rainfall may also have been influenced a second cyclonic system to the storm's northeast. The downpour sent rivers, including the Rushikulya and Mahendratanaya, swelling, triggering floods and landslides that washed away roads and bridges and left villages marooned across seven districts—Ganjam, Gajapati, Kandhamal, Koraput, Malkangiri, Nabarangpur and Rayagada.",
+        "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-arnab-aftermath-tens-of-thousands-stranded-in-odisha-villages-as-fresh-weather-system-threatens-more-rain",
+        "rank": 1,
+        "ranking_score": 43.37,
+        "ranking_reason": "The article reports on a significant natural disaster with human consequences.",
+        "ranking": {
+            "rank": 1,
+            "score": 43.37,
+            "base_score": 41.3,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 40,
+                "dont_miss": 0,
+                "human_consequence": 60,
+                "economic_impact": 20,
+                "political_significance": 30,
+                "health_significance": 40,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 2,
+                "urgency": 80,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": true,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "The article reports on a significant natural disaster with human consequences.",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 40,
+                "public_need_to_know": 80,
+                "public_concern": 60,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant natural disaster with human consequences, meeting the criteria for a public-interest news product."
+            }
+        }
+    }
+]

@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 83",
+    "issue": "Issue No. 84",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "31 October 2026",
+    "publishedAt": "01 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "US Judge Blocks Trump's Election Interference Tactics",
-          "image": "https://images.pexels.com/photos/31690213/pexels-photo-31690213.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Northern District of California",
-          "time": "Oct 31, 2026",
-          "content": "a US federal judge has issued an emergency order to halt the Trump administration's aggressive tactics to pressure election officials across the country, citing concerns that these actions may interfere with election administration and disenfranchise lawful voters. The order, which expires on November 16, bars the Justice Department and the Department of Homeland Security from demanding that election officials segregate ballots, purge voters from voter rolls, or halt ballot processing. The judge's ruling also blocks threats of criminal prosecutions against election officials and prohibits the administration from taking actions that 'threaten, intimidate or coerce' election officials. This decision comes as part of a lawsuit brought by a coalition of labor unions and civil rights groups, which claims the administration's recent conduct violates the Voting Rights Act and amounts to an unconstitutional intrusion into state control over election administration.",
+          "title": "Rep. Max Miller Seeks Reelection Amid Custody Case",
+          "image": "https://images.pexels.com/photos/15384789/pexels-photo-15384789.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Ohio, USA",
+          "time": "Nov 01, 2026",
+          "content": "Rep. Max Miller is running for re-election in Ohio's 7th Congressional District, a seat once considered safe for Republicans, but now a key battleground due to controversies surrounding Miller's personal life. Miller's high-profile custody case, which includes allegations of abuse from his ex-wife, is scheduled to go to trial just days after the election. The race has seen millions spent by both parties, with Republicans investing over $9 million and Democrats spending $17 million. Despite the controversies, Miller remains defiant, saying he is confident his constituents know him and will win the race. His opponent, Democrat Brian Poindexter, claims to have momentum on the ground, but the race has been marked by dueling ads highlighting the pasts of both candidates.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/30/politics/emergency-order-halts-doj-pressure-campaign-election-officials"
+          "url": "https://edition.cnn.com/2026/10/31/politics/republicans-max-miller-midterms"
         },
         {
           "id": "pp-2",
-          "title": "Elon Musk spends $445M on US politics, backs Texas Senate race",
-          "image": "https://images.unsplash.com/photo-1598802777393-751e5387ecd1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8cG9saXRpY2FsJTIwY2FtcGFpZ258ZW58MXwwfHx8MTc5MzMyNDgzOHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Texas",
-          "time": "Oct 31, 2026",
-          "content": "Elon Musk, the world's richest man, has contributed nearly half a billion dollars to federal committees, making him the single largest disclosed donor in modern American politics. He has spent over $445 million, with nearly $216 million going to his own super PAC, America PAC. Musk's money has been deployed in Texas, where he lives, and is playing a significant role in the Senate race between Democrat James Talarico and Republican Ken Paxton. Musk's PAC has funded mailers, digital advertising, and other outreach to Texas voters, while also supporting the Senate Leadership Fund and Texas PAC, which has issued attacks against Talarico. The spending has outpaced Talarico's campaign, with Democrats being outspent by Republicans on ads by more than 2 to 1 in the final four weeks of the election.",
+          "title": "Germany protests turn violent, with rioting and arrests reported",
+          "image": "https://images.unsplash.com/photo-1792508684596-678226ed83c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTQwcG9saWNlJTIwd2F0ZXIlMjBjYW5ub258ZW58MXwwfHx8MTc5MzUwNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Frankfurt, Germany",
+          "time": "Nov 01, 2026",
+          "content": "Germany saw widespread protests and violence on Saturday, with rioters looting shops and clashing with police in cities like Frankfurt, Berlin, Cologne, and Hamburg. The peaceful protests, organized by Gen Z regelt, aimed to address issues like underfunding in schools, high living costs, and public spending cuts. However, as night fell, the demonstrations turned violent, with reports of smashed windows, molotov cocktails, and arrests. Authorities reported around 18,000 protesters, with many incidents of violence and vandalism, including the smashing of a gun shop window. German officials have criticized the violent turn of events, comparing it to similar unrest in France, where over 320,000 people protested on the same day.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/30/politics/elon-musk-midterm-spending-republicans"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cqj34gnd3n30o"
         },
         {
           "id": "eb-1",
-          "title": "Russia Shuts Down Novaya Gazeta After 30 Years",
-          "image": "https://images.unsplash.com/photo-1697382609234-5435846cdf50?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UnVzc2lhbiUyMG5ld3NwYXBlcnxlbnwxfDB8fHwxNzkzNDI2MDI0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Moscow, Russia",
-          "time": "Oct 31, 2026",
-          "content": ". Novaya Gazeta, Russia's most prominent independent newspaper, is being shut down after thirty years. The paper's journalists are being targeted by the Russian authorities, who accuse Novaya Gazeta of being a foreign agent. The paper has been facing increasing pressure since Russia's invasion of Ukraine in 2022, with new laws aimed at punishing dissent and silencing criticism. This has led to the blocking of the paper's websites, revocation of its media license, and refusal of donations. Journalist and co-founder Dmitry Muratov, who was awarded the Nobel Peace Prize in 2021, believes the paper is being strangled by the authorities. This is not the first time Novaya Gazeta has faced attacks; six colleagues have been killed for their work, including Anna Politkovskaya, who was shot dead twenty years ago. The paper's closure is seen as a blow to freedom of expression and democracy in Russia.",
+          "title": "Starmer Calls for European Defence Framework Amid US Shift",
+          "image": "https://images.unsplash.com/photo-1625440153141-1ae4c27ff33b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RXVyb3BlYW4lMjBmbGFnfGVufDF8MHx8fDE3OTM1MDU1NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Dublin, Ireland",
+          "time": "Nov 01, 2026",
+          "content": "Sir Keir Starmer, the former UK prime minister, has emphasized the need for a common security framework in Europe, stating that the shift in the US's defence relationship with Europe is permanent rather than a temporary phenomenon. He warned that the US will no longer 'bankroll' European allies, and that Europe must take on more responsibility for its own defence and security. Starmer also emphasized the importance of pan-European co-operation and co-ordination on defence and security, noting that the EU is changing to respond to these new circumstances. He cautioned that Europe's periphery is core to its defence, and that the EU cannot be the only one responding to this challenge. Starmer's remarks were made at a British Irish Chamber of Commerce dinner in Dublin, where he also received an honorary life membership.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmewepdr109do"
+          "url": "https://www.bbc.com/news/articles/cxnv0p4l7rjlo"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Researchers Develop Flexible, Conductive Shielding Materials",
-          "image": "https://images.pexels.com/photos/6538988/pexels-photo-6538988.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Beijing, China",
-          "time": "Oct 30, 2026",
-          "content": "Researchers are developing a new generation of electromagnetic shielding materials that combine excellent conductivity with strength and flexibility. Currently, options like metals, polymers, and carbon-based materials can be heavy, inflexible, or expensive. A promising approach combines two-dimensional transition metal carbides and nitrides (MXenes) with nanocellulose, a lightweight material from natural biomass. This combination offers excellent conductivity and chemical stability, but adding nanocellulose improves mechanical strength while preserving electrical properties. A research team led by Prof. Ming-Guo Ma has published a comprehensive review of MXene/nanocellulose composites, examining their structure, fabrication methods, and strengthening mechanisms. The review highlights differences between one-dimensional fibers, two-dimensional layered films, and three-dimensional networks, as well as various strengthening approaches, manufacturing techniques, and challenges. The goal is to create high-performance shielding materials that can adjust their electromagnetic behavior in response to changing conditions.",
+          "title": "Comet theory on life's origin may be flawed, simulations suggest",
+          "image": "https://images.pexels.com/photos/39187928/pexels-photo-39187928.png?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "United Kingdom",
+          "time": "Nov 01, 2026",
+          "content": "The popular theory that comets brought life-starting molecules to Earth, allowing life to emerge, may not be accurate, according to new computer simulations. The research found that comets, when they impact the Earth, would likely destroy the fragile organic molecules, making it unlikely for life to have begun on our planet through comet delivery. The study's lead author, Richard Anslow, suggests that instead, life may have emerged through alternative means, such as Earth's primordial soup or asteroids, which could have delivered the necessary building blocks of life. The research also raises the possibility that ancient Mars, with its lower impact velocities, could have been more suitable for HCN delivery, adding a new dimension to the question of whether Mars once supported life.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/the-future-of-electromagnetic-shields-could-be-lighter-stronger-and-greener/"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/10/31/science/origin-life-theory-comet-simulation"
         },
         {
           "id": "st-2",
-          "title": "Christie's pharmacy training inspired detective novels",
-          "image": "https://images.pexels.com/photos/33016276/pexels-photo-33016276.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "London, UK",
-          "time": "Oct 30, 2026",
-          "content": "Before becoming a renowned author, Agatha Christie worked in a chemist's shop in Torquay, England, where she witnessed dark behaviors from a mysterious employer, Mr. P, who carried a deadly poison. Christie's sharp mind caught a mistake he made while infusing drugs and prevented a dangerous situation. Her experiences in the shop sparked the idea for her gripping detective novels, which were later inspired by her pharmacy training. Christie's accurate descriptions of poisons, which served as murder weapons in 41 of her 66 detective novels, continue to impress readers and experts today. Her work not only entertained but also educated readers about the science of poisons, helping to solve real-world crimes. Christie's life experiences, from working as a nurse during World War I to her extensive pharmacy training, are subtly woven into her novels, showcasing her attention to detail and expertise in the field of medicine.",
+          "title": "Proteins linked to Alzheimer's, Parkinson's aid human reproduction",
+          "image": "https://images.unsplash.com/photo-1693996045300-521e9d08cabc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YW15bG9pZCUyMHByb3RlaW58ZW58MXwwfHx8MTc5MzUwNDM5NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York, USA",
+          "time": "Nov 01, 2026",
+          "content": "Researchers at Columbia University have discovered a new role for proteins associated with Alzheimer's and Parkinson's disease in human reproduction. Amyloid fibrils, tiny protein fibers found in semen, can transport RNA into sperm cells, helping to move genetic material into sperm. This discovery could lead to new methods for delivering gene therapies and has implications for RNA delivery in medicine. The study found that amyloid fibrils can carry large RNA molecules that can produce functional proteins in developing embryos. The researchers also demonstrated that these protein fibers can enter sperm cells and deliver RNA, which could have significant implications for understanding the role of RNA in embryonic development and gene regulation.",
           "theme": "#EBF2FA",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/29/science/agatha-christie-science-pharmacist-poison"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/alzheimers-linked-proteins-have-a-hidden-role-in-human-reproduction/"
         },
         {
           "id": "t-3",
-          "title": "Reddit to Require Official Accounts for All Users",
-          "image": "https://images.unsplash.com/photo-1762330474120-71b4057a8b40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bG9nZ2VkLWluJTIwdXNlcnxlbnwxfDB8fHwxNzkzMzI0NjI1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "San Francisco, USA",
-          "time": "Oct 30, 2026",
-          "content": "Reddit plans to require all users to create official accounts to access the platform, a significant change that comes as the company faces a decline in search-referral traffic from Google. The shift is attributed to Google's increased use of AI overviews and chatting features, which has negatively impacted Reddit's referral traffic. The change aims to focus on the company's core users who come to the platform directly, with CEO Steve Huffman stating that users will likely adapt to the new requirement. The move is part of Reddit's efforts to grow its user base and increase revenue, with the company's third-quarter sales growing 53% year-over-year. Reddit will begin testing the new account requirement in the fourth quarter outside of the US, with Huffman emphasizing the company's focus on logged-in users who are more active and valuable to advertisers.",
+          "title": "Uranus and Neptune Have Different Origins, Study Finds",
+          "image": "https://images.pexels.com/photos/13649226/pexels-photo-13649226.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Boulder, Colorado, USA",
+          "time": "Nov 01, 2026",
+          "content": "A new study suggests that Uranus and Neptune, long considered planetary twins, actually have different origins and chemical histories. While they share similarities, Neptune's deep atmosphere contains more oxygen than Uranus', indicating that they formed from different regions of the protoplanetary disk. This discovery challenges the long-standing belief that the two ice giants developed from the same reservoir of cosmic ingredients. The study uses atmospheric observations and computer models to investigate the planets' chemical compositions roughly 4.5 billion years ago, when they formed. The researchers propose that Neptune may have accumulated building blocks that originated closer to the young Sun and subsequently migrated outward, giving it a different chemical history from Uranus. This finding has implications for understanding how planets form and evolve throughout the galaxy, and could shed light on the formation of similar-sized planets around other stars. The study was published in the September 2026 issue of Astronomy & Astrophysics and was co-authored by scientists from Southwest Research Institute.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/10/29/reddit-rddt-q3-2026.html"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/uranus-and-neptune-may-have-been-cosmic-strangers-all-along-new-research-reveals/"
         }
       ]
     },
@@ -107,14 +107,14 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "AML treatment shows promise in mice and cancer cells",
-          "image": "https://images.unsplash.com/photo-1631048005681-79a19681e4fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bGV1a2VtaWElMjBjZWxsc3xlbnwxfDB8fHwxNzkzNDI0NDA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Gothenburg, Sweden",
-          "time": "Oct 31, 2026",
-          "content": "Researchers have developed an experimental treatment for acute myeloid leukemia (AML), a type of cancer that affects blood and bone marrow. The treatment, which targets the energy demands of malignant cells, uses a molecule called AcTor to block a signaling protein involved in controlling a protein called mTOR. When combined with a drug called ixazomib, the treatment disrupts energy production in mitochondria, causing cancer cells to experience severe stress and die. The treatment has shown promising results in mice and patient-derived cancer cells, including a particularly aggressive form of the disease. The researchers hope that this approach will eventually lead to a cure for AML.",
+          "title": "Quercetin slows lung cancer cell division in lab tests",
+          "image": "https://images.unsplash.com/photo-1609639643505-3c158a56de42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y2l0cnVzJTIwZnJ1aXRzfGVufDF8MHx8fDE3OTM1MDQwMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Erlangen, Germany",
+          "time": "Nov 01, 2026",
+          "content": "Researchers at the University of Erlangen-Nürnberg found that quercetin, a compound found in citrus fruits, onions, and buckwheat, slowed lung cancer cell division and movement in laboratory experiments. At the highest dose tested, cell migration nearly stopped. The study, published in Cell Death Discovery, also showed that quercetin affected several processes involved in cancer growth, including the reduction of two proteins that can help tumors evade the immune system. In addition, the compound increased levels of interferon-alpha-2, a signaling molecule that helps the immune system defend against tumors. The researchers believe that a quercetin-rich diet could support treatment for lung cancer and may even have preventive effects. However, more studies are needed to confirm the findings and establish whether the effects seen in cells and mice extend to humans.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/new-treatment-strategy-makes-cancer-cells-run-out-of-energy-and-die/"
+          "url": "https://scitechdaily.com/a-natural-compound-found-in-everyday-foods-shows-surprising-power-against-lung-cancer/"
         },
         {
           "id": "hw-3",
@@ -139,14 +139,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Australia's fossil fuel exports emit 12.4 billion tonnes of CO2e",
-          "image": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y2FyYm9uJTIwZW1pc3Npb25zfGVufDF8MHx8fDE3OTM0MjYxNTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Australia",
-          "time": "Oct 31, 2026",
-          "content": "Australia's fossil fuel exports between 2016 and 2026 produced an estimated 12.4 billion tonnes of CO2e emissions, surpassing the combined domestic emissions of the world's 44 least developed countries. The majority, 78%, was due to coal, which contributed 9.7 billion tonnes of emissions. Australia has reduced its domestic emissions by 29% since 2005, but continues to approve coal and gas projects, raising questions about its climate commitments. The country's fossil fuel exports emitted emissions equivalent to around a third of the European Union's domestic emissions, and the total emissions could reach 19.3 billion tonnes by 2032. This is concerning as it would account for 3.4% of the remaining global carbon budget for limiting warming to 1.5°C. The emissions refer to those released when Australian fossil fuels are burned overseas, not within Australia.",
+          "title": "Odisha boosts rescue efforts after Cyclone Arnab floods seven districts",
+          "image": "https://images.pexels.com/photos/25228172/pexels-photo-25228172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Odisha, India",
+          "time": "Nov 01, 2026",
+          "content": "The Odisha government has increased rescue and relief efforts in seven districts severely affected by heavy rainfall caused by Cyclone Arnab on October 28. The rain, possibly influenced by a second cyclonic system, caused rivers to swell, triggering floods and landslides that destroyed roads and bridges, leaving villages isolated. The districts of Ganjam, Gajapati, Kandhamal, Koraput, Malkangiri, Nabarangpur, and Rayagada were most affected, with roads and bridges washed away, leaving many marooned.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/energy/australias-fossil-fuel-exports-generated-more-emissions-than-44-least-developed-countries-combined-over-a-decade"
+          "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-arnab-aftermath-tens-of-thousands-stranded-in-odisha-villages-as-fresh-weather-system-threatens-more-rain"
         },
         {
           "id": "env-2",
@@ -182,14 +182,14 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Kettering Cinema Revival: Community Screenings Begin October 30",
-          "image": "https://images.unsplash.com/photo-1485095329183-d0797cdc5676?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmludGFnZSUyMGNpbmVtYXxlbnwxfDB8fHwxNzkzNDI3MjM0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Kettering, Northamptonshire",
-          "time": "Oct 31, 2026",
-          "content": "A film enthusiast, Will Preston, is working to revive cinema screenings in Kettering, Northamptonshire, after the closure of the Odeon cinema in January 2025. The Odeon, which opened in 1997, was shut down due to a significant drop in attendance over the past five years. Preston, who has fond memories of visiting the cinema with his family, is organizing community screenings at various locations in Kettering. The first event is scheduled for October 30, with plans to hold monthly screenings. Preston aims to make the cinema experience accessible and affordable for the community, with tickets and snacks priced cheaply. In 2024, over 2,000 people signed a petition to save the Kettering Odeon, and now Preston is working to bring back the cinematic experience to the town.",
+          "title": "Bristol's Full Cycle Shapes Early Jungle and Drum and Bass Sound",
+          "image": "https://images.pexels.com/photos/32670821/pexels-photo-32670821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Bristol, UK",
+          "time": "Nov 01, 2026",
+          "content": "Bristol's underground music scene has been a driving force in the evolution of jungle and drum and bass music, with the city's Full Cycle collective being a key player in shaping the genre's early sound. In the early 1990s, the collective, which included DJ Krust, DJ Die, producer Roni Size, and DJ Suv, drew inspiration from Jamaican sound systems, acid house, and hip hop, creating a new and innovative sound. This experimental sound, characterized by its fast tempo, syncopated rhythms, breakbeats, and reggae samples, resonated with the city's youth, and the collective's music quickly gained popularity through underground parties and radio shows. The group's breakthrough came with the release of their album 'New Forms' in 1997, which included the hit track 'Brown Paper Bag,' and their subsequent win of the Mercury Prize, making them the first drum and bass group to receive the award. Today, jungle and drum and bass music continue to thrive, with artists from Bristol and beyond pushing the boundaries of the genre.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqgkvedkvvr5o"
+          "url": "https://www.bbc.com/news/articles/cmly09y5l0r0o"
         },
         {
           "id": "ent-2",

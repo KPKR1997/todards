@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pp-4",
+        "source": "CNN",
+        "category": "economy",
+        "title": "Notorious hacker says stolen crypto is like ‘holding a hot potato’",
+        "date": "2026-10-31 17:22",
+        "content": "On Thursday, Binance, the world’s largest crypto exchange, saw more than $6 billion hacked from its system . Evidence pointed to North Korean hackers , who drained the accounts in a matter of minutes. But what does a hacker do with billions of dollars in stolen crypto? Perhaps no one on the planet is more qualified to discuss the hack than Ilya Lichtenstein, the notorious hacker who in 2023, alongside his wife, Heather Morgan, pleaded guilty to orchestrating a $4.5 billion money-laundering scheme linked to the 2016 hack of crypto exchange Bitfinex. In 2024, Lichtenstein was sentenced to five years in prison, but he was released early this January. He now says that he has switched sides and is working as a “white hat” hacker trying to stop cyberattacks. CNN talked with Lichtenstein about how hacking an exchange can be easier than actually laundering the crypto and how rapid AI advancements will inevitably lead to drained crypto wallets. This interview has been edited for clarity. This does fit the North Korean modus operandi. So, typically, they go for the weakest link. They’re not going to attack, like, Binance.com the website, because they have a lot of security there. But there might be an employee who is vulnerable to phishing who might be tricked into downloading a virus. And I think as a defender, you need to be aware of, “Where is the weakest link in the chain?” It’s not enough to just secure the front door, you have to secure all the entrances, the doors and the windows. You may have heard that if you’re trying to investigate a murder, your best chance is in the first 48 hours. It’s kind of the same with crypto. Right now, all of these funds are moving and getting split, split, split into small pieces and shuffled around and moved together. And because AI agents can do this, it’s happening incredibly quickly. And so it’s really a race against time to just try to catch up and trace it before it grows exponentially harder to trace. They’re probably feeling a little nervous, if I had to guess, because there are a lot of eyes on that Bitcoin. It’s all on a blockchain that is publicly visible. Anyone can investigate it. And there are very, very sophisticated blockchain analysis tools right now. And, as we’ve seen, a lot of these crypto platforms — such as Tether/USD, for example — have the ability to freeze funds. They’re not truly decentralized. And so what these hackers have to do is extremely quickly try to basically hide the trail, try to obfuscate this money. Try to mix it around, move it around. And their main goal is just to be able to move some amount of the funds quickly enough so that it doesn’t get frozen or they don’t get caught. And there are a lot of very perilous steps for them along the way of that. They’re holding a hot potato. So, these hackers in turn will have to try to move even faster to basically somehow take this money and either exchange it for legitimate money or mix it into a pile of money where you can’t tell what’s counterfeit and what’s legitimate. It’s very tricky for them. I think they’re in a hard spot. The hardest part is after the hack because there are a lot of eyes on all of that crypto, and you have to launder it very quickly before you get caught. It’s very difficult to launder that kind of money. I know it’s hard to believe, but I wasn’t super motivated by money. I was always more interested in the technical challenge, and so I didn’t spend very much of it. And I think that that’s been reflected in court records. So, I didn’t have to fully cash out or launder a great amount of it, which I think made it easier for me. But essentially, what I did is I registered accounts at a bunch of crypto exchanges, some using my identity, some using money mules or fake identities, and then I structured it into kind of small deposits that I deposited to trickle a little bit, and I exchanged it into other cryptocurrencies. That’s called “chain hopping.” And so the goal is for anyone who’s kind of doing this kind of laundering, is all of the coins can be traced on one blockchain. If you switch it to another blockchain, that breaks up the trail. So, for example, if I have Ethereum and then I exchange it into Bitcoin or something, that’s like a separate trail, and investigators may or may not be able to link the two. And furthermore, if you kind of break this up into multiple small pieces, maybe using different identities or different exchanges, that is a lot less likely to trigger money laundering controls. I think the kind of unique, exciting and scary part of this whole thing is that now we’re in the age of AI. And so now all of this stuff can be automated at like an insane machine speed. Terrifying. It’s terrifying, and I wouldn’t recommend it to anyone. And I think in general, like, crime is absolutely not worth it. Like, even if it seems cool, it is not worth the stress and the damage that it could do to your life and the long-ranging consequences. Once something is on the blockchain. It’s written there forever. Someone can go back years later with better technology — because the technology keeps improving — and they can trace it. And they will catch you, and that’s usually what happens. Absolutely, absolutely. Because the rate of advancement of AI has been incredible. Even this past year, the security capabilities of models have grown tremendously. And so right now, there are frontier models from OpenAI and Anthropic that are capable of very, very advanced hacking. But those models are kept under lock and key. There are a lot of safeguards. But then there are also open-source models that are coming out of places like China, where they’re not quite as advanced at hacking yet, but they probably are about three to six months behind. So in a few months, you can have open-source models that anyone can download that are better at hacking than the best hackers in the world. And I think potentially that’s very dangerous. Right now, it’s maybe in the hands of nation-state North Korean-type hackers. In a few months, the same hacking technology that enables something like this could be in the hands of a kid in their basement who is bored. Editor’s note: CNN reached out to North Korea’s mission at the UN for comment about the hacking allegations. Pyongyang has previously denied hacking allegations. In a statement on Saturday, Binance said it has covered “90%” of the stolen funds for customers and are “on track to resume withdrawals within the previously stated timeframe.”",
+        "url": "https://edition.cnn.com/2026/10/31/business/crypto-hacker-money-laundering",
+        "rank": 1,
+        "ranking_score": 54.54,
+        "ranking_reason": "A major economic event with potential consequences for cryptocurrency investors and a significant technological advancement in AI-powered hacking, making it a publishable story.",
+        "ranking": {
+            "rank": 1,
+            "score": 54.54,
+            "base_score": 54.0,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.01,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 70,
+                "political_significance": 30,
+                "health_significance": 0,
+                "scientific_significance": 40,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 50,
+                "urgency": 80,
+                "severity_tier": 4,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "A major economic event with potential consequences for cryptocurrency investors and a significant technological advancement in AI-powered hacking, making it a publishable story.",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 50,
+                "public_need_to_know": 70,
+                "public_concern": 30,
+                "technology_significance": 90
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "brief evidence-based explanation"
+            }
+        }
+    }
+]

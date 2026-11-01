@@ -1,0 +1,137 @@
+{
+    "date": "01112026",
+    "timestamp": "2026-11-01T09:43:03.437082",
+    "duration_seconds": 3861.08,
+    "stages_duration_seconds": {
+        "scrape": 770.85,
+        "guardrails": 104.02,
+        "deduplication": 10.4,
+        "category_validation": 152.72,
+        "ranking": 273.84,
+        "processing": 2549.18,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 3,
+            "Tech": 20,
+            "People": 41,
+            "Environment": 3,
+            "Economy": 8,
+            "Entertainment": 12
+        },
+        "total_scraped": 87,
+        "guardrail_passed": 87,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 9,
+        "final_categories": 5
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 87,
+        "classified_safe": 65,
+        "classified_unsafe": 22,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 22,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 81,
+        "rejected_count": 10,
+        "rejected_articles": [
+            {
+                "title": "‘Runner’s calm’ steadies two first-time NYC marathoners without a home",
+                "from": "health",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal stories and struggles of two individuals experiencing homelessness, and how running has positively impacted their lives, making it more relevant to the 'people' category than 'health'."
+            },
+            {
+                "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial soundness and debt levels of neocloud firms, which is a significant economic and business development."
+            },
+            {
+                "title": "Crypto firm Binance covers 90% of losses after $6.3bn hack",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the financial impact of the hack on Binance and the company's efforts to cover the losses, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial health and potential debt issues of neocloud firms, which is a key aspect of the economy and business category."
+            },
+            {
+                "title": "More than 5,000 die from Ebola in DR Congo's deadliest outbreak",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article reports on a significant public health crisis, including the number of deaths and cases, as well as the challenges in containing the outbreak, making it more relevant to the 'health' category than 'people'."
+            },
+            {
+                "title": "Starmer tells Dublin event Europe can no longer rely on US to 'bankroll' its defence",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Sir Keir Starmer's views on European security and defence, which is a people-related topic, rather than an economic or business issue."
+            },
+            {
+                "title": "Why politicians chasing economic growth is a lie | Radical Thinking with Aditya Chakrabortty",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the work and ideas of Aditya Chakrabortty and Karel and Sukhdev, which falls under the 'people' category, despite being somewhat related to economic growth."
+            },
+            {
+                "title": "Brit School North arts college plan given go-ahead",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the establishment of a performing arts college, which is a cultural and educational initiative, and its impact on the community, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Brit School North arts college plan given go-ahead",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the launch of a performing arts college, which is a people-related story, rather than an entertainment story."
+            },
+            {
+                "title": "Tourism tax backlash: 'Rothbury is not Edinburgh'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the plans and opinions of local leaders and business owners, which falls under the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 255,
+        "total_failures": 0,
+        "total_time_seconds": 255.62,
+        "prompt_tokens": 348210,
+        "response_tokens": 6695,
+        "total_tokens": 354905,
+        "usage_responses": 255,
+        "prompt_eval_seconds": 71.792,
+        "generation_seconds": 148.533,
+        "load_seconds": 17.503,
+        "server_total_seconds": 252.675,
+        "avg_response_time": 1.0
+    }
+}
