@@ -1,0 +1,116 @@
+{
+    "date": "02112026",
+    "timestamp": "2026-11-02T11:49:26.631181",
+    "duration_seconds": 1999.58,
+    "stages_duration_seconds": {
+        "scrape": 999.73,
+        "guardrails": 123.19,
+        "deduplication": 12.4,
+        "category_validation": 166.12,
+        "ranking": 359.74,
+        "processing": 338.17,
+        "assembly": 0.15
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 8,
+            "Tech": 13,
+            "People": 50,
+            "Environment": 0,
+            "Economy": 8,
+            "Entertainment": 7
+        },
+        "total_scraped": 86,
+        "guardrail_passed": 86,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 0,
+        "final_categories": 0
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 86,
+        "classified_safe": 60,
+        "classified_unsafe": 26,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 26,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 84,
+        "rejected_count": 7,
+        "rejected_articles": [
+            {
+                "title": "A record number of health professionals are running for office. Could they help heal US politics?",
+                "from": "health",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses healthcare professionals running for office, which is a people-focused topic, even though it has some health-related aspects."
+            },
+            {
+                "title": "Binance users withdraw $3.6bn after record crypto hack",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article discusses a significant financial event, the withdrawal of $3.6 billion from Binance, a cryptocurrency exchange, following a record hack, which is a major economic and business development."
+            },
+            {
+                "title": "From Maya as Sir Mo Farah to Heidi as her own left hand: The best Halloween looks",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on celebrity Halloween costumes and parties, which falls under the entertainment category."
+            },
+            {
+                "title": "Binance users withdraw $3.6bn after record crypto hack",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the financial impact of the hack on Binance and the withdrawal of assets by its users, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Anthropic says you can’t be mean to Claude. It’s not about feelings",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the impact of user behavior on AI models, which is more relevant to the 'people' category than 'economy and business' since it focuses on human interactions with AI rather than economic or business topics."
+            },
+            {
+                "title": "Gavin and Stacey actor hopes his band will be 'the next Stereophonics'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on the personal life and career of Oscar Hartland, a young actor who rose to fame after his performance in the Gavin and Stacey series finale, making 'people' the most relevant category for this article."
+            },
+            {
+                "title": "'My cattle don't care I'm in Clarkson's choir'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article's primary focus is on Richard Heady's personal story and the impact of his Britain's Got Talent win on his farm life, making it more relevant to the 'people' category than 'entertainment'."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 256,
+        "total_failures": 0,
+        "total_time_seconds": 286.47,
+        "prompt_tokens": 368298,
+        "response_tokens": 6937,
+        "total_tokens": 375235,
+        "usage_responses": 256,
+        "prompt_eval_seconds": 83.649,
+        "generation_seconds": 158.586,
+        "load_seconds": 22.19,
+        "server_total_seconds": 281.85,
+        "avg_response_time": 1.12
+    }
+}
