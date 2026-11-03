@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 85",
+    "issue": "Issue No. 86",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "02 November 2026",
+    "publishedAt": "03 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Rep. Max Miller Seeks Reelection Amid Custody Case",
-          "image": "https://images.pexels.com/photos/15384789/pexels-photo-15384789.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Ohio, USA",
-          "time": "Nov 01, 2026",
-          "content": "Rep. Max Miller is running for re-election in Ohio's 7th Congressional District, a seat once considered safe for Republicans, but now a key battleground due to controversies surrounding Miller's personal life. Miller's high-profile custody case, which includes allegations of abuse from his ex-wife, is scheduled to go to trial just days after the election. The race has seen millions spent by both parties, with Republicans investing over $9 million and Democrats spending $17 million. Despite the controversies, Miller remains defiant, saying he is confident his constituents know him and will win the race. His opponent, Democrat Brian Poindexter, claims to have momentum on the ground, but the race has been marked by dueling ads highlighting the pasts of both candidates.",
+          "title": "Fighting resumes in Ukraine's Kherson region after six-day truce",
+          "image": "https://images.unsplash.com/photo-1588450248442-1c8357368dba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UnVzc2lhbiUyMHRyb29wc3xlbnwxfDB8fHwxNzkzNjcwODk2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Oleshky, Ukraine",
+          "time": "Nov 03, 2026",
+          "content": "Fighting has resumed in Ukraine's Kherson region after a six-day truce, with reports of strikes and injuries. Ukraine's General Staff reported Russian unit rotation, expansion of anti-drone equipment, and ammunition delivery during the ceasefire. The truce was brokered by US First Lady Melania Trump and allowed for the evacuation of hundreds of people trapped in the Russian-occupied town of Oleshky. Despite the ceasefire, air strikes continued elsewhere in Ukraine, killing civilians and destroying infrastructure. The unusual show of cooperation between Russian and Ukrainian human rights officials has raised questions about the possibility of more ceasefires and cooperation.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/31/politics/republicans-max-miller-midterms"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/ckg5jlyp66jzo"
         },
         {
           "id": "pp-2",
-          "title": "Germany protests turn violent, with rioting and arrests reported",
-          "image": "https://images.unsplash.com/photo-1792508684596-678226ed83c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTQwcG9saWNlJTIwd2F0ZXIlMjBjYW5ub258ZW58MXwwfHx8MTc5MzUwNDk3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Frankfurt, Germany",
-          "time": "Nov 01, 2026",
-          "content": "Germany saw widespread protests and violence on Saturday, with rioters looting shops and clashing with police in cities like Frankfurt, Berlin, Cologne, and Hamburg. The peaceful protests, organized by Gen Z regelt, aimed to address issues like underfunding in schools, high living costs, and public spending cuts. However, as night fell, the demonstrations turned violent, with reports of smashed windows, molotov cocktails, and arrests. Authorities reported around 18,000 protesters, with many incidents of violence and vandalism, including the smashing of a gun shop window. German officials have criticized the violent turn of events, comparing it to similar unrest in France, where over 320,000 people protested on the same day.",
+          "title": "UK Equality Commission Investigates Reform Party Over Racist Comments",
+          "image": "https://images.unsplash.com/photo-1706814567827-c204d90a40c7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8QnJpdGlzaCUyMGZsYWd8ZW58MXwwfHx8MTc5MzY3MTA1Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Nov 03, 2026",
+          "content": "The Equality and Human Rights Commission has written to Reform UK, expressing concerns after an undercover documentary revealed councillors and candidates expressing racist and misogynistic views. The documentary, aired on ITV, featured comments from Reform UK members, including a councillor calling Asian homeowners",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqj34gnd3n30o"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/nov/02/ehrc-raises-concern-with-reform-about-racial-and-sexual-remarks-in-documentary"
         },
         {
           "id": "eb-1",
-          "title": "Starmer Calls for European Defence Framework Amid US Shift",
-          "image": "https://images.unsplash.com/photo-1625440153141-1ae4c27ff33b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RXVyb3BlYW4lMjBmbGFnfGVufDF8MHx8fDE3OTM1MDU1NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Dublin, Ireland",
-          "time": "Nov 01, 2026",
-          "content": "Sir Keir Starmer, the former UK prime minister, has emphasized the need for a common security framework in Europe, stating that the shift in the US's defence relationship with Europe is permanent rather than a temporary phenomenon. He warned that the US will no longer 'bankroll' European allies, and that Europe must take on more responsibility for its own defence and security. Starmer also emphasized the importance of pan-European co-operation and co-ordination on defence and security, noting that the EU is changing to respond to these new circumstances. He cautioned that Europe's periphery is core to its defence, and that the EU cannot be the only one responding to this challenge. Starmer's remarks were made at a British Irish Chamber of Commerce dinner in Dublin, where he also received an honorary life membership.",
+          "title": "US Supreme Court Rejects Trump's Ballot Disqualification Attempt",
+          "image": "https://images.unsplash.com/photo-1688417486375-3508bc17b941?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8VVMlMjBTdXByZW1lJTIwQ291cnR8ZW58MXwwfHx8MTc5MzY3MTIzMHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Nov 03, 2026",
+          "content": "The US Supreme Court swiftly rejected President Donald Trump's attempt to force California to set aside potentially thousands of ballots that the Justice Department claims may have been cast by noncitizens. The court's decision came hours after the appeal was filed and was based on uncertain methodology, which was previously rejected by every court to consider it. The justices did not explain their reasoning, handing down a one-sentence order without asking for a response brief from California or other parties. This marked another major loss for Trump on election cases at the high court, following a previous decision rejecting his plan to change how mail ballots are sent to voters. The Trump administration argued that the federal government has a constitutional interest in ensuring that only citizens vote, while California and voting rights groups countered that the claims are based on fuzzy evidence that risks disenfranchising citizens. Every court to hear the case has now rejected the Justice Department's attempt to cast a cloud of suspicion over eligible voters' ballots on the eve of an election.",
           "theme": "#F7F1DE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cxnv0p4l7rjlo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/02/politics/trump-supreme-court-california-noncitizen-ballot"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Comet theory on life's origin may be flawed, simulations suggest",
-          "image": "https://images.pexels.com/photos/39187928/pexels-photo-39187928.png?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "United Kingdom",
-          "time": "Nov 01, 2026",
-          "content": "The popular theory that comets brought life-starting molecules to Earth, allowing life to emerge, may not be accurate, according to new computer simulations. The research found that comets, when they impact the Earth, would likely destroy the fragile organic molecules, making it unlikely for life to have begun on our planet through comet delivery. The study's lead author, Richard Anslow, suggests that instead, life may have emerged through alternative means, such as Earth's primordial soup or asteroids, which could have delivered the necessary building blocks of life. The research also raises the possibility that ancient Mars, with its lower impact velocities, could have been more suitable for HCN delivery, adding a new dimension to the question of whether Mars once supported life.",
+          "title": "Giant Bird Fossil Identified as Common Crane",
+          "image": "https://images.pexels.com/photos/15566321/pexels-photo-15566321.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Bournemouth, UK",
+          "time": "Nov 03, 2026",
+          "content": "Researchers at Bournemouth University have challenged a 150-year-old belief about a giant bird thought to have disappeared after the last Ice Age. Ancient DNA analysis revealed that fossils attributed to Grus primigenia, a supposedly extinct bird species, actually belong to the common crane, a species that still exists in Europe today. This finding raises questions about whether other prehistoric birds classified as extinct species were simply larger forms of birds that survive today. The team led by Dr. John Stewart analyzed DNA from 18 crane bones across England, Wales, France, Germany, and the Balearic Islands to determine the bird's identity. The genetic findings indicate that the oversized fossils belonged to common cranes rather than a separate extinct species. The researchers believe that differences in body size between male and female cranes may have contributed to the original misidentification. The study also leaves another question unanswered: Why were some prehistoric common cranes considerably larger than those living today?",
           "theme": "#EBF2FA",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/10/31/science/origin-life-theory-comet-simulation"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/scientists-discover-that-a-giant-bird-thought-extinct-for-thousands-of-years-never-actually-disappeared/"
         },
         {
           "id": "st-2",
-          "title": "Proteins linked to Alzheimer's, Parkinson's aid human reproduction",
-          "image": "https://images.unsplash.com/photo-1693996045300-521e9d08cabc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YW15bG9pZCUyMHByb3RlaW58ZW58MXwwfHx8MTc5MzUwNDM5NHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York, USA",
-          "time": "Nov 01, 2026",
-          "content": "Researchers at Columbia University have discovered a new role for proteins associated with Alzheimer's and Parkinson's disease in human reproduction. Amyloid fibrils, tiny protein fibers found in semen, can transport RNA into sperm cells, helping to move genetic material into sperm. This discovery could lead to new methods for delivering gene therapies and has implications for RNA delivery in medicine. The study found that amyloid fibrils can carry large RNA molecules that can produce functional proteins in developing embryos. The researchers also demonstrated that these protein fibers can enter sperm cells and deliver RNA, which could have significant implications for understanding the role of RNA in embryonic development and gene regulation.",
+          "title": "Astronomers Detect Massive Dust Structure",
+          "image": "https://images.pexels.com/photos/20694891/pexels-photo-20694891.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Pictor, 63 light-years from Earth",
+          "time": "Nov 03, 2026",
+          "content": "In a groundbreaking discovery, astronomers have finally detected a massive dust structure, known as the",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/alzheimers-linked-proteins-have-a-hidden-role-in-human-reproduction/"
+          "url": "https://scitechdaily.com/hubble-uncovers-a-mysterious-93-billion-mile-structure-hiding-in-a-nearby-star-system/"
         },
         {
           "id": "t-3",
-          "title": "Uranus and Neptune Have Different Origins, Study Finds",
-          "image": "https://images.pexels.com/photos/13649226/pexels-photo-13649226.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Boulder, Colorado, USA",
-          "time": "Nov 01, 2026",
-          "content": "A new study suggests that Uranus and Neptune, long considered planetary twins, actually have different origins and chemical histories. While they share similarities, Neptune's deep atmosphere contains more oxygen than Uranus', indicating that they formed from different regions of the protoplanetary disk. This discovery challenges the long-standing belief that the two ice giants developed from the same reservoir of cosmic ingredients. The study uses atmospheric observations and computer models to investigate the planets' chemical compositions roughly 4.5 billion years ago, when they formed. The researchers propose that Neptune may have accumulated building blocks that originated closer to the young Sun and subsequently migrated outward, giving it a different chemical history from Uranus. This finding has implications for understanding how planets form and evolve throughout the galaxy, and could shed light on the formation of similar-sized planets around other stars. The study was published in the September 2026 issue of Astronomy & Astrophysics and was co-authored by scientists from Southwest Research Institute.",
+          "title": "South Korea Unveils Largest Budget, Investing in AI and Growth",
+          "image": "https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTM2NzA1OTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "South Korea",
+          "time": "Nov 03, 2026",
+          "content": "South Korean President Lee Jae Myung presented the country's largest budget ever, promising significant investments in AI and future growth. The budget for 2027 totals 820.9 trillion won, with a 12.8% increase from the previous year. A notable 21.3 trillion won will be spent on semiconductors, physical AI, and AI data centers, nearly double the 2026 level. The government also plans to train 2,000 specialists in semiconductor design, expand AI education, and increase spending on defense and social security. This ambitious spending plan comes as the International Monetary Fund predicts South Korea's economy will grow 3.3% in 2026, its fastest pace since the pandemic. Lee emphasized that the increased spending will not lead to a significant increase in government debt.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/uranus-and-neptune-may-have-been-cosmic-strangers-all-along-new-research-reveals/"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/02/south-korea-ai-spending-budget.html"
         }
       ]
     },
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "Quercetin slows lung cancer cell division in lab tests",
-          "image": "https://images.unsplash.com/photo-1609639643505-3c158a56de42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y2l0cnVzJTIwZnJ1aXRzfGVufDF8MHx8fDE3OTM1MDQwMjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Erlangen, Germany",
-          "time": "Nov 01, 2026",
-          "content": "Researchers at the University of Erlangen-Nürnberg found that quercetin, a compound found in citrus fruits, onions, and buckwheat, slowed lung cancer cell division and movement in laboratory experiments. At the highest dose tested, cell migration nearly stopped. The study, published in Cell Death Discovery, also showed that quercetin affected several processes involved in cancer growth, including the reduction of two proteins that can help tumors evade the immune system. In addition, the compound increased levels of interferon-alpha-2, a signaling molecule that helps the immune system defend against tumors. The researchers believe that a quercetin-rich diet could support treatment for lung cancer and may even have preventive effects. However, more studies are needed to confirm the findings and establish whether the effects seen in cells and mice extend to humans.",
+          "title": "New York reports first measles death in 30 years",
+          "image": "https://images.unsplash.com/photo-1691139600731-7232eaa980c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8dmFjY2luYXRpb24lMjB2aWFsfGVufDF8MHx8fDE3OTM2Njk1ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Lewis County, New York",
+          "time": "Nov 03, 2026",
+          "content": "A child in Lewis County, New York, has died from measles, the state's first measles-related death in 30 years, according to Governor Kathy Hochul. Measles is highly contagious and vaccination is the best protection against the disease. The case is part of a surge in measles cases across the US, with over 4,800 reported this year, the most since 1990. The rise in cases is attributed to falling vaccination rates, although some places have seen an increase in immunizations. The incident has led to renewed calls for vaccination and a reminder of the importance of public health measures to keep people safe and healthy.",
           "theme": "#E8F5F1",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/a-natural-compound-found-in-everyday-foods-shows-surprising-power-against-lung-cancer/"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/02/health/new-york-measles-death"
         },
         {
           "id": "hw-3",
-          "title": "Stenting, Surgery No Boost to Cognitive Skills, Study Finds",
-          "image": "https://images.unsplash.com/photo-1679639539537-0d2e452890f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8Y2VyZWJyYWwlMjBibG9vZCUyMGZsb3d8ZW58MXwwfHx8MTc5MzQyNDk5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York, USA",
-          "time": "Oct 31, 2026",
-          "content": "A recent study led by Randolph Marshall at Columbia University found that opening severely narrowed carotid arteries, also known as stenting or surgery, does not improve cognitive skills compared to medication alone. The study, known as CREST-H, enrolled 291 patients with carotid artery narrowing and found that cognitive scores improved slightly in both groups, but patients who underwent a procedure did no better than those treated with medication alone. This challenges the idea that reopening these arteries can reverse cognitive decline in patients without associated symptoms. The study's findings have already changed practice, with more patients receiving stents, but the results suggest that patients should not expect the procedure to improve their thinking skills beyond what medication alone provides.",
+          "title": "Professor Thrives on 5 Hours of Sleep due to Rare Genetic Mutation",
+          "image": "https://images.unsplash.com/photo-1681911046064-e663d5192921?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Z2VuZXRpYyUyMG11dGF0aW9uc3xlbnwxfDB8fHwxNzkzNjY5NzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Colorado, USA",
+          "time": "Nov 03, 2026",
+          "content": "Aimee Pugh Bernard, an immunology professor at the University of Colorado, is one of the few people who can function well on remarkably little sleep, sometimes as little as five hours a night. This is due to a rare genetic mutation called familial natural short sleep (FNSS) which has been linked to short sleep duration in humans. Research has shown that people with FNSS seem to be protected from the negative consequences of short sleep, including memory impairment, and may even experience benefits from their sleep. Scientists are studying the genetic variations associated with FNSS to understand how they work and how they could be used to help people who struggle with sleep disorders. While most adults need seven to nine hours of sleep, genetic factors can influence an individual's sleep duration, with some people being naturally more inclined to need less sleep.",
           "theme": "#E8F5F1",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/a-promising-way-to-reverse-cognitive-decline-just-failed-a-major-clinical-test/"
+          "source": "BBC",
+          "url": "https://www.bbc.com/future/article/20261029-the-people-who-only-need-four-hours-sleep"
         }
       ]
     },
@@ -139,25 +139,25 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Odisha boosts rescue efforts after Cyclone Arnab floods seven districts",
-          "image": "https://images.pexels.com/photos/25228172/pexels-photo-25228172.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Odisha, India",
-          "time": "Nov 01, 2026",
-          "content": "The Odisha government has increased rescue and relief efforts in seven districts severely affected by heavy rainfall caused by Cyclone Arnab on October 28. The rain, possibly influenced by a second cyclonic system, caused rivers to swell, triggering floods and landslides that destroyed roads and bridges, leaving villages isolated. The districts of Ganjam, Gajapati, Kandhamal, Koraput, Malkangiri, Nabarangpur, and Rayagada were most affected, with roads and bridges washed away, leaving many marooned.",
+          "title": "Cyclone Murasu Heads for Andhra Pradesh, Landfall Expected November 2-3",
+          "image": "https://images.unsplash.com/photo-1760500959977-c3d310ee876c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y29hc3RhbCUyMGZsb29kaW5nfGVufDF8MHx8fDE3OTM2NzE0NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Andhra Pradesh, India",
+          "time": "Nov 03, 2026",
+          "content": "Cyclone Murasu, a severe cyclonic storm, is barreling towards the Andhra Pradesh coast, expected to make landfall on the night of November 2-3. The storm could cause significant flooding, with storm surges of up to 1.5 meters inundating low-lying coastal areas. Additionally, strong winds of 100-110 km/h and gusts reaching 120 km/h are expected. This storm is notable for its rapid movement across the Bay of Bengal, traveling at speeds of up to 27 km/h. Cyclone Murasu is expected to make landfall between Nellore and Narsapur, with the India Meteorological Department warning of potential coastal flooding. The storm is being closely monitored by Doppler weather radars in Chennai, Machilipatnam, and Visakhapatnam.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-arnab-aftermath-tens-of-thousands-stranded-in-odisha-villages-as-fresh-weather-system-threatens-more-rain"
+          "url": "https://www.downtoearth.org.in/climate-change/cyclone-murasu-races-across-bay-of-bengal-imd-warns-of-storm-surges-up-to-15-metres"
         },
         {
           "id": "env-2",
-          "title": "Antarctica Turns Green and Red Due to Penguin Droppings Fueling Algae",
-          "image": "https://images.pexels.com/photos/20433331/pexels-photo-20433331.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Antarctica",
-          "time": "Oct 21, 2026",
-          "content": "Antarctica, known for its vast expanses of white ice and snow-covered mountains, is unexpectedly turning green and red in some areas. This phenomenon has caught the attention of scientists who are trying to understand the connection to climate change. One factor contributing to the colorful patches is penguin droppings, which provide nutrients to microscopic algae growing on the snow. The scientists suspect that this natural process may accelerate local melting, adding to the effects of a warming climate. The impact of penguin droppings on the melting of Antarctica's snow is still being studied, and the effects are not yet fully understood.",
+          "title": "Human metabolism's carbon dioxide emissions rise 74% in 30 years",
+          "image": "https://images.unsplash.com/photo-1580064461598-505b080a8242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Y2FyYm9uJTIwZGlveGlkZXxlbnwxfDB8fHwxNzkzNjcxNTY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Bath, UK",
+          "time": "Nov 03, 2026",
+          "content": "A new study by the University of Bath has found that the amount of carbon dioxide produced by human metabolism has increased by 74% over the past three decades, with the global total reaching an estimated 2.05 billion metric tons annually by 2015. The study, published in The Lancet Planetary Health, analyzed thousands of real-world measurements of CO2 production in people of all ages and found that the increase is mainly due to population growth, with more than 60% of the rise attributed to an increase in the number of people rather than a significant change in the amount produced by each individual. The researchers suggest that accounting for this activity could help scientists more accurately predict how effective carbon reduction strategies may be.",
           "theme": "#E7F4EF",
-          "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/how-penguin-droppings-may-accelerate-snowmelt-in-antarctica"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/human-bodies-are-producing-two-billion-tons-of-co2-a-year/"
         },
         {
           "id": "env-3",
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Bristol's Full Cycle Shapes Early Jungle and Drum and Bass Sound",
-          "image": "https://images.pexels.com/photos/32670821/pexels-photo-32670821.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Bristol, UK",
-          "time": "Nov 01, 2026",
-          "content": "Bristol's underground music scene has been a driving force in the evolution of jungle and drum and bass music, with the city's Full Cycle collective being a key player in shaping the genre's early sound. In the early 1990s, the collective, which included DJ Krust, DJ Die, producer Roni Size, and DJ Suv, drew inspiration from Jamaican sound systems, acid house, and hip hop, creating a new and innovative sound. This experimental sound, characterized by its fast tempo, syncopated rhythms, breakbeats, and reggae samples, resonated with the city's youth, and the collective's music quickly gained popularity through underground parties and radio shows. The group's breakthrough came with the release of their album 'New Forms' in 1997, which included the hit track 'Brown Paper Bag,' and their subsequent win of the Mercury Prize, making them the first drum and bass group to receive the award. Today, jungle and drum and bass music continue to thrive, with artists from Bristol and beyond pushing the boundaries of the genre.",
+          "title": "SBTV Marks 20th Anniversary with O2 Show Celebrating Jamal Edwards' Legacy",
+          "image": "https://images.pexels.com/photos/7695747/pexels-photo-7695747.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Nov 03, 2026",
+          "content": "SBTV, a pioneering online music channel, is marking its 20th anniversary since its launch by Jamal Edwards in 2006. The platform, known for discovering emerging artists, has helped launch the careers of many successful acts, including Dave, Ed Sheeran, Jessie J, and Skepta. Founder Jamal Edwards, who passed away in 2022, was awarded an MBE for his services to music. His sister Tanisha, now the CEO of SBTV, aims to keep his legacy going by curating a platform that supports up-and-coming talent. To celebrate the milestone, SBTV will host a one-off show at the O2 arena in London, featuring a range of artists, including Tinie Tempah, Lady Leshurr, and Tinchy Stryder, with proceeds going to the Jamal Edwards Self Belief Trust.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmly09y5l0r0o"
+          "url": "https://www.bbc.com/news/articles/c54g1xnm3pezo"
         },
         {
           "id": "ent-2",
-          "title": "Middlesbrough Empire Owners Sell Nightclub After 33 Years",
-          "image": "https://images.pexels.com/photos/19923642/pexels-photo-19923642.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Middlesbrough, UK",
-          "time": "Oct 31, 2026",
-          "content": "The departing owners of The Middlesbrough Empire, a nightclub that has hosted famous DJs and acts, have announced they are selling the venue after 33 years. Father and son duo Barry Faulkner Sr and Jr, who put the town",
+          "title": "Rod Argent returns to stage after two-and-a-half-year hiatus",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Rod_Argent_in_September_2019.jpg/500px-Rod_Argent_in_September_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "St Albans, UK",
+          "time": "Nov 03, 2026",
+          "content": "The Zombies' founding member Rod Argent, 81, returned to the stage after a two-and-a-half-year hiatus following a stroke. He joined bandmate Colin Blunstone at St Albans Cathedral as part of the band's annual Begin Here Festival, receiving a standing ovation from the audience. Argent initially thought he had suffered a transient ischaemic attack, but hospital tests confirmed it was a stroke. He expressed gratitude for the audience's emotional reaction, saying it was 'very moving.' Argent also praised his wife for her support during his recovery, stating that he wants to spend more time with her, rather than touring again.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq70p5g6ex39o"
+          "url": "https://www.bbc.com/news/articles/cr93z4p4w9k2o"
         },
         {
           "id": "ent-3",
-          "title": "Traitors contestant lands lead roles and business success after reality TV appearance",
-          "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZmlsbSUyMHNldHxlbnwxfDB8fHwxNzkzNDI4MDEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Stevenage, Hertfordshire, UK",
-          "time": "Oct 31, 2026",
-          "content": "Former The Traitors contestant Kieran Tompsett, 46, from Stevenage, Hertfordshire, has transformed his life after appearing on the show in 2022. He decided to attend Ashley Walters' Kingdom Drama School, training for a year and a half and landing roles in three or four films, including Masters of the Universe. Tompsett was initially overwhelmed by the loss of privacy that came with being in the public eye, but he has since secured a lead role in a horror film and runs an AI workflow automation company. He will also appear in the dark comedy Damaged Goods. Prior to The Traitors, Tompsett worked as a solutions consultant.",
+          "title": "Courteeners to headline Live at Ludlow Castle with The Coral and The Guest List",
+          "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTQwTGl2ZU11c2ljfGVufDF8MHx8fDE3OTM2NzI1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Ludlow",
+          "time": "Nov 03, 2026",
+          "content": "Indie rock band Courteeners are the latest headlining act to be announced for the annual Live at Ludlow Castle events, joining The Coral and The Guest List as supporting acts on July 16, 2027. The band, known for their 2008 debut album St. Jude, is also promoting their new best-of compilation album, God Bless The Band, which features songs from their seven albums. They will be performing at the concert series, which has been running since 2023 and has seen 50,000 people attend over two weekends. Tickets for the Courteeners will go on sale on November 4 and 6. The band has been together for 20 years and has a history-making album, St. Jude, which took 14 years, 9 months, and 7 days to top the UK chart in 2023.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cvze42lxdexwo"
+          "url": "https://www.bbc.com/news/articles/ckrey4w03nwro"
         }
       ]
     },
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "pp-3",
-          "title": "White House Tries to Bridge Economic Data Gap with Voters' Perceptions",
-          "image": "https://images.unsplash.com/photo-1719947691028-0be6e2dccddd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8V2hpdGUlMjBIb3VzZXxlbnwxfDB8fHwxNzkzMDY1NjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington, USA",
-          "time": "Oct 28, 2026",
-          "content": "The White House is facing a familiar dilemma, where economic numbers aren't necessarily bad, but the public mood is. The issue is the disconnect between the solid economic data, such as low unemployment and strong growth, and the high prices that voters are paying at supermarkets and gas stations. President Donald Trump has promised to bring prices down, but the latest inflation report confirms that prices remain high. Trump's administration has tried to shift the focus from prices to economic indicators like GDP and the stock market, but voters are judging the economy by what they pay at the supermarket and whether they can keep up with bills. The challenge for Trump is to bridge the gap between the economic data and the public's perception of the economy. His predecessor, Joe Biden, faced a similar challenge during the 2024 election campaign, but ultimately failed to convince voters that the economy was working for them.",
+          "title": "Ryanair Considers Temporary Wage Freeze Amid Fuel Price Spike",
+          "image": "https://images.unsplash.com/photo-1717381992243-6696d33728eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8amV0JTIwZnVlbHxlbnwxfDB8fHwxNzkzNjcxODI4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
+          "time": "Nov 03, 2026",
+          "content": "Ryanair, a major airline, is considering a temporary wage freeze for its staff due to a sharp rise in fuel costs following the US-Israel war with Iran. The airline expects fuel prices to remain high until a resolution to the conflict is reached. Ryanair's boss, Michael O'Leary, said airfares will increase by",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cwvg0ddz1z77o"
+          "url": "https://www.bbc.com/news/articles/cr0qkve1x224o"
         },
         {
           "id": "eb-2",

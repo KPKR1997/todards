@@ -1,0 +1,242 @@
+{
+    "date": "03112026",
+    "timestamp": "2026-11-03T07:52:37.390965",
+    "duration_seconds": 4891.85,
+    "stages_duration_seconds": {
+        "scrape": 827.14,
+        "guardrails": 146.72,
+        "deduplication": 10.71,
+        "category_validation": 228.17,
+        "ranking": 449.08,
+        "processing": 3229.99,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 8,
+            "Tech": 22,
+            "People": 53,
+            "Environment": 7,
+            "Economy": 6,
+            "Entertainment": 29
+        },
+        "total_scraped": 125,
+        "guardrail_passed": 125,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 14,
+        "final_categories": 6
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 125,
+        "classified_safe": 87,
+        "classified_unsafe": 38,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 38,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 123,
+        "rejected_count": 25,
+        "rejected_articles": [
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the impact of oil prices and Treasury yields on the stock market, with no specific scientific or technological developments."
+            },
+            {
+                "title": "Feeling isolated? Half of in-office workers describe their desk jobs as 'remote,' NY Fed survey finds",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the impact of remote work on workers' experience and social connections, which is more relevant to the 'people' category than 'science and technology', although it does touch on some technical aspects like Zoom and Slack."
+            },
+            {
+                "title": "Fanatics takes bigger NHL design role with all-32 team Hometown Remix jerseys",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a design program for NHL jerseys, which involves fan culture and team identity, making it relevant to the 'people' category."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses market trends, earnings, and economic data, with a focus on the stock market and technology sector, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "A mystery skeleton found in a Roman sarcophagus at Westminster Abbey may finally have an identity",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses archaeological and historical findings, which are classified as 'people' due to its focus on medieval figures and events."
+            },
+            {
+                "title": "If hackers can take control of a supermarket freezer, how vulnerable is other tech?",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article discusses the vulnerability of internet-connected devices, including fridges and freezers, to cyber attacks, which is a scientific and technological issue."
+            },
+            {
+                "title": "Shop freezers in seven European countries hit by cyber-attack",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "Although the article primarily discusses cyber-attacks and refrigerators, it also touches on the impact of the attacks on food waste and the potential consequences for public health."
+            },
+            {
+                "title": "Courteeners to headline the Ludlow Castle concerts",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Courteeners, a music band, and their upcoming concert in Ludlow, which makes 'people' too narrow a category, and 'entertainment' a more fitting fit."
+            },
+            {
+                "title": "From scooters to shampoo - the people saving hundreds from dumpster diving",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the personal finance and frugal habits of individuals who engage in 'dumpster diving' to save money and resources, which is a human-interest story that fits better in the 'people' category than the current 'economy and business' category."
+            },
+            {
+                "title": "Martha Stewart says she ‘really screwed up’ with homeless Halloween costume",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Martha Stewart's actions and apology, which falls under the 'people' category, with a secondary focus on the controversy surrounding her Halloween costume."
+            },
+            {
+                "title": "Meet the world record-holding, YouTube star American hurdler Masai Russell",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the personal and professional life of Masai Russell, including her athletic achievements, personal brand, and YouTube channel, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Kimi Antonelli becomes youngest champion in F1 history at age 20",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on a person's achievement in Formula 1, which falls under the 'people' category, rather than the current 'entertainment' category, which focuses on sports and competitions."
+            },
+            {
+                "title": "David Bowie's Scottish links celebrated in new exhibition",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about David Bowie's life and work, which is a topic of interest in the 'people' category."
+            },
+            {
+                "title": "Channel 4 documentary and journalists 'poisoned the well' against Russell Brand, court hears",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily reports on a court case involving Russell Brand, a celebrity, and therefore belongs to the 'people' category."
+            },
+            {
+                "title": "Channel 4 documentary and journalists 'poisoned the well' against Russell Brand, court hears",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a court case involving a celebrity, Russell Brand, and is more relevant to the 'people' category than 'entertainment', as it involves legal proceedings and allegations of a serious nature."
+            },
+            {
+                "title": "Outlander celebrated with special Bafta Scotland award",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the impact of the TV series Outlander on Scotland's screen industry and the recognition of its production team, which falls under the 'people' category."
+            },
+            {
+                "title": "'An icon of Soviet space exploration': The Russian stray dog that beat humans into orbit",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on Laika, the Russian stray dog that was sent to space, which is a human-interest story and a significant event in the history of space exploration."
+            },
+            {
+                "title": "Bonnie Tyler Christmas single to be released as husband says he misses her every day",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal life and legacy of Bonnie Tyler, including her husband's sentiments and the release of her last studio recording as a Christmas single, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Martha Stewart says she 'really screwed up' with homeless Halloween costume",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Martha Stewart's apology and the controversy surrounding her homeless Halloween costume, which is a human-interest story and a people-focused topic."
+            },
+            {
+                "title": "'I decided I was going to be Taylor Swift' - singer goes from busking to The Voice UK winner",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the winner of The Voice UK, Cate McHugh, and her personal story, making it a people-related article."
+            },
+            {
+                "title": "Seaside town's 10,000-seat arena plan uncertain",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses local government and community concerns, which falls under the 'people' category, as it primarily involves human-interest stories and community development."
+            },
+            {
+                "title": "Bonnie Tyler Christmas single to be released as husband says he misses her every day",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Bonnie Tyler's life, death, and legacy, which falls under the 'people' category."
+            },
+            {
+                "title": "Song urges builders to talk about mental health",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about a construction company manager's efforts to raise awareness and support for mental health, which is a people-focused issue, rather than an entertainment-related one."
+            },
+            {
+                "title": "How one musician turned disability and isolation into a song",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article's focus on a musician's experience with disability and chronic illness makes it more relevant to the 'health' category than 'entertainment', despite being written in an entertaining style."
+            },
+            {
+                "title": "'I decided I was going to be Taylor Swift' - singer goes from busking to The Voice UK winner",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the winner of The Voice UK, Cate McHugh, and her personal story, making it most relevant to the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 373,
+        "total_failures": 0,
+        "total_time_seconds": 373.8,
+        "prompt_tokens": 480915,
+        "response_tokens": 10074,
+        "total_tokens": 490989,
+        "usage_responses": 373,
+        "prompt_eval_seconds": 105.146,
+        "generation_seconds": 227.072,
+        "load_seconds": 18.748,
+        "server_total_seconds": 370.619,
+        "avg_response_time": 1.0
+    }
+}
