@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-1",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "Cyclone Murasu spares Odisha, but Arnab’s floods leave farmers struggling to recover",
+        "date": "2026-11-03T12:05:59.585Z",
+        "content": "Cyclone Murasu largely spared Odisha, but flooding caused by Cyclone Arnab has left extensive agricultural damage across southern districts. Standing paddy, maize, pulses and vegetable crops have been destroyed in Ganjam, Gajapati and Kandhamal, leaving thousands of farmers facing financial losses. Farmers fear they will struggle to repay bank loans, with many lacking crop insurance and worried about inadequate compensation. Several villages remain without electricity nearly a week after Cyclone Arnab damaged power lines, poles and communication infrastructure. An eight-member central team has begun assessing the damage, while the Odisha government has ordered crop loss surveys before providing compensation. Cyclone Murasu largely spared Odisha on November 3, 2026, but farmers in the state’s southern districts are struggling with extensive crop losses caused by flooding following Cyclone Arnab, which struck the region on October 28. Standing paddy, maize, pulses and vegetable crops have been damaged across Ganjam, Gajapati and Kandhamal districts, leaving thousands of farmers worried about their livelihoods. “We have lost the paddy crops. How we will repay our bank loans?,\" said Paresh Behera, a farmer from Bikrampur village in Ganjam district. Mahendra Sahoo, a farmer from Handighar village in the same district, said floodwaters had destroyed the paddy crop he had cultivated on three acres of land over the past four months. Farmers said many had not insured their crops and feared they would receive inadequate compensation. Vegetable cultivation has also suffered extensive damage, with farmers reporting losses of radish, okra, beans, brinjal and gourds. Local farmers said the disruption had pushed up vegetable prices. “I had vegetables on my two acres of land last month and hoped to harvest them in December. But the gushing floodwater from the Rushukulya river damaged all the vegetable crops,” said Malati Mallick of Anchuli village in Ganjam. In neighbouring Gajapati district, Sumitra Nayak of Gothakeli village said her family had lost three acres of maize. As floodwaters receded, farmers found their fields covered in silt and crops rotting. Sunil Kumar Bisoi, a Zilla Parishad member from Chandragiri in Gajapati, called for a special compensation package for affected farmers.",
+        "url": "https://www.downtoearth.org.in/natural-disasters/cyclone-murasu-spares-odisha-but-arnabs-floods-leave-farmers-struggling-to-recover",
+        "rank": 1,
+        "ranking_score": 18.3,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 18.3,
+            "base_score": 18.3,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 40,
+                "dont_miss": 0,
+                "human_consequence": 60,
+                "economic_impact": 40,
+                "political_significance": 20,
+                "health_significance": 80,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 2,
+                "urgency": 80,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article provides evidence-based reporting on the significant impact of Cyclone Arnab on farmers in Odisha, specifically highlighting the financial losses and concerns about inadequate compensation. The story also provides quotes from affected farmers, providing a human angle and making the issue more relatable and relevant to readers."
+            }
+        }
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pp-3",
+        "source": "BBC",
+        "category": "economy",
+        "title": "UK and EU agree draft deal to scrap Brexit red tape over food exports",
+        "date": "2026-11-03 02:11",
+        "content": "The UK and EU have agreed a draft deal on removing post-Brexit checks from food and agriculture exports, ahead of the UK-EU summit later this month. The BBC understands the 200-page draft text for this so called \"SPS\" [sanitary and phytosanitary] agreement has been circulated to EU nations in Brussels for consideration at a meeting on Wednesday. Similar texts for deals on emissions trading and a youth travel and work scheme have also been circulated alongside a 15-page draft joint statement for UK and EU top leaders. The food deal is the most significant part of the so-called Brexit reset agreed so far, removing checks and red tape that hit exporters after the UK exited the EU's single market. As a result of the agreement, the government claims the UK economy will eventually see £5.1bn worth of annual benefits. Speaking during the Commonwealth Heads of Government Meeting (Chogm) in Antigua and Barbuda, the prime minister said a UK-EU deal could add up to 0.4% extra on GDP. The deal could have the following impact: In return, the UK is expected to commit to observing and adapting to existing EU regulations on plant, animal and food trade standards - a process called \"dynamic alignment\". Each of the elements on the table was up for discussion under Sir Keir Starmer, and the summit would have taken place by now had Labour not replaced its leader in July. Under Andy Burnham, Britain's approach to post-Brexit relations with the EU have shifted significantly. Sir Keir said the UK would not rejoin the bloc in his lifetime, while Burnham has said he would like to see Britain back in the EU in his. At Chogm on Tuesday, Burnham said: \"I think people in Britain would expect me to take that with both hands, given where we've been in recent times, and that's what I'm doing.\" Pressed on whether it would be acceptable for the UK to have its rules on food trade made by the EU, he said: \"We're not in the EU, therefore we do have to work with them in a different way. \"But if that can get growth, if that can help our farmers, if that can remove red tape from British businesses, I think most people would expect me to go to that summit and negotiate the best deal that I can. \"And that's what I've been doing in recent weeks, leaning in, being positive, having a really constructive relationship with our European partners and hopefully we can land a good deal for Britain in terms of growth but also I hope more collaboration on controlling immigration.\" Jon Walsh, the chief executive and co-founder of Bio&Me, which makes granolas, mueslis and yoghurts, told BBC 5 Live the draft deal sounded like \"really good news\". \"We're just a small company but when we were trying to export our yoghurts before, every time we'd send a pallet we had to pay a vet to inspect it and that was £140, and that meant that you'd lose money... so we had to stop.\" The company also had problems exporting granola and overnight oats, with some shipments being returned. \"It was so frustrating because it was the same person filling out the same form and yet half would make it through and half wouldn't,\" Walsh said. \"You just kind of give up because you're losing money.\" In an interview with ITV, Burnham said \"public opinion has changed nationally\" since the 2016 Brexit vote, but added he would \"not run ahead of public opinion\" on the issue. \"The public need to be the boss when it comes to whatever happens with Brexit,\" he added. Burnham also said he had not proposed the return of freedom of movement between the UK and EU. Asked by the BBC about the UK's relationship with the EU, Tory Leader Kemi Badenoch said that while we should \"work closely\", \"dynamic alignment\" with the EU would be a red line and \"actually take us backwards\". Liberal Democrat Europe spokesperson Al Pinkerton said the draft deal was a \"patch, not a fix\". \"The real solution is to rejoin the single market and to establish a customs union with the EU,\" he added. Reform UK's business spokesman Richard Tice said: \"One of the key benefits of Brexit was that Britain no longer had to adhere to ridiculous EU rules. \"Returning to any form of alignment with Europe would crush Britain's competitiveness and force us to surrender sovereignty over trade policy, putting trade deals worth hundreds of billions of pounds at risk.\" While UK rules remain mostly aligned with EU ones, there are some areas where England has diverged from the EU rule book, for example on \"precision breeding\" of plants, previously known as gene editing. In recent weeks, agreement has been struck on transition arrangements while the EU's new regulations come in to force. The government has already announced a European Partnerships Bill which will provide a legal mechanism for the application of new EU rules and regulations. This will also allow for the necessary alignments for the linking of the UK emissions trading scheme with the EU's, and save the need for UK exporters to pay the EU's new carbon border tax. The draft agreements will be discussed at a meeting of EU ambassadors called Coreper on Wednesday, with some key details on the planned numbers in a Youth Experience Scheme to be finalised at a political level in the coming days. A discount on full foreign student fees for EU students is likely to be pushed to next year alongside a plan to reconnect electricity markets. The BBC understands the draft agreements will also include some references to UK involvement in defence co-operation schemes, access to law enforcement databases and some reassurances over the EU's \"Made in Europe\" plans . A food deal will have particular significance for Northern Ireland, radically reducing the impact of the post-Brexit Irish Sea border. Northern Ireland's Brexit deal kept it inside the EU's single market for goods. That means food products from elsewhere in the UK require paperwork and some physical checks when arriving at NI's ports. A deal will ultimately end those requirements. While the food trade plans have been backed by supermarkets and farmers representatives, some pro-Brexit campaigners have criticised the reapplication of EU rules. The post-Brexit trade deal signed by Boris Johnson's government prioritised regulatory freedoms for the UK over avoiding new regulatory red tape, checks and delays. But William Bain, the British Chamber of Commerce's (BCC) head of trade policy, told the BBC's Today programme that business overall thought it was a \"price is worth paying\" to follow common rules, as companies would benefit from \"lower costs, reduced delays [and] increased market access\". At the moment, he said, the requirement for Export Health Certificates can add thousands of pounds of costs to each truck carrying goods, in addition \"to the delays that people find at the ports or at the borders\". \"So we get lower exports because of the delays and the massive increases in costs that have come into the supply chain.\" The BCC has released a new analysis of its members' views suggesting options for a closer relationship. The business lobby group says the current trade relationship is \"failing to deliver\", leaving firms \"struggling with a thicket of Brexit red tape\" nearly six years after the UK's exit from the bloc. You can also get in touch by following this link Sign up for our Politics Essential newsletter to keep up with the inner workings of Westminster and beyond.",
+        "url": "https://www.bbc.com/news/articles/cmp3grwre9xdo",
+        "rank": 1,
+        "ranking_score": 9.45,
+        "ranking_reason": "The UK and EU agreeing a draft deal to scrap Brexit red tape on food exports is a major economic event with significant consequences for the UK economy.",
+        "ranking": {
+            "rank": 1,
+            "score": 9.45,
+            "base_score": 9.45,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 50,
+                "political_significance": 40,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 3,
+                "urgency": 0,
+                "severity_tier": 4,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "The UK and EU agreeing a draft deal to scrap Brexit red tape on food exports is a major economic event with significant consequences for the UK economy.",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant development in the economy category, specifically a draft deal between the UK and EU to scrap Brexit red tape on food exports, with potential economic benefits of £5.1bn annually."
+            }
+        }
+    }
+]

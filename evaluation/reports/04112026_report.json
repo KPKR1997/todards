@@ -1,0 +1,242 @@
+{
+    "date": "04112026",
+    "timestamp": "2026-11-04T07:14:44.006795",
+    "duration_seconds": 2600.69,
+    "stages_duration_seconds": {
+        "scrape": 1050.05,
+        "guardrails": 147.4,
+        "deduplication": 11.4,
+        "category_validation": 230.79,
+        "ranking": 456.94,
+        "processing": 703.14,
+        "assembly": 0.92
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 6,
+            "Tech": 26,
+            "People": 61,
+            "Environment": 3,
+            "Economy": 10,
+            "Entertainment": 24
+        },
+        "total_scraped": 130,
+        "guardrail_passed": 130,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 0,
+        "final_categories": 0
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 130,
+        "classified_safe": 100,
+        "classified_unsafe": 30,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 30,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 125,
+        "rejected_count": 25,
+        "rejected_articles": [
+            {
+                "title": "Google responds to political backlash over removing search from schools that ban AI",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Google's policy change and political backlash, rather than the technical aspects of AI or its application in education, which is more relevant to 'science and technology'."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses technology stocks, market trends, and the performance of specific companies, which is more relevant to the economy and business category than the current category 'science and technology'."
+            },
+            {
+                "title": "Shopify falls over 8% after Q3 revenue and merchandise volume miss estimates",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Shopify's financial performance, revenue, and merchandise volume, which is a business and economic topic rather than a scientific or technological one."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses financial market trends, company earnings, and oil prices, which is more relevant to the 'economy and business' category than 'science and technology'."
+            },
+            {
+                "title": "Palantir sinks after earnings as analysts point to slowdown in total contract value",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Palantir's earnings, total contract value, and revenue, which are all business and economic indicators, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Blackstone president calls for more equity to fund AI buildout as debt risks mount",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial and infrastructure aspects of AI buildout, with mentions of debt, equity, and structured transactions, which aligns more closely with the 'economy and business' category."
+            },
+            {
+                "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article discusses the impact of climate change on UK wildfires, making it more relevant to the 'earth and environment' category than the current category 'people'."
+            },
+            {
+                "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a sophisticated hack and the techniques used, which falls under the category of science and technology."
+            },
+            {
+                "title": "Mining giant joins fight to stop killer toad march across Australia",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the environmental impact and conservation efforts regarding the cane toad invasion in Australia, rather than people or politics."
+            },
+            {
+                "title": "NTSB says crucial plane parts found three miles from Florida crash site",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article is primarily about a plane crash investigation and the discovery of crucial plane parts, which is a scientific and technological topic, rather than a people-focused story."
+            },
+            {
+                "title": "Mining giant joins fight to stop killer toad march across Australia",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the cane toad invasion and its impact on the ecosystem in Australia, which is more relevant to the 'earth and environment' category than the 'people' category."
+            },
+            {
+                "title": "Scientists detect signals at the smallest scale ever explored",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on a scientific discovery and its potential implications for understanding the universe, making it more relevant to the 'science and technology' category."
+            },
+            {
+                "title": "US voters name economy and state of democracy as top issues, poll says",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses US voters' opinions and motivations, which falls under the 'people' category."
+            },
+            {
+                "title": "'My necklace gave me a rash': Silver jewellery found to contain toxic chemicals",
+                "from": "economy and business",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses the toxicity of certain silver jewelry, which is a health-related issue, rather than being primarily about economics or business."
+            },
+            {
+                "title": "On Brexit, Andy Burnham could do worse than follow the lead of Pericles",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses Andy Burnham's potential leadership and his views on Brexit, which is primarily a political and social issue, rather than a purely economic or business one."
+            },
+            {
+                "title": "Spanish soccer player Jesús de Miguel dies after on-pitch collision",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about a soccer player's death, which is a significant human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "BBC Wales cuts risk 'irreversible deterioration', warns first minister",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses the BBC's cuts and the Welsh government's concerns, which is a matter of public policy and governance, rather than entertainment."
+            },
+            {
+                "title": "Jury in Russell Brand rape trial begins considering verdicts",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Russell Brand's rape trial, which is a significant news development that involves a prominent public figure, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Jury in Russell Brand rape trial begins considering verdicts",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the trial of Russell Brand, a celebrity, and his alleged sexual misconduct, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "The Crown star Josh O'Connor reacts to Bond rumours",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the career and potential new role of actor Josh O'Connor, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Celebrity loses injunction bid but will stay anonymous pending appeal",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on a celebrity's personal life and a court case involving allegations of sexual misconduct, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Celebrity loses injunction bid but will stay anonymous pending appeal",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a celebrity's personal life, including allegations of sexual misconduct, which is a people-related issue."
+            },
+            {
+                "title": "'I never enjoyed exercise at school as I was bullied' says DJ, ahead of 400-mile bike feat",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the personal story and experiences of radio presenter Owain Wyn Evans, making 'people' the most relevant category."
+            },
+            {
+                "title": "New theatre centre 'vitally important', says actor",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the actor Josh O'Connor and his involvement in the opening of the new theatre education centre, which is a people-related story."
+            },
+            {
+                "title": "Countdown record-breaker reflects on dyslexia struggles",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Hazel Drury, the winner of Countdown, and her experiences with dyslexia and autism, making it more relevant to the 'people' category than 'entertainment'."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 385,
+        "total_failures": 0,
+        "total_time_seconds": 377.27,
+        "prompt_tokens": 482476,
+        "response_tokens": 10182,
+        "total_tokens": 492658,
+        "usage_responses": 385,
+        "prompt_eval_seconds": 102.56,
+        "generation_seconds": 231.384,
+        "load_seconds": 20.27,
+        "server_total_seconds": 374.257,
+        "avg_response_time": 0.98
+    }
+}
