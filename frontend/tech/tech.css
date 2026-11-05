@@ -1,0 +1,598 @@
+/* ==========================================================================
+   TechTodards - Modern Technology Platform Stylesheet
+   Theme: Electric Blue (#0052ff), Stark Black (#09090b), Crisp Slate & White
+   Derived from the official TechTodards logo color palette.
+   Strictly scoped under .tech-page to ensure complete isolation.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+.tech-page {
+  /* Logo-Derived Brand Tokens */
+  --tt-blue: #0052ff;
+  --tt-blue-hover: #0045d8;
+  --tt-blue-subtle: #eff6ff;
+  --tt-blue-border: rgba(0, 82, 255, 0.25);
+  --tt-blue-glow: rgba(0, 82, 255, 0.15);
+
+  --tt-dark: #09090b;
+  --tt-dark-card: #18181b;
+  --tt-gray-900: #0f172a;
+  --tt-gray-800: #1e293b;
+  --tt-gray-700: #334155;
+  --tt-gray-600: #475569;
+  --tt-gray-500: #64748b;
+  --tt-gray-400: #94a3b8;
+  --tt-gray-300: #cbd5e1;
+  --tt-gray-200: #e2e8f0;
+  --tt-gray-100: #f1f5f9;
+  --tt-gray-50: #f8fafc;
+  --tt-white: #ffffff;
+
+  /* Layout Background */
+  --tt-bg: #ffffff;
+  --tt-card-bg: #ffffff;
+  --tt-border: #e2e8f0;
+  --tt-border-hover: #cbd5e1;
+
+  /* Typography */
+  --tt-font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --tt-font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Shadows */
+  --tt-shadow-subtle: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --tt-shadow-card: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 4px 12px -2px rgba(0, 0, 0, 0.03);
+  --tt-shadow-card-hover: 0 12px 28px -4px rgba(0, 82, 255, 0.12), 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+
+  background-color: var(--tt-bg);
+  color: var(--tt-dark);
+  font-family: var(--tt-font-sans);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+
+  /* Modern Subtle Tech Grid Background */
+  background-image: 
+    linear-gradient(to right, rgba(226, 232, 240, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(226, 232, 240, 0.5) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.tech-page *,
+.tech-page *::before,
+.tech-page *::after {
+  box-sizing: inherit;
+}
+
+/* ==========================================================================
+   Header Bar (Modern Tech Navigation - No Page Nav Links)
+   ========================================================================== */
+.tech-page .tt-nav-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--tt-border);
+  padding: 0.85rem 0;
+}
+
+.tech-page .tt-nav-container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Brand Display */
+.tech-page .tt-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.tech-page .tt-brand-logo {
+  height: 38px;
+  width: 38px;
+  border-radius: 8px;
+  object-fit: cover;
+  border: 1px solid var(--tt-border);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.tech-page .tt-brand-label {
+  display: flex;
+  align-items: center;
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--tt-dark);
+}
+
+.tech-page .tt-brand-blue {
+  color: var(--tt-blue);
+}
+
+.tech-page .tt-brand-dot {
+  color: var(--tt-blue);
+  font-weight: 900;
+}
+
+/* Right side status pill */
+.tech-page .tt-header-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.85rem;
+  background: var(--tt-gray-50);
+  border: 1px solid var(--tt-border);
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-family: var(--tt-font-mono);
+  color: var(--tt-gray-600);
+  font-weight: 500;
+}
+
+.tech-page .tt-status-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+/* ==========================================================================
+   Hero & Intro Section
+   ========================================================================== */
+.tech-page .tt-hero {
+  padding: 4rem 1.5rem 2.5rem;
+  text-align: center;
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.tech-page .tt-hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.95rem;
+  background: var(--tt-blue-subtle);
+  border: 1px solid var(--tt-blue-border);
+  border-radius: 9999px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--tt-blue);
+  margin-bottom: 1.25rem;
+}
+
+.tech-page .tt-hero-badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--tt-blue);
+}
+
+.tech-page .tt-hero-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--tt-dark);
+  margin: 0 0 1rem 0;
+}
+
+.tech-page .tt-hero-title span {
+  color: var(--tt-blue);
+}
+
+.tech-page .tt-hero-subtitle {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: var(--tt-gray-600);
+  max-width: 640px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Modern Tech Search Box */
+.tech-page .tt-search-container {
+  max-width: 540px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.tech-page .tt-search-input {
+  width: 100%;
+  padding: 0.8rem 3rem 0.8rem 2.75rem;
+  background: #ffffff;
+  border: 1px solid var(--tt-border);
+  border-radius: 12px;
+  font-size: 0.9375rem;
+  font-family: var(--tt-font-sans);
+  color: var(--tt-dark);
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.2s ease;
+}
+
+.tech-page .tt-search-input:focus {
+  border-color: var(--tt-blue);
+  box-shadow: 0 0 0 3px var(--tt-blue-glow), 0 2px 10px rgba(0, 82, 255, 0.08);
+}
+
+.tech-page .tt-search-input::placeholder {
+  color: var(--tt-gray-400);
+}
+
+.tech-page .tt-search-icon-left {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  color: var(--tt-gray-400);
+  pointer-events: none;
+}
+
+.tech-page .tt-search-shortcut {
+  position: absolute;
+  right: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--tt-gray-100);
+  border: 1px solid var(--tt-border);
+  border-radius: 6px;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.7rem;
+  font-family: var(--tt-font-mono);
+  color: var(--tt-gray-500);
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   Catalog Main Section
+   ========================================================================== */
+.tech-page .tt-catalog-section {
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem 5rem;
+  flex: 1;
+}
+
+.tech-page .tt-catalog-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--tt-border);
+}
+
+.tech-page .tt-catalog-heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--tt-dark);
+  margin: 0;
+}
+
+.tech-page .tt-catalog-count {
+  font-size: 0.8125rem;
+  font-family: var(--tt-font-mono);
+  color: var(--tt-gray-500);
+  background: var(--tt-gray-50);
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid var(--tt-border);
+}
+
+/* ==========================================================================
+   Responsive Grid (3 Desktop, 2 Tablet, 1 Mobile)
+   ========================================================================== */
+.tech-page .tt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.75rem;
+  align-items: stretch;
+}
+
+@media (max-width: 1024px) {
+  .tech-page .tt-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  .tech-page .tt-hero-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .tech-page .tt-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+  .tech-page .tt-hero {
+    padding: 2.5rem 1rem 1.5rem;
+  }
+  .tech-page .tt-hero-title {
+    font-size: 1.85rem;
+  }
+  .tech-page .tt-hero-subtitle {
+    font-size: 1rem;
+  }
+  .tech-page .tt-catalog-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* ==========================================================================
+   Modern Tech Product Card
+   ========================================================================== */
+.tech-page .tt-card {
+  background: var(--tt-card-bg);
+  border: 1px solid var(--tt-border);
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--tt-shadow-card);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.tech-page .tt-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--tt-blue-border);
+  box-shadow: var(--tt-shadow-card-hover);
+}
+
+/* Card Visual Header */
+.tech-page .tt-card-thumb-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: var(--tt-dark);
+  overflow: hidden;
+  border-bottom: 1px solid var(--tt-border);
+}
+
+.tech-page .tt-card-thumb {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+}
+
+.tech-page .tt-card:hover .tt-card-thumb {
+  transform: scale(1.03);
+}
+
+/* Fallback Thumbnail */
+.tech-page .tt-card-thumb-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: linear-gradient(135deg, #09090b 0%, #18181b 100%);
+  color: var(--tt-gray-300);
+  text-align: center;
+  padding: 1rem;
+}
+
+.tech-page .tt-card-thumb-fallback svg {
+  color: var(--tt-blue);
+}
+
+.tech-page .tt-card-thumb-fallback span {
+  font-family: var(--tt-font-mono);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--tt-gray-300);
+  letter-spacing: 0.02em;
+}
+
+/* Category Badge (Top-Right on image or body) */
+.tech-page .tt-badge-category {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.25rem 0.65rem;
+  background: rgba(9, 9, 11, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  font-family: var(--tt-font-mono);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.tech-page .tt-badge-category::before {
+  content: '';
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--tt-blue);
+}
+
+/* Card Body Content */
+.tech-page .tt-card-body {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.tech-page .tt-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
+  color: var(--tt-dark);
+  margin: 0 0 0.5rem 0;
+  letter-spacing: -0.015em;
+}
+
+.tech-page .tt-card-desc {
+  font-size: 0.875rem;
+  line-height: 1.55;
+  color: var(--tt-gray-600);
+  margin: 0 0 1.25rem 0;
+  flex: 1;
+}
+
+/* Card Footer Actions */
+.tech-page .tt-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--tt-border);
+}
+
+.tech-page .tt-card-type-tag {
+  font-family: var(--tt-font-mono);
+  font-size: 0.75rem;
+  color: var(--tt-gray-500);
+}
+
+.tech-page .tt-btn-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.45rem;
+  padding: 0.55rem 1rem;
+  background: var(--tt-blue);
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0, 82, 255, 0.3);
+}
+
+.tech-page .tt-btn-download:hover {
+  background: var(--tt-blue-hover);
+  box-shadow: 0 4px 12px rgba(0, 82, 255, 0.4);
+  transform: translateY(-1px);
+}
+
+.tech-page .tt-btn-download:active {
+  transform: scale(0.98);
+}
+
+/* ==========================================================================
+   State & Error Messages
+   ========================================================================== */
+.tech-page .tt-state-box {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3.5rem 1.5rem;
+  background: var(--tt-gray-50);
+  border: 1px dashed var(--tt-border-hover);
+  border-radius: 12px;
+}
+
+.tech-page .tt-state-box h3 {
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin: 0 0 0.5rem 0;
+  color: var(--tt-dark);
+}
+
+.tech-page .tt-state-box p {
+  font-size: 0.9rem;
+  color: var(--tt-gray-500);
+  margin: 0;
+}
+
+.tech-page .tt-state-box.error {
+  border-color: #fca5a5;
+  background: #fef2f2;
+}
+
+.tech-page .tt-state-box.error h3 {
+  color: #991b1b;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.tech-page .tt-footer {
+  border-top: 1px solid var(--tt-border);
+  background: #ffffff;
+  padding: 2.25rem 1.5rem;
+  margin-top: auto;
+}
+
+.tech-page .tt-footer-inner {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.8125rem;
+  color: var(--tt-gray-500);
+}
+
+.tech-page .tt-footer-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.tech-page .tt-footer-brand-badge {
+  font-weight: 700;
+  color: var(--tt-dark);
+}
+
+.tech-page .tt-footer-brand-badge span {
+  color: var(--tt-blue);
+}
+
+.tech-page .tt-footer-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-family: var(--tt-font-mono);
+  font-size: 0.75rem;
+}
+
+@media (max-width: 640px) {
+  .tech-page .tt-footer-inner {
+    flex-direction: column;
+    text-align: center;
+    gap: 0.75rem;
+  }
+}

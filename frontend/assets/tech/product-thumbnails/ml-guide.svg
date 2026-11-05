@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#052e16" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="accentGrad4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#bgGrad4)" rx="12" />
+  <!-- Accent bar -->
+  <rect x="32" y="32" width="48" height="4" fill="url(#accentGrad4)" rx="2" />
+  <!-- Category Pill -->
+  <rect x="32" y="46" width="130" height="22" rx="11" fill="rgba(16, 185, 129, 0.2)" stroke="rgba(52, 211, 153, 0.4)" stroke-width="1" />
+  <text x="97" y="61" fill="#6ee7b7" font-family="-apple-system, Inter, sans-serif" font-size="11" font-weight="600" text-anchor="middle" letter-spacing="0.5">MACHINE LEARNING</text>
+  <!-- Main Title Graphic -->
+  <text x="32" y="112" fill="#ffffff" font-family="-apple-system, Inter, sans-serif" font-size="22" font-weight="700">Machine Learning</text>
+  <text x="32" y="142" fill="#34d399" font-family="-apple-system, Inter, sans-serif" font-size="22" font-weight="700">Field Handbook</text>
+  <text x="32" y="172" fill="#94a3b8" font-family="-apple-system, Inter, sans-serif" font-size="12">Optimization · Gradient descent · Loss functions</text>
+  <!-- Footer subtle tag -->
+  <text x="32" y="215" fill="#64748b" font-family="-apple-system, Inter, sans-serif" font-size="10" letter-spacing="1">TECHTODARDS FIELD GUIDE</text>
+</svg>

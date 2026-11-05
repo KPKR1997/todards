@@ -1,0 +1,26 @@
+{
+  "products": [
+    {
+      "id": "data-science-interview-hack",
+      "title": "Data Science Interview Formula",
+      "description": "A concise guide to help you approach Data Science interviews.",
+      "category": "Data Science",
+      "thumbnail": "/assets/tech/poster.png",
+      "downloadUrl": "https://superprofile.bio/techtodards/dDYptxNerg",
+      "buttonText": "Get it now",
+      "type": "link",
+      "enabled": true
+    },
+    {
+      "id": "python-interview-guide",
+      "title": "Python Interview Guide",
+      "description": "Important Python concepts and commonly asked interview questions.",
+      "category": "Python",
+      "thumbnail": "/assets/tech/resume_sample.png",
+      "downloadUrl": "/assets/RESUME_TEMPLATE.docx",
+      "buttonText": "Download",
+      "type": "download",
+      "enabled": true
+    }
+  ]
+}
