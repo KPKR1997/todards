@@ -1,0 +1,67 @@
+[
+    {
+        "id": "entertainment-4",
+        "source": "BBC",
+        "category": "entertainment",
+        "title": "Comedian Karen Dunbar cancels tour dates claiming promoter has not paid her",
+        "date": "2026-11-04 11:05",
+        "content": "Comedian Karen Dunbar has cancelled most of her upcoming tour, claiming she has not been paid by her promoter for previous shows.\nIn a video posted on social media, the Chewin' the Fat star said she was \"gutted\" and apologised to fans.\nDunbar claimed she had only been paid for five of her previous 39 tour dates, a claim disputed by promoter Breakneck Comedy.\nIn an online statement the promoter said it asked Dunbar during the tour to renegotiate her previously agreed fees to help the company \"minimise its losses\" after ticket sales for the tour were slower than expected.\nAbout 20 shows remained on the tour, nearly all of which have now been axed apart from three performances in Greenock, Peebles and Shotts.\nThose shows are being promoted by a different company, Punchline Promotions.\nIn the video, a visibly upset Dunbar said: \"I've got 20 shows left. They'll not be going ahead and the reason is because the promoter hasn't been paying me.\n\"I've been doing the tour the last two months, I've done 39 shows, and I've been paid for five shows.\n\"I can't go on. I've never been in a situation like this in my life, the stress has been unbelievable.\"\nDunbar added that she expected the situation with the promoter would end up in court, and advised people with tickets to seek refunds.\nBreakneck Comedy did not respond to a request for comment by BBC Scotland, but posted on social media on Tuesday night.\nIn a statement the promoter said it only learned of Dunbar's decision to scrap the rest of the tour when she posted on social media.\nIt added: \"We strongly dispute the claims made about non payment, including the statement that the comedian has only been paid for five shows.\n\"This year rising ticket costs and increased venue hire charges, combined with lower ticket sales across the tour, meant we needed to approach the comedian to discuss renegotiating the tour agreement fee and terms.\n\"As a small business we simply cannot afford to take on all the work and costs of organising a 60 show tour only to sustain a significant loss overall.\"\nThe promoter claimed it had been looking to \"reach a fair, workable agreement\" with Dunbar to help minimise its losses but she declined to renegotiate.\nIt said it would move to agreed revenue splits from the box office rather than paying guaranteed fees for future tours.\nAfter shooting to fame in Chewin' The Fat, the Ayr comic starred in her own comedy sketch show.\nAs well as her stand-up career she appeared on radio and performed several theatre roles.\nLast year she won a Bafta for her debut role in the video game Still Wakes the Deep - a first-person horror set on a Scottish oil rig - winning best performer in a supporting role.",
+        "url": "https://www.bbc.com/news/articles/cq5yn338mlyvo",
+        "rank": 1,
+        "ranking_score": 16.0,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 16.0,
+            "base_score": 16.0,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 80,
+                "remarkability": 0,
+                "global_reach": 20,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 20,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant development in the entertainment industry, specifically in the comedy world, with a well-known comedian cancelling most of her tour due to a dispute with her promoter. The controversy surrounding the promoter's payment of Dunbar's fees adds a layer of public interest, making this a newsworthy story."
+            }
+        }
+    }
+]

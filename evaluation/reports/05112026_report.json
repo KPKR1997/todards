@@ -1,0 +1,228 @@
+{
+    "date": "05112026",
+    "timestamp": "2026-11-05T11:14:22.457691",
+    "duration_seconds": 4230.21,
+    "stages_duration_seconds": {
+        "scrape": 922.54,
+        "guardrails": 130.93,
+        "deduplication": 12.65,
+        "category_validation": 208.79,
+        "ranking": 369.22,
+        "processing": 2585.98,
+        "assembly": 0.04
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 5,
+            "Tech": 27,
+            "People": 56,
+            "Environment": 5,
+            "Economy": 6,
+            "Entertainment": 14
+        },
+        "total_scraped": 113,
+        "guardrail_passed": 113,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 10,
+        "final_categories": 5
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 113,
+        "classified_safe": 81,
+        "classified_unsafe": 32,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 32,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 113,
+        "rejected_count": 23,
+        "rejected_articles": [
+            {
+                "title": "NextDC shares surge 43% after Goodman, Digital Realty stake purchases",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the business and financial aspects of NextDC's shares, including the acquisition stakes by Goodman Group and Digital Realty, which makes it more relevant to the 'economy and business' category than the current category 'science and technology'."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Jim Cramer's views on the midterm elections' impact on the stock market and the economy, which is more relevant to the 'people' category."
+            },
+            {
+                "title": "Snap shares fall over 10% on third-quarter revenue miss",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Snap's financial performance, revenue, and earnings, which are relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the impact of midterm elections on the stock market, specifically the hyperscalers and AI data centers, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Uber beats on revenue, CEO tells CNBC the company is 'investing significantly' to add drivers",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses Uber's investment in adding drivers, which is a human-related development, making the 'people' category a more fitting choice than 'science and technology'."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article is primarily focused on the stock market and technology stocks, with discussions of market trends and company performances, making it more relevant to 'economy and business' than 'science and technology'."
+            },
+            {
+                "title": "Elon Musk’s record election bet backfired. The backlash may reach beyond one billionaire",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the impact of Elon Musk's political spending on the midterms election and the potential backlash against his AI industry, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Would you take a test to see if your life will be cut short? I did - and it changed me",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the author's personal experience with a genetic test related to early onset dementia, which falls under the 'health' category."
+            },
+            {
+                "title": "Why a US-funded vaccine trial on babies was cancelled in Guinea-Bissau",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses a vaccine trial and its cancellation, which is a significant health-related development."
+            },
+            {
+                "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the weather patterns and their impact on the region, which is more relevant to the 'earth and environment' category than the 'people' category."
+            },
+            {
+                "title": "British man infected with Ebola in DR Congo to be flown back to UK",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily reports on a medical issue (Ebola infection) and its implications, making 'health' the most relevant category."
+            },
+            {
+                "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the health implications of air pollution in Delhi, specifically the worsening air quality and the potential health risks for residents, rather than being about people in general."
+            },
+            {
+                "title": "Why a US-funded vaccine trial on babies was cancelled in Guinea-Bissau",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses a vaccine trial, medical research, and public health issues, which aligns well with the 'health' category."
+            },
+            {
+                "title": "Interest rates expected to rise for first time in over three years",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses interest rates and their impact on the economy and businesses, making 'economy and business' the most relevant category."
+            },
+            {
+                "title": "Mother and daughter die after suspected grizzly bear attack in Canada",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article reports a wildlife-related incident and discusses the presence of grizzly bears in British Columbia, making it more relevant to the 'earth and environment' category."
+            },
+            {
+                "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the impact of El Niño on weather patterns and the resulting typhoons in East Asia, making 'earth and environment' the most relevant category."
+            },
+            {
+                "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a cyber-attack on blood storage facilities, which is a scientific and technological issue, rather than a people-focused story."
+            },
+            {
+                "title": "Sheryl Crow reveals 'incredible' Welsh heritage",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Sheryl Crow's personal story and her connections to Wales, which is a human-interest story that fits well within the 'people' category."
+            },
+            {
+                "title": "Fleabag star offers rent-free flat to new writers",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Phoebe Waller-Bridge and other writers, highlighting a new initiative to support underprivileged writers, making it a people-focused story."
+            },
+            {
+                "title": "Celebrity hairstylist John Frieda dies aged 75",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the life and career of celebrity hairstylist John Frieda, with a brief mention of his business ventures and legacy, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Celebrity hairstylist John Frieda dies aged 75",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the life and career of celebrity hairstylist John Frieda, which falls under the 'people' category."
+            },
+            {
+                "title": "Teen musician is flying the flag for the recorder",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal story of Alma Nunez Debretzeni, a 17-year-old musician, and her journey, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Cinema fighting for future shortlisted as UK's best",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the community-owned cinema's fight for its future, which is more related to people and their actions rather than entertainment."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 339,
+        "total_failures": 0,
+        "total_time_seconds": 338.7,
+        "prompt_tokens": 462051,
+        "response_tokens": 9037,
+        "total_tokens": 471088,
+        "usage_responses": 339,
+        "prompt_eval_seconds": 99.813,
+        "generation_seconds": 200.429,
+        "load_seconds": 17.307,
+        "server_total_seconds": 335.081,
+        "avg_response_time": 1.0
+    }
+}

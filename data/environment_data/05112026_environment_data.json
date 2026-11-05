@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-1",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "India Climate 2026: India faced extreme weather on 92% of days in first nine months of 2026",
+        "date": "2026-11-04T12:23:16.244Z",
+        "content": "India experienced extreme weather events on 92% of days in the first nine months of 2026, according to CSE and Down To Earth's Climate India 2026 report. Extreme weather claimed 3,220 lives, damaged 4.25 million hectares of crops, destroyed 128,334 houses and killed 47,244 livestock. Uttar Pradesh and Himachal Pradesh recorded the most days of extreme weather, while Uttar Pradesh reported the highest death toll at 811. The five-year analysis found that extreme weather affected nearly every part of India, with more than 16,000 deaths and 20.6 million hectares of crops damaged between 2022 and 2026. India experienced extreme weather events on 92 per cent of days in the first nine months of 2026, resulting in 3,220 deaths, damage to 4.25 million hectares (mha) of crops and the destruction of 128,334 houses, according to a new report released by Delhi-based think tank Centre for Science and Environment (CSE) and Down To Earth (DTE). Climate India 2026: An Assessment of Extreme Weather Events , released on November 4, 2026, also analysed trends between 2022 and 2026, found that the share of days affected by extreme weather increased from 86-88 per cent in 2022 and 2023 to 93 per cent in 2024 and 99 per cent in 2025.",
+        "url": "https://www.downtoearth.org.in/climate-change/india-climate-2026-india-faced-extreme-weather-on-92-of-days-in-first-nine-months-of-2026",
+        "rank": 1,
+        "ranking_score": 43.0,
+        "ranking_reason": "India faced extreme weather events on 92% of days in the first nine months of 2026, resulting in significant human consequences, damage to crops and houses, and livestock deaths.",
+        "ranking": {
+            "rank": 1,
+            "score": 43.0,
+            "base_score": 40.95,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 40,
+                "dont_miss": 0,
+                "human_consequence": 60,
+                "economic_impact": 30,
+                "political_significance": 20,
+                "health_significance": 70,
+                "scientific_significance": 30,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 3,
+                "urgency": 0,
+                "severity_tier": 4,
+                "events": {
+                    "major_disaster": true,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "India faced extreme weather events on 92% of days in the first nine months of 2026, resulting in significant human consequences, damage to crops and houses, and livestock deaths.",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 60,
+                "public_need_to_know": 50,
+                "public_concern": 40,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant and substantiated environmental development, providing a comprehensive overview of India's extreme weather events in the first nine months of 2026, including human consequences, crop damage, and livestock deaths. The statistics and trends presented in the report provide a clear reason for readers to care about the impact of climate change on the country and its citizens."
+            }
+        }
+    }
+]
