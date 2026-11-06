@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechTodards · Tech Resources for Your Career</title>
+  <meta name="description" content="Practical guides, cheat sheets and interview resources for technology professionals and learners." />
+  
+  <link rel="icon" type="image/jpeg" href="/assets/tech/logo.jpg" />
+  
+  <!-- Scoped Technology Stylesheet -->
+  <script type="module" crossorigin src="/assets/tech-CP75zSTQ.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="stylesheet" crossorigin href="/assets/tech-CyhYCdyf.css">
+</head>
+<body class="tech-page">
+
+  <!-- Modern Tech Header Bar (No Page Nav Links) -->
+  <header class="tt-nav-header">
+    <div class="tt-nav-container">
+      <a href="#" class="tt-brand" aria-label="TechTodards Home">
+        <img src="/assets/tech/logo.jpg" alt="TechTodards Logo" class="tt-brand-logo" />
+        <div class="tt-brand-label">
+          <span class="tt-brand-blue">Tech</span>Todards<span class="tt-brand-dot">.</span>
+        </div>
+      </a>
+
+      <!-- Minimal Live Indicator (No Page Nav Links) -->
+      <div class="tt-header-status">
+        <span class="tt-status-indicator" aria-hidden="true"></span>
+        <span>Developer Hub</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="tt-hero">
+    <div class="tt-hero-badge">
+      <span class="tt-hero-badge-dot" aria-hidden="true"></span>
+      <span>Technology &amp; Engineering Library</span>
+    </div>
+    
+    <h1 class="tt-hero-title">
+      Tech Resources for <span>Everyone</span>
+    </h1>
+    
+    <p class="tt-hero-subtitle">
+      Practical guides, cheat sheets, repos and resources for technology professionals and learners
+    </p>
+
+    <!-- Search Box -->
+    <div class="tt-search-container">
+      <svg class="tt-search-icon-left" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+          d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+      </svg>
+      <input 
+        type="text" 
+        id="search-input" 
+        class="tt-search-input" 
+        placeholder="Search guides, cheat sheets, topics (e.g. Python, SQL)..." 
+        aria-label="Search resources" 
+      />
+      <span class="tt-search-shortcut" aria-hidden="true">/</span>
+    </div>
+  </section>
+
+  <!-- Catalog Main Section -->
+  <main class="tt-catalog-section" id="products">
+    <div class="tt-catalog-meta">
+      <h2 class="tt-catalog-heading">Available Guides &amp; Handbooks</h2>
+      <span class="tt-catalog-count" id="products-count">Loading catalog...</span>
+    </div>
+
+    <!-- Responsive Card Grid (3 Desktop, 2 Tablet, 1 Mobile) -->
+    <section class="tt-grid" id="products-grid" aria-live="polite">
+      <!-- Dynamically rendered from products.json by tech.js -->
+    </section>
+  </main>
+
+  <!-- Modern Tech Footer -->
+  <footer class="tt-footer">
+    <div class="tt-footer-inner">
+      <div class="tt-footer-left">
+        <div class="tt-footer-brand-badge">
+          <span>Tech</span>Todards
+        </div>
+        <span>· Practical Career Resources</span>
+      </div>
+      <div class="tt-footer-right">
+        <span>© KP · All Rights Reserved</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Client-side logic -->
+</body>
+</html>
