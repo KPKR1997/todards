@@ -310,8 +310,8 @@ class PipelineReporter:
         stages = data.get("stages_duration_seconds", {})
         md = [
             f"# Todards Pipeline Evaluation Report — {data.get('date')}",
-            f"\n> **Execution Timestamp**: {data.get('timestamp')}",
-            f"> **Total Duration**: {data.get('duration_seconds')} seconds\n",
+            f"\n> Execution Timestamp: {data.get('timestamp')}",
+            f"> Total Duration: {data.get('duration_seconds')} seconds\n",
             "## Executive Summary\n",
             "| Metric | Value |", "|---|---|",
             f"| Total Scraped Articles | {vol.get('total_scraped', 0)} |",
