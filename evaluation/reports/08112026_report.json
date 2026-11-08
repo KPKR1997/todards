@@ -1,0 +1,165 @@
+{
+    "date": "08112026",
+    "timestamp": "2026-11-08T12:30:04.421019",
+    "duration_seconds": 3676.46,
+    "stages_duration_seconds": {
+        "scrape": 990.34,
+        "guardrails": 101.85,
+        "deduplication": 12.21,
+        "category_validation": 148.29,
+        "ranking": 361.52,
+        "processing": 2062.17,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 5,
+            "Tech": 6,
+            "People": 52,
+            "Environment": 1,
+            "Economy": 5,
+            "Entertainment": 14
+        },
+        "total_scraped": 83,
+        "guardrail_passed": 83,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 7,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 83,
+        "classified_safe": 53,
+        "classified_unsafe": 30,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 30,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 79,
+        "rejected_count": 14,
+        "rejected_articles": [
+            {
+                "title": "Democrat shaping AI policy bought chip stocks despite backing congressional trading ban",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the personal and professional aspects of a politician's investments and their potential impact on AI policy, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Anthropic IPO meets AI backlash after midterms show stinging rebuke of data centers",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the IPO of Anthropic, a company in the AI industry, and its potential impact on the market and public perception, which is more relevant to the 'economy and business' category than 'science and technology'."
+            },
+            {
+                "title": "Tech companies face mounting child safety lawsuits while pushing AI into schools",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses the social and psychological impact of AI technology on children, which falls under the 'people' category, with a focus on societal and human-related issues rather than purely scientific or technological advancements."
+            },
+            {
+                "title": "Can the Zelda remake capture the magic of the original?",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 1.0,
+                "reason": "The article is primarily about the remake of a popular video game, which falls under the 'entertainment' category."
+            },
+            {
+                "title": "Can the Zelda remake capture the magic of the original?",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses a video game remake and its features, with no specific relevance to people, such as politics, governance, or social developments."
+            },
+            {
+                "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses Brexit negotiations, UK rejoining the EU, and the implications of single market membership, which falls under the people category, although it touches on economy and business aspects."
+            },
+            {
+                "title": "Dolly Parton's manager drops lawsuit against her nephew",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Dolly Parton's manager and nephew, which falls under the 'people' category, although it also contains elements of 'entertainment' as Dolly Parton was a country music star."
+            },
+            {
+                "title": "'Depicts humanity at its most grotesque': Why the 300-year-old novel Gulliver's Travels is so misunderstood",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the adaptation and reception of Jonathan Swift's novel Gulliver's Travels, which is a work of literature and a significant cultural artifact, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Monty Don bids 'final goodbye' to Gardeners' World after two decades",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Monty Don's career and personal life, including his farewell from Gardeners' World, which is a major human-interest story in the 'people' category."
+            },
+            {
+                "title": "Monty Don bids 'final goodbye' to Gardeners' World after two decades",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Monty Don's career and personal life, which falls under the 'people' category."
+            },
+            {
+                "title": "'We don't take George Michael seriously enough'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses George Michael, a famous pop artist, and his impact on popular culture, which falls under the 'people' category."
+            },
+            {
+                "title": "Dolly Parton's manager drops lawsuit against her nephew",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the personal life and family of Dolly Parton, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Ambika Mod says the 'glass ceiling is always getting higher' for South Asian actors",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the actress Ambika Mod's career, thoughts on representation, and her experiences as a South Asian woman in the industry, which falls under the 'people' category."
+            },
+            {
+                "title": "Monty Don bids 'final goodbye' to Gardeners' World after two decades",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on Monty Don's personal life and career, including his TV shows and awards, making it a people-focused story."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 245,
+        "total_failures": 0,
+        "total_time_seconds": 249.07,
+        "prompt_tokens": 329535,
+        "response_tokens": 6470,
+        "total_tokens": 336005,
+        "usage_responses": 245,
+        "prompt_eval_seconds": 67.26,
+        "generation_seconds": 145.046,
+        "load_seconds": 18.885,
+        "server_total_seconds": 246.766,
+        "avg_response_time": 1.02
+    }
+}

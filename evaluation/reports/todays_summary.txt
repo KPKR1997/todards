@@ -1,17 +1,17 @@
-TODARDS LLM PIPELINE EVALUATION — 05112026
-Execution timestamp: 2026-11-05T11:14:22.457691
-Pipeline duration: 70.5 minutes
+TODARDS LLM PIPELINE EVALUATION — 08112026
+Execution timestamp: 2026-11-08T12:30:04.421019
+Pipeline duration: 61.3 minutes
 
-Here is the evaluation:
+Here's a concise, useful plain-text evaluation for the operator's daily email:
 
-**Overall Run Health:** The pipeline run appears healthy, with no obvious signs of failure or anomalies. The duration is slightly longer than the previous recorded run (+62.7%), but this could be due to various factors such as increased volume or changes in processing time.
+**Overall Run Health:** The pipeline run appears healthy, with no major issues reported. The duration of 61.3 minutes is relatively short compared to historical evidence, indicating a potentially efficient run.
 
-**Scrape Volume:** The scraped article volume has decreased by 13% compared to the previous recorded run, from 130 to 113. This change is not significant enough to raise concerns.
+**Scrape Volume:** The scraped article volume has decreased by 26.7% compared to the previous recorded run, from 113 to 83. This change may warrant further investigation to determine the cause.
 
-**Semantic Deduplication:** The deduplication process removed 0 duplicate articles from the 113 scraped articles, which is a relatively low percentage (0.0%). This suggests that the deduplication process is working effectively.
+**Semantic Deduplication:** The deduplication process removed 0 duplicate articles from the 83 scraped articles, indicating a low duplication rate. This is a positive sign, as it suggests the pipeline is effectively filtering out redundant content.
 
-**Source/Category Ingestion Anomalies:** There are no obvious anomalies or issues with source or category ingestion.
+**Source/Category Ingestion Anomalies:** No significant anomalies were detected in the source or category ingestion processes. The guardrail rejection count remains at 0, indicating that all ingested articles passed the quality checks.
 
-**LLM Performance:** The LLM performance metrics look healthy, with no failures reported and an average response time of 1.0 seconds. The total time spent in LLM processing is 338.7 seconds, which is relatively low.
+**LLM Performance:** The LLM performance metrics indicate a successful run, with 0 failures and an average response time of 1.02 seconds. The total tokens processed and total time spent are also within expected ranges.
 
-**Next Practical Check:** Review the pipeline's processing stages to ensure that the increased duration is not due to any specific stage or component. Additionally, monitor the scraped article volume and deduplication removal counts to identify any potential trends or issues.
+**Next Practical Check:** Review the scrape volume decrease and investigate potential causes, such as changes in article availability or pipeline configuration. Additionally, monitor the LLM performance metrics to ensure they remain within expected ranges.

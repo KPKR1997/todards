@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pp-4",
+        "source": "CNN",
+        "category": "economy",
+        "title": "‘I think I was in shock’: 28-year-old’s emotional moment when she sees how much she may have at retirement",
+        "date": "2026-11-07 11:00",
+        "content": "Food stamp policy analyst Abbey Graf had kind of an emotional moment when she saw the wealth management roadmap that certified financial planner Stacy Francis created based on her current income, expenses and savings. “I think I was in shock. I knew I was in a good place. But I don’t think I was fully aware of how much I would have at retirement if I keep pace (with my savings),” Abbey said. Spoiler alert: She could have potentially as much as $4 million if she retires at age 65 – or more than $2.5 million if she chooses early retirement at 57. To recap: At just 28, Abbey has amassed a lot in savings both for her age and her $74,360 income. She currently has no debt beyond the $1,246 remaining on her federal student loan. (While she could easily pay that off, she worried doing so would hurt her credit score since credit bureaus give credit for managing debt.) But her anxiety about money – and the future – has kept her from really seeing clearly just how solid her financial foundation is. And it has precluded her from doing things today that she really enjoys, like traveling and taking on more hobbies. Despite her positive cash flow and financial discipline, “emotionally, Abbey still worried she was ‘behind,’” Stacy said in an email. “We are seeing this disconnect constantly, especially among younger women. Many are doing quite well financially on paper, but because of social media comparisons, really scary economic headlines, and rising costs of everyday items, they still feel financially insecure.” Stacy did projections for two scenarios: the base plan, in which Abbey keeps her current below-market monthly rent of $1,350, adjusted for inflation over time; and a second plan in which she buys a $400,000 home next year and sells it in 2038. Stacy concluded Abbey would end up with a larger nest egg by continuing to rent. If she retired at 65 she could have a portfolio worth $3.976 million – or about $740,000 more than in the home-buying scenario. Those projections assume average annual inflation of 3.1% (including a 4.5% inflation rate for medical care). And given Abbey’s financial anxieties, Stacy made the conservative assumption that her portfolio would return just 5% a year – far less than the 10.12% average annual return of a moderate-risk blend portfolio with 60% large-cap US stocks and 40% US bonds, according to Morningstar data. Notably, too, Stacy’s projections do not assume Abbey, who currently is a contractor, will ever work for an employer that offers a match on her retirement savings. Should she work for one, however, that would only further improve her nest egg. The projections “completely changed her perception of what was possible,” Stacy said. “Even under conservative assumptions, our analysis showed that Abbey can retire many years earlier than she originally expected.” As a result, Abbey now feels a lot more comfortable taking a vacation and taking up new hobbies that she would enjoy but previously avoided because they cost money. “I think I will slowly ramp up to not shock the system,” she said. “Maybe I should take a pottery class.” In the future, Stacy recommended Abbey take four action steps: What’s next: We’ll catch up with Abbey again in a few weeks. But next week, we have our last check in with Mariza and Geffrey Gordon , who are starting to think differently about how they manage money.",
+        "url": "https://edition.cnn.com/2026/11/07/business/savings-challenge-participant-second-update-abbey-graf",
+        "rank": 1,
+        "ranking_score": 2.0,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 2.0,
+            "base_score": 2.0,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 20,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 0,
+                "severity_tier": 1,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 50,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article provides a concrete, data-driven example of a successful financial planning story, offering valuable insights and takeaways for readers, particularly young women, who are often concerned about their financial security."
+            }
+        }
+    }
+]

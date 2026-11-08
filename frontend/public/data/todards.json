@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 88",
+    "issue": "Issue No. 89",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "05 November 2026",
+    "publishedAt": "08 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Ukraine Releases Bodycam Footage of Deadly Russian Bomb Strikes",
-          "image": "https://images.pexels.com/photos/11734706/pexels-photo-11734706.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Kamyshuvakha, Ukraine",
-          "time": "Nov 05, 2026",
-          "content": "Ukraine has released a bodycam video showing the moments leading up to two powerful Russian bomb strikes that killed at least 40 people at an aid center and a shelter in the village of Kamyshuvakha. The footage, from a camera worn by a killed police officer, shows residents fleeing to an underground shelter after the first attack on Monday, only for it to be hit by a second blast. Ukrainian President Volodymyr Zelensky stated that over 30 people may still be trapped under the rubble as a search operation continued for the third day. The strikes, which involved nine gliding bombs, including some weighing 3,000kg, hit the village as people gathered to receive humanitarian aid. Ukrainian authorities have condemned the attack as a war crime, with Zelensky stating that there has been little reaction from the world to the incident.",
+          "title": "UK Sues Home Office Over EU Citizens' Rights Removal",
+          "image": "https://images.unsplash.com/photo-1593781492912-bb538a002c02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VUslMjBjaXRpemVuc2hpcHxlbnwxfDB8fHwxNzk0MTIwMTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Nov 08, 2026",
+          "content": "A group called the3million is suing the Home Office over its decision to remove the rights of almost 1,500 EU citizens who were granted pre-settled status to live in the UK after Brexit. The Home Office allegedly made these decisions without providing procedural protections, including the right of appeal and an assessment of proportionality, which are required under the Brexit withdrawal agreement. The3million claims this policy is unlawful and is asking the court to declare it so and make necessary orders to correct the situation. This is not the first time the Home Office has been sued over its implementation of the withdrawal agreement, as the Independent Monitoring Authority successfully sued the Home Office in 2022 for putting EU citizens at risk of losing their rights.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c98rz6penv86o"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/nov/07/home-office-sued-the3million-eu-citizens-right-to-live-in-uk-pre-settled"
         },
         {
           "id": "pp-2",
-          "title": "Democrat James Talarico wins Texas Senate seat in upset",
-          "image": "https://images.pexels.com/photos/34355546/pexels-photo-34355546.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Texas, USA",
-          "time": "Nov 05, 2026",
-          "content": "Democrat James Talarico has won the Senate race in Texas, defeating Republican Ken Paxton in a major upset. This marks the first time a Democrat has won a US Senate seat in Texas since 1988. Talarico, a former schoolteacher, focused on the rising cost of living under Republican leadership, while Paxton sought to portray Talarico as too progressive for the state. Talarico's victory, along with another historic win for Democrats, has helped solidify their control of the US Congress. The win is seen as a significant upset for Republicans, who had invested heavily in the race, with over $200m spent on Paxton's campaign.",
+          "title": "Gaza Tent Floods Leave Thousands Homeless",
+          "image": "https://images.pexels.com/photos/36038665/pexels-photo-36038665.png?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Gaza, Palestine",
+          "time": "Nov 08, 2026",
+          "content": "Heavy rains have flooded tens of thousands of tents in Gaza, leaving displaced residents without shelter. The desperate situation is worsened by Israeli restrictions on the entry of supplies and heavy machinery, according to Jonathan Veitch, the Unicef representative for Palestine. The flooding has left many without access to clean water and sanitation, and aid agencies warn that the situation is likely to worsen with the start of the rainy season. The UN has reported that almost everyone in Gaza needs help, with over 90% of residents displaced by the Israeli war against Hamas. Gaza's Hamas-run government estimates that about 70,000 tents have been flooded, causing injuries and leaving many families without a safe place to live.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6n8dnn09jg7o"
+          "url": "https://www.bbc.com/news/articles/cx240e5py64jo"
         },
         {
           "id": "eb-1",
-          "title": "Israel's President Forms New Government After Deadlocked Election",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Benjamin_Netanyahu%2C_February_2023_%28cropped%29%28b%29.jpg/500px-Benjamin_Netanyahu%2C_February_2023_%28cropped%29%28b%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Jerusalem",
-          "time": "Nov 05, 2026",
-          "content": "Israel's President Isaac Herzog has begun consulting with political parties to form a new coalition government, after a general election that saw no clear winner. Neither Prime Minister Benjamin Netanyahu's bloc nor his rival Gadi Eisenkot secured a majority in parliament. The election results showed Netanyahu's right-wing Likud party and its allies winning 53 seats, while Eisenkot's centrist Yashar party and its allies won 48. Two Arab-led alliances won 19 seats, making them potential kingmakers. The President has wide discretion to pick someone to form a government, and Herzog has expressed confidence in the Shin Bet's ability to investigate allegations of foreign interference in the election.",
+          "title": "HyperVerse Promoter Susan Lawrence Joins Wolverhampton City Council Committee",
+          "image": "https://images.pexels.com/photos/8919512/pexels-photo-8919512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Wolverhampton, UK",
+          "time": "Nov 08, 2026",
+          "content": "Susan Lawrence, a woman who promoted the notorious HyperVerse cryptocurrency scheme, has been elected as a Reform UK councillor and now sits on the audit and risk committee of Wolverhampton city council. The scheme, which was an alleged 'pyramid and Ponzi scheme', cheated investors worldwide out of $1.89 billion. Lawrence, who lost her pension and tens of thousands of pounds in the scheme, is now part of the committee that reviews governance and risk management, as well as the financial reporting of the council's multimillion-pound budget. She promoted the scheme, and later variations of it, even after the UK's Financial Conduct Authority issued a consumer warning. Lawrence has not been accused of wrongdoing by authorities and has been linked to other cryptocurrency schemes. A spokesperson for Reform UK stated that she was one of many victims of the scam, losing her pension and tens of thousands of pounds.",
           "theme": "#F7F1DE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6z98z5z91ppo"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/nov/07/reform-uk-councillor-promoted-alleged-ponzi-scheme-hyperverse"
         }
       ]
     },
@@ -64,14 +64,14 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Southern Taurid meteor shower peaks November 5",
-          "image": "https://images.unsplash.com/photo-1534190938029-2d03c3bec5fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8TWV0ZW9yJTIwc2hvd2VyfGVufDF8MHx8fDE3OTM4NTU1MzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global",
-          "time": "Nov 05, 2026",
-          "content": "This November, night owls can witness a spectacular Southern Taurid meteor shower, with peak activity expected around 3 p.m. ET on November 5. Meteors will appear to radiate from the Taurus constellation, with some producing long, glowing trails. According to NASA's Bill Cooke, the Taurids are special because they're rich in bright fireballs that leave brilliant streaks across the sky. Fireballs arise from debris ranging from the size of a marble to that of a small boulder, and can be brighter than Venus. The Southern Taurid shower occurs annually, producing roughly five meteors per hour, and can be seen from almost anywhere in the world, except the South Pole. With a crescent moon expected, meteors should be easier to spot. To optimize the viewing experience, find a dark spot and give your eyes at least half an hour to adjust. The shower began in September and is set to end November 20, with the Northern Taurid shower peaking November 12 and ending December 10. Scientists believe comet Encke was part of a larger body that broke up roughly 20,000 years ago, creating the complex responsible for the Taurid meteor showers.",
+          "title": "Meta's Chief Strategy Officer Dave Wehner Joins AI Startup Fireworks as CFO",
+          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQxMTk5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Bengaluru, India",
+          "time": "Nov 08, 2026",
+          "content": "Dave Wehner, Meta's chief strategy officer, is leaving the company to join Fireworks, an AI startup, as its new CFO. Wehner will be responsible for scaling the company's finances and operations, as Fireworks continues to grow. At Fireworks, Wehner will be part of the company's leadership team as it focuses on developing open models for businesses. Fireworks is an AI inference and model-training platform that has gained significant traction, with a valuation of $17.5 billion following its Series D fundraising round in July. The company has attracted significant investment from major firms, including Atreides Management, Index Ventures, and TCV. Wehner joins Fireworks at a time when the company is in early talks to raise funds again at a possible valuation of $30 billion to $40 billion. Fireworks is smaller than Meta, which has a market capitalization of $1.56 trillion, and its competitors, OpenAI and Anthropic. The company has faced some security incidents, but has ensured that there was no unauthorized access to customer data.",
           "theme": "#EBF2FA",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/04/science/southern-taurids-meteor-shower"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html"
         },
         {
           "id": "st-2",
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "New York reports first measles death in 30 years",
-          "image": "https://images.unsplash.com/photo-1691139600731-7232eaa980c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8dmFjY2luYXRpb24lMjB2aWFsfGVufDF8MHx8fDE3OTM2Njk1ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Lewis County, New York",
-          "time": "Nov 03, 2026",
-          "content": "A child in Lewis County, New York, has died from measles, the state's first measles-related death in 30 years, according to Governor Kathy Hochul. Measles is highly contagious and vaccination is the best protection against the disease. The case is part of a surge in measles cases across the US, with over 4,800 reported this year, the most since 1990. The rise in cases is attributed to falling vaccination rates, although some places have seen an increase in immunizations. The incident has led to renewed calls for vaccination and a reminder of the importance of public health measures to keep people safe and healthy.",
+          "title": "Heart Drug Fails to Reduce Risk in Large Study, Raises Questions",
+          "image": "https://images.unsplash.com/photo-1460672985063-6764ac8b9c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QW1lcmljYW4lMjBIZWFydCUyMEFzc29jaWF0aW9ufGVufDF8MHx8fDE3OTQxMTk0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Cleveland, USA",
+          "time": "Nov 08, 2026",
+          "content": "The American Heart Association's annual conference will witness a significant revelation as Dr. Steven Nissen presents the results of a large study testing an experimental drug, pelacarsen, designed to lower the risk of heart attack and stroke. Despite initial expectations, the drug failed to show any positive impact on the risk of major cardiovascular events, including heart attacks, strokes, and cardiovascular death. The study, which randomly divided 8,350 people into two groups, found that patients taking pelacarsen had lower levels of lipoprotein (a) but experienced the same risk of heart-related events as those taking a placebo. The failure of the drug raises questions about the role of lipoprotein (a) in the development of cardiovascular disease and may prompt cardiologists to re-evaluate their approach to heart health. The study's results, published in the New England Journal of Medicine, highlight the importance of conducting thorough and well-designed studies in the scientific community, even when the results are not what was expected.",
           "theme": "#E8F5F1",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/02/health/new-york-measles-death"
+          "url": "https://edition.cnn.com/2026/11/07/health/novartis-pelacarsen-heart-drug-trial"
         },
         {
           "id": "hw-3",
-          "title": "Professor Thrives on 5 Hours of Sleep due to Rare Genetic Mutation",
-          "image": "https://images.unsplash.com/photo-1681911046064-e663d5192921?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NXx8Z2VuZXRpYyUyMG11dGF0aW9uc3xlbnwxfDB8fHwxNzkzNjY5NzY1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Colorado, USA",
-          "time": "Nov 03, 2026",
-          "content": "Aimee Pugh Bernard, an immunology professor at the University of Colorado, is one of the few people who can function well on remarkably little sleep, sometimes as little as five hours a night. This is due to a rare genetic mutation called familial natural short sleep (FNSS) which has been linked to short sleep duration in humans. Research has shown that people with FNSS seem to be protected from the negative consequences of short sleep, including memory impairment, and may even experience benefits from their sleep. Scientists are studying the genetic variations associated with FNSS to understand how they work and how they could be used to help people who struggle with sleep disorders. While most adults need seven to nine hours of sleep, genetic factors can influence an individual's sleep duration, with some people being naturally more inclined to need less sleep.",
+          "title": "Simple Salt Change Could Prevent 3 Million Deaths Annually",
+          "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8UG90YXNzaXVtLWVucmljaGVkJTIwc2FsdHxlbnwxfDB8fHwxNzk0MTE5NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
+          "time": "Nov 08, 2026",
+          "content": "With a simple change to everyday salt, millions of deaths and cases of cardiovascular and kidney disease could be prevented worldwide, suggests a new global study. The researchers analyzed how replacing ordinary salt with potassium-enriched salt could impact the world's 4.6 billion adults, finding that even limited changes could produce substantial health gains. The study, led by The George Institute for Global Health, estimates that such a switch could prevent nearly three million deaths and over ten million new cases of cardiovascular and kidney disease annually. The findings suggest that potassium-enriched salt, which contains less sodium and more potassium, could help lower blood pressure and reduce the risk of life-threatening conditions like strokes and heart attacks. The study's modeling also showed that targeted approaches, such as replacing salt in household table salt or in processed and restaurant foods, could produce significant health benefits, with the greatest potential in countries like China, India, and the United States. However, the researchers emphasize that people with kidney disease or those taking certain medications that increase blood potassium levels should take precautions and consult with healthcare professionals.",
           "theme": "#E8F5F1",
-          "source": "BBC",
-          "url": "https://www.bbc.com/future/article/20261029-the-people-who-only-need-four-hours-sleep"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say/"
         }
       ]
     },
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "pp-3",
-          "title": "David Jones enters voluntary administration, putting thousands at risk",
-          "image": "https://images.pexels.com/photos/11834128/pexels-photo-11834128.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Australia",
-          "time": "Nov 05, 2026",
-          "content": "David Jones, Australia's oldest department store chain, has gone into voluntary administration, putting thousands of jobs at risk. The 188-year-old retailer has struggled financially, with customers increasingly turning to online shopping. Despite its iconic status and luxurious reputation, the brand has seen a decline in recent years. The company's physical and online stores will continue to operate while receivers review the business. The move is seen as a chance for David Jones to restructure and potentially recover. Many Australians have fond memories of visiting the store's flagship city stores, especially to see the festive Christmas window displays. However, the brand's suburban stores have been criticized for lacking excitement and glamour.",
+          "title": "Food stamp analyst sees $4 million retirement potential",
+          "image": "https://images.unsplash.com/photo-1540038797789-26b9fca820b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTI0NCUyMG1pbGxpb258ZW58MXwwfHx8MTc5NDEyMTE4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Bengaluru, India",
+          "time": "Nov 08, 2026",
+          "content": "Food stamp policy analyst Abbey Graf, 28, discovered her financial potential after a financial planner created a roadmap based on her income, expenses, and savings. The analysis showed that Abbey could potentially have $4 million if she retires at 65 or over $2.5 million if she retires early at 57. Abbey had previously been worried about her financial security due to social media comparisons, economic headlines, and rising costs. The projections changed her perception of what was possible, making her feel more comfortable taking vacations and trying new hobbies. The financial planner recommended Abbey take four action steps, and Abbey plans to slowly start taking them to avoid shocking her system.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cky93z5y0171o"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/07/business/savings-challenge-participant-second-update-abbey-graf"
         },
         {
           "id": "eb-2",
