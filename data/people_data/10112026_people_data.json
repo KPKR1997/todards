@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pp-7",
+        "source": "CNN",
+        "category": "people",
+        "title": "How the midterms shook up Senate delegations for 2027",
+        "date": "2026-11-09 09:00",
+        "content": "Democrats’ red-state dreams came true in the midterm elections. What feels like a watershed moment for those normally red states also reverses a recent trend of polarization on Capitol Hill. Heading into Election Day, there were only four split Senate delegations — meaning states represented by senators from more than one party. That was the fewest since the nationwide election of senators began with the 1914 election after the ratification of the 17th amendment, according to a 2021 analysis by Pew . In January, there will be at least 10 such delegations; there could be up to 12 if Democratic candidates win unresolved races in Mississippi and Alaska. It’s a return to the historical norm. The split delegations will include Vermont, where Sen. Bernie Sanders is technically independent, but sides with Democrats for procedural matters. Also on the list will be Maine, where Democrat Troy Jackson will join the independent Sen. Angus King, who, like Sanders, caucuses with Democrats. The changing political map is also a good reminder that American politics are more elastic than many people realize. Kansas on Tuesday elected a Democrat to the US Senate for the first time since the Great Depression. But that 94-year streak, now broken, was unlike anything else in US politics. In fact, since Kansas became a state in 1861, Sen.-elect Adam Hamilton will be only the fourth Democrat to represent it in Senate history. It’s a remarkable statistic especially because the two parties have evolved so much during that time. Hamilton won Kansas in part by promising to work across the aisle and arguing that his state would be better served having lawmakers from both parties. For Texas and Mississippi, the last Democrats were elected in the 1980s. They would join, if Mississippi Democrat Scott Colom wins, the majority of states that have been represented by a senator from both major parties within the past 25 years. No Republican has been elected to represent the islands since 1970. That Republican, Hiram Fong, was one of Hawaii’s first two senators, elected when Hawaii became a state in 1959. No Democrat has been elected to represent Wyoming or Utah since that same year. The longest streak east of the Mississippi River is in New Jersey, where no Republican has been elected to the US Senate since Clifford Case was elected in 1972, capping a long career on Capitol Hill. A Republican senator, Jeffrey Chiesa, was briefly appointed to serve in 2013. That was the result of the state having a Republican governor, Chris Christie, at the time. New Hampshire is represented by two Democratic senators, and that will continue after Rep. Chris Pappas, who won the election there, is sworn in. The last Republican elected as a senator was Kelly Ayotte in 2010. She’s currently the state’s governor, and was elected to a second term on Tuesday. Both Dakotas and Montana were represented by two Democrats within the last 25 years. Now all three states are represented by two Republicans, although this year in Montana, South Dakota and Nebraska it was independents, not Democrats, who mounted the biggest challenge to Republicans. None of them won.",
+        "url": "https://edition.cnn.com/2026/11/09/politics/senate-delegations-2027-vis",
+        "rank": 1,
+        "ranking_score": 5.72,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 5.72,
+            "base_score": 5.45,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 50,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 3,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": true,
+                    "major_political_change": true,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant shift in Senate delegations, a reversal of polarization trends, and provides context and statistics to support its claims, making it a substantive and important development for the people category."
+            }
+        }
+    }
+]

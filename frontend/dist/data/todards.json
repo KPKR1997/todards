@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 89",
+    "issue": "Issue No. 90",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "08 November 2026",
+    "publishedAt": "10 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,14 +21,14 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "UK Sues Home Office Over EU Citizens' Rights Removal",
-          "image": "https://images.unsplash.com/photo-1593781492912-bb538a002c02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VUslMjBjaXRpemVuc2hpcHxlbnwxfDB8fHwxNzk0MTIwMTM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Nov 08, 2026",
-          "content": "A group called the3million is suing the Home Office over its decision to remove the rights of almost 1,500 EU citizens who were granted pre-settled status to live in the UK after Brexit. The Home Office allegedly made these decisions without providing procedural protections, including the right of appeal and an assessment of proportionality, which are required under the Brexit withdrawal agreement. The3million claims this policy is unlawful and is asking the court to declare it so and make necessary orders to correct the situation. This is not the first time the Home Office has been sued over its implementation of the withdrawal agreement, as the Independent Monitoring Authority successfully sued the Home Office in 2022 for putting EU citizens at risk of losing their rights.",
+          "title": "Democrats Win Big in Red States, Breaking Polarization",
+          "image": "https://images.pexels.com/photos/8847039/pexels-photo-8847039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Nov 10, 2026",
+          "content": "In the midterm elections, Democrats made significant gains in traditionally red states, reversing a trend of polarization on Capitol Hill. Heading into the elections, there were only four split Senate delegations, the fewest since 1914. However, come January, there will be at least 10 such delegations, with up to 12 possible if certain races in Mississippi and Alaska are won by Democratic candidates. This shift reflects a return to the historical norm and highlights the flexibility of American politics. Notable victories include the election of a Democrat to the US Senate in Kansas for the first time since the Great Depression, and the re-election of Democratic senators in New Hampshire.",
           "theme": "#F7ECEE",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/nov/07/home-office-sued-the3million-eu-citizens-right-to-live-in-uk-pre-settled"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/09/politics/senate-delegations-2027-vis"
         },
         {
           "id": "pp-2",
@@ -42,7 +42,7 @@
           "url": "https://www.bbc.com/news/articles/cx240e5py64jo"
         },
         {
-          "id": "eb-1",
+          "id": "pp-1",
           "title": "HyperVerse Promoter Susan Lawrence Joins Wolverhampton City Council Committee",
           "image": "https://images.pexels.com/photos/8919512/pexels-photo-8919512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Wolverhampton, UK",
@@ -224,15 +224,15 @@
       "tint": "#F7F1DE",
       "cards": [
         {
-          "id": "pp-3",
-          "title": "Food stamp analyst sees $4 million retirement potential",
-          "image": "https://images.unsplash.com/photo-1540038797789-26b9fca820b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTI0NCUyMG1pbGxpb258ZW58MXwwfHx8MTc5NDEyMTE4OHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Bengaluru, India",
-          "time": "Nov 08, 2026",
-          "content": "Food stamp policy analyst Abbey Graf, 28, discovered her financial potential after a financial planner created a roadmap based on her income, expenses, and savings. The analysis showed that Abbey could potentially have $4 million if she retires at 65 or over $2.5 million if she retires early at 57. Abbey had previously been worried about her financial security due to social media comparisons, economic headlines, and rising costs. The projections changed her perception of what was possible, making her feel more comfortable taking vacations and trying new hobbies. The financial planner recommended Abbey take four action steps, and Abbey plans to slowly start taking them to avoid shocking her system.",
+          "id": "eb-3",
+          "title": "Nvidia CEO's tenure under threat over affair with suspected Chinese spy",
+          "image": "https://images.pexels.com/photos/34552796/pexels-photo-34552796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Nov 10, 2026",
+          "content": "Nvidia CEO Jensen Huang's 33-year tenure is under threat due to an extramarital affair with a customer being investigated for potential espionage. Huang's relationship with Alice Huang, who is suspected of feeding intelligence to China and smuggling AI chips into the country, has raised concerns over his future as CEO. The investigation, which is still ongoing, has sparked uncertainty about Nvidia's future, with the company's stock falling 6% Monday. Huang's leadership style, which has been described as demanding and intense, has been a key factor in Nvidia's success, but some experts believe that the company's bench is deep enough to continue without him. While Huang's potential departure would create uncertainty, it is unlikely to entirely upend the company's business, as major firms buying Nvidia's chips and software are unlikely to slash their capital spending.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/07/business/savings-challenge-participant-second-update-abbey-graf"
+          "url": "https://edition.cnn.com/2026/11/09/business/nvidia-survive-without-jensen-huang"
         },
         {
           "id": "eb-2",
