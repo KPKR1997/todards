@@ -1,0 +1,256 @@
+{
+    "date": "11112026",
+    "timestamp": "2026-11-11T11:59:25.556932",
+    "duration_seconds": 4390.52,
+    "stages_duration_seconds": {
+        "scrape": 993.84,
+        "guardrails": 152.56,
+        "deduplication": 12.78,
+        "category_validation": 219.94,
+        "ranking": 406.43,
+        "processing": 2604.89,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 7,
+            "Tech": 36,
+            "People": 54,
+            "Environment": 4,
+            "Economy": 10,
+            "Entertainment": 20
+        },
+        "total_scraped": 131,
+        "guardrail_passed": 131,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 11,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 131,
+        "classified_safe": 79,
+        "classified_unsafe": 52,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 52,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 119,
+        "rejected_count": 27,
+        "rejected_articles": [
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Anthropic's financial performance, revenue growth, and planned IPO, which are all relevant to the economy and business category."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the stock market, inflation, interest rates, and the potential impact of AI and oil prices on the market, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial performance and guidance of CoreWeave, a company that provides artificial intelligence infrastructure, and is therefore more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on the story of Syrian archaeologists and their efforts to rescue artifacts from a museum, which is a people-oriented story that highlights human history and trust during a crisis."
+            },
+            {
+                "title": "'You didn't even tell your best friend'. The complications from childbirth that never go away",
+                "from": "science and technology",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses physical complications from childbirth that can last beyond the early years, with a focus on medical issues and experiences."
+            },
+            {
+                "title": "Robot vessels take on the dangerous work of mine hunting",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the development and use of autonomous underwater vehicles for mine hunting, which is a scientific and technological advancement, rather than a people-focused story."
+            },
+            {
+                "title": "'It can kill us': Kenyans fear impact of El Niño with floods predicted",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the impact of El Niño weather phenomenon on Kenyans, particularly in relation to floods, which is a clear connection to the 'earth and environment' category."
+            },
+            {
+                "title": "Makers of GLP-1 drugs ordered to add warnings about rare eye condition that can lead to blindness",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article is primarily about a health-related issue, specifically a rare eye condition that can cause blindness, and its connection to certain medications and patient groups."
+            },
+            {
+                "title": "California police investigate after 27 fall ill at half-marathon running event",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article reports on a medical incident involving a large number of people seeking treatment, which is more relevant to the 'health' category than 'people'"
+            },
+            {
+                "title": "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on a political figure and their legal outcome, which is more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "Kim Kardashian's Skims offers refunds for $148 advent calendar after backlash",
+                "from": "economy and business",
+                "detected_category": "entertainment",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Kim Kardashian's Skims company and the backlash it received for its advent calendar, which is a celebrity and entertainment-related topic."
+            },
+            {
+                "title": "Robot vessels take on the dangerous work of mine hunting",
+                "from": "economy and business",
+                "detected_category": "science and technology",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the development and application of autonomous and unmanned systems in the field of mine hunting, which falls under the category of science and technology."
+            },
+            {
+                "title": "College basketball’s rules are being rewritten in real time. Coaches are scrambling to keep up",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the impact of college basketball's rules changes on coaches and players, which is a people-focused topic."
+            },
+            {
+                "title": "Jonathan Ross 'horrified' by Walliams allegations and Brand conviction",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal lives and scandals of three individuals, David Walliams, Russell Brand, and Jonathan Ross, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "David Walliams accused of sexual misconduct after losing injunction bid",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on David Walliams' personal life and allegations of sexual misconduct, which is a matter of public interest and falls under the 'people' category."
+            },
+            {
+                "title": "David Walliams accused of sexual misconduct after losing injunction bid",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about David Walliams' personal life and allegations of sexual misconduct, which falls under the 'people' category."
+            },
+            {
+                "title": "Cerys Matthews pays tribute to her family as she receives OBE",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Cerys Matthews' personal life and her receiving an OBE, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "David Walliams' career and controversies including Britain's Got Talent and Little Britain",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about David Walliams' career, controversies, and personal life, which are all related to the 'people' category."
+            },
+            {
+                "title": "David Walliams' career and controversies including Britain's Got Talent and Little Britain",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on David Walliams' personal life, career, and controversies, which falls under the 'people' category."
+            },
+            {
+                "title": "Met Police investigating more 'potential criminal allegations' about Brand",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the Russell Brand investigation and its consequences, which falls under the 'people' category."
+            },
+            {
+                "title": "Met Police investigating more 'potential criminal allegations' about Brand",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily reports on a person (Russell Brand) and his legal issues, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Cerys Matthews pays tribute to her family as she receives OBE",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Cerys Matthews' personal life, including her family and her OBE, which is a people-related topic."
+            },
+            {
+                "title": "Key dates and times for Yorkshire Christmas markets",
+                "from": "entertainment",
+                "detected_category": "earth and environment",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Christmas markets and events in Yorkshire, which is an environmental and cultural event, making it more relevant to the 'earth and environment' category."
+            },
+            {
+                "title": "Jonathan Ross 'horrified' by Walliams allegations and Brand conviction",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the alleged misconduct and convictions of celebrities David Walliams and Russell Brand, which is a people-related news story."
+            },
+            {
+                "title": "David Walliams accused of sexual misconduct after losing injunction bid",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal scandal and allegations of sexual misconduct against David Walliams, a public figure in the entertainment industry, rather than being about entertainment itself."
+            },
+            {
+                "title": "David Walliams' career and controversies including Britain's Got Talent and Little Britain",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on David Walliams' personal life, career, and controversies, which falls under the 'people' category."
+            },
+            {
+                "title": "Oscar-winner to shoot monkey dust movie in city",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article focuses on the problem of monkey dust drug use and its impact on the community, which is a health-related issue."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 381,
+        "total_failures": 0,
+        "total_time_seconds": 371.47,
+        "prompt_tokens": 521228,
+        "response_tokens": 9985,
+        "total_tokens": 531213,
+        "usage_responses": 381,
+        "prompt_eval_seconds": 107.108,
+        "generation_seconds": 221.145,
+        "load_seconds": 17.78,
+        "server_total_seconds": 368.033,
+        "avg_response_time": 0.97
+    }
+}

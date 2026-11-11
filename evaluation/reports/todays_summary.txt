@@ -1,17 +1,17 @@
-TODARDS LLM PIPELINE EVALUATION — 10112026
-Execution timestamp: 2026-11-10T10:40:06.589767
-Pipeline duration: 23.6 minutes
+TODARDS LLM PIPELINE EVALUATION — 11112026
+Execution timestamp: 2026-11-11T11:59:25.556932
+Pipeline duration: 73.2 minutes
 
 Here is the evaluation:
 
-**Overall Run Health:** The pipeline duration is 23.6 minutes, which is a significant decrease (-61.6%) compared to the previous recorded run. This suggests that the pipeline is running efficiently.
+**Overall Run Health:** The pipeline duration is 73.2 minutes, which is a significant increase (+210.7%) compared to the previous recorded run. This warrants investigation to determine the cause of the prolonged run time.
 
-**Scrape Volume:** The scraped article volume is 14, which is a significant decrease (83 to 14) compared to the previous recorded run. This could be due to changes in the data sources or the pipeline's ability to filter out irrelevant articles.
+**Scrape Volume:** The scraped article volume has increased significantly from 14 to 131, which is a positive trend.
 
-**Semantic Deduplication:** The pipeline removed 0 duplicate articles from 14 scraped articles, which is a low percentage (0.0%) of the scraped volume. This suggests that the deduplication process is effective in removing duplicate articles.
+**Semantic Deduplication:** No duplicate articles were removed, which is consistent with the previous recorded run.
 
-**Source/Category Ingestion Anomalies:** There are no anomalies reported in the evidence-based observations.
+**Source/Category Ingestion Anomalies:** No anomalies were detected in the source/category ingestion metrics.
 
-**LLM Performance:** The LLM performance metrics are all within normal ranges, with no failures reported. The average response time is 1.54 seconds, which is acceptable.
+**LLM Performance:** The LLM performed well, with no failures and an average response time of 0.97 seconds. The total time spent in LLM calls was 371.47 seconds, which is relatively low.
 
-**Next Practical Check:** Investigate the reason for the significant decrease in scraped article volume compared to the previous recorded run. This could be due to changes in the data sources or the pipeline's ability to filter out irrelevant articles.
+**Next Practical Check:** Investigate the cause of the prolonged pipeline duration to ensure that it is not a sign of a larger issue. Additionally, review the LLM performance metrics to ensure that they are within expected ranges.

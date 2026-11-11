@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 90",
+    "issue": "Issue No. 91",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "10 November 2026",
+    "publishedAt": "11 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Democrats Win Big in Red States, Breaking Polarization",
-          "image": "https://images.pexels.com/photos/8847039/pexels-photo-8847039.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
-          "time": "Nov 10, 2026",
-          "content": "In the midterm elections, Democrats made significant gains in traditionally red states, reversing a trend of polarization on Capitol Hill. Heading into the elections, there were only four split Senate delegations, the fewest since 1914. However, come January, there will be at least 10 such delegations, with up to 12 possible if certain races in Mississippi and Alaska are won by Democratic candidates. This shift reflects a return to the historical norm and highlights the flexibility of American politics. Notable victories include the election of a Democrat to the US Senate in Kansas for the first time since the Great Depression, and the re-election of Democratic senators in New Hampshire.",
+          "title": "House Democrats Demand Trump Documents Be Retained",
+          "image": "https://images.unsplash.com/photo-1761001316205-3f36441846b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VHJ1bXAlMjBhZG1pbmlzdHJhdGlvbnxlbnwxfDB8fHwxNzk0Mzc3MTE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington",
+          "time": "Nov 11, 2026",
+          "content": "House Democrats are demanding that the Interior Department retain documents related to President Donald Trump's construction projects around Washington after whistleblowers warned that key paperwork has already been destroyed before Democrats take power. The warnings come as the Trump administration is signaling it will accelerate plans for moving ahead with the projects, a key part of what the president sees as his legacy. The top Democrat in the House Natural Resources committee, Rep. Jared Huffman, plans to issue letters to the Interior Department and other federal agencies and private companies, requesting that they preserve all records and data responsive to oversight. Multiple credible whistleblowers have approached Huffman's committee in recent weeks to voice concern that the Interior Department is getting rid of records in anticipation of forthcoming scrutiny. The agency oversees much of the national parkland Trump wants to use for his projects.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/09/politics/senate-delegations-2027-vis"
+          "url": "https://edition.cnn.com/2026/11/10/politics/trump-building-investigation-democrats-house-natural-resources"
         },
         {
           "id": "pp-2",
-          "title": "Gaza Tent Floods Leave Thousands Homeless",
-          "image": "https://images.pexels.com/photos/36038665/pexels-photo-36038665.png?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Gaza, Palestine",
-          "time": "Nov 08, 2026",
-          "content": "Heavy rains have flooded tens of thousands of tents in Gaza, leaving displaced residents without shelter. The desperate situation is worsened by Israeli restrictions on the entry of supplies and heavy machinery, according to Jonathan Veitch, the Unicef representative for Palestine. The flooding has left many without access to clean water and sanitation, and aid agencies warn that the situation is likely to worsen with the start of the rainy season. The UN has reported that almost everyone in Gaza needs help, with over 90% of residents displaced by the Israeli war against Hamas. Gaza's Hamas-run government estimates that about 70,000 tents have been flooded, causing injuries and leaving many families without a safe place to live.",
+          "title": "US Charges Iran-Backed Operatives Over Terror Plots in US and Europe",
+          "image": "https://images.unsplash.com/photo-1721421114640-f34237d9fcdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VVMlMjBEZXBhcnRtZW50JTIwb2YlMjBKdXN0aWNlfGVufDF8MHx8fDE3OTQzNzczMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Cotswolds, Gloucestershire, UK",
+          "time": "Nov 11, 2026",
+          "content": "The US Department of Justice (DOJ) has announced charges against three Iran-backed operatives for their alleged involvement in a string of plots in the US and Europe. The DOJ claims that the trio orchestrated a terrorist plot at an air force base in the UK, which led to the declaration of a major incident in September. The suspects allegedly planned attacks in Europe, including seven incidents in the UK, and were involved in nearly 20 attempted attacks in support of Iran's Islamic Revolutionary Guard Corps and the Iran-backed Iraqi militia Kataib Hezbollah. The FBI Director has described the accused as determined to commit terrorist attacks in Europe and the US, and the suspects' actions allegedly included arranging logistics for the RAF Fairford terrorist plot and procuring materials to use in the attacks.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cx240e5py64jo"
+          "url": "https://www.bbc.com/news/articles/c3rryrryk59zo"
         },
         {
           "id": "pp-1",
-          "title": "HyperVerse Promoter Susan Lawrence Joins Wolverhampton City Council Committee",
-          "image": "https://images.pexels.com/photos/8919512/pexels-photo-8919512.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Wolverhampton, UK",
-          "time": "Nov 08, 2026",
-          "content": "Susan Lawrence, a woman who promoted the notorious HyperVerse cryptocurrency scheme, has been elected as a Reform UK councillor and now sits on the audit and risk committee of Wolverhampton city council. The scheme, which was an alleged 'pyramid and Ponzi scheme', cheated investors worldwide out of $1.89 billion. Lawrence, who lost her pension and tens of thousands of pounds in the scheme, is now part of the committee that reviews governance and risk management, as well as the financial reporting of the council's multimillion-pound budget. She promoted the scheme, and later variations of it, even after the UK's Financial Conduct Authority issued a consumer warning. Lawrence has not been accused of wrongdoing by authorities and has been linked to other cryptocurrency schemes. A spokesperson for Reform UK stated that she was one of many victims of the scam, losing her pension and tens of thousands of pounds.",
+          "title": "California voters reject billion-dollar wealth tax",
+          "image": "https://images.unsplash.com/photo-1593672755342-741a7f868732?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTI0MSUyMGJpbGxpb24lMjB3ZWFsdGh8ZW58MXwwfHx8MTc5NDM3NzgwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "California, USA",
+          "time": "Nov 11, 2026",
+          "content": "California voters rejected Proposition 40, a one-time 5% wealth tax on residents with a net worth of over $1 billion. The measure's opponents, backed by billionaire funders and groups, spent tens of millions of dollars on ads against the proposition. Proponents argued the tax was necessary to address federal healthcare spending cuts and estimated it could raise $100 billion, enough to cover the shortfall for about five years. The battle over Proposition 40 was one of the most expensive political fights in the country, with Google co-founder Sergey Brin funneling $100 million to a group trying to defeat the tax. California's Democratic Gov. Gavin Newsom and Gov.-elect Xavier Becerra opposed the measure, while progressive Sen. Bernie Sanders and Rep. Ro Khanna supported it.",
           "theme": "#F7F1DE",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/nov/07/reform-uk-councillor-promoted-alleged-ponzi-scheme-hyperverse"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/10/politics/california-voters-wealth-tax-billionaires"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Meta's Chief Strategy Officer Dave Wehner Joins AI Startup Fireworks as CFO",
-          "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTQxMTk5Mzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Bengaluru, India",
-          "time": "Nov 08, 2026",
-          "content": "Dave Wehner, Meta's chief strategy officer, is leaving the company to join Fireworks, an AI startup, as its new CFO. Wehner will be responsible for scaling the company's finances and operations, as Fireworks continues to grow. At Fireworks, Wehner will be part of the company's leadership team as it focuses on developing open models for businesses. Fireworks is an AI inference and model-training platform that has gained significant traction, with a valuation of $17.5 billion following its Series D fundraising round in July. The company has attracted significant investment from major firms, including Atreides Management, Index Ventures, and TCV. Wehner joins Fireworks at a time when the company is in early talks to raise funds again at a possible valuation of $30 billion to $40 billion. Fireworks is smaller than Meta, which has a market capitalization of $1.56 trillion, and its competitors, OpenAI and Anthropic. The company has faced some security incidents, but has ensured that there was no unauthorized access to customer data.",
+          "title": "Scientists Control Atomic Nucleus Spin Using Radio Waves",
+          "image": "https://images.unsplash.com/photo-1666112835156-c65bb806ac73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YXRvbWljJTIwbWFnbmV0aXNtfGVufDF8MHx8fDE3OTQzNzY1NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Delft, Netherlands",
+          "time": "Nov 11, 2026",
+          "content": "Scientists at Delft University of Technology have made a breakthrough in controlling the magnetic spin of a single atomic nucleus using radio waves. The experiment, published in Nature Communications, challenges their understanding of atomic magnetism by showing that nuclear spin can be manipulated under conditions where it was not expected to respond. Unlike electron spin, nuclear spin is extremely weak and better shielded from its surroundings. The researchers used a modified scanning tunneling microscope to direct electrical signals at individual atoms, achieving control by adapting double magnetic resonance to work with a single atom. This breakthrough could support new methods for storing and reading quantum information in the future, but practical applications remain uncertain. Further investigation is needed to understand the physical mechanism behind the observed behavior.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/07/dave-wehner-meta-fireworks-cfo.html"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/this-should-not-happen-scientists-discover-a-strange-new-way-to-control-atoms/"
         },
         {
           "id": "st-2",
-          "title": "Ancient Colombian Seas Had Top Predators, Rewriting Evolutionary Understanding",
-          "image": "https://images.unsplash.com/photo-1711075741270-b71059da26c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cHJlaGlzdG9yaWMlMjBzZWElMjBjcmVhdHVyZXN8ZW58MXwwfHx8MTc5Mzg1NTc2NXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Villa de Leyva, Colombia",
-          "time": "Nov 05, 2026",
-          "content": "In a groundbreaking discovery, scientists have uncovered an extraordinary diversity of top predators in ancient seas that once covered central Colombia, roughly 120 million years ago. The findings, published in Frontiers in Ecology and Evolution, suggest that major evolutionary changes can occur without a mass extinction. The Paja Biota, a complex marine community, was home to giant marine reptiles, marine crocodile relatives, turtles, sharks, and other animals that formed a highly complex food web. Researchers believe that greenhouse temperatures, high sea levels, and nutrient-rich coastal waters contributed to this exceptional biodiversity, and propose the term 'Biotic Inflection' to describe this period of evolutionary change. The study's findings have the potential to rewrite our understanding of how life on Earth has evolved over time.",
+          "title": "SoftBank Reports $7 Billion Net Loss Amid AI Investments",
+          "image": "https://images.unsplash.com/photo-1642775196125-38a9eb496568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUklMjBkYXRhJTIwY2VudGVyfGVufDF8MHx8fDE3OTQzNzY4NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
+          "time": "Nov 11, 2026",
+          "content": "SoftBank, a Japanese investment giant, reported a net loss of $7 billion in its fiscal second quarter, mainly due to losses tied to AI data center equipment procurement and Intel share declines. The company also recorded a $3.7 billion loss in the six months ended September 30, largely due to changes in procurement plans for power generation equipment for AI data center projects in the US. SoftBank's Vision Fund segment swung to a loss, while its AI computing segment saw higher revenue. The company's Vision Funds segment recorded investment gains, and its cumulative investment in OpenAI stands at $54.6 billion, with a fair value of $99.6 billion. SoftBank shares closed 13.9% higher following the earnings release, with the company highlighting its AI infrastructure investments, including a 20-year lease agreement with OpenAI for eight gigawatts of IT capacity at a data center project in Ohio.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/120-million-years-ago-something-extraordinary-was-happening-in-earths-oceans/"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html"
         },
         {
           "id": "t-3",
-          "title": "SpaceX partners with Qualcomm for Starlink Mobile network tech",
-          "image": "https://images.unsplash.com/photo-1602823284936-463177448097?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y2VsbCUyMHRvd2VyfGVufDF8MHx8fDE3OTM4NTU5ODh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
-          "time": "Nov 05, 2026",
-          "content": "SpaceX, a satellite-based internet service provider, has announced a partnership with chipmaker Qualcomm to provide key network technology for its Starlink Mobile service. The partnership, which will start next year, will enable high-capacity coverage for Starlink Mobile users, allowing them to access voice, video, and data services. This marks a significant step for SpaceX, which has been working to expand its mobile offerings beyond its satellite network. The company has been snapping up spectrum and forging partnerships to take on major mobile carriers, such as Verizon, AT&T, and T-Mobile. Qualcomm will provide its Dragonwing cellular infrastructure hardware and software for the project, and the two companies will work together to establish tens of thousands of new cell sites. This partnership is a major win for Qualcomm, which has been pushing into the 5G infrastructure market since 2020. With this deal, SpaceX will be able to offer its customers a more comprehensive mobile service, which could give it a competitive edge in the market.",
+          "title": "New Broadway Musical 'Galileo' Brings Astronomer's Story to Life",
+          "image": "https://images.unsplash.com/photo-1614089254151-676cc373b01e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8UmVuYWlzc2FuY2UlMjBhc3Ryb25vbXl8ZW58MXwwfHx8MTc5NDM3Njk3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "New York City, USA",
+          "time": "Nov 11, 2026",
+          "content": "A new Broadway musical, 'Galileo,' brings the life of the pioneering astronomer Galileo Galilei to the stage. The show, which opens December 6 at the Shubert Theatre in New York City, features Raúl Esparza and Joy Woods, and tells the story of Galileo's defiance of the Roman Catholic Church's dogma, which led to his fall from favor and eventual house arrest. Director Michael Mayer and coproducer Neil deGrasse Tyson hope that the show's themes of standing up for what is objectively true against dogmatic forces will resonate with audiences in today's political climate. The musical draws heavily on real events, including Galileo's experiments and his confrontation with the Roman Inquisition, and features stunning effects designed by Ethan Tobman, the creative director for Taylor Swift's Eras Tour.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/04/spacex-strikes-deal-with-qualcomm-for-mobile-network-infrastructure.html"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/10/science/galileo-broadway-musical"
         }
       ]
     },
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "Heart Drug Fails to Reduce Risk in Large Study, Raises Questions",
-          "image": "https://images.unsplash.com/photo-1460672985063-6764ac8b9c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QW1lcmljYW4lMjBIZWFydCUyMEFzc29jaWF0aW9ufGVufDF8MHx8fDE3OTQxMTk0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Cleveland, USA",
-          "time": "Nov 08, 2026",
-          "content": "The American Heart Association's annual conference will witness a significant revelation as Dr. Steven Nissen presents the results of a large study testing an experimental drug, pelacarsen, designed to lower the risk of heart attack and stroke. Despite initial expectations, the drug failed to show any positive impact on the risk of major cardiovascular events, including heart attacks, strokes, and cardiovascular death. The study, which randomly divided 8,350 people into two groups, found that patients taking pelacarsen had lower levels of lipoprotein (a) but experienced the same risk of heart-related events as those taking a placebo. The failure of the drug raises questions about the role of lipoprotein (a) in the development of cardiovascular disease and may prompt cardiologists to re-evaluate their approach to heart health. The study's results, published in the New England Journal of Medicine, highlight the importance of conducting thorough and well-designed studies in the scientific community, even when the results are not what was expected.",
+          "title": "Alzheimer's Breakthrough: Specific Brain Cells Linked to Disease",
+          "image": "https://images.unsplash.com/photo-1679639539537-0d2e452890f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X2JyYWluJTIwY2VsbHN8ZW58MXwwfHx8MTc5NDM3NjEzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Amsterdam, Netherlands",
+          "time": "Nov 11, 2026",
+          "content": "A massive genetic analysis of 2.8 million people has led to a breakthrough in understanding Alzheimer's disease, revealing specific brain cells that may influence the condition. The study, published in Nature, identified 127 regions of human DNA associated with Alzheimer's risk, including 48 previously unknown. Researchers found that microglia, immune cells in the brain, and specific types of nerve cells may play a key role in the disease's development. The findings provide new leads for investigating potential treatments and offer a more detailed view of the biological processes involved. The study's lead, Danielle Posthuma, emphasized the importance of connecting genetic risk factors to specific biological processes, which can help in identifying potential targets for treatment.",
           "theme": "#E8F5F1",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/07/health/novartis-pelacarsen-heart-drug-trial"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/massive-study-of-2-8-million-people-reveals-new-secrets-of-alzheimers-disease/"
         },
         {
           "id": "hw-3",
-          "title": "Simple Salt Change Could Prevent 3 Million Deaths Annually",
-          "image": "https://images.unsplash.com/photo-1518110925495-5fe2fda0442c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8UG90YXNzaXVtLWVucmljaGVkJTIwc2FsdHxlbnwxfDB8fHwxNzk0MTE5NjUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global",
-          "time": "Nov 08, 2026",
-          "content": "With a simple change to everyday salt, millions of deaths and cases of cardiovascular and kidney disease could be prevented worldwide, suggests a new global study. The researchers analyzed how replacing ordinary salt with potassium-enriched salt could impact the world's 4.6 billion adults, finding that even limited changes could produce substantial health gains. The study, led by The George Institute for Global Health, estimates that such a switch could prevent nearly three million deaths and over ten million new cases of cardiovascular and kidney disease annually. The findings suggest that potassium-enriched salt, which contains less sodium and more potassium, could help lower blood pressure and reduce the risk of life-threatening conditions like strokes and heart attacks. The study's modeling also showed that targeted approaches, such as replacing salt in household table salt or in processed and restaurant foods, could produce significant health benefits, with the greatest potential in countries like China, India, and the United States. However, the researchers emphasize that people with kidney disease or those taking certain medications that increase blood potassium levels should take precautions and consult with healthcare professionals.",
+          "title": "ER Doctor Fails to Recognize Rare Condition, Baby Dies",
+          "image": "https://images.unsplash.com/photo-1631941618536-2979d565b726?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dmFjY2luYXRpb258ZW58MXwwfHx8MTc5NDM3NjMyNHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Texas",
+          "time": "Nov 11, 2026",
+          "content": "Stephanie and Eric Biesenbach took their 11-day-old daughter Gwen to the emergency room when she started bleeding from her belly button. Despite the ER doctor, Nicole Malouf, trying various methods to stop the bleeding, Gwen's condition continued to deteriorate. Malouf failed to recognize the signs of vitamin K deficiency bleeding, a rare but potentially life-threatening condition, and did not give Gwen the vitamin K shot. Gwen's bleeding worsened, and she eventually died. An investigation by the Texas Medical Board found that Malouf had failed to meet the standard of care in her treatment of Gwen and that her lack of timely care ultimately resulted in Gwen's death. Malouf was required to take 24 hours of continuing medical education and inform her employers of the disciplinary action taken against her.",
           "theme": "#E8F5F1",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/a-healthier-form-of-salt-could-prevent-nearly-3-million-deaths-every-year-scientists-say/"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/10/health/vitamin-k-infant-bleeding"
         }
       ]
     },
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Comedian Karen Dunbar Cancels Tour Amid Payment Dispute",
-          "image": "https://images.unsplash.com/photo-1611956425642-d5a8169abd63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Y29tZWR5JTIwc2hvd3xlbnwxfDB8fHwxNzkzODU3NDU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Greenock, Scotland",
-          "time": "Nov 05, 2026",
-          "content": "Comedian Karen Dunbar has canceled most of her upcoming tour due to a dispute with her promoter, Breakneck Comedy. She claims she hasn't been paid for most of the shows, while the promoter disputes her claims, saying she was asked to renegotiate her fees to help the company minimize losses. As a result, nearly all of the remaining 20 shows have been axed, except for three performances in Greenock, Peebles, and Shotts, which will be promoted by a different company, Punchline Promotions. Dunbar has advised fans with tickets to seek refunds and expects the situation to end up in court.",
+          "title": "Shadowbox Studios hosts major film and TV productions",
+          "image": "https://images.unsplash.com/photo-1604513843888-824303218a45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cmVhZGluZyUyMHN0dWRpb3xlbnwxfDB8fHwxNzk0Mzc4MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Wokingham, UK",
+          "time": "Nov 11, 2026",
+          "content": "Shadowbox Studios in Shinfield, Wokingham, is a state-of-the-art complex with 18 sound stages, including two with over 40,000 square feet of floor space each. The studios have hosted major film and television productions such as Avengers: Doomsday, Ghostbusters: Frozen Empire, Squid Game: The Challenge, and Ebenezer, starring Johnny Depp and Rupert Grint. With its climate controls, soundproofing, and large stages, the complex can be transformed into different worlds for various productions, making it an attractive location for filmmakers. The UK's film and television industry is growing, with spending reaching £6.8 billion in 2025, and the country's variety of landscapes and historic locations also makes it an attractive location for shoots.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq5yn338mlyvo"
+          "url": "https://www.bbc.com/news/articles/cmd93wn2djz3o"
         },
         {
           "id": "ent-2",
-          "title": "Rod Argent returns to stage after two-and-a-half-year hiatus",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Rod_Argent_in_September_2019.jpg/500px-Rod_Argent_in_September_2019.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "St Albans, UK",
-          "time": "Nov 03, 2026",
-          "content": "The Zombies' founding member Rod Argent, 81, returned to the stage after a two-and-a-half-year hiatus following a stroke. He joined bandmate Colin Blunstone at St Albans Cathedral as part of the band's annual Begin Here Festival, receiving a standing ovation from the audience. Argent initially thought he had suffered a transient ischaemic attack, but hospital tests confirmed it was a stroke. He expressed gratitude for the audience's emotional reaction, saying it was 'very moving.' Argent also praised his wife for her support during his recovery, stating that he wants to spend more time with her, rather than touring again.",
+          "title": "Series Breaks Sales Records with Sixth Installment",
+          "image": "https://images.unsplash.com/photo-1723831101652-c03827729b5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RmFudGFzeSUyMG5vdmVsc3xlbnwxfDB8fHwxNzk0Mzc4MzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Australia",
+          "time": "Nov 11, 2026",
+          "content": "Sarah J Maas's blockbuster series, A Court of Thorns and Roses, has broken sales records with its sixth book, A Court of Splintered Harmony. The series, known for its brutal wars, faeries, and spicy sex scenes, has become a dominating force in fiction, particularly among women under 35. The success of Maas's series has been driven by BookTok, a section of TikTok dedicated to book commentary, and the author has sold over 100 million copies worldwide. The series is a blend of romance and fantasy, also known as romantasy, which has become a multi-million-dollar subgenre. According to Dr. Jodi McAlister, the series' appeal lies in its complex world-building, intricate plotlines, and the promise of a happy ending, providing a comforting escape for readers.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cr93z4p4w9k2o"
+          "url": "https://www.bbc.com/culture/article/20261109-a-court-of-splintered-harmony-why-the-latest-mega-hit-acotar-romantasy-is-dividing-readers"
         },
         {
           "id": "ent-3",
-          "title": "Courteeners to headline Live at Ludlow Castle with The Coral and The Guest List",
-          "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTQwTGl2ZU11c2ljfGVufDF8MHx8fDE3OTM2NzI1NjJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Ludlow",
-          "time": "Nov 03, 2026",
-          "content": "Indie rock band Courteeners are the latest headlining act to be announced for the annual Live at Ludlow Castle events, joining The Coral and The Guest List as supporting acts on July 16, 2027. The band, known for their 2008 debut album St. Jude, is also promoting their new best-of compilation album, God Bless The Band, which features songs from their seven albums. They will be performing at the concert series, which has been running since 2023 and has seen 50,000 people attend over two weekends. Tickets for the Courteeners will go on sale on November 4 and 6. The band has been together for 20 years and has a history-making album, St. Jude, which took 14 years, 9 months, and 7 days to top the UK chart in 2023.",
+          "title": "ITV Wales cuts programs, reduces staff in cost-saving moves",
+          "image": "https://images.unsplash.com/photo-1618172775375-054dc107af70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8X0lUViUyMFdhbGVzJTIwbG9nb3xlbnwxfDB8fHwxNzk0Mzc4NTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Cardiff, Wales",
+          "time": "Nov 11, 2026",
+          "content": "ITV Wales is planning to cut two long-running programs, Coast and Country and Backstage, as part of cost-cutting measures. The broadcaster aims to reduce the number of producer roles from six to two and make more programs in the studio rather than on location. These changes will not affect the news and current affairs programs, and ITV Wales is consulting with staff about the proposals. The move is part of efforts to ease cost pressure amid the industry's significant economic strain. ITV Wales is also restructuring its teams to work more flexibly, while protecting its commitments to the audience and regulator, Ofcom. In related news, Sky has agreed to buy ITV's broadcasting and streaming operations in a deal worth £1.6bn, subject to scrutiny and expected to complete in late 2027. Meanwhile, BBC Wales has announced 58 job cuts as part of efforts to save £500m.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckrey4w03nwro"
+          "url": "https://www.bbc.com/news/articles/cm5ynyz7e2qro"
         }
       ]
     },
