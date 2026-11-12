@@ -1,17 +1,14 @@
-TODARDS LLM PIPELINE EVALUATION — 11112026
-Execution timestamp: 2026-11-11T11:59:25.556932
-Pipeline duration: 73.2 minutes
+TODARDS LLM PIPELINE EVALUATION — 12112026
+Execution timestamp: 2026-11-12T09:22:20.070315
+Pipeline duration: 171.4 minutes
 
-Here is the evaluation:
+LLM evaluation unavailable: Ollama did not return an evaluation.
+Reason: URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
 
-**Overall Run Health:** The pipeline duration is 73.2 minutes, which is a significant increase (+210.7%) compared to the previous recorded run. This warrants investigation to determine the cause of the prolonged run time.
-
-**Scrape Volume:** The scraped article volume has increased significantly from 14 to 131, which is a positive trend.
-
-**Semantic Deduplication:** No duplicate articles were removed, which is consistent with the previous recorded run.
-
-**Source/Category Ingestion Anomalies:** No anomalies were detected in the source/category ingestion metrics.
-
-**LLM Performance:** The LLM performed well, with no failures and an average response time of 0.97 seconds. The total time spent in LLM calls was 371.47 seconds, which is relatively low.
-
-**Next Practical Check:** Investigate the cause of the prolonged pipeline duration to ensure that it is not a sign of a larger issue. Additionally, review the LLM performance metrics to ensure that they are within expected ranges.
+Metrics-based observations (not an LLM-generated assessment):
+- Pipeline duration: 171.4 minutes.
+- Semantic deduplication removed 0 duplicate articles from 119 scraped articles (0.0% of scraped volume; the count is relative to total scraped articles).
+- Pipeline duration changed +134.2% versus the previous recorded run.
+- Scraped article volume changed from 131 to 119 versus the previous recorded run.
+- Duplicates removed changed from 0 to 0 versus the previous recorded run.
+- Check that Ollama is running and TODARDS_OLLAMA_MODEL names an installed model.

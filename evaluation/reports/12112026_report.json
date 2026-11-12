@@ -1,0 +1,66 @@
+{
+    "date": "12112026",
+    "timestamp": "2026-11-12T09:22:20.070315",
+    "duration_seconds": 10282.43,
+    "stages_duration_seconds": {
+        "scrape": 1088.36,
+        "guardrails": 4107.86,
+        "deduplication": 10.39,
+        "category_validation": 2083.86,
+        "ranking": 2555.45,
+        "processing": 436.48,
+        "assembly": 0.01
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 3,
+            "Tech": 30,
+            "People": 47,
+            "Environment": 7,
+            "Economy": 4,
+            "Entertainment": 28
+        },
+        "total_scraped": 119,
+        "guardrail_passed": 119,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 0,
+        "final_categories": 0
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 119,
+        "classified_safe": 0,
+        "classified_unsafe": 0,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 0,
+        "unclassified": 119,
+        "unclassified_retained": 119,
+        "model_errors": 119,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 114,
+        "rejected_count": 0,
+        "rejected_articles": []
+    },
+    "llm_performance": {
+        "total_calls": 590,
+        "total_failures": 590,
+        "total_time_seconds": 2410.06,
+        "prompt_tokens": 0,
+        "response_tokens": 0,
+        "total_tokens": 0,
+        "usage_responses": 0,
+        "prompt_eval_seconds": 0.0,
+        "generation_seconds": 0.0,
+        "load_seconds": 0.0,
+        "server_total_seconds": 0.0,
+        "avg_response_time": 4.08
+    }
+}
