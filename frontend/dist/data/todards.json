@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 92",
+    "issue": "Issue No. 93",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "12 November 2026",
+    "publishedAt": "13 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Scientists Control Atomic Nucleus Spin Using Radio Waves",
-          "image": "https://images.unsplash.com/photo-1666112835156-c65bb806ac73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YXRvbWljJTIwbWFnbmV0aXNtfGVufDF8MHx8fDE3OTQzNzY1NzZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Delft, Netherlands",
-          "time": "Nov 11, 2026",
-          "content": "Scientists at Delft University of Technology have made a breakthrough in controlling the magnetic spin of a single atomic nucleus using radio waves. The experiment, published in Nature Communications, challenges their understanding of atomic magnetism by showing that nuclear spin can be manipulated under conditions where it was not expected to respond. Unlike electron spin, nuclear spin is extremely weak and better shielded from its surroundings. The researchers used a modified scanning tunneling microscope to direct electrical signals at individual atoms, achieving control by adapting double magnetic resonance to work with a single atom. This breakthrough could support new methods for storing and reading quantum information in the future, but practical applications remain uncertain. Further investigation is needed to understand the physical mechanism behind the observed behavior.",
+          "title": "Scientists discover enzyme to break down stubborn plastic",
+          "image": "https://images.unsplash.com/photo-1638258581353-0ab658542e73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZW56eW1lc3xlbnwxfDB8fHwxNzk0NTQxNjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Aarhus, Denmark",
+          "time": "Nov 13, 2026",
+          "content": "Scientists have made a breakthrough in recycling a stubborn plastic, polyurethane foam, by discovering an enzyme found in compost that can break it down. This finding is significant because polyurethane is notoriously difficult to recycle and most of it ends up in landfills or incinerators. The researchers from Aarhus University and the Danish Technological Institute isolated the enzyme from a bacterium in compost and tested its ability to break down polyurethane foam. They found that the enzyme, called CC PUR1, can break down small amounts of polyurethane foam, and it has several useful characteristics, such as its ability to withstand high temperatures and a range of solvents. The team has since worked to improve the enzyme and is exploring ways to use it to recycle polyurethane on an industrial scale. This breakthrough has the potential to make a significant impact on the recycling industry and could help to reduce the amount of polyurethane that ends up in landfills or incinerators.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/this-should-not-happen-scientists-discover-a-strange-new-way-to-control-atoms/"
+          "url": "https://scitechdaily.com/scientists-discover-a-powerful-plastic-eating-enzyme-hiding-in-an-ordinary-compost-heap/"
         },
         {
           "id": "st-2",
-          "title": "SoftBank Reports $7 Billion Net Loss Amid AI Investments",
-          "image": "https://images.unsplash.com/photo-1642775196125-38a9eb496568?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QUklMjBkYXRhJTIwY2VudGVyfGVufDF8MHx8fDE3OTQzNzY4NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "United States",
-          "time": "Nov 11, 2026",
-          "content": "SoftBank, a Japanese investment giant, reported a net loss of $7 billion in its fiscal second quarter, mainly due to losses tied to AI data center equipment procurement and Intel share declines. The company also recorded a $3.7 billion loss in the six months ended September 30, largely due to changes in procurement plans for power generation equipment for AI data center projects in the US. SoftBank's Vision Fund segment swung to a loss, while its AI computing segment saw higher revenue. The company's Vision Funds segment recorded investment gains, and its cumulative investment in OpenAI stands at $54.6 billion, with a fair value of $99.6 billion. SoftBank shares closed 13.9% higher following the earnings release, with the company highlighting its AI infrastructure investments, including a 20-year lease agreement with OpenAI for eight gigawatts of IT capacity at a data center project in Ohio.",
+          "title": "Scientists Expand Search for Life Beyond Earth to Venus and Other Places",
+          "image": "https://images.unsplash.com/photo-1768387714768-60982681d9cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VmVudXMlMjBhdG1vc3BoZXJlfGVufDF8MHx8fDE3OTQ1NDIwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Venus",
+          "time": "Nov 13, 2026",
+          "content": "Scientists are expanding their search for life beyond Earth, exploring unusual places and using innovative methods to detect signs of life. One such place is Venus, where hints of a gas called phosphine were detected in 2020, which could be produced by life. A small spacecraft called Verve is planned to probe the atmosphere of Venus for signs of phosphine and life. Another mission, Morning Star, will launch a probe to Venus to search for signs of life through fluorescence. The search for life is not limited to Venus, as other unexpected locations like Ceres, a dwarf planet in the asteroid belt, are also being investigated. While life on Earth requires liquid water and a source of energy, scientists are considering the possibility that life on other planets might not share these common requirements, making the search for life beyond Earth even more intriguing.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/10/softbank-2q-earnings-tech-selloff.html"
+          "source": "BBC",
+          "url": "https://www.bbc.com/future/article/20261111-ice-covered-oceans-and-bleak-craters-where-alien-life-might-be-heading"
         },
         {
           "id": "t-3",
-          "title": "New Broadway Musical 'Galileo' Brings Astronomer's Story to Life",
-          "image": "https://images.unsplash.com/photo-1614089254151-676cc373b01e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8UmVuYWlzc2FuY2UlMjBhc3Ryb25vbXl8ZW58MXwwfHx8MTc5NDM3Njk3N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "New York City, USA",
-          "time": "Nov 11, 2026",
-          "content": "A new Broadway musical, 'Galileo,' brings the life of the pioneering astronomer Galileo Galilei to the stage. The show, which opens December 6 at the Shubert Theatre in New York City, features Raúl Esparza and Joy Woods, and tells the story of Galileo's defiance of the Roman Catholic Church's dogma, which led to his fall from favor and eventual house arrest. Director Michael Mayer and coproducer Neil deGrasse Tyson hope that the show's themes of standing up for what is objectively true against dogmatic forces will resonate with audiences in today's political climate. The musical draws heavily on real events, including Galileo's experiments and his confrontation with the Roman Inquisition, and features stunning effects designed by Ethan Tobman, the creative director for Taylor Swift's Eras Tour.",
+          "title": "Cisco Shares Soar as Revenue and Profits Surpass Expectations",
+          "image": "https://images.pexels.com/photos/4497197/pexels-photo-4497197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "San Jose, USA",
+          "time": "Nov 13, 2026",
+          "content": "Cisco's shares rose in extended trading after the company reported better-than-expected fiscal first-quarter results. The revenue increased 24% from $14.88 billion a year earlier, and net income rose to $4.6 billion. Cisco is trying to gain a foothold in the artificial intelligence buildout. The company's stock price is up about 35% this year, trouncing the Nasdaq, which has gained 9% over that stretch. Cisco raised its expectation for AI infrastructure revenue from hyperscalers to $9 billion this fiscal year. For the fiscal second quarter, the company expects revenue of between $18 billion and $18.2 billion, topping the average analyst estimate. The company is projecting adjusted earnings per share of $1.34 to $1.36, beating the $1.23 average estimate.",
           "theme": "#EBF2FA",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/10/science/galileo-broadway-musical"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
         }
       ]
     },
@@ -139,14 +139,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "India Hit by Extreme Weather Events on 92% of Days in 2026, Resulting in 3,220 Deaths",
-          "image": "https://images.unsplash.com/photo-1630260643564-7f9c9c140682?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8SW5kaWFuJTIwd2VhdGhlciUyMG1hcHxlbnwxfDB8fHwxNzkzODU2ODA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "India",
-          "time": "Nov 05, 2026",
-          "content": "In the first nine months of 2026, India experienced extreme weather events on 92% of days, resulting in 3,220 deaths, damage to 4.25 million hectares of crops, and the destruction of 128,334 houses. Uttar Pradesh and Himachal Pradesh were the most affected, with Uttar Pradesh reporting the highest death toll. The report also found that nearly every part of India was affected, with over 16,000 deaths and 20.6 million hectares of crops damaged between 2022 and 2026.",
+          "title": "Uncovering Earth's Missing Chapter: Researchers Solve Great Unconformity Mystery",
+          "image": "https://images.unsplash.com/photo-1767321337428-9b9d16a442c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Z2VvbG9naWNhbCUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzk0NTQzMzUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "University of Wollongong",
+          "time": "Nov 13, 2026",
+          "content": "Researchers at the University of Wollongong have uncovered a missing chapter in Earth's geological history, which spans over a billion years. The Great Unconformity, a vast gap in the Earth's record, was previously unexplained. Scientists Santosh Dhungana and Nicolas Flament propose that the slow rise and fall of continents over hundreds of millions of years created this gap. Their study, published in Nature, suggests that hot rock currents in the mantle moved the continents vertically, causing sedimentary rocks from the Cambrian period to rest directly on much older crystalline rocks. The researchers used computer models to simulate the mantle's behavior and found that their proposed scenario matched the geography of the evidence, providing an explanation for the missing chapter in Earth's story.",
           "theme": "#E7F4EF",
-          "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/india-climate-2026-india-faced-extreme-weather-on-92-of-days-in-first-nine-months-of-2026"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/more-than-a-billion-years-of-earths-history-is-missing-scientists-may-finally-know-why/"
         },
         {
           "id": "env-2",
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Shadowbox Studios hosts major film and TV productions",
-          "image": "https://images.unsplash.com/photo-1604513843888-824303218a45?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cmVhZGluZyUyMHN0dWRpb3xlbnwxfDB8fHwxNzk0Mzc4MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Wokingham, UK",
-          "time": "Nov 11, 2026",
-          "content": "Shadowbox Studios in Shinfield, Wokingham, is a state-of-the-art complex with 18 sound stages, including two with over 40,000 square feet of floor space each. The studios have hosted major film and television productions such as Avengers: Doomsday, Ghostbusters: Frozen Empire, Squid Game: The Challenge, and Ebenezer, starring Johnny Depp and Rupert Grint. With its climate controls, soundproofing, and large stages, the complex can be transformed into different worlds for various productions, making it an attractive location for filmmakers. The UK's film and television industry is growing, with spending reaching £6.8 billion in 2025, and the country's variety of landscapes and historic locations also makes it an attractive location for shoots.",
+          "title": "BBC Children In Need Show Returns with Charity Challenges",
+          "image": "https://images.pexels.com/photos/6646851/pexels-photo-6646851.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Salford",
+          "time": "Nov 13, 2026",
+          "content": "This year's BBC Children In Need show is taking place on Friday, featuring a mix of entertainment and charity challenges. The show will be hosted by Alex Jones, Mel Giedroyc, Rylan, Sara Cox, and Tyler West, and will include pranks by Timothee Chalamet, a 400-mile cycle challenge by Radio 2 presenter Owain Wyn Evans, and a",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmd93wn2djz3o"
+          "url": "https://www.bbc.com/news/articles/cqly4lnxn031o"
         },
         {
           "id": "ent-2",
-          "title": "Series Breaks Sales Records with Sixth Installment",
-          "image": "https://images.unsplash.com/photo-1723831101652-c03827729b5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RmFudGFzeSUyMG5vdmVsc3xlbnwxfDB8fHwxNzk0Mzc4MzgyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Australia",
-          "time": "Nov 11, 2026",
-          "content": "Sarah J Maas's blockbuster series, A Court of Thorns and Roses, has broken sales records with its sixth book, A Court of Splintered Harmony. The series, known for its brutal wars, faeries, and spicy sex scenes, has become a dominating force in fiction, particularly among women under 35. The success of Maas's series has been driven by BookTok, a section of TikTok dedicated to book commentary, and the author has sold over 100 million copies worldwide. The series is a blend of romance and fantasy, also known as romantasy, which has become a multi-million-dollar subgenre. According to Dr. Jodi McAlister, the series' appeal lies in its complex world-building, intricate plotlines, and the promise of a happy ending, providing a comforting escape for readers.",
+          "title": "Roger Taylor Leaves Duran Duran Due to Worsening Tinnitus",
+          "image": "https://images.pexels.com/photos/26953558/pexels-photo-26953558.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Birmingham, UK",
+          "time": "Nov 13, 2026",
+          "content": "Duran Duran drummer Roger Taylor, 66, has announced he is leaving the band due to his worsening tinnitus, a condition that has been steadily getting worse. Taylor, who has been the group's drummer since its formation in 1978, said it was a difficult decision but he must prioritize his hearing and long-term health. The band members expressed their support for Taylor's decision, praising his contributions to the group's sound and thanking him for his time. Taylor said he's going out on a high note, having just completed a successful UK and European tour and being inducted into the Rock & Roll Hall Of Fame. He expressed his gratitude to fans and his bandmates, saying he'll always be part of the Duran Duran family.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/culture/article/20261109-a-court-of-splintered-harmony-why-the-latest-mega-hit-acotar-romantasy-is-dividing-readers"
+          "url": "https://www.bbc.com/news/articles/crwy499k504do"
         },
         {
           "id": "ent-3",
-          "title": "ITV Wales cuts programs, reduces staff in cost-saving moves",
-          "image": "https://images.unsplash.com/photo-1618172775375-054dc107af70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8X0lUViUyMFdhbGVzJTIwbG9nb3xlbnwxfDB8fHwxNzk0Mzc4NTU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Cardiff, Wales",
-          "time": "Nov 11, 2026",
-          "content": "ITV Wales is planning to cut two long-running programs, Coast and Country and Backstage, as part of cost-cutting measures. The broadcaster aims to reduce the number of producer roles from six to two and make more programs in the studio rather than on location. These changes will not affect the news and current affairs programs, and ITV Wales is consulting with staff about the proposals. The move is part of efforts to ease cost pressure amid the industry's significant economic strain. ITV Wales is also restructuring its teams to work more flexibly, while protecting its commitments to the audience and regulator, Ofcom. In related news, Sky has agreed to buy ITV's broadcasting and streaming operations in a deal worth £1.6bn, subject to scrutiny and expected to complete in late 2027. Meanwhile, BBC Wales has announced 58 job cuts as part of efforts to save £500m.",
+          "title": "Nvidia boss quits amid affair allegations, plus other notable events",
+          "image": "https://images.pexels.com/photos/29887515/pexels-photo-29887515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Global",
+          "time": "Nov 13, 2026",
+          "content": "This week, several notable events took place, including the departure of Nvidia's boss amid allegations of two extramarital affairs, the conviction of a former British civil servant for fraud after holding five full-time jobs, and the rescue of a cruise ship pianist who spent nine hours adrift in the Pacific Ocean. Despite these significant happenings, many may not have paid much attention to the rest of the world's news over the past week.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm5ynyz7e2qro"
+          "url": "https://www.bbc.com/news/articles/cmkgk0w34lkpo"
         }
       ]
     },
@@ -225,25 +225,25 @@
       "cards": [
         {
           "id": "eb-3",
-          "title": "Nvidia CEO's tenure under threat over affair with suspected Chinese spy",
-          "image": "https://images.pexels.com/photos/34552796/pexels-photo-34552796.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
-          "time": "Nov 10, 2026",
-          "content": "Nvidia CEO Jensen Huang's 33-year tenure is under threat due to an extramarital affair with a customer being investigated for potential espionage. Huang's relationship with Alice Huang, who is suspected of feeding intelligence to China and smuggling AI chips into the country, has raised concerns over his future as CEO. The investigation, which is still ongoing, has sparked uncertainty about Nvidia's future, with the company's stock falling 6% Monday. Huang's leadership style, which has been described as demanding and intense, has been a key factor in Nvidia's success, but some experts believe that the company's bench is deep enough to continue without him. While Huang's potential departure would create uncertainty, it is unlikely to entirely upend the company's business, as major firms buying Nvidia's chips and software are unlikely to slash their capital spending.",
+          "title": "UK economy grows 0.7% in three months, driven by services sector",
+          "image": "https://images.unsplash.com/photo-1785062018049-e1c4104a75f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwVUslMjBlY29ub215fGVufDF8MHx8fDE3OTQ1NDM0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "UK",
+          "time": "Nov 13, 2026",
+          "content": "The UK economy has shown strong growth, expanding by 0.7% in the three months to September, its fastest rate in over two years. The growth is largely driven by a robust services sector, particularly computer programming and consultancy services, which have seen significant growth. However, experts warn that this growth may not translate to a better life for households, as energy prices are set to rise, potentially impacting consumer spending and confidence. Despite this, the UK is on course to be the second fastest growing economy among the major G7 countries. Meanwhile, some businesses are reporting resilience and projecting growth, with exports playing a significant role in their success.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/09/business/nvidia-survive-without-jensen-huang"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/ck3rgd429zd5o"
         },
         {
           "id": "eb-2",
-          "title": "Pound Reaches 2016 High as Brexit Uncertainty Eases, Interest Rates Expected",
-          "image": "https://images.unsplash.com/photo-1512734099960-65a682cbfe2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8NHx8TG9uZG9uJTIwc2t5bGluZXxlbnwxfDB8fHwxNzkzODU3MjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "AI-Enhanced Images Raise Concerns of Misleading Homebuyers",
+          "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZSUyMGFnZW50fGVufDF8MHx8fDE3OTQ1NDM3Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "London, UK",
-          "time": "Nov 05, 2026",
-          "content": "The pound has reached its highest level since the Brexit referendum in 2016, according to Bank of England figures. Sterling has risen significantly against the euro and dollar in recent weeks, ahead of an expected rise in interest rates. The pound's value rose to 86.4 on an index, where 100 equals the value in 2005. The Bank will officially confirm the calculation on Thursday. Some traders believe the UK's relative political stability, solid growth, and rapprochement with the European Union have contributed to the pound's rise. A stronger pound can help rein in inflation and increase buying power for consumers on imports and holidays.",
+          "time": "Nov 13, 2026",
+          "content": "Estate agents are increasingly using AI to enhance property images, making homes seem more appealing. However, this practice, dubbed 'housefishing', has raised concerns among experts and homebuyers that it can mislead and waste time. Olivia Nicole, 29, was shocked to find that a five-bedroom property she viewed had been significantly altered from its online listing, with smaller rooms, different decor, and structural features changed. The AI-enhanced images, used on Rightmove, Zoopla, and Winkworth, were not clearly labeled as such, leading Olivia to feel her time was wasted. Experts warn that estate agents must use AI responsibly, labeling enhanced images and avoiding structural changes that can mislead consumers. As the trend continues to grow, concerns are rising that AI-enhanced images may become more widespread, potentially leading to more instances of 'housefishing'.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6lykq2qjn2vo"
+          "url": "https://www.bbc.com/news/articles/cm62y0wrnz9zo"
         },
         {
           "id": "eb-1",

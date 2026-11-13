@@ -1,14 +1,17 @@
-TODARDS LLM PIPELINE EVALUATION — 12112026
-Execution timestamp: 2026-11-12T09:22:20.070315
-Pipeline duration: 171.4 minutes
+TODARDS LLM PIPELINE EVALUATION — 13112026
+Execution timestamp: 2026-11-13T10:05:00.428285
+Pipeline duration: 83.6 minutes
 
-LLM evaluation unavailable: Ollama did not return an evaluation.
-Reason: URLError: <urlopen error [WinError 10061] No connection could be made because the target machine actively refused it>
+Here is the pipeline evaluation:
 
-Metrics-based observations (not an LLM-generated assessment):
-- Pipeline duration: 171.4 minutes.
-- Semantic deduplication removed 0 duplicate articles from 119 scraped articles (0.0% of scraped volume; the count is relative to total scraped articles).
-- Pipeline duration changed +134.2% versus the previous recorded run.
-- Scraped article volume changed from 131 to 119 versus the previous recorded run.
-- Duplicates removed changed from 0 to 0 versus the previous recorded run.
-- Check that Ollama is running and TODARDS_OLLAMA_MODEL names an installed model.
+**Overall Run Health:** The pipeline duration is 83.6 minutes, which is 51.2% shorter than the previous recorded run. This indicates a healthy run with a significant reduction in processing time.
+
+**Scrape Volume:** The scraped article volume has increased from 119 to 132, a 11.8% increase. This suggests a stable and healthy scrape volume.
+
+**Semantic Deduplication:** No duplicate articles were removed, which is consistent with the previous recorded run. This indicates that the deduplication process is functioning correctly.
+
+**Source/Category Ingestion Anomalies:** No anomalies were detected in the scraped article volume by category. The counts for each category (Health, Tech, People, Environment, Economy, Entertainment) are within expected ranges.
+
+**LLM Performance:** The LLM made 374 calls, with 0 failures, and the average response time is 1.1 seconds. This suggests a healthy and efficient LLM performance.
+
+**Next Practical Check:** Verify the category validation status and the number of rejected articles to ensure that the pipeline is correctly categorizing and processing articles. Additionally, monitor the scrape volume and LLM performance to ensure that they remain stable and healthy.
