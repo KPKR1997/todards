@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 93",
+    "issue": "Issue No. 94",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "13 November 2026",
+    "publishedAt": "14 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "House Democrats Demand Trump Documents Be Retained",
-          "image": "https://images.unsplash.com/photo-1761001316205-3f36441846b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VHJ1bXAlMjBhZG1pbmlzdHJhdGlvbnxlbnwxfDB8fHwxNzk0Mzc3MTE1fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Washington",
-          "time": "Nov 11, 2026",
-          "content": "House Democrats are demanding that the Interior Department retain documents related to President Donald Trump's construction projects around Washington after whistleblowers warned that key paperwork has already been destroyed before Democrats take power. The warnings come as the Trump administration is signaling it will accelerate plans for moving ahead with the projects, a key part of what the president sees as his legacy. The top Democrat in the House Natural Resources committee, Rep. Jared Huffman, plans to issue letters to the Interior Department and other federal agencies and private companies, requesting that they preserve all records and data responsive to oversight. Multiple credible whistleblowers have approached Huffman's committee in recent weeks to voice concern that the Interior Department is getting rid of records in anticipation of forthcoming scrutiny. The agency oversees much of the national parkland Trump wants to use for his projects.",
+          "title": "Mysterious groups spend millions targeting Republicans in 2026 midterms",
+          "image": "https://images.pexels.com/photos/8846951/pexels-photo-8846951.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Salt Lake City",
+          "time": "Nov 14, 2026",
+          "content": "A mysterious network of political organizations, including Our Heritage Matters, American Forge Coalition, and Patriotic Duty Initiative, spent millions of dollars targeting Republican candidates in the 2026 midterm elections. These groups, which emerged suddenly and disappeared just as quickly, used robocalls, text messages, and political mailers to accuse Republican candidates of being insufficiently conservative and promote little-known Libertarian or third-party candidates as the true conservative alternatives. While the organizations claimed to be concerned with issues like gun rights, immigration, and national security, their messaging was often misleading or false. The groups' tactics are part of a broader trend of opaque and often misleading political spending, which has grown in scale and influence since the Supreme Court's 2010 Citizens United decision.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/10/politics/trump-building-investigation-democrats-house-natural-resources"
+          "url": "https://edition.cnn.com/2026/11/13/politics/kfile-pop-up-superpac-spent-big-on-libertarians"
         },
         {
           "id": "pp-2",
-          "title": "US Charges Iran-Backed Operatives Over Terror Plots in US and Europe",
-          "image": "https://images.unsplash.com/photo-1721421114640-f34237d9fcdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VVMlMjBEZXBhcnRtZW50JTIwb2YlMjBKdXN0aWNlfGVufDF8MHx8fDE3OTQzNzczMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Cotswolds, Gloucestershire, UK",
-          "time": "Nov 11, 2026",
-          "content": "The US Department of Justice (DOJ) has announced charges against three Iran-backed operatives for their alleged involvement in a string of plots in the US and Europe. The DOJ claims that the trio orchestrated a terrorist plot at an air force base in the UK, which led to the declaration of a major incident in September. The suspects allegedly planned attacks in Europe, including seven incidents in the UK, and were involved in nearly 20 attempted attacks in support of Iran's Islamic Revolutionary Guard Corps and the Iran-backed Iraqi militia Kataib Hezbollah. The FBI Director has described the accused as determined to commit terrorist attacks in Europe and the US, and the suspects' actions allegedly included arranging logistics for the RAF Fairford terrorist plot and procuring materials to use in the attacks.",
+          "title": "US Air Force Responds to Suspected Drone Activity Over RAF Lakenheath",
+          "image": "https://images.unsplash.com/photo-1664697272125-883dc64705c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UkFGJTIwTGFrZW5oZWF0aCUyMGJhc2V8ZW58MXwwfHx8MTc5NDYyNTQ4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "RAF Lakenheath, Suffolk",
+          "time": "Nov 14, 2026",
+          "content": "US Air Force responded to suspected unauthorized drone activity over RAF Lakenheath in Suffolk on Friday evening. No personnel, aircraft, or infrastructure were affected, according to a spokesperson. The incident comes after unconfirmed reports of sirens sounding at the base, which residents reported hearing from a nearby village. Authorities have resolved the situation, and no threat to the public was reported. This incident follows heightened security activity at US bases in the UK after an incident at RAF Fairford in September, which Prime Minister Andy Burnham said Iran was involved in. The US removed its bombers from the base in October, and the British government has insisted that airbases are safe and their security is a top priority.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c3rryrryk59zo"
+          "url": "https://www.bbc.com/news/articles/c6jd75geegzyo"
         },
         {
           "id": "pp-1",
-          "title": "California voters reject billion-dollar wealth tax",
-          "image": "https://images.unsplash.com/photo-1593672755342-741a7f868732?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8JTI0MSUyMGJpbGxpb24lMjB3ZWFsdGh8ZW58MXwwfHx8MTc5NDM3NzgwOHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "California, USA",
-          "time": "Nov 11, 2026",
-          "content": "California voters rejected Proposition 40, a one-time 5% wealth tax on residents with a net worth of over $1 billion. The measure's opponents, backed by billionaire funders and groups, spent tens of millions of dollars on ads against the proposition. Proponents argued the tax was necessary to address federal healthcare spending cuts and estimated it could raise $100 billion, enough to cover the shortfall for about five years. The battle over Proposition 40 was one of the most expensive political fights in the country, with Google co-founder Sergey Brin funneling $100 million to a group trying to defeat the tax. California's Democratic Gov. Gavin Newsom and Gov.-elect Xavier Becerra opposed the measure, while progressive Sen. Bernie Sanders and Rep. Ro Khanna supported it.",
+          "title": "Trump Meets Xi and Putin on Nuclear Non-Proliferation at APEC Summit",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Chinese_Present_Xi_Jinping_Jan_2026.jpg/500px-Chinese_Present_Xi_Jinping_Jan_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Beijing, China",
+          "time": "Nov 14, 2026",
+          "content": "US President Donald Trump will hold a historic meeting with Chinese President Xi Jinping and Russian President Vladimir Putin next week, focusing on nuclear non-proliferation. The meeting, set to take place at the APEC summit in China, aims to discuss reducing nuclear weapons globally, a topic Trump believes is dangerous. Although officials downplay the possibility of a new agreement, the meeting is seen as a starting point for future talks. The leaders will also discuss Iran. Elon Musk is expected to accompany Trump, but will not attend the trilateral meeting. This marks the first-ever joint meeting between the leaders of the three countries.",
           "theme": "#F7F1DE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/10/politics/california-voters-wealth-tax-billionaires"
+          "url": "https://edition.cnn.com/2026/11/13/politics/trump-putin-xi-meeting"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Scientists discover enzyme to break down stubborn plastic",
-          "image": "https://images.unsplash.com/photo-1638258581353-0ab658542e73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZW56eW1lc3xlbnwxfDB8fHwxNzk0NTQxNjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Aarhus, Denmark",
-          "time": "Nov 13, 2026",
-          "content": "Scientists have made a breakthrough in recycling a stubborn plastic, polyurethane foam, by discovering an enzyme found in compost that can break it down. This finding is significant because polyurethane is notoriously difficult to recycle and most of it ends up in landfills or incinerators. The researchers from Aarhus University and the Danish Technological Institute isolated the enzyme from a bacterium in compost and tested its ability to break down polyurethane foam. They found that the enzyme, called CC PUR1, can break down small amounts of polyurethane foam, and it has several useful characteristics, such as its ability to withstand high temperatures and a range of solvents. The team has since worked to improve the enzyme and is exploring ways to use it to recycle polyurethane on an industrial scale. This breakthrough has the potential to make a significant impact on the recycling industry and could help to reduce the amount of polyurethane that ends up in landfills or incinerators.",
+          "title": "Venice's historic buildings face preservation challenge due to floods",
+          "image": "https://images.unsplash.com/photo-1482690205767-61deebe15ef7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8VmVuaWNlJTIwY2FuYWxzfGVufDF8MHx8fDE3OTQ2MjQ1NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Venice, Italy",
+          "time": "Nov 14, 2026",
+          "content": "Venice's architectural legacy faces a growing preservation challenge due to floods and environmental factors. Innovative technologies, such as drone photography, terrestrial laser scanning, and photogrammetry, are being used to create digital models of historic buildings, like the Church of San Francesco della Vigna, to detect signs of damage and aging earlier. The digital mapping helps identify areas where stonework has deteriorated, and the models provide further information about cracks and areas where structural stresses could be concentrated. The project's goal is to create a detailed digital record, which can be used to support future conservation work and long-term monitoring of the building's condition.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-a-powerful-plastic-eating-enzyme-hiding-in-an-ordinary-compost-heap/"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/science/venice-historic-buildings-drones-digital-twins-spc"
         },
         {
           "id": "st-2",
-          "title": "Scientists Expand Search for Life Beyond Earth to Venus and Other Places",
-          "image": "https://images.unsplash.com/photo-1768387714768-60982681d9cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8VmVudXMlMjBhdG1vc3BoZXJlfGVufDF8MHx8fDE3OTQ1NDIwNTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Venus",
-          "time": "Nov 13, 2026",
-          "content": "Scientists are expanding their search for life beyond Earth, exploring unusual places and using innovative methods to detect signs of life. One such place is Venus, where hints of a gas called phosphine were detected in 2020, which could be produced by life. A small spacecraft called Verve is planned to probe the atmosphere of Venus for signs of phosphine and life. Another mission, Morning Star, will launch a probe to Venus to search for signs of life through fluorescence. The search for life is not limited to Venus, as other unexpected locations like Ceres, a dwarf planet in the asteroid belt, are also being investigated. While life on Earth requires liquid water and a source of energy, scientists are considering the possibility that life on other planets might not share these common requirements, making the search for life beyond Earth even more intriguing.",
+          "title": "Prehistoric Whale Had Extreme Facial Asymmetry, Scientists Find",
+          "image": "https://images.unsplash.com/photo-1528193302975-de1bdf20ed18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZXh0aW5jdCUyMHdoYWxlfGVufDF8MHx8fDE3OTQ2MjQ4NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Peru",
+          "time": "Nov 14, 2026",
+          "content": "Scientists have discovered a prehistoric whale, Scaphokogia huachafo, that lived around 6.3 to 5.6 million years ago. The whale's skull had the most extreme facial asymmetry ever documented in a mammal, with its bony nostrils displaced entirely to the left and its snout curved sharply downward. Researchers believe the whale's unusual anatomy suggests it had a feeding strategy that differed from modern sperm whales, which hunt deep ocean waters. Instead, Scaphokogia huachafo appears to have been adapted for searching for food along the bottom of shallow coastal seas. Its unique snout and neck allowed it to move directly above the seabed and feed close to the sediment.",
           "theme": "#EBF2FA",
-          "source": "BBC",
-          "url": "https://www.bbc.com/future/article/20261111-ice-covered-oceans-and-bleak-craters-where-alien-life-might-be-heading"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/a-6-million-year-old-whale-had-a-face-so-strange-scientists-thought-it-was-crushed/"
         },
         {
           "id": "t-3",
-          "title": "Cisco Shares Soar as Revenue and Profits Surpass Expectations",
-          "image": "https://images.pexels.com/photos/4497197/pexels-photo-4497197.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "San Jose, USA",
-          "time": "Nov 13, 2026",
-          "content": "Cisco's shares rose in extended trading after the company reported better-than-expected fiscal first-quarter results. The revenue increased 24% from $14.88 billion a year earlier, and net income rose to $4.6 billion. Cisco is trying to gain a foothold in the artificial intelligence buildout. The company's stock price is up about 35% this year, trouncing the Nasdaq, which has gained 9% over that stretch. Cisco raised its expectation for AI infrastructure revenue from hyperscalers to $9 billion this fiscal year. For the fiscal second quarter, the company expects revenue of between $18 billion and $18.2 billion, topping the average analyst estimate. The company is projecting adjusted earnings per share of $1.34 to $1.36, beating the $1.23 average estimate.",
+          "title": "Nvidia's Crisis Creates Shift in AI Chip Industry, Stocks Surge for Rivals",
+          "image": "https://images.unsplash.com/photo-1716967318503-05b7064afa41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bnZpZGlhX2xlYWRlcnNoaXB8ZW58MXwwfHx8MTc5NDYyNTA3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Asia",
+          "time": "Nov 14, 2026",
+          "content": "The news article reports on the ongoing crisis at Nvidia, which has led to a leadership void and a potential shift in the company's grip on the AI chip industry. As investors bet on Nvidia's competitors, including AMD, Broadcom, and TSMC, to close the technological gap, these companies' stocks are gaining momentum. TSMC, which manufactures Nvidia's most advanced processors, has rallied 11% over the past week. Meanwhile, other semiconductor stocks, such as Texas Instruments, Analog Devices, and Infineon, have also seen significant gains. Experts believe that Huang's departure could fundamentally reshape competition across the AI supply chain, giving companies like Google and Amazon an opportunity to expand their AI chip production. The ongoing investigations and management uncertainty at Nvidia may continue to impact the company's stock, but experts suggest that the broader AI investment cycle remains intact, with major technology companies projecting higher AI spending in 2027. The article highlights the potential reshuffling of winners within the semiconductor industry, as investors rotate and diversify their portfolios.",
           "theme": "#EBF2FA",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/12/cisco-csco-q1-2027-earnings.html"
+          "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-affairs-amd-broadcom-tsmc.html"
         }
       ]
     },
@@ -107,14 +107,14 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "Alzheimer's Breakthrough: Specific Brain Cells Linked to Disease",
-          "image": "https://images.unsplash.com/photo-1679639539537-0d2e452890f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8X2JyYWluJTIwY2VsbHN8ZW58MXwwfHx8MTc5NDM3NjEzOXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Amsterdam, Netherlands",
-          "time": "Nov 11, 2026",
-          "content": "A massive genetic analysis of 2.8 million people has led to a breakthrough in understanding Alzheimer's disease, revealing specific brain cells that may influence the condition. The study, published in Nature, identified 127 regions of human DNA associated with Alzheimer's risk, including 48 previously unknown. Researchers found that microglia, immune cells in the brain, and specific types of nerve cells may play a key role in the disease's development. The findings provide new leads for investigating potential treatments and offer a more detailed view of the biological processes involved. The study's lead, Danielle Posthuma, emphasized the importance of connecting genetic risk factors to specific biological processes, which can help in identifying potential targets for treatment.",
+          "title": "US Reports 10 Measles Deaths in Worst Year Since 1991",
+          "image": "https://images.unsplash.com/photo-1676313030076-4ac0b37050fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8cGVkaWF0cmljJTIwaW5mZWN0aW91cyUyMGRpc2Vhc2VzfGVufDF8MHx8fDE3OTQ2MjQzOTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
+          "time": "Nov 14, 2026",
+          "content": "The United States is experiencing its worst measles year since 1991, with 10 deaths reported so far, and has lost its official measles elimination status. The country had achieved measles elimination in 2000, but falling vaccination rates and denial of the vaccine's safety have led to a resurgence of the disease. Public health experts are warning that regaining elimination status will be harder this time due to lack of trust in the public health system and science, as well as changes in the epidemiology of measles. They stress that the solution lies in strong leadership and a renewed focus on vaccination, citing the power of vaccination in controlling the disease.",
           "theme": "#E8F5F1",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/massive-study-of-2-8-million-people-reveals-new-secrets-of-alzheimers-disease/"
+          "source": "CNN",
+          "url": "https://us.cnn.com/2026/11/13/health/measles-elimination-status-vis"
         },
         {
           "id": "hw-3",
@@ -139,19 +139,19 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Uncovering Earth's Missing Chapter: Researchers Solve Great Unconformity Mystery",
-          "image": "https://images.unsplash.com/photo-1767321337428-9b9d16a442c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Z2VvbG9naWNhbCUyMGxhbmRzY2FwZXxlbnwxfDB8fHwxNzk0NTQzMzUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "University of Wollongong",
-          "time": "Nov 13, 2026",
-          "content": "Researchers at the University of Wollongong have uncovered a missing chapter in Earth's geological history, which spans over a billion years. The Great Unconformity, a vast gap in the Earth's record, was previously unexplained. Scientists Santosh Dhungana and Nicolas Flament propose that the slow rise and fall of continents over hundreds of millions of years created this gap. Their study, published in Nature, suggests that hot rock currents in the mantle moved the continents vertically, causing sedimentary rocks from the Cambrian period to rest directly on much older crystalline rocks. The researchers used computer models to simulate the mantle's behavior and found that their proposed scenario matched the geography of the evidence, providing an explanation for the missing chapter in Earth's story.",
+          "title": "CO2 Emissions Reach 40 Billion Tonnes, Threatening 1.5°C Threshold",
+          "image": "https://images.unsplash.com/photo-1580064461598-505b080a8242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y2FyYm9uJTIwZm9vdHByaW50fGVufDF8MHx8fDE3OTQ2MjU3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
+          "time": "Nov 14, 2026",
+          "content": "The world's CO2 emissions have increased to nearly 40 billion tonnes per year due to fossil-fuel-driven industrialisation, causing the planet to warm by about 1.3-1.4°C above pre-industrial levels. If everyone lived like the average American, the warming would be around 3.7°C, while living like the average Qatari would push warming to over 5°C. On the other hand, if everyone lived like the average Indian, the warming would be lower, at around 0.8°C. Historically, the Chinese lifestyle has had a much lower impact, with warming of only 1.2°C. The United Nations Environment Programme warns that overshooting the 1.5°C threshold is likely within the next three to four years.",
           "theme": "#E7F4EF",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/more-than-a-billion-years-of-earths-history-is-missing-scientists-may-finally-know-why/"
+          "source": "Down To Earth",
+          "url": "https://www.downtoearth.org.in/climate-change/cop31-what-will-it-take-to-deliver-climate-justice"
         },
         {
           "id": "env-2",
           "title": "Human metabolism's carbon dioxide emissions rise 74% in 30 years",
-          "image": "https://images.unsplash.com/photo-1580064461598-505b080a8242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Y2FyYm9uJTIwZGlveGlkZXxlbnwxfDB8fHwxNzkzNjcxNTY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "image": "https://images.pexels.com/photos/30401032/pexels-photo-30401032.png?auto=compress&cs=tinysrgb&h=650&w=940",
           "place": "Bath, UK",
           "time": "Nov 03, 2026",
           "content": "A new study by the University of Bath has found that the amount of carbon dioxide produced by human metabolism has increased by 74% over the past three decades, with the global total reaching an estimated 2.05 billion metric tons annually by 2015. The study, published in The Lancet Planetary Health, analyzed thousands of real-world measurements of CO2 production in people of all ages and found that the increase is mainly due to population growth, with more than 60% of the rise attributed to an increase in the number of people rather than a significant change in the amount produced by each individual. The researchers suggest that accounting for this activity could help scientists more accurately predict how effective carbon reduction strategies may be.",
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "BBC Children In Need Show Returns with Charity Challenges",
-          "image": "https://images.pexels.com/photos/6646851/pexels-photo-6646851.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Salford",
-          "time": "Nov 13, 2026",
-          "content": "This year's BBC Children In Need show is taking place on Friday, featuring a mix of entertainment and charity challenges. The show will be hosted by Alex Jones, Mel Giedroyc, Rylan, Sara Cox, and Tyler West, and will include pranks by Timothee Chalamet, a 400-mile cycle challenge by Radio 2 presenter Owain Wyn Evans, and a",
+          "title": "Cornwall Festivals Get Approval to Host Thousands More",
+          "image": "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8bXVzaWMlMjBmZXN0aXZhbHxlbnwxfDB8fHwxNzk0NjI2MzAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Cornwall",
+          "time": "Nov 14, 2026",
+          "content": "Two music festivals in Cornwall, The Great Estate and Live at Scorrier House, have received permission to increase their attendance by thousands. The festivals, held within the grounds of Scorrier House, will now be allowed to accommodate 14,999 people each, up from 12,000 and 9,999 respectively. The increased capacity was approved by a Cornwall Council licensing committee, which heard that the events would bring in millions to the local economy and support Cornish jobs and businesses. The committee added conditions to the increased capacity, including security measures to prevent festivalgoers from trespassing on neighboring properties.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqly4lnxn031o"
+          "url": "https://www.bbc.com/news/articles/cq0l38304kjgo"
         },
         {
           "id": "ent-2",
-          "title": "Roger Taylor Leaves Duran Duran Due to Worsening Tinnitus",
-          "image": "https://images.pexels.com/photos/26953558/pexels-photo-26953558.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Birmingham, UK",
-          "time": "Nov 13, 2026",
-          "content": "Duran Duran drummer Roger Taylor, 66, has announced he is leaving the band due to his worsening tinnitus, a condition that has been steadily getting worse. Taylor, who has been the group's drummer since its formation in 1978, said it was a difficult decision but he must prioritize his hearing and long-term health. The band members expressed their support for Taylor's decision, praising his contributions to the group's sound and thanking him for his time. Taylor said he's going out on a high note, having just completed a successful UK and European tour and being inducted into the Rock & Roll Hall Of Fame. He expressed his gratitude to fans and his bandmates, saying he'll always be part of the Duran Duran family.",
+          "title": "Eurovision introduces Asia edition, featuring 11 countries in Bangkok",
+          "image": "https://images.unsplash.com/photo-1576514129883-2f1d47a65da6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c3RhZ2UlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzk0NjI2NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Bangkok",
+          "time": "Nov 14, 2026",
+          "content": "The European Broadcasting Union is introducing Eurovision Asia, the first-ever Asian edition of the 70-year-old song contest, to celebrate its 70th anniversary. The contest, held in Bangkok, will feature 11 countries from the region, including Thailand, Malaysia, and the Philippines. Unlike European versions, the Asian edition will not focus on singer popularity, but on the song itself. However, the organization has faced issues, including a sudden budget cut, staff resignations, and concerns about the voting system, which will combine public and jury votes. Eurovision Asia is an experiment to bring the popular contest to a new region, but it remains to be seen how audiences will adjust to this new format.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/crwy499k504do"
+          "url": "https://www.bbc.com/news/articles/cw4gn0ky2pgdo"
         },
         {
           "id": "ent-3",
-          "title": "Nvidia boss quits amid affair allegations, plus other notable events",
-          "image": "https://images.pexels.com/photos/29887515/pexels-photo-29887515.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Global",
-          "time": "Nov 13, 2026",
-          "content": "This week, several notable events took place, including the departure of Nvidia's boss amid allegations of two extramarital affairs, the conviction of a former British civil servant for fraud after holding five full-time jobs, and the rescue of a cruise ship pianist who spent nine hours adrift in the Pacific Ocean. Despite these significant happenings, many may not have paid much attention to the rest of the world's news over the past week.",
+          "title": "Rosalía wins best album award three times at Latin Grammys",
+          "image": "https://images.pexels.com/photos/31565078/pexels-photo-31565078.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Las Vegas, USA",
+          "time": "Nov 14, 2026",
+          "content": "Rosalía made history at the Latin Grammys, becoming the first woman to win the best album award three times. She won five awards, including two for her song La Perla, which was also nominated for record of the year. Rosalía expressed gratitude to those who doubted her, saying she didn't listen to their negative opinions. Additionally, Daddy Yankee won the person of the year award, and Punjabi singer Diljit Dosanjh made his debut at the Latin Grammys, performing alongside Daddy Yankee. The event also saw Milo J win record of the year, and ARIA VEGA and Sara Schell win best new artist and songwriter of the year, respectively.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmkgk0w34lkpo"
+          "url": "https://www.bbc.com/news/articles/cr3eg97eqde1o"
         }
       ]
     },
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "eb-3",
-          "title": "UK economy grows 0.7% in three months, driven by services sector",
-          "image": "https://images.unsplash.com/photo-1785062018049-e1c4104a75f3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwVUslMjBlY29ub215fGVufDF8MHx8fDE3OTQ1NDM0NzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "UK",
-          "time": "Nov 13, 2026",
-          "content": "The UK economy has shown strong growth, expanding by 0.7% in the three months to September, its fastest rate in over two years. The growth is largely driven by a robust services sector, particularly computer programming and consultancy services, which have seen significant growth. However, experts warn that this growth may not translate to a better life for households, as energy prices are set to rise, potentially impacting consumer spending and confidence. Despite this, the UK is on course to be the second fastest growing economy among the major G7 countries. Meanwhile, some businesses are reporting resilience and projecting growth, with exports playing a significant role in their success.",
+          "title": "Microsoft Outage Hits Millions, Affects Schools, Healthcare, and Governments",
+          "image": "https://images.pexels.com/photos/9683980/pexels-photo-9683980.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Global",
+          "time": "Nov 14, 2026",
+          "content": "A global Microsoft outage, which started Thursday, has been affecting schools, healthcare systems, businesses, courts, and governments worldwide, impacting millions of users. The outage, caused by a technical issue, has led to connectivity problems, with users unable to send or receive emails, access certain files, or view their calendar apps. Microsoft has apologized for the disruption and is working to restore services, but warns that some users may still experience intermittent issues. The outage has had a significant impact, with many organizations and institutions affected, including OpenAI and Anthropic, and has caused disruptions to services like email and online meetings.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ck3rgd429zd5o"
+          "url": "https://www.bbc.com/news/articles/cwvg238zrnm5o"
         },
         {
           "id": "eb-2",

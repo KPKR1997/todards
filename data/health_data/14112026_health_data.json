@@ -1,0 +1,67 @@
+[
+    {
+        "id": "health-3",
+        "source": "CNN",
+        "category": "health",
+        "title": "The US has had the tools to control measles for almost 65 years. Here’s how it’s come raging back",
+        "date": "2026-11-13 11:00",
+        "content": "The United States is experiencing its worst and deadliest year for measles since 1991, with 10 measles-associated deaths so far in 2026 – half of which were reported in the past two weeks. Multiple outbreaks continue to grow, and the country has lost its official measles elimination status, a source told CNN. When the US Centers for Disease Control and Prevention convened a group of experts to talk about measles back in March 2000, cases had been so low for so long that the status of disease in the country could be completely redefined: The experts concluded that measles was no longer endemic in the United States. Although measles had not been completely eradicated, the disease was considered eliminated in the US. A precise definition of what measles elimination entailed would come later, but the significance of the moment — particularly reflecting the power of vaccination — was profound for many involved. Dr. Yvonne Maldonado, a pediatric infectious diseases expert with Stanford University who represented the National Vaccine Advisory Committee at the meeting, remembers a feeling of “cautious optimism” afterward. “We felt we were doing well, and we were very happy that we were doing well, but clearly we shouldn’t rest on our laurels,” she said. “With infectious diseases, you really can never know or feel comfortable that you completed the task.” The current authority to determine measles elimination status has shifted to an international advisory group appointed by the Pan American Health Organization, an arm of the World Health Organization. At a closed-door meeting this week, the committee assessed whether there has been sustained local measles transmission in the US for at least a year, making it endemic once again. This is how the US successfully wrangled a deadly virus — the most contagious disease known — and how it’s come raging back. The loss of measles elimination status is largely due to years of falling vaccination rates – a well-established threat but one that the US has lost ground against in recent years. “It’s really tragic and unnecessary, and it’s all completely preventable,” Maldonado said. “Two doses of vaccine, which is highly safe and effective, will essentially limit the number of cases in the US, and we’re just throwing that away,” she said. “We have now bred a whole culture of denial of the impact of measles and elevated vastly overstated, active disinformation about the safety of the measles vaccine.” At the time of measles elimination in 2000, the power of vaccination had been proved many times over — but the celebratory milestone also lent itself to reflection on the work ahead. “This achievement is a credit to the efforts of millions of parents and children, hundreds of thousands of health workers, and thousands of policy makers and legislators who provided the political and financial support,” committee members wrote in a summary of the meeting published in the Journal of Infectious Diseases in May 2004. “Notwithstanding the tremendous progress that has been made, it is critical to understand that this is an inherently unstable situation and that we must maintain (and improve) our efforts to ensure that immunization levels remain very high and that surveillance is of high quality,” they wrote. “We also must strengthen our support for global measles control and work toward ultimate global eradication of measles.” The United States can re-establish its measles elimination status once it shows that outbreak transmission has been interrupted for at least 12 months. Public health experts involved in efforts to contain measles over the years say they’ve always been aware of how precarious success could be, but they worry about how current conditions may impede the country’s ability to recover lost progress and turn things around again. “Regaining elimination is going to be harder for us than it was the first time,” said Janet Hamilton, executive director of the Council of State and Territorial Epidemiologists. Trust in the public health system and trust in science more generally are particularly low and still far from recovering from hits taken during the Covid-19 pandemic, she said. The epidemiology of measles has also changed, with immune protection lagging not only among children but in some pockets of adults. “When we started toward elimination, we had an immune adult population because they’d all gotten it as kids, so we only had to focus on vaccinating the cohort of children,” Hamilton said. “The way in which we’re trying to tackle it is going to have to be very different.” The public health system is also not nearly as well-funded or well-resourced — or well-supported — as it has been before. Typically, large outbreaks like the US is experiencing now have prompted pivotal public health and policy changes meant to prevent broader resurgences, said Dr. Walter Orenstein, who has led the CDC’s National Immunization Program. “In the past, we had presidential initiatives which focused on providing resources as well as being major advocates to take actions to get rid of the measles,” he said, referencing the Vaccines for Children Program and the National Childhood Immunization Initiative, which encouraged school mandates and other state laws to encourage mass immunization. “We’ve not seen that in this time,” he said. CDC Director Dr. Erica Schwartz said in November that the agency would not fundamentally change its response to outbreaks even if the US loses its measles elimination status. And US Department of Health and Human Services Secretary Robert F. Kennedy Jr. has long cast doubt on the safety and efficacy of the measles-mumps-rubella (MMR) vaccine. As the nation’s top health official, he has sought to reduce the number of childhood immunizations recommended by the federal government, launched a federal program focused on vaccine injuries and given a keynote address at the conference for the anti-vaccine advocacy group Children’s Health Defense, which he founded. Medical experts have said his rhetoric and actions have fueled ‌falling vaccination ⁠rates. But public health experts say that outspoken federal leadership is exactly what is needed. “There has to be – from very high levels – people talking about how incredibly effective the MMR vaccine is, how incredibly safe it is, how we know what adverse effects tend to be and they tend to be mild. We do not see autism,” said Dr. Jonathan Temte, who attended the 2000 elimination meeting representing the American Academy of Family Physicians. “I think this has to come out at the highest level. We know better,” said Temte, who is now professor emeritus and associate dean emeritus for public health and community engagement at the University of Wisconsin. “Until that happens, I think we’re going to have a hard time to get on top of this.” Still, public health in the US is resilient — and very familiar with adjusting and adapting. “We’re not developing a vaccine; we already know how well it works. And we don’t have nearly as many people that we need to vaccinate. So that’s all in our favor,” Hamilton said. There have also been new developments in behavioral sciences and understanding the science around what motivates change that we can take advantage of, she said. “Success now depends on how earnestly we focus on this moment and how much energy we really put into thinking carefully about the strategies that we need,” she said.",
+        "url": "https://us.cnn.com/2026/11/13/health/measles-elimination-status-vis",
+        "rank": 1,
+        "ranking_score": 8.7,
+        "ranking_reason": "The US has lost its official measles elimination status, and the country is experiencing its worst and deadliest year for measles since 1991, with 10 measles-associated deaths so far in 2026.",
+        "ranking": {
+            "rank": 1,
+            "score": 8.7,
+            "base_score": 8.7,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 80,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 3,
+                "urgency": 2,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "The US has lost its official measles elimination status, and the country is experiencing its worst and deadliest year for measles since 1991, with 10 measles-associated deaths so far in 2026.",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 1,
+                "public_concern": 1,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant development in the category of health, specifically the resurgence of measles in the US, and provides a clear reason for readers to care (i.e., the preventable nature of the outbreak)"
+            }
+        }
+    }
+]

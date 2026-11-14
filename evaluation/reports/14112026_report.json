@@ -1,0 +1,263 @@
+{
+    "date": "14112026",
+    "timestamp": "2026-11-14T08:56:13.975788",
+    "duration_seconds": 4336.32,
+    "stages_duration_seconds": {
+        "scrape": 849.83,
+        "guardrails": 160.1,
+        "deduplication": 10.9,
+        "category_validation": 243.76,
+        "ranking": 453.56,
+        "processing": 2614.92,
+        "assembly": 3.21
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 6,
+            "Tech": 28,
+            "People": 57,
+            "Environment": 6,
+            "Economy": 8,
+            "Entertainment": 26
+        },
+        "total_scraped": 131,
+        "guardrail_passed": 131,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 12,
+        "final_categories": 6
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 131,
+        "classified_safe": 77,
+        "classified_unsafe": 54,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 54,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 127,
+        "rejected_count": 28,
+        "rejected_articles": [
+            {
+                "title": "Nvidia is done with Jensen Huang. The fallout in Washington is just beginning",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on the personal and professional implications of Jensen Huang's resignation and the subsequent investigations, which is a people-oriented story rather than a science and technology one."
+            },
+            {
+                "title": "Nvidia hasn’t selected search firm for permanent Huang replacement, board tells CNBC",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the departure of Jensen Huang, the CEO of Nvidia, and the search for his successor, which is more relevant to the 'people' category than 'science and technology', despite being a technology company."
+            },
+            {
+                "title": "Lutnick faces questions over Nvidia spy scandal. His sons' firm has deep ties to the chipmaker",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Howard Lutnick and his sons' ties to Nvidia, as well as their roles in the administration, making it more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "Apple, Alphabet and Uber survived major founder transitions. Nvidia will be a harder test",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the departure of Jensen Huang, the co-founder and CEO of Nvidia, and the challenges his successor will face, which is more related to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "I interviewed Huang at peak ‘Jensenmania.’ Three weeks later, Nvidia is grappling with a world without him",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Jensen Huang, the CEO of Nvidia, and his personal and professional impact on the company, rather than a specific scientific or technological development. Although Nvidia is a science and technology company, the focus of the article is on the people involved rather than the technology itself."
+            },
+            {
+                "title": "Jensen Huang scandal casts doubt on Nvidia’s AI dominance — how we got here",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Jensen Huang's personal life and leadership, which falls under the 'people' category, despite some tangential references to AI and technology."
+            },
+            {
+                "title": "Nvidia scandal draws in Commerce Secretary Lutnick, who reportedly agrees to testify about China chip sales",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on a scandal involving Commerce Secretary Howard Lutnick, with connections to national security and chip sales, which is more relevant to the 'people' category than 'science and technology' despite its mention of AI chips."
+            },
+            {
+                "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal and professional developments of Jensen Huang, a prominent figure in the tech industry, rather than any specific scientific or technological advancements."
+            },
+            {
+                "title": "Setback for SpaceX Starship rocket's double-catch test",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article is primarily about SpaceX's Starship rocket technology and its reusability, which falls under the science and technology category."
+            },
+            {
+                "title": "At least 24 killed after bus collides with truck in north-east India",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on a road accident and its consequences, which is a health-related issue, even though it is also related to people."
+            },
+            {
+                "title": "Setback for SpaceX Starship rocket's double-catch test",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the technology and engineering aspects of SpaceX's Starship rocket, including its reusability and potential impact on the economics of accessing space."
+            },
+            {
+                "title": "Eurovision is finally coming to Asia - meet the stars gearing up to take the stage",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article is primarily focused on the Eurovision song contest and its Asia debut, which is a cultural and entertainment event, rather than a people-focused story."
+            },
+            {
+                "title": "Heat pumps: How much heat does your home really need?",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article discusses the use of apps and technologies to calculate heat loss and design efficient heating systems, which is a scientific and technological topic."
+            },
+            {
+                "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the personal and political relationships between Jensen Huang, the CEO of Nvidia, and the White House, with implications for national security and trade policy."
+            },
+            {
+                "title": "Hear Dolly Parton’s final recording, a heartbreaking duet with Bono",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the life and legacy of Dolly Parton, a famous person, and their final recorded performance with Bono, making it more relevant to the 'people' category than the current 'entertainment' category."
+            },
+            {
+                "title": "Manchester United hires Mauricio Pochettino as its new head coach, US set to begin search for replacement",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the appointment of Mauricio Pochettino as the new head coach of Manchester United, with secondary mentions of US soccer and the potential replacement of Pochettino as the US head coach. While there is some tangential mention of sports, the core of the article is about people and their roles in the sports world."
+            },
+            {
+                "title": "Mike Tyson convinced a filmmaker to take psychedelic drugs with him. What happened next was extraordinary",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Mike Tyson's life, personality, and rehabilitation, which is more related to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Brand, Walliams and MAFS: Is this a reckoning for the entertainment industry?",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses allegations of rape, sexual assault, and abuse of power in the entertainment industry, which is a significant and recurring theme in the 'health' category, particularly in the context of mental health and well-being."
+            },
+            {
+                "title": "Brand, Walliams and MAFS: Is this a reckoning for the entertainment industry?",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses allegations of abuse and misconduct in the entertainment industry, which falls under the 'people' category."
+            },
+            {
+                "title": "Catherine Zeta-Jones says US move humbled her before big break with Steven Spielberg",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal and professional experiences of Catherine Zeta-Jones, a famous actress, which falls under the 'people' category."
+            },
+            {
+                "title": "Police investigating David Walliams over reports alleging serious sexual offences",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on a celebrity, David Walliams, and his alleged involvement in serious sexual offences, which is a people-related news story."
+            },
+            {
+                "title": "More women make allegations against Russell Brand",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article reports allegations of sexual misconduct against Russell Brand, a figure primarily known for his entertainment career, and is therefore more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "More women make allegations against Russell Brand",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses allegations of sexual misconduct and assault against Russell Brand, which is a serious issue related to health and wellbeing."
+            },
+            {
+                "title": "'Mystically elusive': The hidden meanings in Hokusai's iconic Great Wave",
+                "from": "entertainment",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article discusses the historical and cultural context of Hokusai's artwork, but its primary focus is on the artistic and technical aspects of the print, which makes it more relevant to the 'science and technology' category."
+            },
+            {
+                "title": "Firm offers to fake artworks for wealthy migrants seeking UK 'talent' visas - BBC investigation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article's primary focus is on a UK government visa program and its potential misuse, which is a topic more related to people and governance than entertainment."
+            },
+            {
+                "title": "'Lip reading is my superpower', says CiN choirgirl",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Josephine's personal story, her experiences as a deaf child, and her passion for sign language, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Brand, Walliams and MAFS: Is this a reckoning for the entertainment industry?",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a series of events and allegations in the entertainment industry, specifically related to the personal lives of public figures, which falls under the 'people' category."
+            },
+            {
+                "title": "Catherine Zeta-Jones says US move humbled her before big break with Steven Spielberg",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Catherine Zeta-Jones' personal experiences, career, and relationships, which are all aspects of the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 389,
+        "total_failures": 0,
+        "total_time_seconds": 402.45,
+        "prompt_tokens": 531164,
+        "response_tokens": 10661,
+        "total_tokens": 541825,
+        "usage_responses": 389,
+        "prompt_eval_seconds": 116.172,
+        "generation_seconds": 238.315,
+        "load_seconds": 18.566,
+        "server_total_seconds": 399.104,
+        "avg_response_time": 1.03
+    }
+}
