@@ -1,0 +1,67 @@
+[
+    {
+        "id": "st-7",
+        "source": "SciTechDaily",
+        "category": "health",
+        "title": "",
+        "date": "2026-11-15 03:36",
+        "content": "Blood pressure stayed lower for up to two years after treatment ended in a small follow-up study, suggesting some people with hormone-driven hypertension could avoid lifelong medication. For people with a common hormonal cause of high blood pressure, a cure has required surgery to remove an entire adrenal gland. Medication can keep their blood pressure under control, often with the prospect of taking it for life. The condition, called primary aldosteronism, accounts for an estimated 5% to 10% of cases of high blood pressure, or hypertension, which affects millions of people worldwide. Benign nodules in the adrenal glands produce too much of the hormone aldosterone, causing the kidneys to retain excess salt and driving blood pressure up. A study led by Queen Mary University of London now suggests that a limited course of medication could offer a lasting cure for some people with this condition. The approach, called extended aldosterone synthase inhibition (EASI), involves taking a new class of drugs for 6 to 12 months. These drugs block aldosterone synthase, an enzyme needed to make the hormone, targeting the excess production responsible for the hypertension. The findings, published in the New England Journal of Medicine , came from follow-up measurements in 14 people treated at eight centers across the United States. They had participated in the first study of this drug class in people with primary aldosteronism, also led by Queen Mary and reported last year in the same journal. Researchers subsequently examined routine measurements of their blood pressure and hormone levels to see how they compared with values recorded before treatment. For up to two years after treatment ended, hormone levels and blood pressure remained similar to, or lower than, those measured while participants were taking the drugs. The main marker of excess aldosterone production remained 99% below its pretreatment level, and blood pressure was, on average, 25 points lower. Researchers reported partial or complete resolution of hypertension, with almost a quarter of participants having normal blood pressure without taking any other medication. Mason Freeman, Professor of Medicine at Harvard Medical School, initiated the original study while medical director at Cincor. He said, “This follow-up study led by Dr. Brown has generated some extraordinary and unexpected findings. The sustained remission in the biochemical markers of the hyperaldosterone state, combined with much improved blood pressure levels, offers the very exciting possibility that many patients with primary aldosteronism may be able to be treated with a once-a-day pill, perhaps for a limited period of time, and obtain similar benefits to what we now achieve only after invasive diagnostic testing and major adrenal surgery.” Aldosterone synthase inhibitors had previously been tested in larger studies of people with hypertension. Those studies generally involved shorter treatment periods of 6 to 12 weeks, with outcomes measured while people were still taking the medication. Following patients after a 6- to 12-month course revealed the possibility that the treatment’s effects could outlast the medication itself. One possible explanation dates to a 2005 experiment in mice. When scientists deleted the gene responsible for producing aldosterone synthase, the cells that make aldosterone disappeared. Researchers at Queen Mary predicted that blocking the enzyme for a prolonged period might have a similar effect in humans, potentially removing the source of excess hormone production. Morris Brown, the study’s lead author and Professor of Endocrine Hypertension at Queen Mary, said, “While duly cautious about our findings because of the pragmatic nature of the study, they were predicted by previous experiments, and longer follow-up may justify a claim that a finite course of medication leads to infinite cure. “EASI-treatment is unlikely to be the elixir for most patients with hypertension. But the possibility of tablets achieving a surgical cure has long been a holy grail for this common type of hypertension.” The researchers are now leading a larger prospective clinical trial called ELIXIR to investigate whether EASI treatment can provide a lasting cure for people with primary aldosteronism. The trial will also use molecular imaging of the adrenal glands to examine whether prolonged treatment causes aldosterone-producing cells to disappear in humans. Reference: “Hyperaldosteronism Remission after Extended Aldosterone Synthase Inhibition” by Morris J. Brown, Adina F. Turcu, Ramin Sam, Lawrence S. Kirschner, Oksana Hamidi, Aysegul Eren, Anat Ben-Shlomo, Wenyu Huang, Irina Bancos, Amir H. Hamrahian and Mason W. Freeman, 6 November 2026, New England Journal of Medicine . DOI: 10.1056/NEJMc2611265 Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/a-simple-pill-could-cure-a-common-cause-of-high-blood-pressure/",
+        "rank": 1,
+        "ranking_score": 29.45,
+        "ranking_reason": "Suggests a potential cure for primary aldosteronism, a common hormonal cause of high blood pressure, which could avoid lifelong medication for some patients.",
+        "ranking": {
+            "rank": 1,
+            "score": 29.45,
+            "base_score": 27.5,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 80,
+                "scientific_significance": 60,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 20,
+                "urgency": 10,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": false
+                },
+                "reason": "Suggests a potential cure for primary aldosteronism, a common hormonal cause of high blood pressure, which could avoid lifelong medication for some patients.",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 20,
+                "public_need_to_know": 50,
+                "public_concern": 10,
+                "technology_significance": 10
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "Report of a potential breakthrough in the treatment of primary aldosteronism, a common hormonal cause of high blood pressure, with significant implications for patient outcomes and quality of life."
+            }
+        }
+    }
+]

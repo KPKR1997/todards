@@ -1,0 +1,165 @@
+{
+    "date": "15112026",
+    "timestamp": "2026-11-15T09:36:39.322823",
+    "duration_seconds": 1858.66,
+    "stages_duration_seconds": {
+        "scrape": 875.86,
+        "guardrails": 98.08,
+        "deduplication": 11.74,
+        "category_validation": 149.8,
+        "ranking": 346.41,
+        "processing": 376.58,
+        "assembly": 0.13
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 7,
+            "Tech": 15,
+            "People": 39,
+            "Environment": 2,
+            "Economy": 2,
+            "Entertainment": 17
+        },
+        "total_scraped": 82,
+        "guardrail_passed": 82,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 0,
+        "final_categories": 0
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 82,
+        "classified_safe": 52,
+        "classified_unsafe": 30,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 30,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 80,
+        "rejected_count": 14,
+        "rejected_articles": [
+            {
+                "title": "How Rockstar's 'GTA VI' release could reshape gaming, streaming and even paid time off",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the potential impact of the 'GTA VI' release on the gaming and entertainment industries, as well as its potential effects on society, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Meet the seven co-founders of Anthropic",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the founders of Anthropic, a company that is primarily about people and their backgrounds, rather than the scientific or technological aspects of the company."
+            },
+            {
+                "title": "Eric Trump-backed robot soldier startup can't pay staff after founder borrowed $4.6 million from company to buy home",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Eric Trump's involvement with a robot soldier startup, Foundation Future Industries, and its financial struggles, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "My mother told me I would die if I sought treatment for Ebola - I am proof you can survive",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article is primarily about the author's personal experience with Ebola, its symptoms, diagnosis, and treatment, which falls under the 'health' category."
+            },
+            {
+                "title": "COP31: Priorities on Just Transition take shape at the end of week 1",
+                "from": "earth and environment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the negotiations and agreements made by countries at COP31, highlighting the importance of just transition and climate action, which is more relevant to the 'people' category than 'earth and environment'."
+            },
+            {
+                "title": "Hannah Fry feels 'unbelievably lucky' after cervical cancer treatment",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Hannah Fry's experience with cervical cancer treatment, making it more relevant to the 'health' category than 'entertainment'."
+            },
+            {
+                "title": "Holly Humberstone: People can't connect to a pop star who's 'too polished'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on Holly Humberstone, a pop star, discussing her personal life, relationships, and experiences, which are more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Holly Humberstone: People can't connect to a pop star who's 'too polished'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the personal life and experiences of Holly Humberstone, a singer-songwriter, and has a clear connection to the 'people' category."
+            },
+            {
+                "title": "Alleged Russell Brand rape victim wants age of consent law changed",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses a celebrity's criminal trial and its aftermath, which is a topic of human interest and falls under the 'people' category."
+            },
+            {
+                "title": "Sotheby's auction of $180m Van Gogh challenged over claims it was 'sold under duress'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about the Fischer family's claim and the dispute over the sale of the Van Gogh painting, which is a news development about people and their history, making 'people' the most relevant category."
+            },
+            {
+                "title": "Noel Fielding 'appalled' by jokes he made with Russell Brand",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Noel Fielding's comments and reactions to Russell Brand's crimes, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Holly Humberstone: People can't connect to a pop star who's 'too polished'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal life and experiences of Holly Humberstone, which falls under the 'people' category."
+            },
+            {
+                "title": "The rare guitar that starred on U2's defining album",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article highlights the unique guitar played by U2's lead guitarist The Edge, which is a human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "Noel Fielding 'appalled' by jokes he made with Russell Brand",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Noel Fielding's reaction to Russell Brand's crimes, making it more relevant to the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 244,
+        "total_failures": 0,
+        "total_time_seconds": 247.11,
+        "prompt_tokens": 318593,
+        "response_tokens": 6692,
+        "total_tokens": 325285,
+        "usage_responses": 244,
+        "prompt_eval_seconds": 65.301,
+        "generation_seconds": 147.929,
+        "load_seconds": 17.383,
+        "server_total_seconds": 244.455,
+        "avg_response_time": 1.01
+    }
+}

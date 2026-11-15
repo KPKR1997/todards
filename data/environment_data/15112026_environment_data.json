@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-2",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "COP31: Developing countries push to turn climate finance commitments into action as talks hit familiar divisions",
+        "date": "2026-11-14T08:12:58.847Z",
+        "content": "The Climate Finance Work Programme (CFWP), now formally on the COP31 agenda, aims to strengthen scrutiny of developed countries’ obligations to provide climate finance to developing countries under Article 9.1 of the Paris Agreement. Developing countries want a formal mandate, structured negotiations and concrete outcomes, including greater provision of public and concessional finance and clarity on the proposed tripling of adaptation finance. Developed countries favour continuing the existing process without reopening its mandate. Disagreements over the programme's scope, duration and procedural arrangements remain unresolved, raising questions about whether it can deliver meaningful outcomes and inform the next global stocktake. Climate finance remains the most contentious issue in international climate negotiations. This year, as COP31, the 31 st UN climate summit gets underway in Antalya, Türkiye, two rounds of negotiations on the new agenda item on climate finance have already taken place. But discussions over its scope and procedural future remains unresolved. Formally known as the “Climate Finance Work Programme on Article 9.1 in the context of Article 9 as a whole” (CFWP), it is regarded as a potential forum for high-level, political scrutiny of developed countries’ climate finance commitments to developing countries, including those under the new climate finance goal agreed upon at COP29 in Baku in 2024. The CFWP was adopted as an agenda item for negotiation on day one at COP31 without significance opposition. However, developed countries including the EU noted “ deep concern ” about its transition from a “work programme”, or non-negotiated forum for discussion, into a formal “agenda item” with political weight and a place in the official negotiating process. Some new demands, including developing countries’ call to triple adaptation finance, have also featured in the discussions.",
+        "url": "https://www.downtoearth.org.in/climate-change/cop31-developing-countries-push-to-turn-climate-finance-commitments-into-action-as-talks-hit-familiar-divisions",
+        "rank": 1,
+        "ranking_score": 22.89,
+        "ranking_reason": "Official COP31 agenda item on climate finance, significant political implications",
+        "ranking": {
+            "rank": 1,
+            "score": 22.89,
+            "base_score": 21.8,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 20,
+                "political_significance": 80,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 2,
+                "urgency": 30,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": true,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "Official COP31 agenda item on climate finance, significant political implications",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 20,
+                "public_need_to_know": 30,
+                "public_concern": 10,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant development in international climate negotiations, specifically the ongoing discussions on climate finance at COP31, which has significant political implications. It provides a clear reason for readers to care, as it highlights the divisions between developed and developing countries and the potential for meaningful outcomes to inform the next global stocktake."
+            }
+        }
+    }
+]
