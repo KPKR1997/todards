@@ -1,0 +1,130 @@
+{
+    "date": "16112026",
+    "timestamp": "2026-11-16T07:06:02.048488",
+    "duration_seconds": 2102.32,
+    "stages_duration_seconds": {
+        "scrape": 916.9,
+        "guardrails": 109.32,
+        "deduplication": 9.93,
+        "category_validation": 158.07,
+        "ranking": 354.9,
+        "processing": 552.94,
+        "assembly": 0.21
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 5,
+            "Tech": 21,
+            "People": 45,
+            "Environment": 2,
+            "Economy": 9,
+            "Entertainment": 7
+        },
+        "total_scraped": 89,
+        "guardrail_passed": 89,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 0,
+        "final_categories": 0
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 89,
+        "classified_safe": 69,
+        "classified_unsafe": 20,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 20,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 83,
+        "rejected_count": 9,
+        "rejected_articles": [
+            {
+                "title": "Black Friday and tax return scams  - don't fall for these",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses scams and fraud, which is a topic related to public health and personal security."
+            },
+            {
+                "title": "South Korea's top scorer in tax accountancy exam admits cheating",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about a personal story of cheating in a national exam, which is a significant human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "Czechs rally against plan to switch funding of public media",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the Czech government's plans and protests, which falls under the 'people' category, as it involves social and political developments."
+            },
+            {
+                "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the UK's relationship with the EU, including a 'Brexit reset' and its impact on food trade, which is a people-focused topic."
+            },
+            {
+                "title": "Jensen Huang resigned in disgrace from Nvidia. Many in Silicon Valley are still showering him with support",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Jensen Huang's departure from Nvidia, discussing his legacy, support from colleagues and peers, and impact on the tech ecosystem, which is a people-related topic."
+            },
+            {
+                "title": "Charlotte Church closes wellness retreat after five 'beautiful' years",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Charlotte Church's personal venture, The Dreaming, and her decision to close the wellness retreat, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Star-studded MacGowan tribute album gave grieving wife purpose",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Shane MacGowan's life and death, and the tribute album as a way to cope with his passing, which falls under the 'people' category."
+            },
+            {
+                "title": "Star-studded MacGowan tribute album gave grieving wife purpose",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Victoria Mary Clarke's experience and emotions, with a focus on her connection to Shane MacGowan and the impact of the album on her life."
+            },
+            {
+                "title": "Black women's swimming documentary Oscar-longlisted",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the documentary film 'Swim Sistas' and its connection to the empowerment of black women, which falls under the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 261,
+        "total_failures": 0,
+        "total_time_seconds": 266.3,
+        "prompt_tokens": 365822,
+        "response_tokens": 6866,
+        "total_tokens": 372688,
+        "usage_responses": 261,
+        "prompt_eval_seconds": 78.417,
+        "generation_seconds": 152.794,
+        "load_seconds": 17.301,
+        "server_total_seconds": 263.875,
+        "avg_response_time": 1.02
+    }
+}

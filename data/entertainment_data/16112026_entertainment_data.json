@@ -1,0 +1,67 @@
+[
+    {
+        "id": "entertainment-6",
+        "source": "BBC",
+        "category": "entertainment",
+        "title": "Residents join Hollywood stars in Parkinson's film",
+        "date": "2026-11-15 06:49",
+        "content": "A woman living with Parkinson's said she was starstruck as she featured alongside Hollywood royalty in a new film based on the condition.\nSue Day was an extra in the movie Onwards and Sideways , which stars Laura Linney and Rhys Ifans, and was filmed and set in Norfolk.\nDay, from Hindolveston near Fakenham and whose husband also has the condition, spoke of her nervousness at meeting the actors, but \"very soon just developed a normal relationship with them\".\nShe said she hoped the film would change people's perceptions and stereotypes of Parkinson's.\nWritten by the co-creator of Vicar of Dibley, Paul Mayhew-Archer, the film is based on his personal experiences over the past 15 years .\nIt follows Emma, played by Linney, and Ifans's Tony, as they navigate the five years after being diagnosed with Parkinson's on the same day.\nAccording to Parkinson's UK, about 166,000 people in the UK live with the progressive neurological condition .\nDay, who starred alongside other Norfolk residents, said: \"I think people think of Parkinson's as a disease where people just have the shakes, and there are so many different symptoms that you can have.\n\"For instance, my husband and I, we've got very different symptoms. Mine are quite physical... I find it difficult to walk very far. He, on the other hand, finds that he gets depressed in the mornings when he wakes up.\"\nTom Horne, who was also an extra, auditioned to be in the film after finding a flyer for it in a local Parkinson's group.\nHe said its authenticity was \"absolutely perfect\", including Ifans' portrayal of coming to terms with the condition.\nHe said: \"I didn't know much about it until I got it. I just assumed it was some illness, nondescript, but it has about 40 different symptoms.\"\nAfter driving him to the audition, Horne's wife Sheila was also given a part.\nShe said: \"I really hope it's going to educate people on what Parkinson's is. So many people think it's just the shakes, but a lot of people with Parkinson's don't have a shake at all.\n\"We have made so many friends, because of the amount of people with Parkinson's and their carers that were in it.\"\nProducer Hilary Bevan-Jones and director John Madden decided there was no better place than Norfolk to use as a backdrop.\nThe production was filmed in Fakenham, Blakeney and Morston, with Burnham Market Primary School transformed into the fictional Salt Marsh Primary.\nBevan-Jones said: \"It was really important to us that we used as many local people as possible.\n\"[We] managed to find a lot of people living with Parkinson's in the local community and filmed a lot of beautiful dance classes at Binham Village Memorial Hall.\"\nShe said her father had Parkinson's and she hoped other people would connect with the movie.",
+        "url": "https://www.bbc.com/news/articles/cm879005nz5no",
+        "rank": 1,
+        "ranking_score": 9.0,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 9.0,
+            "base_score": 9.0,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 50,
+                "scientific_significance": 0,
+                "entertainment_significance": 60,
+                "remarkability": 0,
+                "global_reach": 20,
+                "urgency": 0,
+                "severity_tier": 1,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a substantive development in the entertainment category, specifically the making of a film about Parkinson's disease, featuring Hollywood stars and real-life people with the condition. The inclusion of residents with Parkinson's and their personal experiences adds authenticity to the story, making it a valuable contribution to the public interest."
+            }
+        }
+    }
+]
