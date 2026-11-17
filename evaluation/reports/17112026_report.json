@@ -1,0 +1,228 @@
+{
+    "date": "17112026",
+    "timestamp": "2026-11-17T07:30:50.430069",
+    "duration_seconds": 3590.05,
+    "stages_duration_seconds": {
+        "scrape": 944.86,
+        "guardrails": 134.29,
+        "deduplication": 11.99,
+        "category_validation": 197.5,
+        "ranking": 347.87,
+        "processing": 1953.49,
+        "assembly": 0.01
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 5,
+            "Tech": 26,
+            "People": 51,
+            "Environment": 4,
+            "Economy": 9,
+            "Entertainment": 26
+        },
+        "total_scraped": 121,
+        "guardrail_passed": 121,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 4,
+        "final_categories": 2
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 121,
+        "classified_safe": 74,
+        "classified_unsafe": 47,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 47,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 110,
+        "rejected_count": 23,
+        "rejected_articles": [
+            {
+                "title": "Aschenbrenner’s Situational Awareness made AI bets again before October rout",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses AI-related investments and hedge fund activities, which is more closely related to the economy and business category than the current category 'science and technology'."
+            },
+            {
+                "title": "Nvidia board is not considering bringing Jensen Huang back as CEO, source tells CNBC",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Jensen Huang's resignation and personal matters, rather than any scientific or technological development."
+            },
+            {
+                "title": "Robert Pattinson cast as next James Bond",
+                "from": "science and technology",
+                "detected_category": "entertainment",
+                "confidence": 1.0,
+                "reason": "The article is primarily about the casting of Robert Pattinson as the next James Bond, which is a topic of entertainment news."
+            },
+            {
+                "title": "The tech world's calls for Jensen Huang to return to Nvidia are growing",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal and professional life of Jensen Huang, rather than the scientific or technological aspects of Nvidia or the tech industry."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the discovery of a potential female king in British history, which is a significant event in the field of people and their leaders, and has a stronger connection to the people category than the science and technology category."
+            },
+            {
+                "title": "Kidnap, child marriage and poverty: Why millions of Nigerian children can't go to school",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article focuses on the education and social issues affecting millions of Nigerian children, which has a strong connection to the broader topic of child health and well-being."
+            },
+            {
+                "title": "The AI start-ups fixing India's broken roads and messy land records",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the application of AI technology to fix India's broken roads and messy land records, which is a scientific and technological development."
+            },
+            {
+                "title": "The AI start-ups fixing India's broken roads and messy land records",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article discusses AI start-ups in India and their applications in various sectors, including land records and pothole detection, making it more relevant to the 'science and technology' category."
+            },
+            {
+                "title": "California sues OpenAI over Hugging Face attack",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the development and testing of artificial intelligence models, which is a scientific and technological topic."
+            },
+            {
+                "title": "We couldn't afford a house alone, so we bought one with strangers",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal and social aspects of the Wilcoxes and the Pullmans' decision to buy a house together, rather than the economic or business implications."
+            },
+            {
+                "title": "UK lost more than it gained from Brexit, Burnham says ahead of EU summit",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the UK's prime minister, Andy Burnham, and his views on Brexit, which falls under the 'people' category, as it is focused on a political leader's opinions and actions."
+            },
+            {
+                "title": "Gérard Depardieu drops appeal and accepts sexual assault conviction",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on the personal life and legal issues of a celebrity, which is a common topic in the 'people' category."
+            },
+            {
+                "title": "From rugby powerhouse to bodybuilder: How a World Cup winner is confronting fears of CTE",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Phil Vickery's personal story, his diagnosis, and his struggles with CTE, which falls under the 'people' category. While it touches on his athletic career and bodybuilding, the core of the article is Vickery's personal experience and its impact on his life."
+            },
+            {
+                "title": "Emma Barnett to leave Radio 4's Today for new BBC show",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Emma Barnett's departure from Radio 4's Today programme and her new BBC show, which is a news development about a person in the broadcasting industry."
+            },
+            {
+                "title": "Emma Barnett to leave Radio 4's Today for new BBC show",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Emma Barnett's career change and departure from Radio 4's Today program, which is a significant event in the 'people' category."
+            },
+            {
+                "title": "Robert Pattinson: How the Twilight star became 007",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses Robert Pattinson's career and life, which is a news development in the 'people' category."
+            },
+            {
+                "title": "Gérard Depardieu drops appeal against sexual assault conviction",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal and legal developments surrounding French film star Gérard Depardieu, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Shakespeare chief threatens to resign over Birmingham move",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the director of the Shakespeare Institute's reaction to the university's decision to move the institute, which is a people-related story."
+            },
+            {
+                "title": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the personal situation and message of Russell Brand, a celebrity, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Russell Brand prison message 'appalling' and being investigated, No 10 says",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily reports on the actions and statements of Russell Brand, a public figure, which makes 'people' the most relevant category."
+            },
+            {
+                "title": "Robert Pattinson: How the Twilight star became 007",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Robert Pattinson's career and personal life, making it a good fit for the 'people' category."
+            },
+            {
+                "title": "The Scouse actor reaching new heights in Liverpool drama This City Is Ours",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the actor Adam Abbou and his experiences, as well as the importance of representation and opportunities for working-class individuals in the industry, which falls under the 'people' category."
+            },
+            {
+                "title": "Actor's rise from Wolverhampton to the big screen",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on the personal story and career of actor Sunjay Midda, which is more relevant to the 'people' category than 'entertainment', although it does mention his latest film."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 352,
+        "total_failures": 0,
+        "total_time_seconds": 331.01,
+        "prompt_tokens": 452808,
+        "response_tokens": 9044,
+        "total_tokens": 461852,
+        "usage_responses": 352,
+        "prompt_eval_seconds": 89.504,
+        "generation_seconds": 198.924,
+        "load_seconds": 17.538,
+        "server_total_seconds": 327.478,
+        "avg_response_time": 0.94
+    }
+}

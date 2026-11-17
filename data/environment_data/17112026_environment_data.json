@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-3",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "COP31: Extreme heat affecting pregnant women and newborns in India, 98% of surveyed clinicians report",
+        "date": "2026-11-16T04:40:18.243Z",
+        "content": "Nearly 98% of Indian healthcare professionals surveyed reported treating pregnant women and newborns whose health they believed was affected by extreme heat. About 66% of Indian clinicians reported a rise in heat-related complications affecting foetuses or newborns, while 62% reported an increase among pregnant women. The Wellcome study surveyed 1,000 healthcare professionals across India, the UK, Australia, Brazil and Zimbabwe, with 200 respondents in each country. Clinicians reported suspected heat-related impacts including low birth weight, restricted foetal growth, dehydration and feeding difficulties among newborns. At COP31, a UN climate official warned that only about 1% of formal climate finance goes to health, calling for greater investment in climate-resilient healthcare systems. Nearly all Indian healthcare professionals surveyed in a new global study reported treating pregnant women and newborns whose health they believed had been affected by extreme heat, highlighting growing concerns over the impact of climate change on maternal and infant health. The study, presented by global health research organisation Wellcome on November 13 on the sidelines of COP31 in Antalya, Türkiye, surveyed 1,000 healthcare professionals across five countries. In India, 98 per cent of respondents said they had cared for a pregnant woman whose health they believed was affected by extreme heat, according to a media briefing. The same proportion reported treating a baby affected by heat. The findings were presented in the presence of senior UN climate officials, who acknowledged that health receives only a small share of international climate finance. According to the study, 66 per cent of Indian respondents reported an increase in heat-related cases or complications affecting foetal or newborn health over the past five years, while 62 per cent reported an increase in complications affecting pregnant women. More than a quarter (26 per cent) said they had encountered pregnancy complications requiring additional monitoring or treatment. Clinicians described a range of suspected heat-related effects, including low birth weight, restricted foetal growth, dehydration and feeding difficulties among newborns. The survey was conducted in September and October 2026 among 1,000 healthcare professionals in India, the UK, Australia, Brazil and Zimbabwe, with 200 respondents from each country. Participants included obstetricians, gynaecologists and frontline healthcare workers involved in pregnancy, childbirth, postnatal and newborn care. Across the five countries, 73 per cent reported an increase in heat-related cases or complications affecting pregnant women over the previous five years, while 76 per cent reported an increase affecting foetal or newborn health. “Women exposed to extreme heat during pregnancy have much worse pregnancy outcomes: increased risk of stillbirth, pre-term birth and congenital abnormalities,” said Alan Dangour, Wellcome's director of climate and health, as per the briefing statement. “As the climate changes, this is going to become worse and worse. We are at the early stages now and must put in place the procedures, the guidelines and the systems to respond to this challenge,” he added. Speaking at the launch, Youssef Nassef, director of the adaptation programme at UN Climate Change, acknowledged the limited funding available to address climate-related health risks. “Heat in particular has a severe impact on maternal health, on newborn babies,” he said, adding that approximately 1 per cent of formal climate finance goes to health. Nassef said health was becoming increasingly important in international climate adaptation negotiations. He outlined three priorities under the Global Goal on Adaptation: preventing climate-related deaths and illness, strengthening the resilience of healthcare systems, and helping communities adapt to the health impacts of climate change. He called for assessments at national and subnational levels to identify gaps in healthcare preparedness and estimate the funding needed to address them. “Once that is concluded and countries have started working on this now, piloting the use of the indicators for the global goal, then we can start calculating where we are versus where we need to be,” he said. “I suspect that the amount of funding needed will be a lot more than 1 per cent.” Nassef also argued that health policies must account for environmental conditions, including neighbourhood design, ecosystem health and food production. Karthika Kumar, a research fellow at the George Institute who was involved in the study, said addressing heat-related risks required action beyond the healthcare sector. “Heat harms pregnant women in ways that go far beyond their bodies,” she said, calling for coordination between health services, urban planning and community organisations. Rajib Dasgupta, a public health expert and professor at Jawaharlal Nehru University's Centre of Social Medicine and Community Health in New Delhi, said the findings highlighted an emerging public health concern. “I am aware of the study. It is an evolving area of work but the concern is genuine,” he said.",
+        "url": "https://www.downtoearth.org.in/climate-change/cop31-extreme-heat-affecting-pregnant-women-and-newborns-in-india-98-of-surveyed-clinicians-report",
+        "rank": 1,
+        "ranking_score": 8.0,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 8.0,
+            "base_score": 8.0,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 80,
+                "scientific_significance": 60,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 0,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "This article reports a substantive, category-specific development on the impact of climate change on maternal and infant health, providing clear evidence-based data and alarming statistics that warrant attention and concern from readers."
+            }
+        }
+    }
+]

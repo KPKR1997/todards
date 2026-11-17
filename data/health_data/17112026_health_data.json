@@ -1,0 +1,67 @@
+[
+    {
+        "id": "st-5",
+        "source": "SciTechDaily",
+        "category": "health",
+        "title": "",
+        "date": "2026-11-17 01:01",
+        "content": "Many older adults carry blood mutations linked to acute myeloid leukemia, yet most never develop it. The difference may lie in how those cells grow. Acute myeloid leukemia can begin developing decades before diagnosis. In two-thirds of women who eventually developed the aggressive blood cancer, researchers traced the first cancer-driving mutation to before age 20. In some cases, more than 50 years passed before the disease was diagnosed. The discovery reveals how slowly leukemia can take shape, with mutated blood cells gradually accumulating genetic changes before their growth accelerates. It also points to a possible opportunity to identify people at risk long before they become ill. Acute myeloid leukemia (AML) affects around 2,700 people in the UK each year. Only about one in six survive five years after diagnosis. Predicting who will develop it has been difficult because many healthy older adults carry blood cells with mutations also found in leukemia. This condition, called clonal hematopoiesis, rarely progresses to cancer, and scientists have not fully understood what separates those who eventually develop AML from those who do not. To investigate, researchers from the University of Cambridge and University College London (UCL) turned to years of stored blood samples. Their study, published November 11, 2026, in Nature , examined 47 women who later developed AML and 46 matched women who remained free of blood cancer. The samples came from the UK Collaborative Trial of Ovarian Cancer Screening (UKCTOCS), which collected annual blood samples from around 50,000 women for up to 11 years. Some provided a record reaching 15 years before diagnosis. The women who developed AML were diagnosed between ages 53 and 83, at an average age of 72. None of the samples were collected at diagnosis. Professor Usha Menon of the UCL Institute of Clinical Trials and Methodology, who led UKCTOCS, explained how the ovarian cancer screening trial created an unexpected resource for studying other diseases. “While UKCTOCS was designed to assess ovarian cancer screening, a key outcome was the establishment of a unique bioresource of serial serum samples. This resource has provided unprecedented opportunities to study how cancers develop over time and to discover and validate biomarkers for earlier detection. We owe an enormous debt of gratitude to the participants whose willingness to contribute their samples and data over many years made this possible. Their generosity is the foundation of this achievement.” Using ultra-sensitive DNA sequencing and mathematical modeling, the researchers reconstructed when mutations appeared and how quickly the affected blood cells multiplied. The earliest mutations often gave these cells a decades-long head start. At first, their numbers increased very slowly, taking years to double. Each additional cancer-driving mutation accelerated their growth by roughly two- to threefold. By the time cells carried four cancer-driving mutations, their populations could double in just weeks. These expanding populations of genetically related cells are called clones. Once established, they tended to grow at a predictable rate, slowing only when they ran out of room or a faster-growing clone overtook them. That consistency could make it possible to estimate a person’s future risk from a relatively small number of blood samples. Professor Jamie Blundell of the University of Cambridge’s Early Cancer Institute, who led the study, said: “Serial blood samples are a fossil record of the blood’s evolution. They let us go back in time and reconstruct when each mutation arose and how fast it grew. What surprised us most is how predictable the growth of these clones is. Once a clone is established, its growth rate today tells you where it will be years, even decades, from now.” The researchers also identified a particularly concerning pattern. In at least one-third of the women who developed AML, a mutated cell population had already become dominant in the blood years before diagnosis. This is known as a somatic sweep. None of the women who remained free of blood cancer showed the same phenomenon. The team found further evidence linking these sweeps to AML risk using UK Biobank data. People with this pattern had a greatly increased risk of developing the disease. However, standard genetic analysis can overlook the warning sign by mistaking these acquired mutations for inherited genetic variants. There was also an important difference in how early the changes became detectable. In around one in five cases, expanding populations of mutated cells did not appear until just one to two years before diagnosis. This means that the opportunity to identify and monitor high-risk individuals may vary considerably. Dr. Caroline Watson, a researcher at the Early Cancer Institute and first author of the study, said the findings help explain why AML can seem to emerge so suddenly. “As a hematologist, I’ve seen how suddenly AML can change someone’s life. This study shows that the changes leading to AML can build over decades, with the affected cells growing in surprisingly predictable ways.” Watson is also an Honorary Consultant Hematologist at Addenbrooke’s Hospital, where she sees patients at the Cambridge Clonal Haematopoiesis Clinic, Europe’s first clinic focused on leukemia prevention. The clinic already monitors people with blood-cell mutations associated with an increased risk of leukemia. “At our clinic, we already assess and monitor people who carry blood-cell mutations that increase their risk of leukemia. Today’s findings give us real hope of improving how we identify which of them are at greatest risk and point to a window in which prevention could one day be possible.” The researchers now want to find out whether slowing the growth of high-risk clones could prevent them from developing into leukemia. Their mathematical models suggest that even a modest reduction in growth over the decade or more between the second mutation and diagnosis could substantially lower the chance of progression. Professor Blundell said: “Because the growth is exponential, even modestly slowing a high-risk clone over the decade or more before diagnosis could substantially reduce the chance it becomes leukemia. This opens up strategies we can exploit to prevent these clones ever becoming leukemia.” Testing whether this approach can safely and effectively slow mutated cell populations in people at high risk is the team’s next step. Reference: “Evolutionary dynamics in the years preceding acute myeloid leukaemia” by Caroline J. Watson, Gladys Y. P. Poon, Hamish A. J. MacGregor, Adriana V. A. Fonseca, Sophia Apostolidou, Aristi Damaskou, Christopher Boniface, Samuel Hackett, Aleksandra Gentry-Maharaj, Usha Menon and Jamie R. Blundell, 11 November 2026, Nature . DOI: 10.1038/s41586-026-11269-x Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/a-deadly-blood-cancer-may-begin-more-than-50-years-before-symptoms-appear/",
+        "rank": 1,
+        "ranking_score": 38.02,
+        "ranking_reason": "Substantive new discovery in the field of health and scientific research, with potential to improve understanding and detection of acute myeloid leukemia.",
+        "ranking": {
+            "rank": 1,
+            "score": 38.02,
+            "base_score": 35.5,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 20,
+                "political_significance": 0,
+                "health_significance": 80,
+                "scientific_significance": 90,
+                "entertainment_significance": 0,
+                "remarkability": 80,
+                "global_reach": 40,
+                "urgency": 30,
+                "severity_tier": 4,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": false
+                },
+                "reason": "Substantive new discovery in the field of health and scientific research, with potential to improve understanding and detection of acute myeloid leukemia.",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 30,
+                "public_need_to_know": 50,
+                "public_concern": 20,
+                "technology_significance": 20
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a substantive new discovery in the field of health and scientific research, with potential to improve understanding and detection of acute myeloid leukemia. The study's findings on the slow development of leukemia and the possibility of identifying people at risk long before they become ill provide a clear reason for readers to care."
+            }
+        }
+    }
+]
