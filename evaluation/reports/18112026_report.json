@@ -1,0 +1,207 @@
+{
+    "date": "18112026",
+    "timestamp": "2026-11-18T10:22:55.799559",
+    "duration_seconds": 4603.8,
+    "stages_duration_seconds": {
+        "scrape": 918.36,
+        "guardrails": 172.54,
+        "deduplication": 12.45,
+        "category_validation": 227.97,
+        "ranking": 420.31,
+        "processing": 2852.11,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 10,
+            "Tech": 25,
+            "People": 63,
+            "Environment": 8,
+            "Economy": 13,
+            "Entertainment": 28
+        },
+        "total_scraped": 147,
+        "guardrail_passed": 147,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 12,
+        "final_categories": 5
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 147,
+        "classified_safe": 111,
+        "classified_unsafe": 36,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 36,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 122,
+        "rejected_count": 20,
+        "rejected_articles": [
+            {
+                "title": "OpenAI bugging case defendant Alfozan set for trial in January",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a legal case involving a Saudi national accused of bugging an OpenAI conference room, which is more related to the people category than the science and technology category."
+            },
+            {
+                "title": "Former Nvidia CEO Jensen Huang says he’s open to returning in first statement since resignation",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Jensen Huang's personal life and his potential return as CEO of Nvidia, which falls under the 'people' category rather than 'science and technology'."
+            },
+            {
+                "title": "Anthropic likely to price IPO above the current range of $70 to $78, sources tell CNBC",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the IPO of Anthropic, a company developing AI models, which has a clear connection to the economy and business category."
+            },
+            {
+                "title": "Nvidia closes lower ahead of earnings as company reels from Huang resignation",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Jensen Huang's resignation and its impact on Nvidia's stock, which falls under the 'people' category, focusing on individual actions and their consequences."
+            },
+            {
+                "title": "Three children ended up among the famed Inca ‘ice mummies.’ Their final moments are coming to light",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article's focus on the Inca Empire, capacocha ritual, and the children's journeys and deaths is more relevant to the 'people' category than 'science and technology', although it does contain some scientific and technological elements."
+            },
+            {
+                "title": "How stingless bees in Peru became the world’s first insects to be granted legal rights",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article's focus on the granting of legal rights to stingless bees and the involvement of environmental organizations and Indigenous groups makes it more relevant to the 'people' category, despite the scientific aspects of the story."
+            },
+            {
+                "title": "Waymo temporarily pulls driverless taxis from all US freeways",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Waymo's temporary suspension of driverless taxis from US freeways due to safety concerns, which is a business and economic decision."
+            },
+            {
+                "title": "Hunger Games prequel splits opinion: 'Surreally awful' or 'surprisingly strong'",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article is primarily about a movie and its reception, which is a topic more closely related to the 'entertainment' category than the 'people' category."
+            },
+            {
+                "title": "William and Kate celebrate Earthshot Prize winners in Mumbai",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the Earthshot Prize, which focuses on environmental innovation and sustainability, making it a clear fit for the 'earth and environment' category."
+            },
+            {
+                "title": "Europe plans to catch the next computer chip wave",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the development of photonic chips, their potential to revolutionize the computer chip industry, and European efforts to lead in this emerging technology, making it a more relevant category than 'people'."
+            },
+            {
+                "title": "Hunger Games prequel splits opinion: 'Surreally awful' or 'surprisingly strong'",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the reviews and reception of the Hunger Games prequel, a topic that falls under the 'entertainment' category, with some secondary mentions of the film's cast and characters."
+            },
+            {
+                "title": "Melbourne Cup horse So You Are found dead in a waste facility, sparking an inquiry",
+                "from": "entertainment",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the death and disposal of a horse, which is an environmental and animal welfare issue, rather than an entertainment topic."
+            },
+            {
+                "title": "Channel 4 admits it doesn't know number of Married At First Sight UK sex abuse complaints",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a controversy surrounding a reality TV show, which is a type of entertainment, but the main focus is on the allegations of sexual misconduct and the response of the show's broadcaster, which is more relevant to the 'people' category."
+            },
+            {
+                "title": "Channel 4 admits it doesn't know number of Married At First Sight UK sex abuse complaints",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses a TV show's cancellation and related allegations of sexual misconduct, which falls under the 'people' category as it involves human behavior and social issues."
+            },
+            {
+                "title": "University pauses Shakespeare move after backlash",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the reaction of people, including politicians and celebrities, to the proposed move of the Shakespeare Institute, which is a cultural institution with a strong historical connection to Stratford-upon-Avon."
+            },
+            {
+                "title": "Radical rebels or insular snobs? The bohemian British artists' group still stirring debate",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personalities, relationships, and lifestyles of the members of the Bloomsbury Group, which falls under the 'people' category, although it also touches on their artistic endeavors and cultural significance."
+            },
+            {
+                "title": "Woman who accuses Russell Brand of rape says prison message 'upsetting'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article discusses a celebrity's legal issue and its impact on the victims, which is a people-focused story."
+            },
+            {
+                "title": "'I love being a role model', says teen after TV performance",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the personal story of a teenager with Down's syndrome and their experience performing on national TV, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Channel 4 admits it doesn't know number of Married At First Sight UK sex abuse complaints",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses allegations of sexual misconduct against individuals on a TV show, which falls under the 'people' category, although it also touches on media and broadcasting issues."
+            },
+            {
+                "title": "Queen of crime drama haunted by Rentaghost role",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the life and career of screenwriter Lynda La Plante, with a specific news development being her appearance in a cult children's TV series and her experiences as an actress and writer."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 416,
+        "total_failures": 0,
+        "total_time_seconds": 399.75,
+        "prompt_tokens": 553715,
+        "response_tokens": 10549,
+        "total_tokens": 564264,
+        "usage_responses": 416,
+        "prompt_eval_seconds": 118.896,
+        "generation_seconds": 235.141,
+        "load_seconds": 18.29,
+        "server_total_seconds": 396.056,
+        "avg_response_time": 0.96
+    }
+}
