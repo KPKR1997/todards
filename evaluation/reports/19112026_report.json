@@ -1,0 +1,312 @@
+{
+    "date": "19112026",
+    "timestamp": "2026-11-19T10:24:52.736779",
+    "duration_seconds": 5134.91,
+    "stages_duration_seconds": {
+        "scrape": 799.04,
+        "guardrails": 178.33,
+        "deduplication": 10.47,
+        "category_validation": 266.2,
+        "ranking": 425.82,
+        "processing": 3454.93,
+        "assembly": 0.07
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 6,
+            "Tech": 33,
+            "People": 60,
+            "Environment": 8,
+            "Economy": 13,
+            "Entertainment": 19
+        },
+        "total_scraped": 139,
+        "guardrail_passed": 139,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 8,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 139,
+        "classified_safe": 100,
+        "classified_unsafe": 39,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 39,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 139,
+        "rejected_count": 35,
+        "rejected_articles": [
+            {
+                "title": "Musk says Jensen Huang is irreplaceable, regrets midterm spending",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Elon Musk's opinions and statements, which fall under the 'people' category, rather than the 'science and technology' category, which was initially assigned."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the financial and market implications of Nvidia's CEO resignation and the rise of Anthropic's AI-related IPO, making it more relevant to the economy and business category."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Microsoft's CEO Satya Nadella and his perspective on technology, AI, and the company's role in the business world, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Nvidia interim CEO Kress tells employees ‘let’s move forward’ at first all-hands meeting since Jensen Huang exit",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personnel changes and leadership dynamics at Nvidia, which falls under the 'people' category, although it also touches on company-wide issues and technology-related news."
+            },
+            {
+                "title": "Jensen Huang has agreed to appear before Senate banking committee, Chairman Scott says",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a former CEO's agreement to appear before a Senate committee, with implications for government and politics, rather than a specific scientific or technological development."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on financial and business news, including stock market movements, company earnings, and IPOs, making 'economy and business' a more relevant category."
+            },
+            {
+                "title": "Nvidia’s Kress faces a divided workforce as some employees push for Huang’s return",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the leadership change at Nvidia, a company in the tech industry, and the impact on its employees and customers, which falls under the 'people' category."
+            },
+            {
+                "title": "Cantor Fitzgerald's Nvidia business interests targeted in Democrats' Lutnick probe",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the business interests and actions of Commerce Secretary Howard Lutnick and his sons, as well as the investigation into alleged corruption and diversion of Nvidia AI chips to China, which falls under the people category."
+            },
+            {
+                "title": "Emergency alerts and $75,000 rewards: South Korea fights high-tech exam cheating",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article discusses the measures taken by the South Korean government to prevent cheating in a college entrance exam, which is a people-related issue."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses the ecology of Lyme disease, revealing unexpected patterns and relationships between environmental factors, mouse populations, and tick populations, which is relevant to the health category."
+            },
+            {
+                "title": "'The pinnacle of human health': What it takes to be a super pooper",
+                "from": "science and technology",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article's focus on faecal microbota transplants and their potential health applications makes it more relevant to the 'health' category than the current category 'science and technology'."
+            },
+            {
+                "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the valuation and stock market debut of AI giant Anthropic, making it most relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the financial aspects of Anthropic's IPO and its potential impact on the AI industry, which is more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "AI giant Anthropic valued at up to $1.5tn ahead of stock market debut",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the valuation and stock market debut of AI company Anthropic, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Can Anthropic's record-breaking IPO stop the AI bubble bursting?",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the financial aspects of Anthropic's IPO and its potential impact on the AI industry, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article discusses AI-related cyber-security vulnerabilities, IT failings, and outages, which are more relevant to the science and technology category than the people category."
+            },
+            {
+                "title": "Heating bills, chocolate and cat food: What the inflation figures mean for you",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses inflation, energy prices, and their impact on household budgets, which is a topic relevant to the 'economy and business' category."
+            },
+            {
+                "title": "Grand Theft Auto 6 is a masterpiece, say critics",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the release of Grand Theft Auto 6, a video game, and the reactions of critics and gamers, which falls under the 'entertainment' category."
+            },
+            {
+                "title": "Harry Styles, Billie Eilish, Sam Fender and Cher to headline Glastonbury 2027",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the line-up and performances at the Glastonbury festival, which is a music and entertainment event."
+            },
+            {
+                "title": "Security flaw found in Java, world's third-largest programming language",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the discovery of a security flaw in Java, a programming language, and the use of artificial intelligence to uncover it, making it more relevant to the 'science and technology' category."
+            },
+            {
+                "title": "Cyclone Akvan's track and intensity remain uncertain as weather models diverge",
+                "from": "earth and environment",
+                "detected_category": "'earth and environment'",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the track and intensity of Cyclone Akvan, a severe weather event, making it directly relevant to the 'earth and environment' category."
+            },
+            {
+                "title": "Elon Musk says record spending on US midterms was 'pretty foolish'",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Elon Musk's political spending and its consequences, which is a people-related topic."
+            },
+            {
+                "title": "Security flaw found in Java, world's third-largest programming language",
+                "from": "economy and business",
+                "detected_category": "science and technology",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses a security flaw in Java, a programming language, and its implications for various industries, making it a strong fit for the 'science and technology' category."
+            },
+            {
+                "title": "The seven Anthropic founders who are about to become multi-billionaires",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the seven founders of Anthropic, their backgrounds, and their expected wealth after the company's stock floatation, making it a people-oriented story."
+            },
+            {
+                "title": "McDonald's sex abuse: 'They were waiting for the younger girls to turn 18'",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on a labor issue and workplace culture, which is primarily a people-related topic, rather than an economic or business one."
+            },
+            {
+                "title": "Hacks, AI or just overdue updates - why have there been so many outages?",
+                "from": "economy and business",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article discusses the role of AI in discovering security flaws and its impact on the tech world, making it more relevant to the 'science and technology' category than 'economy and business'."
+            },
+            {
+                "title": "GTA VI has made more than $1.5 billion before anyone has played it",
+                "from": "economy and business",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the game Grand Theft Auto VI and its sales, which is a topic of entertainment rather than economy and business."
+            },
+            {
+                "title": "For this Taylor Swift superfan, the blind love era is over",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the personal journey and experiences of Zachary Hourihane, a fan of Taylor Swift, rather than the entertainment industry or industry-specific news."
+            },
+            {
+                "title": "Julio Iglesias facing court investigation over alleged sexual offences",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the personal and legal developments surrounding Julio Iglesias, a public figure in the entertainment industry, rather than his entertainment-related activities or career."
+            },
+            {
+                "title": "Ex-rugby player says sex assault 'never happened'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article reports on a specific news development, a trial, and its connection to a public figure, making it relevant to the 'people' category."
+            },
+            {
+                "title": "Minister criticises media for 'amplifying' Russell Brand's prison message",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the controversy surrounding Russell Brand's prison message, which is a human-interest story and a social issue, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Minister criticises media for 'amplifying' Russell Brand's prison message",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses Russell Brand's prison message and the controversy surrounding it, which is more relevant to the 'people' category."
+            },
+            {
+                "title": "Joanna Page says male actor made 'awful' and 'inappropriate' comments to her on set",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a specific instance of inappropriate behavior by a male actor, which is more relevant to the 'people' category, focusing on human interactions and behavior, rather than entertainment."
+            },
+            {
+                "title": "Julio Iglesias facing court investigation over alleged sexual offences",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily reports on a celebrity's legal issues, which is a people-related topic."
+            },
+            {
+                "title": "Joanna Page says male actor made 'awful' and 'inappropriate' comments to her on set",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Joanna Page's personal experience and comments, which is more relevant to the 'people' category than the current 'entertainment' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 417,
+        "total_failures": 0,
+        "total_time_seconds": 442.6,
+        "prompt_tokens": 600377,
+        "response_tokens": 11269,
+        "total_tokens": 611646,
+        "usage_responses": 417,
+        "prompt_eval_seconds": 138.134,
+        "generation_seconds": 254.092,
+        "load_seconds": 18.619,
+        "server_total_seconds": 438.462,
+        "avg_response_time": 1.06
+    }
+}

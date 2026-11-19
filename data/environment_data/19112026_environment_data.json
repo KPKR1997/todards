@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-2",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "COP31: Ministers urge Türkiye and Australia to advance fossil fuel transition roadmaps",
+        "date": "2026-11-18T15:39:59.774Z",
+        "content": "More than 10 ministers urge COP31 presidencies Türkiye and Australia to advance fossil fuel transition roadmaps. Denmark, Luxembourg, Spain and Portugal announce new national plans. Countries remain divided over energy choices, equity and financing. Developing nations demand greater financial support for a fair transition. More than 10 ministers have urged Türkiye and Australia, the presidencies of the 31st Conference of the Parties (COP31) to the United Nations Framework Convention on Climate Change (UNFCCC), to advance roadmaps for transitioning away from fossil fuels, as Denmark, Luxembourg, Spain and Portugal announced new national plans on November 17, 2026. The Blue Pacific also announced a roadmap, adding to calls for the transition away from fossil fuels (TAFF) to remain central to negotiations at the UN climate summit in Antalya, Türkiye. The announcements signal growing political support for turning the commitment made at COP28 in Dubai in 2023 into national action plans. At COP28, countries agreed to transition away from fossil fuels in energy systems in a just, orderly and equitable manner, accelerating action this decade to achieve net-zero emissions by 2050. However, negotiations at COP31 have exposed divisions over how that commitment should be implemented, whether international roadmaps could constrain national energy policies and how developing countries would finance the transition.",
+        "url": "https://www.downtoearth.org.in/climate-change/cop31-ministers-urge-türkiye-and-australia-to-advance-fossil-fuel-transition-roadmaps",
+        "rank": 1,
+        "ranking_score": 10.97,
+        "ranking_reason": "International agreements and commitments to transition away from fossil fuels are significant and deserving of publication.",
+        "ranking": {
+            "rank": 1,
+            "score": 10.97,
+            "base_score": 10.45,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 40,
+                "political_significance": 60,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 3,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": true,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "International agreements and commitments to transition away from fossil fuels are significant and deserving of publication.",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a substantive development in the category of environment, specifically on international agreements and commitments to transition away from fossil fuels, which is a significant and deserving topic for publication."
+            }
+        }
+    }
+]

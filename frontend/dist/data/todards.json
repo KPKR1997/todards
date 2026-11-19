@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 98",
+    "issue": "Issue No. 99",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "18 November 2026",
+    "publishedAt": "19 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Woman killed in West Bank violence, Israeli army investigates",
-          "image": "https://images.pexels.com/photos/27500118/pexels-photo-27500118.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "al-Duyuk al-Tahta, Palestine",
-          "time": "Nov 18, 2026",
-          "content": "A 72-year-old Palestinian woman, Fadda al-Fahidat, was shot and killed outside her home in the West Bank village of al-Duyuk al-Tahta, near Jericho. According to Palestinian accounts, the violence started with settler harassment, followed by the woman's son, Arafat, trying to help the injured and being shot himself. Israeli authorities claim that Palestinians carried out a car-ramming attack and then threw rocks, prompting the settlers to open fire. The Israeli army says Fadda was killed by a civilian settler, while the Palestinian health ministry reports multiple wounded. The Israeli military and police have launched an investigation. High tensions have been reported in the area since a group of settlers moved into eight houses on November 4, with some residents and activists describing a campaign of settler attacks and intimidation.",
+          "title": "Router glitch grounds US air traffic, highlighting FAA's contractor concerns",
+          "image": "https://images.pexels.com/photos/33608251/pexels-photo-33608251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "El Dorado, Arkansas, USA",
+          "time": "Nov 19, 2026",
+          "content": "A recent nationwide ground stop of air traffic in the US was triggered by a router installed by a private contractor, L3Harris, at a remote FAA facility in Arkansas. According to sources, the contractor's work was not closely monitored by the FAA technician present at the site, despite the agency's claim that the technician was overseeing the upgrade. The dispute highlights concerns over the FAA's modernization process and the role of private contractors in maintaining the nation's air traffic control system. The agency's policy change in 2025, which shifted from requesting maintenance to receiving notifications, has led to less oversight and potentially increased risks. The incident underscores the complexities of a system operated by the federal government yet owned by private companies.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqrlg377638yo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/18/politics/faa-contractor-oversight-ground-stop"
         },
         {
           "id": "pp-2",
-          "title": "Pakistan's national grid struggles to compete with solar boom",
-          "image": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8c29sYXIlMjBwYW5lbHxlbnwxfDB8fHwxNzk0OTc2NDQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Pakistan",
-          "time": "Nov 18, 2026",
-          "content": "In Pakistan, the use of solar panels has increased significantly since 2018, with seven million households now owning panels. The shift is driven by individual households seeking to escape soaring electricity prices from the unreliable national grid, which has more than doubled in a few years. While the solar boom brings benefits, concerns also arise about the national grid's financial burden, as people abandon the grid, leading to increased costs and a potential 'utility death spiral'. The government aims to make the grid more competitive to offer better energy prices, renegotiating contracts and focusing on efficiency, as Pakistan's energy minister warns of the need to avoid this trend.",
+          "title": "Nvidia CEO Jensen Huang Resigns Amid Scandal, Casting AI Uncertainty",
+          "image": "https://images.unsplash.com/photo-1662947683395-1ce33bdcd094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8TnZpZGlhJTIwbG9nb3xlbnwxfDB8fHwxNzk1MDYyMjI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "USA",
+          "time": "Nov 19, 2026",
+          "content": "The CEO of US microchip manufacturer Nvidia, Jensen Huang, has resigned following revelations of extramarital affairs, including one with a Chinese spy. This has sparked concerns about the future direction of the company, which is a major player in the artificial intelligence (AI) industry. Nvidia's rapid growth has been driven by its dominance in the AI chip market, and its quarterly sales have doubled from a year earlier. The company's strategy and spending plans are now uncertain, and there is a risk that Nvidia could change its strategy and rein in spending, which could have a knock-on effect on the wider AI industry and the economy. Some investors are worried about the potential impact of Nvidia's departure from the AI market, particularly given the company's use of 'circular financing' to provide funds to its customers and other firms in the supply chain.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckvg2n2q3103o"
+          "url": "https://www.bbc.com/news/articles/c68798vdprwpo"
         },
         {
           "id": "pp-1",
-          "title": "Channel 4 CEO Admits Uncertainty on Married at First Sight UK Complaints",
-          "image": "https://images.pexels.com/photos/31655155/pexels-photo-31655155.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "UK",
-          "time": "Nov 18, 2026",
-          "content": "Channel 4's chief executive Priya Dogra has admitted she doesn't know how many complaints of sexual misconduct were received about Married at First Sight UK, despite a six-month external review into the hit TV show. The review looked specifically at the claims of three women featured in a BBC Panorama, but Dogra said she didn't do a broad sweep of every episode or every season of the show. She also stated that Channel 4",
+          "title": "Ukraine attacks Crimean Bridge again, causing traffic suspension and damage",
+          "image": "https://images.pexels.com/photos/12048916/pexels-photo-12048916.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Crimea",
+          "time": "Nov 19, 2026",
+          "content": "The Crimean Bridge, a crucial infrastructure connecting Russia to occupied Crimea, has been attacked by Ukraine for the third time this week, causing traffic suspension and severe damage. The bridge had already been hit twice earlier, with part of it collapsing into the water. The attacks have been described as an",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqvg2xvdpy2ro"
+          "url": "https://www.bbc.com/news/articles/cm879dqn3e1jo"
         }
       ]
     },
@@ -64,36 +64,36 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Scientists capture molecular images of bacteria ends in breakthrough",
-          "image": "https://images.unsplash.com/photo-1707079918041-2f7ae196b5eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YmFjdGVyaWElMjBzdXJmYWNlfGVufDF8MHx8fDE3OTQ5NzUyNjZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Nov 18, 2026",
-          "content": "Scientists at University College London have made a groundbreaking discovery, capturing the first-ever molecular-resolution images of the ends of rod-shaped bacteria. This breakthrough has revealed previously unseen structural features, which could help researchers understand why some bacteria respond differently to antibiotics. To achieve this, the researchers developed a unique method to immobilize the bacteria on a specially treated glass surface, allowing them to examine their exposed tips, or poles, at the molecular level. The images showed that the bacterial poles change with cellular activity, with rapidly dividing bacteria displaying fold-like defects, while less active cells had smoother poles. The study also found structural differences between species, which could influence how they interact with antibiotics. The researchers believe that their discovery could lead to the development of new treatments for drug-resistant bacteria.",
+          "title": "Scientists Uncover Brain's Chemistry Role in Shaping Memories and Emotions",
+          "image": "https://images.unsplash.com/photo-1740908900846-271f4f021b6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bWVtb3J5JTIwZW5jb2Rpbmd8ZW58MXwwfHx8MTc5NTA2MTYxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Hebrew University of Jerusalem, Israel",
+          "time": "Nov 19, 2026",
+          "content": "Scientists have been trying to understand how the brain turns memories into thoughts and emotions. They've studied how neurons communicate, but the process of recalling experiences and attaching feelings to them is still not fully understood. A new review proposes that the chemistry surrounding brain cells, including neurons and supporting cells, plays a crucial role in shaping thought and conscious experience. The theory, called the Tripartite Mechanism of Memory, suggests that the brain's molecular environment actively participates in memory storage, involving coordinated activity among brain cells, neurons, and surrounding molecules. This complex process is believed to contribute to how memories are formed and processed, including the emotional content of memories. The researchers also propose that retrieving and interpreting these chemically stored memories may contribute to the emergence of thought. They suggest that this distinction between human and artificial intelligence could be important for understanding consciousness, as AI systems can process information but may not experience thoughts or emotions in the same way as humans. The proposed model offers a possible connection between memory, emotion, and thought, but leaves the question of how physical processes in the brain produce conscious experience open.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/for-the-first-time-scientists-capture-molecular-scale-images-of-the-poles-of-bacteria/"
+          "url": "https://scitechdaily.com/what-is-a-thought-made-of-scientists-reveal-why-human-consciousness-may-be-beyond-the-reach-of-ai/"
         },
         {
           "id": "st-2",
-          "title": "Gulf of Mexico deep-sea species face extinction risk due to genetic changes",
-          "image": "https://images.unsplash.com/photo-1549074862-6173e20d02a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8X29jZWFuJTIwZGVwdGhzfGVufDF8MHx8fDE3OTQ5NzU0Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Florida, USA",
-          "time": "Nov 18, 2026",
-          "content": "A new study led by researchers at Florida International University finds that some deep-sea species in the Gulf of Mexico may be vulnerable to extinction due to changes in their genetic makeup. The study examined genetic data from five species of fish and shrimp and found that all of them showed genetic warning signs associated with increased extinction risk. One species of lanternfish had lost around 8% of its genetic diversity over just 12 years, which is comparable to losses recorded in some threatened and endangered animals over longer periods. The findings suggest that some deep-sea populations may have already been genetically vulnerable before the 2010 Deepwater Horizon oil spill, making them more susceptible to environmental disturbances. The study highlights the importance of considering genetic diversity and long-term viability when assessing the health of marine ecosystems, and suggests that traditional population counts may not reveal the full extent of the threats facing deep-sea species.",
+          "title": "Palo Alto Networks shares jump 7% after beating estimates and acquiring AI startup",
+          "image": "https://images.pexels.com/photos/16094269/pexels-photo-16094269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Palo Alto, USA",
+          "time": "Nov 19, 2026",
+          "content": "Palo Alto Networks' shares jumped 7% after the cybersecurity company beat Wall Street estimates and acquired AI startup Applied Compute. Revenue jumped 39% to $2.47 billion, with annual recurring revenue for its next-generation security business increasing 66% to $9.73 billion. The company bumped up its guidance for fiscal year 2027, citing growing demand for cybersecurity in the age of AI. Palo Alto's CEO, Nikesh Arora, highlighted the importance of evolving to protect customers and enable them to adopt AI securely. The company's $4.5 billion deal for Applied Compute aims to help businesses secure open-weight models as AI adoption grows.",
           "theme": "#EBF2FA",
-          "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-discover-alarming-signs-of-extinction-risk-deep-beneath-the-ocean/"
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
         },
         {
           "id": "t-3",
-          "title": "Spain Proposes Stricter Rules for Data Centers to Boost Renewable Energy",
-          "image": "https://images.unsplash.com/photo-1584169417032-d34e8d805e8b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8ZGF0YSUyMGNlbnRlcnxlbnwxfDB8fHwxNzk0OTc1NjYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Aragón, Spain",
-          "time": "Nov 18, 2026",
-          "content": "Spain's government is pushing to impose stricter rules on data centers, a booming industry in the country. The proposal, which doesn't require parliamentary approval, aims to ensure that 80% of electricity used by data centers comes from renewable sources. This measure has sparked concerns among investors, including Amazon, Microsoft, and Blackstone-backed QTS, as it could cost the industry billions of dollars in investment. The move is widely expected to pass ahead of the November 29 elections and is seen as a key issue in the political debate. Aragón, a region in the country's northeast, is at the center of the opposition to the draft rules, with concerns over the impact on the region's natural resources, noise, and water use.",
+          "title": "Estonian Tech Billionaire Jaan Tallinn to Gain Billions in Anthropic IPO",
+          "image": "https://images.unsplash.com/photo-1739036868260-c26b292cd85d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8OHx8QUklMjB0ZWNobm9sb2d5fGVufDF8MHx8fDE3OTUwNjE3NjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Estonia",
+          "time": "Nov 19, 2026",
+          "content": "Jaan Tallinn, an Estonian tech billionaire and AI safety advocate, is set to be one of the biggest winners in Anthropic's upcoming IPO, with his initial investment potentially returning tens of billions. Tallinn co-founded Skype and led Anthropic's first funding round, five years ago, before the company's Claude chatbot became a market success. Anthropic's IPO, set to list on the Nasdaq under the ticker symbol ANT, is expected to be the largest in history, valuing the company at around $1.4 trillion. Tallinn's exact return will depend on the level of dilution in subsequent funding rounds and whether he sold any shares. Despite his concerns about AI's existential risk, Tallinn's investment in Anthropic has paid off, and he will benefit from the company's commercial success, which some worry may come at the expense of AI safety.",
           "theme": "#EBF2FA",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/17/spain-data-center-decree-election.html"
+          "url": "https://www.cnbc.com/2026/11/18/jaan-tallinn-anthropic-ipo-series-a-investment.html"
         }
       ]
     },
@@ -139,14 +139,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "CO2 Emissions Reach 40 Billion Tonnes, Threatening 1.5°C Threshold",
-          "image": "https://images.unsplash.com/photo-1580064461598-505b080a8242?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8Y2FyYm9uJTIwZm9vdHByaW50fGVufDF8MHx8fDE3OTQ2MjU3ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global",
-          "time": "Nov 14, 2026",
-          "content": "The world's CO2 emissions have increased to nearly 40 billion tonnes per year due to fossil-fuel-driven industrialisation, causing the planet to warm by about 1.3-1.4°C above pre-industrial levels. If everyone lived like the average American, the warming would be around 3.7°C, while living like the average Qatari would push warming to over 5°C. On the other hand, if everyone lived like the average Indian, the warming would be lower, at around 0.8°C. Historically, the Chinese lifestyle has had a much lower impact, with warming of only 1.2°C. The United Nations Environment Programme warns that overshooting the 1.5°C threshold is likely within the next three to four years.",
+          "title": "Ministers Urge COP31 to Advance Fossil Fuel Transition",
+          "image": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Y2xpbWF0ZSUyMGNoYW5nZXxlbnwxfDB8fHwxNzk1MDYyNTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Antalya, Türkiye",
+          "time": "Nov 19, 2026",
+          "content": "In a significant move, over 10 ministers have urged the presidencies of the 31st Conference of the Parties (COP31) to advance roadmaps for transitioning away from fossil fuels. This follows announcements from Denmark, Luxembourg, Spain, and Portugal of new national plans. Meanwhile, developing nations are demanding greater financial support for a fair transition. The UN climate summit in Antalya, Türkiye, is seeing growing political support for turning last year's COP28 commitment into national action plans. However, negotiations at COP31 have exposed divisions over how to implement the commitment, including concerns over international roadmaps constraining national energy policies and financing for developing countries.",
           "theme": "#E7F4EF",
           "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/cop31-what-will-it-take-to-deliver-climate-justice"
+          "url": "https://www.downtoearth.org.in/climate-change/cop31-ministers-urge-türkiye-and-australia-to-advance-fossil-fuel-transition-roadmaps"
         },
         {
           "id": "env-2",
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "eb-3",
-          "title": "Report proposes cutting National Insurance to boost youth hiring",
-          "image": "https://images.unsplash.com/photo-1635350736475-c8cef4b21906?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8cmVjcnVpdG1lbnR8ZW58MXwwfHx8MTc5NDk3Njg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Nov 18, 2026",
-          "content": "A report by Alan Milburn proposes lowering employers' National Insurance payments and offering cash incentives to hire young workers. Many companies have complained about increased costs making it harder to take on staff. The Recruitment and Employment Confederation suggests cutting National Insurance costs could be a significant help, while the British Chambers of Commerce argues the report doesn't go far enough in addressing costs. The proposal also includes incentives for employers to hire young people who have been out of work or education, and a plan to give young people a legal right to a route into education, training, or work. Some business owners and executives believe these changes could help them hire more young workers and provide job opportunities.",
+          "title": "Waymo Suspends Driverless Freeway Rides Over Safety Concerns",
+          "image": "https://images.unsplash.com/photo-1694729101068-a2c621f877b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YXV0b25vbW91cyUyMGNhcnxlbnwxfDB8fHwxNzk1MDYzMDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "California, USA",
+          "time": "Nov 19, 2026",
+          "content": "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns. According to California's Department of Motor Vehicles, a series of traffic incidents, including robotaxis entering active construction zones, posed an imminent risk to public safety. As a result, Waymo has restricted freeway operations in all other US markets while it reviews the performance of its vehicles, which currently operate in 15 US cities, with driverless freeway rides previously available in a limited number of cities, including San Francisco and Los Angeles.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6d01e8m15mko"
+          "url": "https://www.bbc.com/news/videos/cmx2ryw97x4go"
         },
         {
           "id": "eb-2",

@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pp-8",
+        "source": "BBC",
+        "category": "economy",
+        "title": "Why has Waymo pulled all its driverless cars from US freeways?",
+        "date": "2026-11-18 23:47",
+        "content": "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns. California's Department of Motor Vehicles said a series of traffic incidents, including robotaxis entering active construction zones, posed an imminent risk to public safety. Waymo has now restricted freeway operations in all other US markets while it reviews the performance of its vehicles. Waymo currently operates in 15 US cities, though only offered driverless freeway rides in a handful of cities, including San Francisco and Los Angeles.",
+        "url": "https://www.bbc.com/news/videos/cmx2ryw97x4go",
+        "rank": 1,
+        "ranking_score": 32.13,
+        "ranking_reason": "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns.",
+        "ranking": {
+            "rank": 1,
+            "score": 32.13,
+            "base_score": 31.5,
+            "event_multiplier": 1.0,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 40,
+                "political_significance": 30,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 60,
+                "urgency": 20,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns.",
+                "editorial_relevance": 80,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 20,
+                "public_need_to_know": 30,
+                "public_concern": 10,
+                "technology_significance": 40
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "substantive category-specific development: a major player in autonomous driving has temporarily suspended its services due to safety concerns, providing a significant update in the field of autonomous transportation"
+            }
+        }
+    }
+]
