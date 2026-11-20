@@ -1,17 +1,17 @@
-TODARDS LLM PIPELINE EVALUATION — 19112026
-Execution timestamp: 2026-11-19T10:24:52.736779
-Pipeline duration: 85.6 minutes
+TODARDS LLM PIPELINE EVALUATION — 20112026
+Execution timestamp: 2026-11-20T08:33:30.076959
+Pipeline duration: 96.3 minutes
 
 Here is the evaluation:
 
-**Overall Run Health:** The pipeline duration is 85.6 minutes, which is 11.5% longer than the previous recorded run. This increase in duration may warrant further investigation.
+**Overall Run Health:** The pipeline duration is 96.3 minutes, which is 12.6% longer than the previous recorded run. This increase in duration may warrant further investigation.
 
-**Scrape Volume:** The total scraped volume is 139 articles, which is a decrease from the previous recorded run. This change in volume may be due to various factors, such as changes in data sources or processing efficiency.
+**Scrape Volume:** The total scraped volume is 136 articles, which is a decrease from the previous recorded run. This change in volume may be a normal fluctuation or a sign of a larger issue.
 
-**Semantic Deduplication:** No duplicate articles were removed during this run, which is consistent with the previous recorded run. This suggests that the deduplication process is functioning correctly.
+**Semantic Deduplication:** No duplicate articles were removed, indicating that the deduplication process did not detect any duplicate articles.
 
 **Source/Category Ingestion Anomalies:** No anomalies were detected in the source/category ingestion process.
 
-**LLM Performance:** The LLM performed well, with no failures and an average response time of 1.06 seconds. The total processing time was 442.6 seconds, which is relatively short.
+**LLM Performance:** The LLM performance metrics indicate that the model made 388 calls, with 0 failures, and an average response time of 0.99 seconds. The total processing time was 384.75 seconds, with 117.267 seconds spent evaluating prompts, 222.213 seconds spent generating responses, and 18.444 seconds spent loading data.
 
-**Next Practical Check:** Investigate the cause of the increased pipeline duration and review the scrape volume to ensure it is within expected ranges.
+**Next Practical Check:** Investigate the cause of the increased pipeline duration and review the scrape volume to ensure it is within expected ranges. Additionally, monitor the LLM performance metrics to ensure the model is functioning correctly.

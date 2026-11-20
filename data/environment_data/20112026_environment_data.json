@@ -1,0 +1,67 @@
+[
+    {
+        "id": "env-2",
+        "source": "Down To Earth",
+        "category": "environment",
+        "title": "Cyclone Akvan: Third cyclone in a month heads towards Andhra Pradesh, Odisha",
+        "date": "2026-11-19T13:03:12.430Z",
+        "content": "Three cyclones in less than a month, all originating in the Bay of Bengal. In late October, Cyclone Arnab hit the Andhra Pradesh coast. On November 3, Cyclone Murasu made landfall near Ongole. Now, a third cyclone, Akvan, is heading towards north Andhra Pradesh and south Odisha. According to the India Meteorological Department (IMD), Akvan has intensified into a severe cyclonic storm. At 8.30 am on November 18, Akvan was over the central parts of the south and adjoining west-central Bay of Bengal, moving north-northwest at 7 km/h. It was about 570 km from Chennai, 580 km from Visakhapatnam and 590 km from Machilipatnam. The storm was also 660 km from Trincomalee in Sri Lanka, 710 km from Gopalpur and 770 km from Puri in Odisha. IMD's November 19, 2026 bulletin placed Akvan about 420 km east-southeast of Narsapur and forecasts landfall close to Gopalpur, Odisha, around noon on November 20, with winds of 90–100 km/h, gusting to 110 km/h. Akvan is forecast to continue moving north-northwest and cross the north Andhra Pradesh, Yanam and south Odisha coasts, between Narsapur and Puri, around noon on November 20. It is expected to make landfall as a severe cyclonic storm, with winds of 90–100 km/h, gusting to 110 km/h, before weakening rapidly. The IMD has issued a cyclone alert for Andhra Pradesh and south Odisha. Coastal Andhra Pradesh and south Odisha could receive extremely heavy rainfall of 21 cm or more on November 19 and 20. North Odisha may experience heavy to very heavy rainfall during the same period, while eastern Telangana could receive heavy to very heavy rain on November 20 and 21. Heavy rain is also expected in Chhattisgarh, Gangetic West Bengal, Jharkhand, eastern Vidarbha and eastern Madhya Pradesh. At sea, waves could reach heights of 9–14 metres from November 19, rising above 14 metres from that night until landfall. A storm surge of up to 1.2 metres could flood low-lying coastal areas of Andhra Pradesh. On land, the IMD has warned of significant damage to huts and kutcha houses, crops, banana and coconut trees, roads and electricity poles. Rail and air services could be disrupted, while riverine, urban and coastal flooding remain major risks. Fishing activities have been suspended, and people living in vulnerable coastal homes have been advised to move to safer places and remain indoors. For Andhra Pradesh, Akvan marks the third cyclone in just a few weeks, raising fresh concerns about the impact of repeated storms on coastal communities.",
+        "url": "https://www.downtoearth.org.in/climate-change/cyclone-akvan-third-cyclone-in-a-month-heads-towards-andhra-pradesh-odisha",
+        "rank": 1,
+        "ranking_score": 0.0,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 0.0,
+            "base_score": 0.0,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 0,
+                "political_significance": 0,
+                "health_significance": 0,
+                "scientific_significance": 0,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 0,
+                "urgency": 0,
+                "severity_tier": 2,
+                "events": {
+                    "major_disaster": true,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports on a severe weather event that has the potential to cause significant damage and disruption in the region. The inclusion of specific details such as wind speeds, rainfall amounts, and storm surge warnings provides a clear reason for readers to care about the story."
+            }
+        }
+    }
+]

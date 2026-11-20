@@ -1,0 +1,270 @@
+{
+    "date": "20112026",
+    "timestamp": "2026-11-20T08:33:30.076959",
+    "duration_seconds": 5779.64,
+    "stages_duration_seconds": {
+        "scrape": 1058.62,
+        "guardrails": 165.49,
+        "deduplication": 11.88,
+        "category_validation": 220.31,
+        "ranking": 463.93,
+        "processing": 3859.34,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 7,
+            "Tech": 23,
+            "People": 63,
+            "Environment": 5,
+            "Economy": 8,
+            "Entertainment": 30
+        },
+        "total_scraped": 136,
+        "guardrail_passed": 136,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 8,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 136,
+        "classified_safe": 105,
+        "classified_unsafe": 31,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 31,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 116,
+        "rejected_count": 29,
+        "rejected_articles": [
+            {
+                "title": "Hobbymaxxing: Optimization hack or first-class ticket to burnout?",
+                "from": "health",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about people's leisure activities, specifically their hobbies, and how it affects their mental and emotional well-being, which is more relevant to the 'people' category than 'health'."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the stock market and investment strategies, particularly with regards to Alphabet, which is a technology company, but the main focus is on the economic and financial aspects of the story."
+            },
+            {
+                "title": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the sale of Mailchimp, a marketing subsidiary, and its financial implications, which falls under the 'economy and business' category."
+            },
+            {
+                "title": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the acquisition of Tribe Capital by Payward, highlighting the evolution of crypto exchanges towards building financial infrastructure, which is a financial and economic development."
+            },
+            {
+                "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on President Trump's financial dealings and their connections to government contracts, which is more relevant to the 'people' category."
+            },
+            {
+                "title": "Amazon app warns New York of higher costs if Mamdani delivery law passes",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses a proposed delivery law in New York City, its potential impact on Amazon's operations and customers, and the company's response, which is more relevant to the 'people' category than 'science and technology' despite some mention of logistics and business practices."
+            },
+            {
+                "title": "More climate money for Africa? Europe says use what's already pledged",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the impact of climate change on African countries, their governments' responses, and the need for adaptation finance, which is a key issue in the earth and environment category."
+            },
+            {
+                "title": "Massive hope for pancreatic cancer pill after trial saw tumours vanish",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses a medical breakthrough in pancreatic cancer treatment, making it most relevant to the 'health' category."
+            },
+            {
+                "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily reports on the health and medical emergency of a hippopotamus, which is a significant event in the field of animal health and veterinary medicine."
+            },
+            {
+                "title": "Weekly quiz: Which star played cricket with Catherine in India?",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article appears to be a trivia quiz or game, which is more relevant to the 'entertainment' category than 'people'."
+            },
+            {
+                "title": "US army warns detonation of unstable explosives will create toxic plume",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a specific health-related event, the detonation of unstable explosives, and its potential impact on human health, which aligns with the 'health' category."
+            },
+            {
+                "title": "More climate money for Africa? Europe says use what's already pledged",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses the effects of climate change on Africa, including droughts, floods, and food insecurity, making it more relevant to the 'earth and environment' category."
+            },
+            {
+                "title": "More support for households reliant on heating oil",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses financial support for households reliant on heating oil, which is a health-related issue"
+            },
+            {
+                "title": "UK joins in GTA 6 frenzy as game becomes available worldwide",
+                "from": "people",
+                "detected_category": "entertainment",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the release of Grand Theft Auto 6, a game, which falls under the entertainment category."
+            },
+            {
+                "title": "Elon Musk says record $446m spending on US midterms was 'pretty foolish'",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Elon Musk's spending on the US midterm elections and his potential losses due to the Republican defeats, which is more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "Fish and eggs al desko? The dos and don'ts of the lunch break",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article's focus on office culture, workplace relationships, and individual habits makes it more relevant to the 'people' category than 'economy and business', despite some tangential references to food and work habits."
+            },
+            {
+                "title": "Discrimination claims by McDonald's workers can go ahead, court says",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses discrimination claims by McDonald's workers and workplace culture, which is more relevant to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "Next round of BBC cuts will be more noticeable to audiences, report warns",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the BBC's financial struggles, job losses, and program cuts, which is a human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "Rob Brydon says he invented his own fake agent to negotiate fees",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Rob Brydon's personal story and experiences, making 'people' the most relevant category."
+            },
+            {
+                "title": "Fiona Harvey to appear at Crown Court on harassment charge",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on a person, Fiona Harvey, and her legal case, which is unrelated to entertainment as a whole, but more relevant to the 'people' category."
+            },
+            {
+                "title": "Fiona Harvey to appear at Crown Court on harassment charge",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Fiona Harvey's personal life, her connections to the Netflix series Baby Reindeer, and her legal issues, making the 'people' category a more relevant fit than 'entertainment', where the article is currently categorized."
+            },
+            {
+                "title": "Florence Pugh hits out at weight loss and cosmetic surgery speculation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Florence Pugh's personal life and experiences, and her statements about body shaming and self-care, which falls under the 'people' category."
+            },
+            {
+                "title": "Florence Pugh hits out at weight loss and cosmetic surgery speculation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Florence Pugh's personal life, including her experiences with body shaming and her advocacy for self-acceptance, which makes it a better fit for the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "'The subject is still taboo': Shocking new film Josephine confronts sexual violence through a child's eyes",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses a film that confronts sexual violence through a child's eyes, which is a health-related topic."
+            },
+            {
+                "title": "Art students get sneak peek of new city studio",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the opening of a creative content studio and its potential impact on the local community, which falls under the 'people' category."
+            },
+            {
+                "title": "Next round of BBC cuts will be more noticeable to audiences, report warns",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the BBC's financial struggles and job losses, which is a people-related issue rather than an entertainment-related issue, despite mentioning specific TV programs that have been cut."
+            },
+            {
+                "title": "Rob Brydon says he invented his own fake agent to negotiate fees",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Rob Brydon's personal anecdote and career, which is a human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "Fiona Harvey to appear at Crown Court on harassment charge",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily concerns a celebrity's personal life, including a court appearance and legal action, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "'The subject is still taboo': Shocking new film Josephine confronts sexual violence through a child's eyes",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses a film that tackles the topic of sexual violence, which is a health-related issue."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 388,
+        "total_failures": 0,
+        "total_time_seconds": 384.75,
+        "prompt_tokens": 549018,
+        "response_tokens": 9960,
+        "total_tokens": 558978,
+        "usage_responses": 388,
+        "prompt_eval_seconds": 117.267,
+        "generation_seconds": 222.213,
+        "load_seconds": 18.444,
+        "server_total_seconds": 380.664,
+        "avg_response_time": 0.99
+    }
+}

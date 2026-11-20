@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 99",
+    "issue": "Issue No. 100",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "19 November 2026",
+    "publishedAt": "20 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -64,25 +64,25 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Scientists Uncover Brain's Chemistry Role in Shaping Memories and Emotions",
-          "image": "https://images.unsplash.com/photo-1740908900846-271f4f021b6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bWVtb3J5JTIwZW5jb2Rpbmd8ZW58MXwwfHx8MTc5NTA2MTYxOHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Hebrew University of Jerusalem, Israel",
-          "time": "Nov 19, 2026",
-          "content": "Scientists have been trying to understand how the brain turns memories into thoughts and emotions. They've studied how neurons communicate, but the process of recalling experiences and attaching feelings to them is still not fully understood. A new review proposes that the chemistry surrounding brain cells, including neurons and supporting cells, plays a crucial role in shaping thought and conscious experience. The theory, called the Tripartite Mechanism of Memory, suggests that the brain's molecular environment actively participates in memory storage, involving coordinated activity among brain cells, neurons, and surrounding molecules. This complex process is believed to contribute to how memories are formed and processed, including the emotional content of memories. The researchers also propose that retrieving and interpreting these chemically stored memories may contribute to the emergence of thought. They suggest that this distinction between human and artificial intelligence could be important for understanding consciousness, as AI systems can process information but may not experience thoughts or emotions in the same way as humans. The proposed model offers a possible connection between memory, emotion, and thought, but leaves the question of how physical processes in the brain produce conscious experience open.",
+          "title": "Scientists reveal narwhal tusk's unique spiral structure",
+          "image": "https://images.unsplash.com/photo-1754416189419-fb673d49ecb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bmFyd2hhbCUyMHRvb3RofGVufDF8MHx8fDE3OTUxNDA2MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Arctic",
+          "time": "Nov 20, 2026",
+          "content": "Scientists have made a groundbreaking discovery about the internal structure of narwhal tusks, revealing two intertwined spirals that twist in opposite directions. This unique structure helps the enormous tooth withstand mechanical stress and provides a new explanation for the anatomy behind one of nature's most recognizable features. The findings, published in Nature Communications, offer a new perspective on the narwhal's tusk, which has fascinated scientists for years. The study also investigates how the tusk grows and how it can preserve a record of the Arctic environment over decades. The research team used a specialized X-ray technique to examine the microscopic building blocks of the tusk, and their findings provide new insights into the remarkable properties of the narwhal's tooth.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/what-is-a-thought-made-of-scientists-reveal-why-human-consciousness-may-be-beyond-the-reach-of-ai/"
+          "url": "https://scitechdaily.com/scientists-x-ray-a-narwhal-tusk-and-discover-something-extraordinary/"
         },
         {
           "id": "st-2",
-          "title": "Palo Alto Networks shares jump 7% after beating estimates and acquiring AI startup",
-          "image": "https://images.pexels.com/photos/16094269/pexels-photo-16094269.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Palo Alto, USA",
-          "time": "Nov 19, 2026",
-          "content": "Palo Alto Networks' shares jumped 7% after the cybersecurity company beat Wall Street estimates and acquired AI startup Applied Compute. Revenue jumped 39% to $2.47 billion, with annual recurring revenue for its next-generation security business increasing 66% to $9.73 billion. The company bumped up its guidance for fiscal year 2027, citing growing demand for cybersecurity in the age of AI. Palo Alto's CEO, Nikesh Arora, highlighted the importance of evolving to protect customers and enable them to adopt AI securely. The company's $4.5 billion deal for Applied Compute aims to help businesses secure open-weight models as AI adoption grows.",
+          "title": "IEA warns data center power demand may double by 2030",
+          "image": "https://images.unsplash.com/photo-1610028290816-5d937a395a49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8ZWxlY3RyaWNpdHklMjBncmlkfGVufDF8MHx8fDE3OTUxNDA3NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global, general",
+          "time": "Nov 20, 2026",
+          "content": "The International Energy Agency warned that the global electricity use by data centers could double by 2030, potentially straining power grids and delaying new projects. The agency forecasts that data centers will consume around 1,000 terawatt-hours of electricity a year by 2030, citing large project pipelines in several regions. If grid upgrades are not made, power networks could become less reliable, and new projects may face longer waits to connect. The agency also projects that peak electricity demand will rise 40% to 50% by 2035, and grid spending is expected to rise 75% over the next decade. The IEA emphasized the importance of reliable power grids as countries seek to reduce their reliance on imported oil and gas through electrification.",
           "theme": "#EBF2FA",
           "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/18/palo-alto-networks-panw-q1-2027-earnings-.html"
+          "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html"
         },
         {
           "id": "t-3",
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "GlioTrace Reveals Brain Cancer Cell Behavior Insights",
-          "image": "https://images.unsplash.com/photo-1711409645921-ef3db0501f96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8X2JyYWluJTIwdHVtb3J8ZW58MXwwfHx8MTc5NDk3NDg5N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Uppsala, Sweden",
-          "time": "Nov 18, 2026",
-          "content": "Researchers at Uppsala University have developed a new method called GlioTrace that allows them to watch thousands of glioblastoma cells move through living brain tissue, revealing how they change their behavior over time. This aggressive brain cancer is difficult to contain because its cells can spread deep into surrounding healthy tissue. GlioTrace uses automated microscopy and machine learning to follow individual cancer cells as they travel through brain tissue, showing that cells do not all spread in the same way. The method also revealed that glioblastoma cells are remarkably adaptable, changing their shape and movement patterns over just a few days. The findings could help researchers better understand why this cancer is so difficult to contain and develop treatments that stop tumor cells from spreading.",
+          "title": "Texas A&M Study Finds Hormone Linked to Heart Trouble Promotes Blood Clots",
+          "image": "https://images.unsplash.com/photo-1702024567107-bff2c0465f42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Ymxvb2QlMjB2ZXNzZWwlMjBpbmp1cnl8ZW58MXwwfHx8MTc5NTE0MDE2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "College Station, USA",
+          "time": "Nov 20, 2026",
+          "content": "Researchers at Texas A&M University have discovered that a hormone used to detect heart trouble, called B-type natriuretic peptide (BNP), can also promote dangerous blood clots in experiments. This finding suggests a possible way to prevent blockages without disrupting normal healing. Heart disease remains the leading cause of death in the United States, claiming a life nearly every 34 seconds. The study, published in Blood, identifies a molecular pathway that could eventually offer a more targeted way to prevent dangerous blood clots. The researchers found that elevated BNP can directly activate blood platelets and accelerate clot formation, which can obstruct circulation and trigger life-threatening events such as heart attacks and pulmonary embolisms. The discovery emerged from years of work examining platelet activity and cardiovascular disease, and could have implications for how dangerous blood clots are prevented. Existing antiplatelet medications reduce the ability of platelets to form clots, but their effects throughout the body can increase the risk of serious internal bleeding. By targeting the interaction between BNP and NPRA, researchers hope to develop treatments that interfere with harmful clot formation while preserving the normal clotting needed to heal injuries.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/a-five-day-experiment-reveals-a-surprising-secret-of-deadly-brain-cancer/"
+          "url": "https://scitechdaily.com/a-common-heart-failure-warning-sign-may-actually-be-causing-dangerous-blood-clots/"
         },
         {
           "id": "hw-3",
-          "title": "UK Extends Palantir Contract to 2029 to Manage Hospital Waiting Lists",
-          "image": "https://images.unsplash.com/photo-1770013277247-ab7a08d3d9ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8UGFsYW50aXIlMjBsb2dvfGVufDF8MHx8fDE3OTQ5NzUwOTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "England",
-          "time": "Nov 18, 2026",
-          "content": "The UK government has decided to extend its contract with US technology giant Palantir, worth £330m, until 2029 to manage hospital waiting lists in England. The initial contract was due to end in 2031, but the government will now invite British firms to bid for the contract from 2029. Palantir, which has been criticized for its involvement in Israel's use of technology in the Gaza conflict and US immigration enforcement, has been involved in the project since 2024. The government's decision has sparked concerns about the use of patient data, with some politicians calling for a change to avoid overdependence on one supplier. Palantir has defended its work, saying it is exceeding targets and helping to deliver more operations and reduce waiting times.",
+          "title": "Drug Breaks Down Tumor Barrier, Eliminates Cancer in Mice",
+          "image": "https://images.unsplash.com/photo-1707079346990-2ceaf10d6605?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dHVtb3IlMjBpbW11bm90aGVyYXB5fGVufDF8MHx8fDE3OTUxNDAzMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Seoul, Korea",
+          "time": "Nov 20, 2026",
+          "content": "Researchers have developed an experimental drug that can help the immune system attack and eliminate cancerous tumors, even if they have previously resisted treatment. The drug, called FEBP-sTβRII, works by breaking down a protective barrier that many tumors create to keep the immune system out. In a study published in Cancer Cell, the drug was tested on mice and was found to eliminate aggressive pancreatic tumors, prevent breast cancer from spreading, and provide lasting immune protection against future cancers. The study's lead author, Dr. Seong-Jin Kim, believes that this approach has the potential to reach beyond a single cancer and provide protection against other types of cancer as well.",
           "theme": "#E8F5F1",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cqvg27zpm8w8o"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/experimental-drug-wipes-out-aggressive-pancreatic-cancer-in-75-of-mice-and-triggers-lasting-immunity/"
         }
       ]
     },
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Prequel to Hunger Games Receives Mixed Reviews",
-          "image": "https://images.unsplash.com/photo-1711185893913-e487b29cdef5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8SHVuZ2VyJTIwR2FtZXN8ZW58MXwwfHx8MTc5NDk3NzA4MHww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Los Angeles, USA",
-          "time": "Nov 18, 2026",
-          "content": "The Hunger Games: Sunrise on the Reaping, a prequel to the popular franchise, has received mixed reviews from critics. Some critics have dismissed it as a",
+          "title": "UK gives latest Grand Theft Auto 18+ rating",
+          "image": "https://images.pexels.com/photos/39046606/pexels-photo-39046606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Stevenage, Hertfordshire",
+          "time": "Nov 20, 2026",
+          "content": "The latest Grand Theft Auto game has been assigned an 18+ rating by the Games Rating Authority (GRA) in the UK. To decide, examiners like Sadie West play the game, analyzing its content, including violence, gore, and language, to ensure it's suitable for adults only. West, a lifelong gamer, uses her controller skills to explore different choices and scenarios, playing the game several days to cover all aspects. After completing her analysis, she writes a report, which is kept on record and shared online, following strict classification criteria overseen by a panel of child welfare experts and psychologists.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c9vg2xgn0xe5o"
+          "url": "https://www.bbc.com/news/articles/c6m25ver32rpo"
         },
         {
           "id": "ent-2",
-          "title": "Still Game Comedy Returns with 10-Date Stage Show in Glasgow",
-          "image": "https://images.pexels.com/photos/4153218/pexels-photo-4153218.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Glasgow",
-          "time": "Nov 18, 2026",
-          "content": "Still Game, a popular BBC comedy, is making a comeback with a 10-date stage show, Still Game Live: Heaven Sent, at the Ovo Hydro in Glasgow from February 2028. The show will feature the beloved characters Jack Jarvis and Victor McDade, who first appeared on TV screens in 2002. The duo's return was announced by creators Ford Kiernan and Greg Hemphill, who jokingly said they had a",
+          "title": "Antiques dealer's unusual gates stun Harry Potter set designer",
+          "image": "https://images.unsplash.com/photo-1580409036512-5aca0d1a99ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YW50aXF1ZSUyMGdhdGVzfGVufDF8MHx8fDE3OTUxNDM2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Sandon, Staffordshire",
+          "time": "Nov 20, 2026",
+          "content": "An antiques dealer named Joel Paxton, who runs Rustique Living in Sandon, Staffordshire, unexpectedly gained attention online when he posted a video of a set of gates on social media. The video, which received nearly 950,000 views on Facebook, attracted negative comments from some viewers, but also caught the attention of a set designer working on the new Harry Potter TV series. The set designer contacted Paxton, and he was given a behind-the-scenes glimpse of the production. This is not the first time Rustique Living has supplied items to TV and film productions; they have also worked on shows like The Traitors. Paxton started his business during the Covid pandemic while studying for a business degree at Keele University, and it has since grown into a shop specializing in unusual antiques and furniture.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cky97qpge70po"
+          "url": "https://www.bbc.com/news/articles/ckgj3213vjwyo"
         },
         {
           "id": "ent-3",
-          "title": "LCD Soundsystem heads PlattForm Manchester concert series",
-          "image": "https://images.pexels.com/photos/15288905/pexels-photo-15288905.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "title": "Westside Cowboy wins BBC Introducing Artist of the Year 2026",
+          "image": "https://images.unsplash.com/photo-1782711831141-6134d2a0e34d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwQkJDJTIwSW50cm9kdWNpbmd8ZW58MXwwfHx8MTc5NTE0MzgwOXww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "Manchester, UK",
-          "time": "Nov 18, 2026",
-          "content": "LCD Soundsystem has been named as the first headliner for a series of outdoor concerts at Manchester's Platt Fields Park next summer. The American rock band will perform on July 30, 2027, along with Young Fathers, Cowboy Hunters, and DJs Erol Alkan and Luka Una. The events, called PlattForm, will have a capacity of 25,000 and take place over two weekends in late July and early August. The concerts are being organized by The Warehouse Project, SJM Concerts, and Live Nation, with more artists to be announced. Platt Fields Park has previously hosted the Parklife music festival and other events, including the Flashback Festival in 2022 and 2023.",
+          "time": "Nov 20, 2026",
+          "content": "The Westside Cowboy band, formed in Manchester in 2023, has been announced as the BBC Introducing Artist of the Year 2026. The band, consisting of Jimmy Bradbury, Reuben Haycocks, Aoife Anson O'Connell, and Paddy Murphy, started out playing in various local pubs before gaining popularity after uploading their debut single to the BBC Introducing platform in 2024. They have since released their second single, Shells, and have played at the BBC Introducing stage at Glastonbury Festival. Their debut album, It Goes On, was released in August and peaked at number five in the UK charts. The band expressed gratitude to the BBC Introducing network and listeners for their support, stating that the award is a surreal recognition of their music.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm0evw981y1lo"
+          "url": "https://www.bbc.com/news/articles/c6eq4l4y81l2o"
         }
       ]
     },
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "eb-3",
-          "title": "Waymo Suspends Driverless Freeway Rides Over Safety Concerns",
-          "image": "https://images.unsplash.com/photo-1694729101068-a2c621f877b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8YXV0b25vbW91cyUyMGNhcnxlbnwxfDB8fHwxNzk1MDYzMDAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "California, USA",
-          "time": "Nov 19, 2026",
-          "content": "Waymo has temporarily suspended driverless rides on US freeways after California banned the service over safety concerns. According to California's Department of Motor Vehicles, a series of traffic incidents, including robotaxis entering active construction zones, posed an imminent risk to public safety. As a result, Waymo has restricted freeway operations in all other US markets while it reviews the performance of its vehicles, which currently operate in 15 US cities, with driverless freeway rides previously available in a limited number of cities, including San Francisco and Los Angeles.",
+          "title": "Airbnb Limits Host Rules, Guests' Chores",
+          "image": "https://images.unsplash.com/photo-1657256031855-68029292ff34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QWlyYm5iJTIwbG9nb3xlbnwxfDB8fHwxNzk1MTQzMjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "London, UK",
+          "time": "Nov 20, 2026",
+          "content": "Airbnb has introduced new rules for hosts, limiting what they can reasonably ask guests to do. The rules, announced last month, allow hosts to set seven standard house rules, including limits on overnight guests, pets, and smoking. They cannot, however, ask guests to do chores like washing up, removing sheets, or taking out the trash. Hosts can appeal to Airbnb if they have a compelling reason to have an additional rule. The changes aim to make house rules 'clearer' and increase bookings, but some hosts may have to pass on extra cleaning costs to guests. Guests like Jessica Newhook have welcomed the changes, finding lengthy checkout lists and hefty cleaning fees frustrating. The new rules have added to growing frustration among owners following Airbnb's commission rate increases last year, leading some to invest in their own websites and social media to attract direct bookings.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/videos/cmx2ryw97x4go"
+          "url": "https://www.bbc.com/news/articles/cmx278n2genyo"
         },
         {
           "id": "eb-2",
