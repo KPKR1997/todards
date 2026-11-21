@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 100",
+    "issue": "Issue No. 101",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "20 November 2026",
+    "publishedAt": "21 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "UK gives latest Grand Theft Auto 18+ rating",
-          "image": "https://images.pexels.com/photos/39046606/pexels-photo-39046606.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Stevenage, Hertfordshire",
-          "time": "Nov 20, 2026",
-          "content": "The latest Grand Theft Auto game has been assigned an 18+ rating by the Games Rating Authority (GRA) in the UK. To decide, examiners like Sadie West play the game, analyzing its content, including violence, gore, and language, to ensure it's suitable for adults only. West, a lifelong gamer, uses her controller skills to explore different choices and scenarios, playing the game several days to cover all aspects. After completing her analysis, she writes a report, which is kept on record and shared online, following strict classification criteria overseen by a panel of child welfare experts and psychologists.",
+          "title": "Rockstar's GTA 6 Smashes Records with $3.8 Billion Sales",
+          "image": "https://images.pexels.com/photos/30478329/pexels-photo-30478329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Global, general",
+          "time": "Nov 21, 2026",
+          "content": "Rockstar Games' Grand Theft Auto 6 (GTA 6) has smashed records with retail sales of $3.8 billion in its first full-day, making it the biggest entertainment launch in history. According to Take-Two, the parent company of Rockstar Games, this figure is based on estimates through the end of the day on Thursday, marking a record for entertainment across any medium. The game has also pre-sold 32.5 million copies, and its launch has led to a surge in traffic to Rockstar's online services, with some regions seeing a 14.8-fold spike in traffic. The game's success surpasses that of its predecessor, Grand Theft Auto V, which held the best opening week sales in video-game history. GTA 6 is the latest instalment in Rockstar's crime simulator franchise, which has become one of the most popular games in history.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6m25ver32rpo"
+          "url": "https://www.bbc.com/news/articles/c9zr5nyv5dj2o"
         },
         {
           "id": "ent-2",
-          "title": "Antiques dealer's unusual gates stun Harry Potter set designer",
-          "image": "https://images.unsplash.com/photo-1580409036512-5aca0d1a99ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8YW50aXF1ZSUyMGdhdGVzfGVufDF8MHx8fDE3OTUxNDM2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Sandon, Staffordshire",
-          "time": "Nov 20, 2026",
-          "content": "An antiques dealer named Joel Paxton, who runs Rustique Living in Sandon, Staffordshire, unexpectedly gained attention online when he posted a video of a set of gates on social media. The video, which received nearly 950,000 views on Facebook, attracted negative comments from some viewers, but also caught the attention of a set designer working on the new Harry Potter TV series. The set designer contacted Paxton, and he was given a behind-the-scenes glimpse of the production. This is not the first time Rustique Living has supplied items to TV and film productions; they have also worked on shows like The Traitors. Paxton started his business during the Covid pandemic while studying for a business degree at Keele University, and it has since grown into a shop specializing in unusual antiques and furniture.",
+          "title": "Phoebe Bridgers' No-Phone Policy Fosters Community at Intimate Concerts",
+          "image": "https://images.pexels.com/photos/34532739/pexels-photo-34532739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Boston, USA",
+          "time": "Nov 21, 2026",
+          "content": "Phoebe Bridgers' no-phone policy at her concerts has had an unexpected outcome - fans are creating artwork as a reminder of the shows, rather than taking photos and videos. This has led to a sense of community and connection among fans, who are sharing their interpretations of the concerts on social media and discussing their experiences. The policy has also allowed Bridgers to connect more openly with her audience, without worrying about moments being captured and shared online. Meanwhile, fans believe her latest album explores themes of love, grief, and change, which are reflected in her emotional and vulnerable lyrics. Overall, the no-phone policy has created a unique and intimate experience for fans and artists alike.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/ckgj3213vjwyo"
+          "url": "https://www.bbc.com/news/articles/cq7821d0pv49o"
         },
         {
           "id": "ent-3",
-          "title": "Westside Cowboy wins BBC Introducing Artist of the Year 2026",
-          "image": "https://images.unsplash.com/photo-1782711831141-6134d2a0e34d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8JTQwQkJDJTIwSW50cm9kdWNpbmd8ZW58MXwwfHx8MTc5NTE0MzgwOXww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Manchester, UK",
-          "time": "Nov 20, 2026",
-          "content": "The Westside Cowboy band, formed in Manchester in 2023, has been announced as the BBC Introducing Artist of the Year 2026. The band, consisting of Jimmy Bradbury, Reuben Haycocks, Aoife Anson O'Connell, and Paddy Murphy, started out playing in various local pubs before gaining popularity after uploading their debut single to the BBC Introducing platform in 2024. They have since released their second single, Shells, and have played at the BBC Introducing stage at Glastonbury Festival. Their debut album, It Goes On, was released in August and peaked at number five in the UK charts. The band expressed gratitude to the BBC Introducing network and listeners for their support, stating that the award is a surreal recognition of their music.",
+          "title": "Andy Serkis Backs 90-Acre Film Studio, Creating 2,060 Jobs",
+          "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8RmlsbSUyMHN0dWRpb3xlbnwxfDB8fHwxNzk1MjMzMjE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Buckinghamshire, UK",
+          "time": "Nov 21, 2026",
+          "content": "Film actor and director Andy Serkis has voiced his support for the plans to build a 90-acre film studio in Buckinghamshire. He highlighted the studio's proximity to the National Film and Television School as a major benefit for industry training. The studio will include 18 sound stages and is expected to create about 2,060 permanent on-site jobs. Serkis believes the UK film and television industry is in a great place and the studio could bring skills and talent to the area. The project was initially rejected due to concerns about green belt land, but later granted planning permission after an appeal. Serkis praised the studio's design, which he believes fits in well with the eco level.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c6eq4l4y81l2o"
+          "url": "https://www.bbc.com/news/articles/cmly7ej08klxo"
         }
       ]
     },
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "eb-3",
-          "title": "Airbnb Limits Host Rules, Guests' Chores",
-          "image": "https://images.unsplash.com/photo-1657256031855-68029292ff34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8QWlyYm5iJTIwbG9nb3xlbnwxfDB8fHwxNzk1MTQzMjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "title": "UK and EU Agree on Trade Deal to Reduce Business and Consumer Costs",
+          "image": "https://images.unsplash.com/photo-1625440153141-1ae4c27ff33b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RXVyb3BlYW4lMjBVbmlvbiUyMGZsYWd8ZW58MXwwfHx8MTc5NTIzMjU3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
           "place": "London, UK",
-          "time": "Nov 20, 2026",
-          "content": "Airbnb has introduced new rules for hosts, limiting what they can reasonably ask guests to do. The rules, announced last month, allow hosts to set seven standard house rules, including limits on overnight guests, pets, and smoking. They cannot, however, ask guests to do chores like washing up, removing sheets, or taking out the trash. Hosts can appeal to Airbnb if they have a compelling reason to have an additional rule. The changes aim to make house rules 'clearer' and increase bookings, but some hosts may have to pass on extra cleaning costs to guests. Guests like Jessica Newhook have welcomed the changes, finding lengthy checkout lists and hefty cleaning fees frustrating. The new rules have added to growing frustration among owners following Airbnb's commission rate increases last year, leading some to invest in their own websites and social media to attract direct bookings.",
+          "time": "Nov 21, 2026",
+          "content": "The UK and EU have agreed on a new trade deal that aims to reduce costs for businesses and consumers. While the deal removes bureaucracy and allows for easier food exports, it is unclear whether this will directly impact prices for consumers. The government hopes that the reduced costs for food producers and sellers will be passed on to customers, but industry insiders suggest that the world economy's current uncertainty and energy price shocks may hinder this. The deal is expected to bring a modest boost to the economy, with some predicting it could lead to bigger gains if applied to other sectors, but this would require a constitutional battle.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmx278n2genyo"
+          "url": "https://www.bbc.com/news/articles/cm1wr029evnqo"
         },
         {
           "id": "eb-2",
