@@ -1,0 +1,151 @@
+{
+    "date": "22112026",
+    "timestamp": "2026-11-22T09:29:44.962204",
+    "duration_seconds": 5325.99,
+    "stages_duration_seconds": {
+        "scrape": 2202.21,
+        "guardrails": 96.88,
+        "deduplication": 14.27,
+        "category_validation": 121.86,
+        "ranking": 275.78,
+        "processing": 2614.9,
+        "assembly": 0.04
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 7,
+            "Tech": 6,
+            "People": 36,
+            "Environment": 2,
+            "Economy": 8,
+            "Entertainment": 11
+        },
+        "total_scraped": 70,
+        "guardrail_passed": 70,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 9,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 70,
+        "classified_safe": 47,
+        "classified_unsafe": 23,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 23,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 64,
+        "rejected_count": 12,
+        "rejected_articles": [
+            {
+                "title": "Trump says there could be a 'positive spin' from the latest FBI database hack",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a breach in an FBI database and the potential implications, which is more relevant to the 'people' category than 'science and technology', as it involves a breach in a government database rather than a scientific or technological development."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the intersection of history and archaeology, exploring how medieval Welsh legends may preserve forgotten pieces of history, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "The tragic whale portrait that made ships slow down",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the story of a young whale's encounter with a photographer and its subsequent death due to ship strike, which is a human impact story rather than a scientific or technological one."
+            },
+            {
+                "title": "Hormuz swim highlights environmental cost of war",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the environmental cost of war, highlighting the damage to marine ecosystems and wildlife, making it more relevant to the 'earth and environment' category."
+            },
+            {
+                "title": "Catherine talks openly about how cancer changed her in documentary on BBC",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article focuses on Catherine's personal experience with cancer, its impact on her, and her journey towards healing, making it primarily relevant to the 'health' category."
+            },
+            {
+                "title": "Judge approves $7.25bn settlement for Roundup weedkiller cancer claims",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 1.0,
+                "reason": "The article is primarily about a $7.25bn settlement related to cancer claims from Roundup weedkiller use, which falls under the 'health' category."
+            },
+            {
+                "title": "UK should only rejoin EU if it innovates on technology, Blair warns",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Sir Tony Blair's views on Brexit and the EU, which falls under the 'people' category."
+            },
+            {
+                "title": "Employers are being asked to give interview feedback - here's what applicants want",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on jobseekers' experiences and the impact of 'job ghosting' on their confidence and morale, which is more related to the 'people' category than 'economy and business'."
+            },
+            {
+                "title": "Spitting Image co-creator Peter Fluck dies aged 85",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the life and career of Peter Fluck, co-creator of Spitting Image, and his impact on the entertainment industry."
+            },
+            {
+                "title": "Spitting Image co-creator Peter Fluck dies aged 85",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily reports on the life and career of Peter Fluck, a British artist and co-creator of the satirical puppet show Spitting Image, rather than focusing on entertainment in the classical sense."
+            },
+            {
+                "title": "How Westside Cowboy went from student gigs to rising stars in two years",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the biography and rise to fame of the music band Westside Cowboy, which falls under the 'people' category."
+            },
+            {
+                "title": "Why Nicola Coughlan's new drama might leave viewers uncomfortable",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a drama series, its themes, and the actors' perspectives, which falls under the 'people' category as it involves real people and their relationships."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 204,
+        "total_failures": 0,
+        "total_time_seconds": 217.79,
+        "prompt_tokens": 260017,
+        "response_tokens": 5427,
+        "total_tokens": 265444,
+        "usage_responses": 204,
+        "prompt_eval_seconds": 65.418,
+        "generation_seconds": 119.317,
+        "load_seconds": 19.202,
+        "server_total_seconds": 214.916,
+        "avg_response_time": 1.07
+    }
+}

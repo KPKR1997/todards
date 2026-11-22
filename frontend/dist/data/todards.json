@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 101",
+    "issue": "Issue No. 102",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "21 November 2026",
+    "publishedAt": "22 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Router glitch grounds US air traffic, highlighting FAA's contractor concerns",
-          "image": "https://images.pexels.com/photos/33608251/pexels-photo-33608251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "El Dorado, Arkansas, USA",
-          "time": "Nov 19, 2026",
-          "content": "A recent nationwide ground stop of air traffic in the US was triggered by a router installed by a private contractor, L3Harris, at a remote FAA facility in Arkansas. According to sources, the contractor's work was not closely monitored by the FAA technician present at the site, despite the agency's claim that the technician was overseeing the upgrade. The dispute highlights concerns over the FAA's modernization process and the role of private contractors in maintaining the nation's air traffic control system. The agency's policy change in 2025, which shifted from requesting maintenance to receiving notifications, has led to less oversight and potentially increased risks. The incident underscores the complexities of a system operated by the federal government yet owned by private companies.",
+          "title": "Trump orders contractors to notify White House before responding to Congress",
+          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/500px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+          "place": "Washington, USA",
+          "time": "Nov 22, 2026",
+          "content": "President Donald Trump has issued an executive order requiring federal contractors to notify the White House before responding to congressional requests for information, claiming that sensitive information could be compromised if not kept confidential. This move has been met with criticism from Democrats, who argue that it's an attempt to stifle investigations into Trump's administration. They plan to launch probes into various government programs, including the construction of the White House ballroom and the Department of Homeland Security's contracts. The order also warns contractors that their agreements with the government could be terminated if they fail to comply. Democrats, including Rep. Jamie Raskin and Sen. Richard Blumenthal, have condemned the order, saying it's an attempt to undermine the legislative process and block investigations into alleged waste, fraud, and corruption.",
           "theme": "#F7ECEE",
           "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/18/politics/faa-contractor-oversight-ground-stop"
+          "url": "https://edition.cnn.com/2026/11/21/politics/trump-executive-order-federal-contractors-congressional-requests"
         },
         {
           "id": "pp-2",
-          "title": "Nvidia CEO Jensen Huang Resigns Amid Scandal, Casting AI Uncertainty",
-          "image": "https://images.unsplash.com/photo-1662947683395-1ce33bdcd094?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8TnZpZGlhJTIwbG9nb3xlbnwxfDB8fHwxNzk1MDYyMjI2fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "USA",
-          "time": "Nov 19, 2026",
-          "content": "The CEO of US microchip manufacturer Nvidia, Jensen Huang, has resigned following revelations of extramarital affairs, including one with a Chinese spy. This has sparked concerns about the future direction of the company, which is a major player in the artificial intelligence (AI) industry. Nvidia's rapid growth has been driven by its dominance in the AI chip market, and its quarterly sales have doubled from a year earlier. The company's strategy and spending plans are now uncertain, and there is a risk that Nvidia could change its strategy and rein in spending, which could have a knock-on effect on the wider AI industry and the economy. Some investors are worried about the potential impact of Nvidia's departure from the AI market, particularly given the company's use of 'circular financing' to provide funds to its customers and other firms in the supply chain.",
+          "title": "Drone attacks Russian cargo ship in Gulf of Finland",
+          "image": "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RHJvbmV8ZW58MXwwfHx8MTc5NTMxOTA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Gulf of Finland",
+          "time": "Nov 22, 2026",
+          "content": "A Russian cargo ship, the Sparta II, was attacked by a drone in the Gulf of Finland on Saturday. The ship, which caught on fire and drifted into Finnish waters, is believed to have been targeted by Ukraine. The incident prompted temporary restrictions on aviation and maritime traffic in the area. Finland's defense forces said Ukraine was likely behind the attack, while Ukrainian authorities have yet to comment. The Sparta II was previously sanctioned by the US and Ukraine, and is run by a Russian company established within Russia's defense ministry. The attack is seen as a sign that the conflict between Russia and Ukraine is spilling over into the Baltic Sea region, a sensitive area for NATO and its member countries.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c68798vdprwpo"
+          "url": "https://www.bbc.com/news/articles/cj752ddve27ko"
         },
         {
           "id": "pp-1",
-          "title": "Ukraine attacks Crimean Bridge again, causing traffic suspension and damage",
-          "image": "https://images.pexels.com/photos/12048916/pexels-photo-12048916.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Crimea",
-          "time": "Nov 19, 2026",
-          "content": "The Crimean Bridge, a crucial infrastructure connecting Russia to occupied Crimea, has been attacked by Ukraine for the third time this week, causing traffic suspension and severe damage. The bridge had already been hit twice earlier, with part of it collapsing into the water. The attacks have been described as an",
+          "title": "Trump Issues Executive Order Amid Ethics Investigation Threat",
+          "image": "https://images.pexels.com/photos/32564008/pexels-photo-32564008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Washington, USA",
+          "time": "Nov 22, 2026",
+          "content": "As Democrats prepare to take control of the House and Senate, they face a dilemma: what to investigate first. President Trump's lax approach to government ethics and disregard for norms, rules, and laws have left a trail of potential targets, from extrajudicial killings to corruption. Nine areas of investigation have been identified, including the US military's strikes on drug traffickers, Elon Musk's dealings with the Trump administration, and the Justice Department's handling of Trump's foes. Other potential targets include the administration's handling of the Lincoln Memorial, its treatment of immigrants, and Trump's financial dealings, which have raised concerns about conflicts of interest. With the potential for investigations looming, Trump signed an executive order requiring federal contractors to coordinate with the White House on responding to congressional inquiries.",
           "theme": "#F7F1DE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm879dqn3e1jo"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/21/politics/democrats-investigations-donald-trump"
         }
       ]
     },
@@ -107,25 +107,25 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "Texas A&M Study Finds Hormone Linked to Heart Trouble Promotes Blood Clots",
-          "image": "https://images.unsplash.com/photo-1702024567107-bff2c0465f42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8Ymxvb2QlMjB2ZXNzZWwlMjBpbmp1cnl8ZW58MXwwfHx8MTc5NTE0MDE2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "College Station, USA",
-          "time": "Nov 20, 2026",
-          "content": "Researchers at Texas A&M University have discovered that a hormone used to detect heart trouble, called B-type natriuretic peptide (BNP), can also promote dangerous blood clots in experiments. This finding suggests a possible way to prevent blockages without disrupting normal healing. Heart disease remains the leading cause of death in the United States, claiming a life nearly every 34 seconds. The study, published in Blood, identifies a molecular pathway that could eventually offer a more targeted way to prevent dangerous blood clots. The researchers found that elevated BNP can directly activate blood platelets and accelerate clot formation, which can obstruct circulation and trigger life-threatening events such as heart attacks and pulmonary embolisms. The discovery emerged from years of work examining platelet activity and cardiovascular disease, and could have implications for how dangerous blood clots are prevented. Existing antiplatelet medications reduce the ability of platelets to form clots, but their effects throughout the body can increase the risk of serious internal bleeding. By targeting the interaction between BNP and NPRA, researchers hope to develop treatments that interfere with harmful clot formation while preserving the normal clotting needed to heal injuries.",
+          "title": "University of Alberta Studies Semaglutide Effectiveness in Weight Loss",
+          "image": "https://images.unsplash.com/photo-1745939921744-ba8ef27940bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c2VtYWdsdXRpZGUlMjBtZWRpY2F0aW9ufGVufDF8MHx8fDE3OTUzMTc5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Edmonton, Canada",
+          "time": "Nov 22, 2026",
+          "content": "Scientists at the University of Alberta are investigating why some people respond better to semaglutide medications, such as Ozempic and Wegovy, when it comes to losing weight. These medications, which regulate blood sugar, appetite, and body weight, have been shown to reduce body weight by an average of 15% when used weekly for 68 weeks and combined with lifestyle interventions. The team is exploring whether the body's natural tendency to conserve energy during weight loss could be a key factor. They are also looking at individual factors such as genetics, metabolism, body composition, lifestyle, microbiota, associated diseases, age, and sex that may influence how people respond to these medications. Energy metabolism, or the total calories consumed and burned, is also being studied as it may play a crucial role in understanding why some people struggle to lose weight. The researchers are currently recruiting participants to study the effects of semaglutide on weight loss and energy utilization over six months.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/a-common-heart-failure-warning-sign-may-actually-be-causing-dangerous-blood-clots/"
+          "url": "https://scitechdaily.com/why-ozempic-weight-loss-stalls-for-some-people-but-not-others/"
         },
         {
           "id": "hw-3",
-          "title": "Drug Breaks Down Tumor Barrier, Eliminates Cancer in Mice",
-          "image": "https://images.unsplash.com/photo-1707079346990-2ceaf10d6605?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8dHVtb3IlMjBpbW11bm90aGVyYXB5fGVufDF8MHx8fDE3OTUxNDAzMDR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Seoul, Korea",
-          "time": "Nov 20, 2026",
-          "content": "Researchers have developed an experimental drug that can help the immune system attack and eliminate cancerous tumors, even if they have previously resisted treatment. The drug, called FEBP-sTβRII, works by breaking down a protective barrier that many tumors create to keep the immune system out. In a study published in Cancer Cell, the drug was tested on mice and was found to eliminate aggressive pancreatic tumors, prevent breast cancer from spreading, and provide lasting immune protection against future cancers. The study's lead author, Dr. Seong-Jin Kim, believes that this approach has the potential to reach beyond a single cancer and provide protection against other types of cancer as well.",
+          "title": "CP research challenges previous findings, suggests complex condition",
+          "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Y2VyZWJyYWwlMjBwYWxzeXxlbnwxfDB8fHwxNzk1MzE4MTEyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "United States",
+          "time": "Nov 22, 2026",
+          "content": "New research on cerebral palsy (CP) challenges previous findings and proposes a different understanding of the condition. The study, published in the American Journal of Human Genetics, found that only 89 out of 515 previously linked genes showed a statistically significant association with CP. The researchers suggest that CP may not be a single disease, but rather a collection of symptoms arising from multiple underlying conditions. They propose a 'phenotypic paradigm' for understanding CP, considering it a clinical characteristic that can emerge from different genetic disorders and environmental influences. The study's findings do not disprove connections between CP and other genes, but rather highlight the need for further research and validation before these findings can be applied to patient care.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/experimental-drug-wipes-out-aggressive-pancreatic-cancer-in-75-of-mice-and-triggers-lasting-immunity/"
+          "url": "https://scitechdaily.com/cerebral-palsy-may-not-be-what-scientists-thought-it-was/"
         }
       ]
     },
@@ -182,25 +182,25 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "Rockstar's GTA 6 Smashes Records with $3.8 Billion Sales",
-          "image": "https://images.pexels.com/photos/30478329/pexels-photo-30478329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Global, general",
-          "time": "Nov 21, 2026",
-          "content": "Rockstar Games' Grand Theft Auto 6 (GTA 6) has smashed records with retail sales of $3.8 billion in its first full-day, making it the biggest entertainment launch in history. According to Take-Two, the parent company of Rockstar Games, this figure is based on estimates through the end of the day on Thursday, marking a record for entertainment across any medium. The game has also pre-sold 32.5 million copies, and its launch has led to a surge in traffic to Rockstar's online services, with some regions seeing a 14.8-fold spike in traffic. The game's success surpasses that of its predecessor, Grand Theft Auto V, which held the best opening week sales in video-game history. GTA 6 is the latest instalment in Rockstar's crime simulator franchise, which has become one of the most popular games in history.",
+          "title": "GTA 6 Praised for Immersive World, Detailed Scenery",
+          "image": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8d2hhbGVzfGVufDF8MHx8fDE3OTUzMTk3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
+          "time": "Nov 22, 2026",
+          "content": "The Grand Theft Auto 6 video game has been praised for its detailed and immersive fictional world, with one writer describing a transcendent moment while scuba-diving through the ocean floor. The game, which cost over $1 billion to make, has been criticized for its violent scenes, but many gamers and critics are instead in awe of its scale and beauty. The game's attention to detail and ability to evoke a sense of self-healing and relaxation have been noted, with the writer suggesting that it may encourage players to slow down and appreciate their surroundings. The game's open-world depiction of a fictional US state is also praised for its immersive qualities, making it difficult to differentiate the virtual world from reality.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c9zr5nyv5dj2o"
+          "url": "https://www.bbc.com/culture/article/20261120-the-moment-i-realised-gta-6-was-a-masterpiece"
         },
         {
           "id": "ent-2",
-          "title": "Phoebe Bridgers' No-Phone Policy Fosters Community at Intimate Concerts",
-          "image": "https://images.pexels.com/photos/34532739/pexels-photo-34532739.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Boston, USA",
-          "time": "Nov 21, 2026",
-          "content": "Phoebe Bridgers' no-phone policy at her concerts has had an unexpected outcome - fans are creating artwork as a reminder of the shows, rather than taking photos and videos. This has led to a sense of community and connection among fans, who are sharing their interpretations of the concerts on social media and discussing their experiences. The policy has also allowed Bridgers to connect more openly with her audience, without worrying about moments being captured and shared online. Meanwhile, fans believe her latest album explores themes of love, grief, and change, which are reflected in her emotional and vulnerable lyrics. Overall, the no-phone policy has created a unique and intimate experience for fans and artists alike.",
+          "title": "Strictly returns to Blackpool Tower Ballroom for annual episode",
+          "image": "https://images.pexels.com/photos/34893442/pexels-photo-34893442.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Blackpool, UK",
+          "time": "Nov 22, 2026",
+          "content": "Strictly Come Dancing is returning to its annual tradition of filming an episode at the iconic Blackpool Tower Ballroom, a location that has become a beloved highlight of the show since its first series in 2004. The ballroom has a rich history, dating back to 1894, and is known for its sprung dancefloor and enormous size, measuring 121ft by 101ft. The venue has hosted the show's predecessor Come Dancing for almost 50 years, and has been a mainstay of Strictly's Blackpool Week since 2009. The show's dancers often bring their A-game to the Tower Ballroom, and past highlights include a memorable American Smooth routine from Emma Barton and Anton Du Beke in 2019, which earned him his first 10s and highest score ever on the show.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq7821d0pv49o"
+          "url": "https://www.bbc.com/news/articles/cvx2xprxp5ryo"
         },
         {
           "id": "ent-3",
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "eb-3",
-          "title": "UK and EU Agree on Trade Deal to Reduce Business and Consumer Costs",
-          "image": "https://images.unsplash.com/photo-1625440153141-1ae4c27ff33b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RXVyb3BlYW4lMjBVbmlvbiUyMGZsYWd8ZW58MXwwfHx8MTc5NTIzMjU3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Nov 21, 2026",
-          "content": "The UK and EU have agreed on a new trade deal that aims to reduce costs for businesses and consumers. While the deal removes bureaucracy and allows for easier food exports, it is unclear whether this will directly impact prices for consumers. The government hopes that the reduced costs for food producers and sellers will be passed on to customers, but industry insiders suggest that the world economy's current uncertainty and energy price shocks may hinder this. The deal is expected to bring a modest boost to the economy, with some predicting it could lead to bigger gains if applied to other sectors, but this would require a constitutional battle.",
+          "title": "UK and EU Reach Trade Agreements",
+          "image": "https://images.pexels.com/photos/38298900/pexels-photo-38298900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Brussels",
+          "time": "Nov 22, 2026",
+          "content": "The UK and EU have reached agreements on trade, young people, food, and drink standards, and emissions trading, with the UK's foreign secretary Andy Burnham saying all options, including rejoining the EU, will be examined. The agreements aim to boost the British economy by £17 billion and increase GDP by 0.5%. The UK prime minister has agreed to informal discussions with Brussels to explore ways to get closer to the EU after the next election. The EU has threatened to block the agreements unless the UK allows European students to pay domestic-level fees to study at British universities. The EU's commission president Ursula von der Leyen has expressed confidence that a solution can be found.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm1wr029evnqo"
+          "source": "The Guardian",
+          "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband"
         },
         {
           "id": "eb-2",
