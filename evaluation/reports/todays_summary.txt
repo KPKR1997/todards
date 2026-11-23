@@ -1,17 +1,15 @@
-TODARDS LLM PIPELINE EVALUATION — 22112026
-Execution timestamp: 2026-11-22T09:29:44.962204
-Pipeline duration: 88.8 minutes
+TODARDS LLM PIPELINE EVALUATION — 23112026
+Execution timestamp: 2026-11-23T07:49:28.797212
+Pipeline duration: 78.5 minutes
 
 Here is the evaluation:
 
-**Overall Run Health:** The pipeline duration is 88.8 minutes, which is a significant decrease (-48.6%) compared to the previous recorded run. This change may warrant further investigation.
+**Overall Run Health:** The pipeline duration is 78.5 minutes, which is 11.6% shorter than the previous recorded run. This suggests a healthy run. However, the scraped article volume has increased by 10 articles compared to the previous run, which may warrant further investigation.
 
-**Scrape Volume:** The total scraped volume is 70, which is a decrease from the previous recorded run. This change may be due to various factors, such as changes in data sources or processing efficiency.
+**Semantic Deduplication:** The deduplication process removed 0 duplicate articles from the 80 scraped articles, indicating a low level of duplication (0.0% of scraped volume). This suggests that the deduplication process is functioning correctly.
 
-**Semantic Deduplication:** No duplicate articles were removed, which is consistent with the previous recorded run.
+**Source/Category Ingestion Anomalies:** There are no anomalies reported in the evidence-based observations. However, the increased scraped article volume may indicate a change in the data ingestion patterns, which deserves investigation.
 
-**Source/Category Ingestion Anomalies:** No anomalies were detected in the scraped article volume by category.
+**LLM Performance:** The LLM performance metrics indicate a high level of success, with 228 total calls, 0 total failures, and an average response time of 0.99 seconds. The LLM performance metrics suggest a healthy performance.
 
-**LLM Performance:** The LLM performance metrics are healthy, with no failures and an average response time of 1.07 seconds. The total time spent in LLM calls is 217.79 seconds, which is relatively low.
-
-**Next Practical Check:** Investigate the cause of the significant decrease in pipeline duration and scrape volume. Review the evidence-based observations to identify any potential issues or changes that may have contributed to these changes.
+**Next Practical Check:** Investigate the increased scraped article volume and any potential changes in data ingestion patterns. Additionally, review the LLM performance metrics to ensure that the model is functioning correctly and efficiently.

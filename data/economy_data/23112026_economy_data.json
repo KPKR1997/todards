@@ -1,0 +1,67 @@
+[
+    {
+        "id": "pp-6",
+        "source": "CNN",
+        "category": "economy",
+        "title": "In China’s tech mecca, Trump and Xi touted AI cooperation. Now comes the harsh reality",
+        "date": "2026-11-22 05:01",
+        "content": "For Chinese leader Xi Jinping, hosting US President Donald Trump in the futuristic city of Shenzhen was a chance to show just how far the nation’s high-tech industry has come. But neither Trump nor Xi seemed keen to address an unpleasant reality – that the US had just announced fresh efforts to keep it from advancing much further, amid allegations a Chinese intelligence operation had targeted the head of Nvidia, one of America’s most important tech companies. The two heads of state met for the third time this year during an annual gathering of economic leaders from the Asia-Pacific region. Like the last two times, the meeting itself was a sign of reassurance for what has become a bitter and bruising rivalry. Amid all the grand gestures, including a historic meeting between the leaders of the US, China and Russia, neither side was willing to dredge up the scandal threatening a delicate detente between the world’s two largest economies. Allegations that Jensen Huang, who until recently helmed the $4 trillion chip titan Nvidia, was having an affair with a woman suspected of working with Chinese intelligence, have reignited fears of America’s best technology falling into adversarial hands. Then, two days before Trump landed in Shenzhen, the Commerce Department issued new licensing requirements aimed at further cutting off Chinese access to advanced US chips. “With the fallout of Nvidia and these new export control rules landing just before the summit, I think the uneasy truce between the US and China is even more fragile,” said Benjamin Kostrzewa, an international trade law expert and Hong Kong-based partner at the law firm Hogan Lovells Cadwalader. In a carefully orchestrated week of events for corporate executives and global delegates, Xi’s priority was to portray China as a reliable and innovative economic partner that welcomed foreign businesses. But analysts said America’s latest chip curbs, likely seen as an escalation of US protectionist policies, would be hard for Beijing to ignore much longer. China’s Ministry of Foreign Affairs called the new restrictions “a typical case of economic coercion.” The day before Xi greeted Trump warmly at the foot of Air Force One, the Chinese Ministry of Commerce warned: “If the US insists on this direction, China will take countermeasures and firmly safeguard its national sovereignty, security and development interests.” A tentative economic ceasefire between the US and China was already on shaky ground. When Trump and Xi last convened in Washington, DC in September, they extended a trade agreement from October 2025, which included a rollback of US tariffs in exchange for Chinese commitments to buy more US agricultural products and loosen restrictions on rare earth exports. Officials said the two-month extension, set to expire January 10, would allow them to assess whether China could alleviate US concerns that it was coming up short on its original pledges. Now the controversy over Nvidia – and how some of its most advanced chips reach China despite US export controls – has triggered greater suspicion over national security risks that will complicate negotiations, said Jyh-An Lee, law professor and executive director of the Centre for Legal Innovation and Digital Society at The Chinese University of Hong Kong. “The political climate is now quite different,” Lee said. “It’s not that easy to go back to the time before the Jensen Huang incident.” At the summit, the US, China and Russia said they discussed the need to develop artificial intelligence safely. Otherwise, there was little concrete progress on trade or technological cooperation. In a Wednesday interview with Fox News, Trump said he raised Huang briefly with Xi, only to lament the “tragedy” of the Nvidia co-founder stepping down. Chinese officials have decried allegations that Beijing was using Huang’s affair to obtain sensitive information as baseless attempts to smear China. Semiconductors have become a major flashpoint in the US-China relationship, as each nation has invested heavily in surpassing the other in AI and advanced technological capabilities. While China has made it a national priority to be able to develop its own semiconductors, many of its tech companies still use American chips. That fierce rivalry will make it hard for the two nations to collaborate on sensitive sectors like technology, even as leaders tout dialogue on AI safety. And Huang’s resignation means the loss of one of the most vocal advocates for selling more US chips to China. “The US has been trying to find more bargaining chips, and I think chips might be the most valuable asset that US still has the advantage over,” said Lee. As the host of the Asia Pacific Economic Cooperation forum, it was in Xi’s best interest to maintain an image of openness and collaboration during the summit. “Simply the optics of China hosting APEC puts him in a really powerful position, so in many ways he comes out as a winner,” said Han Lin, China country director for The Asia Group, a business consulting firm. “That said, China has to retaliate. They have no choice.” Still, Lin said China would likely take subtle actions to try and preserve stability ahead of the politically important Communist Party Congress next year, at which Xi is expected to claim another five-year term as leader. One of the most effective countermeasures at China’s disposal is its near-monopoly on rare earths and other minerals critical to many high-tech supply chains. Despite the trade agreement reached last year, Chinese rare earth exports to the US remain about 75% below pre-restriction levels, according to the Center for Strategic and International Studies. “China can hit back, and they can hit back hard,” said Lin. “They still continue to have the critical earth minerals export control leverage, and that really is the leverage for all seasons.” Analysts said as US lawmakers increase scrutiny over tech exports to China, that will likely lead to stronger enforcement of existing regulations, as well as new rules. Trump and Xi are set to meet once more this year, at the G20 Leaders’ Summit in December. But in January, Democrats will take control of the House and Senate after their sweeping midterm election victory, which could put pressure on Trump in his dealings with Xi. Holding the majority would allow opponents to push back on Trump’s more aggressive protectionist policies, giving China more leverage to negotiate next year. But Democrats have also called for stronger tech export controls in the wake of the Nvidia scandal, and voiced concerns about the threat that Chinese tech poses to US national security. “The takeaway we’ve been telling our US clients has been, if you have any ask of the Chinese government, better you ask sooner than later,” Lin said. “You have one final chance in G20. After which, well, we’re going to be playing a different game going forward.”",
+        "url": "https://edition.cnn.com/2026/11/22/business/trump-xi-apec-tech-rivalry-intl-hnk",
+        "rank": 1,
+        "ranking_score": 29.4,
+        "ranking_reason": "The article reports a meaningful, substantive development relevant to its category, specifically the tension between the US and China regarding technology and AI cooperation.",
+        "ranking": {
+            "rank": 1,
+            "score": 29.4,
+            "base_score": 28.0,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.0,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 40,
+                "political_significance": 60,
+                "health_significance": 0,
+                "scientific_significance": 30,
+                "entertainment_significance": 0,
+                "remarkability": 0,
+                "global_reach": 80,
+                "urgency": 50,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": true,
+                    "major_economic_event": true,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": true
+                },
+                "reason": "The article reports a meaningful, substantive development relevant to its category, specifically the tension between the US and China regarding technology and AI cooperation.",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 60
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a substantive development relevant to its category, specifically the tension between the US and China regarding technology and AI cooperation, and provides a clear reason for readers to care (i.e., the implications of US-China relations on the global economy)."
+            }
+        }
+    }
+]

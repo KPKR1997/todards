@@ -1,0 +1,67 @@
+[
+    {
+        "id": "st-6",
+        "source": "SciTechDaily",
+        "category": "health",
+        "title": "",
+        "date": "2026-11-23 01:01",
+        "content": "Scientists have discovered that a simple change in how daily exercise is distributed could improve blood sugar control, particularly in people at risk of type 2 diabetes. How you distribute exercise throughout the day may influence how well your body regulates blood sugar. A randomized trial published in Obesity found that frequent, short walks improved several measures of glucose regulation more than completing the same amount of walking in one continuous session. The differences emerged after six weeks, despite both groups performing similar amounts of physical activity and burning comparable amounts of energy. Researchers recruited 30 inactive adults with overweight or obesity who reported sitting for more than six hours daily. Participants were assigned to complete 45 minutes of brisk walking five days per week for six weeks, either in one continuous session or in approximately five-minute breaks spread throughout the day. Continuous glucose monitoring showed that the short-walk group increased its time within the target blood sugar range from 82% to 94%. In contrast, the continuous-walking group experienced a decline from 89% to 80%. Participants taking frequent walking breaks also had more stable glucose levels, largely because they experienced fewer unusually low readings rather than lower average or peak blood sugar levels. Laboratory tests showed that participants who took frequent walking breaks experienced more favorable changes in glucose tolerance, indicating differences in how their bodies cleared glucose from the bloodstream. However, neither approach produced a detectable improvement in insulin sensitivity. Researchers suggest that repeated muscle activity may influence glucose uptake and utilization, although the exact mechanisms remain uncertain. “Our findings suggest that how we distribute physical activity throughout the day may be just as important as how much we do,” said corresponding author Audrey Bergouignan, PhD, Director of Research at the French National Centre for Scientific Research (CNRS) and Associate Professor at the University of Colorado Anschutz Medical Campus. “Rather than relying solely on a single exercise session, regularly interrupting prolonged sitting with short walks may offer additional benefits for blood glucose regulation, especially in people at risk of developing type 2 diabetes.” The findings suggest that interrupting prolonged sitting may offer glucose regulation benefits beyond those associated with total exercise duration. However, the trial was small and lasted only six weeks. It also lacked a non-exercise control group, and participants’ diets were not controlled during glucose monitoring. Further research is needed to determine whether these improvements translate into long-term health benefits, particularly for people with prediabetes or type 2 diabetes. Reference: “Interrupting Prolonged Sitting Improves Glucose Regulation More Than Continuous Walking in Adults With Overweight/Obesity” by Ana J. Pinto, Nathan P. De Jong, Josiane L. Broussard, Chantal Simon, Carlos Mendez, Andrew H. Lange, Laura Schreck, Zhaoxing Pan, Daniel H. Bessesen and Audrey Bergouignan, 18 November 2026, Obesity . DOI: 10.1002/oby.70349 Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/scientists-discover-that-a-simple-change-in-walking-habits-could-improve-blood-sugar-control/",
+        "rank": 1,
+        "ranking_score": 16.39,
+        "ranking_reason": "",
+        "ranking": {
+            "rank": 1,
+            "score": 16.39,
+            "base_score": 15.3,
+            "event_multiplier": 1.05,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 40,
+                "dont_miss": 0,
+                "human_consequence": 30,
+                "economic_impact": 20,
+                "political_significance": 10,
+                "health_significance": 80,
+                "scientific_significance": 70,
+                "entertainment_significance": 0,
+                "remarkability": 60,
+                "global_reach": 2,
+                "urgency": 0,
+                "severity_tier": 3,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": false,
+                    "major_scientific_discovery": true,
+                    "major_technology_event": false
+                },
+                "reason": "",
+                "editorial_relevance": 60,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 0,
+                "public_need_to_know": 0,
+                "public_concern": 0,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article presents a substantive, evidence-based finding in the health category, providing a clear reason for readers to care about the implications of distributing exercise throughout the day for blood sugar control."
+            }
+        }
+    }
+]

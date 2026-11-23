@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 102",
+    "issue": "Issue No. 103",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "22 November 2026",
+    "publishedAt": "23 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "Trump orders contractors to notify White House before responding to Congress",
-          "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg/500px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-          "place": "Washington, USA",
-          "time": "Nov 22, 2026",
-          "content": "President Donald Trump has issued an executive order requiring federal contractors to notify the White House before responding to congressional requests for information, claiming that sensitive information could be compromised if not kept confidential. This move has been met with criticism from Democrats, who argue that it's an attempt to stifle investigations into Trump's administration. They plan to launch probes into various government programs, including the construction of the White House ballroom and the Department of Homeland Security's contracts. The order also warns contractors that their agreements with the government could be terminated if they fail to comply. Democrats, including Rep. Jamie Raskin and Sen. Richard Blumenthal, have condemned the order, saying it's an attempt to undermine the legislative process and block investigations into alleged waste, fraud, and corruption.",
+          "title": "South Korea's Education Minister Resigns Over Cheating Scandal",
+          "image": "https://images.unsplash.com/photo-1619179834700-7a886aac80cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U291dGglMjBLb3JlYXxlbnwxfDB8fHwxNzk1Mzk4MzcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "South Korea",
+          "time": "Nov 23, 2026",
+          "content": "South Korea's Education Minister Choi Kyo-jin has resigned due to an exam cheating scandal. He took responsibility for the sudden measures taken to stop AI-assisted cheating during the annual college entrance exam, known as Suneung. The measures included sending emergency alerts to every mobile phone in the country, causing widespread alarm. A week ago, the top scorer in the national tax accountancy exam admitted using a mini-camera, mobile phone, and AI tools. This led to concerns over academic dishonesty during the fiercely competitive exam. The education ministry found 111 candidates with unauthorized devices during this year's Suneung, taken by about 500,000 students. The exam plays a big role in career trajectories of millions of South Koreans.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/21/politics/trump-executive-order-federal-contractors-congressional-requests"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cw3dgk29d37no"
         },
         {
           "id": "pp-2",
-          "title": "Drone attacks Russian cargo ship in Gulf of Finland",
-          "image": "https://images.unsplash.com/photo-1521405924368-64c5b84bec60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8RHJvbmV8ZW58MXwwfHx8MTc5NTMxOTA3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Gulf of Finland",
-          "time": "Nov 22, 2026",
-          "content": "A Russian cargo ship, the Sparta II, was attacked by a drone in the Gulf of Finland on Saturday. The ship, which caught on fire and drifted into Finnish waters, is believed to have been targeted by Ukraine. The incident prompted temporary restrictions on aviation and maritime traffic in the area. Finland's defense forces said Ukraine was likely behind the attack, while Ukrainian authorities have yet to comment. The Sparta II was previously sanctioned by the US and Ukraine, and is run by a Russian company established within Russia's defense ministry. The attack is seen as a sign that the conflict between Russia and Ukraine is spilling over into the Baltic Sea region, a sensitive area for NATO and its member countries.",
+          "title": "White Evangelicals Back Republicans, but Party's Electoral College Risks Grow",
+          "image": "https://images.pexels.com/photos/10845315/pexels-photo-10845315.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "United States",
+          "time": "Nov 23, 2026",
+          "content": "White evangelical Christians stuck with Republicans in the recent election, but this loyalty could be a double-edged sword for the GOP as they chart a path to recovery in 2028. While Republicans succeeded in holding evangelicals with a cultural message against Democrats, this strategy failed to overcome frustrations about the economy, war, and perceived corruption among non-evangelical voters. Democrats achieved historic breakthroughs among these voters, winning in previously red states across the South and Midwest. Unless Republicans can reverse Democratic inroads with non-evangelical voters, the Electoral College map in 2028 could look radically different, with Republicans struggling in states like Iowa, Ohio, and Texas. The GOP's problem is that cultural issues, which energize evangelicals, actively repel other voters who have traditionally supported the party. Meanwhile, Democrats are on track to win the national popular vote in House elections by a 14-point margin, the largest margin since the Democrats' 1974 post-Watergate landslide. The results highlight the GOP's risk of relying too heavily on White evangelicals, as their share of the overall US population has been declining since the 1990s.",
           "theme": "#F7ECEE",
-          "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cj752ddve27ko"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/22/politics/white-evangelical-christians-republicans-midterms"
         },
         {
           "id": "pp-1",
-          "title": "Trump Issues Executive Order Amid Ethics Investigation Threat",
-          "image": "https://images.pexels.com/photos/32564008/pexels-photo-32564008.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Washington, USA",
-          "time": "Nov 22, 2026",
-          "content": "As Democrats prepare to take control of the House and Senate, they face a dilemma: what to investigate first. President Trump's lax approach to government ethics and disregard for norms, rules, and laws have left a trail of potential targets, from extrajudicial killings to corruption. Nine areas of investigation have been identified, including the US military's strikes on drug traffickers, Elon Musk's dealings with the Trump administration, and the Justice Department's handling of Trump's foes. Other potential targets include the administration's handling of the Lincoln Memorial, its treatment of immigrants, and Trump's financial dealings, which have raised concerns about conflicts of interest. With the potential for investigations looming, Trump signed an executive order requiring federal contractors to coordinate with the White House on responding to congressional inquiries.",
+          "title": "Russian Ship Hit by Drone Attack in Libyan Port",
+          "image": "https://images.pexels.com/photos/26559000/pexels-photo-26559000.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Benghazi, Libya",
+          "time": "Nov 23, 2026",
+          "content": "a Russian ship docked in Benghazi naval base in Libya was hit by a suspected drone attack, causing an explosion and a fire, but no casualties were reported. The ship was stopped for fuel and supplies on its way back to Russia. The Libyan government has confirmed the incident and is investigating, with authorities coordinating with Russian counterparts to determine the source of the attack. Videos and satellite imagery show the ship engulfed in flames and smoke. The incident is seen as a possible violation of maritime safety and an attack on Libya's sovereignty. It has raised concerns about the risks of involving ports and civilian facilities in activities related to external conflicts.",
           "theme": "#F7F1DE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/21/politics/democrats-investigations-donald-trump"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/cr894gjz0j0yo"
         }
       ]
     },
@@ -107,14 +107,14 @@
       "cards": [
         {
           "id": "hw-2",
-          "title": "University of Alberta Studies Semaglutide Effectiveness in Weight Loss",
-          "image": "https://images.unsplash.com/photo-1745939921744-ba8ef27940bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c2VtYWdsdXRpZGUlMjBtZWRpY2F0aW9ufGVufDF8MHx8fDE3OTUzMTc5MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Edmonton, Canada",
-          "time": "Nov 22, 2026",
-          "content": "Scientists at the University of Alberta are investigating why some people respond better to semaglutide medications, such as Ozempic and Wegovy, when it comes to losing weight. These medications, which regulate blood sugar, appetite, and body weight, have been shown to reduce body weight by an average of 15% when used weekly for 68 weeks and combined with lifestyle interventions. The team is exploring whether the body's natural tendency to conserve energy during weight loss could be a key factor. They are also looking at individual factors such as genetics, metabolism, body composition, lifestyle, microbiota, associated diseases, age, and sex that may influence how people respond to these medications. Energy metabolism, or the total calories consumed and burned, is also being studied as it may play a crucial role in understanding why some people struggle to lose weight. The researchers are currently recruiting participants to study the effects of semaglutide on weight loss and energy utilization over six months.",
+          "title": "Frequent Short Walks Boost Blood Sugar Control, Study Shows",
+          "image": "https://images.unsplash.com/photo-1487956382158-bb926046304a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8d2Fsa2luZyUyMGJyZWFrc3xlbnwxfDB8fHwxNzk1Mzk3NTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "France",
+          "time": "Nov 23, 2026",
+          "content": "Scientists have discovered that taking frequent short walks throughout the day can improve blood sugar control, particularly for people at risk of type 2 diabetes. In a study, participants were assigned to either walk for 45 minutes once a day or in 5-minute breaks throughout the day. The group that took frequent breaks saw a significant increase in time spent within a target blood sugar range, from 82% to 94%, whereas the group that walked in one continuous session experienced a decline. The study suggests that distributing physical activity throughout the day may be as important as the total amount of exercise, and that interrupting prolonged sitting with short walks may offer additional benefits for glucose regulation.",
           "theme": "#E8F5F1",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/why-ozempic-weight-loss-stalls-for-some-people-but-not-others/"
+          "url": "https://scitechdaily.com/scientists-discover-that-a-simple-change-in-walking-habits-could-improve-blood-sugar-control/"
         },
         {
           "id": "hw-3",
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "GTA 6 Praised for Immersive World, Detailed Scenery",
-          "image": "https://images.unsplash.com/photo-1568430462989-44163eb1752f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8d2hhbGVzfGVufDF8MHx8fDE3OTUzMTk3Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global",
-          "time": "Nov 22, 2026",
-          "content": "The Grand Theft Auto 6 video game has been praised for its detailed and immersive fictional world, with one writer describing a transcendent moment while scuba-diving through the ocean floor. The game, which cost over $1 billion to make, has been criticized for its violent scenes, but many gamers and critics are instead in awe of its scale and beauty. The game's attention to detail and ability to evoke a sense of self-healing and relaxation have been noted, with the writer suggesting that it may encourage players to slow down and appreciate their surroundings. The game's open-world depiction of a fictional US state is also praised for its immersive qualities, making it difficult to differentiate the virtual world from reality.",
+          "title": "BBC apologizes for lewd audio disruption on Strictly Come Dancing",
+          "image": "https://images.unsplash.com/photo-1779315223992-b00745059ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8U3RyaWN0bHklMjBDb21lJTIwRGFuY2luZ3xlbnwxfDB8fHwxNzk1Mzk5Njk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Blackpool, UK",
+          "time": "Nov 23, 2026",
+          "content": "The BBC apologized for any offense caused after a live broadcast of Strictly Come Dancing was disrupted by lewd audio sounds from the audience in Blackpool's Tower Ballroom. Judge Motsi Mabuse paused during the episode and joked about the noises, while presenter Emma Willis later apologized to viewers for any disruptions. The incident was captured by a social media content creator who has been involved in similar pranks before. The BBC is investigating how this happened and an edit will be made to the episode available on BBC iPlayer. Lancashire police are also assessing whether any criminal offenses took place and have seized a mobile phone as part of their inquiry.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/culture/article/20261120-the-moment-i-realised-gta-6-was-a-masterpiece"
+          "url": "https://www.bbc.com/news/articles/cm8e0p5dexy6o"
         },
         {
           "id": "ent-2",
-          "title": "Strictly returns to Blackpool Tower Ballroom for annual episode",
-          "image": "https://images.pexels.com/photos/34893442/pexels-photo-34893442.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Blackpool, UK",
-          "time": "Nov 22, 2026",
-          "content": "Strictly Come Dancing is returning to its annual tradition of filming an episode at the iconic Blackpool Tower Ballroom, a location that has become a beloved highlight of the show since its first series in 2004. The ballroom has a rich history, dating back to 1894, and is known for its sprung dancefloor and enormous size, measuring 121ft by 101ft. The venue has hosted the show's predecessor Come Dancing for almost 50 years, and has been a mainstay of Strictly's Blackpool Week since 2009. The show's dancers often bring their A-game to the Tower Ballroom, and past highlights include a memorable American Smooth routine from Emma Barton and Anton Du Beke in 2019, which earned him his first 10s and highest score ever on the show.",
+          "title": "Twin brothers direct drama film 'Small Pond' in hometown Evesham",
+          "image": "https://images.pexels.com/photos/37078780/pexels-photo-37078780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Evesham, UK",
+          "time": "Nov 23, 2026",
+          "content": "Twin brothers Benji and Thom Parry, former musicians, are writing and directing a feature film called Small Pond. The drama is set in their hometown of Evesham, where they grew up and developed a passion for filmmaking. The story follows two musicians who form an unlikely friendship, and it's a personal reflection of Benji's own experiences. As a child, Benji made films with his parents' camcorder and later spent years performing in bands, which ultimately led him to pursue filmmaking. The film explores the struggles of chasing creative ambitions in a small town, and the Parry brothers believe the experience will resonate with many who have grown up in similar places. The production is filming at local Evesham locations and collaborating with local businesses, embracing their roots and creating a film that is deeply connected to their hometown.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cvx2xprxp5ryo"
+          "url": "https://www.bbc.com/news/articles/cmwy730rwp28o"
         },
         {
           "id": "ent-3",
-          "title": "Andy Serkis Backs 90-Acre Film Studio, Creating 2,060 Jobs",
-          "image": "https://images.unsplash.com/photo-1485846234645-a62644f84728?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8RmlsbSUyMHN0dWRpb3xlbnwxfDB8fHwxNzk1MjMzMjE3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Buckinghamshire, UK",
-          "time": "Nov 21, 2026",
-          "content": "Film actor and director Andy Serkis has voiced his support for the plans to build a 90-acre film studio in Buckinghamshire. He highlighted the studio's proximity to the National Film and Television School as a major benefit for industry training. The studio will include 18 sound stages and is expected to create about 2,060 permanent on-site jobs. Serkis believes the UK film and television industry is in a great place and the studio could bring skills and talent to the area. The project was initially rejected due to concerns about green belt land, but later granted planning permission after an appeal. Serkis praised the studio's design, which he believes fits in well with the eco level.",
+          "title": "Miley Cyrus Marries Maxx Morando in Palm Springs",
+          "image": "https://images.pexels.com/photos/31136217/pexels-photo-31136217.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Palm Springs, California",
+          "time": "Nov 23, 2026",
+          "content": "Miley Cyrus, 33, has married her partner of four years, Maxx Morando, 28, in a ceremony in Palm Springs, California. The couple, who met on a blind date, exchanged vows surrounded by white roses and a golden retriever, with Morando's proposal being kept secret until the last moment. Miley's family, including her mother and sister, attended the ceremony, while her father was present with his partner Liz Hurley. The singer wore a Saint Laurent designed dress, and the couple shared photos of their special day on Instagram, with friends and family congratulating them in the comments.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmly7ej08klxo"
+          "url": "https://www.bbc.com/news/articles/cq8e0p87l89lo"
         }
       ]
     },
@@ -225,14 +225,14 @@
       "cards": [
         {
           "id": "eb-3",
-          "title": "UK and EU Reach Trade Agreements",
-          "image": "https://images.pexels.com/photos/38298900/pexels-photo-38298900.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Brussels",
-          "time": "Nov 22, 2026",
-          "content": "The UK and EU have reached agreements on trade, young people, food, and drink standards, and emissions trading, with the UK's foreign secretary Andy Burnham saying all options, including rejoining the EU, will be examined. The agreements aim to boost the British economy by £17 billion and increase GDP by 0.5%. The UK prime minister has agreed to informal discussions with Brussels to explore ways to get closer to the EU after the next election. The EU has threatened to block the agreements unless the UK allows European students to pay domestic-level fees to study at British universities. The EU's commission president Ursula von der Leyen has expressed confidence that a solution can be found.",
+          "title": "US Restricts Chip Access Amid China Intelligence Allegations",
+          "image": "https://images.pexels.com/photos/10031556/pexels-photo-10031556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Shenzhen, China",
+          "time": "Nov 23, 2026",
+          "content": "Chinese leader Xi Jinping hosted US President Donald Trump in Shenzhen, showcasing the country's technological advancements. However, the meeting came amid controversy surrounding allegations that Chinese intelligence had targeted the head of Nvidia, a US tech company. The US subsequently announced new licensing requirements to restrict Chinese access to advanced US chips. This development has reignited fears that America's best technology could fall into adversarial hands. The situation has complicated negotiations between the two nations, with China threatening to take countermeasures to safeguard its national sovereignty, security, and development interests. The fragile truce between the US and China has been put to the test, with both sides struggling to balance their economic interests and national security concerns.",
           "theme": "#F7ECEE",
-          "source": "The Guardian",
-          "url": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband"
+          "source": "CNN",
+          "url": "https://edition.cnn.com/2026/11/22/business/trump-xi-apec-tech-rivalry-intl-hnk"
         },
         {
           "id": "eb-2",

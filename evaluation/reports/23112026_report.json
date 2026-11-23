@@ -1,0 +1,123 @@
+{
+    "date": "23112026",
+    "timestamp": "2026-11-23T07:49:28.797212",
+    "duration_seconds": 4707.03,
+    "stages_duration_seconds": {
+        "scrape": 853.29,
+        "guardrails": 92.81,
+        "deduplication": 16.6,
+        "category_validation": 137.8,
+        "ranking": 412.71,
+        "processing": 3193.76,
+        "assembly": 0.01
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 7,
+            "Tech": 6,
+            "People": 36,
+            "Environment": 7,
+            "Economy": 6,
+            "Entertainment": 18
+        },
+        "total_scraped": 80,
+        "guardrail_passed": 80,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 8,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 6,
+        "articles_seen": 80,
+        "classified_safe": 55,
+        "classified_unsafe": 25,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 25,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 68,
+        "rejected_count": 8,
+        "rejected_articles": [
+            {
+                "title": "Employees at Eric Trump-backed robot startup lose health benefits as company's cash crunch deepens",
+                "from": "science and technology",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the health benefits of employees at a robot startup and their concerns about the company's financial struggles, making 'health' the most relevant category."
+            },
+            {
+                "title": "Russell Brand's wife says she'll honour prison rules after message row",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about Russell Brand's wife, Laura, and her podcast, which is related to the personal and social aspects of the celebrities, fitting the 'people' category."
+            },
+            {
+                "title": "Calls for Marilyn Manson performance to be pulled",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a controversy surrounding Marilyn Manson, which is more related to the people category than entertainment, as it involves allegations of sexual abuse and a public figure's reputation."
+            },
+            {
+                "title": "Man who studied drama in young offenders' institution now a West End actor",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal journey and development of the individual, Joseph Langdon, and his transformation from a young offender to a successful West End actor, which aligns more with the 'people' category than 'entertainment', although the article does mention Langdon's acting career."
+            },
+            {
+                "title": "Du Maurier family photos shared for first time",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about the life and family of author Daphne du Maurier, which falls under the 'people' category, with a secondary connection to her writing and legacy."
+            },
+            {
+                "title": "Italian jeweller and businessman Paolo Bulgari dies aged 89",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the life and career of Paolo Bulgari, a prominent figure in the entertainment industry, and his legacy in the world of jewelry and luxury brands."
+            },
+            {
+                "title": "Australian music legend Molly Meldrum dies aged 83",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the life and career of Molly Meldrum, a prominent figure in the Australian music industry, which falls under the 'people' category."
+            },
+            {
+                "title": "The real people finding their work copied and stolen by AI characters",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about the experiences and concerns of content creators in the entertainment industry, rather than the AI-generated content itself."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 228,
+        "total_failures": 0,
+        "total_time_seconds": 226.32,
+        "prompt_tokens": 287414,
+        "response_tokens": 5692,
+        "total_tokens": 293106,
+        "usage_responses": 228,
+        "prompt_eval_seconds": 58.731,
+        "generation_seconds": 125.267,
+        "load_seconds": 18.985,
+        "server_total_seconds": 217.694,
+        "avg_response_time": 0.99
+    }
+}
