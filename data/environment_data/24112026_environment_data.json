@@ -1,0 +1,67 @@
+[
+    {
+        "id": "st-5",
+        "source": "SciTechDaily",
+        "category": "environment",
+        "title": "",
+        "date": "2026-11-24 03:01",
+        "content": "Saharan dust helps nourish the Amazon, showing why scientists argue that protecting soil requires countries to look far beyond their own borders. Nearly everything we eat depends on the thin layer of soil covering Earth’s surface. This vital resource also filters water, stores carbon, and supports ecosystems that sustain life. Yet despite its importance, soil remains without a dedicated international treaty to protect it. Estimates cited in a study published in the European Journal of Soil Science suggest that up to 40 percent of the world’s land is already degraded, putting US$44 trillion in annual economic output at risk. Binding international agreements protect the atmosphere, biodiversity, and the high seas. Soil, an estimated US$325 trillion (A$473 trillion) natural asset, receives fragmented protection through agreements on climate change, biodiversity, and desertification. The United Nations Convention to Combat Desertification focuses on drylands, while other agreements address individual functions such as carbon storage or biodiversity. None provides comprehensive, binding protection for soil as a planetary system. The paper’s authors, University of Sydney soil scientists Dr. Quentin Styc and Professor Alex McBratney, argue that this gap partly reflects a misunderstanding of the resource itself. “We have spent centuries classifying soils according to their different properties, uses and locations. But in doing so, we’ve lost sight of the bigger picture,” said lead author Dr. Styc, from the university’s School of Life and Environmental Sciences and Sydney Institute of Agriculture. Consider the connection between the Sahara Desert and the Amazon rainforest. Each year, around 27.7 million metric tons of Saharan dust cross the Atlantic, delivering roughly 22,000 metric tons of phosphorus to the Amazon. This natural fertilization replaces nutrients lost through flooding, helping sustain one of the world’s most biodiverse ecosystems. Erosion, pesticide contamination, and microplastics can also spread across borders, while soil degradation can contribute to climate change and food insecurity far from the affected region. “Soil doesn’t stop functioning at national borders. What happens to soil in one country can have profound consequences for ecosystems, economies and food security on the other side of the world. “We have international treaties to protect the ocean and atmosphere. Yet the soil beneath our feet, which is fundamental to human civilization, remains without equivalent protection.” For Styc and McBratney, these links mean soil must be understood and protected as one interconnected global system. “These connections demonstrate why soil security cannot be achieved by countries acting independently,” Dr. Styc said. “We need to think about soil in the singular, just as we increasingly talk about one ocean rather than separate oceans. It’s a change in language that reflects a much bigger change in how we understand our responsibility for the planet.” A proposal for international protection is already taking shape. Aroura, a global soil security think tank established at the University of Sydney, has outlined an eight-stage pathway toward a Global Convention to Secure Soil, targeting adoption in 2032. The proposed convention would coordinate international efforts while allowing countries to develop strategies suited to their environmental and economic circumstances. In October 2025, the International Union for Conservation of Nature approved a resolution calling for a binding international legal instrument on soil security. Ocean governance offers a model for what cooperation could achieve. After decades of negotiations, an international agreement protecting marine biodiversity beyond national jurisdictions entered into force in January 2026. “When environmental damage crosses borders, international cooperation needs to match the scale of the problem. We cannot solve a planetary challenge with a patchwork of disconnected policies,” Dr. Styc said. Aroura brings together an international panel of leading experts in soil science, economics, law, and social science to develop the scientific evidence and policy frameworks needed for a convention. It hosted the Third Global Soil Security Summit at the University of Sydney from October 20 to 23, 2026. “Soil underpins our food systems, biodiversity, water security and climate resilience, yet it remains largely invisible in international environmental governance,” said co-author Professor McBratney, a leading international soil scientist who was elected a Fellow of the Royal Society in 2026. “Through Aroura, we are working to build the scientific and policy foundations for a global convention that recognizes soil as a shared responsibility. We have the knowledge and the tools. What we need now is international commitment.” Reference: “One Soil, One Planet, No Treaty” by Quentin Styc and Alex McBratney, 3 November 2026, European Journal of Soil Science . DOI: 10.1111/ejss.70448 Funding was received from the Australian Research Council. Never miss a breakthrough: Join the SciTechDaily newsletter. Follow us on Google and Google News .",
+        "url": "https://scitechdaily.com/earths-soil-is-worth-325-trillion-so-why-is-nobody-protecting-it/",
+        "rank": 1,
+        "ranking_score": 36.6,
+        "ranking_reason": "Soil degradation affects ecosystems, economies, and food security globally, and this article highlights the need for international cooperation to protect soil.",
+        "ranking": {
+            "rank": 1,
+            "score": 36.6,
+            "base_score": 34.5,
+            "event_multiplier": 1.04,
+            "severity_multiplier": 1.0,
+            "freshness_multiplier": 1.02,
+            "source_multiplier": 1.0,
+            "source_count": 1,
+            "cluster_size": 1,
+            "analysis": {
+                "everyday_impact": 0,
+                "dont_miss": 0,
+                "human_consequence": 0,
+                "economic_impact": 20,
+                "political_significance": 40,
+                "health_significance": 20,
+                "scientific_significance": 80,
+                "entertainment_significance": 0,
+                "remarkability": 60,
+                "global_reach": 30,
+                "urgency": 10,
+                "severity_tier": 4,
+                "events": {
+                    "major_disaster": false,
+                    "mass_casualties": false,
+                    "pandemic": false,
+                    "election": false,
+                    "major_political_change": false,
+                    "major_economic_event": false,
+                    "major_award": false,
+                    "celebrity_death": false,
+                    "record_breaking": false,
+                    "unprecedented_event": true,
+                    "major_scientific_discovery": false,
+                    "major_technology_event": false
+                },
+                "reason": "Soil degradation affects ecosystems, economies, and food security globally, and this article highlights the need for international cooperation to protect soil.",
+                "editorial_relevance": 70,
+                "publishable": true,
+                "rejection_reason": "",
+                "public_impact": 30,
+                "public_need_to_know": 40,
+                "public_concern": 30,
+                "technology_significance": 0
+            },
+            "selection_method": "llm_pairwise_top_k",
+            "representative_selection_method": "llm_pairwise_comparison",
+            "final_quality": {
+                "passed": true,
+                "reason": "The article reports a significant development in the environment category, highlighting the importance of international cooperation to protect soil, a vital resource that affects ecosystems, economies, and food security globally. The piece provides evidence-based information and offers a clear reason for readers to care, making it suitable for publication in a high-value public-interest news product."
+            }
+        }
+    }
+]

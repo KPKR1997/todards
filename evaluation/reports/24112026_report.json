@@ -1,0 +1,256 @@
+{
+    "date": "24112026",
+    "timestamp": "2026-11-24T09:38:01.332289",
+    "duration_seconds": 4346.2,
+    "stages_duration_seconds": {
+        "scrape": 896.42,
+        "guardrails": 124.6,
+        "deduplication": 11.7,
+        "category_validation": 181.3,
+        "ranking": 292.89,
+        "processing": 2839.23,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 0,
+            "Tech": 29,
+            "People": 47,
+            "Environment": 5,
+            "Economy": 9,
+            "Entertainment": 18
+        },
+        "total_scraped": 108,
+        "guardrail_passed": 108,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 12,
+        "final_categories": 5
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 5,
+        "articles_seen": 108,
+        "classified_safe": 69,
+        "classified_unsafe": 39,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 39,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 97,
+        "rejected_count": 27,
+        "rejected_articles": [
+            {
+                "title": "U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a company (Megaspeed) and its connections to Nvidia, but the primary focus is on the export control concerns and the controversy surrounding the company, which falls under the 'people' category."
+            },
+            {
+                "title": "",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the stock performance of Nvidia, a technology company, and its CEO's return, which has implications for the economy and business."
+            },
+            {
+                "title": "What Jensen Huang’s return means for Nvidia’s Colette Kress",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the return of Jensen Huang as CEO of Nvidia, which is a significant development in the 'people' category, focusing on the leadership changes and reactions within the company."
+            },
+            {
+                "title": "Exclusive CNBC Transcript: See how Trump 'made the deal' to reinstate Huang as Nvidia CEO",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article's focus on Trump's personal involvement and the reinstatement of Jensen Huang as Nvidia CEO is more relevant to the 'people' category than 'science and technology', despite the technology company being the main topic."
+            },
+            {
+                "title": "Jensen Huang cheered by Nvidia employees after return, pledges to be a better CEO",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the return of Nvidia CEO Jensen Huang and his pledge to be a better CEO, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "DNI Jay Clayton tapped as acting national cyber director",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about a government official, a national cyber director, and related policy, which falls under the 'people' category."
+            },
+            {
+                "title": "Congress shreds Nvidia's 'outrageous' decision to bring back Huang: 'Failure of character'",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the reinstatement of Jensen Huang as CEO of Nvidia, a topic that is primarily political and people-related, rather than science and technology."
+            },
+            {
+                "title": "Jensen Huang reinstated as Nvidia CEO. Stock skyrockets 31%",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the reinstatement of Jensen Huang as CEO of Nvidia, which is a people-related news story, rather than a scientific or technological development."
+            },
+            {
+                "title": "Tokenized stocks face pushback as NYSE, Nasdaq pivot for a new market",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses the launch of a tokenized stock trading platform, which is a significant development in the field of finance and economics."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses stock market trends, company deals, and AI-related news, making 'economy and business' a more suitable category than 'science and technology'."
+            },
+            {
+                "title": "Tech stocks see monster rally after Jensen Huang returns as Nvidia CEO",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the stock market performance and financial news related to Nvidia and other technology companies, rather than scientific or technological developments."
+            },
+            {
+                "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the environmental contamination and health impacts in Gaza due to Israeli attacks, which is a clear connection to the 'earth and environment' category."
+            },
+            {
+                "title": "Police investigate fairness cream's alleged link to Indian teen's kidney ailment",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on a 17-year-old girl's alleged kidney ailment linked to the use of a fairness cream, which falls under the 'health' category."
+            },
+            {
+                "title": "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the environmental impact of Israeli attacks on Gaza, which is a significant development in the earth and environment category."
+            },
+            {
+                "title": "Police investigate fairness cream's alleged link to Indian teen's kidney ailment",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses a teenager's alleged kidney ailment linked to the use of a fairness cream, making it a health-related story with a specific news development."
+            },
+            {
+                "title": "Nvidia reinstates CEO Jensen Huang after affair with alleged spy as Trump says 'I made the deal'",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on the reinstatement of CEO Jensen Huang and the controversy surrounding his personal and professional life, which falls under the 'people' category."
+            },
+            {
+                "title": "I pay £250 a month for someone else to do my life admin - it's worth it",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the concept of 'life personal assistants' and their impact on people's lives, making it more relevant to the 'people' category than the 'economy and business' category, where it is currently assigned."
+            },
+            {
+                "title": "This cute 9-inch robot tour guide is operated by people with disabilities",
+                "from": "economy and business",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article focuses on the impact of OryLab's technology on people with disabilities, highlighting Aya Kaji's story and her ability to earn a living through remote work, making it more relevant to the 'people' category than the current 'economy and business' category."
+            },
+            {
+                "title": "Bruce Willis’ daughter, Tallulah Willis, apologizes for sharing ‘too intimate’ photo of her dad",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about Bruce Willis' personal life and his family's experiences with his health condition, which makes it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Tyson Fury reveals schizophrenia diagnosis",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily focused on Tyson Fury's personal life and struggles, which fall under the 'people' category, rather than his entertainment career."
+            },
+            {
+                "title": "FIFA picks US-led bid as 2031 Women’s World Cup host and UK project for 2035 edition",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the hosting of the 2031 Women's World Cup and the UK's project for the 2035 edition, which is a human-interest story with a focus on sports and international relations, making it more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Britain's Got Talent winner almost missed audition due to Carphone Warehouse shift",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on Paul Potts' personal story, including his early life and career, rather than any specific entertainment-related development."
+            },
+            {
+                "title": "US rapper postpones two arena shows after Manchester evacuation",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily reports on a news event involving a US rapper and a concert evacuation, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Heiress Peggy Guggenheim scandalised high society - and transformed modern art",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the life and career of Peggy Guggenheim, an art collector and patron, which falls under the people category."
+            },
+            {
+                "title": "Beatles venue may not play live music on rooftop",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the cultural significance of The Beatles and their legacy, rather than the entertainment aspect of their rooftop performance."
+            },
+            {
+                "title": "Iranian authorities flog singer who performed without hijab, lawyers say",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article primarily reports on a news event involving a singer, a topic that falls under the 'people' category."
+            },
+            {
+                "title": "Marshall amps founder, 82, says live music is still his drug",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the life and experiences of Terry Marshall, co-founder of Marshall Amplification, which makes it more relevant to the 'people' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 313,
+        "total_failures": 0,
+        "total_time_seconds": 305.33,
+        "prompt_tokens": 412688,
+        "response_tokens": 8279,
+        "total_tokens": 420967,
+        "usage_responses": 313,
+        "prompt_eval_seconds": 89.912,
+        "generation_seconds": 181.42,
+        "load_seconds": 16.457,
+        "server_total_seconds": 302.088,
+        "avg_response_time": 0.98
+    }
+}

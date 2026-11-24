@@ -2,11 +2,11 @@
   "publication": {
     "brand": "Todards.",
     "subtitle": "The global today cards",
-    "issue": "Issue No. 103",
+    "issue": "Issue No. 104",
     "tagline": "THREE STORIES A DAY",
     "heroTitle": "A clearer world in three cards",
     "heroDescription": "Essential science and technology news, simplified.",
-    "publishedAt": "23 November 2026",
+    "publishedAt": "24 November 2026",
     "footerLeft": "Journalism Automated",
     "footerRight": "Simple news. Deeper understanding."
   },
@@ -21,36 +21,36 @@
       "cards": [
         {
           "id": "pp-1",
-          "title": "South Korea's Education Minister Resigns Over Cheating Scandal",
-          "image": "https://images.unsplash.com/photo-1619179834700-7a886aac80cc?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8U291dGglMjBLb3JlYXxlbnwxfDB8fHwxNzk1Mzk4MzcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "South Korea",
-          "time": "Nov 23, 2026",
-          "content": "South Korea's Education Minister Choi Kyo-jin has resigned due to an exam cheating scandal. He took responsibility for the sudden measures taken to stop AI-assisted cheating during the annual college entrance exam, known as Suneung. The measures included sending emergency alerts to every mobile phone in the country, causing widespread alarm. A week ago, the top scorer in the national tax accountancy exam admitted using a mini-camera, mobile phone, and AI tools. This led to concerns over academic dishonesty during the fiercely competitive exam. The education ministry found 111 candidates with unauthorized devices during this year's Suneung, taken by about 500,000 students. The exam plays a big role in career trajectories of millions of South Koreans.",
+          "title": "US Army delays Iowa explosive detonation amid legal challenges",
+          "image": "https://images.unsplash.com/photo-1588281345136-9893252095bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8VG94aWMlMjBFeHBsb3NpdmVzfGVufDF8MHx8fDE3OTU0OTExODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Iowa, USA",
+          "time": "Nov 24, 2026",
+          "content": "President Donald Trump has ordered the US Army to hold off on detonating five tons of toxic explosives in Iowa until a federal court and the state's incoming governor agree. The planned detonation, which was scheduled to take place at the Iowa Army Ammunition Plant, has faced legal challenges and public outcry over potential health and environmental hazards. The explosives, known as lead azide, are considered highly volatile and could pose serious health risks to humans and animals, particularly children. The US Army had planned to detonate the explosives on Wednesday, citing optimal weather conditions and safety measures. However, the plans are now on hold pending a court ruling and approval from the incoming governor. The Environmental Protection Agency has granted an emergency permit for the detonation, citing an imminent and substantial threat to human health and the environment. Local authorities, including the mayor of Middletown, have backed the detonation, saying it is necessary to ensure public safety.",
           "theme": "#F7ECEE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cw3dgk29d37no"
+          "url": "https://www.bbc.com/news/articles/cr2klqzqx1qvo"
         },
         {
           "id": "pp-2",
-          "title": "White Evangelicals Back Republicans, but Party's Electoral College Risks Grow",
-          "image": "https://images.pexels.com/photos/10845315/pexels-photo-10845315.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "United States",
-          "time": "Nov 23, 2026",
-          "content": "White evangelical Christians stuck with Republicans in the recent election, but this loyalty could be a double-edged sword for the GOP as they chart a path to recovery in 2028. While Republicans succeeded in holding evangelicals with a cultural message against Democrats, this strategy failed to overcome frustrations about the economy, war, and perceived corruption among non-evangelical voters. Democrats achieved historic breakthroughs among these voters, winning in previously red states across the South and Midwest. Unless Republicans can reverse Democratic inroads with non-evangelical voters, the Electoral College map in 2028 could look radically different, with Republicans struggling in states like Iowa, Ohio, and Texas. The GOP's problem is that cultural issues, which energize evangelicals, actively repel other voters who have traditionally supported the party. Meanwhile, Democrats are on track to win the national popular vote in House elections by a 14-point margin, the largest margin since the Democrats' 1974 post-Watergate landslide. The results highlight the GOP's risk of relying too heavily on White evangelicals, as their share of the overall US population has been declining since the 1990s.",
+          "title": "UK Sanctions Myanmar Military Leaders Over Rohingya Genocide",
+          "image": "https://images.pexels.com/photos/29251256/pexels-photo-29251256.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
+          "time": "Nov 24, 2026",
+          "content": "The UK has sanctioned five senior Myanmar military leaders after the International Court of Justice ruled that Myanmar committed genocide against the Rohingya minority in 2017. The ruling led to thousands of deaths and the forced displacement of over 700,000 Rohingya. The sanctions are joined by several other countries, including Australia, Belgium, Portugal, Spain, and Canada. The UK Foreign Secretary, Ed Miliband, urged Myanmar to stop ongoing violations and prevent such atrocities from happening again. He also called for an immediate pause in hostilities, the release of political prisoners, and dialogue towards an inclusive political settlement. The UK will raise the issue at the UN Security Council and pass new legislation to stop the supply of aviation fuel to the country.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/22/politics/white-evangelical-christians-republicans-midterms"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c6wy4ng1rznxo"
         },
         {
           "id": "pp-1",
-          "title": "Russian Ship Hit by Drone Attack in Libyan Port",
-          "image": "https://images.pexels.com/photos/26559000/pexels-photo-26559000.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Benghazi, Libya",
-          "time": "Nov 23, 2026",
-          "content": "a Russian ship docked in Benghazi naval base in Libya was hit by a suspected drone attack, causing an explosion and a fire, but no casualties were reported. The ship was stopped for fuel and supplies on its way back to Russia. The Libyan government has confirmed the incident and is investigating, with authorities coordinating with Russian counterparts to determine the source of the attack. Videos and satellite imagery show the ship engulfed in flames and smoke. The incident is seen as a possible violation of maritime safety and an attack on Libya's sovereignty. It has raised concerns about the risks of involving ports and civilian facilities in activities related to external conflicts.",
+          "title": "Turkish millionaire accuses adviser of £38m misappropriation",
+          "image": "https://images.pexels.com/photos/27166613/pexels-photo-27166613.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Nov 24, 2026",
+          "content": "Nebahat Isbilen, a Turkish millionaire, has accused her former business adviser Selman Turk of misappropriating £38m of her assets, including a £750,000 payment to Andrew Mountbatten-Windsor in 2019. Isbilen claims she was misled about the payment's purpose, believing it was for help with her passport, when in reality it was intended to help her husband, a politician in prison in Turkey. Mountbatten-Windsor has repaid the payment and is expected to give evidence in December. Isbilen's lawyers say Turk deliberately and systematically abused her trust, transferring the money to companies he owned or controlled. The trial is ongoing, with a written judgment expected at a later date.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cr894gjz0j0yo"
+          "url": "https://www.bbc.com/news/articles/c9gkldn06l87o"
         }
       ]
     },
@@ -64,25 +64,25 @@
       "cards": [
         {
           "id": "st-1",
-          "title": "Scientists reveal narwhal tusk's unique spiral structure",
-          "image": "https://images.unsplash.com/photo-1754416189419-fb673d49ecb0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8bmFyd2hhbCUyMHRvb3RofGVufDF8MHx8fDE3OTUxNDA2MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Arctic",
-          "time": "Nov 20, 2026",
-          "content": "Scientists have made a groundbreaking discovery about the internal structure of narwhal tusks, revealing two intertwined spirals that twist in opposite directions. This unique structure helps the enormous tooth withstand mechanical stress and provides a new explanation for the anatomy behind one of nature's most recognizable features. The findings, published in Nature Communications, offer a new perspective on the narwhal's tusk, which has fascinated scientists for years. The study also investigates how the tusk grows and how it can preserve a record of the Arctic environment over decades. The research team used a specialized X-ray technique to examine the microscopic building blocks of the tusk, and their findings provide new insights into the remarkable properties of the narwhal's tooth.",
+          "title": "Study Finds Genetic Links to Personality Traits in 1 Million People",
+          "image": "https://images.unsplash.com/photo-1648792940059-3b782a7b8b20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Nnx8aHVtYW4lMjBETkF8ZW58MXwwfHx8MTc5NTQ5MDc2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Tallinn, Estonia",
+          "time": "Nov 24, 2026",
+          "content": "Researchers at the University of Tartu have discovered genetic connections that may influence human personality traits, such as being outgoing, organized, or worrisome. The study, which involved over one million people, found that nearly 1,000 genetic variants are associated with five major personality dimensions. The findings suggest that about 4.8% to 9.3% of personality differences can be attributed to genetics, with the remaining portion influenced by social relationships, environmental factors, and personal experiences. The study also found that people's self-reported personality traits are largely consistent with how others perceive them, and that personality traits can influence physical health, such as body weight, smoking, and alcohol consumption. The researchers emphasized that their findings do not establish cause and effect, and that further studies are needed to determine the relationship between personality and health.",
           "theme": "#EBF2FA",
           "source": "SciTechDaily",
-          "url": "https://scitechdaily.com/scientists-x-ray-a-narwhal-tusk-and-discover-something-extraordinary/"
+          "url": "https://scitechdaily.com/your-personality-may-be-partly-written-in-your-dna-massive-study-of-1-million-people-reveals/"
         },
         {
           "id": "st-2",
-          "title": "IEA warns data center power demand may double by 2030",
-          "image": "https://images.unsplash.com/photo-1610028290816-5d937a395a49?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8ZWxlY3RyaWNpdHklMjBncmlkfGVufDF8MHx8fDE3OTUxNDA3NjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Global, general",
-          "time": "Nov 20, 2026",
-          "content": "The International Energy Agency warned that the global electricity use by data centers could double by 2030, potentially straining power grids and delaying new projects. The agency forecasts that data centers will consume around 1,000 terawatt-hours of electricity a year by 2030, citing large project pipelines in several regions. If grid upgrades are not made, power networks could become less reliable, and new projects may face longer waits to connect. The agency also projects that peak electricity demand will rise 40% to 50% by 2035, and grid spending is expected to rise 75% over the next decade. The IEA emphasized the importance of reliable power grids as countries seek to reduce their reliance on imported oil and gas through electrification.",
+          "title": "Diamond Amplifier Boosts Microwave Signals 1,000 Times for Quantum Computing",
+          "image": "https://images.pexels.com/photos/13866705/pexels-photo-13866705.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Okinawa, Japan",
+          "time": "Nov 24, 2026",
+          "content": "Researchers at the Okinawa Institute of Science and Technology have developed a new amplifier that can strengthen microwave signals more than 1,000 times while adding very little noise, using an unlikely material: diamond. This amplifier, known as a diamond maser, can handle stronger signals and operate in magnetic fields, potentially overcoming limitations that make today's quantum computers difficult to scale up. The findings were published in Nature Communications. This technology can be particularly useful for quantum computers that rely on spin-based qubits and has potential applications beyond quantum computing, such as spectroscopy and nuclear magnetic resonance.",
           "theme": "#EBF2FA",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/a-72-year-old-invention-could-be-the-key-to-unlocking-more-powerful-quantum-computers/"
         },
         {
           "id": "t-3",
@@ -139,14 +139,14 @@
       "cards": [
         {
           "id": "env-1",
-          "title": "Ministers Urge COP31 to Advance Fossil Fuel Transition",
-          "image": "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8Y2xpbWF0ZSUyMGNoYW5nZXxlbnwxfDB8fHwxNzk1MDYyNTcwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Antalya, Türkiye",
-          "time": "Nov 19, 2026",
-          "content": "In a significant move, over 10 ministers have urged the presidencies of the 31st Conference of the Parties (COP31) to advance roadmaps for transitioning away from fossil fuels. This follows announcements from Denmark, Luxembourg, Spain, and Portugal of new national plans. Meanwhile, developing nations are demanding greater financial support for a fair transition. The UN climate summit in Antalya, Türkiye, is seeing growing political support for turning last year's COP28 commitment into national action plans. However, negotiations at COP31 have exposed divisions over how to implement the commitment, including concerns over international roadmaps constraining national energy policies and financing for developing countries.",
+          "title": "Global Treaty Proposed to Protect Soil, Citing Risk to $44 Trillion Annual Output",
+          "image": "https://images.unsplash.com/photo-1510844355160-2fb07bf9af75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8c29pbCUyMGRlZ3JhZGF0aW9ufGVufDF8MHx8fDE3OTU0OTE2NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Global",
+          "time": "Nov 24, 2026",
+          "content": "Scientists argue that protecting soil requires countries to look beyond their borders, as the thin layer of soil covering Earth's surface is crucial for nourishing ecosystems, filtering water, and supporting life. Despite its importance, soil lacks a dedicated international treaty, with estimates suggesting up to 40 percent of the world's land is already degraded, putting $44 trillion in annual economic output at risk. A proposal for international protection is taking shape, with the University of Sydney's Aroura think tank outlining an eight-stage pathway towards a Global Convention to Secure Soil, targeting adoption in 2032. The authors argue that soil security cannot be achieved by countries acting independently, and that international cooperation is needed to match the scale of the problem, citing the example of ocean governance.",
           "theme": "#E7F4EF",
-          "source": "Down To Earth",
-          "url": "https://www.downtoearth.org.in/climate-change/cop31-ministers-urge-türkiye-and-australia-to-advance-fossil-fuel-transition-roadmaps"
+          "source": "SciTechDaily",
+          "url": "https://scitechdaily.com/earths-soil-is-worth-325-trillion-so-why-is-nobody-protecting-it/"
         },
         {
           "id": "env-2",
@@ -182,36 +182,36 @@
       "cards": [
         {
           "id": "ent-1",
-          "title": "BBC apologizes for lewd audio disruption on Strictly Come Dancing",
-          "image": "https://images.unsplash.com/photo-1779315223992-b00745059ba0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8U3RyaWN0bHklMjBDb21lJTIwRGFuY2luZ3xlbnwxfDB8fHwxNzk1Mzk5Njk4fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Blackpool, UK",
-          "time": "Nov 23, 2026",
-          "content": "The BBC apologized for any offense caused after a live broadcast of Strictly Come Dancing was disrupted by lewd audio sounds from the audience in Blackpool's Tower Ballroom. Judge Motsi Mabuse paused during the episode and joked about the noises, while presenter Emma Willis later apologized to viewers for any disruptions. The incident was captured by a social media content creator who has been involved in similar pranks before. The BBC is investigating how this happened and an edit will be made to the episode available on BBC iPlayer. Lancashire police are also assessing whether any criminal offenses took place and have seized a mobile phone as part of their inquiry.",
+          "title": "Rapper Nafe Smallz featured on Grand Theft Auto VI soundtrack",
+          "image": "https://images.pexels.com/photos/23174773/pexels-photo-23174773.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Luton, UK",
+          "time": "Nov 24, 2026",
+          "content": "Rapper Nafe Smallz from Luton is thrilled to have his voice featured on the soundtrack of Grand Theft Auto VI. He previously appeared in Grand Theft Auto V in 2019. Smallz has not yet heard his track,",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm8e0p5dexy6o"
+          "url": "https://www.bbc.com/news/articles/cmqx508r9p8vo"
         },
         {
           "id": "ent-2",
-          "title": "Twin brothers direct drama film 'Small Pond' in hometown Evesham",
-          "image": "https://images.pexels.com/photos/37078780/pexels-photo-37078780.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Evesham, UK",
-          "time": "Nov 23, 2026",
-          "content": "Twin brothers Benji and Thom Parry, former musicians, are writing and directing a feature film called Small Pond. The drama is set in their hometown of Evesham, where they grew up and developed a passion for filmmaking. The story follows two musicians who form an unlikely friendship, and it's a personal reflection of Benji's own experiences. As a child, Benji made films with his parents' camcorder and later spent years performing in bands, which ultimately led him to pursue filmmaking. The film explores the struggles of chasing creative ambitions in a small town, and the Parry brothers believe the experience will resonate with many who have grown up in similar places. The production is filming at local Evesham locations and collaborating with local businesses, embracing their roots and creating a film that is deeply connected to their hometown.",
+          "title": "Don Toliver Postpones London Shows After Manchester Concert Evacuated Over Unknown Substance",
+          "image": "https://images.unsplash.com/photo-1497911270199-1c552ee64aa4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MTF8fGNvbmNlcnQlMjBldmFjdWF0aW9ufGVufDF8MHx8fDE3OTU0OTI5Nzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Manchester, UK",
+          "time": "Nov 24, 2026",
+          "content": "US rapper Don Toliver has postponed two London shows after his Manchester concert was evacuated due to an unknown substance released into the crowd. The incident occurred on Sunday, leaving one person in hospital and 89 others showing symptoms believed to be linked to the exposure. Toliver's Wembley Arena show was rescheduled to December 14, while his O2 show was moved to December 15. The substance, which police initially believed to be tear gas, caused distressing scenes with people choking, screaming, and coughing up blood. The investigation into the incident is ongoing, with police testing items at the venue to identify the substance.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cmwy730rwp28o"
+          "url": "https://www.bbc.com/news/articles/ck3rgp4gv9pxo"
         },
         {
           "id": "ent-3",
-          "title": "Miley Cyrus Marries Maxx Morando in Palm Springs",
-          "image": "https://images.pexels.com/photos/31136217/pexels-photo-31136217.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Palm Springs, California",
-          "time": "Nov 23, 2026",
-          "content": "Miley Cyrus, 33, has married her partner of four years, Maxx Morando, 28, in a ceremony in Palm Springs, California. The couple, who met on a blind date, exchanged vows surrounded by white roses and a golden retriever, with Morando's proposal being kept secret until the last moment. Miley's family, including her mother and sister, attended the ceremony, while her father was present with his partner Liz Hurley. The singer wore a Saint Laurent designed dress, and the couple shared photos of their special day on Instagram, with friends and family congratulating them in the comments.",
+          "title": "Rugby's Christmas Gran Releases Charity Single for Crisis",
+          "image": "https://images.pexels.com/photos/6158672/pexels-photo-6158672.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "Rugby",
+          "time": "Nov 24, 2026",
+          "content": "MJ, a 70-year-old woman from Rugby, is releasing a high-energy Christmas charity single called 'Christmas Day Is Coming'. The song, which she records as 'Christmas Gran', is a techno track meant to be danced and raved to, rather than a traditional Christmas song. MJ aims to raise money for the national charity Crisis, which helps people experiencing homelessness. She hopes to raise funds to support those who are 'lonely, lost, and on the streets in the cold throughout the winter'. MJ has collaborated with producer Andy Kulesza, who also praises her positive attitude and sense of humor, despite facing significant loss in her life. In the future, MJ plans to release a rap song, possibly featuring Stormzy.",
           "theme": "#F3ECF7",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cq8e0p87l89lo"
+          "url": "https://www.bbc.com/news/articles/cq4gn7d44pe9o"
         }
       ]
     },
@@ -225,36 +225,36 @@
       "cards": [
         {
           "id": "eb-3",
-          "title": "US Restricts Chip Access Amid China Intelligence Allegations",
-          "image": "https://images.pexels.com/photos/10031556/pexels-photo-10031556.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-          "place": "Shenzhen, China",
-          "time": "Nov 23, 2026",
-          "content": "Chinese leader Xi Jinping hosted US President Donald Trump in Shenzhen, showcasing the country's technological advancements. However, the meeting came amid controversy surrounding allegations that Chinese intelligence had targeted the head of Nvidia, a US tech company. The US subsequently announced new licensing requirements to restrict Chinese access to advanced US chips. This development has reignited fears that America's best technology could fall into adversarial hands. The situation has complicated negotiations between the two nations, with China threatening to take countermeasures to safeguard its national sovereignty, security, and development interests. The fragile truce between the US and China has been put to the test, with both sides struggling to balance their economic interests and national security concerns.",
+          "title": "Capita shares drop 70% as CEO quits amid UK pension scheme issues",
+          "image": "https://images.pexels.com/photos/28586984/pexels-photo-28586984.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "UK",
+          "time": "Nov 24, 2026",
+          "content": "Shares in outsourcing company Capita have dropped by 70% after its CEO, Adolfo Hernandez, resigned amid ongoing issues with the UK's Civil Service pension scheme. The scheme, which manages pensions for 1.7 million public sector workers, has been plagued by delays in payments and controversy. Capita took over the scheme's administration in December, but has struggled to improve the situation. The company has revised its profit forecast downward, citing the pension scheme's problems and the loss of two major contracts. To address these issues, Capita plans to raise £190m through an equity offering. The saga has caused significant hardship for some pension scheme members, with some experiencing long delays in receiving payments, including bereavement payments. The Public Accounts Committee has been investigating the matter and is urging the new acting CEO, Pablo Andres, to take immediate action to resolve the issues.",
           "theme": "#F7ECEE",
-          "source": "CNN",
-          "url": "https://edition.cnn.com/2026/11/22/business/trump-xi-apec-tech-rivalry-intl-hnk"
+          "source": "BBC",
+          "url": "https://www.bbc.com/news/articles/c65y1qqw3kjxo"
         },
         {
           "id": "eb-2",
-          "title": "AI-Enhanced Images Raise Concerns of Misleading Homebuyers",
-          "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZSUyMGFnZW50fGVufDF8MHx8fDE3OTQ1NDM3Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "London, UK",
-          "time": "Nov 13, 2026",
-          "content": "Estate agents are increasingly using AI to enhance property images, making homes seem more appealing. However, this practice, dubbed 'housefishing', has raised concerns among experts and homebuyers that it can mislead and waste time. Olivia Nicole, 29, was shocked to find that a five-bedroom property she viewed had been significantly altered from its online listing, with smaller rooms, different decor, and structural features changed. The AI-enhanced images, used on Rightmove, Zoopla, and Winkworth, were not clearly labeled as such, leading Olivia to feel her time was wasted. Experts warn that estate agents must use AI responsibly, labeling enhanced images and avoiding structural changes that can mislead consumers. As the trend continues to grow, concerns are rising that AI-enhanced images may become more widespread, potentially leading to more instances of 'housefishing'.",
+          "title": "Nvidia CEO Jensen Huang Reinstated",
+          "image": "https://images.unsplash.com/photo-1506399558188-acca6f8cbf41?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8M3x8RGF0YSUyMGNlbnRlciUyMGFyY2hpdGVjdHVyZXxlbnwxfDB8fHwxNzk1NDkyMjYxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "place": "Washington, USA",
+          "time": "Nov 24, 2026",
+          "content": "Nvidia's CEO, Jensen Huang, has made a shocking return to the chipmaker after admitting to an affair with a woman accused of being a Chinese spy. The US government assured there were no national security concerns with his reinstatement, and President Trump revealed he had spoken directly to the Nvidia board. This U-turn comes after the board initially stated Huang would not be returning and the company was considering a shift in strategy. Huang's influence over Nvidia's pipeline of advanced microchips, crucial for the development of frontier artificial intelligence systems, has raised concerns about the future of the AI boom, the US tech stock market, and the global economy.",
           "theme": "#F7F1DE",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/cm62y0wrnz9zo"
+          "url": "https://www.bbc.com/news/articles/ckr5g8edl94eo"
         },
         {
           "id": "eb-1",
-          "title": "Nscale to Build UK's Largest AI Data Centre in Loughton, Despite Microsoft Pullout",
-          "image": "https://images.unsplash.com/photo-1715026323215-a2dbb71272f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMDc5OTE0fDB8MXxzZWFyY2h8MXx8TnNjYWxlJTIwZGF0YSUyMGNlbnRyZXxlbnwxfDB8fHwxNzkyNDA3ODM5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-          "place": "Loughton, Essex",
-          "time": "Oct 19, 2026",
-          "content": "Nscale, a tech company, has reaffirmed its plans to build the UK's largest AI data centre in Loughton, Essex, despite Microsoft's decision to pull out of the project. Microsoft had agreed to fund a supercomputer at the site, but its involvement has been terminated. Nscale is exploring alternative power sources and maintaining a strong relationship with Microsoft for other projects globally. The data centre was expected to receive its power supply by the end of this year, but this has been delayed until the 2030s due to a London-wide grid issue. The project is expected to create 250 permanent jobs when it opens.",
+          "title": "Compass Group shifts UK listing to US stock market",
+          "image": "https://images.pexels.com/photos/6289055/pexels-photo-6289055.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+          "place": "London, UK",
+          "time": "Nov 24, 2026",
+          "content": "Catering giant Compass Group is planning to shift its primary stock market listing from the UK to the US, a move that will impact the London Stock Exchange. According to a source close to the company, the official announcement is expected to be made in the company's full-year results on Tuesday. Compass Group operates several brands that provide food and drink services to various places, such as football stadiums, universities, and corporations. The company's decision to list its shares on the US market is reportedly due to the growing number of investors and increasing business it has across the Atlantic, with North America accounting for two-thirds of its business. The move would follow several other UK-based companies that have left the UK to list their shares in the US, including tech firm Arm Holdings and pharmaceutical giant AstraZeneca. The decision is expected to have no impact on the number of UK employees and Compass Group will likely retain a secondary listing in London.",
           "theme": "#EBF2FA",
           "source": "BBC",
-          "url": "https://www.bbc.com/news/articles/c9m26kl5y7epo"
+          "url": "https://www.bbc.com/news/articles/ckz74098jq5po"
         }
       ]
     }
