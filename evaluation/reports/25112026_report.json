@@ -1,0 +1,179 @@
+{
+    "date": "25112026",
+    "timestamp": "2026-11-25T11:06:50.715375",
+    "duration_seconds": 5825.22,
+    "stages_duration_seconds": {
+        "scrape": 890.06,
+        "guardrails": 1193.21,
+        "deduplication": 12.49,
+        "category_validation": 192.0,
+        "ranking": 668.42,
+        "processing": 2868.96,
+        "assembly": 0.02
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 0,
+            "Tech": 33,
+            "People": 63,
+            "Environment": 1,
+            "Economy": 10,
+            "Entertainment": 20
+        },
+        "total_scraped": 127,
+        "guardrail_passed": 127,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 11,
+        "final_categories": 4
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 5,
+        "articles_seen": 127,
+        "classified_safe": 92,
+        "classified_unsafe": 35,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 35,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 100,
+        "rejected_count": 16,
+        "rejected_articles": [
+            {
+                "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about a legal development involving a technology company, which falls under the 'people' category as it involves a criminal trial and company representatives, rather than being a technical or scientific development."
+            },
+            {
+                "title": "Saudi national charged in OpenAI bugging to be released on $1 million bond",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on a specific individual, Abdulrahman Alfozan, and his legal situation, which is more relevant to the 'people' category than 'science and technology' despite being related to OpenAI, a science and technology company."
+            },
+            {
+                "title": "Your brain is exhausted from too many unfinished tasks. Five simple steps can help",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses psychological research and theories, specifically the Zeigarnik effect, which is a psychological phenomenon that falls under the category of 'people' rather than 'science and technology', despite the latter being the current category."
+            },
+            {
+                "title": "The rising cost of putting food on the table in India",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses the rising cost of food in India, which is closely related to food security and availability, a key aspect of public health."
+            },
+            {
+                "title": "Land mine casualties soar in Syria, two years after war",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses the devastating impact of landmines on children's lives and the resulting casualties, which is a significant health concern."
+            },
+            {
+                "title": "The rising cost of putting food on the table in India",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article discusses food prices and their impact on household budgets, which is a health-related topic, as access to affordable and nutritious food is essential for public health."
+            },
+            {
+                "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article primarily focuses on household energy consumption and cost-saving strategies, which is a health-related topic."
+            },
+            {
+                "title": "Households braced for soaring energy bills with new price cap to be announced",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article is primarily about the impact of energy price increases on households, which is a health-related issue."
+            },
+            {
+                "title": "Third of young Brits have never had sex, but many are sexting and watching porn",
+                "from": "people",
+                "detected_category": "health",
+                "confidence": 0.9,
+                "reason": "The article's focus on sexual behavior, pornography use, and mental health suggests a strong connection to the 'health' category, even though it's primarily discussed in the context of 'people'."
+            },
+            {
+                "title": "Senegal reinstated as 2025 AFCON champion after winning appeal",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a sports-related event and its aftermath, which falls under the 'people' category."
+            },
+            {
+                "title": "Catherine's cancer documentary makes me feel less alone, says Strictly's Amy Dowden",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses a real-life celebrity's experience and struggles with cancer, which falls under the 'people' category."
+            },
+            {
+                "title": "First Children's Booker prize reveals shortlist - and its child judges",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article focuses on the Children's Booker Prize, its shortlist, and the child judges, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "From dancing on the Tube to being sectioned: Sabrina Bahsoon on her psychosis misdiagnosis",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses Sabrina Bahsoon's experiences with mental health, psychosis, and hospital treatment, making it more relevant to the 'health' category."
+            },
+            {
+                "title": "'New busking rules will drain city of its life'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article focuses on a social issue, the restrictions on busking, and its impact on the city's culture, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Music video highlights violence against women",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal experience of singer-songwriter Daisy Foster and her efforts to raise awareness about violence against women and girls, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "From head loppings to tasty toppings - how The Walking Dead ended up on pizza boxes",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the personal history and experiences of Charlie Adlard, the artist behind The Walking Dead comics, making it more relevant to the 'people' category than the current 'entertainment' category."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 354,
+        "total_failures": 0,
+        "total_time_seconds": 906.78,
+        "prompt_tokens": 447730,
+        "response_tokens": 8797,
+        "total_tokens": 456527,
+        "usage_responses": 354,
+        "prompt_eval_seconds": 94.61,
+        "generation_seconds": 193.889,
+        "load_seconds": 22.373,
+        "server_total_seconds": 342.861,
+        "avg_response_time": 2.56
+    }
+}

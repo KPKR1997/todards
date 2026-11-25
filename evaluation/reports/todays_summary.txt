@@ -1,17 +1,17 @@
-TODARDS LLM PIPELINE EVALUATION — 24112026
-Execution timestamp: 2026-11-24T09:38:01.332289
-Pipeline duration: 72.4 minutes
+TODARDS LLM PIPELINE EVALUATION — 25112026
+Execution timestamp: 2026-11-25T11:06:50.715375
+Pipeline duration: 97.1 minutes
 
 Here is the evaluation:
 
-**Overall Run Health:** The pipeline duration is 72.4 minutes, which is 7.7% shorter than the previous recorded run. This suggests a healthy run.
+**Overall Run Health:** The pipeline duration is 97.1 minutes, which is an increase of 34.0% compared to the previous recorded run. This suggests that the pipeline is running slower than usual. However, the semantic deduplication removed 0 duplicate articles, which is a healthy sign.
 
-**Scrape Volume:** The total scraped volume is 108, which is an increase from the previous recorded run. This may warrant investigation to understand the cause of the change.
+**Scrape Volume:** The total scraped articles increased from 108 to 127, indicating a moderate increase in scraped volume.
 
-**Semantic Deduplication:** The deduplication process removed 0 duplicate articles from the 108 scraped articles, which is a relatively low percentage (0.0%). This suggests that the deduplication process is not detecting many duplicates.
+**Semantic Deduplication:** The deduplication removed 0 duplicate articles, which is a healthy sign, indicating that the deduplication process is not removing any unnecessary articles.
 
 **Source/Category Ingestion Anomalies:** There are no anomalies reported in the evidence-based observations.
 
-**LLM Performance:** The LLM performance metrics are generally healthy, with no failures reported and an average response time of 0.98 seconds. The total time spent in LLM calls is 305.33 seconds, which is a relatively short duration.
+**LLM Performance:** The LLM performance metrics are healthy, with 0 total failures, 2.56 average response time, and 94.61 prompt evaluation seconds.
 
-**Next Practical Check:** Investigate the cause of the increase in scraped article volume and verify that it is within expected parameters.
+**Next Practical Check:** Investigate the cause of the pipeline duration increase to ensure it is not a sign of a more serious issue. Additionally, review the scraped article volume and category reassignments to ensure they are within expected ranges.
