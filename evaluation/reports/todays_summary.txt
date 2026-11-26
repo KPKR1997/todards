@@ -1,17 +1,17 @@
-TODARDS LLM PIPELINE EVALUATION — 25112026
-Execution timestamp: 2026-11-25T11:06:50.715375
-Pipeline duration: 97.1 minutes
+TODARDS LLM PIPELINE EVALUATION — 26112026
+Execution timestamp: 2026-11-26T11:23:25.726855
+Pipeline duration: 105.6 minutes
 
 Here is the evaluation:
 
-**Overall Run Health:** The pipeline duration is 97.1 minutes, which is an increase of 34.0% compared to the previous recorded run. This suggests that the pipeline is running slower than usual. However, the semantic deduplication removed 0 duplicate articles, which is a healthy sign.
+**Overall Run Health:** The pipeline run appears healthy, with no major issues reported. The duration is slightly longer than the previous recorded run (+8.7%), but this change is not alarming.
 
-**Scrape Volume:** The total scraped articles increased from 108 to 127, indicating a moderate increase in scraped volume.
+**Scrape Volume:** The scraped article volume has decreased by 13.7% compared to the previous recorded run, from 127 to 110. This change is not significant enough to raise concerns.
 
-**Semantic Deduplication:** The deduplication removed 0 duplicate articles, which is a healthy sign, indicating that the deduplication process is not removing any unnecessary articles.
+**Semantic Deduplication:** The deduplication process removed 0 duplicate articles from the 110 scraped articles, which is a relatively low percentage (0.0%) of the scraped volume. This suggests that the deduplication process is working effectively.
 
-**Source/Category Ingestion Anomalies:** There are no anomalies reported in the evidence-based observations.
+**Source/Category Ingestion Anomalies:** There are no reported ingestion anomalies or rejections.
 
-**LLM Performance:** The LLM performance metrics are healthy, with 0 total failures, 2.56 average response time, and 94.61 prompt evaluation seconds.
+**LLM Performance:** The LLM performance metrics are strong, with no failures reported and an average response time of 1.0 seconds. The total time spent in LLM calls is 327.91 seconds, which is a relatively short duration.
 
-**Next Practical Check:** Investigate the cause of the pipeline duration increase to ensure it is not a sign of a more serious issue. Additionally, review the scraped article volume and category reassignments to ensure they are within expected ranges.
+**Next Practical Check:** Review the category validation status and rejected count to ensure that the pipeline is correctly categorizing and rejecting articles. Additionally, monitor the scraped article volume and deduplication process to ensure that they remain stable and effective.

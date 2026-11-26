@@ -1,0 +1,277 @@
+{
+    "date": "26112026",
+    "timestamp": "2026-11-26T11:23:25.726855",
+    "duration_seconds": 6334.37,
+    "stages_duration_seconds": {
+        "scrape": 1429.26,
+        "guardrails": 124.97,
+        "deduplication": 14.29,
+        "category_validation": 205.11,
+        "ranking": 391.14,
+        "processing": 4169.49,
+        "assembly": 0.06
+    },
+    "volume": {
+        "scraped_by_category": {
+            "Health": 0,
+            "Tech": 17,
+            "People": 48,
+            "Environment": 5,
+            "Economy": 9,
+            "Entertainment": 31
+        },
+        "total_scraped": 110,
+        "guardrail_passed": 110,
+        "guardrail_rejected": 0,
+        "dedup_removed": 0,
+        "category_reassignments": 0,
+        "final_articles": 14,
+        "final_categories": 5
+    },
+    "guardrail_rejections": [],
+    "article_safety": {
+        "files_seen": 5,
+        "articles_seen": 110,
+        "classified_safe": 65,
+        "classified_unsafe": 45,
+        "unsafe_removed": 0,
+        "unsafe_would_remove": 45,
+        "unclassified": 0,
+        "unclassified_retained": 0,
+        "model_errors": 0,
+        "file_errors": 0,
+        "dry_run": true
+    },
+    "deduplication": {},
+    "category_validation": {
+        "status": "completed",
+        "total_checked": 109,
+        "rejected_count": 30,
+        "rejected_articles": [
+            {
+                "title": "‘Your booth is waiting’: Denny’s welcomes Jensen Huang back as Nvidia CEO",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Jensen Huang's personal and professional story, which is more relevant to the 'people' category than 'science and technology', although it does mention Nvidia, a company in the 'science and technology' category."
+            },
+            {
+                "title": "South Korea's Kospi leads gains as tech rebound lifts Asia markets",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.9,
+                "reason": "The article discusses the impact of tariffs on markets and inflation data, which is a key aspect of the economy and business category, rather than the original category of 'science and technology' which primarily focuses on scientific research and technological advancements."
+            },
+            {
+                "title": "Vance says he was assured Jensen Huang was not under DOJ investigation",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the investigation into Jensen Huang's dealings with Megaspeed and Nvidia's compliance with American export controls, which is more relevant to the 'people' category than 'science and technology'."
+            },
+            {
+                "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a philanthropic effort by Elon Musk and SpaceX, which is more relevant to the 'people' category than the 'science and technology' category, despite the involvement of a technology company."
+            },
+            {
+                "title": "Tech stocks sink but close well off the lows, Anthropic struggles to rebound above IPO price",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the performance of tech stocks, Nvidia, and AI-related companies, which is more relevant to the economy and business category than the science and technology category."
+            },
+            {
+                "title": "5 Things to Know",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on stock market trends, company updates, and economic data, with minimal connection to science and technology, making 'economy and business' a more relevant category."
+            },
+            {
+                "title": "Trump’s meddling in Huang scandal reignites voter angst over tech’s outsized political power",
+                "from": "science and technology",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses the impact of technology and politics on society, rather than the science and technology itself."
+            },
+            {
+                "title": "AI debt worries grow as Nvidia rebound masks Big Tech spending squeeze",
+                "from": "science and technology",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial and economic aspects of AI development, specifically the debt markets and corporate spending, which are more relevant to the 'economy and business' category than 'science and technology'."
+            },
+            {
+                "title": "US approves SpaceX plan to send a million data satellites to space",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article discusses SpaceX's plan to launch a million data satellites to space to support America's 'super intelligence economy', which falls under the category of economy and business."
+            },
+            {
+                "title": "US stocks fall further as fears over AI intensify",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the market value and stock prices of technology companies, including Nvidia and Amazon, in response to AI-related concerns, making it more relevant to the 'economy and business' category."
+            },
+            {
+                "title": "California warns of flooding as King Tides peak over Thanksgiving",
+                "from": "people",
+                "detected_category": "earth and environment",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the potential flooding and coastal impacts due to king tides and storms, which is more relevant to the earth and environment category than the people category."
+            },
+            {
+                "title": "US approves SpaceX plan to send a million data satellites to space",
+                "from": "people",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses SpaceX's plan to launch a million data satellites into space, which is a significant technological development."
+            },
+            {
+                "title": "US stocks fall further as fears over AI intensify",
+                "from": "people",
+                "detected_category": "economy and business",
+                "confidence": 0.8,
+                "reason": "The article primarily discusses the financial and economic impact of AI on the stock market and tech companies, making 'economy and business' the most relevant category."
+            },
+            {
+                "title": "US approves SpaceX plan to send a million data satellites to space",
+                "from": "economy and business",
+                "detected_category": "science and technology",
+                "confidence": 0.9,
+                "reason": "The article primarily discusses the technological development of SpaceX's plan to send a million data satellites to space, which is a significant scientific and technological advancement."
+            },
+            {
+                "title": "Andy Taylor, original guitarist for Duran Duran, dies at 65",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the life, career, and passing of Andy Taylor, an original member of the band Duran Duran, which makes it more relevant to the 'people' category than 'entertainment', although it does touch on his music career."
+            },
+            {
+                "title": "The Steelers are benching Aaron Rodgers, with Mason Rudolph to start at QB vs Broncos",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Aaron Rodgers, a famous NFL player, and his professional decision to be benched, which is a significant human-interest story that falls under the 'people' category."
+            },
+            {
+                "title": "BBC launches partnership with Met Office for weather coverage",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article discusses the partnership between the BBC and the Met Office, which is a human-interest story and falls under the 'people' category."
+            },
+            {
+                "title": "BBC launches partnership with Met Office for weather coverage",
+                "from": "entertainment",
+                "detected_category": "health",
+                "confidence": 0.8,
+                "reason": "The article discusses the BBC's partnership with the Met Office for weather coverage, which has implications for public health and climate-related issues, making it more relevant to the 'health' category than 'entertainment'."
+            },
+            {
+                "title": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on the life and experiences of Andy Taylor, the guitarist of Duran Duran, which is a people-related story."
+            },
+            {
+                "title": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on Andy Taylor's life and career, including his childhood, family, and personal struggles, which makes it most relevant to the 'people' category."
+            },
+            {
+                "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the life and career of Andy Taylor, a member of the pop group Duran Duran, which is a significant human-interest story."
+            },
+            {
+                "title": "BBC appeals against decision to allow Trump's $10bn lawsuit to go ahead",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on Donald Trump, a public figure, and his lawsuit against the BBC, which is a news development that falls under the 'people' category."
+            },
+            {
+                "title": "BBC appeals against decision to allow Trump's $10bn lawsuit to go ahead",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article is primarily about Donald Trump, a well-known public figure, and his legal battle with the BBC, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "UK Town of Culture bid withdrawn in Strabane after it causes 'great division'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article is primarily about a council decision and community concerns, which falls under the 'people' category."
+            },
+            {
+                "title": "Hundreds complain about I'm A Celebrity after Mariella Frostrup called AJ Odudu 'aggressive'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on a social issue and a celebrity's behavior, which is more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "Hundreds complain about I'm A Celebrity after Mariella Frostrup called AJ Odudu 'aggressive'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily discusses a controversy and drama between two celebrities, focusing on their personal interactions and relationships, making it more relevant to the 'people' category."
+            },
+            {
+                "title": "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 1.0,
+                "reason": "The article primarily focuses on the life and career of Pete Edochie, a veteran Nigerian actor, which is a people-focused story."
+            },
+            {
+                "title": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.9,
+                "reason": "The article is primarily a biographical sketch of Andy Taylor, a musician, and focuses on his personal life, experiences, and struggles, which are more relevant to the 'people' category than 'entertainment'."
+            },
+            {
+                "title": "BBC appeals against decision to allow Trump's $10bn lawsuit to go ahead",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article primarily focuses on a news development related to politics and government, specifically President Trump's lawsuit against the BBC, which falls under the 'people' category."
+            },
+            {
+                "title": "Hundreds complain about I'm A Celebrity after Mariella Frostrup called AJ Odudu 'aggressive'",
+                "from": "entertainment",
+                "detected_category": "people",
+                "confidence": 0.8,
+                "reason": "The article discusses a celebrity feud and public reaction, which is a people-focused topic."
+            }
+        ]
+    },
+    "llm_performance": {
+        "total_calls": 329,
+        "total_failures": 0,
+        "total_time_seconds": 327.91,
+        "prompt_tokens": 412542,
+        "response_tokens": 8835,
+        "total_tokens": 421377,
+        "usage_responses": 329,
+        "prompt_eval_seconds": 85.057,
+        "generation_seconds": 199.459,
+        "load_seconds": 19.853,
+        "server_total_seconds": 323.802,
+        "avg_response_time": 1.0
+    }
+}
